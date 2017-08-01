@@ -27,7 +27,7 @@
         remaining-card-keys (remove-common-cards (keys card) common-card-keys)
         common-card-output (card-string card common-card-keys)
         remaining-card-output (card-string card remaining-card-keys)]
-    (println (-> (conj remaining-card-output common-card-output)
+    (pp/pprint (-> (conj remaining-card-output common-card-output)
                  flatten))))
 
 (defn draw-cards
