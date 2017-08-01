@@ -1,6 +1,7 @@
 (ns cards-in-clojure.play-six-winters
   (:require [clojure.pprint :as pp]
-            [clojure.edn :as edn]))
+            [clojure.edn :as edn]
+            [clojure.java.io :as io]))
 
 
 (defn remove-common-cards
@@ -42,7 +43,10 @@
 ; Mimic what a player would do when building the deck - step by step
 
 ; Get all cards
-(def cards (edn/read-string (slurp "sightrock-deck.edn")))
+(def cards (-> (io/resource "sightrock-deck.edn")
+               slurp
+               edn/read-string))
+
 (println "The sightrock deck has" (count cards) "cards")
 
 ; Get position cards
