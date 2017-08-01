@@ -1,0 +1,16 @@
+# Playtest Notes
+These notes capture thoughts from playtesting sessions of *Six Winters*. What worked, what didn't, thoughts on new directions, and possible action items. Concrete actions will be created as github issues.
+## Session 7/31/2017 - Sightrock Exploration Mission
+The first playtest went about as expected. Lots to think about! Used the clojure Sightrock dock as well as an initial group of three heroes.
+### What Worked
+The core "push your luck" idea taken from *Incan Gold* worked fairly well. That's a tried and true game mechanic that creates tension during card draws.
+### What to Watch
+So much! Using conditions in isolation is too brittle. If heroes take two of the same condition, they are knocked out, which is too difficult.
+Also, placing a mission card in the bottom third of the deck creates tension with the danger cards. You're trying to avoid danger to some extent - so you shouldn't be incentivized to dig into the bottom of the deck.
+### Action Items
+Could make the mission deck separate, and ordered 1-X. Add in "mission event" cards to the mission deck. If one is drawn, you pick the next mission card. That would make it possible to see all of those cards without digging to the bottom of the deck. Will put a pin in that. Can also make sure that the bottom most mission card is rather dire. Will probably go the latter route for now.
+Also need to tweak conditions. Might have a physical "track" of escalating conditions along with a separate grab bag of various conditions. Although, the grab bag is going to have the same problem in diplomacy missions. In a nutshell, the "take two and you're out" method of handling conditions just means it's too easy for heroes to get knocked out.
+One option is to allow heroes to take another condition of any type if the one they have is already tagged. That's almost the other problem - they would never get knocked out. Or could have "physical" and "mental" conditions. Such that if a character takes one mental condition that's already tagged, they could tag a different one. If none are available, they're knocked out.
+Ultimately "tracks" create tension by functioning as a timer. Conditions, being binary, don't really create tension as well. The time frame is too short. Might need a more unifying way to approach this, though. A track that works for a physical grind like exploration isn't going to be appropriate for diplomacy or infiltration or military action.
+Maybe one solution is to group them into two "groups" of physical / mental, and allow players to tag a different condition from the same group if one is filled. That will be broadly applicable to any mission. Finally, could have an empty section on each sheet where arbitraty condtions can be written in, like "unloved" or "cautious". Probably shouldn't call those conditions. Features? Aspects? Traits? Whatever they are. Those can't go away. They stick with a character throughout the campaign and give them a little more depth.
+Sounds workable for now! Will keep mission events the same way, but make sure they increase in not-good-ness. And will group conditions into two groups, allowing for slots for arbitrary traits.
