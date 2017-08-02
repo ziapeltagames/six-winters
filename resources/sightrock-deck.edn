@@ -214,7 +214,7 @@
  {:card-type :development,
   :title     "Guards",
   :text      "Cancel One Skirmish Threat"}
- {:card-type :threat,
+ {:card-type :development,
   :title     "Maps",
   :text      "Discard one Lost Card"}]
 
