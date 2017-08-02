@@ -7,9 +7,13 @@
 My musings on rules, playtests, and various textual artifacts. My goal is to keep all design artifacts as basic ASCII text for as long as possible. I've been burned by trying to make things look nice when they're changing too quickly. At some point, I'll have to create some usable cards, characters, maps, etc, but for as long as possible I'm hoping to have a really quick an dirty process.
 
 [Rules](doc/RULES.md)
+
 [Heroes](doc/HEROES.md)
+
 [Stronghold](doc/STRONGHOLD.md)
+
 [Open Design Questions](doc/QUESTIONS.md)
+
 [Playtest Notes](doc/PLAYTEST.md)
 
 ## src
