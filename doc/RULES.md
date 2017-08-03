@@ -11,6 +11,30 @@ Clearly the rules are in a state of constant flux. There are some core themes an
 
 ## General Overview
 
+The game follows the broad arc of the WotA rpg. Each season, different heroes are taken on various missions to explore, gather resources, create diplomatic relationships, go on quests, and infiltrate the Empire. A mission consists of drawing cards of various types from a deck.
+
+# Cards
+
+There are few different types of cards.
+
+## General Mission Cards
+
+There are broadly applicable cards for exploration, diplomacy, infiltration, and quests. Some number of these cards are placed in the deck.
+
+## Specific Mission Cards
+
+Each mission also has specific cards.
+
+## Danger
+
+TBD
+
+## Threats
+
+TBD
+
+## Developments
+
 TBD
 
 ## Deck Construction
