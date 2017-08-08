@@ -1,10 +1,10 @@
 # six-winters
 
-*Six Winters* is the current working title for the *Wrath of the Autarch* boardgame. It currently combines legacy kingdom building elements with a push your luck card driven quest system.
+*Six Winters* is the current working title for the *Wrath of the Autarch* boardgame. It currently combines legacy kingdom building elements with a push your luck card driven quest system. Think *Incan Gold* meets *Tales of the Arabian Nights* meets *Kingsburg*.
 
 ## doc
 
-My musings on rules, playtests, and various textual artifacts. My goal is to keep all design artifacts as basic ASCII text for as long as possible. I've been burned by trying to make things look nice when they're changing too quickly. At some point, I'll have to create some usable cards, characters, maps, etc, but for as long as possible I'm hoping to have a really quick an dirty process.
+Musings on rules, playtests, background setting, and various textual artifacts. My goal is to keep all design artifacts as markdown text for as long as possible. I've been burned by trying to make things look nice when they're changing too quickly. At some point, I'll have to create some usable cards, characters, maps, etc, but for as long as possible I'm hoping to have a really quick and dirty process.
 
 [Rules](doc/RULES.md)
 
