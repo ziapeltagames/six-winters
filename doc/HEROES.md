@@ -2,7 +2,23 @@
 
 There are currently six main heroes in the boardgame. Heroes have three main components: skills, conditions, and traits.
 
+## Conditions
+
+There are two different escalating tracks of conditions: thews and psyche. These are organized from least (weary, embarassed) to most (mauled, shattered) severe.
+
+If a character gets a condition they already have, they check the next one up the ladder of severity. For example, taking the condition shaken while already shaken means the character checks shattered. If a character takes mauled or shattered twice, they are knocked out of the current mission.
+
+Each season, a character may remove one condition, starting with the lowest condition on the ladder.
+
+## Traits
+
+Traits are tags for each hero discovered over the course of the campaign. When a hero gets a trait, like *Dishonoered*, it typically sticks with them for the entire campaign, and is referenced on certain cards.
+
 # Arilde, Hawkleader of the Ghost Legion
+
+## Background
+
+## Friends and Enemies
 
 ## Skills
 
@@ -31,11 +47,11 @@ There are currently six main heroes in the boardgame. Heroes have three main com
 - Shaken
 - Shattered
 
-## Traits
+# Keel, Hobilar of the Amber Hand
 
-These are discovered as the campaign progresses.
+## Background
 
-# Keel, Forsaken Archer
+## Friends and Enemies
 
 ## Skills
 
@@ -64,11 +80,11 @@ These are discovered as the campaign progresses.
 - Shaken
 - Shattered
 
-## Traits
-
-These are discovered as the campaign progresses.
-
 # Yasmina, Keeper of Natural Lore
+
+## Background
+
+## Friends and Enemies
 
 ## Skills
 
@@ -97,11 +113,11 @@ These are discovered as the campaign progresses.
 - Shaken
 - Shattered
 
-## Traits
-
-These are discovered as the campaign progresses.
-
 # Oniri, The Last Necromancer
+
+## Background
+
+## Friends and Enemies
 
 ## Skills
 
@@ -130,11 +146,11 @@ These are discovered as the campaign progresses.
 - Shaken
 - Shattered
 
-## Traits
+# Thea, Speaker for the East
 
-These are discovered as the campaign progresses.
+## Background
 
-# Hella, Speaker for the North
+## Friends and Enemies
 
 ## Skills
 
@@ -163,11 +179,11 @@ These are discovered as the campaign progresses.
 - Shaken
 - Shattered
 
-## Traits
-
-These are discovered as the campaign progresses.
-
 # Fuscus, Master of Coin
+
+## Background
+
+## Friends and Enemies
 
 ## Skills
 
@@ -195,10 +211,6 @@ These are discovered as the campaign progresses.
 - Angry
 - Shaken
 - Shattered
-
-## Traits
-
-These are discovered as the campaign progresses.
 
 # Red Bank Characters
 
@@ -263,3 +275,7 @@ There are a number of potential heroes which could make it into the boardgame. M
 - Plucky Pickpocket
 - Perfection Takes Time
 - Daughter of the Guild of Secrets
+
+## Thoughts
+
+Lucia, Viator, and Cyra would make for strong initial characters.

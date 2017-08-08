@@ -102,7 +102,7 @@
   :failure      "Character Leaves"}
  {:card-type         :alliance,
   :region            :general,
-  :prerequisite      :hella,
+  :prerequisite      :thea,
   :title             "TBD",
   :text              "TBD",
   :skill             :diplomacy,
@@ -112,7 +112,7 @@
   :failure-condition :weary}
  {:card-type         :alliance,
   :region            :general,
-  :prerequisite      :yasmina,
+  :prerequisite      :fuscus-thea,
   :title             "TBD",
   :text              "TBD",
   :skill             :diplomacy,

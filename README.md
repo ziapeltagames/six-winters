@@ -12,9 +12,17 @@ My musings on rules, playtests, and various textual artifacts. My goal is to kee
 
 [Stronghold](doc/STRONGHOLD.md)
 
+[Components](doc/COMPONENTS.md)
+
+[Seting](doc/SETTING.md)
+
 [Open Design Questions](doc/QUESTIONS.md)
 
-[Playtest Notes](doc/PLAYTEST.md)
+### Playtests
+
+[Sightrock Mission 08_06_17](doc/playtests/170608_SIGHTROCK_ONE.md)
+
+TBD: Gravewood Mission 08_10_17
 
 ## src
 
