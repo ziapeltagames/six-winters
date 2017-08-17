@@ -1,21 +1,17 @@
-# Playtest Notes
-
-These notes capture thoughts from playtesting sessions of *Six Winters*. What worked, what didn't, thoughts on new directions, and possible action items. Concrete actions will be created as github issues.
-
-## Session 7/31/2017 - Sightrock Exploration Mission
+# Session 7/31/2017 - Sightrock Exploration Mission
 
 The first playtest went about as expected. Lots to think about! Used the clojure Sightrock dock as well as an initial group of three heroes.
 
-### What Worked
+## What Worked
 
 The core "push your luck" idea taken from *Incan Gold* worked fairly well. That's a tried and true game mechanic that creates tension during card draws.
 
-### What to Watch
+## What to Watch
 
 So much! Using conditions in isolation is too brittle. If heroes take two of the same condition, they are knocked out, which is too difficult.
 Also, placing a mission card in the bottom third of the deck creates tension with the danger cards. You're trying to avoid danger to some extent - so you shouldn't be incentivized to dig into the bottom of the deck.
 
-### Design Notes
+## Design Notes
 
 Could make the mission deck separate, and ordered 1-X. Add in "mission event" cards to the mission deck. If one is drawn, you pick the next mission card. That would make it possible to see all of those cards without digging to the bottom of the deck. Will put a pin in that. Can also make sure that the bottom most mission card is rather dire. Will probably go the latter route for now.
 
@@ -29,10 +25,10 @@ Maybe one solution is to group them into two "groups" of physical / mental, and 
 
 Also wondering if basic skill checks are interesting enough on their own? Not sure if some sort of deeper mini-game is necessary?
 
-### Action Items
+## Action Items
 
 Sounds workable for now! Will keep mission events the same way, but make sure they increase in not-good-ness. Will group conditions into two groups, allowing for slots for arbitrary traits.
 
-### Next Session
+## Next Session
 
 Would like to come up with an alliance mission. Maybe to somewhere like Gravewood? Diplomacy, Survival, Command, Thievery would be good skills there. Could the same technique be used that's used for Exploration? What would you get instead of resources? Favors? Disposition? Something like that. The danger, then, would be overstaying your welcome. Fundamentally, though, it's the same basic game.
