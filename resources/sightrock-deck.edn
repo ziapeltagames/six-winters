@@ -72,7 +72,7 @@
   :roll-type         :highest,
   :difficulty        2,
   :success           "+1 Stability",
-  :failure-condition :dishonored}
+  :failure-condition :angry}
  {:card-type         :exploration,
   :region            :general,
   :title             "Imperial Plans",
@@ -81,13 +81,13 @@
   :roll-type         :lowest,
   :difficulty        1,
   :success           "Burn One Threat",
-  :failure-condition :hopeless}
+  :failure-condition :shaken}
  {:card-type        :exploration,
   :region           :general,
   :prerequisite     :weary,
   :title            "Hopeless Dawn",
   :text             "TBD",
-  :result-condition :hopeless}
+  :result-condition :shaken}
  {:card-type    :exploration,
   :region       :general,
   :prerequisite :hopeless,
@@ -96,7 +96,7 @@
   :skill        :command,
   :roll-type    :self,
   :difficulty   2,
-  :failure      "Character Leaves"}
+  :failure      "Character Returns to Red Bank"}
  {:card-type         :exploration,
   :region            :general,
   :prerequisite      :arilde,
@@ -127,7 +127,7 @@
   :difficulty        2,
   :success           "+1 Fortune",
   :failure           "+1 Command",
-  :failure-condition :paranoid}
+  :failure-condition :shaken}
  {:card-type         :exploration,
   :region            :sightrock,
   :title             "Mob of Angry Settlers",
@@ -137,7 +137,7 @@
   :roll-type         :lowest,
   :difficulty        1,
   :success           "+1 Combat",
-  :success-condition :dishonored,
+  :success-condition :angry,
   :failure-condition :wounded}
  {:card-type  :exploration,
   :region     :sightrock,
@@ -168,8 +168,8 @@
   :roll-type         :highest,
   :difficulty        2,
   :success           "+1 Mana",
-  :success-condition :enchanted,
-  :failure-condition :dazzled}
+  :success-condition :weary,
+  :failure-tag :cursed}
  {:card-type         :exploration,
   :region            :sightrock,
   :title             "Fight the Formless Spawn",
@@ -178,7 +178,7 @@
   :skill             :combat,
   :roll-type         :group,
   :difficulty        5,
-  :success           "+1 Stability",
+  :success-condition "+1 Stability"
   :failure-condition :wounded}
  {:card-type  :threat,
   :faction    :autarch,
