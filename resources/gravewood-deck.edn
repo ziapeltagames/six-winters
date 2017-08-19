@@ -141,7 +141,7 @@
   :roll-type         :highest,
   :difficulty        3,
   :success           "+1 Thievery",
-  :on-success:       :burn,
+  :on-success        :burn,
   :failure-condition :wounded}
  {:card-type  :alliance,
   :region     :gravewood,
