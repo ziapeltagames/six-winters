@@ -1,0 +1,16 @@
+[{:card-type :development,
+  :title     "Guards",
+  :food      2,
+  :timber    1,
+  :ore       0,
+  :mana      0,
+  :luxury    1,
+  :text      "Cancel One Skirmish Threat"}
+ {:card-type :development,
+  :title     "Maps",
+  :food      2,
+  :timber    1,
+  :ore       0,
+  :mana      0,
+  :luxury    1,
+  :text      "Discard one Lost Card"}]

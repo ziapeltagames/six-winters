@@ -217,11 +217,3 @@
  {:card-type :development,
   :title     "Maps",
   :text      "Discard one Lost Card"}]
-
-;{:sightrock-deck
-; :threats
-; [],
-; :developments
-; [],
-; :timer
-; []}
