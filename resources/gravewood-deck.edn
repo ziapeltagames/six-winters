@@ -205,7 +205,4 @@
   :text      "Talks are stalling and your hosts grow impatient! If you gain three frustration cards, you sent home! Discard all favors."}
  {:card-type :development,
   :title     "Diplomats",
-  :text      "Cancel One Diplomacy Threat"}
- {:card-type :development,
-  :title     "Maps",
-  :text      "Discard one Lost Card"}]
+  :text      "Cancel One Diplomacy Threat"}]
