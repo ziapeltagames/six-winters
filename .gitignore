@@ -3,3 +3,5 @@
 .idea/
 lib/
 target/
+src/cards_in_clojure/*.csv
+src/cards_in_clojure/.*.csv*
