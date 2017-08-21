@@ -4,9 +4,14 @@
             [clojure.java.io :as io]
             [clojure.pprint :as pp]))
 
+; General mission card headers
 (def csv-headers
   [:title :prerequisite :roll-type :skill :difficulty :success :success-condition
    :failure :failure-condition :result-condition :failure-tag])
+
+; Development card headers
+(def development-headers
+  [:category :title :food :timber :ore :mana :luxury :text])
 
 (defn get-data-for-headers
   "Get values from card-data for keys corresponding to headers.
@@ -47,4 +52,16 @@
 (with-open [writer (io/writer "gravewood-mission-cards.csv")]
   (csv/write-csv writer
                  (concat [(map name csv-headers)] gravewood-csv-data)))
+
+; Get all development cards
+(def development-cards (-> (io/resource "developments.edn")
+                         slurp
+                         edn/read-string))
+
+(def development-csv-data
+  (map #(get-data-for-headers development-headers %) development-cards))
+
+(with-open [writer (io/writer "developments.csv")]
+  (csv/write-csv writer
+                 (concat [(map name development-headers)] development-csv-data)))
 

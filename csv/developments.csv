@@ -1,0 +1,13 @@
+category,title,food,timber,ore,mana,luxury,text
+forge,Arcane Whetstone,0,0,9,3,0,+1 dice on one combat test.
+forge,Guards,3,0,5,3,0,Cancel One Skirmish Threat
+questing,Iron Rations,4,1,0,0,0,Remove weary condition from one hero.
+questing,Maps,2,4,0,0,1,Discard one Lost Card
+military,Barracks,6,4,0,0,1,Cancel one military threat.
+military,Stables,7,4,0,0,2,Add +1 to Red Bank military.
+sorcery,Mana Well,3,0,0,4,2,Add +1 dice to mana pool.
+sorcery,Arcane Library,3,0,0,5,1,+1 dice to one Lore test.
+diplomacy,Trade Route,0,5,0,0,2,Trade at improved rate with one faction.
+diplomacy,Diplomats,2,1,0,0,2,Cancel one diplomacy threat.
+infiltration,Thieves Tools,2,1,0,0,1,Roll one more dice on any Thievery tests.
+infiltration,Spies,2,1,0,0,1,Cancel one infiltration threat.
