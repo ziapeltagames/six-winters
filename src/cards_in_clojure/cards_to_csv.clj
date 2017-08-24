@@ -6,7 +6,7 @@
 
 ; General mission card headers
 (def csv-headers
-  [:title :prerequisite :roll-type :skill :difficulty :success :success-condition
+  [:title :prerequisite :roll-type :skill :difficulty :success :on-success :success-condition
    :failure :failure-condition :result-condition :failure-tag :card-type :region])
 
 ; Development card headers

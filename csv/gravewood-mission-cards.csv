@@ -1,19 +1,19 @@
-title,prerequisite,roll-type,skill,difficulty,success,success-condition,failure,failure-condition,result-condition,failure-tag,card-type,region
-A Social Dinner,,lowest,diplomacy,1,,,,embarassed,,,alliance,general
-Playing Host,,highest,diplomacy,2,,,+1 Diplomacy,angry,,,alliance,general
-The Silk Trade,,group,diplomacy,4,+1 Luxury,,,,,,alliance,general
-Make an Impression,,lowest,command,2,,,,weary,,,alliance,general
-War Council,,highest,command,2,,,+1 Command,angry,,,alliance,general
-Sharing Imperial Knowledge,,group,command,4,+2 Fortune,,,,,,alliance,general
-Mental Health,,highest,lore,2,Clear Psyche Condition,,,,,,alliance,general
-Scouting Report,,lowest,tactics,1,,,,shaken,,,alliance,general
-Empire Ascendant,shaken,lowest,command,2,,,Return to Red Bank,,,,alliance,general
-Social Faux Pas,angry,lowest,diplomacy,2,,,-1 Influence,,,,alliance,general
-Trade Meeting,thea,self,diplomacy,3,+1 Influence,,,embarassed,,,alliance,general
-Fiscal Squabbles,fuscus-thea,,,,,,,,angry,,alliance,general
-War Council with Lev and Sdila,,group,tactics,2,+1 Spies,,,,,,alliance,gravewood
-Samo's Humiliations,,lowest,diplomacy,1,,,,angry,,,alliance,gravewood
-Setting Traps with Radia,,highest,thievery,3,+1 Thievery,,,wounded,,,alliance,gravewood
-TBD,,highest,diplomacy,3,+1 Diplomacy,,,,,,alliance,gravewood
-Help Galya Create an Egalitarian Society,,highest,diplomacy,2,+1 Diplomacy,,,angry,,,alliance,gravewood
-Quell the Rising Mob,,group,diplomacy,4,,,,shaken,,,alliance,gravewood
+title,prerequisite,roll-type,skill,difficulty,success,on-success,success-condition,failure,failure-condition,result-condition,failure-tag,card-type,region
+A Social Dinner,,lowest,diplomacy,1,,,,,embarassed,,,alliance,general
+Playing Host,,highest,diplomacy,2,,,,+1 Diplomacy,angry,,,alliance,general
+The Silk Trade,,group,diplomacy,4,+1 Luxury,,,,,,,alliance,general
+Make an Impression,,lowest,command,2,,,,,weary,,,alliance,general
+War Council,,highest,command,2,,,,+1 Command,angry,,,alliance,general
+Sharing Imperial Knowledge,,group,command,4,+2 Fortune,,,,,,,alliance,general
+Mental Health,,highest,lore,2,Clear Psyche Condition,,,,,,,alliance,general
+Scouting Report,,lowest,tactics,1,,,,,shaken,,,alliance,general
+Empire Ascendant,shaken,lowest,command,2,,,,Return to Red Bank,,,,alliance,general
+Social Faux Pas,angry,lowest,diplomacy,2,,,,-1 Influence,,,,alliance,general
+Trade Meeting,thea,self,diplomacy,3,+1 Influence,,,,embarassed,,,alliance,general
+Fiscal Squabbles,fuscus-thea,,,,,,,,,angry,,alliance,general
+War Council with Lev and Sdila,,group,tactics,2,+1 Spies,burn,,,,,,alliance,gravewood
+Samo's Humiliations,,lowest,diplomacy,1,,,,,angry,,,alliance,gravewood
+Setting Traps with Radia,,highest,thievery,3,+1 Thievery,burn,,,wounded,,,alliance,gravewood
+TBD,,highest,diplomacy,3,+1 Diplomacy,,,,,,,alliance,gravewood
+Help Galya Create an Egalitarian Society,,highest,diplomacy,2,+1 Diplomacy,burn,,,angry,,,alliance,gravewood
+Quell the Rising Mob,,group,diplomacy,4,,,,,shaken,,,alliance,gravewood

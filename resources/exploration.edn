@@ -113,7 +113,8 @@
   :skill             :command,
   :roll-type         :highest,
   :difficulty        2,
-  :success           "+1 Fortune, burn card",
+  :success           "+1 Fortune",
+  :on-success :burn,
   :failure           "+1 Command",
   :failure-condition :shaken}
  {:card-type         :exploration,
@@ -135,7 +136,8 @@
   :skill      :survival,
   :roll-type  :group,
   :difficulty 3,
-  :success    "+1 Fortune, burn card",
+  :success    "+1 Fortune",
+  :on-success :burn,
   :failure    "+1 Lost"}
  {:card-type  :exploration,
   :region     :sightrock,
@@ -155,7 +157,8 @@
   :skill             :lore,
   :roll-type         :highest,
   :difficulty        2,
-  :success           "+1 Mana, burn card",
+  :success           "+1 Mana",
+  :on-success :burn,
   :success-condition :weary,
   :failure-tag :cursed}
  {:card-type         :exploration,

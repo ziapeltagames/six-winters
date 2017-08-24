@@ -1,19 +1,4 @@
-[{:card-type  :favor,
-  :faction    :gravewood,
-  :favor-type :military}
- {:card-type  :favor,
-  :region     :gravewood,
-  :favor-type :economic}
- {:card-type  :favor,
-  :region     :gravewood,
-  :favor-type :economic}
- {:card-type  :favor,
-  :region     :gravewood,
-  :favor-type :quest}
- {:card-type  :favor,
-  :region     :gravewood,
-  :favor-type :secrets}
- {:card-type         :alliance,
+[{:card-type         :alliance,
   :region            :general,
   :title             "A Social Dinner",
   :text              "TBD",
@@ -171,38 +156,4 @@
   :skill             :diplomacy,
   :roll-type         :group,
   :difficulty        4,
-  :failure-condition :shaken}
- {:card-type  :threat,
-  :faction    :autarch,
-  :category   :warfare,
-  :title      "Holding the Outer Reach",
-  :text       "TBD",
-  :difficulty 1,
-  :failure    "Lost Road"}
- {:card-type  :threat,
-  :faction    :stronghold,
-  :category   :diplomacy,
-  :title      "Food Shortage",
-  :text       "TBD",
-  :difficulty 1,
-  :failure    "-1 Stability"}
- {:card-type  :threat,
-  :faction    :stronghold,
-  :category   :skirmish,
-  :title      "Warring Faction",
-  :text       "TBD",
-  :difficulty 1,
-  :failure    "-1 Stability"}
- {:card-type :frustration,
-  :text      "Talks are stalling and your hosts grow impatient! If you gain three frustration cards, you sent home! Discard all favors."}
- {:card-type :frustration,
-  :text      "Talks are stalling and your hosts grow impatient! If you gain three frustration cards, you sent home! Discard all favors."}
- {:card-type :frustration,
-  :text      "Talks are stalling and your hosts grow impatient! If you gain three frustration cards, you sent home! Discard all favors."}
- {:card-type :frustration,
-  :text      "Talks are stalling and your hosts grow impatient! If you gain three frustration cards, you sent home! Discard all favors."}
- {:card-type :frustration,
-  :text      "Talks are stalling and your hosts grow impatient! If you gain three frustration cards, you sent home! Discard all favors."}
- {:card-type :development,
-  :title     "Diplomats",
-  :text      "Cancel One Diplomacy Threat"}]
+  :failure-condition :shaken}]
