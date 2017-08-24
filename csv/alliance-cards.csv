@@ -1,4 +1,9 @@
 title,prerequisite,roll-type,skill,difficulty,success,success-condition,failure,failure-condition,result-condition,failure-tag,card-type,region
+,,,,,,,,,,,favor,
+,,,,,,,,,,,favor,gravewood
+,,,,,,,,,,,favor,gravewood
+,,,,,,,,,,,favor,gravewood
+,,,,,,,,,,,favor,gravewood
 A Social Dinner,,lowest,diplomacy,1,,,,embarassed,,,alliance,general
 Playing Host,,highest,diplomacy,2,,,+1 Diplomacy,angry,,,alliance,general
 The Silk Trade,,group,diplomacy,4,+1 Luxury,,,,,,alliance,general
@@ -17,3 +22,12 @@ Setting Traps with Radia,,highest,thievery,3,+1 Thievery,,,wounded,,,alliance,gr
 TBD,,highest,diplomacy,3,+1 Diplomacy,,,,,,alliance,gravewood
 Help Galya Create an Egalitarian Society,,highest,diplomacy,2,+1 Diplomacy,,,angry,,,alliance,gravewood
 Quell the Rising Mob,,group,diplomacy,4,,,,shaken,,,alliance,gravewood
+Holding the Outer Reach,,,,1,,,Lost Road,,,,threat,
+Food Shortage,,,,1,,,-1 Stability,,,,threat,
+Warring Faction,,,,1,,,-1 Stability,,,,threat,
+,,,,,,,,,,,frustration,
+,,,,,,,,,,,frustration,
+,,,,,,,,,,,frustration,
+,,,,,,,,,,,frustration,
+,,,,,,,,,,,frustration,
+Diplomats,,,,,,,,,,,development,
