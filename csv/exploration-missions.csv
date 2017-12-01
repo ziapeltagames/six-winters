@@ -1,31 +1,31 @@
-mission,position,title,text,prerequisite,action,success,failure,result
+id,mission,position,title,text,action,success,failure,result
 
-"North Oaks",1,"Poisonous Dusk Frogs",,,"Solo Combat: 1","Success: +1 Combat, Burn card.","Failure: Wounded.",
-"North Oaks",1,"Rocky Banks of the Gray River",,,"Group Survival: 2",,"Failure: One character is weary.",
-"North Oaks",1,"Chamber of Animation",,,"Solo Lore: 1","Success: +1 Lore, Burn card.","Failure: -1 Mana.",
-"North Oaks",1,"Into the Woods",,,"Conquest: 1","Success: +2 Timber.",,
-"North Oaks",2,"The Necromancer's Dark Heart",,,"Group Combat: 2","Success: Oniri joins party. Burn card.","Failure: wounded.",
+MINOR1,"North Oaks",1,"Poisonous Dusk Frogs",,"Solo Combat: 1","Success: +1 Combat, Burn card.","Failure: Wounded.",
+MINOR2,"North Oaks",1,"Rocky Banks of the Gray River",,"Group Survival: 2",,"Failure: One character is weary.",
+MINOR3,"North Oaks",1,"Chamber of Animation",,"Solo Lore: 1","Success: +1 Lore, Burn card.","Failure: -1 Mana.",
+MINOR4,"North Oaks",1,"Into the Woods",,"Conquest: 1","Success: +2 Timber.",,
+MINOR5,"North Oaks",2,"The Necromancer's Dark Heart",,"Group Combat: 2","Success: Oniri joins party. Burn card.","Failure: wounded.",
 
-"Sightrock",1,"Fear and Loathing in Sightrock",,,"Solo Combat: 2","Success: +1 Combat, Burn Card.","Failure: Angry.",
-"Sightrock",1,"Mob of Angry Settlers",,,"Lowest Combat: 1",,"Failure: Wounded.",
-"Sightrock",1,"Scouring the Caves",,,"Solo Survival: 2","Success: +1 Survival, Burn Card.","Failure: Card counts as a lost card.",
-"Sightrock",1,"Decipher Runes",,,"Solo Lore: 2","Success: +1 Mana.","Failure: All tests are difficult for the rest of the season.",
-"Sightrock",2,"Fight the Formless Spawn",,,"Group Combat: 5","Success: +1 Stability, Unlock Ferry's Glenn.","Failure: One character is wounded.",
+MISIR1,"Sightrock",1,"Fear and Loathing in Sightrock",,"Solo Combat: 2","Success: +1 Combat, Burn Card.","Failure: Angry.",
+MISIR2,"Sightrock",1,"Mob of Angry Settlers",,"Lowest Combat: 1",,"Failure: Wounded.",
+MISIR3,"Sightrock",1,"Scouring the Caves",,"Solo Survival: 2","Success: +1 Survival, Burn Card.","Failure: Card counts as a lost card.",
+MISIR4,"Sightrock",1,"Decipher Runes",,"Solo Lore: 2","Success: +1 Mana.","Failure: All tests are difficult for the rest of the season.",
+MISIR5,"Sightrock",2,"Fight the Formless Spawn",,"Group Combat: 4","Success: +1 Stability, Unlock Ferry's Glen. Burn card.","Failure: One character is wounded.",
 
-"Gray Forest",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
-"Gray Forest",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
-"Gray Forest",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
-"Gray Forest",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
-"Gray Forest",2,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+MIGRF1,"Gray Forest",1,"Desolate Marshland",,"Lowest Survival: 4",,"Failure: Famished.",
+MIGRF2,"Gray Forest",1,"Barbed Oak Fields",,"Solo Survival: 3","Success: +1 Survival. Burn card.","Failure: Weary.",
+MIGRF3,"Gray Forest",1,"Clearing the Wilds",,"Lower conquest track by one or all characters are weary.",,,
+MIGRF4,"Gray Forest",1,"Researching Eight Ears",,"Solo Lore: 3","Success: +4 Fortune.","Failure: Weary.",
+MIGRF5,"Gray Forest",2,"The Dark Gleamer",,"Group Combat: 5","Success: +1 Stability. Unlock Dusk's Ayrie. Burn card.","Failure: One character is wounded.",
 
-"Ferry's Glenn",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
-"Ferry's Glenn",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
-"Ferry's Glenn",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
-"Ferry's Glenn",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
-"Ferry's Glenn",2,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+MIFEG1,"Ferry's Glen",1,"",,"7",,,
+MIFEG2,"Ferry's Glen",1,"",,"7",,,
+MIFEG3,"Ferry's Glen",1,"",,"7",,,
+MIFEG4,"Ferry's Glen",1,"",,"7",,,
+MIFEG5,"Ferry's Glen",2,"Against the Giants",,"Military 7","Success:","Failure:","Result:"
 
-"Dusk's Ayrie",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
-"Dusk's Ayrie",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
-"Dusk's Ayrie",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
-"Dusk's Ayrie",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
-"Dusk's Ayrie",2,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+MIDUA1,"Dusk's Ayrie",1,"",,"9",,,
+MIDUA2,"Dusk's Ayrie",1,"",,"9",,,
+MIDUA3,"Dusk's Ayrie",1,"",,"9",,,
+MIDUA4,"Dusk's Ayrie",1,"Mana Well",,"(Optional) Spend 5 mana.","One character gains +1 lore.",,
+MIDUA5,"Dusk's Ayrie",1,"Arankh Unleashed",,"Group Combat: 9","Success: +2 Stability. Burn card.","Failure: One character is wounded. Shuffle card back into mission deck.",

@@ -8,6 +8,7 @@ Menas,2,"Whispering Spirits",,"Condition","Oniri is in group: Menas is weary. Bu
 
 Thea,1,"Black and White",,"Choice","A: Solo Rapport: 1. On success remove angry condition on another character.","B: Solo Rapport 2. On success remove shaken condition on another character. Burn card and unlock Thea 2."
 Thea,2,"The Conciliator",,"Choice","A: Solo Command: 2. Thea is weary and may remove one psyche condition on another character. Burn card and unlock Thea 3.","B: Solo Command: 2. On success +1 diplomacy."
+Thea,5,"Call to Action",,"Action","Increase the disposition of a faction by one.",
 
 Fuscus,1,"Market Manipulations",,"Choice","(If Thea Is In Group) A: Fuscus returns to Red Bank. Burn card and unlock Fuscus 2.","B: +2 luxuries."
 Fuscus,2,"Bending Rules",,"Condition","Infiltration Mission: Solo Rapport: 2. On success may return a timer card back into the deck. Burn card and unlock Fuscus 3.","Else: Solo Rapport: 2. On success +1 luxury."
