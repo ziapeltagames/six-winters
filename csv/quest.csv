@@ -1,0 +1,19 @@
+quest,index,title,type,text,action,completion,@effect-image,effect
+
+"Pelakhar's Loyalty",0,"Peril Track",peril,,"5: All heroes gain weary condition. 10: All heroes gain famished condition. 15: One hero gains wounded condition. 20: All heroes gain wounded condition and season ends.",,,
+"Pelakhar's Loyalty",1,"Across the Long Wastes",obstacle,,"Group Survival: 10","Completion: Discard all step 1 cards. Draw step 2 cards.",,
+"Pelakhar's Loyalty",1,"Dusk Mites",environment,,"Group Lore: 5","Completion: Burn card.",..\images\sun.png,"Give one hero the weary condition."
+"Pelakhar's Loyalty",1,"Mana Rifts",dweomer,,"Effect: May attempt solo lore 2 test to gain one fortune die.",,
+"Pelakhar's Loyalty",2,"Negotiating with Moonriders",obstacle,"Group Rapport: 5","Completion: Discard all step 2 cards. Draw step 3 cards.",,
+"Pelakhar's Loyalty",3,"The Great Wyrm",obstacle,,"Group Combat: 10","Completion: Return to Red Bank and gain Pelakhar's Loyalty.",,
+"Pelakhar's Loyalty",3,"Dragon Fear",dweomer,,"Solo Command: 5","Completion: Discard.",..\images\sun.png,"Give one hero the shaken condition."
+"Pelakhar's Loyalty",3,"Dragon Breath",environment,,"Group Tactics: 5","Completion: Burn card.",..\images\spiral.jpg,"Give one hero the wounded condition."
+
+"Gossamer Spirit",0,"Peril Track",peril,,"5: All heroes gain weary condition. 10: All heroes gain famished condition. 15: One hero returns to Red Bank. 20: All heroes gain shaken and season ends.",,,
+"Gossamer Spirit",1,"Forgotten Identity",dweomer,,"Group Lore: 6","Completion: Burn card.",..\images\moon.png,"A hero returns to Red Bank in a state of confusion."
+"Gossamer Spirit",1,"Sailing Memory Lake",obstacle,,"Group Survival: 10","Completion: Discard all step 1 cards. Draw step 2 cards.",,
+"Gossamer Spirit",2,"The Stone Door",obstacle,,"Solo Thievery: 6","Completion: Discard and draw step 3 cards.",,
+"Gossamer Spirit",3,"Hollow Guards",guard,,"Combat: 5","Completion: Discard.",..\images\spiral.jpg,"All Thievery checks are difficult."
+"Gossamer Spirit",3,"The Weaver",guard,,"Combat/Lore: 10","Completion: Burn card.",..\images\sun.png,"A hero gains a wound."
+"Gossamer Spirit",3,"Vault of Ten Locks",obstacle,,"Thievery: 10","Completion: Burn card and draw step 4 cards.",,
+"Gossamer Spirit",4,"Hall of Echoes",obstacle,,"Lore/Thievery: 5","Completion: Return to Red Bank and gain Gossamer Spirit.",,

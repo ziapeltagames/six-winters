@@ -1,0 +1,31 @@
+id,mission,position,title,text,prerequisite,action,success,failure,result
+
+MIEA1,"Eastkeep",1,"First Contact",,,"Solo Thievery: 1","Success: +1 Thievery. Burn card.","Failure: Weary.",
+MIEA2,"Eastkeep",1,"Establishing Safehouses",,,"Solo Disguise: 1","Success: +1 Disguise. Burn card.","Failure: Weary.",
+MIEA3,"Eastkeep",1,"Dark Tidings",,,"Solo Tactics: 1",,"Failure: Draw a threat card.",
+MIEA4,"Eastkeep",1,"Sorcerous Secrets",,,"Group Disguise: 1","Success: +1 Espionage.","Failure: All characters weary.",
+MIEA5,"Eastkeep",2,"Run The Jewels",,,"Group Thievery: 2","Success: Unlock Imperial Heist quest. Burn card.","Failure: -1 Espionage.",
+
+MIGF1,"Guilder Farms",1,"Title",,,"Lowest Disguise: 2","Success","Failure",
+MIGF2,"Guilder Farms",1,"Title",,,"Action","Success","Failure: Draw a threat card.",
+MIGF3,"Guilder Farms",1,"Title",,,"Action","Success","Failure",
+MIGF4,"Guilder Farms",1,"Title",,,"Action","Success","Failure",
+MIGF5,"Guilder Farms",2,"Title",,,"Action","Success: Unlock Yearly Field. Burn card.","Failure",
+
+MIPR1,"Prominence",1,"Title",,,"Lowest Thievery: 3","Success","Failure: Wounded.",
+MIPR2,"Prominence",1,"Title",,,"Action","Success","Failure",
+MIPR3,"Prominence",1,"Title",,,"Action","Success","Failure: Draw a threat card.",
+MIPR4,"Prominence",1,"Title",,,"Action","Success","Failure",
+MIPR5,"Prominence",2,"Title",,,"Action","Success: Unlock Southkeep. Burn card.","Failure",
+
+MIYF1,"Yearly Field",1,"Title",,,"Lowest Disguise: 3","Success","Failure",
+MIYF2,"Yearly Field",1,"Title",,,"Action","Success","Failure: Effect. May not spend mana.",
+MIYF3,"Yearly Field",1,"Title",,,"Action","Success","Failure",
+MIYF4,"Yearly Field",1,"Title",,,"Action","Success","Failure: Draw a threat card.",
+MIYF5,"Yearly Field",2,"Title",,,"Action","Success: Unlock Dawncaves. Burn card.","Failure",
+
+MISK1,"Southkeep",1,"Title",,,"Lowest Thievery: 4","Success","Failure: Wounded.",
+MISK2,"Southkeep",1,"Title",,,"Action","Success","Failure: Effect. May not spend fortune.",
+MISK3,"Southkeep",1,"Title",,,"Action","Success","Failure: Draw a threat card.",
+MISK4,"Southkeep",2,"Title",,,"Action","Success: Unlock Firstborn Peak. Burn card.","Failure",
+MISK5,"Southkeep",2,"Title",,,"Action","Success: Lucia joins the party. Burn card.","Failure",

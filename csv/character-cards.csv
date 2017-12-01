@@ -1,0 +1,18 @@
+character,number,title,text,switch,blocka,blockb
+
+Keel,1,"Right Tool For The Job",,"Choice","A: Solo Survival: 1. On success +2 fortune.","B: Solo Survival: 2. On success may add +2 dice to all survival tests for the remainder of the season. Burn card and unlock Keel 2."
+Keel,2,"Alone in the Dark",,"Condition","Infiltration Mission: Solo Thievery: 1. On success may add +2 dice to all thievery tests for the remainder of the season. Burn card and unlock Keel 3.","Else: Solo Thievery: 2. On success gain 2 fortune."
+
+Menas,1,"The Direct Approach",,"Choice","A: +4 fortune and every other character in group is angry. Burn card and unlock Menas 2.","B: +2 fortune."
+Menas,2,"Whispering Spirits",,"Condition","Oniri is in group: Menas is weary. Burn card and unlock Menas 3.","Else: Solo Combat: 2. On success +2 fortune."
+
+Thea,1,"Black and White",,"Choice","A: Solo Rapport: 1. On success remove angry condition on another character.","B: Solo Rapport 2. On success remove shaken condition on another character. Burn card and unlock Thea 2."
+Thea,2,"The Conciliator",,"Choice","A: Solo Command: 2. Thea is weary and may remove one psyche condition on another character. Burn card and unlock Thea 3.","B: Solo Command: 2. On success +1 diplomacy."
+
+Fuscus,1,"Market Manipulations",,"Choice","(If Thea Is In Group) A: Fuscus returns to Red Bank. Burn card and unlock Fuscus 2.","B: +2 luxuries."
+Fuscus,2,"Bending Rules",,"Condition","Infiltration Mission: Solo Rapport: 2. On success may return a timer card back into the deck. Burn card and unlock Fuscus 3.","Else: Solo Rapport: 2. On success +1 luxury."
+
+Oniri,1,"I'm Always in Pain",,"Choice","A: May give Oniri a condition to remove a condition from someone else in the group. Burn card and unlock Oniri 2.","B: Solo Lore 1. On success +1 mana."
+Oniri,2,"Always Alone",,"Condition","Oniri is alone: Burn card and unlock Oniri 3.","Else: Solo Lore 2. On success +2 mana."
+
+Yasmina,1,"TBD",,"Choice","TBD","Solo Lore: 1. On success heal one condition on any character in group."

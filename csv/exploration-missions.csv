@@ -1,0 +1,31 @@
+mission,position,title,text,prerequisite,action,success,failure,result
+
+"North Oaks",1,"Poisonous Dusk Frogs",,,"Solo Combat: 1","Success: +1 Combat, Burn card.","Failure: Wounded.",
+"North Oaks",1,"Rocky Banks of the Gray River",,,"Group Survival: 2",,"Failure: One character is weary.",
+"North Oaks",1,"Chamber of Animation",,,"Solo Lore: 1","Success: +1 Lore, Burn card.","Failure: -1 Mana.",
+"North Oaks",1,"Into the Woods",,,"Conquest: 1","Success: +2 Timber.",,
+"North Oaks",2,"The Necromancer's Dark Heart",,,"Group Combat: 2","Success: Oniri joins party. Burn card.","Failure: wounded.",
+
+"Sightrock",1,"Fear and Loathing in Sightrock",,,"Solo Combat: 2","Success: +1 Combat, Burn Card.","Failure: Angry.",
+"Sightrock",1,"Mob of Angry Settlers",,,"Lowest Combat: 1",,"Failure: Wounded.",
+"Sightrock",1,"Scouring the Caves",,,"Solo Survival: 2","Success: +1 Survival, Burn Card.","Failure: Card counts as a lost card.",
+"Sightrock",1,"Decipher Runes",,,"Solo Lore: 2","Success: +1 Mana.","Failure: All tests are difficult for the rest of the season.",
+"Sightrock",2,"Fight the Formless Spawn",,,"Group Combat: 5","Success: +1 Stability, Unlock Ferry's Glenn.","Failure: One character is wounded.",
+
+"Gray Forest",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+"Gray Forest",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+"Gray Forest",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+"Gray Forest",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+"Gray Forest",2,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+
+"Ferry's Glenn",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+"Ferry's Glenn",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+"Ferry's Glenn",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+"Ferry's Glenn",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+"Ferry's Glenn",2,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+
+"Dusk's Ayrie",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+"Dusk's Ayrie",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+"Dusk's Ayrie",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+"Dusk's Ayrie",1,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
+"Dusk's Ayrie",2,"Title","Text","Prequisite:","Action:","Success:","Failure:","Result:"
