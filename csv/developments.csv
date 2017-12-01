@@ -1,13 +1,71 @@
-category,title,food,timber,ore,mana,luxury,text
-forge,Arcane Whetstone,0,0,9,3,0,+1 dice on one combat test.
-forge,Guards,3,0,5,3,0,Cancel One Skirmish Threat
-questing,Iron Rations,4,1,0,0,0,Remove weary condition from one hero.
-questing,Maps,2,4,0,0,1,Discard one Lost Card
-military,Barracks,6,4,0,0,1,Cancel one military threat.
-military,Stables,7,4,0,0,2,Add +1 to Red Bank military.
-sorcery,Mana Well,3,0,0,4,2,Add +1 dice to mana pool.
-sorcery,Arcane Library,3,0,0,5,1,+1 dice to one Lore test.
-diplomacy,Trade Route,0,5,0,0,2,Trade at improved rate with one faction.
-diplomacy,Diplomats,2,1,0,0,2,Cancel one diplomacy threat.
-infiltration,Thieves Tools,2,1,0,0,1,Roll one more dice on any Thievery tests.
-infiltration,Spies,2,1,0,0,1,Cancel one infiltration threat.
+category,stage,title,food,timber,ore,mana,luxury,text
+"Conquest",1,"Improvised Shelters",0,6,1,0,0,"Immediate: Play on character. Roll +1 die on survival tests for the rest of the season."
+"Diplomacy",1,"Raiments of Starsilk",0,0,0,0,2,"Immediate: Play on character. Roll +1 die on rapport tests for the rest of the season."
+"Espionage",1,"Disguise Kit",0,0,0,0,1,"Immediate: Play on character. Roll +1 die on disguise tests for the rest of the season."
+"Military",1,"Forge",4,0,7,0,0,"Immediate: Play on character. Roll +1 die on tactics tests for the rest of the season."
+"Sorcery",1,"Undari's Libram",0,5,0,4,0,"Immediate: Play on character. Roll +1 die on lore tests for the rest of the season."
+"Stability",1,"Iron Rations",8,0,0,0,0,"Action: Gain +1 food. Roll dice and add to pool."
+
+"Conquest",2,"Wayhouse",0,11,0,1,0,"Action: Remove weary condition from one hero."
+"Diplomacy",2,"Political Bribes",4,0,0,0,4,"Action: Trade one additional time with a faction."
+"Espionage",2,"Network of Bribes",2,0,2,1,1,"End of Season: Lower difficulty of one espionage threat by one."
+"Military",2,"Lordly Crest",0,2,8,0,0,"Immediate: Play on character. Roll +1 die on command tests for the rest of the season."
+"Sorcery",2,"Mana Forge",0,0,0,8,2,"Action: Gain +1 mana. Roll dice and add to pool."
+"Stability",2,"Feast Day",12,4,0,0,0,"Action: Remove weary condition from one character."
+
+"Conquest",3,"Runic Blades",0,2,11,4,0,"Immediate: Play on character. Roll +1 die on combat tests for the rest of the season."
+"Diplomacy",3,"Distant Favors",1,0,0,3,5,"End of Season: Lower difficulty of one diplomacy threat by one."
+"Espionage",3,"Fine Lockpicks",0,0,4,3,2,"Immediate: Play on character. Roll +1 dice on thievery tests for the rest of the season."
+"Military",3,"Improved Infantry",9,3,9,0,0,"End of Season: Lower difficulty of one military threat by one."
+"Sorcery",3,"Mercurial Wards",0,0,0,9,3,"End of Season: Lower difficulty of one sorcery threat by one."
+"Stability",3,"Echo Lake Mines",9,7,9,0,0,"Action: Gain +1 ore. Roll dice and add to pool."
+
+"Conquest",4,TBD,0,5,1,3,0,Lower difficulty of one conquest threat by one.
+"Conquest",5,TBD,0,5,1,3,0,Add +2 dice to one survival test.
+"Conquest",6,TBD,0,5,1,3,0,Remove famished condition from one hero.
+"Conquest",7,TBD,0,5,1,3,0,Add +2 dice to one combat test.
+"Conquest",8,TBD,0,5,1,3,0,Remove wounded condition from one hero.
+"Conquest",9,TBD,0,5,1,3,0,Shuffle a progress card back into the progress deck during an alliance mission.
+"Conquest",10,TBD,0,5,1,3,0,Lower difficulty of one conquest threat by two.
+
+"Diplomacy",4,TBD,1,0,0,3,5,Gain +1 luxury. Roll dice and add to pool.
+"Diplomacy",5,TBD,1,0,0,3,5,Add +2 dice to one rapport test.
+"Diplomacy",6,TBD,1,0,0,3,5,Gain +2 luxury. Roll dice and add to pool.
+"Diplomacy",7,TBD,1,0,0,3,5,Trade at improved rate with one faction.
+"Diplomacy",8,TBD,1,0,0,3,5,Lower difficulty of one diplomacy threat by two.
+"Diplomacy",9,TBD,1,0,0,3,5,Shuffle a timer card back into the progress deck during an alliance mission.
+"Diplomacy",10,TBD,1,0,0,3,5,All rapport checks for the rest of the season are easy.
+
+"Espionage",4,TBD,0,0,0,0,0,Immediate: Each 6 rolled counts as two successes for disguise tests.
+"Espionage",5,TBD,0,0,0,0,0,Add +2 dice to one disguise test.
+"Espionage",6,TBD,0,0,0,0,0,Lower difficulty of one espionage threat by two.
+"Espionage",7,TBD,0,0,0,0,0,Add +2 dice to one thievery test.
+"Espionage",8,TBD,0,0,0,0,0,All disguise tests for the rest of the season are easy.
+"Espionage",9,TBD,0,0,0,0,0,Shuffle a timer card back into the progress deck during an infiltration mission.
+"Espionage",10,TBD,0,0,0,0,0,All thievery tests for the rest of the season are easy.
+
+"Military",4,TBD,3,1,5,0,0,Add +2 dice to one tactics test.
+"Military",5,TBD,3,1,5,0,0,Spend two ore dice to add +1 to military.
+"Military",6,TBD,3,1,5,0,0,Remove one shaken condition on any character.
+"Military",7,TBD,3,1,5,0,0,Add +2 dice to one command test.
+"Military",8,TBD,3,1,5,0,0,All tactics checks for the rest of the season are easy.
+"Military",9,TBD,3,1,5,0,0,Lower difficulty of one military threat by two.
+"Military",10,TBD,3,1,5,0,0,All command checks for the rest of the season are easy.
+
+"Sorcery",4,TBD,0,0,0,5,3,Spend two mana dice to remove one condition from one hero.
+"Sorcery",5,TBD,0,0,0,5,3,Add +2 dice to one lore test.
+"Sorcery",6,TBD,0,0,0,5,3,Gain +2 mana. Roll dice and add to pool.
+"Sorcery",7,TBD,0,0,0,5,3,Lower difficulty of one sorcery threat by two.
+"Sorcery",8,TBD,0,0,0,5,3,Spend one mana die to remove one condition from one hero.
+"Sorcery",9,TBD,0,0,0,5,3,Look at bottom card of progress deck. May place on top of progress deck.
+"Sorcery",10,TBD,0,0,0,5,3,All Lore checks for the rest of the season are easy.
+
+"Stability",4,TBD,5,3,1,0,0,Add an extra development card to a progress deck.
+"Stability",5,TBD,5,3,1,0,0,Gain +1 timber. Roll dice and add to pool.
+"Stability",6,TBD,5,3,1,0,0,Lower difficulty of one stability threat by one.
+"Stability",7,TBD,5,3,1,0,0,Shuffle a timer card back into the progress deck during exploration mission.
+"Stability",8,TBD,5,3,1,0,0,Lower difficulty of one stability threat by two.
+"Stability",9,TBD,5,3,1,0,0,Add an extra development card to a progress deck.
+"Stability",10,TBD,5,3,1,0,0,Spend two luxury dice to add +1 to stability.
+
+"TBD",1,"TBD",0,0,0,0,0,"Immediate: Play before a rapport test. That test is easy."

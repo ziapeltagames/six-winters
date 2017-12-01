@@ -1,7 +1,24 @@
-title,faction,category,difficulty,failure,text
-Border Skirmish,autarch,skirmish,3,-1 Stability,TBD
-Kobold Raids,stronghold,skirmish,2,-1 Stability,TBD
-Angry Farmers,stronghold,diplomacy,2,-1 Stability,TBD
-Holding the Outer Reach,autarch,warfare,1,Lost Road,TBD
-Food Shortage,stronghold,diplomacy,1,-1 Stability,TBD
-Warring Faction,stronghold,skirmish,1,-1 Stability,TBD
+category,type,year,title,text
+
+Region,Espionage,1,"False Maps","Immediately. Espionage 0-3: May not gain consequences to ignore timers during Exploration missions. Espionage 4+: Burn card."
+Region,Military,1,"Moonrider Raids","Immediately. Military 0-3: -1 food. Military 4+: Burn card."
+Faction,Espionage,1,"Sunrider Grain Dispute","End of Season. Espionage 0-3: -1 disposition with Sunriders. Espionage 4+: Burn card."
+Faction,Military,1,"Crescent Hold Calls for Aid","End of Season. Subtract 1 from military or drop disposition with Crescent Hold by 1. Subtract 1 more from military to burn card."
+Autarch,Espionage,1,"The Mole","Immediately. Espionage 0-2: -1 ore. Espionage 3+: Burn card."
+Autarch,Secrets,1,"Careless Whispers","Immediately. If all secrets have been found in Eastkeep, burn card. Otherwise, -1 espionage."
+Apotheosis,Secrets,1,"The Harrowing","End of Season. Secrets 0-4: +1 Apotheosis."
+
+Region,Espionage,2,"Angry Farmers","-1 Stability"
+Region,Diplomacy,2,"Food Shortage","-1 Stability"
+Faction,Military,2,"Warring Faction","-1 Stability"
+Autarch,Military,2,"Holding the Outer","Reach Lost Road"
+Apotheosis,Secrets,2,"Ritual of Law","End of Season. Secrets 0-8: +2 Apotheosis. Secrets 9-12: +1 Apotheosis."
+
+Apotheosis,Secrets,3,"Connection Made","End of Season. Secrets 0-12: +3 Apotheosis. Secrets 13-16: +2 Apotheosis. Secrets 17-20: +1 Apotheosis."
+
+Apotheosis,Secrets,4,"The Far Forest","End of Season. Secrets 0-16: +4 Apotheosis. Secrets 17-20: +3 Apotheosis. Secrets 21-24: +2 Apotheosis. Secrets 25: +1 Apotheosis."
+
+Autarch,Espionage,5,"Assassination","Character is assassinated."
+Apotheosis,Secrets,5,"The Sundering","End of Season. Secrets 0-20: +5 Apotheosis. Secrets 21-24: +4 Apotheosis. Secrets 25: +3 Apotheosis."
+
+Apotheosis,Secrets,6,"Reborn","If it hasn't happened already, the Autarch achieves apotheosis."
