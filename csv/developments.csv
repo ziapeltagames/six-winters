@@ -8,7 +8,7 @@ category,stage,title,food,timber,ore,mana,luxury,text,burn
 "Conquest",6,"Farms",0,18,25,8,0,"Action: Gain +2 food. Roll dice and add to pool.","OR BURN CARD. Interrupt: +4 Rapport dice on one skill test."
 "Conquest",7,"Wayhouse",5,28,18,10,0,"Action: Gain +2 timber. Roll dice and add to pool.","OR BURN CARD. Interrupt: +4 Survival dice on one skill test."
 "Conquest",8,"Road Networks",15,36,0,0,0,"Action: Gain +2 ore. Roll dice and add to pool.","OR BURN CARD. Interrupt: +4 Combat dice on one skill test."
-"Conquest",9,"Clearing Smallmoss Forest",12,34,18,7,0,"Action: +1 Conquest."
+"Conquest",9,"Clearing Smallmoss Forest",12,34,18,7,0,"Action: +1 Conquest.",
 "Conquest",10,"Elemental Rings",0,41,24,18,5,"Action: Gain +2 luxury. Roll dice and add to pool.","OR BURN CARD. Interrupt: +6 Rapport dice on one skill test."
 
 "Diplomacy",1,"Study Abroad",0,0,0,0,4,"Interrupt: Trade with a faction. May not use if already traded with faction.","OR BURN CARD. Action: Gain +2 luxury. Roll dice and add to pool."
