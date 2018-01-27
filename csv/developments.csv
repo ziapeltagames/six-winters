@@ -4,7 +4,7 @@ category,stage,title,food,timber,ore,mana,luxury,text,burn
 "Conquest",2,"Gregor's Mill",0,12,0,1,0,"Action: Gain +1 timber. Roll dice and add to pool.","OR BURN CARD. Interrupt: +2 Survival dice on one skill test."
 "Conquest",3,"Refined Alloys",0,2,11,4,0,"Action: Gain +1 ore. Roll dice and add to pool.","OR BURN CARD. Interrupt: +2 Combat dice on one skill test."
 "Conquest",4,"Nyana's Handbook",0,13,12,6,2,"Action: Gain +1 luxury. Roll dice and add to pool.","OR BURN CARD. Interrupt: +2 Rapport dice on one skill test."
-"Conquest",5,"All Weather Gear",12,16,10,6,2,"Action: Shuffle a timer card back into the progress deck during an exploration mission."
+"Conquest",5,"All Weather Gear",12,16,10,6,2,"Action: Shuffle a timer card back into the progress deck during an exploration mission.",
 "Conquest",6,"Farms",0,18,25,8,0,"Action: Gain +2 food. Roll dice and add to pool.","OR BURN CARD. Interrupt: +4 Rapport dice on one skill test."
 "Conquest",7,"Wayhouse",5,28,18,10,0,"Action: Gain +2 timber. Roll dice and add to pool.","OR BURN CARD. Interrupt: +4 Survival dice on one skill test."
 "Conquest",8,"Road Networks",15,36,0,0,0,"Action: Gain +2 ore. Roll dice and add to pool.","OR BURN CARD. Interrupt: +4 Combat dice on one skill test."
