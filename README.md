@@ -1,6 +1,6 @@
 # six-winters
 
-*Six Winters* is the current working title for the *Wrath of the Autarch* boardgame. It currently combines legacy kingdom building elements, a resource dice game, and a push your luck card driven quest system. Think *Incan Gold* meets *Tales of the Arabian Nights* meets *7th Continent* meets *Kingsburg*.
+*Six Winters* is the current working title for the *Wrath of the Autarch* boardgame. It combines legacy kingdom building elements, a resource dice game, and a push your luck card driven quest system. It's a mix of games like *Incan Gold*, *Tales of the Arabian Nights*, *7th Continent*, and *Kingsburg*.
 
 ## csv
 
