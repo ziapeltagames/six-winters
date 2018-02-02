@@ -24,7 +24,7 @@ title,text,action,success,failure,result
 "Recalcitrant Farmsteaders",,"(Optional) Solo Command: 2","Success: +1 Stability.","Failure: Angry.",
 "Imperial Plans",,"(Optional) Solo Tactics: 2","Success: +1 Espionage.","Failure: Return to Red Bank.",
 "The Endless Grind",,"(Weary Character) Solo Survival: 2",,"Failure: Famished.",
-"Hopeless Dawn",,"(Weary Character)",,"Result: One weary character returns to Red Bank."
+"Hopeless Dawn",,"(Weary Character)",,,"Result: One weary character returns to Red Bank."
 "Poor Hunting",,"(Famished Character) Solo Survival: 2",,"Failure: Wounded.",
 "On the Brink of Starvation",,"(Famished Character) Group Command: 3",,"Failure: Return one famished character to Red Bank.",
 "Seasons Turn",,"(Winter) Group Survival: 4",,"Failure: All characters are weary.","Else: All characters remove the weary condition."

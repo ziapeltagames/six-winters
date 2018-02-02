@@ -1,9 +1,9 @@
 title,text,action,success,failure,result
 
-"Lone Burglar",,"Solo Thievery: 1",,"Failure: +1 Thievery. Weary."
-"Cocktail Party",,"Solo Disguise: 1","Success:","Failure: +1 Disguise. Angry."
-"Imperial Arcana",,"Solo Lore: 1","Success:","Failure: +1 Lore. Weary."
-"Strategic Decision",,"Solo Command: 1","Success:","Failure: +1 Command. Angry."
+"Lone Burglar",,"Solo Thievery: 1",,"Failure: +1 Thievery. Weary.",
+"Cocktail Party",,"Solo Disguise: 1","Success:","Failure: +1 Disguise. Angry.",
+"Imperial Arcana",,"Solo Lore: 1","Success:","Failure: +1 Lore. Weary.",
+"Strategic Decision",,"Solo Command: 1","Success:","Failure: +1 Command. Angry.",
 "Soft Power",,"Stability: 2","Success: Clear one psyche condition from one character.",,
 "Safe House",,"Group Thievery: 2","Success: Clear weary condition on one character.",,
 "Brief Respite",,"Solo Rapport: 2","Success: Clear angry condition on another character.",,
