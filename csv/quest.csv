@@ -10,7 +10,7 @@ quest,index,title,type,text,action,completion,@effect-image,effect
 
 "Pelakhar's Loyalty",,"Harsh Wasteland","Challenge: Obstacle",,"Group Survival: 5","Completion: Discard.",..\images\moon.png,"One hero weary."
 "Pelakhar's Loyalty",,"Dusky Sand Mites","Challenge: Environment",,"Group Lore: 5","Completion: Burn card.",..\images\sun.png,"One hero weary."
-"Pelakhar's Loyalty",,"Mana Rifts","Challenge: Dweomer",,"Effect: May attempt solo lore 2 test to gain one fortune die.",,
+"Pelakhar's Loyalty",,"Mana Rifts","Challenge: Dweomer",,,"Effect: May attempt solo lore 2 test to gain one fortune die.",,
 
 
 "Gossamer Spirit",0,"Peril Track",peril,,"12: All heroes angry. 16: One hero shaken. 20: One hero shaken and all heroes return to Red Bank. +1 apotheosis.",,,
