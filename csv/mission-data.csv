@@ -9,11 +9,11 @@ NORTH06,"North Oaks",1,"Mission","Location","Dungeon","Musty Tomb","Optional Sol
 NORTH07,"North Oaks",2,"Mission","Attachment","Wilderness","Scouting Ahead","Placement: Mirror Woods","Optional Ongoing Test: Survival. Progress 3. Completion: Unlock Gray Forest (Mission).",,
 NORTH08,"North Oaks",2,"Mission","Attachment","Foe","The Necromancer's Dark Heart","Placement: Musty Tomb","Optional Ongoing Test: Combat. Progress 6. Completion: Oniri joins party. MISSION COMPLETE.","Weak: Weary.","Magic: Solo Test: Lore 2 or testing character is wounded."
 
-NORTH09,"North Oaks",,"Encounter","Hand","Resource","Food Source","Action: +3 Food. Roll dice and add to pool.","Season End: +1 Food track. Burn card.",
-NORTH10,"North Oaks",,"Encounter","Hand","Resource","Timber Source","Action: +3 Timber. Roll dice and add to pool.","Season End: +1 Timber track. Burn card.",
-NORTH11,"North Oaks",,"Encounter","Hand","Resource","Timber Source","Action: +3 Timber. Roll dice and add to pool.","Season End: +1 Timber track. Burn card.",
-NORTH12,"North Oaks",,"Encounter","Hand","Resource","Ore Source","Action: +3 Ore. Roll dice and add to pool.","Season End: +1 Ore track. Burn card.",
-NORTH13,"North Oaks",,"Encounter","Hand","Resource","Mana Source","Action: +3 Mana. Roll dice and add to pool.","Season End: +1 Mana track. Burn card.",
+NORTH09,"North Oaks",,"Encounter","Hand","Resource","Food Source","Action: +3 Food. Roll dice and add to pool.","Season End: +1 Food track. Burn card.",,
+NORTH10,"North Oaks",,"Encounter","Hand","Resource","Timber Source","Action: +3 Timber. Roll dice and add to pool.","Season End: +1 Timber track. Burn card.",,
+NORTH11,"North Oaks",,"Encounter","Hand","Resource","Timber Source","Action: +3 Timber. Roll dice and add to pool.","Season End: +1 Timber track. Burn card.",,
+NORTH12,"North Oaks",,"Encounter","Hand","Resource","Ore Source","Action: +3 Ore. Roll dice and add to pool.","Season End: +1 Ore track. Burn card.",,
+NORTH13,"North Oaks",,"Encounter","Hand","Resource","Mana Source","Action: +3 Mana. Roll dice and add to pool.","Season End: +1 Mana track. Burn card.",,
 NORTH14,"North Oaks",,"Encounter","Event","Foe","Poisonous Dusk Frogs","Solo Combat: 1. Success: +1 Combat. Burn card. Failure: Wounded.",,,
 NORTH15,"North Oaks",,"Encounter","Event","Obstacle","Rocky Terrain","Survival: 2. Failure: All characters are weary.",,,
 NORTH16,"North Oaks",,"Encounter","Event","Magic","Libram of Animation","Solo Lore: 1. Success: +1 Lore. Burn card. Failure: Weary.",,,
