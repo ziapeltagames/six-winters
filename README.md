@@ -43,6 +43,7 @@ The test phase could be tricky to figure out. Will need to think about the follo
 
 * Gather Resource Dice
 * Spotlight Player Rolls Resource Dice
+* Draw Threats
 * Choose Missions
 * Divide Up Characters
 * Draw Starting Mission Cards
@@ -54,8 +55,7 @@ The Progress Deck contains the following elements.
 
 * Character Card (1-4)
 * Development (1-N)
-* Threat (1-3)
-* Mission Triggers (20)
+* Triggers (20)
 
 ## Questions
 
@@ -92,10 +92,11 @@ The location deck needs a mechanism to progress through it in sequence. It may e
    * This is probably easiest, so you can do "at this location" sort of effects.
    * It also avoids confusing situations where a location goes away or appears and you have to shuffle characters around.
    * On the downside, it might be nice to have missions with no real fixed locations, or locations that evolve and grow.
-* How do you get new locations?
+* How do you get new mission cards?
    * Could draw them based off of a symbol.
    * Could be part of a trigger from another card.
-* How do you get new challenges?
+      * For example, an encounter card could unlock something from the mission deck.
+* How do you get new encounters?
    * Could draw them based off of a symbol.
    * Could be part of a trigger from another card.
 

@@ -1,2 +1,2 @@
-name,difficulty,skills,triggera,triggerb,triggerc,triggerd,triggere,rewards
-"North Oaks",1,"Survival, Combat, Lore","Timer: One character is weary.","4 Timers: +1 Apotheosis. Season end.","Common: Draw encounter card.",,,"Food, Timber, Timber, Ore, Mana, Character"
+name,type,difficulty,skills,triggera,triggerb,triggerc,triggerd,triggere,triggerf,triggerg,rewards
+"North Oaks","Exploration","1","Survival, Combat, Lore","1 Timer: One character is weary.","2 Timers: One character is weary.","3 Timers: One character is famished.","4 Timers: +1 Apotheosis.","5 Timers: +1 Apotheosis.","Common: Draw encounter card.",,"Food, Timber, Timber, Ore, Mana, Character"
