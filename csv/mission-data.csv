@@ -1,14 +1,13 @@
 id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
 
-NORTH01,"North Oaks",S,"Mission","Location","Magic","Mirror Woods","Effect: While character at Mirror Woods, +1 die for all lore tests made by any player.","Strong: Weary.",,
+NORTH01,"North Oaks",S,"Mission","Location","Magic","Mirror Woods","Effect: While character at Mirror Woods, +1 die for all lore tests made by any player.","Strong: Solo Test: Survival 2. Failure: Weary.",,
 NORTH02,"North Oaks",S,"Mission","Location","Wilderness","Gray River","Optional Test: Survival 2. Success: +1 Fortune. Failure: Weary.",,,
 NORTH03,"North Oaks",S,"Mission","Attachment","Wilderness","Searching the Banks","Placement: Gray River","Optional Ongoing Test: Survival. Progress 6. Completion: Draw stage 1 mission cards.",,
-NORTH04,"North Oaks",1,"Mission","Location","Wilderness","Exposed Overlook","Effect: +1 die for all combat tests made at this location.","Strong: Weary",,
-NORTH05,"North Oaks",1,"Mission","Attachment","Wilderness","Scouting Ahead","Placement: Exposed Overlook","Optional Ongoing Test: Survival. Progress 3. Completion: Unlock Sightrock (Mission).",,
-NORTH06,"North Oaks",1,"Mission","Location","Dungeon","Musty Tomb","Optional Solo Test: Lore 2. Success: Draw stage 2 mission cards.","Magic: Weary",,
-NORTH07,"North Oaks",2,"Mission","Attachment","Wilderness","Scouting Ahead","Placement: Mirror Woods","Optional Ongoing Test: Survival. Progress 3. Completion: Unlock Gray Forest (Mission).",,
-NORTH08,"North Oaks",2,"Mission","Attachment","Foe","The Necromancer's Dark Heart","Placement: Musty Tomb","Optional Ongoing Test: Combat. Progress 6. Completion: Oniri joins party. MISSION COMPLETE.","Weak: Weary.","Magic: Solo Test: Lore 2 or testing character is wounded."
-
+NORTH04,"North Oaks",1,"Mission","Location","Wilderness","Exposed Overlook","Effect: +1 die for all combat tests made at this location.","Strong: Solo Test: Survival 2. Failure: Weary",,
+NORTH05,"North Oaks",1,"Mission","Attachment","Wilderness","Scouting Ahead","Placement: Exposed Overlook","Optional Ongoing Test: Survival. Progress 4. Completion: Unlock Sightrock (Mission).",,
+NORTH06,"North Oaks",1,"Mission","Location","Dungeon","Musty Tomb","Optional Solo Test: Lore 2. Success: Draw stage 2 mission cards.","Deadly: Solo Test: Lore 2. Failure: Shaken",,
+NORTH07,"North Oaks",2,"Mission","Attachment","Wilderness","Scouting Ahead","Placement: Mirror Woods","Optional Ongoing Test: Survival. Progress 4. Completion: Unlock Gray Forest (Mission).",,
+NORTH08,"North Oaks",2,"Mission","Attachment","Foe","The Necromancer's Dark Heart","Placement: Musty Tomb","Optional Ongoing Test: Combat. Progress 6. Completion: Oniri joins party. MISSION COMPLETE.","Weak: Solo Test: Combat 2. Failure: Weary.","Magic: Solo Test: Lore 2. Failure: Wounded."
 NORTH09,"North Oaks",,"Encounter","Hand","Resource","Food Source","Action: +3 Food. Roll dice and add to pool.","Season End: +1 Food track. Burn card.",,
 NORTH10,"North Oaks",,"Encounter","Hand","Resource","Timber Source","Action: +3 Timber. Roll dice and add to pool.","Season End: +1 Timber track. Burn card.",,
 NORTH11,"North Oaks",,"Encounter","Hand","Resource","Timber Source","Action: +3 Timber. Roll dice and add to pool.","Season End: +1 Timber track. Burn card.",,
@@ -18,6 +17,6 @@ NORTH14,"North Oaks",,"Encounter","Event","Foe","Poisonous Dusk Frogs","Solo Com
 NORTH15,"North Oaks",,"Encounter","Event","Obstacle","Rocky Terrain","Survival: 2. Failure: All characters are weary.",,,
 NORTH16,"North Oaks",,"Encounter","Event","Magic","Libram of Animation","Solo Lore: 1. Success: +1 Lore. Burn card. Failure: Weary.",,,
 NORTH17,"North Oaks",,"Encounter","Attachment","Wilderness","Clearing the Woods","Placement: Mirror Woods","Optional Test: Survival 2. Success: +1 Timber.",,
-NORTH18,"North Oaks",,"Encounter","Attachment","Foe","Animated Dead","Placement: Any Occupied Location","Optional Ongoing Test: Combat. Progress 4. Completion: Discard.","Strong: Weary","Uncommon: Move one location toward character with lowest lore."
-NORTH19,"North Oaks",,"Encounter","Attachment","Wilderness","Trackless Forest","Placement: Any wilderness location","Effect: While any character at attached location, may use timber resource dice as skill test dice.",,
-NORTH20,"North Oaks",,"Encounter","Attachment","Environment","Grueling Wilds","Placement: Character with lowest survival","Quick: Solo Test: Survival 2. Failure: Weary.",,
+NORTH18,"North Oaks",,"Encounter","Attachment","Foe","Animated Dead","Placement: Any occupied location in North Oaks.","Optional Ongoing Test: Combat. Progress 4. Completion: Discard.","Strong: Combat Test: 3. Failure: Weary","Uncommon: Move to North Oaks location with lowest Lore character."
+NORTH19,"North Oaks",,"Encounter","Attachment","Wilderness","Trackless Forest","Placement: Any wilderness location.","Effect: While any character at attached location, may use timber resource dice as skill test dice.",,
+NORTH20,"North Oaks",,"Encounter","Attachment","Environment","Grueling Wilds","Placement: On character with lowest survival.","Quick: Solo Test: Survival 2. Failure: Weary.","On Movement: If character moves out of wilderness location, remove condition.",

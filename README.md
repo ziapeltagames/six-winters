@@ -4,11 +4,17 @@
 
 This branch is for fleshing out the "dual deck" approach to the game. The following goals are part of this approach.
 
-* A set of two decks, one for progress and one for missions.
-   * Additionally, there is a deck of encounters used for randome encounters during the mission.
-   * The deck of threats is only used at the beginning of the season.
+* A set of two decks, one for progress and one for each mission.
+   * The mission deck is split into two parts: a mission deck, which is more fixed, and an encounter deck, which is random.
+   * There are also threats, which are applied at the beginning of the season.
 * A unification of the previous quest / mission ideas unto one ruleset.
    * There are missions for exploration, alliance, infiltration, and quests, but these all have the same mechanics.
+* Multiple types of secrets.
+   * This is very useful for variety in infiltration quests.
+* A Spotlight Tableau
+   * This features locations in Red Bank and elsewhere that are important for players during the game.
+   * Players can use this central tableau to move characters between missions.
+   * Additionally, players can unlock places in missions after they have finished a mission, allowing them to place locations in the tableau.
 
 ## csv
 
@@ -28,6 +34,9 @@ This is currently the main actively developed area. I have .csv files for most o
       * Attachment: place as directed
 * Action Phase (one action)
    * Move characters
+      * Move move to any location in the same mission or to any Red Bank location
+         * If at a Red Bank location, may move anywhere
+      * If no characters are at mission, the season is over for that player
    * Buy development
    * Play card
    * Trade (once for each faction per season)
@@ -44,10 +53,11 @@ This is currently the main actively developed area. I have .csv files for most o
 * Divide Up Characters
 * Draw Starting Mission Cards
 * Place Characters at Starting Locations
+   * Either in Spotlight tableau or on mission location
 
 ## Test Types
 
-The test phase could be tricky to figure out. Will need to think about the following sorts of options. By default, tests are required, and may be performed by any number of characters at the location. If the test is via an event, multiple characters may only join in on the test if they're at the same location.
+The test phase could be tricky to figure out. Will need to think about the following sorts of options. By default, tests are required, and may be performed by any number of characters at the location. If the test is via an event, multiple characters may only join in on the test if they're at the same location. That is, a group is only those characters together at the same location.
 
 * Optional / Required (default)
    * Maybe tests should default to optional, with required being a modifier used sparingly
@@ -113,6 +123,12 @@ A mission pack is split into three parts.
    * Could draw them based off of a symbol. (Current Choise)
    * Could be part of a trigger from another card.
 
+# Threats
+
+Two threats are drawn at the beginning of each season. They are typically an effect which is present through the whole season (unless resolved somehow) or an effect which triggers at season's end. The latter is the more common type of threat.
+
+Threats tend to attach to a specific type of location, sometimes the threat will require the players to use a type of location if they have one. Sometimes a threat will take a location slot from those available.
+
 # Currencies
 
 * Seasons (time)
@@ -137,8 +153,8 @@ A mission pack is split into three parts.
    * Lily Manor
    * Crescent Hold
 * Imperial Secrets
-   * Military
-   * Diplomacy
+   * Guilder
+   * Gray Cloak
    * Autarch
 * Fortune
 * Conditions

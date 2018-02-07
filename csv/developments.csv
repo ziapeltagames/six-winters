@@ -33,14 +33,14 @@ category,stage,title,food,timber,ore,mana,luxury,text,burn,effect
 "Sorcery",9,"Second Sight",0,0,0,26,0,"Action: +1 Sorcery.",,
 "Sorcery",10,"Corporeal Seal",0,0,0,29,0,"Action: Spend 10 mana to remove one physical condition.","OR BURN CARD. Action: +3 Sorcery.",
 
-"Stability",1,"Iron Rations",12,0,0,0,0,"Action: Examine top two mission cards and place one on the bottom of the deck.","OR BURN CARD. Action: Gain +6 fortune. Add to pool.",
+"Stability",1,"A Brief Rest",12,0,0,0,0,"Do not draw the next card in the progress deck.","BURN CARD. Action: Gain +6 fortune. Add to pool.",
 "Stability",2,"Feast House",12,4,0,0,0,"Action: Remove weary condition from one hero.","OR BURN CARD. Action: +1 Stability.",
-"Stability",3,"Horse and Cart",9,7,9,0,0,"Interrupt: Move one character to an adjacent location.","OR BURN CARD. Action: Gain +6 fortune. Add to pool.",
+"Stability",3,"Horse and Cart",9,7,9,0,0,"Interrupt: Perform a move action.","OR BURN CARD. Action: Gain +6 fortune. Add to pool.",
 "Stability",4,"Arts and Culture",17,15,13,0,0,"Interrupt: Remove weary or embarrassed condition.","OR BURN CARD. Action: +1 Stability.",
-"Stability",5,"Traveling Play",22,10,6,0,0,"Action: Move one character to any location in the same mission.","OR BURN CARD. Action: Gain +6 fortune. Add to pool.",
+"Stability",5,"Traveling Play",22,10,6,0,0,"Interrupt: Move one character to any imperial location.","OR BURN CARD. Action: Gain +6 fortune. Add to pool.",
 "Stability",6,"Season of Plenty",27,0,0,0,0,"Action: Gain +3 fortune. Place dice in pool.","Action: +2 Stability.",
 "Stability",7,"High Yield Investments",29,0,26,0,4,"Action: Examine top three mission cards and place two on the bottom of the deck.","OR BURN CARD. Action: Gain +6 fortune. Add to pool.",
-"Stability",8,"Friends Everywhere",30,15,14,0,0,"Action: Move any character from any location to another.","OR BURN CARD. Action: +2 Stability.",
+"Stability",8,"Friends Everywhere",30,15,14,0,0,"Interrupt: Move one character to any ally location.","OR BURN CARD. Action: +2 Stability.",
 "Stability",9,"Midsummer Party",34,23,18,0,0,"Action: +1 Stability.",,
 "Stability",10,"Bread and Circuses",42,0,0,0,0,"Action: +1 Disposition with any one faction.","OR BURN CARD. Action: +3 Stability.",
 
