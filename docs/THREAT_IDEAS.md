@@ -1,3 +1,7 @@
+Threat: 
+
+
+
 It would be nice if the threats weren't necessarily a guaranteed occurrence. One way that could happen is via a trigger causing a dice roll.
 
 Like:
