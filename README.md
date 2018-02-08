@@ -100,11 +100,32 @@ A mission pack is split into three parts.
    * Permanent Triggers
    * Effects in Play
    * Art
+* Mission / Encounter Card Types
+   * Hand
+   * Attachment
+   * Event
+   * Location
+   * Artifact
+* Mission / Encounter Card Tags
+   * Wilderness
+   * Urban
+   * Magic
+   * Lair
+   * Social
+   * Dweomer
+   * Foe
+   * Guard
+   * Obstacle
+   * Environment
+   * Asset
+   * Resource
+   * Secret
+   * Favor
 * Mission Cards (1-N)
    * The missions deck has 1-N cards in a specific ordering
    * Some mission cards may be marked S for cards starting in play
 * Encounters (usually 12+ or 6+)
-   * Types: Hand, Attachment, Event, Location
+   * Types: Hand, Attachment, Event, Location, Artifact
    * Tags: Wilderness, Magic, Lair, Urban, Social, Dweomer, Foe, Guard, Obstacle, Environment, Asset, Resource, Secret, Favor
    * Triggers: "Completion", "On Entering Play", "Season End", "Return To Red Bank", "Lowest", "Solo", "Group"
 
