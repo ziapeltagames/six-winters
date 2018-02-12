@@ -8,6 +8,7 @@ NORTH05,"North Oaks",1,"Mission","Attachment","Wilderness","Scouting Ahead","Pla
 NORTH06,"North Oaks",1,"Mission","Location","Dungeon","Musty Tomb","Optional Solo Test: Lore 2. Success: Draw stage 2 mission cards.","Deadly: Solo Test: Lore 2. Failure: Shaken",,
 NORTH07,"North Oaks",2,"Mission","Attachment","Wilderness","Scouting Ahead","Placement: Mirror Woods","Optional Ongoing Test: Survival. Progress 4. Completion: Unlock Gray Forest (Mission).",,
 NORTH08,"North Oaks",2,"Mission","Attachment","Foe","The Necromancer's Dark Heart","Placement: Musty Tomb","Optional Ongoing Test: Combat. Progress 6. Completion: Oniri joins party. MISSION COMPLETE.","Weak: Solo Test: Combat 2. Failure: Weary.","Magic: Solo Test: Lore 2. Failure: Wounded."
+
 NORTH09,"North Oaks",,"Encounter","Hand","Resource","Food Source","Action: +3 Food. Roll dice and add to pool.","Season End: +1 Food track. Burn card.",,
 NORTH10,"North Oaks",,"Encounter","Hand","Resource","Timber Source","Action: +3 Timber. Roll dice and add to pool.","Season End: +1 Timber track. Burn card.",,
 NORTH11,"North Oaks",,"Encounter","Hand","Resource","Timber Source","Action: +3 Timber. Roll dice and add to pool.","Season End: +1 Timber track. Burn card.",,
@@ -20,3 +21,13 @@ NORTH17,"North Oaks",,"Encounter","Attachment","Wilderness","Clearing the Woods"
 NORTH18,"North Oaks",,"Encounter","Attachment","Foe","Animated Dead","Placement: Any occupied location in North Oaks.","Optional Ongoing Test: Combat. Progress 4. Completion: Discard.","Strong: Combat Test: 3. Failure: Weary","Uncommon: Move to North Oaks location with lowest Lore character."
 NORTH19,"North Oaks",,"Encounter","Attachment","Wilderness","Trackless Forest","Placement: Any wilderness location.","Effect: While any character at attached location, may use timber resource dice as skill test dice.",,
 NORTH20,"North Oaks",,"Encounter","Attachment","Environment","Grueling Wilds","Placement: On character with lowest survival.","Quick: Solo Test: Survival 2. Failure: Weary.","On Movement: If character moves out of wilderness location, remove condition.",
+
+MIEAS01,"Eastkeep",S,"Mission","Location","Urban","Effect:",,,	First Contact		Solo Thievery: 1	Success: +1 Thievery. Burn card.	Failure: Weary.	
+MIEAS02,"Eastkeep",S,"Mission","Location","Urban","Effect:",,,	Establishing Safehouses		Solo Disguise: 1	Success: +1 Disguise. Burn card.	Failure: Weary.	
+MIEAS03,"Eastkeep",S,"Mission","Location","Urban","Effect:",,,	Dark Tidings		Solo Tactics: 1		Failure: Draw a threat card.	
+MIEAS04,"Eastkeep",S,"Mission","Location","Urban","Effect:",,,	Sorcerous Secrets		Group Disguise: 1	Success: +1 Espionage.	Failure: All characters weary.	
+MIEAS05,"Eastkeep",S,"Mission","Location","Urban","Effect:",,,	Run The Jewels	Optional Ongoing Test: Thievery. Progress 6. Completion: +1 Secret. MISSION COMPLETE.
+
+Threat progress?
++1 apotheosis?
++ fortune?
