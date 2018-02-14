@@ -32,7 +32,9 @@ MIEAS1	Eastkeep	1	First Contact		Solo Thievery: 1	Success: +1 Thievery. Burn car
 MIEAS2	Eastkeep	1	Establishing Safehouses		Solo Disguise: 1	Success: +1 Disguise. Burn card.	Failure: Weary.	
 MIEAS3	Eastkeep	1	Dark Tidings		Solo Tactics: 1		Failure: Draw a threat card.	
 MIEAS4	Eastkeep	1	Sorcerous Secrets		Group Disguise: 1	Success: +1 Espionage.	Failure: All characters weary.	
-MIEAS5	Eastkeep	2	Run The Jewels		Group Thievery: 2	Success: Unlock Progress development card. Place into progress deck next season. Burn card.	Failure: -1 Espionage.	
+MIEAS5	Eastkeep	2	Run The Jewels		Group Thievery: 2	Success: Unlock Progress development card. Place into progress deck next season. Burn card.	Failure: -1 Espionage.
+
+How many locations? Maybe try having all the locations out initially, and then having a number of challenges on top of those? Maybe with a set of guards that are moving around.	
 
 # Exploration
 
