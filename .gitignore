@@ -1,5 +1,6 @@
 *.iml
 .nrepl-port
+.spyproject/
 .idea/
 lib/
 target/
