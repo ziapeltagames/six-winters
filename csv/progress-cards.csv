@@ -24,6 +24,7 @@ A,,doom,overwhelming,common
 A,,trap,deadly,rare
 A,,calamity,poisonous,common
 A,timer,suspicious,special,uncommon
+A,shuffle,,,
 
 B,timer,weather,team,common
 B,,safe,team,rare
@@ -49,3 +50,4 @@ B,,doom,overwhelming,common
 B,,trap,deadly,rare
 B,,calamity,poisonous,common
 B,timer,suspicious,special,uncommon
+B,shuffle,,,
