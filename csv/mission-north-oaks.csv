@@ -1,11 +1,17 @@
 id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
 
-NORTH01,"North Oaks",S,"Mission","Location (Red Bank)","Magic","Mirror Woods","Effect: While character at Mirror Woods, +1 die for all lore tests made by any player.","Strong: Solo Test: Survival 2. Failure: Weary.",,
-NORTH02,"North Oaks",S,"Mission","Location (Red Bank)","Wilderness","Gray River","Optional Test: Survival 2. Success: +1 Fortune. Failure: Weary.",,,
+NORTH01,"North Oaks",S,"Mission","Location (Red Bank)","Magic","Gray River",".","Strong: Solo Test: Survival 2. Failure: Weary.",,
+
+NORTH02,"North Oaks",S,"Mission","Location (Red Bank)","Wilderness","Mirror Woods","(Character) Ongoing Survival 2: Place one progress on this location.","(Red Bank) Spend progress on this location. 7-10: +1 Timber, 11+: +2 Timber.","Timber: Test: Survival 3. Success: +1 Fortune. Failure: -4 progress on this card.",
+
 NORTH03,"North Oaks",S,"Mission","Attachment","Wilderness","Searching the Banks","Placement: Gray River","Optional Ongoing Test: Survival. Progress 6. Completion: Draw stage 1 mission cards.",,
+
 NORTH04,"North Oaks",1,"Mission","Location (Red Bank)","Wilderness","Exposed Overlook","Effect: +1 die for all combat tests made at this location.","Strong: Solo Test: Survival 2. Failure: Weary",,
+
 NORTH05,"North Oaks",1,"Mission","Attachment","Wilderness","Scouting Ahead","Placement: Exposed Overlook","Optional Ongoing Test: Survival. Progress 4. Completion: Unlock Sightrock (Mission).",,
+
 NORTH06,"North Oaks",1,"Mission","Location (Red Bank)","Dungeon","Musty Tomb","Optional Solo Test: Lore 2. Success: Draw stage 2 mission cards.","Deadly: Solo Test: Lore 2. Failure: Shaken",,
+
 NORTH07,"North Oaks",2,"Mission","Attachment","Wilderness","Scouting Ahead","Placement: Mirror Woods","Optional Ongoing Test: Survival. Progress 4. Completion: Unlock Gray Forest (Mission).",,
 NORTH08,"North Oaks",2,"Mission","Attachment","Foe","The Necromancer's Dark Heart","Placement: Musty Tomb","Optional Ongoing Test: Combat. Progress 6. Completion: Oniri joins party. MISSION COMPLETE.","Weak: Solo Test: Combat 2. Failure: Weary.","Magic: Solo Test: Lore 2. Failure: Wounded."
 
