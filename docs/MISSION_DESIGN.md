@@ -1,6 +1,6 @@
 # General Mission Design Philosophy
 
-Missions fall into a number of broad categories: exploration, alliance, infiltration, and quest. Each of these categories somewhat dictates a direction for how the quest should evolve. The difficulty of a mission, a number from 1-10, also provides some guidance to mission construction. Within those broad constraints is quite a bit of latitude, however.
+Missions fall into a number of broad categories: exploration, alliance, infiltration, and quest. Each of these categories somewhat dictates a direction for how the mission should evolve. The difficulty of a mission, a number from 1-10, also provides some guidance to mission construction. Within those broad constraints is quite a bit of latitude.
 
 ## Mission Overview
 
