@@ -4,12 +4,12 @@ NORTH01,"North Oaks",S,"Mission","Location (Red Bank)","Wilderness","Gray River"
 NORTH02,"North Oaks",S,"Mission","Location (Red Bank)","Wilderness","Mirror Woods,Magical","Ongoing Survival 2.","Action: Spend 8 progress to raise timber track by one.","(WEATHER) Test: Survival 3. Failure: All characters are weary.",
 NORTH03,"North Oaks",S,"Mission","Location (Red Bank)","Wilderness","Exposed Overlook","Ongoing Survival 2.","Action: Spend progress. 4: +1 timber die. 7: +2 timber dice. 9: +3 timber dice. 10: +4 timber dice.","(CALAMITY) A fire breaks out! Lose all progress on this location.",
 NORTH04,"North Oaks",S,"Mission","Attachment","Wilderness","Searching the Banks","Placement: Gray River","Ongoing Survival 2.","Action: Spend 5 progress. Draw stage 1 mission cards. Discard.",
-NORTH05,"North Oaks",S,"Mission","Attachment","Foe","Undead Minions","Placement: Mirror Woods","Ongoing Combat 2.","Action: Spend 3 progress. Burn card.","(GANG) Test: Combat 2. Failure: +2 discord for group."
+NORTH05,"North Oaks",S,"Mission","Attachment","Foe","Undead Minions","Placement: Mirror Woods","Ongoing Combat 2.","Action: Spend 3 progress. Burn card.","(GANG) Test: Combat 2. Failure: 2 discord."
 
 NORTH06,"North Oaks",1,"Mission","Attachment","Wilderness","Scouting Ahead","Placement: Exposed Overlook","Ongoing Survival 2.","Action: Spend 4 progress. Unlock Sightrock (Mission). Draw stage 2 mission cards. Discard.",
 NORTH07,"North Oaks",1,"Mission","Location (Red Bank)","Dungeon,Magical","Musty Tomb","Effect: all characters at this location have +1 lore.","Sorcery: Test: Lore 2. Failure: One character is shaken.",,
-NORTH05,"North Oaks",1,"Mission","Attachment","Foe","Undead Minions","Placement: Musty Tomb","Ongoing Combat 2.","Action: Spend 3 progress. Burn card.","(GANG) Test: Combat 2. Failure: +2 discord for group."
-NORTH09,"North Oaks",1,"Mission","Attachment","Foe","The Necromancer's Dark Heart","Placement: Musty Tomb","Solo Ongoing Lore 2.","Action: Spend 4 progress. Unlock Oniri (Character). Burn card.","(WEIRD): Test: Lore 3. Failure: One character is wounded."
+NORTH05,"North Oaks",1,"Mission","Attachment","Foe","Undead Minions","Placement: Musty Tomb","Ongoing Combat 2.","Action: Spend 3 progress. Burn card.","(GANG) Test: Combat 2. Failure: 2 discord."
+NORTH09,"North Oaks",1,"Mission","Attachment","Foe","The Necromancer's Dark Heart","Placement: Musty Tomb","Solo Ongoing Lore 2.","Action: Spend 5 progress. Unlock Oniri (Character). Burn card.","(WEIRD): Test: Lore 3. Failure: One character is wounded."
 
 NORTH10,"North Oaks",2,"Mission","Attachment","Wilderness","Scouting Ahead","Placement: Mirror Woods","Ongoing Survival 2","Action: Spend 4 progress. Unlock Gray Forest (Mission). MISSION COMPLETE.",
 
@@ -21,10 +21,10 @@ NORTH15,"North Oaks",,"Encounter","Hand","Special","Engines of Progress","Action
 
 NORTH16,"North Oaks",,"Encounter","Event","Foe","Poisonous Dusk Frogs","Solo Combat: 1. Success: +1 Combat. Burn card. Failure: Exhausted.",,,
 NORTH17,"North Oaks",,"Encounter","Event","Foe","Forest Boar","Lowest Combat: 1. Failure: Weary.",,,
-NORTH18,"North Oaks",,"Encounter","Event","Obstacle","Rocky Terrain","Survival: 2. Failure: roll 2 discord.",,,
-NORTH19,"North Oaks",,"Encounter","Event","Obstacle","Storms","Survival: 2. Failure: roll 2 discord.",,,
+NORTH18,"North Oaks",,"Encounter","Event","Obstacle","Rocky Terrain","Survival: 2. Failure: 3 discord.",,,
+NORTH19,"North Oaks",,"Encounter","Event","Obstacle","Storms","Survival: 2. Failure: 3 discord.",,,
 NORTH20,"North Oaks",,"Encounter","Event","Magic","Libram of Animation","Solo Lore: 1. Success: +1 Lore. Burn card. Failure: Angry.",,,
 
 NORTH21,"North Oaks",,"Encounter","Attachment","Wilderness","Logging Operation","Placement: Gray River","Optional Test: Survival 2. Success: +1 Timber.",,
-NORTH22,"North Oaks",,"Encounter","Attachment","Foe","Undead Minions","Placement: Exposed Overlook","Ongoing Combat 2.","Action: Spend 3 progress. Burn card.","(GANG) Test: Combat 2. Failure: +2 discord for group."
-NORTH23,"North Oaks",,"Encounter","Attachment","Environment","Grueling Wilds","Placement: On character with lowest survival.","(DOOM) Solo Test: Survival 2. Failure: Weary.","On Movement: If character moves out of wilderness location, remove condition.",
+NORTH22,"North Oaks",,"Encounter","Attachment","Foe","Undead Minions","Placement: Exposed Overlook","Ongoing Combat 2.","Action: Spend 3 progress. Burn card.","(GANG) Test: Combat 2. Failure: 2 discord."
+NORTH23,"North Oaks",,"Encounter","Attachment","Environment","Grueling Wilds","Placement: On character with lowest survival.","(DOOM) Solo Test: Survival 2. Failure: Weary.","On Movement: If character moves out of North Oaks location, remove condition.",

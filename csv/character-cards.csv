@@ -7,12 +7,12 @@ Menas,1,"The Direct Approach",,"Choice","A: +4 fortune and every other character
 Menas,2,"Whispering Spirits",,"Condition","(Oniri in Group) Menas is shaken. Burn card and unlock Menas 3.","(Else) Solo Combat: 2. Success: +2 fortune."
 Menas,3,"Less Talk!",,"Condition","(Thea in Group) Menas is angry. Burn card and unlock Menas 4.","(Else) Solo Survival: 2. Success: +2 fortune."
 
-Thea,1,"Black and White",,"Choice","A: Solo Rapport: 1. Success: Remove angry condition on another character.","B: Solo Rapport 2. Success: Remove shaken condition on another character. Burn card and unlock Thea 2."
+Thea,1,"Black and White",,"Choice","A: Solo Rapport: 1. Success: Remove angry condition on another character.","B: Solo Rapport 2. Success: Remove any psyche condition on another character. Burn card and unlock Thea 2."
 Thea,2,"The Conciliator",,"Choice","A: Solo Command: 2. Success: Thea is weary and may remove one psyche condition on another character. Burn card and unlock Thea 3.","B: Solo Command: 2. Success: +1 diplomacy."
 Thea,3,"Diplomatic Insights",,"Choice","(Alliance Mission) A: Solo Rapport: 3. Success: Examine top 3 cards in progress deck. Arrange as desired.","B: Solo Rapport: 2. Success: +2 fortune."
 Thea,8,"A Call to Action",,"Place Card In Hand","Action: Increase the disposition of a faction by one.",
 
-Fuscus,1,"Market Manipulations",,"Choice","(Thea in Group) A: Fuscus returns to Red Bank. Burn card and unlock Fuscus 2.","B: +2 luxuries."
+Fuscus,1,"Market Manipulations",,"Choice","(Thea in Group) A: Thea is shaken. Burn card and unlock Fuscus 2.","B: +2 luxuries."
 Fuscus,2,"Bending Rules",,"Choice","(Infiltration Mission) A: Solo Rapport: 2. Success: May return a timer card back into the progress deck. Shuffle progress deck. Burn card and unlock Fuscus 3.","B: Solo Rapport: 2. Success: +1 luxury."
 Fuscus,3,"Very Charming",,"Choice","A: Solo Rapport: 3. Success: All rapport tests for Fuscus are easy for the remainder of the season. Burn card and unlock Fuscus 4.","B: Solo Rapport: 2. Success: +2 fortune."
 
