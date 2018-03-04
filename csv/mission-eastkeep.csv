@@ -2,15 +2,18 @@ id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
 
 EASTKE01,"Eastkeep",S,"Mission","Location (Empire)","Urban","The Rosy Freetrader","Action: Place one progress on any ongoing Autarch threat.",,,
 EASTKE02,"Eastkeep",S,"Mission","Location (Empire)","Urban","Map Hall","Optional Test: Lore 2. Success: Move one Graycloak attachment to this location.",,,
-EASTKE03,"Eastkeep",S,"Mission","Location (Empire)","Urban","House of Cloves","Strong: Disguise Test: 2. Failure: Weary",,,
-EASTKE04,"Eastkeep",S,"Mission","Attachment","Foe","Graycloaks","Placement: Map Hall","Uncommon: Move to Eastkeep location with most progress tokens attached to it.","Weak: Test: Disguise (difficulty on overview card). Failure: Weary.",
-EASTKE05,"Eastkeep",S,"Mission","Attachment","Obstacle","Costume Ball","Placement: House of Cloves","Optional Ongoing Test: Disguise: Progress 6. Completion: Draw stage 1 mission cards.",,
-EASTKE06,"Eastkeep",1,"Mission","Location (Empire)","Urban","Root Cellar","Optional Ongoing Test: Lore. Progress 4. Completion: Unlock Prominence Mission",,,
-EASTKE07,"Eastkeep",1,"Mission","Attachment","Obstacle","Hidden Passage","Placement: Root Cellar.","Optional Ongoing Test: Thievery. Progress 6. Completion: Draw stage 2 mission cards.",,
-EASTKE08,"Eastkeep",2,"Mission","Attachment","Obstacle","Trapped Safe","Placement: Root Cellar.","Optional Ongoing Test: Thievery. Progress 8. Completion: Unlock Guilder Farms mission and +1 Secrets. MISSION COMPLETE.",,
+EASTKE03,"Eastkeep",S,"Mission","Location (Empire)","Urban","House of Cloves","Strong: Rapport Test: 2. Failure: Angry",,,
+EASTKE04,"Eastkeep",S,"Mission","Attachment","Foe","Graycloaks","Placement: House of Cloves","Ongoing Rapport 2.","Action: Spend 3 progress. Discard.","Team: Test: Disguise (difficulty on overview card). Failure: Weary."
+EASTKE05,"Eastkeep",S,"Mission","Attachment","Obstacle","Costume Ball","Placement: House of Cloves","Ongoing Disguise 2.","Action: Spend 5 progress. Draw stage 1 mission cards. Discard.",
 
-EASTKE09,"Eastkeep",,"Encounter","Attachment","Foe","Graycloaks","Placement: Map Hall","Uncommon: Move left. If at leftmost location, place at rightmost location.","Quick: Test: Disguise (difficulty on overview card). Failure: Weary.",
-EASTKE10,"Eastkeep",,"Encounter","Attachment","Foe","Graycloaks","Placement: Map Hall","Uncommon: Move right. If at rightmost location, place at leftmost location.","Strong: Test: Disguise (difficulty on overview card). Failure: Weary.",
+EASTKE06,"Eastkeep",1,"Mission","Location (Empire)","Urban","Root Cellar",,,,
+EASTKE07,"Eastkeep",1,"Mission","Attachment","Obstacle","Hidden Passage","Placement: Root Cellar.","Ongoing Thievery 2.","Action: Spend 4 progress. Draw stage 2 mission cards. Discard.",
+
+EASTKE08,"Eastkeep",2,"Mission","Attachment","Obstacle","Trapped Safe","Placement: Root Cellar.","Ongoing Thievery 2.","Action: Spend 5 progress. Unlock Guilder Farms (Mission) +1 Secret. MISSION COMPLETE.",,
+
+EASTKE09,"Eastkeep",,"Encounter","Attachment","Foe","Graycloaks","Placement: Map Hall","Team: Condition","(No characters at location) Move left.","(Else) Test: Disguise (difficulty on overview card). Failure: Weary."
+EASTKE10,"Eastkeep",,"Encounter","Attachment","Foe","Graycloaks","Placement: Map Hall","Team: Condition","(No characters at location) Move right.","(Else) Test: Disguise (difficulty on overview card). Failure: Weary."
+
 EASTKE11,"Eastkeep",,"Encounter","Event","Obstacle","First Contact","Solo Thievery: 1. Success: +1 Thievery. Burn card. Failure: Weary.",,,
 EASTKE12,"Eastkeep",,"Encounter","Event","Obstacle","Establishing Safehouses","Solo Disguise: 1. Success: +1 Disguise. Burn card. Failure: Weary.",,,
 EASTKE13,"Eastkeep",,"Encounter","Event","Obstacle","Risky Gambit","Optional Test: Thievery 2. Success: +1 Espionage. Failure: All characters in test are weary.",,,

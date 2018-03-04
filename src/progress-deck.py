@@ -9,27 +9,32 @@ Created on Tue Feb 13 21:26:54 2018
 
 from random import shuffle
 
-progress_deck = ['Timer, Comet, Uncommon',
-                 'Timer, Star, Common',
-                 'Timer, Sun, Common',
-                 'Timer, Moon, Common',
-                 'Timer, Eclipse, Rare',
-                 'Weak, Stability, Uncommon',
-                 'Weak, Timber, Common',
-                 'Weak, Summer, Common',
-                 'Weak, Conquest, Common',
-                 'Weak, Food, Common',
-                 'Strong, Diplomacy, Common',
-                 'Strong, Autumn, Common',
-                 'Strong, Military, Uncommon',
-                 'Magic, Winter, Rare',
-                 'Magic, Mana, Common',
-                 'Magic, Sorcery, Uncommon',
-                 'Quick, Espionage, Common',
-                 'Quick, Spring, Uncommon',
-                 'Quick, Ore, Common',
-                 'Deadly, Luxury, Uncommon',
-                 'shuffle']
+progress_deck = ["timer,weather,team,common",
+                 ",safe,team,rare",
+                 ",suspicious,team,uncommon",
+                 ",darkness,team,uncommon",
+                 ",sorcery,team,common",
+                 ",doom,team,common",
+                 "timer,darkness,forceful,uncommon",
+                 ",weather,forceful,common",
+                 ",safe,forceful,common",
+                 ",darkness,forceful,common",
+                 ",doom,forceful,common",
+                 "timer,sorcery,quick,common",
+                 ",darkness,quick,uncommon",
+                 ",valor,quick,common",
+                 ",trap,quick,common",
+                 "timer,doom,sneaky,common",
+                 ",darkness,sneaky,uncommon",
+                 ",safe,sneaky,common",
+                 "timer,doom,weird,common",
+                 ",suspicious,weird,uncommon",
+                 ",doom,overwhelming,common",
+                 ",trap,deadly,rare",
+                 ",calamity,poisonous,common",
+                 "timer,suspicious,special,uncommon",
+                 "shuffle,,,"]
+
 p1 = list(progress_deck)
 p2 = list(progress_deck)
 shuffle(p1)
