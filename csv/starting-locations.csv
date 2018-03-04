@@ -1,0 +1,5 @@
+id,mission,type,tags,title,blocka,blockb,blockc,blockd
+
+START01,"Starting Location","Location (Red Bank)","Urban","Hilltop Square","Ongoing Command 3.","Action: Spend 8 progress for +1 Stability.",,
+START02,"Starting Location","Location (Red Bank)","Urban","Safehome","Ongoing Lore 2.","Action: Spend 8 progress to remove one body condition.",,
+START03,"Starting Location","Location (Red Bank)","Urban","Amber Lodge","Ongoing Rapport 3.","Action: Spend 8 progress to remove one psyche condition.",,

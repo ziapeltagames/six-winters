@@ -1,0 +1,1 @@
+To-do: Add the correct flavor text and setup info for season one of six winters.
