@@ -28,3 +28,7 @@ This is currently the main actively developed area. I have .csv files for most o
 ## docs
 
 Markdown files of various documentation for this branch of *Six Winters*.
+
+## src
+
+Some python code to calculate the probability of different card occurrences.
