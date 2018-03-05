@@ -2,9 +2,10 @@
 
 The test phase could be tricky to figure out. Will need to think about the following sorts of options. By default, tests are required, and may be performed by any number of characters at the location. If the test is via an event, multiple characters may only join in on the test if they're at the same location. That is, a group is only those characters together at the same location.
 
-* Optional / Required (default)
+* Required / Optional (default)
    * Maybe tests should default to optional, with required being a modifier used sparingly
    * If there are two required tests in conflict, the player can choose how to resolve them
+   * There is a strong possibility
 * Solo / Lowest / Red Bank / Group (default)
    * Solo means any character the player controls, or any character at the location, but only one can make the test per turn!
    * Lowest means the character with the lowest value of a skill
@@ -18,7 +19,9 @@ The Progress Deck contains the following elements.
 
 * Character Cards (1-N)
 * Developments (1-N)
-* Triggers (20)
+* Triggers (24)
+   * Timers (6)
+* Shuffle Card (1)
 
 ## Questions
 
