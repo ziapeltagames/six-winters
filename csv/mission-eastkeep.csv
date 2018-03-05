@@ -4,7 +4,7 @@ EASTKE01,"Eastkeep",S,"Mission","Location (Empire)","Urban","The Rosy Freetrader
 EASTKE02,"Eastkeep",S,"Mission","Location (Empire)","Urban","Map Hall","Optional Test: Lore 2. Success: Move one Graycloak attachment to any Eastkeep location.",,,
 EASTKE03,"Eastkeep",S,"Mission","Location (Empire)","Urban","House of Cloves","Effect: all characters at this location have +1 disguise.","(DOOM) Test: Rapport 2. Failure: Angry",,
 EASTKE04,"Eastkeep",S,"Mission","Attachment","Foe","Graycloaks","Placement: House of Cloves","Ongoing Rapport 2.","Action: Spend 3 progress. Discard.","(GANG) Test: Disguise (difficulty on overview card). Failure: 3 discord."
-EASTKE05,"Eastkeep",S,"Mission","Attachment","Obstacle","Costume Ball","Placement: House of Cloves","Ongoing Disguise 2.","Action: Spend 5 progress. Draw stage 1 mission cards. Discard.",
+EASTKE05,"Eastkeep",S,"Mission","Attachment","Obstacle","Costume Ball","Placement: House of Cloves","Ongoing Disguise 2.","Action: Spend 5 progress. Draw stage 1 mission cards. Discard.",,
 
 EASTKE06,"Eastkeep",1,"Mission","Location (Empire)","Urban","Root Cellar","Effect: All disguise tests in the root cellar are difficult.",,
 EASTKE07,"Eastkeep",1,"Mission","Attachment","Obstacle","Hidden Passage","Placement: Root Cellar.","Ongoing Thievery 2.","Action: Spend 4 progress. Draw stage 2 mission cards. Discard.",
