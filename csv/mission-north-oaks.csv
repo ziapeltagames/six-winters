@@ -7,7 +7,7 @@ NORTH04,"North Oaks",S,"Mission","Attachment","Challenge, Wilderness","Searching
 NORTH05,"North Oaks",S,"Mission","Foe","Undead","Undead Minions","Test: Combat 2. Discard. Failure: 1 discord.","(GANG) Test: Combat 1 for each undead. Failure: 1 discord for each undead.",,
 
 NORTH06,"North Oaks",1,"Mission","Attachment","Challenge, Wilderness","Scouting Ahead","Placement: Exposed Overlook","Ongoing Survival 2.","Action: Spend 4 progress. Unlock Sightrock (Mission). Move to stage 2. Burn card.",
-NORTH07,"North Oaks",1,"Mission","Location (Red Bank)","Dungeon, Magical","Musty Tomb","Effect: all characters at this location have +1 lore.","Sorcery: Test: Lore 2. Failure: One character is shaken.",,
+NORTH07,"North Oaks",1,"Mission","Location (Red Bank)","Dungeon, Magical","Musty Tomb","Effect: all characters at this location have +1 lore.","(SORCERY) Test: Lore 2. Failure: One character is shaken.",,
 NORTH05,"North Oaks",1,"Mission","Foe","Undead","Undead Minions","Test: Combat 2. Discard. Failure: 1 discord.","(GANG) Test: Combat 1 for each undead. Failure: 1 discord for each undead.",,
 
 NORTH06,"North Oaks",2,"Mission","Foe","Undead","The Necromancer","Test: Lore 3. Burn card. Failure: 1 discord.","(Weird) Test: Lore 3. Failure: One character is wounded.",,

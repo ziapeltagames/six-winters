@@ -3,10 +3,11 @@ id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
 EASTKE01,"Eastkeep",S,"Mission","Location (Empire)","Urban","The Rosy Freetrader","Action: Place one progress on any ongoing Autarch threat.",,,
 EASTKE02,"Eastkeep",S,"Mission","Location (Empire)","Urban","Map Hall","Optional Test: Lore 2. Success: Discard one Graycloak.",,,
 EASTKE03,"Eastkeep",S,"Mission","Location (Empire)","Urban","House of Cloves","Effect: all characters at this location have +1 disguise.","(DOOM) Test: Rapport 2. Failure: Angry",,
-EASTKE04,"Eastkeep",S,"Mission","Foe","Guard","Graycloaks","Test: Rapport 2. Discard. Failure: 1 discord.","(GANG) Test: Disguise (Difficulty On Overview Card). Failure: 1 discord for each guard in play.",,
-EASTKE05,"Eastkeep",S,"Mission","Attachment","Obstacle","Costume Ball","Placement: House of Cloves","Ongoing Disguise 2.","Action: Spend 5 progress. Draw stage 1 mission cards. Discard.",
 
-EASTKE06,"Eastkeep",1,"Mission","Location (Empire)","Urban","Root Cellar","Effect: All disguise tests in the root cellar are difficult.",,,
+EASTKE04,"Eastkeep",S,"Mission","Foe","Guard","Graycloaks","Test: Rapport 2. Discard. Failure: 1 discord.","(GANG) Test: Disguise (Difficulty On Overview Card). Failure: 1 discord for each guard in play.",,
+EASTKE05,"Eastkeep",S,"Mission","Attachment","Obstacle","Costume Ball","Placement: House of Cloves","Ongoing Disguise 2.","Action: Spend 5 progress. Move to stage 1. Burn card.",
+
+EASTKE06,"Eastkeep",1,"Mission","Location (Empire)","Urban","Root Cellar","Effect: All disguise tests in the root cellar are difficult.",,
 EASTKE07,"Eastkeep",1,"Mission","Attachment","Obstacle","Hidden Passage","Placement: Root Cellar.","Ongoing Thievery 2.","Action: Spend 4 progress. Draw stage 2 mission cards. Discard.",
 
 EASTKE08,"Eastkeep",2,"Mission","Attachment","Obstacle","Trapped Safe","Placement: Root Cellar.","Ongoing Thievery 2.","Action: Spend 5 progress. Unlock Guilder Farms (Mission) +1 Secret. MISSION COMPLETE.",,
