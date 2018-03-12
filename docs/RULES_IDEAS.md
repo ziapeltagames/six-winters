@@ -33,6 +33,19 @@ The Progress Deck contains the following elements.
       * The advantage to symbols is that the whole thing could be decoupled
    * Instructions to draw from a deck (location or encounter)?
 
+# Card Types
+
+There are a variety of card types that can be found.
+
+## Outside of Mission
+
+The following cards may be found outside of the normal mission structure.
+
+* Artifacts
+* Developments
+* Lifepath
+* Discord
+
 # Missions
 
 A mission pack is split into three parts.
@@ -49,25 +62,15 @@ A mission pack is split into three parts.
    * Art
 * Mission / Encounter Card Types
    * Hand
+      * Asset, Resource, Secret, Favor, Condition
    * Attachment
+      * Challenge, Condition, Environment
+   * Foe
+      * Guard, Undead, Beast, Diplomat, Magical
    * Event
    * Location
+      * Wilderness, Urban, Magical
    * Artifact
-* Mission / Encounter Card Tags
-   * Wilderness
-   * Urban
-   * Magic
-   * Lair
-   * Social
-   * Dweomer
-   * Foe
-   * Guard
-   * Obstacle
-   * Environment
-   * Asset
-   * Resource
-   * Secret
-   * Favor
 * Mission Cards (1-N)
    * The missions deck has 1-N cards in a specific ordering
    * Some mission cards may be marked S for cards starting in play
