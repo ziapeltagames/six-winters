@@ -10,7 +10,7 @@ Menas,3,"Less Talk!",,"Condition","(Thea in Group) Menas is angry. Burn card and
 Thea,1,"Black and White",,"Choice","A: Solo Rapport: 1. Success: Remove angry condition on another character.","B: Solo Rapport 2. Success: Remove any psyche condition on another character. Burn card and unlock Thea 2."
 Thea,2,"The Conciliator",,"Choice","A: Solo Command: 2. Success: Thea is weary and may remove one psyche condition on another character. Burn card and unlock Thea 3.","B: Solo Command: 2. Success: +1 diplomacy."
 Thea,3,"Diplomatic Insights",,"Choice","(Alliance Mission) A: Solo Rapport: 3. Success: Examine top 3 cards in progress deck. Arrange as desired.","B: Solo Rapport: 2. Success: +2 fortune."
-Thea,8,"A Call to Action",,"Place Card In Hand","Action: Increase the disposition of a faction by one.",
+Thea,6,"A Call to Action",,"Place Card In Hand","Action: Increase the disposition of a faction by one.",
 
 Fuscus,1,"Market Manipulations",,"Choice","(Thea in Group) A: Thea is shaken. Burn card and unlock Fuscus 2.","B: +2 luxuries."
 Fuscus,2,"Bending Rules",,"Choice","(Infiltration Mission) A: Solo Rapport: 2. Success: May return a timer card back into the progress deck. Shuffle progress deck. Burn card and unlock Fuscus 3.","B: Solo Rapport: 2. Success: +1 luxury."
@@ -22,7 +22,7 @@ Oniri,3,"Weird Energies",,"Choice","A: Oniri is shattered. Gain +4 mana. Burn ca
 
 Yasmina,1,"Food and Water",,"Choice","A: Solo Lore: 3. +2 fortune. Burn card and unlock Yasmina 2.","B: Solo Lore: 1. On success remove a weary condition on any character in group."
 Yasmina,2,"TBD",,"Choice","A","B"
-Yasmina,3,"Well... *Actually*",,"Choice","A","B"
+Yasmina,3,"Well Actually...",,"Choice","A","B"
 
 Viator,1,"TBD",,"Choice","A","B"
 Viator,2,"TBD",,"Progressing Illness","Take two conditions. Burn card and unlock Viator 3.",
