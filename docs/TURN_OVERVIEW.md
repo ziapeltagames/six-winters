@@ -1,14 +1,3 @@
-# Progress Phase
-
-* Draw progress card
-* Resolve triggers
-     * Top to bottom
-* If a development or character card is drawn, resolve card and draw again
-* If an encounter card is drawn
-     * Event: resolve immediately
-     * Hand / Artifact: place in hand
-     * Location / Attachment / Foe: place as directed
-
 # Movement Phase
 
 * Move characters
@@ -34,3 +23,14 @@
      * May not use actions on locations in other group's mission
 * Test resolve
      * Lower discord by character's resolve, take one condition
+
+# Progress Phase
+
+* Draw progress card
+* Resolve triggers
+     * Top to bottom
+* If a development or character card is drawn, resolve card and draw again
+* If an encounter card is drawn
+     * Event: resolve immediately
+     * Hand / Artifact: place in hand
+     * Location / Attachment / Foe: place as directed
