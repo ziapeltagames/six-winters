@@ -8,6 +8,7 @@
      * Six total spotlight locations
 * Choose Missions
 * Divide Up Characters
+     * Each player needs at least one character
 * Place Starting Mission Cards
 * Place Characters at Starting Locations
      * Either in spotlight tableau or on mission location

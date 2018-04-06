@@ -1,17 +1,17 @@
 # six-winters
 
-*Six Winters* is the current working title for the *Wrath of the Autarch* boardgame. It combines legacy kingdom building elements, a resource dice game, and a push your luck card driven quest system. It's a mix of games like *Incan Gold*, *Tales of the Arabian Nights*, *7th Continent*, and *Kingsburg*.
+*Six Winters* is the current working title for the *Wrath of the Autarch* boardgame. It combines legacy kingdom building elements, a resource dice game, and a push card driven quest system. It's a mix of games like *Incan Gold*, *Tales of the Arabian Nights*, *7th Continent*, *City of Kings*, *Arkham Horror Cardgame*, and *Kingsburg*.
 
 # Directory Structure
 
 ## csv
 
-This is the main actively developed area. There are .csv files for most cards in the game. They get imported into InDesign to quickly create physical card decks for playtesting.
+This is the main actively developed area. There are .csv files for most cards in the game. They get imported into InDesign to quickly create physical card decks for playtesting. There are cards for missions, developments, and character decks, along with a progress deck.
 
 ## docs
 
-Markdown files of various documentation for this branch of *Six Winters*.
+Markdown files of various documentation for *Six Winters*.
 
 ## src
 
-Some python code to calculate the probability of different card occurrences.
+Some python code to calculate the probability of different card and dice combinations in the game.
