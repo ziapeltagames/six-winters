@@ -1,7 +1,4 @@
 name,type,difficulty,skills,triggera,triggerb,triggerc,triggerd,triggere,triggerf,triggerg,rewards
-
-"North Oaks","Exploration","1","Survival, Combat, Lore","1 Timer: 2 discord.","2 Timers: 3 discord.","3 Timers: 4 discord.","4 Timers: 5 discord and +1 Apotheosis.","5 Timers: +1 Apotheosis and Season End.","Common: Draw encounter card.",,"Timber, Food, Ore, Mana, Character"
-
-"Eastkeep","Infiltration","1","Thievery, Disguise, Tactics","1 Timer: Disguise 2 to avoid Graycloaks.","2 Timers: Disguise 3 to avoid Graycloaks.","3 Timers: Disguise 4 to avoid Graycloaks.","4 Timers: Disguise 5 to avoid Graycloaks.","5 Timers: +1 Apotheosis and Season End.","Uncommon: Draw encounter card.",,"Secrets"
-
-"Sunriders","Alliance","3","Command, Rapport, Tactics","1 Timer: 2 discord.","2 Timers: 3 discord.","3 Timers: 4 discord.","4 Timers: 5 discord and +1 Apotheosis.","5 Timers: +1 Apotheosis and Season End.","Common: Draw encounter card.",,"Disposition, Military, Quest"
+"North Oaks","Exploration","1","Survival, Combat, Lore","1 Timer: 2 discord.","2 Timers: 3 discord.","3 Timers: 4 discord.","4 Timers: 5 discord and +1 Apotheosis.","5 Timers: +1 Apotheosis and Season End.",,"Mission Success: Complete stage 2 challenges.","Timber, Food, Ore, Mana, Character"
+"Eastkeep","Infiltration","1","Thievery, Disguise, Tactics","0 Timers: Disguise 1 to avoid Graycloaks","1 Timer: Disguise 1 to avoid Graycloaks.","2 Timers: Disguise 2 to avoid Graycloaks.","3 Timers: Disguise 3 to avoid Graycloaks.","4 Timers: Disguise 4 to avoid Graycloaks.","5 Timers: +1 Apotheosis and Season End.","Mission Success: Complete stage 2 challenges.","Secrets"
+"Sunriders","Alliance","1","Command, Rapport, Tactics","1 Timer: 2 discord.","2 Timers: 3 discord.","3 Timers: 4 discord.","4 Timers: 5 discord and +1 Apotheosis.","5 Timers: +1 Apotheosis and Season End.",,"Mission Success: Complete stage 2 challenges.","Disposition, Military, Quest"

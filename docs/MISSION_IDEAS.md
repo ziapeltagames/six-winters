@@ -3,14 +3,16 @@
 The following types of cards may be found during a mission.
 
 * Hand - Place into player's hand.
+   * Artifact - Place in hand. Additionally, a player may start any season with this card in their hand.
+* Foe - Goes into the area for foes.
+   * Maybe need a better word for this? In an alliance mission, they aren't really foes. Maybe opponent? Rival? Opposition?
 * Event - Handle immediately.
-* Attachment - Attach to what's described.
+* Attachment - Attach to what's described, either a character or a location.
 * Location - Place on the mission tableau. May also be added to the spotlight tableau.
-* Artifact - Place in hand. Additionally, a player may start any season with this card in their hand.
 
 ## Multiple Players
 
-It's possible for both players to go on the same quest. In general, this is overkill, but it is possible. This is also discouraged by having "lowest" skill tests. However, there may be times where it's useful to undertake the same mission. In particular, this is true for the animaelic forest quest.
+It's possible for both players to go on the same quest. In general, this is overkill, but it is possible. This is also discouraged by having "lowest" skill tests. However, there may be times where it's useful to undertake the same mission. In particular, this is true for the Animaelic Forest quest.
 
 # Infiltration
 

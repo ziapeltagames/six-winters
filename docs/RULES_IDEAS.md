@@ -2,9 +2,10 @@
 
 The test phase could be tricky to figure out. Will need to think about the following sorts of options. By default, tests are required, and may be performed by any number of characters at the location. If the test is via an event, multiple characters may only join in on the test if they're at the same location. That is, a group is only those characters together at the same location.
 
-* Optional / Required (default)
+* Required / Optional (default)
    * Maybe tests should default to optional, with required being a modifier used sparingly
    * If there are two required tests in conflict, the player can choose how to resolve them
+   * There is a strong possibility
 * Solo / Lowest / Red Bank / Group (default)
    * Solo means any character the player controls, or any character at the location, but only one can make the test per turn!
    * Lowest means the character with the lowest value of a skill
@@ -18,7 +19,9 @@ The Progress Deck contains the following elements.
 
 * Character Cards (1-N)
 * Developments (1-N)
-* Triggers (20)
+* Triggers (24)
+   * Timers (6)
+* Shuffle Card (1)
 
 ## Questions
 
@@ -29,6 +32,19 @@ The Progress Deck contains the following elements.
       * Seasons (winter, summer, spring, fall), Magic, Environment, Base Attack, Severe Attack, Timers
       * The advantage to symbols is that the whole thing could be decoupled
    * Instructions to draw from a deck (location or encounter)?
+
+# Card Types
+
+There are a variety of card types that can be found.
+
+## Outside of Mission
+
+The following cards may be found outside of the normal mission structure.
+
+* Artifacts
+* Developments
+* Lifepath
+* Discord
 
 # Missions
 
@@ -46,25 +62,15 @@ A mission pack is split into three parts.
    * Art
 * Mission / Encounter Card Types
    * Hand
+      * Asset, Resource, Secret, Favor, Condition
    * Attachment
+      * Challenge, Condition, Environment
+   * Foe
+      * Guard, Undead, Beast, Diplomat, Magical
    * Event
    * Location
+      * Wilderness, Urban, Magical
    * Artifact
-* Mission / Encounter Card Tags
-   * Wilderness
-   * Urban
-   * Magic
-   * Lair
-   * Social
-   * Dweomer
-   * Foe
-   * Guard
-   * Obstacle
-   * Environment
-   * Asset
-   * Resource
-   * Secret
-   * Favor
 * Mission Cards (1-N)
    * The missions deck has 1-N cards in a specific ordering
    * Some mission cards may be marked S for cards starting in play
