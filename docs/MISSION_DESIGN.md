@@ -1,3 +1,5 @@
+To-do: When the design stops changing so much, this will have mission design guidance that can be used to possibly hire other people to help make missions. Right now the game is in flux too much.
+
 # General Mission Design Philosophy
 
 Missions fall into a number of broad categories: exploration, alliance, infiltration, and quest. Each of these categories somewhat dictates a direction for how the mission should evolve. The difficulty of a mission, a number from 1-10, also provides some guidance to mission construction. Within those broad constraints is quite a bit of latitude.
