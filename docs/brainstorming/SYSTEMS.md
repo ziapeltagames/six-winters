@@ -1,17 +1,22 @@
-# Skill Tests
+# Tests
 
-The test phase could be tricky to figure out. Will need to think about the following sorts of options. By default, tests are required, and may be performed by any number of characters at the location. If the test is via an event, multiple characters may only join in on the test if they're at the same location. That is, a group is only those characters together at the same location.
+Tests and other dice manipulations are a pretty big part of the game. Trying to strike a balance between using dice, but also having ways of controlling the uncertainty. Otherwise you can get some pretty big swings.
+
+Following is a rough schema that describes how tests are organized.
 
 * Required / Optional (default)
-   * Maybe tests should default to optional, with required being a modifier used sparingly
-   * If there are two required tests in conflict, the player can choose how to resolve them
-   * There is a strong possibility
+   * Not sure if required tests are a very good idea, probably not, but going to keep it as a possibility for now
+   * Required tests might be useful on certain locations to make them less appealing
 * Solo / Lowest / Red Bank / Group (default)
    * Solo means any character the player controls, or any character at the location, but only one can make the test per turn!
+      * Solo should also probably be used sparingly
    * Lowest means the character with the lowest value of a skill
+      * These are probably going to come in mainly from encounter cards
    * Red Bank tests use a red bank society track, so no mana may be used (no backlash)
+      * Could also use alliance tracks for tests?
 * Ongoing / One-time (default)
    * Ongoing will most likely have progress tracks on the card
+   * In an ongoing test, the character just adds progress based on a skill or track
 
 # The Progress Deck
 
@@ -21,30 +26,59 @@ The Progress Deck contains the following elements.
 * Developments (1-N)
 * Triggers (24)
    * Timers (6)
+   * Draw Encounter Card (6)
 * Shuffle Card (1)
+
+The main purpose of the progress deck is to bring the mission to a close (timers), as well as trigger location and opponent abilities.
 
 ## Questions
 
 * Do you need a timers broken out at all?
    * Or is it better to just put symbols on those cards and let the mission card decide what it all means?
+   * For now, mixing the timers in seems better
 * What's on the mission cards?
    * Symbols?
       * Seasons (winter, summer, spring, fall), Magic, Environment, Base Attack, Severe Attack, Timers
       * The advantage to symbols is that the whole thing could be decoupled
    * Instructions to draw from a deck (location or encounter)?
 
+Another option might be a unified progress deck?
+
 # Card Types
 
-There are a variety of card types that can be found.
+There are five different types of cards in the game. Each type of card has slightly different ways it is put into play and used.
 
-## Outside of Mission
+* Hand - Cards that are held in a player's hand, they can usually be played as interrupts, whenever the player wants
+   * Sometimes there are restrictions on when they can be played, for example, only on a character at a wilderness location, etc.
+* Location - These are places that characters can be, they typically have actions on them that characters can do
+   * Spotlight locations are places the player's have found that they put into play at the start of a mission
+* Attachment - Cards that attach to a location or a character and affect it somehow
+   * Conditions, environments, challenges
+* Event - These cards do something and then are usually discarded
+* Obstacle - These cards go into the obstacle area for the given mission and might be triggered by progress cards
 
-The following cards may be found outside of the normal mission structure.
+## Tags
 
-* Artifacts
-* Developments
-* Lifepath
-* Discord
+Tags might appear on cards to give them more flavor and pair with character abilities. Cards don't have to have tags.
+
+Common tags: Wilderness, Urban, Red Bank, Sorcery, Guard, Undead, Beast, Diplomat, Trap, Challenge, Environment, Condition, Asset, Resource, Secret, Favor
+
+## Triggers
+
+Cards may also have triggers that restrict how they are played.
+
+Example triggers: Season End, Burn, On Entering Play, Lowest, Solo, Group, Completion
+
+## Card Decks
+
+Finally, the different types of cards get placed into different decks depending on how they're used.
+
+* Progress - Each player uses a progress deck that triggers locations and obstacles
+* Developments - These cards are available for purchase during the game, later they are placed in the progress deck at the start of the mission
+* Mission - There are mission decks for the current mission that feature locations and various cards that may be retrieved as specified on the mission
+* Encounter - The encounter deck for the mission has random events characters encounter via progress deck triggers
+* Lifepath - Character lifepath cards are placed into the progress deck at the start of the mission
+* Discord - Character discord cards are placed into the progress deck at the start of the mission
 
 # Missions
 
@@ -58,23 +92,16 @@ A mission pack is split into three parts.
    * Flavor Text
    * Assets Available
    * Permanent Triggers
+   * Timers
+   * Achievements
    * Effects in Play
    * Art
-* Mission / Encounter Card Types
-   * Hand
-      * Asset, Resource, Secret, Favor, Condition
-   * Attachment
-      * Challenge, Condition, Environment
-   * Foe
-      * Guard, Undead, Beast, Diplomat, Magical
-   * Event
-   * Location
-      * Wilderness, Urban, Magical
-   * Artifact
-* Mission Cards (1-N)
-   * The missions deck has 1-N cards in a specific ordering
-   * Some mission cards may be marked S for cards starting in play
-* Encounters (usually 12+ or 6+)
+* Mission Cards
+   * The missions deck has cards in a specific ordering
+   * They may be subdivided into a few different decks based on shorter goals
+   * Some mission cards may are marked S for cards starting in play
+      * Usually these are locations
+* Encounters (usually 12 or so)
    * Types: Hand, Attachment, Event, Location, Artifact
    * Tags: Wilderness, Magic, Lair, Urban, Social, Dweomer, Foe, Guard, Obstacle, Environment, Asset, Resource, Secret, Favor
    * Triggers: "Completion", "On Entering Play", "Season End", "Return To Red Bank", "Lowest", "Solo", "Group"
@@ -102,8 +129,9 @@ Threats tend to attach to a specific type of location, sometimes the threat will
 
 # Currencies
 
-* Seasons (time)
-* Apotheosis (time)
+* Seasons
+* Apotheosis
+* Secrets
 * Red Bank Tracks
    * Conquest
    * Sorcery
@@ -123,11 +151,9 @@ Threats tend to attach to a specific type of location, sometimes the threat will
    * Sunriders
    * Lily Manor
    * Crescent Hold
-* Imperial Secrets
-   * Guilder
-   * Gray Cloak
-   * Autarch
 * Fortune
-* Conditions
+* Discord Pool
 * Character Skills
-* Character Cards (levels)
+* Conditions
+* Lifepath Cards
+* Discord Cards
