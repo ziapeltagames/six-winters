@@ -1,3 +1,5 @@
+Some of this doc should eventually be broken out into the rules sections. Right now it focuses on how the key systems interact as well as currency flows.
+
 # Tests
 
 Tests and other dice manipulations are a pretty big part of the game. Trying to strike a balance between using dice, but also having ways of controlling the uncertainty. Otherwise you can get some pretty big swings.
@@ -108,15 +110,25 @@ A mission pack is split into three parts.
 
 ## Questions
 
+* How should the mission deck be structured?
+
+* Can you fail missions?
+  * No. (Current Choice)
+     * It's not so fun to re-do a mission, particularly if you were close to finishing it the first time.
+     * It's also more overhead to track progress.
+     * Rather than fail, there would be "achievements" of some sort that would provide partial successes.
+
 * Should a location be in play at all times?
-   * This is probably easiest, so you can do "at this location" sort of effects. (Current Choice)
+   * Having one is probably easiest, so you can do "at this location" sort of effects. (Current Choice)
    * It also avoids confusing situations where a location goes away or appears and you have to shuffle characters around.
    * On the downside, it might be nice to have missions with no real fixed locations, or locations that evolve and grow.
+
 * How do you get new mission cards?
    * Could progress through them via earlier mission cards. (Current Choice)
    * Could draw them based off of a symbol.
    * Could be part of a trigger from another card.
       * For example, an encounter card could unlock something from the mission deck.
+
 * How do you get new encounters?
    * Could draw them based off of a symbol. (Current Choise)
    * Could be part of a trigger from another card.
@@ -157,3 +169,61 @@ Threats tend to attach to a specific type of location, sometimes the threat will
 * Conditions
 * Lifepath Cards
 * Discord Cards
+
+# Analysis
+
+Games are a combination of choices and uncertainty. If either element is lacking, it's not very interesting. Particularly without uncertainty. Identifying how choices and uncertainty mix is useful for figuring out where the game might be lacking. Also might be worth thinking about similar games and how they handle the same problems. Is it possible to think about using elements from similar games?
+
+## Sources of Uncertainty
+
+* Resource Dice
+* Dice for Tests
+* Progress Deck
+   * Triggers
+   * Developments
+   * Lifepath Cards
+   * Discord Cards
+* Encounter Cards
+
+## Key Choices
+
+* Deck Building
+* Location Uses
+* Team Building
+* Spending Resources
+* Accumulating Conditions
+* Mission Order
+
+# Interacting Subsystems
+
+## The Spatial Game
+
+## The Card Game
+
+## The Dice Game
+
+## The Narrative
+
+# Signposts
+
+## Threats
+
+## Missions
+
+### Questions
+
+## Secrets
+
+# Influences
+
+## Tales of the Arabian Nights
+
+## City of Kings
+
+## 7th Continent
+
+## Eldritch Horror
+
+## Arkham Card Game
+
+The Arkham Card Game and Warhammer Quest Card Game are both similar to 6W in that they're linked narratives without a spatial map of any sort, relying more heavily on card play to account for interesting tactical choices.
