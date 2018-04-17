@@ -1,16 +1,19 @@
 id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
 
-NORTH01,"North Oaks",S,"Mission","Location (Red Bank)","Wilderness","Gray River","Action: Convert any number of timer dice into fortune dice.",,,
-NORTH02,"North Oaks",S,"Mission","Location (Red Bank)","Wilderness","Mirror Woods, Magical","Ongoing Survival 2.","Action: Spend 8 progress to raise timber track by one.","(DISASTER) Test: Survival 3. Failure: All characters are weary.",
-NORTH03,"North Oaks",S,"Mission","Location (Red Bank)","Wilderness","Exposed Overlook","Ongoing Survival 2.","Action: Spend progress. 4: +1 timber die. 7: +2 timber dice. 9: +3 timber dice. 10: +4 timber dice.","(CALAMITY) A fire breaks out! Lose all progress on this location.",
-NORTH04,"North Oaks",S,"Mission","Attachment","Challenge, Wilderness","Searching the Banks","Placement: Gray River","Ongoing Survival 2.","Action: Spend 5 progress. Move to stage 1. Burn card.",
-NORTH05,"North Oaks",S,"Mission","Opponent","Undead","Undead Minions","Test: Combat 2. Success: Discard. Failure: 1 discord.","(GANG) Test: Combat 1 for each undead. Failure: 1 discord for each undead.",,
-NORTH06,"North Oaks",1,"Mission","Attachment","Challenge, Wilderness","Scouting Ahead","Placement: Exposed Overlook","Ongoing Survival 2.","Action: Spend 4 progress. Unlock Mission: Sightrock. Move to stage 2. Burn card.",
-NORTH07,"North Oaks",1,"Mission","Location (Red Bank)","Dungeon, Magical","Musty Tomb","Effect: all characters at this location have +1 lore.","(SORCERY) Test: Lore 2. Failure: One character is shaken.",,
-NORTH08,"North Oaks",1,"Mission","Opponent","Undead","Undead Minions","Test: Combat 2. Sucess: Discard. Failure: 1 discord.","(GANG) Test: Combat 1 for each undead. Failure: 1 discord for each undead.",,
-NORTH09,"North Oaks",2,"Mission","Opponent","Undead","The Necromancer","Test: Lore 3. Success: Burn card. Failure: 1 discord.","(WEIRD) Test: Lore 3. Failure: One character is wounded.",,
-NORTH10,"North Oaks",2,"Mission","Attachment","Challenge, Wilderness","Scouting Ahead","Placement: Mirror Woods","Ongoing Survival 2","Action: Spend 4 progress. Unlock Mission: Gray Forest. Move to stage 3. Burn card.",
-NORTH11,"North Oaks",3,"Mission","Attachment","Challenge, Magical","The Necromancer's Dark Heart","Placement: Musty Tomb","Solo Ongoing Lore 2.","Action: Spend 5 progress. Unlock Character: Oniri. MISSION COMPLETE.",
+NORTH01,"North Oaks",S,"Mission","Location (Red Bank)","Wilderness","Gray River","Action: Convert any number of timber dice into fortune dice.",,,
+NORTH02,"North Oaks",S,"Mission","Location (Red Bank)","Wilderness","Mirror Woods, Magical","Action: Ongoing Conquest.","Immediate: Spend 8 progress to raise timber track by one.","(DISASTER) Test: Survival 3. Failure: All characters are weary.",
+NORTH03,"North Oaks",S,"Mission","Location (Red Bank)","Wilderness","Exposed Overlook","Action: Ongoing Survival.","Action: Spend progress. 4: +1 timber die. 7: +2 timber dice. 9: +3 timber dice. 10: +4 timber dice.","(CALAMITY) A fire breaks out! Lose all progress on this location.",
+NORTH07,"North Oaks",S,"Mission","Location (Red Bank)","Dungeon, Magical","Musty Tomb","Effect: All characters at this location have +1 lore.","(SORCERY) Test: Lore 2. Failure: One character is shaken.",,
+
+NORTH09,"North Oaks",S,"Mission","Opponent","Undead","The Necromancer","Test: Lore 3. Success: Burn card. Failure: 1 discord.","(WEIRD) Test: Lore 3. Failure: One character is wounded.",,
+NORTH08,"North Oaks",S,"Mission","Opponent","Undead","Undead Minions","Test: Combat 2. Sucess: Discard. Failure: 1 discord.","(GANG) Test: Combat 1 for each undead. Failure: 1 discord for each undead.",,
+
+NORTH04,"North Oaks",S,"Mapping the Hinterlands","Attachment","Challenge, Wilderness","Searching the Banks","Placement: Gray River","Ongoing Survival 2.","Action: Spend 5 progress. Move to stage 1. Burn card.",
+NORTH06,"North Oaks",1,"Mapping the Hinterlands","Attachment","Challenge, Wilderness","Scouting Ahead","Placement: Exposed Overlook","Ongoing Survival 2.","Action: Spend 4 progress. Unlock Mission: Sightrock. Move to stage 2. Burn card.",
+
+NORTH10,"North Oaks",2,"The Necromancer's Tomb","Attachment","Challenge, Wilderness","Scouting Ahead","Placement: Mirror Woods","Ongoing Survival 2","Action: Spend 4 progress. Unlock Mission: Gray Forest. Move to stage 3. Burn card.",
+NORTH11,"North Oaks",3,"The Necromancer's Tomb","Attachment","Challenge, Magical","The Necromancer's Dark Heart","Placement: Musty Tomb","Solo Ongoing Lore 2.","Action: Spend 5 progress. Unlock Character: Oniri. MISSION COMPLETE.",
+NORTH05,"North Oaks",S,"The Necromancer's Tomb","Opponent","Undead","Undead Minions","Test: Combat 2. Success: Discard. Failure: 1 discord.","(GANG) Test: Combat 1 for each undead. Failure: 1 discord for each undead.",,
 
 NORTH12,"North Oaks",,"Encounter","Hand","Resource","Food Source","Action: +3 Food. Roll dice and add to pool.","Season End: +1 Food track. Burn card.",,
 NORTH13,"North Oaks",,"Encounter","Hand","Resource","Timber Source","Action: +3 Timber. Roll dice and add to pool.","Season End: +1 Timber track. Burn card.",,
