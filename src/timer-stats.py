@@ -32,6 +32,8 @@ progress_deck = ["timer,weather,team,common",
                  ",trap,deadly,rare",
                  ",calamity,poisonous,common",
                  "timer,suspicious,special,uncommon",
+                 "timer,blah,blah,blah",
+                 "timer,blah,blah,blah",
                  "shuffle,,,"]
 
 prd = list(progress_deck)
@@ -44,7 +46,7 @@ for i in range(0,100000):
     cards = 0
     timers = 0
     
-    while timers < 3:
+    while timers <= 5:
     
         if prd[prd_ind].find('timer') >= 0:
             timers = timers + 1
