@@ -1,26 +1,26 @@
 character,number,title,text,switch,blocka,blockb
-Keel,1,"Right Tool For The Job",,"Choice","A: Solo Survival: 1. Success: +2 fortune.","B: Solo Survival: 2. Success: Effect. Add +2 dice to all survival tests for the remainder of the season. End of season: Burn card and unlock Keel 2."
-Keel,2,"Alone in the Dark",,"Choice","(Infiltration Mission) A: Solo Thievery: 1. Success: Effect. Add +2 dice to all thievery tests for the remainder of the season. End of season: Burn card and unlock Keel 3.","B: Solo Thievery: 2. Success: +2 fortune."
-Keel,3,"Unlikely Friends",,"Choice","(Menas in Group) A: Remove one psyche condition on Keel. Burn card and unlock Keel 4.","B: Solo Thievery: 2. On success +2 fortune."
+Keel,1,"Right Tool For The Job",,"Choice","A Interrupt: +2 Fortune.","B Interrupt: Solo Survival 2. Success: Effect. Add +2 dice to Survival for the remainder of the season. End of season: Burn card and unlock Keel 2."
+Keel,2,"Alone in the Dark",,"Choice","(Infiltration Mission) A Interrupt: Solo Thievery 1. Success: Effect. Add +2 dice to all Thievery tests for the remainder of the season. End of season: Burn card and unlock Keel 3.","B Interrupt: +4 Fortune."
+Keel,3,"Unlikely Friends",,"Choice","(Menas in Group) A Interrupt: Remove one psyche condition on Keel. Burn card and unlock Keel 4.","B Interrupt: +4 Fortune."
 
-Menas,1,"The Direct Approach",,"Choice","A: +4 fortune and every other character in group is angry. Burn card and unlock Menas 2.","B: +2 fortune."
-Menas,2,"Whispering Spirits",,"Condition","(Oniri in Group) Menas is shaken. Burn card and unlock Menas 3.","(Else) Solo Combat: 2. Success: +2 fortune."
-Menas,3,"Less Talk!",,"Condition","(Thea in Group) Menas is angry. Burn card and unlock Menas 4.","(Else) Solo Survival: 2. Success: +2 fortune."
+Menas,1,"The Direct Approach",,"Choice","A Interrupt: +4 Fortune and every other character in group is Angry. Burn card and unlock Menas 2.","B Interrupt: +1 Fortune."
+Menas,2,"Whispering Spirits",,"Choice","(Oniri in Group) A Interrupt: Menas is Shaken. Burn card and unlock Menas 3.","B Interrupt: +2 Fortune."
+Menas,3,"Less Talk!",,"Choice","(Thea in Group) A Interrupt: Menas is Angry. Burn card and unlock Menas 4.","B Interrupt: +3 Fortune."
 
-Thea,1,"Black and White",,"Choice","A: Solo Rapport: 1. Success: Remove angry condition on another character.","B: Solo Rapport 2. Success: Remove any psyche condition on another character. Burn card and unlock Thea 2."
-Thea,2,"The Conciliator",,"Choice","A: Solo Command: 2. Success: Thea is weary and may remove one psyche condition on another character. Burn card and unlock Thea 3.","B: Solo Command: 2. Success: +1 diplomacy."
-Thea,3,"Diplomatic Insights",,"Choice","(Alliance Mission) A: Solo Rapport: 3. Success: Examine top 3 cards in progress deck. Arrange as desired.","B: Solo Rapport: 2. Success: +2 fortune."
+Thea,1,"Black and White",,"Choice","A Interrupt: Solo Rapport: 1. Success: Remove Frustrated or Angry condition on another character.","B Interrupt: Solo Rapport 2. Success: Remove any psyche condition on another character. Burn card and unlock Thea 2."
+Thea,2,"The Conciliator",,"Choice","A Interrupt: Solo Command: 2. Success: Thea is Weary and may remove one psyche condition on another character. Burn card and unlock Thea 3.","B Interrupt: Solo Command 4. Success: +1 Diplomacy."
+Thea,3,"Diplomatic Insights",,"Choice","(Alliance Mission) A Interrupt: Solo Rapport 3. Success: Examine top 4 cards in progress deck. Arrange as desired. Burn card and unlock Thea 4.","B Interrupt: Solo Rapport: 2. Success: +2 Fortune."
 Thea,6,"A Call to Action",,"Place Card In Hand","Action: Increase the disposition of a faction by one.",
 
-Fuscus,1,"Market Manipulations",,"Choice","(Thea in Group) A: Thea is shaken. Burn card and unlock Fuscus 2.","B: +2 luxuries."
-Fuscus,2,"Bending Rules",,"Choice","(Infiltration Mission) A: Solo Rapport: 2. Success: May return a timer card back into the progress deck. Shuffle progress deck. Burn card and unlock Fuscus 3.","B: Solo Rapport: 2. Success: +1 luxury."
-Fuscus,3,"Very Charming",,"Choice","A: Solo Rapport: 3. Success: All rapport tests for Fuscus are easy for the remainder of the season. Burn card and unlock Fuscus 4.","B: Solo Rapport: 2. Success: +2 fortune."
+Fuscus,1,"Market Manipulations",,"Choice","(Thea in Group) A Interrupt: Thea is Shaken. Burn card and unlock Fuscus 2.","B Interrupt: +2 Luxuries."
+Fuscus,2,"Bending Rules",,"Choice","(Infiltration Mission) A Interrupt: Solo Rapport 2. Success: May return a timer card back into the progress deck. Shuffle progress deck. Burn card and unlock Fuscus 3.","B Interrupt: +2 Luxuries."
+Fuscus,3,"Very Charming",,"Choice","A Interrupt: Solo Rapport 3. Success: All Rapport tests for Fuscus are easy for the remainder of the season. Burn card and unlock Fuscus 4.","B Interrupt: +2 Luxuries."
 
-Oniri,1,"I'm Always in Pain",,"Choice","A: Give Oniri a condition to remove a condition from someone else in the group. Burn card and unlock Oniri 2.","B: Solo Lore 1. Success +1 mana."
-Oniri,2,"Always Alone",,"Condition","(Oniri is Alone) Burn card and unlock Oniri 3.","(Else) Solo Lore 2. Success: +2 mana."
-Oniri,3,"Weird Energies",,"Choice","A: Oniri is shattered. Gain +4 mana. Burn card and unlock Oniri 4.","B: Solo Lore 2. Success: +2 fortune."
+Oniri,1,"I'm Always in Pain",,"Choice","A Interrupt: Give Oniri a condition to remove a condition from someone else in the group. Burn card and unlock Oniri 2.","B Interrupt: +1 Mana."
+Oniri,2,"Always Alone",,"Choice","(Oniri is alone at location with at least one obstacle) A Interrupt: Oniri is Exhausted. Burn card and unlock Oniri 3.","B Interrupt: +2 Mana."
+Oniri,3,"Weird Energies",,"Choice","A Interrupt: Oniri is Shattered. Gain +4 Mana. Burn card and unlock Oniri 4.","B Interrupt: +2 Mana."
 
-Yasmina,1,"Food and Water",,"Choice","A: Solo Lore: 3. +2 fortune. Burn card and unlock Yasmina 2.","B: Solo Lore: 1. On success remove a weary condition on any character in group."
+Yasmina,1,"Food and Water",,"Choice","A Interrupt: Solo Lore: 3. +2 Fortune. Burn card and unlock Yasmina 2.","B Interrupt: Solo Lore: 1. On success remove a weary condition on any character in group."
 Yasmina,2,"TBD",,"Choice","A","B"
 Yasmina,3,"Well Actually...",,"Choice","A","B"
 

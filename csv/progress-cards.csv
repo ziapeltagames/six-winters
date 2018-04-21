@@ -2,7 +2,7 @@ deck,@symbol1,symbol2,symbol3,@symbol4
 
 A,../../images/sands-of-time.png,DISASTER,GANG,../../images/card-draw.png
 A,,SAFE,GANG,
-A,,DOOM,GANG,
+A,../../images/sands-of-time.png,DOOM,GANG,
 A,,MISFORTUNE,GANG,
 A,,SORCERY,GANG,../../images/card-draw.png
 A,,DARKNESS,GANG,../../images/card-draw.png
@@ -28,7 +28,7 @@ A,,,SHUFFLE,
 
 B,../../images/sands-of-time.png,DISASTER,GANG,../../images/card-draw.png
 B,,SAFE,GANG,
-B,,DOOM,GANG,
+B,../../images/sands-of-time.png,DOOM,GANG,
 B,,MISFORTUNE,GANG,
 B,,SORCERY,GANG,../../images/card-draw.png
 B,,DARKNESS,GANG,../../images/card-draw.png
