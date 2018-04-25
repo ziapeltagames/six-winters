@@ -1,9 +1,9 @@
 id,mission,type,tags,title,blocka,blockb,blockc,blockd
 
-START01,"Starting Location","Location (Red Bank)","Urban","House Eight Star","Action: Spend six resource dice to increase any society or alliance track by one.",,,
-START02,"Starting Location","Location (Red Bank)","Wilderness","Roads Ever On","Action: Spend three resource dice of one type to get one new resource along the wheel of trade.",,,
-START03,"Starting Location","Location (Red Bank)","Urban","Hilltop Square","Action: Spend one resource die to get one fortune die.",,,
+START01,"Starting Location","Location (Red Bank)","Urban","House Eight Star","Action: Spend 8 resource dice to increase any society or alliance track by one.",,,
+START02,"Starting Location","Location (Red Bank)","Wilderness","Roads Ever On","Action: Spend 3 resource dice of one type to get 1 new resource along the wheel of trade.",,,
+START03,"Starting Location","Location (Red Bank)","Urban","Hilltop Square","Action: Spend 1 resource die to get 1 fortune die.",,,
 START04,"Starting Location","Location (Red Bank)","Wilderness","Outer Reaches","Action: Add dice to any one resource pool until it equals the given resource track.",,,
 START05,"Starting Location","Location (Red Bank)","Urban","Safehome","Action: Ongoing Lore.","Action: Character spends 8 progress to remove one body condition.",,
 START06,"Starting Location","Location (Red Bank)","Urban","Amber Lodge","Action: Ongoing Rapport.","Action: Character spends 8 progress to remove one psyche condition.",,
-START07,"Starting Location","Location (Red Bank)","Urban","House of Coin","Action: Purchase one available development.",,,
+START07,"Starting Location","Location (Red Bank)","Urban","House of Coin","Action: Purchase one available development. May immediately put it into play, ignoring any play cost.",,,

@@ -34,23 +34,30 @@ import statistics
 #                 "timer,suspicious,special,uncommon",
 #                 "shuffle,,,"]
 
-progress_deck = ["timer",
-                 "timer",
-                 "timer",
-                 "timer",
-                 "timer",
-                 "timer",
-                 "disaster",
-                 "disaster",
-                 "gang",
-                 "gang",
-                 "gang",
-                 "gang",
-                 "gang",
-                 "gang",
-                 "draw",
-                 "draw",
-                 "draw",
+progress_deck = ["timer,draw",
+                 "timer,draw",
+                 "timer,draw",
+                 "timer,draw",
+                 "timer,draw",
+                 "timer,draw",
+                 "timer,draw",
+                 "development,draw",
+                 "development,draw",
+                 "development,draw",
+                 "development,draw",
+                 "development,draw",
+                 "development,draw",
+                 "development,draw",
+                 "development,draw",
+                 "development",
+                 "development",
+                 "development",
+                 "development",
+                 "development",
+                 "development",
+                 "development",
+                 "development",
+                 "development",
                  "shuffle"]
 
 prd = list(progress_deck)
@@ -66,6 +73,7 @@ print('Percent Timers',total_timers/len(progress_deck))
 for num_timers in range(1,6):
     
     avg_cards = []
+    avg_developments = []
     
     for i in range(0,100000):
         
@@ -73,12 +81,16 @@ for num_timers in range(1,6):
         prd_ind = 0
         cards = 0
         timers = 0
+        developments = 0
         
         while timers < num_timers:
         
             if prd[prd_ind].find('timer') >= 0:
                 timers = timers + 1
             
+            if prd[prd_ind].find('development') >= 0:
+                developments = developments + 1
+                
             if prd[prd_ind].find('shuffle') >= 0:
                 shuffle(prd)
                 prd_ind = 0
@@ -87,7 +99,9 @@ for num_timers in range(1,6):
                 prd_ind = prd_ind+1
                 
         avg_cards.append(cards)
+        avg_developments.append(developments)
 
-    print("Numer of Timers: ",num_timers)
+    print('Numer of Timers: ',num_timers)
     print(statistics.median(avg_cards))
-    print(sum(avg_cards)/len(avg_cards))
+    print('Cards: ',sum(avg_cards)/len(avg_cards))
+    print('Developments: ',sum(avg_developments)/len(avg_developments))
