@@ -5,7 +5,7 @@
 * Draw Threat Cards
 * Choose Spotlight Locations
      * Type of locations may be dictated by threat card
-     * Seven total spotlight locations
+     * Six total spotlight locations
 * Choose Missions
 * Divide Up Characters
      * Each player needs at least one character

@@ -23,7 +23,7 @@ A,../../images/sword-smithing.png,DOOM,WEIRD,
 A,../../images/sword-smithing.png,MISFORTUNE,OVERWHELMING,../../images/fangs.png
 A,../../images/sword-smithing.png,TRAP,DEADLY,
 A,../../images/sword-smithing.png,CALAMITY,POISONOUS,../../images/fangs.png
-A,../../images/sands-of-time.png,DOOM,SPECIAL,
+A,../../images/sands-of-time.png,DOOM,ELDRITCH,
 A,,,SHUFFLE,
 
 B,../../images/sands-of-time.png,DISASTER,GANG,../../images/fangs.png
@@ -49,5 +49,5 @@ B,../../images/sword-smithing.png,DOOM,WEIRD,
 B,../../images/sword-smithing.png,MISFORTUNE,OVERWHELMING,../../images/fangs.png
 B,../../images/sword-smithing.png,TRAP,DEADLY,
 B,../../images/sword-smithing.png,CALAMITY,POISONOUS,../../images/fangs.png
-B,../../images/sands-of-time.png,DOOM,SPECIAL,
+B,../../images/sands-of-time.png,DOOM,ELDRITCH,
 B,,,SHUFFLE,
