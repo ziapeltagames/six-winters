@@ -1,15 +1,23 @@
+# Rules Outline
+
+A turn in _Six Winters_ is composed of the following phases.
+
 # Refresh
 
 * Any exhausted cards are refreshed
+* Player may end season during any refresh phase
+     * Players who voluntarily end their season may still take actions with one character in spotlight locations until all players are done
+          * Progress cards are still drawn for any obstacle and location triggers in spotlight locations
 
-# Movement
+# Move Characters
 
-* Move characters
-     * Move to any location in the same mission area or to a spotlight location
-        * May not move if any obstacles are at current location
-     * If no characters in group are at a mission location, the season is over for that player
-* Move obstacles
-     * May move obstacles to any location where a character is
+* Move to any location in the same mission area or to a spotlight location
+     * Must leave at least one character in current mission area
+
+# Move Obstacles
+
+* Any obstacles at mission locations with no characters are moved to the mission staging area
+* Players may move any obstacles from the staging area to any location with characters
 
 # Discord
 
@@ -17,19 +25,22 @@
      * Players may lower discord pool by total resolve of all characters in chosen location
      * Player gives one character in chosen location a condition
 
-# Timer
+# Progress
 
 * Draw progress card
-     * If a development or character card is drawn, resolve card and draw again
+     * If a character card is drawn, resolve card and draw again
 * Resolve triggers
-     * Top to bottom: location, obstacle, timer, encounter card draw
-     * Triggers apply to cards in the staging area
-     * Triggers for cards at any character's location (including any triggers on the location itself)
-     * Players may choose the order to resolve triggers
+     * Resolve triggers from top to bottom on the card
+     * Triggers apply to any obstacles in play as well as any location the player's characters are at
+     * Triggers for obstacles
+          * Players may take a condition to defend against obstacles using the listed skill it they are at the same location
+          * Most obstacles in mission staging area move to an occupied location after they apply discord
 * If an encounter card is drawn
      * Event: resolve immediately
+          * Any skill tests must be taken by characters in a mission area
      * Hand: place in hand
      * Location / Attachment / Obstacle: place as directed
+          * Unless otherwise specified, obstacles are placed in the mission staging area
 
 # Action
 
@@ -41,4 +52,4 @@
 * Special test restrictions
      * Solo: Only one character may make test each turn
      * Ongoing: Player places progress tokens equal to listed skill or track
-          * If progress is placed on a mission challenge, subtract the hindrance of all obstacles in the staging area and at the location
+          * If progress is placed on a mission challenge, subtract the hindrance of all obstacles at the location
