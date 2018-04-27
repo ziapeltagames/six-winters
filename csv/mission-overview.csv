@@ -48,4 +48,4 @@ name,type,difficulty,skills,timer_0,timer_1,timer_2,timer_3,timer_4,timer_5,achi
 
 "The Sundering","Quest","5","TBD","0 Timers: TBD","1 Timer: TBD","2 Timers: TBD","3 Timers: TBD","4 Timers: TBD","5 Timers: TBD","Achievement: TBD","Achievement: TBD","Achievement: TBD","Season End: Unlock The Animaelic Forest (Mission, Quest)."
 
-"The Animaelic Forest","Quest","6","Everything You've Got","0 Timers: TBD","1 Timer: TBD","2 Timers: TBD","3 Timers: TBD","4 Timers: TBD","5 Timers: TBD","Achievement: TBD","Achievement: TBD","Achievement: TBD","Season End: Unlock TBD."
+"The Animaelic Forest","Quest","6","Everything You've Got","Special: Each timer drawn adds +2 discord.","Special: If discord overflows in the animaelic forest, a character in the group is killed, lost in the maelstrom.","Special: If a character is knocked out, they are removed from play.","Special: Characters in the Animaelic Forest can't move to spotlight locations.",,,"Achievement: ",,,"Season End: If this is the sixth year, Red Bank has fallen. You have lost."
