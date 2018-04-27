@@ -1,14 +1,25 @@
 id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
 
-SUNRI01,"Sunriders",S,"Mission","Location","Urban","Hogel Manor","Action: Ongoing Military.","Action: Spend 9 progress to raise Sunrider Disposition track by one.",,	
-SUNRI02,"Sunriders",S,"Mission","Location","Wilderness","Horsethief Meadows","Action: Ongoing Tactics.","Action: Spend 9 progress to raise Military track by one.",,
+PELAKH01,"Pelakhar's Loyalty",S,"Mission","Location","Wilderness","The Long Wastes","Action: (Sunrider Aid) Spend 3 mana to place progress equal to conquest on any ongoing wilderness challenge.","",,	
+PELAKH02,"Pelakhar's Loyalty",S,"Mission","Location","Wilderness","White Sands","Action: Test Lore. Lower discord pool for each success.",,,
 
-Pelakhar's Loyalty	0	Peril Track	peril		8: All heroes weary. 12: All heroes famished. 16: One hero wounded. 20: One hero wounded and all heroes return to Red Bank. +1 apotheosis.			
-Pelakhar's Loyalty	1	Across the Long Wastes	Location: Obstacle		Group Survival: 7	Completion: Discard and draw location 2 card.		
-Pelakhar's Loyalty	2	Negotiating with Moonriders	Location: Obstacle		Group Rapport: 5	Completion: Burn card and draw all location 3 cards.		
-Pelakhar's Loyalty	3	The Great Wyrm	Location: Guard		Group Combat: 10	Completion: Return to Red Bank and gain Pelakhar's Loyalty.		
-Pelakhar's Loyalty	3	Dragon Fear	Location: Dweomer		Solo Command: 5	Completion: Discard.	..\images\sun.png	One hero shaken.
-Pelakhar's Loyalty	3	Dragon Breath	Location: Trap		Group Tactics: 5	Completion: Burn card.	..\images\spiral.jpg	One hero wounded.
-Pelakhar's Loyalty		Harsh Wasteland	Challenge: Obstacle		Group Survival: 5	Completion: Discard.	..\images\moon.png	One hero weary.
-Pelakhar's Loyalty		Dusky Sand Mites	Challenge: Environment		Group Lore: 5	Completion: Burn card.	..\images\sun.png	One hero weary.
-Pelakhar's Loyalty		Mana Rifts	Challenge: Dweomer		
+NORTH08,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(SNEAKY) +3 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
+NORTH09,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Attachment","Challenge, Wilderness","Naked and Afraid","Placement: The Long Wastes","Action: Ongoing Survival","Immediate: Spend 9 progress. Move to stage 1. Burn card.",
+NORTH10,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(QUICK) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
+NORTH11,"Pelakhar's Loyalty",1,"Seriously? A Dragon?","Attachment","Challenge, Magical","Ley Lines","Placement: The Long Wastes","Action: Ongoing Lore","Immediate: Spend 11 progress. Move to stage 2. Burn card.",
+NORTH12,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Attachment","Challenge, Beast, Magical","Pelakhar","Placement: White Sands","Action: Ongoing Combat","Immediate: Spend 13 progress. Complete mission path. Burn card.",
+NORTH13,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Magical","Breath of Flame","Hindrance: 1","Action: Test Lore 4. Success: Discard. Failure: +2 Discord.","(ELDRITCH) +6 Discord. Defense: Lore.",
+NORTH14,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Beast","Steel Maw","Hindrance: 4","Action: Test Combat 3. Success: Discard. Failure: +1 Discord.","(FORCEFUL) +3 Discord. Defense: Combat. If in staging area, move to occupied mission location.",
+NORTH15,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Beast","Tail Whip","Hindrance: 1","Action: Test Combat 3. Success: Discard. Failure: +1 Discord.","(QUICK) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.",
+
+PELAKH12,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Mana Rifts","Interrupt: +2 Mana. Roll dice and add to pool.",,,
+PELAKH13,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.","",,
+PELAKH13,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.","",,
+PELAKH14,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.","",,
+PELAKH15,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.","",,
+PELAKH16,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.","",,
+PELAKH18,"Pelakhar's Loyalty",,"Encounter","Event","Beast","Dusky Sand Mites","Immediate: Test Survival 3. Failure: +3 Discord.",,,
+PELAKH19,"Pelakhar's Loyalty",,"Encounter","Event","Environment","Relentles Steppes","Immediate: Test Survival 2. Failure: +2 Discord.",,,
+PELAKH20,"Pelakhar's Loyalty",,"Encounter","Event","Environment","Haboob","Immediate: Test Survival 2. Failure: +4 Discord.",,,
+PELAKH21,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(GANG) +1 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed or in play."
+PELAKH22,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(GANG) +1 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed or in play."	
