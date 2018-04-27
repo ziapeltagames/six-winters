@@ -1,5 +1,3 @@
-# Rules Outline
-
 A turn in _Six Winters_ is composed of the following phases.
 
 # Refresh
@@ -38,6 +36,7 @@ A turn in _Six Winters_ is composed of the following phases.
 * If an encounter card is drawn
      * Event: resolve immediately
           * Any skill tests must be taken by characters in a mission area
+          * Characters in the same area may combine skills
      * Hand: place in hand
      * Location / Attachment / Obstacle: place as directed
           * Unless otherwise specified, obstacles are placed in the mission staging area
