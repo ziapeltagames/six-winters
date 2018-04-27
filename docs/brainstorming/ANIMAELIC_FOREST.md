@@ -10,6 +10,8 @@ Seems like you shouldn't be able to move between spotlight locations. Maybe you 
 
 Having one shared encounter deck and shared locations might be the easiest way to handle this. So, no threats, no spotlight locations, just the animaelic forest location and encounter deck.
 
+On the other hand, players will be pruning spotlight locations and coming up with a strategy that leverages. Changing that at the end might really ruin any sort of momentum there. Thematically it might be weird, but gameplay is more important - should probably leave things unchanged as much as possible.
+
 ## Discord
 
 Not sure if discord should work the same way re: overflow. Normally a character gets a discord card which is unlocked after the mission. However, this is most likely the last mission. Could immediately put the card in the deck, or could do something different. One option might be that a character is permanently killed when discord overflows. That might give it more of the feel of a finale. Learning towards that.
@@ -18,7 +20,7 @@ It would also be cool if the discord characters have comes into play somehow. Ma
 
 ## Threats
 
-Drawing a threat should probably do something else. Maybe adding discord?
+Drawing a threat should probably do something else. Maybe adding discord? Or - perhaps the year six threats reflect the Apotheosis the Autarch has gained, and really, really suck. Then, if apoth happens earlier, can just use year six threats for the remainder of the game.
 
 # Locations
 
