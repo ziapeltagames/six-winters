@@ -1,8 +1,6 @@
 id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
-
 PELAKH01,"Pelakhar's Loyalty",S,"Mission","Location","Wilderness","The Long Wastes","Action: (Sunrider Aid) Spend 3 mana to place progress equal to conquest on any ongoing wilderness challenge.","",,	
 PELAKH02,"Pelakhar's Loyalty",S,"Mission","Location","Wilderness","White Sands","Action: Test Lore. Lower discord pool for each success.",,,
-
 NORTH08,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(SNEAKY) +3 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
 NORTH09,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Attachment","Challenge, Wilderness","Naked and Afraid","Placement: The Long Wastes","Action: Ongoing Survival","Immediate: Spend 9 progress. Move to stage 1. Burn card.",
 NORTH10,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(QUICK) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
@@ -11,7 +9,6 @@ NORTH12,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Attachment","Challenge, B
 NORTH13,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Magical","Breath of Flame","Hindrance: 1","Action: Test Lore 4. Success: Discard. Failure: +2 Discord.","(ELDRITCH) +6 Discord. Defense: Lore.",
 NORTH14,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Beast","Steel Maw","Hindrance: 4","Action: Test Combat 3. Success: Discard. Failure: +1 Discord.","(FORCEFUL) +3 Discord. Defense: Combat. If in staging area, move to occupied mission location.",
 NORTH15,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Beast","Tail Whip","Hindrance: 1","Action: Test Combat 3. Success: Discard. Failure: +1 Discord.","(QUICK) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.",
-
 PELAKH12,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Mana Rifts","Interrupt: +2 Mana. Roll dice and add to pool.",,,
 PELAKH13,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
 PELAKH13,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
