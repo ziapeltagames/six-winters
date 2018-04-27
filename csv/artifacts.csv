@@ -1,9 +1,9 @@
-title,text
+id,title,text
 
-"Pelakhar","A player may start the season with Pelakhar in their hand. Play Card: Spend 7 food to lower difficulty of combat test by two or add +1 to the military track."
-"Gossamer Veil","At the beginning of a season, may play Gossamer Veil on a character. For the remainder of the season, all disguise tests made by that character are easy."
-"Aren's Forge","A player may start the season with Aren's Forge in their hand. Play Card: Spend 4 ore to lower difficulty of command test by two or add +1 to the conquest track."
-"Thedda's Palimpsest","At the beginning of a season, may play Thedda's Palimpsest on a character. That character ignores all backlash from mana spends."
-"Sapphire Djinn","At the beginning of a season, may play Sapphire Djinn on a character. The difficulty of all rapport and command tests made by the character are lowered by two. After the season is over, the character must take one psyche condition."
-"Firstborn Peak","Something to stop the Autarch. Maybe connected to the Animaelic Forest?"
-"The Dawncaves","A powerful book of magic? Turn 35 mana into a skill increase? Teleport characters between missions?"
+arti01,"Pelakhar","Interrupt: Spend 11 food and lower Stability track by one. Discard a foe from a mission staging area."
+arti02,"Gossamer Veil","At the beginning of a season, may play Gossamer Veil on a character. For the remainder of the season, all disguise tests made by that character are easy."
+arti03,"Aren's Forge","A player may start the season with Aren's Forge in their hand. Play Card: Spend 4 ore to lower difficulty of command test by two or add +1 to the conquest track."
+arti04,"Thedda's Palimpsest","At the beginning of a season, may play Thedda's Palimpsest on a character. That character ignores all backlash from mana spends."
+arti05,"Sapphire Djinn","At the beginning of a season, may play Sapphire Djinn on a character. The difficulty of all rapport and command tests made by the character are lowered by two. After the season is over, the character must take one psyche condition."
+arti06,"Firstborn Peak","Something to stop the Autarch. Maybe connected to the Animaelic Forest?"
+arti07,"The Dawncaves","A powerful book of magic? Turn 35 mana into a skill increase? Teleport characters between missions?"

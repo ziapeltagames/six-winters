@@ -1,0 +1,14 @@
+id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
+
+SUNRI01,"Sunriders",S,"Mission","Location","Urban","Hogel Manor","Action: Ongoing Military.","Action: Spend 9 progress to raise Sunrider Disposition track by one.",,	
+SUNRI02,"Sunriders",S,"Mission","Location","Wilderness","Horsethief Meadows","Action: Ongoing Tactics.","Action: Spend 9 progress to raise Military track by one.",,
+
+Pelakhar's Loyalty	0	Peril Track	peril		8: All heroes weary. 12: All heroes famished. 16: One hero wounded. 20: One hero wounded and all heroes return to Red Bank. +1 apotheosis.			
+Pelakhar's Loyalty	1	Across the Long Wastes	Location: Obstacle		Group Survival: 7	Completion: Discard and draw location 2 card.		
+Pelakhar's Loyalty	2	Negotiating with Moonriders	Location: Obstacle		Group Rapport: 5	Completion: Burn card and draw all location 3 cards.		
+Pelakhar's Loyalty	3	The Great Wyrm	Location: Guard		Group Combat: 10	Completion: Return to Red Bank and gain Pelakhar's Loyalty.		
+Pelakhar's Loyalty	3	Dragon Fear	Location: Dweomer		Solo Command: 5	Completion: Discard.	..\images\sun.png	One hero shaken.
+Pelakhar's Loyalty	3	Dragon Breath	Location: Trap		Group Tactics: 5	Completion: Burn card.	..\images\spiral.jpg	One hero wounded.
+Pelakhar's Loyalty		Harsh Wasteland	Challenge: Obstacle		Group Survival: 5	Completion: Discard.	..\images\moon.png	One hero weary.
+Pelakhar's Loyalty		Dusky Sand Mites	Challenge: Environment		Group Lore: 5	Completion: Burn card.	..\images\sun.png	One hero weary.
+Pelakhar's Loyalty		Mana Rifts	Challenge: Dweomer		
