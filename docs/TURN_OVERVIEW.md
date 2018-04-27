@@ -27,13 +27,17 @@ A turn in _Six Winters_ is composed of the following phases.
 
 * Draw progress card
      * If a character card is drawn, resolve card and draw again
-* Resolve triggers
-     * Resolve triggers from top to bottom on the card
-     * Triggers apply to any obstacles in play as well as any location the player's characters are at
-     * Triggers for obstacles
-          * Players may take a condition to defend against obstacles using the listed skill it they are at the same location
+* Resolve timer or development card draw
+* Resolve location trigger
+     * Location triggers apply to any location the player's characters are at
+* Resolve obstacle trigger
+     * Obstacle triggers apply to all obstacles in the player's mission area or the spotlight area      
+          * Players may take a condition to defend against obstacles using the listed skill if they are at the same location
           * Most obstacles in mission staging area move to an occupied location after they apply discord
-* If an encounter card is drawn
+
+# Encounter
+
+* Draw an encounter card
      * Event: resolve immediately
           * Any skill tests must be taken by characters in a mission area
           * Characters in the same area may combine skills
