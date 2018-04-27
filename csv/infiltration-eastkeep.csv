@@ -14,7 +14,7 @@ EASTKE09,"Eastkeep",S,"Rumors of a Frozen Hell","Obstacle","Guard","Graycloaks",
 EASTKE10,"Eastkeep",1,"Rumors of a Frozen Hell","Location (Empire)","Urban","Root Cellar","Action: Move one Graycloak from any occupied location to the Root Cellar.",,,
 EASTKE11,"Eastkeep",1,"Rumors of a Frozen Hell","Attachment","Challenge","Hidden Passage","Placement: Root Cellar.","Action: Ongoing Thievery.","Immediate: Spend 4 progress. Move to stage 2. Burn card.",
 EASTKE12,"Eastkeep",1,"Rumors of a Frozen Hell","Obstacle","Guard","Graycloaks","Hindrance: SEE MISSION OVERVIEW","Action: Test Disguise 2. Success: Discard. Failure: +1 Discord.","(GANG) +1 Discord. Defense: Disguise. If in staging area, move to occupied mission location.",
-EASTKE13,"Eastkeep",2,"Rumors of a Frozen Hell","Attachment","Challenge","Trapped Safe","Placement: Root Cellar.","Action: Ongoing Thievery.","Immediate: Spend 6 progress. Complete Mission Path. Burn card.",,
+EASTKE13,"Eastkeep",2,"Rumors of a Frozen Hell","Attachment","Challenge","Trapped Safe","Placement: Root Cellar.","Action: Ongoing Thievery.","Immediate: Spend 6 progress. Complete Mission Path. Burn card.",
 
 EASTKE14,"Eastkeep",,"Encounter","Obstacle","Guard","Graycloaks","Hindrance: SEE MISSION OVERVIEW","Action: Test Disguise 2. Success: Discard. Failure: +1 Discord.","(GANG) +1 Discord. Defense: Disguise. If in staging area, move to occupied mission location.",
 EASTKE15,"Eastkeep",,"Encounter","Obstacle","Guard","Graycloaks","Hindrance: SEE MISSION OVERVIEW","Action: Test Disguise 2. Success: Discard. Failure: +1 Discord.","(GANG) +1 Discord. Defense: Disguise. If in staging area, move to occupied mission location.",
