@@ -23,5 +23,5 @@ PELAKH17,"Pelakhar's Loyalty",,"Encounter","Event","Beast","Dusky Sand Mites","I
 PELAKH18,"Pelakhar's Loyalty",,"Encounter","Event","Environment","Rocky Terrain","Immediate: Test Survival 2. Failure: +2 Discord.",,,
 PELAKH19,"Pelakhar's Loyalty",,"Encounter","Event","Environment","Haboob","Immediate: Test Survival 2. Failure: +4 Discord.",,,
 
-PELAKH20,"Pelakhar's Loyalty",,"Encounter","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(GANG) +1 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed or in play."
-PELAKH21,"Pelakhar's Loyalty",,"Encounter","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(GANG) +1 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed or in play."	
+PRLAKH05,"Pelakhar's Loyalty",1,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(QUICK) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
+PRLAKH05,"Pelakhar's Loyalty",1,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(QUICK) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
