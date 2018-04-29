@@ -1,6 +1,6 @@
 id,mission,type,tags,title,blocka,blockb,blockc,blockd
 
-START01,"Starting Location","Location (Red Bank)","Wilderness","Trading Convoy","Action: Ongoing Diplomacy.","Immediate: Spend 5 progress and 3 resource dice a faction wants. Receive resource dice of type the faction provides equal to faction disposition.",,
+START01,"Starting Location","Location (Red Bank)","Wilderness","Trading Convoy","Action: Spend 3 resource dice to trade with a faction.",,,
 START02,"Starting Location","Location (Red Bank)","Urban","Hilltop Square","Action: Spend 1 resource die to get 2 fortune dice.",,,
 START03,"Starting Location","Location (Red Bank)","Wilderness","Resource Gathering","Action: Add dice to any one resource pool until it equals the given resource track.",,,
 START04,"Starting Location","Location (Red Bank)","Urban","Development Research","Action: Purchase one available development. If put into play immediately, ignore any play cost.",,,

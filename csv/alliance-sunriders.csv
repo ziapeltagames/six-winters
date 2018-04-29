@@ -6,9 +6,9 @@ SUNRI02,"Sunriders",S,"Mission","Location","Wilderness","Horsethief Meadows","Ac
 SUNRI03,"Sunriders",S,"Hogel's Tour","Obstacle","Diplomat","Arban the Swift","Hindrance: 1","Action: Test Command 2. Success: Burn card. Failure: +1 Discord.","(FORCEFUL) +3 Discord. Defense: Command. If in staging area, move to occupied mission location.",
 SUNRI04,"Sunriders",S,"Hogel's Tour","Challenge","Urban","Feast at Hogel Manor","Placement: Hogel Manor","Action: Ongoing Rapport.","Immediate: Spend 5 progress. Move to stage 1. Burn card.",	
 SUNRI05,"Sunriders",1,"Hogel's Tour","Location","Urban","Song Bluff","Effect: All characters increase their Tactics by Sunrider Disposition while at least one character is at this location.","(DOOM) Test: Command 4. Failure: Shaken.",,	
-SUNRI06,"Sunriders",1,"Hogel's Tour","Challenge","Urban","Uneasy Truce","Placement: Song Bluff","Action: Ongoing Survival.","Immediate: Spend 5 progress. Move to stage 2. Burn card.",	
+SUNRI06,"Sunriders",1,"Hogel's Tour","Challenge","Urban","Uneasy Truce","Placement: Song Bluff","Action: Ongoing Survival.","Immediate: Spend 3 progress. Move to stage 2. Burn card.",	
 SUNRI07,"Sunriders",1,"Hogel's Tour","Obstacle","Diplomat","Ile","Hindrance: 1","Action: Test Lore 2. Success: Burn card. Failure: +1 Discord.","(WEIRD) +3 Discord. Defense: Lore. If in staging area, move to occupied mission location.",
-SUNRI08,"Sunriders",2,"Hogel's Tour","Challenge","Wilderness","Rumors of Smoke and Fire","Placement: Horsethief Meadows","Action: Ongoing Tactics.","Immediate: Spend 7 progress. Complete Mission Path. Burn card",
+SUNRI08,"Sunriders",2,"Hogel's Tour","Challenge","Wilderness","Rumors of Smoke and Fire","Placement: Horsethief Meadows","Action: Ongoing Tactics.","Immediate: Spend 6 progress. Complete Mission Path. Burn card",
 SUNRI09,"Sunriders",2,"Hogel's Tour","Obstacle","Diplomat","Taichu","Hindrance: 1","Action: Test Tactics 2. Success: Burn card. Failure: +1 Discord.","(QUICK) +3 Discord. Defense: Tactics. If in staging area, move to occupied mission location.",
 
 SUNRI10,"Sunriders",,"Encounter","Obstacle","Diplomat","Hogel","Hindrance: 2","Action: Test Rapport 2. Success: Burn card. Failure: +1 Discord.","(SNEAKY) +3 Discord. Defense: Rapport. If in staging area, move to occupied mission location.",
@@ -23,3 +23,6 @@ SUNRI18,"Sunriders",,"Encounter","Event","Obstacle","Shame To Anger","Conditiona
 SUNRI19,"Sunriders",,"Encounter","Event","Obstacle","The Coming War","Solo Test: Tactics 1.","Success: Add two progress to any Sunriders location or attachment.",,		
 SUNRI20,"Sunriders",,"Encounter","Event","Obstacle","Rousing Speech","Solo Test: Rapport 2.","Success: +2 Fortune.","Failure: +2 Discord.",
 SUNRI21,"Sunriders",,"Encounter","Event","Obstacle","A First Impression","Solo Test: Command 2.","Failure: +2 Discord.",,
+SUNRI22,"Sunriders",,"Encounter","Event","Rumor","TBD","Immediate: +1 Fortune",,,
+SUNRI23,"Sunriders",,"Encounter","Event","Rumor","TBD","Immediate: +1 Fortune",,,
+SUNRI24,"Sunriders",,"Encounter","Event","Diplomats","TBD","Immediate: Gain fortune equal to Diplomacy.",,,

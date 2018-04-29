@@ -1,8 +1,6 @@
 # Season Setup
 
-* Gather Resource Dice
-* Spotlight Player Rolls Resource Dice
-* Draw Threat Cards
+* Draw Starting Threat
 * Choose Spotlight Locations
      * Type of locations may be dictated by threat card
      * Six total spotlight locations
