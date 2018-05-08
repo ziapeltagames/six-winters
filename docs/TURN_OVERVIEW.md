@@ -19,7 +19,7 @@ A turn in _Six Winters_ is composed of the following phases.
 
 # Discord
 
-* Each player may choose one location in their mission area
+* Each player may choose one location occupied by a character in the party
      * Players may lower discord pool by total resolve of all characters in chosen location
      * Player gives one character in chosen location a condition
 
