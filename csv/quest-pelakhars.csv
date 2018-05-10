@@ -26,7 +26,7 @@ PELAKH19,"Pelakhar's Loyalty",,"Encounter","Event","Environment","Haboob","Immed
 PELAKH20,"Pelakhar's Loyalty",,"Encounter","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(GANG) +1 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is (or has been) revealed."
 PELAKH21,"Pelakhar's Loyalty",,"Encounter","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(GANG) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is (or has been) revealed."
 
-PLEAKHI22,"Pelakhar's Loyalty",,"Encounter","Event","Rumor","TBD","Immediate: +1 Fortune",,,
-PLEAKHI23,"Pelakhar's Loyalty",,"Encounter","Event","Rumor","TBD","Immediate: +1 Fortune",,,
-PLEAKHI24,"Pelakhar's Loyalty",,"Encounter","Event","Troops","TBD","Immediate: Gain fortune equal to Military.",,,
-PLEAKHI24,"Pelakhar's Loyalty",,"Encounter","Event","Troops","TBD","Immediate: Gain fortune equal to Military.",,,
+PLEAKHI22,"Pelakhar's Loyalty",,"Encounter","Event","Rumor","The Coming War","Immediate: +1 Fortune",,,
+PLEAKHI23,"Pelakhar's Loyalty",,"Encounter","Event","Rumor","Dead Rising","Immediate: +1 Fortune",,,
+PLEAKHI24,"Pelakhar's Loyalty",,"Encounter","Event","Society","Amber Hand","Immediate: Gain fortune equal to Military.",,,
+PLEAKHI24,"Pelakhar's Loyalty",,"Encounter","Event","Society","Amber Hand","Immediate: Gain fortune equal to Military.",,,
