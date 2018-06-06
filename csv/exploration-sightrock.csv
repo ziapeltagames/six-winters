@@ -1,8 +1,8 @@
 id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
 
-SIGHT01,"Sightrock",S,"Mission","Location (Red Bank)","Wilderness","Lush Fields","","(SAFE) If a character is at this location, gain +1 Food die.",,
-SIGHT02,"Sightrock",S,"Mission","Location (Red Bank)","Wilderness","Salmon Run","Action: Ongoing Conquest.","Immediate: Spend 10 progress to raise Food track by one.","(DISASTER) Test: Survival 3. Failure: +4 Discord.",
-SIGHT03,"Sightrock",S,"Mission","Location (Red Bank)","Dungeon, Magical","The Weird Rock","Effect: All characters have +1 Lore.","(DOOM) Test: Lore 3. Failure: One character at this location is Shaken.",,
+SIGHT01,"Sightrock",S,"Mission","Location","Red Bank, Wilderness, Spotlight","Lush Fields","","(SAFE) If a character is at this location, gain +2 Food dice.",,
+SIGHT02,"Sightrock",S,"Mission","Location","Red Bank, Wilderness, Spotlight","Salmon Run","Action: Ongoing Conquest.","Immediate: Spend 10 progress to raise Food track by one.","(DISASTER) Test: Survival 3. Failure: +4 Discord.",
+SIGHT03,"Sightrock",S,"Mission","Location","Red Bank, Dungeon, Magical","The Weird Rock","Effect: All characters have +1 Lore.","(DOOM) Test: Lore 3. Failure: One character at this location is Shaken.",,
 
 SIGHT04,"Sightrock",0,"Journey Under the Rock","Attachment","Challenge, Wilderness","Ley Lines","Placement: Lush Fields","Action: Ongoing Lore","Immediate: Spend 7 progress. One character at location gains +1 Lore. Move to stage 1.",
 SIGHT05,"Sightrock",0,"Journey Under the Rock","Obstacle","Dweomer","Dark Thoughts","Hindrance: 1","Action: Test Command 2. Success: Burn card. Failure: +1 Discord.","(DOOM) One character on mission becomes Angry.",

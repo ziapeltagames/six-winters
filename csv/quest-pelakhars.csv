@@ -1,9 +1,10 @@
 id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
-PELAKH01,"Pelakhar's Loyalty",S,"Mission","Location","Wilderness","The Long Wastes","Action: (Sunrider Aid) Spend 3 mana to place progress equal to Sunrider Disposition on any ongoing wilderness challenge.",,,	
+
+PELAKH01,"Pelakhar's Loyalty",S,"Mission","Location","Wilderness, Spotlight","The Long Wastes","Action: (Sunrider Aid) Spend 3 mana to place progress equal to Sunrider Disposition on any ongoing wilderness challenge.",,,	
 PELAKH02,"Pelakhar's Loyalty",S,"Mission","Location","Wilderness","White Sands","Action: Test Lore. Lower discord pool by one for each success.","(CALAMITY) A character at this location is Weary.",,
 
-PELAKH03,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(SNEAKY) +3 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
-PELAKH04,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Attachment","Challenge, Wilderness","Naked and Afraid","Placement: The Long Wastes","Action: Ongoing Survival","Immediate: Spend 9 progress. Move to stage 1. Burn card.",
+PELAKH03,"Pelakhar's Loyalty",0,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(SNEAKY) +3 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
+PELAKH04,"Pelakhar's Loyalty",0,"Seriously? A Dragon?","Attachment","Challenge, Wilderness","Naked and Afraid","Placement: The Long Wastes","Action: Ongoing Survival","Immediate: Spend 9 progress. Move to stage 1. Burn card.",
 
 PRLAKH05,"Pelakhar's Loyalty",1,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(QUICK) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
 PELAKH06,"Pelakhar's Loyalty",1,"Seriously? A Dragon?","Attachment","Challenge, Magical","Ley Lines","Placement: The Long Wastes","Action: Ongoing Lore","Immediate: Spend 11 progress. Move to stage 2. Burn card.",

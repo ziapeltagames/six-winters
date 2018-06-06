@@ -5,23 +5,37 @@ Threats are played as:
 * Locations (go in one of the threat locations)
 * Attachments to locations (must play the type of location if possible)
 * Attachments to characters
+* Obstacles (would need to go to one player's mission area, for general types of threats)
 
 Threat effects are either:
 
 * Effects that are ongoing
 * Effects that occur when a certain progress trigger happens
 * Effects that occur at the end of the season
+     * This option doesn't generate as much pressure as the others
+
+## Threat Triggers
+
+As it stands now, triggers occur only on locations you're actually at. For obstacles, they occur broadly. They also occur on attachments attached to characters. Do they occur on all attachments generally?
+
+Maybe they should just occur on all obstacles / attachments / locations? The "you have to be there" was to make it easier to scan over cards, but it makes threat design tough? Maybe all the locations / attachments / obstacles in the player's mission area as well as the spotlight area will activate.
 
 ## Red Bank Tests
 
 It would be nice if the threats weren't necessarily a guaranteed occurrence. One way that could happen is via a trigger causing a dice roll. These might be special sorts of tests where things like mana couldn't be used (since mana requires a caster and backlash). Something like, "Rare: Red Bank Test: Espionage 3. Success: Blah. Failure: Blah." Might be worth having that as a generally available test type?
 
-# Threat Types
+On thinking about it more, this probably isn't necessary. The "not a guaranteed occurrence" can probably be handled by triggers. Although, the triggers are doubled, so need to take that into account.
 
-* Maybe they should just use tags?
-* What should the broad threat types be?
-   * Location
-   * Attachment
+# Threat Effects
+
+* Lower resources
+* Lower resource tracks
+* Lower secrets
+* Increase discord
+* Increase apotheosis
+* Give conditions
+* Lower disposition
+* Broad effects (no mana for spells, etc)
 
 # Threat Ideas
 
@@ -32,6 +46,8 @@ It would be nice if the threats weren't necessarily a guaranteed occurrence. One
    * Gardens of the Pomegranates
 * Assassination
 * Werewolf infection
+* Pandemic
+* Magical Backlash
 
 # Old Threats
 
