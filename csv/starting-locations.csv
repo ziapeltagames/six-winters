@@ -1,8 +1,8 @@
 id,mission,type,tags,title,blocka,blockb,blockc,blockd
 
-START01,"Starting Location","Location (Red Bank)","Wilderness","Trading Convoy","Action: Spend 3 resource dice to trade with a faction.",,,
-START02,"Starting Location","Location (Red Bank)","Urban","Hilltop Square","Action: Add dice to Fortune pool until it equals Stability.",,,
-START03,"Starting Location","Location (Red Bank)","Wilderness","Resource Gathering","Action: Add dice to any one resource pool until it equals the given resource track.",,,
-START04,"Starting Location","Location (Red Bank)","Urban","Development Research","Action: Purchase one available development. If put into play immediately, ignore any play cost.",,,
-START05,"Starting Location","Location (Red Bank)","Urban","Safehome","Action: Ongoing Sorcery.","Action: Character spends 8 progress to remove one body condition.",,
-START06,"Starting Location","Location (Red Bank)","Urban","Amber Lodge","Action: Ongoing Stability.","Action: Character spends 8 progress to remove one psyche condition.",,
+START01,"Starting Location","Location","Red Bank, Wilderness","Trade Agreement","Action: Spend 3 resource dice of type a faction wants. Gain a number of resource dice of type the faction gives equal to faction disposition.",,,
+START03,"Starting Location","Location","Red Bank, Wilderness","Resource Gathering","Action: Add dice to any one resource pool until it equals the given resource track.",,,
+START03,"Starting Location","Location","Red Bank, Wilderness","Exploring the Realm","Action: Spend 4 fortune to place one progress.","Immediate: Spend 3 progress to increase any resource track by one.",,
+START04,"Starting Location","Location","Red Bank, Urban","Development Research","Action: Purchase one available development. If put into play immediately, ignore any play cost.",,,
+START05,"Starting Location","Location","Red Bank, Urban","Amber Lodge","Action: Ongoing Lore.","Action: Character spends 8 progress to remove one condition.",,
+START06,"Starting Location","Location","Red Bank, Urban","Diplomatic Investments","Action: Spend 4 luxury to place one progress.","Immediate: Spend 3 progress to increase any faction disposition track by one.",, 
