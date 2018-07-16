@@ -3,13 +3,14 @@ A turn in _Six Winters_ is composed of the following phases.
 # Refresh
 
 * Any exhausted cards are refreshed
-* Player may end season during any refresh phase
-     * Players who voluntarily end their season may still take actions with one character in spotlight locations until all players are done
+* Player may end mission during any refresh phase
+     * Players who voluntarily end their mission may still take actions with characters in spotlight and threat locations until the other player ends their mission
           * Progress cards are still drawn for any obstacle and location triggers in spotlight locations
+     * When both players end their missions, the season is over
 
 # Move Characters
 
-* Move to any location in the same mission area or to a spotlight location
+* Move to any location in the same mission area or to/from a spotlight location
      * Must leave at least one character in current mission area
 
 # Move Obstacles
@@ -17,7 +18,7 @@ A turn in _Six Winters_ is composed of the following phases.
 * Any obstacles at mission locations with no characters are moved to the mission staging area
 * Players may move any obstacles from the staging area to any location with characters
 
-# Discord
+# Test Resolve
 
 * Each player may choose one location occupied by a character in the party
      * Players may lower discord pool by total resolve of all characters in chosen location
@@ -27,13 +28,12 @@ A turn in _Six Winters_ is composed of the following phases.
 
 * Draw progress card
      * If a character card is drawn, resolve card and draw again
-* Resolve timer or development card draw
-* Resolve location trigger
-     * Location triggers apply to any location the player's characters are at
-* Resolve obstacle trigger
-     * Obstacle triggers apply to all obstacles in the player's mission area or the spotlight area      
-          * Players may take a condition to defend against obstacles using the listed skill if they are at the same location
-          * Most obstacles in mission staging area move to an occupied location after they apply discord
+* If progress card has asset, draw and resolve one card from asset deck
+* Resolve timer trigger
+* Resolve location triggers
+* Resolve obstacle triggers     
+     * Players may take a condition to defend against obstacles using the listed skill if the obstacles are at the same location
+     * Most obstacles in mission staging area move to an occupied location after they are triggered
 
 # Encounter
 
@@ -48,7 +48,6 @@ A turn in _Six Winters_ is composed of the following phases.
 # Action
 
 * Each character may perform one action
-     * Frequently this is a test
 * Characters may add skills together for test if they are at the same location
      * Any rerolls apply to all skill dice used
      * Owning player makes rolls

@@ -1,6 +1,6 @@
 # Six Winters
 
-This section is still very TBD. Currently, the procedures live in the various overview files and are in flux too much to nail down.
+This section is still very much unfinished. Currently, the procedures mostly live in the TURN_OVERVIEW.md file as well as various brainstorming documents.
 
 # Overview
 
@@ -24,8 +24,10 @@ TBD
 
 ## Card Types
 
-* Hand - Cards that are held in a player's hand, they can usually be played as interrupts, whenever the player wants.
-   * Sometimes there are restrictions on when they can be played, for example, only on a character at a wilderness location, only by spending certain resources, etc.
+* Hand - Cards that are held in a player's hand.
+   * They are usually played as interrupts, whenever the player wants.
+      * Occasionally they must be played during a specific phase, usually the refresh phase.   
+   * Sometimes there are restrictions on how they can be played, for example, only on a character at a wilderness location, only by spending certain resources, etc.
 * Location - These are places that characters can be, they typically have actions on them that characters can do.
    * Spotlight locations are places the player's have found that they put into play at the start of a mission.
 * Attachment - Cards that attach to a location or a character and affect it somehow.
