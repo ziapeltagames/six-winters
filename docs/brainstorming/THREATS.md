@@ -2,10 +2,10 @@
 
 Threats are played as:
 
-* Locations (go in one of the threat locations)
+* Locations (either to spotlight area or into the indicated mission area)
 * Attachments to locations (must play the type of location if possible)
 * Attachments to characters
-* Obstacles (would need to go to one player's mission area, for general types of threats)
+* Obstacles (would need to go to one player's staging area, for general types of threats)
 
 Threat effects are either:
 

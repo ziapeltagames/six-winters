@@ -1,8 +1,8 @@
 id,mission,type,tags,title,blocka,blockb,blockc,blockd
 
-START01,"Starting Location","Location","Red Bank, Wilderness","Trade Agreement","Action: Trade a number of dice up to faction disposition rating.","Special: May only trade once each season.",,
-START02,"Starting Location","Location","Red Bank, Wilderness","Resource Gathering","Action: Add dice to any one resource pool until it equals the given resource track.",,,
+START01,"Starting Location","Location","Red Bank, Wilderness","Trade Agreement","Action: Trade a number of dice up to faction disposition rating.",,,
+START02,"Starting Location","Location","Red Bank, Wilderness","Resource Gathering","Action: Add 1 dice to any resource pool.",,,
 START03,"Starting Location","Location","Red Bank, Urban","Development Research","Action: Purchase one available development. If put into play immediately, ignore any play cost.",,,
 START04,"Starting Location","Location","Red Bank, Urban","Amber Lodge","Action: Ongoing Lore.","Action: Character spends 8 progress to remove one condition.",,
-START05,"Starting Location","Location","Red Bank, Urban","Strategic Investments","Action: Spend 4 fortune to place one progress.","Immediate: Spend 3 progress to increase any disposition or resource track by one.",,
+START05,"Starting Location","Location","Red Bank, Urban","Strategic Investments","Action: Spend 5 fortune to place one progress.","Immediate: Spend 4 progress to increase any disposition track by one.","Immediate: Spend 7 progress to increase any resource track by one.",
 START06,"Starting Location","Location","Red Bank, Urban","Hilltop Square","Action: Add 1 Fortune to pool.",,, 
