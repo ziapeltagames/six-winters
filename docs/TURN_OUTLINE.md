@@ -1,7 +1,7 @@
 * Refresh
 * Move Characters
 * Move Obstacles
-* Discord
+* Test Resolve
 * Progress
 * Encounter
 * Action

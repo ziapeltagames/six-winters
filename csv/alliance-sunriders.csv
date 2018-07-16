@@ -1,7 +1,7 @@
 id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
 
 SUNRI01,"Sunriders",S,"Mission","Location","Urban, Spotlight","Hogel Manor","Action: Ongoing Command.","Action: Spend 9 progress to raise Sunrider Disposition track by one.",,	
-SUNRI02,"Sunriders",S,"Mission","Location","Wilderness, Spotlight","Horsethief Meadows","Action: Ongoing Tactics.","Action: Spend 9 progress to raise Military track by one.",,
+SUNRI02,"Sunriders",S,"Mission","Location","Wilderness, Spotlight","Horsethief Meadows","Action: Add progress equal to Tactics on any card with a Military tag.",,,
 
 SUNRI03,"Sunriders",0,"Hogel's Tour","Obstacle","Diplomat","Arban the Swift","Hindrance: 1","Action: Test Command 1. Success: Burn card. Failure: +1 Discord.","(FORCEFUL) +3 Discord. Defense: Command. If in staging area, move to occupied mission location.",
 SUNRI04,"Sunriders",0,"Hogel's Tour","Challenge","Urban","Feast at Hogel Manor","Placement: Hogel Manor","Action: Ongoing Rapport.","Immediate: Spend 5 progress. Increase Sunrider Disposition track. Move to stage 1.",	
