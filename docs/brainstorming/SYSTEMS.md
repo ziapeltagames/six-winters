@@ -24,11 +24,9 @@ Following is a rough schema that describes how tests are organized.
 
 The Progress Deck contains the following elements.
 
-* Character Cards (1-N)
-* Developments (1-N)
 * Triggers (24)
    * Timers (6)
-   * Draw Encounter Card (6)
+   * Draw Asset Card
 * Shuffle Card (1)
 
 The main purpose of the progress deck is to bring the mission to a close (timers), as well as trigger location and opponent abilities.

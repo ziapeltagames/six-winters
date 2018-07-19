@@ -1,7 +1,8 @@
 id,mission,type,tags,title,blocka,blockb,blockc,blockd
 
-START01,"Starting Location","Location","Red Bank, Wilderness","Trade Agreement","Action: Trade a number of dice up to faction disposition rating.",,,
-START02,"Starting Location","Location","Red Bank, Urban","Development Research","Action: Purchase one available development. If put into play immediately, ignore any play cost.",,,
-START03,"Starting Location","Location","Red Bank, Urban","Amber Lodge","Action: Ongoing Lore.","Action: Character spends 8 progress to remove one condition.",,
-START04,"Starting Location","Location","Red Bank, Urban","Strategic Investments","Action: Spend 5 fortune to place one progress.","Immediate: Spend 4 progress to increase any disposition track by one.","Immediate: Spend 7 progress to increase any resource track by one.",
-START05,"Starting Location","Location","Red Bank, Urban","Hilltop Square","Action: Roll a dice and add to Fortune to pool.",,,
+START01,"Starting Location","Location","Red Bank, Spotlight","Trade Agreement","Action: Spend two resource dice to initiate trade with a faction. Gain a number of new resource dice equal to the disposition of the faction. Dice gained and spent should match trade wheel for faction.",,,
+START02,"Starting Location","Location","Red Bank, Spotlight","Development Research","Action: Purchase one available development. If put into play immediately, ignore any play cost.",,,
+START03,"Starting Location","Location","Red Bank, Urban, Spotlight","Amber Lodge","Action: Task (Lore).","Action: Character spends 9 progress to remove one condition.",,
+START04,"Starting Location","Location","Red Bank, Spotlight","Strategic Investments","Action: Spend 5 fortune to place one progress.","Immediate: Spend 4 progress to increase any disposition track by one.","Immediate: Spend 7 progress to increase any resource track by one.",
+START05,"Starting Location","Location","Red Bank, Urban, Spotlight","Hilltop Square","Action: Gain one Fortune.",,,
+START06,"Starting Location","Location","Red Bank, Spotlight","Resource Gathering","Action: Test (Resource Track). Use value of resource track for test. For each success, gain one resource die of that type.",,,
