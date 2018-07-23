@@ -20,6 +20,10 @@ It is not necessary to have an encounter deck, but random events add variety to 
 
 ## Events
 
+## Rumors
+
+* Max flavor text: 60 words
+
 ## Skill Tests
 
 ## Reward Cycles

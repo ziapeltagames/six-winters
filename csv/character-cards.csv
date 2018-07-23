@@ -1,7 +1,7 @@
 character,number,title,text,switch,blocka,blockb,bottom
 
 Keel,1,"Right Tool For The Job",,"Interrupt: Choice","A: +1 Fortune.","B: Spend 4 Ore. Keel has +1 Survival for the remainder of the season. End of season: Burn card and unlock Keel 2.","+1 SURVIVAL"
-Keel,2,"Alone in the Dark",,"Interrupt: Choice","A: +2 Fortune.","B: Play when Keel is alone in an Imperial location. Keel has +1 Thievery for the remainder of the season. End of season: Burn card and unlock Keel 3.","+1 THIEVERY"
+Keel,2,"Alone in the Dark",,"Interrupt: Choice","A: +2 Fortune.","B: Play when Keel is alone at an Imperial location. Keel has +1 Thievery for the remainder of the season. End of season: Burn card and unlock Keel 3.","+1 THIEVERY"
 Keel,3,"Unlikely Friends",,"Interrupt: Choice","A: +3 Fortune.","B: Play when Menas is at the same location. Remove one psyche condition on Keel. Burn card and unlock Keel 4.",""
 Keel,4,"Misdirection",,"Interrupt: Choice","A: +3 Fortune.","B: Move an obstacle to any unoccupied urban location in same mission area.",""
 
@@ -15,11 +15,11 @@ Thea,3,"Diplomatic Insights",,"Interrupt: Choice","A: +3 Luxury.","B Interrupt: 
 Thea,6,"A Call to Action",,"Interrupt","Increase the disposition of a faction by one.",,""
 
 Fuscus,1,"Market Manipulations",,"Interrupt: Choice","A: +1 Luxury.","B: Play when Thea is at the same location. Thea is Shaken. Burn card and unlock Fuscus 2.",""
-Fuscus,2,"Bending Rules",,"Interrupt: Choice","A: +2 Luxury.","B: Play when Fuscus is at an Imperial location. Return a timer card back into the progress deck. Shuffle progress deck. Burn card and unlock Fuscus 3.",""
+Fuscus,2,"Bending Rules",,"Interrupt: Choice","A: +2 Luxury.","B: Play when Fuscus is at an Imperial location. Remove one timer progress from Mission Overview card. Shuffle progress deck. Burn card and unlock Fuscus 3.",""
 Fuscus,3,"Very Charming",,"Interrupt: Choice","A: +3 Luxury.","B: Spend 5 Luxury. Fuscus has +1 Rapport for the remainder of the season. Burn card and unlock Fuscus 4.","+1 RAPPORT"
 
 Oniri,1,"I'm Always in Pain",,"Interrupt: Choice","A: +1 Mana.","B: Spend 4 Mana. Give Oniri a condition to remove a condition from someone else in the party. Burn card and unlock Oniri 2.",""
-Oniri,2,"Always Alone",,"Interrupt: Choice","A: +2 Mana.","B: Play when Oniri is alone at a quest location. Oniri is Exhausted. Burn card and unlock Oniri 3.",""
+Oniri,2,"Always Alone",,"Interrupt: Choice","A: +2 Mana.","B: Play when Oniri is alone at a Quest location. Oniri is Exhausted. Burn card and unlock Oniri 3.",""
 Oniri,3,"Necromantic Mana Well",,"Interrupt: Choice","A: +3 Mana.","B: Oniri is Shattered. Increase mana track. Burn card and unlock Oniri 4.",""
 
 Yasmina,1,"Food and Water",,"Interrupt: Choice","A Interrupt: Solo Lore: 3. +2 Fortune. Burn card and unlock Yasmina 2.","B Interrupt: Solo Lore: 1. On success remove a weary condition on any character in party.",""

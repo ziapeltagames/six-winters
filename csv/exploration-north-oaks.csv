@@ -30,6 +30,6 @@ NORTH22,"North Oaks",,"Encounter","Obstacle","Foe, Undead","Restless Dead","Hind
 NORTH23,"North Oaks",,"Encounter","Obstacle","Foe, Undead","Restless Dead","Hindrance: 1","Action: Test (Combat). For every success, discard one Restless Dead at this location.","(GANG) +1 Discord. Defense: Combat. If in staging area, move to occupied North Oaks location.",
 NORTH24,"North Oaks",,"Encounter","Obstacle","Foe, Undead","Restless Dead","Hindrance: 1","Action: Test (Combat). For every success, discard one Restless Dead at this location.","(GANG) +1 Discord. Defense: Combat. If in staging area, move to occupied North Oaks location.",
 NORTH25,"North Oaks",,"Encounter","Attachment","Effect, Environment","Grueling Wilds","Placement: On character at North Oaks location with lowest Survival.","(DOOM) Test (Survival 1). Failure: Weary.",,
-NORTH26,"North Oaks",,"Encounter","Event","Rumor","The Last Necromancer","Immediate: +1 Fortune",,,
+NORTH26,"North Oaks",,"Encounter","Event","Rumor","The Last Necromancer","Immediate: +1 Fortune","Blah  Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah",,
 NORTH27,"North Oaks",,"Encounter","Event","Rumor","The Standing Stone","Immediate: +1 Fortune",,,
 NORTH28,"North Oaks",,"Encounter","Event","Conquest","Exploration Force","Interrupt: Gain Fortune equal to Conquest.",,,

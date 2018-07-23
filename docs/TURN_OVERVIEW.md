@@ -48,10 +48,8 @@ A turn in _Six Winters_ is composed of the following phases.
 # Action
 
 * Each character may perform one action
-* Characters may add skills together for test if they are at the same location
+* Test: Characters may add skills together for test if they are at the same location
      * Any rerolls apply to all skill dice used
      * Owning player makes rolls
-* Special test restrictions
-     * Solo: Only one character may make test each turn
-     * Ongoing: Player places progress tokens equal to listed skill or track
-          * If progress is placed on a mission challenge, subtract the hindrance of all obstacles at the location
+* Task: Player places progress tokens equal to listed skill or track
+     * Subtract the hindrance of all obstacles at the location
