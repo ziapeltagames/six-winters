@@ -4,25 +4,25 @@ category,stage,title,food,timber,ore,mana,luxury,text,burn,effect
 "Conquest",2,"Gregor's Mill",0,16,0,1,0,"Interrupt: Gain +1 timber. Roll dice and add to pool.","OR BURN CARD. Interrupt: +2 Survival dice on one skill test.",
 "Conquest",3,"Refined Alloys",0,2,11,4,0,"Interrupt: Gain +1 ore. Roll dice and add to pool.","OR BURN CARD. Interrupt: +2 Combat dice on one skill test.",
 "Conquest",4,"Nyana's Handbook",0,13,12,6,2,"Interrupt: Gain +1 luxury. Roll dice and add to pool.","OR BURN CARD. Interrupt: +2 Rapport dice on one skill test.",
-"Conquest",5,"All Weather Gear",12,16,10,6,2,"Refresh Phase: Spend 7 food. During an exploration mission, rerrange the top three progress cards in any order.",,
+"Conquest",5,"All Weather Gear",12,16,10,6,2,"Interrupt: Spend 7 food. During an Exploration mission, rerrange the top three progress cards in any order.","OR BURN CARD. Interrupt: +3 Survival dice on one skill test.",
 "Conquest",6,"Feast Day",0,18,25,8,0,"Interrupt: Gain +2 food. Roll dice and add to pool.","OR BURN CARD. Interrupt: +4 Rapport dice on one skill test.",
 "Conquest",7,"Wayhouses",5,28,18,10,0,"Interrupt: Gain +2 timber. Roll dice and add to pool.","OR BURN CARD. Interrupt: +4 Survival dice on one skill test.",
 "Conquest",8,"Willowrock",15,36,0,0,0,"Interrupt: Gain +2 ore. Roll dice and add to pool.","OR BURN CARD. Interrupt: +4 Combat dice on one skill test.",
-"Conquest",9,"Cartography",12,34,18,7,0,"Interrupt: +1 Conquest.",,
+"Conquest",9,"Cartography",12,34,18,7,0,"Interrupt: Gain +2 food. Roll dice and add to pool.","OR BURN CARD. Interrupt: +5 Survival dice on one skill test.",
 "Conquest",10,"Green Leaf",0,41,24,18,5,"Interrupt: Gain +2 luxury. Roll dice and add to pool.","OR BURN CARD. Interrupt: +6 Rapport dice on one skill test.",
 
-"Diplomacy",1,"Study Abroad",0,0,0,0,4,"Interrupt: Spend 3 luxury. Gain resources for faction equal to Disposition track.","OR BURN CARD. Interrupt: Gain +2 luxury. Roll dice and add to pool.",
+"Diplomacy",1,"Study Abroad",0,0,0,0,4,"Interrupt: Spend 4 luxury. Gain resources for faction equal to Disposition track.","OR BURN CARD. Interrupt: Gain +2 luxury. Roll dice and add to pool.",
 "Diplomacy",2,"Political Bribes",9,0,0,0,5,"Interrupt: Spend 3 luxury. Play on character. Character has +1 Rapport for the rest of the season.","OR BURN CARD. Interrupt: Gain +2 luxury. Roll dice and add to pool.","+1 RAPPORT"
 "Diplomacy",3,"Distant Favors",1,0,0,3,7,"Interrupt: Spend one luxury die to reroll any resource dice (may reroll multiple resource types).","OR BURN CARD. Interrupt: Gain +3 luxury. Roll dice and add to pool.",
-"Diplomacy",4,"Salts and Spices",12,0,0,0,12,"Interrupt: Spend 3 luxury. Gain resources for faction equal to Disposition track.","OR BURN CARD. Interrupt: Gain +4 luxury. Roll dice and add to pool.",
-"Diplomacy",5,"Institutes of Knowledge",10,4,3,6,6,"Action Phase: Add two progress to any ongoing test.","OR BURN CARD. Interrupt: +1 Diplomacy.",
-"Diplomacy",6,"Raiments of Starsilk",8,0,0,0,16,"Interrupt: Play on character. Character has +2 dice Rapport for the rest of the season.","OR BURN CARD. Interrupt: Gain +4 luxury. Roll dice and add to pool.","+2 RAPPORT"
-"Diplomacy",7,"Diverse Population",0,0,0,10,18,"Action Phase: Add three progress to any ongoing test.","OR BURN CARD. Interrupt: +2 Diplomacy.",
-"Diplomacy",8,"Mercantile Empire",22,0,0,0,22,"Refresh Phase: During an alliance mission, rerrange the top three progress cards in any order.",,
-"Diplomacy",9,"Stronger Together",14,0,0,12,26,"Interrupt: +1 Diplomacy.",,
-"Diplomacy",10,"Factions United",18,0,0,16,30,"Interrupt: Add four progress to any ongoing test.","OR BURN CARD. Interrupt: +3 Diplomacy.",
+"Diplomacy",4,"Salts and Spices",12,0,0,0,12,"Interrupt: Spend 4 luxury. Gain resources for faction equal to Disposition track.","OR BURN CARD. Interrupt: Gain +4 luxury. Roll dice and add to pool.",
+"Diplomacy",5,"Institutes of Knowledge",10,4,3,6,6,"Action Phase: Add two progress to any task at an Urban location.","OR BURN CARD. Interrupt: Gain +4 luxury. Roll dice and add to pool.",
+"Diplomacy",6,"Raiments of Starsilk",8,0,0,0,16,"Interrupt: Play on character. Character has +2 Rapport for the rest of the season.","OR BURN CARD. Interrupt: Gain +4 luxury. Roll dice and add to pool.","+2 RAPPORT"
+"Diplomacy",7,"Diverse Population",0,0,0,10,18,"Action Phase: Add three progress to any task at an Urban location.","OR BURN CARD. Interrupt: Gain +4 luxury. Roll dice and add to pool.",
+"Diplomacy",8,"Mercantile Empire",22,0,0,0,22,"Interrupt: Spend 5 luxury. During an Alliance mission, rerrange the top three progress cards in any order.","OR BURN CARD. Interrupt: Gain +4 luxury. Roll dice and add to pool.",
+"Diplomacy",9,"Stronger Together",14,0,0,12,26,"Interrupt: Spend one luxury die to reroll any failed dice on any test, including any Fortune used.","OR BURN CARD. Interrupt: Gain +4 luxury. Roll dice and add to pool.",
+"Diplomacy",10,"Factions United",18,0,0,16,30,"Interrupt: Spend 6 luxury. Add four progress to any task at an Urban location.","OR BURN CARD. Interrupt: Succeed at any test using Command or Rapport.",
 
-"Sorcery",1,"Undari's Libram",0,8,0,4,0,"Interrupt: Spend 3 mana. Remove Frustrated from one character.","OR BURN CARD. Interrupt: +1 Sorcery.",
+"Sorcery",1,"Undari's Libram",0,8,0,4,0,"Interrupt: Spend 3 mana.","OR BURN CARD. Interrupt: Draw one threat.",
 "Sorcery",2,"Philter of Arankh",0,0,0,8,3,"Interrupt: Spend 3 mana. Play on character. Character has +1 lore for the rest of the season.","OR BURN CARD. Interrupt: Gain +2 mana. Roll dice and add to pool.","+1 LORE"
 "Sorcery",3,"Mana Forge",0,0,0,9,3,"Interrupt: Gain +1 mana. Roll dice and add to pool.","OR BURN CARD. Interrupt: +2 Lore dice on one skill test.",
 "Sorcery",4,"Focused Channeling",0,0,0,9,7,"Interrupt: Spend 4 mana to remove angry or Frustrated from one character.","OR BURN CARD. Interrupt: +1 Sorcery.",

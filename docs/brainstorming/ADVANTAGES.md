@@ -37,6 +37,12 @@ There are other types of advantages which are very situational.
 
 * Draw Threat Card(s)
 * Draw Asset Card(s)
+* Rearrange Encounter Deck
+* Rearrange Progress Deck
+* Rearrange Asset Deck
+* Search for Encounter Card
+* Search for Progress Card
+* Search for Asset
 
 ## Test and Task Manipulation
 
@@ -74,13 +80,19 @@ The general pattern gives a better bonus if you don't advance. Advancing frequen
 
 ## Developments
 
-Developments are also differentiated somewhat by type.
+Developments are also differentiated somewhat by type. Maybe as a general rule none of these should remove conditions or discord?
 
 * Resources
 * Test Boosts
 * Task Boosts
 
 ## Locations
+
+These should be permanent manipulations.
+
+* Raising Tracks
+* More Resources
+* Using Disposition
 
 ### Spotlight Locations
 
