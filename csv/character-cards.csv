@@ -21,6 +21,9 @@ Fuscus,3,"Very Charming",,"Interrupt: Choice","A: +3 Luxury.","B: Spend 5 Luxury
 Oniri,1,"I'm Always in Pain",,"Interrupt: Choice","A: +1 Mana.","B: Spend 4 Mana. Give Oniri a condition to remove a condition from someone else in the party. Burn card and unlock Oniri 2.",""
 Oniri,2,"Always Alone",,"Interrupt: Choice","A: +2 Mana.","B: Play when Oniri is alone at a Quest location. Oniri is Exhausted. Burn card and unlock Oniri 3.",""
 Oniri,3,"Necromantic Mana Well",,"Interrupt: Choice","A: +3 Mana.","B: Oniri is Shattered. Increase mana track. Burn card and unlock Oniri 4.",""
+Oniri,4,"Necromantic Mana Well",,"Interrupt: Choice","A: +3 Mana.","B: Oniri is Shattered. Increase mana track. Burn card and unlock Oniri 4.",""
+Oniri,5,"Necromantic Mana Well",,"Interrupt: Choice","A: +3 Mana.","B: Oniri is Shattered. Increase mana track. Burn card and unlock Oniri 4.",""
+Oniri,6,"Necromantic Mana Well",,"Interrupt: Choice","A: +3 Mana.","B: Oniri is Shattered. Increase mana track. Burn card and unlock Oniri 4.",""
 
 Yasmina,1,"Food and Water",,"Interrupt: Choice","A Interrupt: Solo Lore: 3. +2 Fortune. Burn card and unlock Yasmina 2.","B Interrupt: Solo Lore: 1. On success remove a weary condition on any character in party.",""
 Yasmina,2,"TBD",,"Interrupt: Choice","A","B",""
