@@ -1,9 +1,9 @@
-id,title,text
+id,title,blocka,blockb,blockc
 
-arti01,"Pelakhar","Interrupt: Spend 11 food and 3 mana. Discard a foe from a mission staging area."
-arti02,"Gossamer Veil","At the beginning of a season, may play Gossamer Veil on a character. For the remainder of the season, all disguise tests made by that character are easy."
-arti03,"Aren's Forge","A player may start the season with Aren's Forge in their hand. Play Card: Spend 4 ore to lower difficulty of command test by two or add +1 to the conquest track."
-arti04,"Thedda's Palimpsest","At the beginning of a season, may play Thedda's Palimpsest on a character. That character ignores all backlash from mana spends."
-arti05,"Sapphire Djinn","At the beginning of a season, may play Sapphire Djinn on a character. The difficulty of all rapport and command tests made by the character are lowered by two. After the season is over, the character must take one psyche condition."
-arti06,"Firstborn Peak","Something to stop the Autarch. Maybe connected to the Animaelic Forest?"
-arti07,"The Dawncaves","A powerful book of magic? Turn 35 mana into a skill increase? Teleport characters between missions? Maybe can play to search through the asset deck and grab any one card? That's super handy."
+arti01,"Pelakhar","Refresh Phase: Roll a test using Stability. For each success, take one Discord. Discard a Foe from a mission staging area.",,
+arti02,"Gossamer Veil","Refresh Phase: Play on character. Disguise tests made by attached character are easy for the rest of the season.",,
+arti03,"Aren's Forge","Refresh Phase: Play on character. Combat tests made by attached character are easy for the rest of the season.",,
+arti04,"Thedda's Palimpsest","Refresh Phase: Play on character. Character may invoke Thedda for the rest of the season.","Invoke Thedda: Become Weary. Spend any number of mana dice up to character's Lore skill. For each mana dice spent, add one success to a test or add one progress to a task.",
+arti05,"Sapphire Djinn","Refresh Phase: Play on character. All other characters in group must take a psyche condition. Rapport and Command tests made by attached character are easy for the rest of the season.",,
+arti06,"Diadem of Fortune","Interrupt: Search through Asset deck and take any three cards into hand. Reshuffle Asset deck.",,
+arti07,"The North Ghost","Refresh Phase: Play on character. Character may link to Animaelic Forest for rest of the season.","Link to Animaelic Forest: Become Weary. Increase one skill on any character by one.",

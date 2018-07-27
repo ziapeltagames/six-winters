@@ -74,25 +74,95 @@ This provides design guidance on how these different sorts of advantages general
 
 ## Lifepath Cards
 
-The general pattern gives a better bonus if you don't advance. Advancing frequently gives a bonus, but also inflicts some sort of cost as well.
+The general pattern gives a better bonus if you don't advance. Advancing frequently gives a bonus, but also inflicts some sort of cost as well. These include things like removing discord, ignoring hindrance, adding defense, and manipulating conditions.
 
-* Draw More Threats
+* Better Defense
+* Extra Movement
+* Moving Obstacles
+* Lower Hindrance
+* Moving Threats
+* Improving Resolve
+* Improving Skills
+* Adding Progress Remotely (Not At Location)
+* Burning Threats
+* Removing Timers
+* Secrets
+* Lowering Apotheosis
+
+### Thea (Starting Character)
+
+### Menas (Starting Character)
+
+### Fuscus (Starting Character)
+
+### Keel (Starting Character)
+
+### Oniri (North Oaks)
+
+### Yasmini (Sunriders, Gravewood, Burgan Vale)
+
+### Viator (Sunriders, Gravewood, Crescent Hold, Lily Manor)
+
+### Lucia (Eastkeep, Guilder Farms, Yearly Field, Dawncaves)
 
 ## Developments
 
-Developments are also differentiated somewhat by type. Maybe as a general rule none of these should remove conditions or discord?
+Developments are also differentiated somewhat by type. Maybe as a general rule none of these should remove conditions or discord? That might be a better thing for character cards to do. The various types should also roughly map to the different quest types. Developments can be burned, which provides a different effect, and is the only way to get rid of them.
 
-* Resources
+* Resource Dice
 * Test Boosts
 * Task Boosts
+
+It would also be good if the peak development in each track was fairly powerful.
+
+* Conquest (Timber, Ore)
+   * Core Advantages
+      * Survival (+1, +2)
+      * Timber (+1, +2)
+      * Food (+1, +2)
+      * Ore (+1, +2)
+      * Luxury (+1, +2)
+   * Peak Advantage
+      * Exploration Benefit (Rearrange Top Four Cards of Progress Deck)
+   * Burn Advantages
+      * Wilderness or Conquest Task Progress
+   * Costs
+      * Timber
+* Diplomacy (Luxury, Food)
+   * Advantages
+      * Rapport
+      * Luxury
+      * Alliance
+   * Costs
+      * Luxury
+* Sorcery (Mana)
+   * Advantages
+      * Lore
+      * Mana
+* Stability (Food, Timber, Ore)
+   * Advantages
+      * Fortune
+* Military (Ore, Food, Timber)
+   * Advantages
+      * Combat
+      * Tactics
+* Espionage (All Resources)
+   * Advantages
+      * Disguise
+      * Thievery
+      * Infiltration
 
 ## Locations
 
 These should be permanent manipulations.
 
 * Raising Tracks
+
+Should be roughly ten of these that can be found, for all of the tracks.
+
 * More Resources
 * Using Disposition
+* Drawing Threats
 
 ### Spotlight Locations
 

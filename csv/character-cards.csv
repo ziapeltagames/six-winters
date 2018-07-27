@@ -15,8 +15,11 @@ Thea,3,"Diplomatic Insights",,"Interrupt: Choice","A: +3 Luxury.","B Interrupt: 
 Thea,6,"A Call to Action",,"Interrupt","Increase the disposition of a faction by one.",,""
 
 Fuscus,1,"Market Manipulations",,"Interrupt: Choice","A: +1 Luxury.","B: Play when Thea is at the same location. Thea is Shaken. Burn card and unlock Fuscus 2.",""
-Fuscus,2,"Bending Rules",,"Interrupt: Choice","A: +2 Luxury.","B: Play when Fuscus is at an Imperial location. Remove one timer progress from Mission Overview card. Shuffle progress deck. Burn card and unlock Fuscus 3.",""
-Fuscus,3,"Very Charming",,"Interrupt: Choice","A: +3 Luxury.","B: Spend 5 Luxury. Fuscus has +1 Rapport for the remainder of the season. Burn card and unlock Fuscus 4.","+1 RAPPORT"
+Fuscus,2,"Bending Rules",,"Interrupt: Choice","A: +1 Luxury.","B: Play when Fuscus is at an Imperial location. Remove one timer progress from Mission Overview card. Shuffle progress deck. Burn card and unlock Fuscus 3.",""
+Fuscus,3,"Very Charming",,"Interrupt: Choice","A: +2 Luxury.","B: Spend 5 Luxury. Fuscus has +1 Rapport for the remainder of the season. Burn card and unlock Fuscus 4.","+1 RAPPORT"
+Fuscus,4,"Very Charming",,"Interrupt: Choice","A: +2 Luxury.","B: Spend 5 Luxury. Fuscus has +1 Rapport for the remainder of the season. Burn card and unlock Fuscus 4.","+1 RAPPORT"
+Fuscus,5,"Very Charming",,"Interrupt: Choice","A: +3 Luxury.","B: Spend 5 Luxury. Fuscus has +1 Rapport for the remainder of the season. Burn card and unlock Fuscus 4.","+1 RAPPORT"
+Fuscus,6,"Very Charming",,"Interrupt: Choice","A: +3 Luxury.","B: Spend 5 Luxury. Fuscus has +1 Rapport for the remainder of the season. Burn card and unlock Fuscus 4.","+1 RAPPORT"
 
 Oniri,1,"I'm Always in Pain",,"Interrupt: Choice","A: +1 Mana.","B: Spend 4 Mana. Give Oniri a condition to remove a condition from someone else in the party. Burn card and unlock Oniri 2.",""
 Oniri,2,"Always Alone",,"Interrupt: Choice","A: +2 Mana.","B: Play when Oniri is alone at a Quest location. Oniri is Exhausted. Burn card and unlock Oniri 3.",""
