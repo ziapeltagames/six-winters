@@ -20,6 +20,10 @@ As it stands now, triggers occur only on locations you're actually at. For obsta
 
 Maybe they should just occur on all obstacles / attachments / locations? The "you have to be there" was to make it easier to scan over cards, but it makes threat design tough? Maybe all the locations / attachments / obstacles in the player's mission area as well as the spotlight area will activate.
 
+## Threat Timers
+
+One pattern that might be worthwhile is placing a certain amount of progress on a threat, that dwindles each time a trigger comes up. That's one used in Eldritch Horror frequently, and something like that may work here. The different development tracks could provide a good basis for that.
+
 ## Red Bank Tests
 
 It would be nice if the threats weren't necessarily a guaranteed occurrence. One way that could happen is via a trigger causing a dice roll. These might be special sorts of tests where things like mana couldn't be used (since mana requires a caster and backlash). Something like, "Rare: Red Bank Test: Espionage 3. Success: Blah. Failure: Blah." Might be worth having that as a generally available test type?

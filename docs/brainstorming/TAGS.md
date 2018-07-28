@@ -2,34 +2,23 @@ Tags are narrative keywords that appear on various cards. They provide hook to i
 
 Most encounter cards should have at least one tag as well, from any of the given categories.
 
-# Common Location Tags
+# Common Tags
+
+This is the current list of tags currently in use. New ones may be possibly added, but that should be done with care, as it will dilute the effectiveness of cards that use tags.
+
+Many of these tags are more commonly found in certain sorts of missions. For example, Alliance missions are more likely to have cards witht he Diplomat and Diplomacy tags, as well as possible Urban locations, or maybe Stability.
 
 * Wilderness
 * Urban
 * Red Bank
 * Imperial
-
-# Common Obstacle Tags
-
 * Guard
-
-Could be used Infiltration missions, or Imperial locations, as well as Threats.
-
 * Foe
-
-Most adversaries found during Exploration or Quests are Foes, in addition to perhaps being Undead or Beasts.
-
 * Undead
 * Beast
 * Diplomat
-
-The Diplomat tag is mainly used for Alliance missions.
-
 * Trap
-* Weather
-
-# General Tags
-
+* Environment
 * Conquest
 * Sorcery
 * Stability
@@ -40,6 +29,10 @@ The Diplomat tag is mainly used for Alliance missions.
 * Imperial
 
 # Character Tags
+
+This is a variant that is still under consideration. Characters may have tags that get added to them, and cards could refer to these tags. However, there is already quite a bit going on, so not sure if this is worth it or not!
+
+The idea for these tags is that they could have benefits or penalties that are situational. Or perhaps they could combine in interesting ways.
 
 * Headstrong
 * Cautious

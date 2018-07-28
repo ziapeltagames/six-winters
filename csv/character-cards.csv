@@ -1,6 +1,6 @@
 character,number,title,text,switch,blocka,blockb,bottom
 
-Keel,1,"Right Tool For The Job",,"Interrupt: Choice","A: +1 Fortune.","B: Spend 4 Ore. Keel has +1 Survival for the remainder of the season. End of season: Burn card and unlock Keel 2.","+1 SURVIVAL"
+Keel,1,"Right Tool For The Job",,"Interrupt: Choice","A: +1 Fortune.","B: Spend 4 Ore. Keel has +1 Thievery for the remainder of the season. End of season: Burn card and unlock Keel 2.","+1 THIEVERY"
 Keel,2,"Alone in the Dark",,"Interrupt: Choice","A: +2 Fortune.","B: Play when Keel is alone at an Imperial location. Keel has +1 Thievery for the remainder of the season. End of season: Burn card and unlock Keel 3.","+1 THIEVERY"
 Keel,3,"Unlikely Friends",,"Interrupt: Choice","A: +3 Fortune.","B: Play when Menas is at the same location. Remove one psyche condition on Keel. Burn card and unlock Keel 4.",""
 Keel,4,"Misdirection",,"Interrupt: Choice","A: +3 Fortune.","B: Move an obstacle to any unoccupied urban location in same mission area.",""

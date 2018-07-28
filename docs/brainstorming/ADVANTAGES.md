@@ -91,13 +91,40 @@ The general pattern gives a better bonus if you don't advance. Advancing frequen
 
 ### Thea (Starting Character)
 
+Diplomacy, Diplomats, Rapport
+
+Alliance +4
+
 ### Menas (Starting Character)
+
+Beasts, Survival, Environment, Command
+
+Exploration +4, Alliance +1
 
 ### Fuscus (Starting Character)
 
+Alliance +3, Infiltration +1
+
 ### Keel (Starting Character)
 
+* Guards, Espionage, Thievery, Combat
+* Infiltration 4, Exploration 2
+* Gets along okay with Menas, Thea, and Lucia.
+* Dislikes Oniri. Disagreement betwen tech and magic.
+* Abilities
+   * +1 Thievery
+   * +1 Combat
+   * Discard Guards
+   * Remove Timer Infiltration
+   * +1 Secret
+* Costs
+   * Ore
+
 ### Oniri (North Oaks)
+
+Shadow Walk
+
+Infiltration +2, Exploration +1
 
 ### Yasmini (Sunriders, Gravewood, Burgan Vale)
 
@@ -113,7 +140,7 @@ Developments are also differentiated somewhat by type. Maybe as a general rule n
 * Test Boosts
 * Task Boosts
 
-It would also be good if the peak development in each track was fairly powerful.
+It would also be good if the peak development in each track was fairly powerful. It also probably needs to be something valuable in the climactic mission? Since it will be purchased so late in the campaign?
 
 * Conquest (Timber, Ore)
    * Core Advantages
@@ -121,31 +148,28 @@ It would also be good if the peak development in each track was fairly powerful.
       * Timber (+1, +2)
       * Food (+1, +2)
       * Ore (+1, +2)
-      * Luxury (+1, +2)
+      * Exploration Mission Progress Deck
    * Peak Advantage
-      * Exploration Benefit (Rearrange Top Four Cards of Progress Deck)
+      * Clear Discord
    * Burn Advantages
       * Wilderness or Conquest Task Progress
-   * Costs
-      * Timber
 * Diplomacy (Luxury, Food)
    * Advantages
-      * Rapport
-      * Luxury
+      * Rapport (+1, +2)
+      * Luxury (+1, +2)
       * Alliance
-   * Costs
-      * Luxury
 * Sorcery (Mana)
    * Advantages
-      * Lore
-      * Mana
+      * Lore (+1, +2)
+      * Mana (+1, +2)
 * Stability (Food, Timber, Ore)
    * Advantages
       * Fortune
 * Military (Ore, Food, Timber)
    * Advantages
-      * Combat
-      * Tactics
+      * Combat (+1, +2)
+      * Tactics (+1, +2)
+      * Command (+1, +2)
 * Espionage (All Resources)
    * Advantages
       * Disguise

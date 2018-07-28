@@ -1,15 +1,15 @@
 category,stage,title,food,timber,ore,mana,luxury,text,burn,effect
 
-"Conquest",1,"Farbread",0,8,4,0,0,"Interrupt: Gain +1 Food. Roll dice and add to pool.","OR BURN CARD. Interrupt: +2 Rapport on one test or task.",
-"Conquest",2,"Gregor's Mill",0,16,0,1,0,"Interrupt: Gain +1 Timber. Roll dice and add to pool.","OR BURN CARD. Interrupt: +2 Survival on one test or task.",
-"Conquest",3,"Refined Alloys",0,2,11,4,0,"Interrupt: Gain +1 Ore. Roll dice and add to pool.","OR BURN CARD. Interrupt: +2 Combat on one test or task.",
-"Conquest",4,"Nyana's Handbook",0,13,12,6,2,"Interrupt: Gain +1 Luxury. Roll dice and add to pool.","OR BURN CARD. Interrupt: +2 Rapport on one test or task.",
-"Conquest",5,"All Weather Gear",12,16,10,6,2,"Interrupt: Spend 7 Food. During an Exploration mission, rerrange the top three progress cards in any order.","OR BURN CARD. Interrupt: +3 Survival on one test or task.",
-"Conquest",6,"Feast Day",0,18,25,8,0,"Interrupt: Gain +2 Food. Roll dice and add to pool.","OR BURN CARD. Interrupt: +4 Rapport on one test or task.",
-"Conquest",7,"Wayhouses",5,28,18,10,0,"Interrupt: Gain +2 Timber. Roll dice and add to pool.","OR BURN CARD. Interrupt: +4 Survival on one test or task.",
-"Conquest",8,"Willowrock",15,36,0,0,0,"Interrupt: Gain +2 Ore. Roll dice and add to pool.","OR BURN CARD. Interrupt: +4 Combat on one test or task.",
-"Conquest",9,"Cartography",12,34,18,7,0,"Interrupt: Gain +2 Food. Roll dice and add to pool.","OR BURN CARD. Interrupt: +5 Survival on one test or task.",
-"Conquest",10,"Green Leaf",0,41,24,18,5,"Interrupt: Gain +3 Luxury. Roll dice and add to pool.","OR BURN CARD. Interrupt: +6 Rapport on one test or task.",
+"Conquest",1,"Farbread",0,8,4,0,0,"(DISCARD) Interrupt: Gain +2 Food dice. Roll dice and add to pool.","(BURN) Interrupt: Add two progress to any Wilderness task.",
+"Conquest",2,"Gregor's Mill",0,16,0,1,0,"(DISCARD) Interrupt: Gain +2 Timber dice. Roll dice and add to pool.","(BURN) Interrupt: Add two progress to any Conquest task..",
+"Conquest",3,"Refined Alloys",0,2,11,4,0,"(DISCARD) Interrupt: Gain +2 Ore dice. Roll dice and add to pool.","(BURN) Interrupt: Add two progress to any Wilderness task.",
+"Conquest",4,"Nyana's Handbook",0,13,12,6,2,"(DISCARD) Interrupt: Play on character in party. Character has +1 Survival for the rest of the season.","(BURN) Interrupt: Add two progress to any Conquest task.","+1 SURVIVAL"
+"Conquest",5,"All Weather Gear",12,16,10,6,2,"(DISCARD) Refresh Phase: Spend 7 Food. During an Exploration mission, rerrange the top four progress cards in any order.","(BURN) Interrupt: Add two progress to any Wilderness task.",
+"Conquest",6,"Feast Day",0,18,25,8,0,"(DISCARD) Interrupt: Gain +4 Food dice. Roll dice and add to pool.","(BURN) Interrupt: Add two progress to any Conquest task.",
+"Conquest",7,"Wayhouses",5,28,18,10,0,"(DISCARD) Interrupt: Gain +4 Timber dice. Roll dice and add to pool.","(BURN) Interrupt: Add two progress to any Wilderness task..",
+"Conquest",8,"Willowrock",15,36,0,0,0,"(DISCARD) Interrupt: Gain +4 Ore dice. Roll dice and add to pool.","(BURN) Interrupt: Add two progress to any Conquest task.",
+"Conquest",9,"Cartography",12,34,18,7,0,"(DISCARD) Interrupt: Play on character in party. Character has +2 Survival for the rest of the season.","(BURN) Interrupt: Add two progress to any Wilderness task.","+2 SURVIVAL"
+"Conquest",10,"Green Leaf",0,41,24,18,5,"(DISCARD) Interrupt: Spend 16 Food. Clear all Discord from one pool.","(BURN) Interrupt: Add two progress to any Conquest task.",
 
 "Diplomacy",1,"Study Abroad",0,0,0,0,4,"Interrupt: Spend 4 Luxury. Gain resources for faction equal to Disposition track.","OR BURN CARD. Interrupt: Gain +2 Luxury. Roll dice and add to pool.",
 "Diplomacy",2,"Political Bribes",9,0,0,0,5,"Interrupt: Spend 3 Luxury. Play on character. Character has +1 Rapport for the rest of the season.","OR BURN CARD. Interrupt: Gain +2 Luxury. Roll dice and add to pool.","+1 RAPPORT"
