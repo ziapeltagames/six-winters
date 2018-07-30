@@ -1,7 +1,7 @@
 * Refresh
 * Move Characters
 * Move Obstacles
-* Test Resolve
-* Progress
+* Resolve
+* Event
 * Encounter
-* Action
+* Actions

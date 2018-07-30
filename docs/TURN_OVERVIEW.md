@@ -5,7 +5,7 @@ A turn in _Six Winters_ is composed of the following phases.
 * Any exhausted cards are refreshed
 * Player may end mission during any refresh phase
      * Players who voluntarily end their mission may still take actions with characters in spotlight and threat locations until the other player ends their mission
-          * Progress cards are still drawn for any obstacle and location triggers in spotlight locations
+          * Event cards are still drawn for any obstacle and location triggers in spotlight locations
      * When both players end their missions, the season is over
 
 # Move Characters
@@ -18,17 +18,17 @@ A turn in _Six Winters_ is composed of the following phases.
 * Any obstacles at mission locations with no characters are moved to the mission staging area
 * Players may move any obstacles from the staging area to any location with characters
 
-# Test Resolve
+# Resolve
 
 * Each player may choose one location occupied by a character in the party
      * Players may lower discord pool by total resolve of all characters in chosen location
      * Player gives one character in chosen location a condition
 
-# Progress
+# Event
 
-* Draw progress card
-     * If a character card is drawn, resolve card and draw again
-* If progress card has asset, draw and resolve one card from asset deck
+* Draw event card
+     * If a discord card is drawn, resolve card and draw again
+* If event card has asset icon, draw one card from asset deck
 * Resolve timer trigger
 * Resolve location triggers
 * Resolve obstacle triggers     

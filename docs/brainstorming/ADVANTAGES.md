@@ -6,7 +6,7 @@ This list details a variety of common sorts of advantages that are mechanically 
 
 These advantages are *roughly* in order of how good they are. Gaining Fortune is a very common benefit. Fortune fuels other abilities, and there isn't an easy way to get it.
 
-Advantages that are more transient, such as bonuses to a certain kind of test, are naturally not as useful as permanent changes, such as improving a character's skill. The most powerful sorts of advantages, such as lowering apotheosis, should be tremendously rare, since that's the main timer that helps push the game forward.
+Advantages that are more transient, such as bonuses to a certain kind of test, are naturally not as useful as permanent changes, such as improving a character's skill. The most powerful sorts of advantages, such as lowering apotheosis, should be rare, since that's the main timer that helps push the game forward.
 
 * Fortune Dice
 * Extra Test Dice
@@ -32,6 +32,7 @@ Advantages that are more transient, such as bonuses to a certain kind of test, a
 * Removing Timers
 * Secrets
 * Lowering Apotheosis
+* Removing Threats
 
 There are other types of advantages which are very situational.
 
@@ -72,7 +73,7 @@ This provides design guidance on how these different sorts of advantages general
 
 * Fortune
 
-## Lifepath Cards
+## Character Cards
 
 The general pattern gives a better bonus if you don't advance. Advancing frequently gives a bonus, but also inflicts some sort of cost as well. These include things like removing discord, ignoring hindrance, adding defense, and manipulating conditions.
 
@@ -91,40 +92,30 @@ The general pattern gives a better bonus if you don't advance. Advancing frequen
 
 ### Thea (Starting Character)
 
-Diplomacy, Diplomats, Rapport
-
-Alliance +4
+* Alliance 4
+* Diplomacy, Diplomats, Rapport
 
 ### Menas (Starting Character)
 
-Beasts, Survival, Environment, Command
-
-Exploration +4, Alliance +1
+* Exploration 4, Alliance 1
+* Beasts, Survival, Environment, Command
 
 ### Fuscus (Starting Character)
 
-Alliance +3, Infiltration +1
+* Alliance 3, Infiltration 1
 
 ### Keel (Starting Character)
 
-* Guards, Espionage, Thievery, Combat
 * Infiltration 4, Exploration 2
 * Gets along okay with Menas, Thea, and Lucia.
 * Dislikes Oniri. Disagreement betwen tech and magic.
-* Abilities
-   * +1 Thievery
-   * +1 Combat
-   * Discard Guards
-   * Remove Timer Infiltration
-   * +1 Secret
 * Costs
    * Ore
 
 ### Oniri (North Oaks)
 
-Shadow Walk
-
-Infiltration +2, Exploration +1
+* Infiltration 2, Exploration 1
+* Shadow Walk
 
 ### Yasmini (Sunriders, Gravewood, Burgan Vale)
 
