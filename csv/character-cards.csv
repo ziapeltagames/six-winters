@@ -5,7 +5,7 @@ Keel,1,0,"Alone in the Dark",,"(DISCARD) +1 Fortune.","(BURN) Play when Keel is 
 Keel,1,0,"Unlikely Friends",,"(DISCARD) +1 Fortune.","(BURN) Play when Menas is at the same location. Remove three Discord.",""
 
 Menas,1,0,"The Direct Approach",,"(DISCARD) +2 Fortune","(BURN) +4 Fortune and every other character in party is Angry.",
-Menas,1,0,"Whispering Spirits",,"(DISCARD) +1 Fortune","(BURN) Play when Oniri is at the same location. Menas is Shaken.",
+Menas,1,0,"Military Knowledge",,"(DISCARD) Spend one secret to add two progress at Military location or attachment.","(BURN) +4 Fortune.",
 Menas,1,0,"Less Talk!",,"(DISCARD) +1 Fortune.","(BURN) Play when Thea is at the same location. Menas is Angry.",
 
 Thea,1,0,"Black and White",,"(DISCARD) +2 Luxury.","(BURN) Spend 4 Luxury. Success: Remove Frustrated or Angry condition on another character at same location.",
@@ -14,12 +14,14 @@ Thea,1,0,"The Conciliator",,"(DISCARD) +2 Luxury.","(BURN) Thea is Exhausted. Re
 
 Fuscus,1,0,"Market Manipulations",,"(DISCARD) +1 Luxury.","(BURN) Play when Thea is at the same location. Thea is Angry.",
 Fuscus,1,0,"Bending Rules",,"(DISCARD) +2 Luxury.","(BURN) Play when Fuscus is at an Imperial location. Remove one timer progress from Mission Overview card.",
-Fuscus,1,0,"Very Charming",,"(DISCARD) +2 Luxury.","(BURN) Spend 5 Luxury. Fuscus has +1 Rapport for the remainder of the season.4.","+1 RAPPORT"
+Fuscus,1,0,"Very Charming",,"(DISCARD) +2 Luxury.","(BURN) Spend 5 Luxury. Fuscus has +1 Rapport for the remainder of the season.","+1 RAPPORT"
+
 
 Oniri,1,0,"I'm Always in Pain",,"(DISCARD) +1 Mana.","(BURN) Spend 4 Mana. Give Oniri a condition to remove a condition from someone else in the party.",""
 Oniri,1,0,"Always Alone",,"(DISCARD) +1 Mana.","(BURN) Play when Oniri is alone at a Quest location. Oniri is Exhausted.",""
 Oniri,1,0,"Necromantic Mana Well",,"(DISCARD) +1 Mana.","(BURN) Oniri is Shattered. Increase Mana track by one.",""
 
+Menas,2,2,"Whispering Spirits",,"(DISCARD) +1 Fortune","(BURN) Play when Oniri is at the same location. Menas is Shaken.",
 
 Keel,2,3,"Misdirection",,"(DISCARD) +3 Fortune.","(BURN) Move an obstacle to any unoccupied urban location in same mission area.",""
 
