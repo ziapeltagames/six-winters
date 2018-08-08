@@ -1,4 +1,4 @@
-category,stage,title,food,timber,ore,mana,luxury,text,burn,effect
+category,level,title,food,timber,ore,mana,luxury,discard,burn,effect
 
 "Conquest",1,"Farbread",0,8,4,0,0,"(DISCARD) Gain +2 Food dice. Roll dice and add to pool.","(BURN) Add two progress to any Wilderness task.",
 "Conquest",2,"Gregor's Mill",0,16,0,1,0,"(DISCARD) Gain +2 Timber dice. Roll dice and add to pool.","(BURN) Add two progress to any Conquest task..",
@@ -6,21 +6,21 @@ category,stage,title,food,timber,ore,mana,luxury,text,burn,effect
 "Conquest",4,"Nyana's Handbook",0,13,12,6,2,"(DISCARD) Play on character in party. Character has +1 Survival for the rest of the season.","(BURN) Add two progress to any Conquest task.","+1 SURVIVAL"
 "Conquest",5,"All Weather Gear",12,16,10,6,2,"(DISCARD) Spend 7 Food. During an Exploration mission, rerrange the top four progress cards in any order.","(BURN) Add two progress to any Wilderness task.",
 "Conquest",6,"Feast Day",0,18,25,8,0,"(DISCARD) Gain +4 Food dice. Roll dice and add to pool.","(BURN) Add two progress to any Conquest task.",
-"Conquest",7,"Wayhouses",5,28,18,10,0,"(DISCARD) Gain +4 Timber dice. Roll dice and add to pool.","(BURN) Add two progress to any Wilderness task..",
+"Conquest",7,"Wayhouses",5,28,18,10,0,"(DISCARD) Gain +4 Timber dice. Roll dice and add to pool.","(BURN) Add two progress to any Wilderness task.",
 "Conquest",8,"Willowrock",15,36,0,0,0,"(DISCARD) Gain +4 Ore dice. Roll dice and add to pool.","(BURN) Add two progress to any Conquest task.",
 "Conquest",9,"Cartography",12,34,18,7,0,"(DISCARD) Play on character in party. Character has +2 Survival for the rest of the season.","(BURN) Add two progress to any Wilderness task.","+2 SURVIVAL"
 "Conquest",10,"Green Leaf",0,41,24,18,5,"(DISCARD) Spend 16 Food. Clear all Discord from one pool.","(BURN) Add two progress to any Conquest task.",
 
-"Diplomacy",1,"Study Abroad",0,0,0,0,4,"(DISCARD) Spend 4 Luxury. Gain resource dice for faction equal to Disposition track.","(BURN) Gain +2 Luxury. Roll dice and add to pool.",
+"Diplomacy",1,"Study Abroad",0,0,0,0,4,"(DISCARD) Spend one Luxury die to reroll any resource dice of one type.","(BURN) Gain +2 Luxury. Roll dice and add to pool.",
 "Diplomacy",2,"Political Bribes",9,0,0,0,5,"(DISCARD) Spend 3 Luxury. Play on character. Character has +1 Rapport for the rest of the season.","(BURN) Gain +2 Luxury. Roll dice and add to pool.","+1 RAPPORT"
-"Diplomacy",3,"Distant Favors",1,0,0,3,7,"(DISCARD) Spend one Luxury die to reroll any resource dice of one type.","(BURN) Gain +3 Luxury. Roll dice and add to pool.",
+"Diplomacy",3,"Distant Favors",1,0,0,3,7,"(DISCARD) (INTERRUPT) (Test) Spend one Luxury die to reroll any failed dice on one test, including any Fortune used.","(BURN) Gain +3 Luxury. Roll dice and add to pool.",
 "Diplomacy",4,"Salts and Spices",12,0,0,0,12,"(DISCARD) Spend 4 Luxury. Gain resources for faction equal to Disposition track.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
-"Diplomacy",5,"Institutes of Knowledge",10,4,3,6,6,"(DISCARD) Add two progress to any task at an Urban location.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
+"Diplomacy",5,"Institutes of Knowledge",10,4,3,6,6,"(DISCARD) Spend 4 Luxury. Add two progress to any task at an Urban location.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
 "Diplomacy",6,"Raiments of Starsilk",8,0,0,0,16,"(DISCARD) Spend 4 Luxury. Play on character. Character has +2 Rapport for the rest of the season.","(BURN) Gain +4 Luxury. Roll dice and add to pool.","+2 RAPPORT"
-"Diplomacy",7,"Diverse Population",0,0,0,10,18,"(DISCARD) Add three progress to any task at an Urban location.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
+"Diplomacy",7,"Diverse Population",0,0,0,10,18,"(DISCARD) Spend 5 Luxury. Add three progress to any task at an Urban location.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
 "Diplomacy",8,"Mercantile Empire",22,0,0,0,22,"(DISCARD) Spend 5 Luxury. During an Alliance mission, rerrange the top three progress cards in any order.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
-"Diplomacy",9,"Stronger Together",14,0,0,12,26,"(DISCARD) Spend one Luxury die to reroll any failed dice on any test, including any Fortune used.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
-"Diplomacy",10,"Factions United",18,0,0,16,30,"(DISCARD) Spend 6 Luxury. Add four progress to any task at an Urban location.","(BURN) (INTERRUPT) (Test). Succeed at any test using Command or Rapport.",
+"Diplomacy",9,"Stronger Together",14,0,0,12,26,"(DISCARD) Spend 5 Luxury. Discard one Diplomat obstacle.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
+"Diplomacy",10,"Factions United",18,0,0,16,30,"(DISCARD) Spend 6 Luxury. Add four progress to any task at an Urban location.","(BURN) (INTERRUPT) (Test) Succeed at any test using Command or Rapport.",
 
 "Sorcery",1,"Undari's Libram",0,8,0,4,0,"(DISCARD) (INTERRUPT) (Test). Become Weary and spend one Mana die to add one success to any test.","(BURN) Draw top Threat card.",
 "Sorcery",2,"Philter of Arankh",0,0,0,8,3,"(DISCARD) Spend 3 Mana. Play on character. Character has +1 Lore for the rest of the season.","(BURN) Gain +2 Mana. Roll dice and add to pool.","+1 LORE"

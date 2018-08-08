@@ -7,18 +7,18 @@ This document outlines the overall campaign, breaking up missions by year.
 * Sunriders
 * Gravewood
 * Eastkeep
+* Guilder Farms
 
 # Year Two
 
-* Guilder Farms
+* Gray Forest
+* Prominence
 * Crescent Hold
 * Burgan Vale
 * Pelakhar's Loyalty
-* Prominence
 
 # Year Three
 
-* Gray Forest
 * Ferry's Glenn
 * Lily Manor
 * Gossamer Veil

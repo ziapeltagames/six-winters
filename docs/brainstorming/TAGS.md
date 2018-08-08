@@ -10,8 +10,10 @@ Many of these tags are more commonly found in certain sorts of missions. For exa
 
 * Wilderness
 * Urban
+* Dungeon
 * Red Bank
 * Imperial
+
 * Guard
 * Foe
 * Undead
@@ -19,6 +21,7 @@ Many of these tags are more commonly found in certain sorts of missions. For exa
 * Diplomat
 * Trap
 * Environment
+
 * Conquest
 * Sorcery
 * Stability
