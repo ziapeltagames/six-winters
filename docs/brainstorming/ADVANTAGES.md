@@ -4,9 +4,9 @@ This document illustrates the different types of benefits players can gain in _S
 
 This list details a variety of common sorts of advantages that are mechanically supported in _Six Winters_.
 
-These advantages are *roughly* in order of how good they are. Gaining Fortune is a very common benefit. Fortune fuels other abilities, and there isn't an easy way to get it.
+These advantages are *roughly* in order of how good they are. Gaining Fortune is a very common benefit. Fortune fuels other abilities, and is one of the core economies of the game.
 
-Advantages that are more transient, such as bonuses to a certain kind of test, are naturally not as useful as permanent changes, such as improving a character's skill. The most powerful sorts of advantages, such as lowering apotheosis, should be rare, since that's the main timer that helps push the game forward.
+Advantages that are more transient, such as bonuses to a certain kind of test, are naturally not as useful as permanent changes, such as improving a character's skill. The most powerful sorts of advantages, such as lowering apotheosis or removing discord, should be rare, since that's the main timer that helps push the game forward.
 
 * Fortune Dice
 * Extra Test Dice
@@ -63,7 +63,7 @@ Another way to make advantages less useful is to use play costs. For example, a 
 
 ## Removing Conditions and Discord
 
-These abilities should be used with care. Taking Conditions and getting Discord are a big source of tension, so it shouldn't be easy to lower them. It's better to have abilities that help lower the hindrance value of obstacles or that improve defense. Once you get Discord or Conditions, they should be hard to remove.
+These abilities should be used with care. Taking Conditions and getting Discord are a big source of tension, so it shouldn't be easy to lower them. It's better to have abilities that help lower the hindrance value of obstacles or that improve defense. Once you get Discord or Conditions, they should be hard to remove. In the case of discord, that usually invovles spending some other resource or getting a condition.
 
 # Advantages and Card Types
 
@@ -71,24 +71,35 @@ This provides design guidance on how these different sorts of advantages general
 
 ## Encounter Cards
 
+Fortune is most likely the bread and butter of Encounter cards. They also mainly give out discord. Both of those are very free flowing economies.
+
 * Fortune
+* Resources
+   * Mainly during Exploration missions
+* Disposition
+   * Mainly during Alliance missions
+* Secrets
+   * Mainly during Infiltration missions
 
-## Character Cards
+## Lifepath Cards
 
-The general pattern gives a better bonus if you don't advance. Advancing frequently gives a bonus, but also inflicts some sort of cost as well. These include things like removing discord, ignoring hindrance, adding defense, and manipulating conditions.
+As with developments, one option discards the card and one option burns it. Typically the option to burn the card gives a better advantage. These include things like removing discord, ignoring hindrance, adding defense, and manipulating conditions.
 
 * Better Defense
 * Extra Movement
 * Moving Obstacles
 * Lower Hindrance
 * Moving Threats
-* Improving Resolve
-* Improving Skills
 * Adding Progress Remotely (Not At Location)
 * Burning Threats
 * Removing Timers
 * Secrets
+* Lower Discord
 * Lowering Apotheosis
+
+The discard options for lifepath cards should mainly revolve around adding more progress, rerolling dice for tests. The burn options can be more creative - and they can more frequently leverage secrets to do powerful things, like lowering the apotheosis pool.
+
+They probably shouldn't giver permanent +1s to skills, since that ties a skill to a character, which would somewhat limit flexibility.
 
 ### Thea (Starting Character)
 
@@ -107,8 +118,9 @@ The general pattern gives a better bonus if you don't advance. Advancing frequen
 ### Keel (Starting Character)
 
 * Infiltration 4, Exploration 2
-* Gets along okay with Menas, Thea, and Lucia.
-* Dislikes Oniri. Disagreement betwen tech and magic.
+* Friendly: Menas, Thea, and Lucia.
+* Dislikes: Oniri
+   * Disagreement betwen tech and magic.
 * Costs
    * Ore
 
