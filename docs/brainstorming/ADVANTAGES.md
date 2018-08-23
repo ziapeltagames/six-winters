@@ -1,12 +1,12 @@
-This document illustrates the different types of benefits players can gain in _Six Winters_, along with how those benefits map to encounter cards, lifepath cards, developments, locations, mission paths, and artifacts.
+This document illustrates the different types of benefits players can gain in _Six Winters_, along with how those benefits map to encounters, advancements, developments, locations, mission paths, and artifacts.
 
 # Broad Types of Advantages
 
 This list details a variety of common sorts of advantages that are mechanically supported in _Six Winters_.
 
-These advantages are *roughly* in order of how good they are. Gaining Fortune is a very common benefit. Fortune fuels other abilities, and is one of the core economies of the game.
+These advantages are *roughly* in order of how good they are. Gaining fortune is a very common benefit. Fortune fuels other abilities, and is one of the core economies of the game.
 
-Advantages that are more transient, such as bonuses to a certain kind of test, are naturally not as useful as permanent changes, such as improving a character's skill. The most powerful sorts of advantages, such as lowering apotheosis or removing discord, should be rare, since that's the main timer that helps push the game forward.
+Advantages that are more transient, such as bonuses to a certain kind of test, are naturally not as useful as permanent changes, such as improving a character's skill. The most powerful sorts of advantages, such as lowering apotheosis or removing discord, should be rare, since those are both key timers that help push the game forward.
 
 * Fortune Dice
 * Extra Test Dice
