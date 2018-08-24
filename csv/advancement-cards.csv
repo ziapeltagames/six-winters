@@ -1,37 +1,42 @@
-character,year,cost,title,text,discard,burn,bottom
+character,year,cost,title,effecta,effectb,effectc,text,summary
 
-Keel,1,0,"Right Tool For The Job",,"(DISCARD) (INTERRUPT) (Test) A Thievery test Keel is involved in is easy.","(BURN) Spend 7 ore. Add 3 progress to any Thievery task where Keel is located.",
-Keel,1,0,"Alone in the Dark",,"(DISCARD) Play when Keel is alone at an Imperial location. Add 2 progress to any Imperial task where Keel is located.","(BURN) Play when Keel is alone at an Imperial location. Spend 4 secrets. Remove all apotheosis.",
-Keel,1,0,"Unlikely Friends",,"(DISCARD) (INTERRUPT) (Test) Reroll any dice for a test Keel and Menas are involved in.","(BURN) Play when Menas is at the same location. Remove 3 Discord.",
+Keel,1,0,"Right Tool For The Job","Effect: A Thievery test Keel is involved in is easy.",,,"The master of gadgets.","TEST (THIEVERY): EASY"
+Keel,1,0,"Work Better Alone","Requirement: Keel is alone at a location.","Effect: Add 3 progress to Survival task where Keel is located.",,"You'll just slow me down.","TASK (SURVIVAL): +3 PROGRESS"
+Keel,1,0,"Tough Love","Requirement: Keel and Menas were both involved in a test.","Effect: After the test, reroll all failures.",,"Okay, okay, I get it!","TEST (WITH MENAS): REROLL"
 
-Menas,1,0,"The Direct Approach",,"(DISCARD) Menas is weary. Remove 4 discord from Menas's party.","(BURN) Menas is angry. Remove a body condition for any character at the same location.",
-Menas,1,0,"Grizzled Veteran",,"(DISCARD) (INTERRUPT) (Defend) Menas may defend without taking a condition.","(BURN) A Combat test Menas is involved in is easy.",
-Menas,1,0,"Strong Personalities",,"(DISCARD) Play when Thea is at the same location. Menas is angry. Remove all discord from Menas's party.","(BURN) Play when Thea is at the same location. Add 5 progress to any task where Menas is located.",
+Menas,1,0,"The Direct Approach","Cost: Menas is weary.","Effect: Remove 4 discord from Menas's party.",,"It's tiring keeping the distractable youth on task.","REMOVE DISCORD"
+Menas,1,0,"Grizzled Veteran","Effect: Menas may defend an obstacle without taking a condition.",,,"I've seen this trick before.","FREE DEFEND"
+Menas,1,0,"Strong Personalities","Requirement: Thea is in the same location as Menas.","Cost: Menas is angry.","Effect: Remove all discord from Menas's party.","She can be so infuriating - and she's usually right.","REMOVE DISCORD (WITH THEA)"
 
-Thea,1,0,"Black and White",,"(DISCARD) Thea is frustrated. Remove 4 discord from Thea's party.","(BURN) (INTERRUPT) (Test) A Rapport test Thea is involved in is easy.",
-Thea,1,0,"Diplomatic Insights",,"(DISCARD) (INTERRUPT) (Test) A Command test Thea is involved in is easy.","(BURN) Play when Thea is on an Alliance mission. Remove one timer.",
-Thea,1,0,"The Conciliator",,"(DISCARD) Thea is weary. Remove all discord from Thea's party.","(BURN) Thea is exhausted. Remove one psyche condition on another character at same location.",
+Thea,1,0,"Black and White","Effect: A Rapport test Thea is involved in is easy.",,,"I can speak confidently for Red Bank.","TEST (RAPPORT): EASY"
+Thea,1,0,"Diplomatic Insights","Effect: A Command test Thea is involved in is easy.",,,"Now is the time to work together for the greater good.","TEST (COMMAND): EASY"
+Thea,1,0,"The Conciliator","Cost: Thea is frustrated.","Effect: Remove all discord from Thea's party.",,"I can't let my burdens get in the way of our goal.","REMOVE DISCORD"
 
-Fuscus,1,0,"Market Manipulations",,"(DISCARD) (INTERRUPT) (Test) Reroll any dice for a Rapport test Fuscus is inolved in.","(BURN) Lower a disposition track by two. Raise a different disposition track by one.",
-Fuscus,1,0,"Bending Rules",,"(DISCARD) Fuscus is weary. Add 2 progress to Diplomacy task where Fuscus is located.","(BURN) Play when Fuscus is at an Imperial location. Remove one timer.",
-Fuscus,1,0,"Very Charming",,"(DISCARD) Fuscus is weary. Remove 4 discord from Fuscus's party.","(BURN) Fuscus is exhausted. Remove all discord from Fuscus's party.",
+Fuscus,1,0,"Trinkets and Baubles","Cost: 3 Luxury.","Effect: A Rapport test Fuscus is involved in is easy.",,"Everyone has something that catches their eye.","TEST (RAPPORT): EASY"
+Fuscus,1,0,"It's Tiring Being This Handsome","Cost: Fuscus is weary.","Effect: Add 3 progress to Rapport task where Fuscus is located.",,"I just adore your shoes!","TASK (RAPPORT): +3 PROGRESS"
+Fuscus,1,0,"White Lies","Cost: Fuscus is exhausted.","Effect: Remove 4 discord from either pool.",,"No harm, no foul.","REMOVE DISCORD"
 
-Oniri,1,0,"I'm Always in Pain",,"(DISCARD) +1 Mana.","(BURN) Spend 4 Mana. Give Oniri a condition to remove a condition from someone else in the party.",""
-Oniri,1,0,"Always Alone",,"(DISCARD) +1 Mana.","(BURN) Play when Oniri is alone at a Quest location. Oniri is Exhausted.",""
-Oniri,1,0,"Necromantic Mana Well",,"(DISCARD) +1 Mana.","(BURN) Oniri is Shattered. Increase Mana track by one.",""
+Oniri,1,0,"I'm Always in Pain",,"+1 Mana.","Spend 4 Mana. Give Oniri a condition to remove a condition from someone else in the party.",""
+Oniri,1,0,"Always Alone",,"+1 Mana.","Play when Oniri is alone at a Quest location. Oniri is Exhausted.",""
+Oniri,1,0,"Necromantic Mana Well",,"+1 Mana.","Oniri is Shattered. Increase Mana track by one.",""
 
-Menas,2,2,"Whispering Spirits",,"(DISCARD) +1 Fortune","(BURN) Play when Oniri is at the same location. Menas is Shaken.",
+Thea,2,2,"Envoy",,"Remove a timer on an alliance mission."
 
-Keel,2,3,"Misdirection",,"(DISCARD) +3 Fortune.","(BURN) Move an obstacle to any unoccupied urban location in same mission area.",""
+Menas,2,2,"Whispering Spirits",,"+1 Fortune","Play when Oniri is at the same location. Menas is Shaken.",
+
+Fuscus,2,2,"Manipulations","Cost: Shattered","Lower a disposition track by two, rais a different disposition track by two.","Cost: Burn Card","Was it worth it?"
+
+Keel,2,5,"Alone in the Dark",,"Play when Keel is alone at an Imperial location. Spend 4 secrets. Remove all apotheosis."
+Keel,2,3,"Misdirection",,"+3 Fortune.","Move an obstacle to any unoccupied urban location in same mission area.",""
 
 Thea,2,3,"A Call to Action",,""Increase the disposition of a faction by one.",,""
 
-Yasmina,2,0,"Food and Water",,"(DISCARD) +2 Fortune.","(BURN) On success remove a weary condition on any character in party.",""
+Yasmina,2,0,"Food and Water",,"+2 Fortune.","On success remove a weary condition on any character in party.",""
 Yasmina,2,0,"TBD",,"A","B",""
 Yasmina,2,0,"Well Actually...",,"A","B",""
 
 Viator,3,0,"TBD",,"","",""
-Viator,3,0,"Progressing Illness",,"(DISCARD)","(BURN) Take two conditions.",,""
+Viator,3,0,"Progressing Illness",,","Take two conditions.",,""
 Viator,3,0,"TBD",,"","",""
 
 Lucia,4,0,"Secret Police",,,,
