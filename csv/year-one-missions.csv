@@ -1,0 +1,58 @@
+mission,path,title,tags,blocka,blockb,blockc,blockd,rblock,text,summary
+
+"Starting Location","Initial","Trade Agreement","Location: Spotlight, Red Bank, Diplomacy","Action: Spend two resource dice to initiate trade with a faction.","Gain a number of new resource dice equal to the disposition of the faction.","Dice gained and spent should match trade wheel for faction.",,,,
+"Starting Location","Initial","Development Research","Location: Spotlight, Red Bank","Action: Purchase one available development. Shuffle into an asset deck.",,,,,,
+"Starting Location","Initial","Amber Lodge","Location: Spotlight, Red Bank, Urban, Sorcery","Action: Task (Lore).","Immediate: A character at this location may spend 9 progress to remove one condition.",,,,,
+"Starting Location","Initial","Strategic Investments","Location: Spotlight, Red Bank","Action: Spend 5 fortune to place one progress.","Immediate: Spend 4 progress to increase any disposition track by one.","Immediate: Spend 7 progress to increase any resource track by one.",,,,
+"Starting Location","Initial","Hilltop Square","Location: Spotlight, Red Bank, Urban, Stability",,"Action: Gain one Fortune.",,,,,,
+"Starting Location","Initial","Resource Gathering","Location: Spotlight, Red Bank, Conquest","Action: Test (Resource Track). Use value of resource track for test. For each success, gain one resource die of that type.",,,,,,
+
+"Sunriders","Initial","Hogel Manor","Location: Urban, Military","Action: Task (Command).","Immediate: Spend 9 progress to increase Sunrider Disposition track by one.",,,,,
+"Sunriders","Initial","Horsethief Meadows","Location: Spotlight, Wilderness","Action: Spend 3 Food to add progress equal to Tactics on any card with a Military tag.",,,,,,
+
+"Sunriders","Hogel's Tour: 0","Arban the Swift","Obstacle: Diplomat","Hindrance: 1","Action: Test (Command 1). Success: Discard. Failure: +1 Discord.","(FORCEFUL) +3 Discord. If in staging area, move to occupied mission location.","Defense: Command","XP: 1",,
+"Sunriders","Hogel's Tour: 0","Feast at Hogel Manor","Challenge: Urban, Diplomacy","Placement: Hogel Manor","Action: Task (Rapport).","Immediate: Spend 5 progress. Increase Sunrider Disposition track by one. Move to stage 1.",,,,
+"Sunriders","Hogel's Tour: 1","Song Bluff","Location: Spotlight, Military","Effect: All characters increase their Tactics by Sunrider Disposition while at least one character is at this location.","(DOOM) Test (Command 4). Failure: One character at this location is shaken.",,,,,
+"Sunriders","Hogel's Tour: 1","Uneasy Truce","Challenge: Urban, Military","Placement: Song Bluff","Action: Task (Survival).","Immediate: Spend 7 progress. One character at location gains +1 Tactics. Move to stage 2.",,,,
+"Sunriders","Hogel's Tour: 1","Ile","Obstacle: Diplomat","Hindrance: 1","Action: Test (Lore 1). Success: Discard. Failure: +1 Discord.","(WEIRD) +3 Discord. If in staging area, move to occupied mission location.","Defense: Lore","XP: 1",,
+"Sunriders","Hogel's Tour: 2","Rumors of Smoke and Fire","Challenge: Wilderness","Placement: Horsethief Meadows","Action: Task (Tactics).","Immediate: Spend 7 progress. Increase Sunrider Disposition track by one. Complete Mission Path.",,,,
+"Sunriders","Hogel's Tour: 2","Taichu","Obstacle: Diplomat","Hindrance: 1","Action: Test (Tactics 1). Success: Discard. Failure: +1 Discord.","(QUICK) +3 Discord. If in staging area, move to occupied mission location.","Defense: Tactics","XP: 1",,
+
+"Sunriders","Encounter","Hogel","Obstacle: Diplomat","Hindrance: 2","Action: Test (Rapport 1). Success: Discard. Failure: +1 Discord.","(SNEAKY) One character at Sunriders location is angry. If in staging area, move to occupied mission location.",,"XP: 1",,
+"Sunriders","Encounter","Dashen","Obstacle: Diplomat","Hindrance: 1","Action: Test (Rapport 1). Success: Discard. Failure: +1 Discord.","(GANG) +2 Discord. If in staging area, move to occupied mission location.","Defense: Rapport","XP: 1",,
+"Sunriders","Encounter","Channeling on the Steppes","Event: Sorcery","Immediate: Optional Test (Rapport 2).","Success: +2 Mana Dice.","Failure: All characters are frustrated.",,,,
+"Sunriders","Encounter","Taichu's Test","Event: Military","Immediate: Test (Command 1).","Success: +1 Fortune.","Failure: One character is frustrated.",,,,
+"Sunriders","Encounter","Arban's Sunset Ride","Event: Diplomacy","Immediate: Test (Command 1).","Success: +1 Fortune.","Failure: One character is frustrated.",,,,
+"Sunriders","Encounter","Battle Plans","Event: Military","Immediate: Test (Rapport 1).","Success: +1 Fortune.","Failure: +3 Discord.",,,,
+"Sunriders","Encounter","Imperial Strategies","Event: Military","Immediate: Test (Tactics 1).","Success: Place one progress on any Sunrider challenge or location.","Failure: +2 Discord.",,,,
+"Sunriders","Encounter","A Bitter Grudge","Attachment: Personal, Ongoing Effect","Requirement: An angry character at a Sunrider location.","Immediate: Play on the angry character. Rapport tests character is involved in are difficult for remainder of mission.",,,,,"RAPPORT: DIFFICULT"
+"Sunriders","Encounter","Shame To Anger","Event: Diplomacy","Requirement: A frustrated character at a Sunrider Location.","Immediate: The frustrated character gains the angry condition.",,,,,
+"Sunriders","Encounter","The Coming War","Event: Military","Immediate: Test (Tactics 1).","Success: Add two progress to any Sunriders location or attachment.",,,,,
+"Sunriders","Encounter","Rousing Speech","Event: Diplomacy","Immediate: Test (Rapport 1).","Success: +1 Fortune.","Failure: +2 Discord.",,,,
+"Sunriders","Encounter","A First Impression","Event: Diplomacy","Immediate: Test (Command 1).","Success: +1 Fortune.","Failure: +2 Discord.",,,,
+"Sunriders","Encounter","Ile's Campaign","Event: Rumor","Immediate: +1 Fortune",,,,,,
+"Sunriders","Encounter","Rumors of Smoke","Event: Rumor","Immediate: +1 Fortune",,,,,,
+"Sunriders","Encounter","Welcome Party","Event: Diplomacy","Immediate: Gain an amount of fortune equal to diplomacy.",,,,,,
+
+"Gravewood","Initial","Maplewood","Wilderness, Sorcery",,,,,,,
+"Gravewood","Initial","Spinner Lakes","Wilderness, Conquest",,,,,,,
+"Gravewood","Initial","Green Haven","Spotlight, Stability",,,,,,,
+"Gravewood","Initial","First Haven","Espionage",,,,,,,
+
+"North Oaks","Initial","Gray River","Red Bank, Wilderness","Action: Convert any number of Timber dice into Fortune dice.",,,,,,,
+"North Oaks","Initial","Mirror Woods","Red Bank, Wilderness, Conquest","Action: Task (Survival).","Immediate: Spend 9 progress to increase Timber track by one.","(DISASTER) Test (Survival 3). Failure: All characters at this location are weary.",,,,,
+"North Oaks","Initial","Exposed Overlook","Spotlight, Red Bank, Wilderness, Conquest","Action: Task (Survival).","Action: Spend progress. 5: +1 Timber die. 9: +2 Timber dice. 11: +3 Timber dice. 12: +4 Timber dice.","(CALAMITY) A fire breaks out! Lose all progress on this location.",,,,,
+"North Oaks","Initial","Musty Tomb","Red Bank, Dungeon, Sorcery","Effect: All characters at this location have +1 Lore.","(SORCERY) Test (Lore 2). Failure: One character at this location is shaken.",,,,,,
+
+"Sightrock","Initial","Lush Fields","Spotlight, Red Bank, Wilderness","Action: Spend 3 Fortune to gain +1 Food die.","(SAFE) If a character is at this location, gain +3 Food dice.",,,,,
+"Sightrock","Initial","Salmon Run","Red Bank, Wilderness","Action: Task (Survival).","Immediate: Spend 10 progress to raise Food track by one.","(DISASTER) Test (Survival 3). Failure: One character at this location is weary.",,,,
+"Sightrock","Initial","The Weird Rock","Red Bank, Dungeon, Sorcery","Effect: All characters have +1 Lore.","(DOOM) Test (Lore 3). Failure: One character at this location is shaken.",,,,,
+
+"Eastkeep","Initial","The Rosy Freetrader","Imperial, Urban","Action: Task (Thievery).","Immediate: Spend 12 progress to gain one secret.","(DISASTER) Test (Disguise 2). Failure: One character at this location is weary.",,,,
+"Eastkeep","Initial","Map Hall","Spotlight, Imperial, Urban, Espionage","Action: Task (Disguise).","Immediate: Spend 5 progress to discard one Graycloak.",,,,,
+"Eastkeep","Initial","House of Cloves","Imperial, Urban","Effect: All characters at this location have +1 Disguise.","(DOOM) Test (Rapport 2). Failure: One character at this location is angry",,,,,
+"Eastkeep","Rumors of a Frozen Hell: 1","Root Cellar","Imperial, Urban","Action: Move one Graycloak from any occupied location to the Root Cellar.",,,,,,
+
+"Guilder Farms","Initial","Dowling Farm","Imperial, Conquest",,,,,,,
+"Guilder Farms","Initial","Free Guilder Inn","Spotlight, Imperial, Urban, Espionage",,,,,,,
+"Guilder Farms","A Dark Rot: 2","Micus's Keep","Imperial, Urban",,,,,,,
