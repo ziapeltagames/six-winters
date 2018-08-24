@@ -1,67 +1,67 @@
-category,level,title,food,timber,ore,mana,luxury,discard,burn,effect
+category,level,title,food,timber,ore,mana,luxury,effecta,effectb,effectc,summary
 
-"Conquest",1,"Farbread",0,8,4,0,0,"(DISCARD) Gain +2 Food dice. Roll dice and add to pool.","(BURN) Add two progress to any Wilderness task.",
-"Conquest",2,"Gregor's Mill",0,16,0,1,0,"(DISCARD) Gain +2 Timber dice. Roll dice and add to pool.","(BURN) Add two progress to any Conquest task..",
-"Conquest",3,"Refined Alloys",0,2,11,4,0,"(DISCARD) Gain +2 Ore dice. Roll dice and add to pool.","(BURN) Add two progress to any Wilderness task.",
-"Conquest",4,"Nyana's Handbook",0,13,12,6,2,"(DISCARD) Play on character in party. Character has +1 Survival for the rest of the season.","(BURN) Add two progress to any Conquest task.","+1 SURVIVAL"
-"Conquest",5,"All Weather Gear",12,16,10,6,2,"(DISCARD) Spend 7 Food. During an Exploration mission, rerrange the top four progress cards in any order.","(BURN) Add two progress to any Wilderness task.",
-"Conquest",6,"Feast Day",0,18,25,8,0,"(DISCARD) Gain +4 Food dice. Roll dice and add to pool.","(BURN) Add two progress to any Conquest task.",
-"Conquest",7,"Wayhouses",5,28,18,10,0,"(DISCARD) Gain +4 Timber dice. Roll dice and add to pool.","(BURN) Add two progress to any Wilderness task.",
-"Conquest",8,"Willowrock",15,36,0,0,0,"(DISCARD) Gain +4 Ore dice. Roll dice and add to pool.","(BURN) Add two progress to any Conquest task.",
-"Conquest",9,"Cartography",12,34,18,7,0,"(DISCARD) Play on character in party. Character has +2 Survival for the rest of the season.","(BURN) Add two progress to any Wilderness task.","+2 SURVIVAL"
-"Conquest",10,"Green Leaf",0,41,24,18,5,"(DISCARD) Spend 16 Food. Clear all Discord from one pool.","(BURN) Add two progress to any Conquest task.",
+"Conquest",1,"Farbread",0,8,4,0,0,"Immediate: Gain +2 Food dice. Roll dice and add to pool.","Immediate: Draw another asset.",,
+"Conquest",2,"Gregor's Mill",0,16,0,1,0,"Immediate: Gain +2 Timber dice. Roll dice and add to pool.","Immediate: Draw another asset.",,
+"Conquest",3,"Refined Alloys",0,2,11,4,0,"Immediate: Gain +2 Ore dice. Roll dice and add to pool.","Immediate: Draw another asset.",,
+"Conquest",4,"Nyana's Handbook",0,13,12,6,2,"Effect: Play on character in party. Character has +1 Survival for the rest of the season.",,,"+1 SURVIVAL"
+"Conquest",5,"All Weather Gear",12,16,10,6,2,"Cost: 7 Food. During an Exploration mission, rerrange the top four progress cards in any order.","Add two progress to any Wilderness task.",,
+"Conquest",6,"Feast Day",0,18,25,8,0,"Gain +4 Food dice. Roll dice and add to pool.","Add two progress to any Conquest task.",,
+"Conquest",7,"Wayhouses",5,28,18,10,0,"Gain +4 Timber dice. Roll dice and add to pool.","Add two progress to any Wilderness task.",,
+"Conquest",8,"Willowrock",15,36,0,0,0,"Gain +4 Ore dice. Roll dice and add to pool.","Add two progress to any Conquest task.",,
+"Conquest",9,"Cartography",12,34,18,7,0,"Play on character in party. Character has +2 Survival for the rest of the season.","Add two progress to any Wilderness task.","+2 SURVIVAL",
+"Conquest",10,"Green Leaf",0,41,24,18,5,"Cost: 16 Food. Clear all Discord from one pool.","Add two progress to any Conquest task.",,
 
-"Diplomacy",1,"Study Abroad",0,0,0,0,4,"(DISCARD) Spend one Luxury die to reroll any resource dice of one type.","(BURN) Gain +2 Luxury. Roll dice and add to pool.",
-"Diplomacy",2,"Political Bribes",9,0,0,0,5,"(DISCARD) Spend 3 Luxury. Play on character. Character has +1 Rapport for the rest of the season.","(BURN) Gain +2 Luxury. Roll dice and add to pool.","+1 RAPPORT"
-"Diplomacy",3,"Distant Favors",1,0,0,3,7,"(DISCARD) (INTERRUPT) (Test) Spend one Luxury die to reroll any failed dice on one test, including any Fortune used.","(BURN) Gain +3 Luxury. Roll dice and add to pool.",
-"Diplomacy",4,"Salts and Spices",12,0,0,0,12,"(DISCARD) Spend 4 Luxury. Gain resources for faction equal to Disposition track.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
-"Diplomacy",5,"Institutes of Knowledge",10,4,3,6,6,"(DISCARD) Spend 4 Luxury. Add two progress to any task at an Urban location.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
-"Diplomacy",6,"Raiments of Starsilk",8,0,0,0,16,"(DISCARD) Spend 4 Luxury. Play on character. Character has +2 Rapport for the rest of the season.","(BURN) Gain +4 Luxury. Roll dice and add to pool.","+2 RAPPORT"
-"Diplomacy",7,"Diverse Population",0,0,0,10,18,"(DISCARD) Spend 5 Luxury. Add three progress to any task at an Urban location.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
-"Diplomacy",8,"Mercantile Empire",22,0,0,0,22,"(DISCARD) Spend 5 Luxury. During an Alliance mission, rerrange the top three progress cards in any order.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
-"Diplomacy",9,"Stronger Together",14,0,0,12,26,"(DISCARD) Spend 5 Luxury. Discard one Diplomat obstacle.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
-"Diplomacy",10,"Factions United",18,0,0,16,30,"(DISCARD) Spend 6 Luxury. Add four progress to any task at an Urban location.","(BURN) (INTERRUPT) (Test) Succeed at any test using Command or Rapport.",
+"Diplomacy",1,"Study Abroad",0,0,0,0,4,"Cost: 1 Luxury die.","Effect: Reroll any resource dice of one type.",,
+"Diplomacy",2,"Political Bribes",9,0,0,0,5,"Cost: 3 Luxury.","Effect: Play on character. Character has +1 Rapport for the rest of the season.",,"+1 RAPPORT",
+"Diplomacy",3,"Distant Favors",1,0,0,3,7,"Cost: 1 Luxury die.","Effect: Reroll any failed dice on one test, including any Fortune used.",,
+"Diplomacy",4,"Salts and Spices",12,0,0,0,12,"Cost: 6 Luxury.","Effect: Gain resources from one faction equal to Disposition track. Roll dice and add to pool.",,
+"Diplomacy",5,"Institutes of Knowledge",10,4,3,6,6,"Cost: 4 Luxury. Add two progress to any task at an Urban location.","Gain +4 Luxury. Roll dice and add to pool.",,
+"Diplomacy",6,"Raiments of Starsilk",8,0,0,0,16,"Cost: 4 Luxury. Play on character. Character has +2 Rapport for the rest of the season.","Gain +4 Luxury. Roll dice and add to pool.","+2 RAPPORT",
+"Diplomacy",7,"Diverse Population",0,0,0,10,18,"Cost: 5 Luxury. Add three progress to any task at an Urban location.","Gain +4 Luxury. Roll dice and add to pool.",,
+"Diplomacy",8,"Mercantile Empire",22,0,0,0,22,"Cost: 5 Luxury. During an Alliance mission, rerrange the top three progress cards in any order.","Gain +4 Luxury. Roll dice and add to pool.",,
+"Diplomacy",9,"Stronger Together",14,0,0,12,26,"Cost: 5 Luxury.ne Diplomat obstacle.","Gain +4 Luxury. Roll dice and add to pool.",,
+"Diplomacy",10,"Factions United",18,0,0,16,30,"Cost: 6 Luxury. Add four progress to any task at an Urban location.","(Test) Succeed at any test using Command or Rapport.",,
 
-"Sorcery",1,"Undari's Libram",0,8,0,4,0,"(DISCARD) (INTERRUPT) (Test). Become Weary and spend one Mana die to add one success to any test.","(BURN) Draw top Threat card.",
-"Sorcery",2,"Philter of Arankh",0,0,0,8,3,"(DISCARD) Spend 3 Mana. Play on character. Character has +1 Lore for the rest of the season.","(BURN) Gain +2 Mana. Roll dice and add to pool.","+1 LORE"
-"Sorcery",3,"Mana Forge",0,0,0,9,3,"(DISCARD) Gain +2 Mana. Roll dice and add to pool.","(BURN) +2 Lore on one test or task.",
-"Sorcery",4,"Focused Channeling",0,0,0,9,7,"(DISCARD) (INTERRUPT) (Test). Become Exhausted and spend up to two Mana dice to add the same number successes to any test.","(BURN) Draw top Threat card.",
-"Sorcery",5,"Order of the Blue Robes",0,0,0,16,0,"(DISCARD) Spend 5 Mana. Play on character. Character has +2 Lore for the rest of the season.","(BURN) Gain +4 Mana. Roll dice and add to pool.","+2 LORE"
-"Sorcery",6,"Pearl of the North",0,0,18,18,0,"(DISCARD) (INTERRUPT) (Test). Become Exhausted and spend up to three Mana dice to add the same number successes to any test.","(BURN) Draw top Threat card.",
-"Sorcery",7,"College of Dweomercraft",0,0,0,21,6,"(DISCARD) Gain +4 Mana. Roll dice and add to pool.","(BURN) Add three progress to a Sorcery task.",
-"Sorcery",8,"Psychic Shield",0,19,6,22,0,"(DISCARD) Spend 8 Mana to draw four Assets.","(BURN) Draw top Threat card.",
-"Sorcery",9,"Second Sight",0,0,0,26,0,"(DISCARD) Spend 9 Mana to rearrange all of the Threat cards in any order.","(BURN) Gain +5 Mana. Roll dice and add to pool.",
-"Sorcery",10,"Corporeal Seal",0,0,0,29,0,"(DISCARD) Become Shattered and spend 12 Mana to burn one Threat.","(BURN) Gain +6 Mana. Roll dice and add to pool.",
+"Sorcery",1,"Undari's Libram",0,8,0,4,0,"Cost: One character in party is weary.","Cost: 1 Mana die.","Effect: Add one success to any test.",
+"Sorcery",2,"Philter of Arankh",0,0,0,8,3,"Cost: 3 Mana.","Effect: Play on character. Character has +1 Lore for the rest of the season.",,"+1 LORE"
+"Sorcery",3,"Mana Forge",0,0,0,9,3,"Immediate: Gain +2 Mana. Roll dice and add to pool.","Immediate: Draw another asset.",,
+"Sorcery",4,"Focused Channeling",0,0,0,9,7,"Cost: One character in party is exhausted.","Cost: 2 Mana dice.","Effect: Add two successes to any test.",
+"Sorcery",5,"Order of the Blue Robes",0,0,0,16,0,"Cost: 5 Mana. Play on character. Character has +2 Lore for the rest of the season.","Gain +4 Mana. Roll dice and add to pool.","+2 LORE",
+"Sorcery",6,"Pearl of the North",0,0,18,18,0,"(Test). Become Exhausted and Cost: up to three Mana dice to add the same number successes to any test.","Draw top Threat card.",,
+"Sorcery",7,"College of Dweomercraft",0,0,0,21,6,"Gain +4 Mana. Roll dice and add to pool.","Add three progress to a Sorcery task.",,
+"Sorcery",8,"Psychic Shield",0,19,6,22,0,"Cost: 8 Mana to draw four Assets.","Draw top Threat card.",,
+"Sorcery",9,"Second Sight",0,0,0,26,0,"Cost: 9 Mana to rearrange all of the Threat cards in any order.","Gain +5 Mana. Roll dice and add to pool.",,
+"Sorcery",10,"Corporeal Seal",0,0,0,29,0,"Become Shattered and Cost: 12 Mana tone Threat.","Gain +6 Mana. Roll dice and add to pool.",,
 
-"Stability",1,"A Brief Rest",14,0,0,0,0,"(DISCARD) Spend 5 Food. Clear three Discord from one pool.","(BURN) Gain +2 Fortune. Roll dice and add to pool.",
-"Stability",2,"Feast House",14,7,0,0,0,"(DISCARD) Spend 6 Food. Remove Weary condition from one hero.","(BURN) Gain +2 Fortune. Roll dice and add to pool.",
-"Stability",3,"Horse and Cart",9,7,9,0,0,"(DISCARD) Spend 7 Food. Move one character to any location.","(BURN) Gain +3 Fortune. Roll dice and add to pool.",
-"Stability",4,"Arts and Culture",17,15,13,0,0,"(DISCARD) Spend 2 Fortune dice. Draw two Assets.","(BURN) Gain +3 Fortune. Roll dice and add to pool.",
-"Stability",5,"Traveling Play",22,10,6,0,0,"(DISCARD) Move one character to any Imperial location.","(BURN) Gain +4 Fortune. Roll dice and add to pool.",
-"Stability",6,"Season of Plenty",27,0,0,0,0,"(DISCARD) Gain +3 Fortune. Roll dice and add to pool.","(BURN) Gain +4 Fortune. Roll dice and add to pool.",
-"Stability",7,"High Yield Investments",29,0,26,0,4,"(DISCARD) Examine top three Encounter cards and place two on the bottom of the deck in any order.","(BURN) Gain +5 Fortune. Roll dice and add to pool.",
-"Stability",8,"Friends Everywhere",30,15,14,0,0,"(DISCARD) Spend 3 Fortune dice. Draw three Assets.","(BURN) Gain +5 Fortune. Roll dice and add to pool.",
-"Stability",9,"Midsummer Party",34,23,18,0,0,"(DISCARD) Spend 4 Fortune dice. Draw four Assets.","(BURN) Gain +6 Fortune. Roll dice and add to pool.",
-"Stability",10,"Bread and Circuses",42,0,0,0,0,"(DISCARD) Spend 9 Food. Increase one faction's Disposition track by one.","(BURN) Gain +6 Fortune. Roll dice and add to pool.",
+"Stability",1,"A Brief Rest",14,0,0,0,0,"Cost: 7 Food.","Effect: Clear three Discord from one pool.",,
+"Stability",2,"Feast House",14,7,0,0,0,"Cost: 8 Food.","Effect: Remove weary condition from one hero.",,
+"Stability",3,"Horse and Cart",9,7,9,0,0,"Cost: 9 Food.","Effect: Move one character to any location.",,
+"Stability",4,"Arts and Culture",17,15,13,0,0,"Immediate: Each player draws an asset.",,,
+"Stability",5,"Traveling Play",22,10,6,0,0,"Move one character to any Imperial location.","Gain +4 Fortune. Roll dice and add to pool.",,
+"Stability",6,"Season of Plenty",27,0,0,0,0,"Gain +3 Fortune. Roll dice and add to pool.","Gain +4 Fortune. Roll dice and add to pool.",,
+"Stability",7,"High Yield Investments",29,0,26,0,4,"Examine top three Encounter cards and place two on the bottom of the deck in any order.","Gain +5 Fortune. Roll dice and add to pool.",,
+"Stability",8,"Friends Everywhere",30,15,14,0,0,"Cost: 3 Fortune dice. Draw three Assets.","Gain +5 Fortune. Roll dice and add to pool.",,
+"Stability",9,"Midsummer Party",34,23,18,0,0,"Cost: 4 Fortune dice. Draw four Assets.","Gain +6 Fortune. Roll dice and add to pool.",,
+"Stability",10,"Bread and Circuses",42,0,0,0,0,"Cost: 9 Food. Increase one faction's Disposition track by one.","Gain +6 Fortune. Roll dice and add to pool.",,
 
-"Military",1,"Survival Training",6,0,9,0,0,"(DISCARD) Spend 4 Ore. Play on character. Character has +1 Survival for the rest of the season.","(BURN) Add two progress to any Military task.","+1 SURVIVAL"
-"Military",2,"War College",0,3,11,0,0,"(DISCARD) Spend 4 Ore. Play on character. Character has +1 Tactics for the rest of the season.","(BURN) Add two progress to any Military task.","+1 TACTICS"
-"Military",3,"Noble Crest",5,10,15,0,0,"(DISCARD) Spend 5 Ore. Play on character. Character has +1 Command for the rest of the season.","(BURN) Add two progress to any Military task.","+1 COMMAND"
-"Military",4,"Amber Blades",14,9,16,0,0,"(DISCARD) Spend 5 Ore. Play on character. Character has +1 Combat for the rest of the season.","(BURN) Add two progress to any Military task.","+1 COMBAT"
-"Military",5,"Riddle of Steel",15,5,25,0,0,"(DISCARD) Spend 6 Ore. Play on character. 6s count as two successes on all Combat tests.","(BURN) Add two progress to any Military task.",
-"Military",6,"Chain of Command",0,0,30,0,0,"(DISCARD) Spend 6 Ore. Play on character. Character has +2 Tactics for the rest of the season.","(BURN) Add two progress to any Military task.","+2 TACTICS"
-"Military",7,"Tangleweed",19,10,27,0,0,"(DISCARD) Spend 6 Ore. Play on character. Character has +2 Survival for the rest of the season.","(BURN) Add two progress to any Military task.","+2 SURVIVAL"
-"Military",8,"Amber Hand Alliance",0,21,31,0,0,"(DISCARD) Spend 7 Ore. Rearrange Threat deck in any order.","(BURN) Add two progress to any Military task.",
-"Military",9,"Veteran Leadership",32,18,35,0,0,"(DISCARD) Spend 7 Ore. Play on character. Character has +2 Command for the rest of the season.","(BURN) Add two progress to any Military task.","+2 COMMAND"
-"Military",10,"Artificer",28,19,40,0,0,"(DISCARD) Spend 8 Ore. Play on character. Character has +2 Combat for the rest of the season.","(BURN) Add two progress to any Military task.","+2 COMBAT"
+"Military",1,"Survival Training",6,0,9,0,0,"Cost: 4 Ore.","Effect: Play on character. Character has +1 Survival for the rest of the season.",,"+1 SURVIVAL"
+"Military",2,"War College",0,3,11,0,0,"Cost: 5 Ore.","Effect: Play on character. Character has +1 Tactics for the rest of the season.",,"+1 TACTICS"
+"Military",3,"Noble Crest",5,10,15,0,0,"Cost: 6 Ore.","Effect: Play on character. Character has +1 Command for the rest of the season.",,"+1 COMMAND"
+"Military",4,"Amber Blades",14,9,16,0,0,"Cost: 7 Ore.","Effect: Play on character. Character has +1 Combat for the rest of the season.",,"+1 COMBAT"
+"Military",5,"Riddle of Steel",15,5,25,0,0,"Cost: 8 Ore.","Effect: Play on character. 6s count as two successes on all Combat tests.",,,
+"Military",6,"Chain of Command",0,0,30,0,0,"Cost: 9 Ore.","Effect: Play on character. Character has +2 Tactics for the rest of the season.","Add two progress to any Military task.","+2 TACTICS",
+"Military",7,"Tangleweed",19,10,27,0,0,"Cost: 10 Ore.","Effect: Play on character. Character has +2 Survival for the rest of the season.","Add two progress to any Military task.","+2 SURVIVAL",
+"Military",8,"Amber Hand Alliance",0,21,31,0,0,"Cost: 11 Ore. Rearrange Threat deck in any order.","Add two progress to any Military task.",,
+"Military",9,"Veteran Leadership",32,18,35,0,0,"Cost: 12 Ore. Play on character. Character has +2 Command for the rest of the season.","Add two progress to any Military task.","+2 COMMAND",
+"Military",10,"Artificer",28,19,40,0,0,"Cost: 13 Ore. Play on character. Character has +2 Combat for the rest of the season.","Add two progress to any Military task.","+2 COMBAT",
 
-"Espionage",1,"Disguise Kit",0,0,0,0,4,"(DISCARD) Spend 1 Luxury. Play on character. Character has +1 Disguise for the rest of the season.","(BURN) Gain +2 Luxury. Roll dice and add to pool.","+1 DISGUISE"
-"Espionage",2,"Graystone Lockpicks",5,0,6,3,4,"(DISCARD) Spend 3 mana. Play on character. Character has +1 Thievery for the rest of the season.","(BURN) Gain +2 Luxury. Roll dice and add to pool.","+1 THIEVERY"
-"Espionage",3,"Bribed Officials",0,0,6,4,4,"Draw Asset card, then shuffle discarded Asset back into Asset deck.","(BURN) Gain +2 Luxury. Roll dice and add to pool.",
-"Espionage",4,"Deep Cover",4,3,4,3,2,"(DISCARD) Spend 4 Luxury. Play on character. Character has +2 Disguise for the rest of the season.","(BURN) Gain +4 Luxury. Roll dice and add to pool.","+2 DISGUISE"
-"Espionage",5,"Call to Akilah",9,6,7,3,0,"(DISCARD) During an Infiltration mission, rerrange the top three Progress cards in any order.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
-"Espionage",6,"Spy Network",13,10,13,10,13,"(DISCARD) Spend 6 Luxury. Add three progress to a task at an Imperial location.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
-"Espionage",7,"Safehouse",14,10,15,10,14,"(DISCARD) Spend 6 Luxury. Draw Threat card, then shuffle already drawn Threat card back in deck.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
-"Espionage",8,"Fuligin Cloaks",0,0,13,6,16,"(DISCARD) Spend 6 Luxury. Play on character. Character has +2 Thievery for the rest of the season.","(BURN) Gain +4 Luxury. Roll dice and add to pool.","+2 THIEVERY"
-"Espionage",9,"Imperial Contacts",18,19,20,12,14,"(DISCARD) (INTERRUPT) (Test) Spend one luxury dice. Reroll all failed dice on any test.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
-"Espionage",10,"Funding the Resistance",22,18,26,19,21,"(DISCARD) Spend 12 Luxury. Add two Secrets.","(BURN) Gain +4 Luxury. Roll dice and add to pool.",
+"Espionage",1,"Bribed Officials",0,0,0,0,4,"Cost: 2 Secrets.","Effect: Add 5 progress at any Imperial location.",,
+"Espionage",2,"Disguise Kit",0,0,6,4,4,"Cost: 1 Luxury.","Effect: Play on character. Character has +1 Disguise for the rest of the season.",,"+1 DISGUISE"
+"Espionage",3,"Graystone Lockpicks",5,0,6,3,4,"Cost: 3 mana.","Effect: Play on character. Character has +1 Thievery for the rest of the season.",,"+1 THIEVERY"
+"Espionage",4,"Deep Cover",4,3,4,3,2,"Cost: 4 Luxury.","Effect: Play on character. Character has +2 Disguise for the rest of the season.",,"+2 DISGUISE"
+"Espionage",5,"Call to Akilah",9,6,7,3,0,"During an Infiltration mission, rerrange the top three Progress cards in any order.","Gain +4 Luxury. Roll dice and add to pool.",,
+"Espionage",6,"Spy Network",13,10,13,10,13,"Cost: 6 Luxury. Add three progress to a task at an Imperial location.","Gain +4 Luxury. Roll dice and add to pool.",,
+"Espionage",7,"Safehouse",14,10,15,10,14,"Cost: 6 Luxury. Draw Threat card, then shuffle already drawn Threat card back in deck.","Gain +4 Luxury. Roll dice and add to pool.",,
+"Espionage",8,"Fuligin Cloaks",0,0,13,6,16,"Cost: 6 Luxury. Play on character. Character has +2 Thievery for the rest of the season.","Gain +4 Luxury. Roll dice and add to pool.","+2 THIEVERY",
+"Espionage",9,"Imperial Contacts",18,19,20,12,14,"(Test) Cost: one luxury dice. Reroll all failed dice on any test.","Draw an asset, shuffle asset back into draw pile.",,
+"Espionage",10,"Funding the Resistance",22,18,26,19,21,"Cost: 12 Luxury. Add two Secrets.","Gain +4 Luxury. Roll dice and add to pool.",,
