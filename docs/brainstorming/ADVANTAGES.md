@@ -18,32 +18,32 @@ Advantages that are more transient, such as bonuses to a certain kind of test, a
 * Better Defense
 * Extra Movement
 * Moving Obstacles
+* Draw Asset Card(s)
+* Rearrange Encounter Deck
+* Rearrange Asset Deck
 * Lower Hindrance
 * Moving Threats
-* Removing Discord
-* Removing Conditions
+* Rearrange Progress Deck
 * Cheaper Development Costs
-* Improving Resolve
-* Improving Skills
 * Adding Progress Remotely (Not At Location)
+* Search for Encounter Card
+* Search for Progress Card
+* Improving Skills
+* Search for Asset
+* Removing Conditions
+* Secrets
 * Burning Threats
+* Removing Timers
+* Removing Discord
 * Resource Track Increase
 * Disposition Track Increase
-* Removing Timers
-* Secrets
 * Lowering Apotheosis
 * Removing Threats
 
-There are other types of advantages which are very situational.
+There are other types of advantages which are very situational. Frequently, doing something like drawing threats isn't desired, but there are reasons it's useful.
 
 * Draw Threat Card(s)
-* Draw Asset Card(s)
-* Rearrange Encounter Deck
-* Rearrange Progress Deck
-* Rearrange Asset Deck
-* Search for Encounter Card
-* Search for Progress Card
-* Search for Asset
+* Search for Threat
 
 ## Test and Task Manipulation
 
