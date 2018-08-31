@@ -29,7 +29,6 @@ Many of these tags are more commonly found in certain sorts of missions. For exa
 * Espionage
 * Diplomacy
 * Autarch
-* Imperial
 
 # Character Tags
 
