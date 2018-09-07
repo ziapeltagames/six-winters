@@ -2,9 +2,7 @@ This document illustrates the different types of benefits players can gain in _S
 
 # Broad Types of Advantages
 
-This list details a variety of common sorts of advantages that are mechanically supported in _Six Winters_.
-
-These advantages are *roughly* in order of how good they are. Gaining fortune is a very common benefit. Fortune fuels other abilities, and is one of the core economies of the game.
+This list of advantages is sorted *roughly* in order of how good they are. Gaining fortune is a very common benefit. Fortune fuels other abilities, and is one of the core economies of the game.
 
 Advantages that are more transient, such as bonuses to a certain kind of test, are naturally not as useful as permanent changes, such as improving a character's skill. The most powerful sorts of advantages, such as lowering apotheosis or removing discord, should be rare, since those are both key timers that help push the game forward.
 
@@ -67,83 +65,45 @@ These abilities should be used with care. Taking Conditions and getting Discord 
 
 # Advantages and Card Types
 
-This provides design guidance on how these different sorts of advantages generally are found in the various types of cards. It's okay if there is overlap. For example, many different types of cards may provide extra Fortune or give bonuses to tasks and tests. However, it is also nice if they are differentiated enough that they feel different.
+This section provides design guidance on how frequently these different sorts of advantages are found on the various types of cards. It's okay if there is overlap. For example, many different types of cards may provide extra Fortune or give bonuses to tasks and tests. However, it is also nice if they are differentiated enough that they feel different.
 
 ## Encounter Cards
 
-Fortune is most likely the bread and butter of Encounter cards. They also mainly give out discord. Both of those are very free flowing economies.
+Fortune is the main advantage found on Encounter cards. The other sorts of advantages are more dependent on what type of mission the players are on.
 
 * Fortune
-* Resources
+* Resource Dice
    * Mainly during Exploration missions
-* Disposition
+* Threat Progress
    * Mainly during Alliance missions
 * Secrets
    * Mainly during Infiltration missions
 
-## Advancement Cards
+## Personality Cards
 
-As with developments, one option discards the card and one option burns it. Typically the option to burn the card gives a better advantage. These include things like removing discord, ignoring hindrance, adding defense, and manipulating conditions.
+On some personality cards, there is a burn option. Typically the option to burn the card advances a relaionship between characters and may be trickier to make happen. Burning personality cards provides an advantage to the player, because their asset deck can shrink in size and they can employ more deck building concepts using developments.
+
+The biggest focus of personality cards is interactions between characters. As such, most of them should have requirements that character X or Y are present.
 
 * Better Defense
 * Extra Movement
 * Moving Obstacles
-* Lower Hindrance
 * Moving Threats
-* Adding Progress Remotely (Not At Location)
+* Progress
 * Burning Threats
-* Removing Timers
 * Secrets
 * Lower Discord
 * Lowering Apotheosis
 
-The discard options for lifepath cards should mainly revolve around adding more progress, rerolling dice for tests. The burn options can be more creative - and they can more frequently leverage secrets to do powerful things, like lowering the apotheosis pool.
+The discard options for personality cards should mainly revolve around adding more progress, rerolling dice for tests. The burn options can be more creative - and they can more frequently leverage secrets to do powerful things, like lowering the apotheosis pool.
 
-They probably shouldn't giver permanent +1s to skills, since that ties a skill to a character, which would somewhat limit flexibility.
-
-### Thea (Starting Character)
-
-* Alliance 4
-* Diplomacy, Diplomats, Rapport
-
-### Menas (Starting Character)
-
-* Exploration 4, Alliance 1
-* Beasts, Survival, Environment, Command
-
-### Fuscus (Starting Character)
-
-* Alliance 3, Infiltration 1
-
-### Keel (Starting Character)
-
-* Infiltration 4, Exploration 2
-* Friendly: Menas, Thea, and Lucia.
-* Dislikes: Oniri
-   * Disagreement betwen tech and magic.
-* Costs
-   * Ore
-
-### Oniri (North Oaks)
-
-* Infiltration 2, Exploration 1
-* Shadow Walk
-
-### Yasmini (Sunriders, Gravewood, Burgan Vale)
-
-### Viator (Sunriders, Gravewood, Crescent Hold, Lily Manor)
-
-### Lucia (Eastkeep, Guilder Farms, Yearly Field, Dawncaves)
+They probably shouldn't give permanent +1s to skills, since that ties a skill to a character, which would somewhat limit flexibility. The +1 skill sorts of cards are developments.
 
 ## Developments
 
-Developments are also differentiated somewhat by type. Maybe as a general rule none of these should remove conditions or discord? That might be a better thing for character cards to do. The various types should also roughly map to the different quest types. Developments can be burned, which provides a different effect, and is the only way to get rid of them.
+Developments are also differentiated somewhat by type. Maybe as a general rule none of these should remove conditions or discord? That might be a better thing for character cards to do. The various types should also roughly map to the different quest types.
 
-* Resource Dice
-* Test Boosts
-* Task Boosts
-
-It would also be good if the peak development in each track was fairly powerful. It also probably needs to be something valuable in the climactic mission? Since it will be purchased so late in the campaign?
+It would also be good if the peak development in each track was fairly powerful. It probably needs to be something valuable in the climactic mission? Since it will be purchased so late in the campaign?
 
 * Conquest (Timber, Ore)
    * Core Advantages
@@ -192,6 +152,8 @@ Should be roughly ten of these that can be found, for all of the tracks.
 * Drawing Threats
 
 ### Spotlight Locations
+
+* Emphasizing Alliances
 
 ## Artifacts
 

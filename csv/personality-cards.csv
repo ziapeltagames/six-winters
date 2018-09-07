@@ -1,0 +1,17 @@
+character,year,@picture,title,text,effecta,effectb,effectc,effectd
+
+Menas,1,"..\images\MENAS.png","Grudging Respect","She can be so infuriating - and she's usually right.","xxDISCARD Requirement: Thea is at the same location. Cost: Menas is angry.","Effect: Remove all discord for Menas's party."
+Menas,1,"..\images\MENAS.png","Necessary Evils","The world is not a pretty place.","xxDISCARD Requirement: Fuscus is at the same location.","Effect: +2 progress on a task at this location.","xxBURN Cost: Lower a faction disposition track by one.","Effect: Raise a different faction disposition track by two."
+Menas,1,"..\images\MENAS.png","Grizzled Veteran","I've seen this trick before.","xxDISCARD Requirement: Menas is at a Military location.","Effect: +2 progress on a task at this location.","xxBURN Defend against an obstacle without taking a condition."
+
+Fuscus,1,"..\images\FUSCUS.png","Soft Pity","Seriously? Being alone is so sad.","xxDISCARD Requirement: Keel is at the same location.","Effect: +2 progress on a task at this location."
+Fuscus,1,"..\images\FUSCUS.png","White Lies","No harm, no foul.","xxDISCARD Cost: Fuscus is exhausted.","Effect: -4 discord for Fuscus's party.","xxBURN Everyone else in Fuscus's party is angry."
+Fuscus,1,"..\images\FUSCUS.png","Lavender Society","Oh, her? I have friends all over.","xxDISCARD Cost: Spend a secret.","Effect: Move a character to any location.","xxBURN Draw a threat."
+
+Thea,1,"..\images\THEA.png","One Voice","We have one mind when it comes to the future of Red Bank.","xxDISCARD Requirement: Menas is at the same location. Cost: Spend 4 fortune.","A test that Menas is involved in is easy."
+Thea,1,"..\images\THEA.png","The Conciliator","I can't let my burdens get in the way of our goal.","xxDISCARD Cost: Thea is frustrated.","Effect: Remove all discord from Thea's party.","xxBURN Cost: Spend 11 luxury.","Effect: Increase a faction disposition track by one."
+Thea,1,"..\images\THEA.png","Priorities","We cannot squander our time while the Empire is preparing for war.","xxDISCARD Requirement: Thea is at a Red Bank location.","Effect: +1 progress at this location."
+
+Keel,1,"..\images\KEEL.png","Tough Love","Okay, Okay, I get it!","Requirement: Menas is involved in a test with Keel.","Effect: Reroll failures."
+Keel,1,"..\images\KEEL.png","Work Better Alone","You'll just slow me down...","xxDISCARD Requirement: No character is at any of the mission locations for the same mission Keel is on.","Effect: +2 progress on a task at this location."
+Keel,1,"..\images\KEEL.png","Master of Gadgets","You'll see why it's on fire shortly.","xxDISCARD Cost: Spend a secret.","Effect: Gain one success on a test.","xxBURN Cost: Keel is wounded.","Effect: Discard a foe."

@@ -8,11 +8,17 @@ Having only one asset card at a time may allow for two things: it's easier to ke
 
 Players could choose what developments to put in their decks, but taking the character cards would be mandatory. That also gives a bottom end to how much you could realistically cycle your deck. If each character has two cards that can't be burned, it would mean there's at minimum a four card cycle in place. So you would probably only see the same development at most three or so times. That allows for some deck building ideas, but probably prevents less fun corner cases like a deck size of one.
 
-## New Advancement Cards
+## New Personality Cards
 
 Using this model, there would always need to be *some* advancement cards that can't be burned or churned through. That way the deck size is at some minimal level. The particular development abilities will also help.
 
 When a new year comes along, then, it will probably be the case that you have to take all of the new advancement cards for the character. That wouldn't allow customization at that level, like in developments. That may be okay. If it's possible to burn some advancement cards, it may be more of a game to decide when and how to make that happen. You could burn some of those cards in order to shrink your deck and use developments more.
+
+## Using Tags
+
+Another option may be to use tags sometimes. Burning certain cards could give you a tag. Then, during the narrative phase, if you have various tags, you have to take certain character cards? Maybe they should be called personality cards?
+
+That's fiddly, but maybe not overly so. It does also give the game quite a bit of depth. It will be a little tricky to make sure that the discord cards and personality cards don't overlap too much.
 
 # Deck Building
 
