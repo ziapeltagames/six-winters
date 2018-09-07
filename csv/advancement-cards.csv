@@ -1,19 +1,19 @@
-character,year,cost,title,effecta,effectb,effectc,text,summary
+character,year,cost,title,text,summary,effecta,effectb,effectc,effectd
 
-Keel,1,0,"Right Tool For The Job","Effect: A Thievery test Keel is involved in is easy.",,,"The master of gadgets.","TEST (THIEVERY): EASY"
-Keel,1,0,"Work Better Alone","Requirement: Keel is alone at a location.","Effect: Add 3 progress to Survival task where Keel is located.",,"You'll just slow me down.","TASK (SURVIVAL): +3 PROGRESS"
+Keel,1,0,"Right Tool For The Job","Effect: +1 Skill.","Thievery: +2 Skill.",,"The master of gadgets.","+1 Skill (+2 Thievery)"
+Keel,1,0,"Work Better Alone","Effect: +1 Skill.","Keel is alone: +2 Skill.",,"You'll just slow me down.","+1 Skill (+2 Alone)"
 Keel,1,0,"Tough Love","Requirement: Keel and Menas were both involved in a test.","Effect: After the test, reroll all failures.",,"Okay, okay, I get it!","TEST (WITH MENAS): REROLL"
 
 Menas,1,0,"The Direct Approach","Cost: Menas is weary.","Effect: Remove 4 discord from Menas's party.",,"It's tiring keeping the distractable youth on task.","REMOVE DISCORD"
 Menas,1,0,"Grizzled Veteran","Effect: Menas may defend an obstacle without taking a condition.",,,"I've seen this trick before.","FREE DEFEND"
 Menas,1,0,"Strong Personalities","Requirement: Thea is in the same location as Menas.","Cost: Menas is angry.","Effect: Remove all discord from Menas's party.","She can be so infuriating - and she's usually right.","REMOVE DISCORD (WITH THEA)"
 
-Thea,1,0,"Black and White","Effect: A Rapport test Thea is involved in is easy.",,,"I can speak confidently for Red Bank.","TEST (RAPPORT): EASY"
-Thea,1,0,"Diplomatic Insights","Effect: A Command test Thea is involved in is easy.",,,"Now is the time to work together for the greater good.","TEST (COMMAND): EASY"
+Thea,1,0,"Black and White","Effect: +1 Skill","Rapport: +2 Skill.",,"I can speak confidently for Red Bank.","+1 Skill (+2 Rapport)"
+Thea,1,0,"Diplomatic Insights","Effect: +1 Skill","Command: +2 Skill.",,"Now is the time to work together for the greater good.","+1 Skill (+2 Command)"
 Thea,1,0,"The Conciliator","Cost: Thea is frustrated.","Effect: Remove all discord from Thea's party.",,"I can't let my burdens get in the way of our goal.","REMOVE DISCORD"
 
-Fuscus,1,0,"Trinkets and Baubles","Cost: 3 Luxury.","Effect: A Rapport test Fuscus is involved in is easy.",,"Everyone has something that catches their eye.","TEST (RAPPORT): EASY"
-Fuscus,1,0,"It's Tiring Being This Handsome","Cost: Fuscus is weary.","Effect: Add 3 progress to Rapport task where Fuscus is located.",,"I just adore your shoes!","TASK (RAPPORT): +3 PROGRESS"
+Fuscus,1,0,"Trinkets and Baubles","Cost: 3 xxLUXURY.","Effect: A test Fuscus is involved in is easy.",,"Everyone has something that catches their eye.","TEST: EASY"
+Fuscus,1,0,"It's Tiring Being This Handsome","Cost: Fuscus is weary.","Effect: +1 Skill","Disguise: +3 Skill.","I just adore your shoes!","+1 Skill (+3 Disguise)"
 Fuscus,1,0,"White Lies","Cost: Fuscus is exhausted.","Effect: Remove 4 discord from either pool.",,"No harm, no foul.","REMOVE DISCORD"
 
 Oniri,1,0,"I'm Always in Pain",,"+1 Mana.","Spend 4 Mana. Give Oniri a condition to remove a condition from someone else in the party.",""

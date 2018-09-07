@@ -81,7 +81,7 @@ Fortune is most likely the bread and butter of Encounter cards. They also mainly
 * Secrets
    * Mainly during Infiltration missions
 
-## Lifepath Cards
+## Advancement Cards
 
 As with developments, one option discards the card and one option burns it. Typically the option to burn the card gives a better advantage. These include things like removing discord, ignoring hindrance, adding defense, and manipulating conditions.
 

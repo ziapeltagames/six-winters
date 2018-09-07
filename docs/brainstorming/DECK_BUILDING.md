@@ -1,3 +1,19 @@
+# Asset Deck Construction
+
+As it currently stands, there are quite a few situational cards which can get tied up in player's hands. One thought is to make the asset deck more like a regular deck building game - such that you start drawing again when it's cleared out. To make that work, cards must be either discarded or played frequently.
+
+## One Card Limit
+
+Having only one asset card at a time may allow for two things: it's easier to keep track of what your card does, and it forces you to either play it or discard it to churn faster. The cards could also be a little more complex.
+
+Players could choose what developments to put in their decks, but taking the character cards would be mandatory. That also gives a bottom end to how much you could realistically cycle your deck. If each character has two cards that can't be burned, it would mean there's at minimum a four card cycle in place. So you would probably only see the same development at most three or so times. That allows for some deck building ideas, but probably prevents less fun corner cases like a deck size of one.
+
+## New Advancement Cards
+
+Using this model, there would always need to be *some* advancement cards that can't be burned or churned through. That way the deck size is at some minimal level. The particular development abilities will also help.
+
+When a new year comes along, then, it will probably be the case that you have to take all of the new advancement cards for the character. That wouldn't allow customization at that level, like in developments. That may be okay. If it's possible to burn some advancement cards, it may be more of a game to decide when and how to make that happen. You could burn some of those cards in order to shrink your deck and use developments more.
+
 # Deck Building
 
 Currently the game doesn't include fully fleshed out deck building. In a standard deckbuilding game, the deck is the engine, and it builds up over time, with more of some sort of currency being generated. The progress deck right now has a series of triggers and timers, which control both how long the game takes and what sort of events happen. It might be nice to split them all up. So there is only one trigger on each card, possibly with one timer as well.
