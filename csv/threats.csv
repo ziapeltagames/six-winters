@@ -1,5 +1,6 @@
-id,year,type,tags,title,texta,textb,textc,textd,texte
-THREA01,1,"Location","Wilderness, Military","Moonrider Outpost","Action: Task (Rapport).","Immediate: Spend 8 progress. Discard threat and +2 Food dice.","Immediate: Spend 13 progress. Burn threat and +3 Food dice.","(TRAP) Spend 3 Food or lower Sunrider disposition by one."
-THREA02,1,"Obstacle","Sorcery","The Whitehell","Hindrance: 1","Action: Test Lore 3. Success: Gain +2 Mana dice and burn card. Failure: +1 Discord.","(ELDRITCH) +4 Discord. Defense (Weary): Lore.","Special: Place obstacle in spotlight player's staging area.",
-THREA03,1,"Attachment","Foe, Bandit, Stability","Amber Hand","Placement: Red Banks Location","Action: Test Command 3. Success: Burn threat. Failure: +1 Discord.","(SNEAKY) Flip attached location card. Location is unusuable for remainder of the season. Move card to a different Red Banks location.",
-THREA04,1,"Location","Wilderness, Conquest","Silk Roads","Action: Spend 3 Timber to place one progress.","Immediate: Spend 3 progress. Burn threat and +2 Food dice.","(MISFORTUNE) -1 Luxury die.",
+year,title,tags,text,summary,blocka,blockb,blockc,blockd,blocke
+
+1,"Moonrider Outpost","Location: Wilderness, Military","Action: Task (Rapport).","Immediate: Spend 8 progress. Discard threat and +2 Food dice.","Immediate: Spend 13 progress. Burn threat and +3 Food dice.","(TRAP) Spend 3 Food or lower Sunrider disposition by one."
+1,"The Whitehell","Obstacle: Sorcery","A creeping colorless doom.","xxPROGRESS -3 / xxPSYCHE / xxELDRITCH","Placement: Current mission path for spotlight player.","xxACTION: Test (Lore 3).","Success: Gain +2 Mana dice and xxDISCARD.","Failure: +1 xxDISCORD.","xxELDRITCH Lose one mana die."
+1,"Amber Hand","Attachment: Foe, Bandit, Stability","Placement: Red Banks Location","Action: Test Command 3. Success: Burn threat. Failure: +1 Discord.","(SNEAKY) Flip attached location card. Location is unusuable for remainder of the season. Move card to a different Red Banks location.",
+1,"Silk Roads","Location: Wilderness, Conquest","Action: Spend 3 Timber to place one progress.","Immediate: Spend 3 progress. Burn threat and +2 Food dice.","(MISFORTUNE) -1 Luxury die.",

@@ -1,10 +1,10 @@
 character,year,@picture,title,text,effecta,effectb,effectc,effectd
 
 Menas,1,"..\images\MENAS.png","Grudging Respect","She can be so infuriating - and she's usually right.","xxDISCARD Requirement: Thea is at the same location. Cost: Menas is angry.","Effect: Remove all discord for Menas's party."
-Menas,1,"..\images\MENAS.png","Necessary Evils","The world is not a pretty place.","xxDISCARD Requirement: Fuscus is at the same location.","Effect: +2 progress on a task at this location.","xxBURN Cost: Lower a faction disposition track by one.","Effect: Raise a different faction disposition track by two."
+Menas,1,"..\images\MENAS.png","Necessary Evils","The world is not a pretty place.","xxDISCARD Requirement: Fuscus is at the same location.","Effect: +2 progress on a task at this location.","xxBURN Cost: Lower a faction disposition track by two.","Effect: Raise a different faction disposition track by one."
 Menas,1,"..\images\MENAS.png","Grizzled Veteran","I've seen this trick before.","xxDISCARD Requirement: Menas is at a Military location.","Effect: +2 progress on a task at this location.","xxBURN Defend against an obstacle without taking a condition."
 
-Fuscus,1,"..\images\FUSCUS.png","Soft Pity","Seriously? Being alone is so sad.","xxDISCARD Requirement: Keel is at the same location.","Effect: +2 progress on a task at this location."
+Fuscus,1,"..\images\FUSCUS.png","Soft Pity","Seriously? Drop the loner act, kid.","xxDISCARD Requirement: Keel is at the same location.","Effect: +2 progress on a task at this location."
 Fuscus,1,"..\images\FUSCUS.png","White Lies","No harm, no foul.","xxDISCARD Cost: Fuscus is exhausted.","Effect: -4 discord for Fuscus's party.","xxBURN Everyone else in Fuscus's party is angry."
 Fuscus,1,"..\images\FUSCUS.png","Lavender Society","Oh, her? I have friends all over.","xxDISCARD Cost: Spend a secret.","Effect: Move a character to any location.","xxBURN Draw a threat."
 
