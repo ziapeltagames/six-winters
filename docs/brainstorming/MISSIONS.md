@@ -106,3 +106,85 @@ Event: Ancient Clues, Secrets Track?
 ## The Animaelic Forest
 
 This quest needs to handle multiple players.
+
+# Mission Arc
+
+North Oaks: 
+Survival,
+Combat,
+Lore
+
+Timber,
+Survival,
+Timber,
+Combat,
+Timber,
+
+Sightrock: 
+Command,
+Survival,
+Lore,
+
+Survival,
+Food,
+Command,
+Food,
+Food,
+
+Sunriders: 
+Rapport,
+Combat,
+Tactics,
+
+Disposition,
+Tactics,
+Disposition,
+Rapport,
+Disposition,
+
+Gravewood:
+Thievery,
+Command,
+Rapport,
+
+Rapport,
+Thievery,
+Disposition,
+Disposition,
+Disposition,
+
+Eastkeep:
+Rapport, 
+Thievery,
+Disguise,
+
+Secrets,
+Disguise,
+Secrets,
+Thievery,
+Secrets,
+Secrets,
+
+Guilder Farms:
+Command, 
+Disguise, 
+Tactics,
+
+Disguise,
+Secrets,
+Secrets,
+Tactics,
+Secrets,
+Secrets,
+
+"North Oaks","Exploration","1","Searching the Banks","Gray River (Survival)","Clearing Mirror Woods","Mirror Woods (Combat)","The Necromancer's Dark Heart","Musty Tomb (Lore)",,,"08:","+1 xxTIMBER Track","16:","+1 Survival","23:","+1 xxTIMBER Track","30:","+1 Combat","36:","+1 xxTIMBER Track","41:","+1 Lore",,,,"Deep within the oak forest lies an ancient source of evil."
+
+"Sightrock","Exploration","2","A Spreading Fear","Lush Fields (Command)","Journey Under the Rock","The Weird Rock (Survival)","The Formless Spawn","The Weird Rock (Combat)"
+
+"Sunriders","Alliance","1","Plea for Unity","Song Bluff (Command)","A Great Feast","Hogel Manor (Rapport)","Rumors of Smoke and Fire","Horsethief Meadows (Tactics)",,,"09:","+1 Sunrider Disposition","18:","+1 Tactics","25:","+1 Sunrider Disposition","33:","+1 Combat","38:","+1 Sunrider Disposition",,,,,,"The people of the steppes are a powerful ally in the fight against the Empire."
+
+"Gravewood","Alliance","2","Eldest Trapsmith (Thievery)","Entrenched Ideology (Command)","The Island of Apples (Lore)"
+
+"Eastkeep","Infiltration","1","Rumors of a Frozen Hell","(Disguise)","(Thievery)","(Lore)"
+
+"Guilder Farms","Infiltration","2","(Disguise)","(Command)","(Tactics)"
