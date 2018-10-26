@@ -8,7 +8,7 @@ Timers play the most important role in the encounter deck. They determine how lo
 
 The standard encounter deck is twenty cards, ten of which are timers. This produces a game that usually lasts between 12 and 21 turns, with the most common game being around 14.
 
-Timers / Deck Size: Avg Lower Turns - Avg Higher Turns
+Timers / Deck Size: Avg Number Turns (Low Risk) - Avg Number Turns (High Risk)
 
 10/20: 12 - 21
 11/20: 11 - 18

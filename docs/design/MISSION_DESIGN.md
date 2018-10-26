@@ -20,9 +20,11 @@ It is not necessary to have an encounter deck, but random events add variety to 
 
 ## Events
 
-## Rumors
+* The main text block can have up to 75 words in two paragraphs.
 
-* Max flavor text: 60 words
+## Obstacles
+
+* 
 
 ## Skill Tests
 
