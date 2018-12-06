@@ -1,0 +1,35 @@
+mission,deck,ctriggers,title,tags,text,lsummary,rsummary,blocka,blockb,blockc,blockd,blocke
+
+"Pelakhar's Loyalty",S,"Mission","Location","Wilderness","The Long Wastes","Action: (Sunrider Aid) Spend 3 mana to place progress equal to conquest on any ongoing wilderness challenge.",,,	
+"Pelakhar's Loyalty",S,"Mission","Location","Wilderness","White Sands","Action: Test Lore. Lower discord pool for each success.",,,
+"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(SNEAKY) +3 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
+"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Attachment","Challenge, Wilderness","Naked and Afraid","Placement: The Long Wastes","Action: Ongoing Survival","Immediate: Spend 9 progress. Move to stage 1. Burn card.",
+"Pelakhar's Loyalty",1,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(QUICK) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
+"Pelakhar's Loyalty",1,"Seriously? A Dragon?","Attachment","Challenge, Magical","Ley Lines","Placement: The Long Wastes","Action: Ongoing Lore","Immediate: Spend 11 progress. Move to stage 2. Burn card.",
+"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Attachment","Challenge, Beast, Magical","Pelakhar","Placement: White Sands","Action: Ongoing Combat","Immediate: Spend 13 progress. Complete mission path. Burn card.",
+"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Magical","Breath of Flame","Hindrance: 1","Action: Test Lore 4. Success: Discard. Failure: +2 Discord.","(ELDRITCH) +6 Discord. Defense: Lore.",
+"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Beast","Steel Maw","Hindrance: 4","Action: Test Combat 3. Success: Discard. Failure: +1 Discord.","(FORCEFUL) +3 Discord. Defense: Combat. If in staging area, move to occupied mission location.",
+"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Beast","Tail Whip","Hindrance: 1","Action: Test Combat 3. Success: Discard. Failure: +1 Discord.","(QUICK) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.",
+"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Mana Rifts","Interrupt: +2 Mana. Roll dice and add to pool.",,,
+"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
+"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
+"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
+"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
+"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
+"Pelakhar's Loyalty",,"Encounter","Event","Beast","Dusky Sand Mites","Immediate: Test Survival 3. Failure: +3 Discord.",,,
+"Pelakhar's Loyalty",,"Encounter","Event","Environment","Rocky Terrain","Immediate: Test Survival 2. Failure: +2 Discord.",,,
+"Pelakhar's Loyalty",,"Encounter","Event","Environment","Haboob","Immediate: Test Survival 2. Failure: +4 Discord.",,,
+"Pelakhar's Loyalty",,"Encounter","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(GANG) +1 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is (or has been) revealed."
+"Pelakhar's Loyalty",,"Encounter","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(GANG) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is (or has been) revealed."
+
+"The Animaelic Forest",S,"Mission","Location","Magical","Despair","Effect: All characters at this location have -1 resolve.",,,	
+"The Animaelic Forest",S,"Mission","Location","Magical","Anger","Effect: All characters at this location have +1 combat.","(DOOM) If two or more characters are on this location, +3 discord.",,
+"The Animaelic Forest",S,"Mission","Location","Magical","Safety","Effect: Characters at this location may not take any actions.","(SAFE) If two or more characters are on this location, -3 discord.",,	
+"The Animaelic Forest",S,"Mission","Location","Magical","Authority","Effect: All characters at this location have +1 command.","(CALAMITY) If two or more characters are on this location, +3 discord.",,
+"The Animaelic Forest",S,"The Harrowing","Attachment","Challenge","The Ritual of Purity",,,,
+"The Animaelic Forest",1,"The Harrowing","Attachment","Challenge","The Trial of Burning Copper",,,,
+"The Animaelic Forest",2,"The Harrowing","Attachment","Challenge","The Beast of One Thousand Eyes",,,,
+"The Animaelic Forest",S,"Childhood Backlash","Attachment","Challenge","Defend Arcus from Plainsmen Raiders",,,,
+"The Animaelic Forest",1,"Childhood Backlash","Attachment","Challenge","Guild of Security Bullies",,,,
+"The Animaelic Forest",2,"Childhood Backlash","Attachment","Challenge","You're Not Good Enough",,,,
+"The Animaelic Forest",,"","Event","Discord",,,,

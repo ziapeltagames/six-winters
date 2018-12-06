@@ -1,244 +1,38 @@
-mission,deck,title,tags,blocka,blockb,blockc,blockd,blocke,utriggers,text,summary
+mission,deck,ctriggers,title,tags,text,lsummary,rsummary,blocka,blockb,blockc,blockd,blocke
 
-"Starting Location","Initial","Trade Agreement","Location: Spotlight, Red Bank, Diplomacy","xxACTION Spend two resource xxDIE to initiate trade with a faction.","Gain a number of new resource dice equal to the disposition of the faction. Dice gained and spent should match trade wheel for faction."
-"Starting Location","Initial","Development Research","Location: Spotlight, Red Bank","xxACTION Purchase one available development. Shuffle into an asset deck."
-"Starting Location","Initial","Amber Lodge","Location: Spotlight, Red Bank, Urban, Sorcery","xxACTION Task (Lore).","Immediate: A character at this location may spend 9 progress to remove one condition."
-"Starting Location","Initial","Strategic Investments","Location: Spotlight, Red Bank","xxACTION Spend 5 xxFORTUNE to place one progress.","Immediate: Spend 4 progress to increase any disposition track by one.","Immediate: Spend 7 progress to increase any resource track by one."
-"Starting Location","Initial","Hilltop Square","Location: Spotlight, Red Bank, Urban, Stability",,"xxACTION +1 xxFORTUNE (xxDIE)."
-"Starting Location","Initial","Resource Gathering","Location: Spotlight, Red Bank, Conquest","xxACTION Test (Resource Track). Use value of resource track for test. For each success, gain one resource dice of that type."
+"Sowing Rebellion","Initial",,"Dowling Farm","Location: Imperial, Conquest","Nexus of Imperial discontent.",,,"xxACTION Spend 4 xxLUXURY to gain one xxSECRETS."
+"Sowing Rebellion","Initial",,"The Salty Freetrader","Location: Spotlight, Imperial","Where everybody - every single body - knows your name.",,"xxQUICK xxTRAP","xxQUICK If a character is at this location, gain one xxSECRETS.","xxTRAP One character at this location is weary."
+"Sowing Rebellion","Initial",,"Whitehold","Location: Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.",,"xxDOOM","xxDOOM One character at this location is exhausted."
+"Sowing Rebellion","Initial",,"Captured Ally","Obstacle: Issue","Freeing the young Ivian from capture would greatly aid Resistance morale.","xxPROGRESS -3 / xxPSYCHE","xxQUICK","Placement: Whitehold","xxACTION (Test Thievery 3). If you pass, gain one xxSECRETS and discard obstacle.","xxQUICK One character at this location is exhausted."
+"Sowing Rebellion","Initial",,"Graycloak Captain","Obstacle: Guard",,"xxPROGRESS -2 / xxPSYCHE",,"Placement: The Salty Freetrader","xxACTION (Test Disguise 2). Discard guard captain and all other guards at this location."
 
-"Sunriders","Initial","Hogel Manor","Location: Urban, Military","xxACTION Task (Command).","Immediate: Spend 10 progress to increase Sunrider Disposition track by one."
-"Sunriders","Initial","Horsethief Meadows","Location: Spotlight, Wilderness","xxACTION Spend 3 xxFOOD to add progress equal to Tactics on any card with a Military tag."
-"Sunriders","Initial","Song Bluff","Location: Spotlight, Military","Effect: All characters increase their Tactics by Sunrider Disposition while at least one character is at this location.","xxDOOM Test (Command 4). Failure: One character at this location is shaken.",,,,"xxDOOM"
+"Sowing Rebellion","Encounter","xxTIMER xxDOOM","Graycloak Captain","Obstacle: Guard",,"xxPROGRESS -2 / xxPSYCHE",,"Placement: The Whitehold","xxACTION (Test Disguise 2). Discard guard captain and all other guards at this location."
+"Sowing Rebellion","Encounter","xxTIMER xxDOOM","Graycloak","Obstacle: Guard",,"xxPROGRESS -2 / xxPSYCHE",,"Placement: Whitehold.","xxACTION (Test Disguise 1). If you pass, discard."
+"Sowing Rebellion","Encounter","xxTIMER xxDOOM","Graycloak","Obstacle: Guard",,"xxPROGRESS -2 / xxPSYCHE",,"Placement: Dowling Farm.","xxACTION (Test Disguise 1). If you pass, discard."
+"Sowing Rebellion","Encounter","xxTIMER xxTRAP","Graycloak","Obstacle: Guard",,"xxPROGRESS -2 / xxPSYCHE",,"Placement: The Salty Freetrader.","xxACTION (Test Disguise 1). If you pass, discard."
+"Sowing Rebellion","Encounter","xxTIMER xxTRAP","Graycloak","Obstacle: Guard",,"xxPROGRESS -2 / xxPSYCHE",,"Placement: Current Mission Location.","xxACTION (Test Disguise 1). If you pass, discard."
+"Sowing Rebellion","Encounter","xxTIMER xxTRAP","Graycloak","Obstacle: Guard",,"xxPROGRESS -2 / xxPSYCHE",,"Placement: Current Mission Location.","xxACTION (Test Disguise 1). If you pass, discard."	
+"Sowing Rebellion","Encounter","xxTIMER xxELDRITCH","Graycloak Captain","Obstacle: Guard",,"xxPROGRESS -2 / xxPSYCHE",,"Placement: Dowling Farm","xxACTION (Test Disguise 2). Discard guard captain and all other guards at this location."
+"Sowing Rebellion","Encounter","xxTIMER xxTRAP","Plans for Gravewood","Event",,,,"Gain one xxFORTUNE die."
+"Sowing Rebellion","Encounter","xxTIMER xxFORCEFUL","Arms for Butter","Event",,,,"You may spend 6 xxFOOD to gain one xxSECRETS."
+"Sowing Rebellion","Encounter","xxTIMER xxQUICK","Dead Drop","Attachment",,,"xxFORCEFUL","Placement: The Salty Freetrader","xxACTION Gain two xxDISCORD and gain one xxSECRETS.","xxFORCEFUL If there is a guard at this location, any characters also at this location are wounded."
+"Sowing Rebellion","Encounter","xxTIMER xxQUICK","Graycloak","Obstacle: Guard",,"xxPROGRESS -2 / xxPSYCHE",,"Placement: Current Mission Location.","xxACTION (Test Disguise 1). If you pass, discard."
+"Sowing Rebellion","Encounter","xxDISCORD xxFORCEFUL","Tatiana's Grace","Event",,,,"Gain one xxFORTUNE die."
+"Sowing Rebellion","Encounter","xxPROGRESS xxFORCEFUL","Mole Hunt","Event",,,,"Gain one xxFORTUNE die."
+"Sowing Rebellion","Encounter","xxDISCORD xxQUICK","Soft Click","Event",,,,"(Test Thievery 1) If you pass, gain one xxLUXURY. If you fail, one character making the test is weary."
+"Sowing Rebellion","Encounter","xxPROGRESS xxQUICK","Guardhouse","Event",,,,"(Test Thievery 2) If you pass, gain two xxFORTUNE. If you fail, gain two xxDISCORD."
+"Sowing Rebellion","Encounter","xxPROGRESS xxQUICK","Hedge Magician","Event",,,,"(Test Disguise 1) If you pass, gain one xxMANA. If you fail, one character making the test is angry."
+"Sowing Rebellion","Encounter","xxTHREAT xxTRAP","Meet and Greet","Event",,,,"(Test Disguise 2) If you pass, gain two xxFORTUNE. If you fail, gain one xxDISCORD."
+"Sowing Rebellion","Encounter","xxPROGRESS xxQUICK","Quick Hands","Event",,,,"Optional (Test Thievery 2). If you pass, gain two xxSECRETS. If you fail, one character making the test is shattered."
+"Sowing Rebellion","Encounter","xxPROGRESS xxDEADLY","Sabotaged Cataphracts","Event",,,,"(Test Tactics 1). If you pass, you may discard any one threat in play. If you fail, gain one xxDISCORD."
+"Sowing Rebellion","Encounter","xxDISCORD xxELDRITCH","Friendly Fascism","Event",,,,"(Test Rapport 1). If you pass, gain one xxFORTUNE. If you fail, gain one xxDISCORD."
+"Sowing Rebellion","Encounter","xxAPOTHEOSIS xxELDRITCH","Short Fuse","Event",,,,"If one character at an Imperial location is weary, they become angry as well."
 
-"Sunriders","Initial","Arban the Swift","Obstacle: Diplomat","xxACTION Test (Command 1).","Success: discard.","Failure: +1 xxDISCORD.","xxFORCEFUL +3 xxDISCORD (xxDEFENSE Tactics). If in staging area, move to occupied Sunriders location.",,"xxFORCEFUL",,"xxHINDRANCE 1  XP: 1"
-"Sunriders","Initial","Ile","Obstacle: Diplomat","xxACTION Test (Lore 1).","Success: discard.","Failure: +1 xxDISCORD.","xxWEIRD +3 xxDISCORD (xxDEFENSE Lore). If in staging area, move to occupied Sunriders location.",,"xxWEIRD",,"xxHINDRANCE 1  XP: 1"
+"Tragedy and Conspiracy","Initial","Location","Sparrow Keep"
+"Tragedy and Conspiracy","Initial","Location","Outer Fernbrake"
+"Tragedy and Conspiracy","Initial","Location","House of Cloves"
+"Tragedy and Conspiracy","Locked","Location","Graywash Spring"
 
-"Sunriders","Encounter","Taichu","Obstacle: Diplomat","xxACTION Test (Tactics 1).","Success: discard.","Failure: +1 xxDISCORD.","xxQUICK +3 xxDISCORD (xxDEFENSE Tactics). If in staging area, move to occupied Sunriders location.",,"xxQUICK",,"xxHINDRANCE 1  XP: 1"
-"Sunriders","Encounter","Hogel","Obstacle: Diplomat","xxACTION Test (Rapport 1).","Success: discard.","Failure: +1 xxDISCORD.","xxSNEAKY One character at Sunriders location is angry. If in staging area, move to occupied Sunriders location.",,"xxSNEAKY",,"xxHINDRANCE 2  XP: 1"
-"Sunriders","Encounter","Dashen","Obstacle: Diplomat","xxACTION Test (Rapport 1).","Success: discard.","Failure: +1 xxDISCORD.","xxGANG +2 xxDISCORD (xxDEFENSE Rapport). If in staging area, move to occupied Sunriders location.",,"xxGANG",,"xxHINDRANCE 1  XP: 1"
-"Sunriders","Encounter","Channeling on the Steppes","Event: Sorcery","Immediate: Optional Test (Rapport 2).","Success: +2 xxMANA (xxDIE).","Failure: All characters making test are frustrated."
-"Sunriders","Encounter","Taichu's Test","Event: Military","Immediate: Test (Command 1).","Success: +1 xxFORTUNE (xxDIE).","Failure: One character making test is frustrated."
-"Sunriders","Encounter","Arban's Sunset Ride","Event: Diplomacy","Immediate: Test (Command 1).","Success: +1 xxFORTUNE (xxDIE).","Failure: One character making test is frustrated."
-"Sunriders","Encounter","Battle Plans","Event: Military","Immediate: Test (Rapport 1).","Success: +1 xxFORTUNE (xxDIE).","Failure: +3 xxDISCORD."
-"Sunriders","Encounter","Imperial Strategies","Event: Military","Immediate: Test (Tactics 1).","Success: Place one progress on any Sunrider challenge or location.","Failure: +2 xxDISCORD."
-"Sunriders","Encounter","A Bitter Grudge","Attachment: Personal, Ongoing Effect","Requirement: An angry character at a Sunrider location.","Immediate: Play on the angry character. Rapport tests character is involved in are difficult for remainder of mission.",,,,,,"RAPPORT: DIFFICULT"
-"Sunriders","Encounter","Shame To Anger","Event: Diplomacy","Requirement: A frustrated character at a Sunrider Location.","Immediate: The frustrated character gains the angry condition."
-"Sunriders","Encounter","The Coming War","Event: Military","Immediate: Test (Tactics 1).","Success: Add two progress to any Sunriders location or attachment."
-"Sunriders","Encounter","Rousing Speech","Event: Diplomacy","Immediate: Test (Rapport 1).","Success: +1 xxFORTUNE (xxDIE).","Failure: +2 xxDISCORD."
-"Sunriders","Encounter","A First Impression","Event: Diplomacy","Immediate: Test (Command 1).","Success: +1 xxFORTUNE (xxDIE).","Failure: +2 xxDISCORD."
-"Sunriders","Encounter","Ile's Campaign","Event: Rumor","Immediate: +1 xxFORTUNE (xxDIE)."
-"Sunriders","Encounter","Rumors of Smoke","Event: Rumor","Immediate: +1 xxFORTUNE (xxDIE)."
-"Sunriders","Encounter","Welcome Party","Event: Diplomacy","Immediate: Gain an amount of xxFORTUNE (xxDIE) equal to diplomacy."
-
-"Gravewood","Initial","Maplewood","Location: Wilderness, Sorcery"
-"Gravewood","Initial","Spinner Lakes","Location: Wilderness, Conquest"
-"Gravewood","Initial","Green Haven","Location: Spotlight, Stability"
-"Gravewood","Initial","First Haven","Location: Espionage"
-
-"Gravewood","The Eldest Trapsmith: 0"
-"Gravewood","The Eldest Trapsmith: 0"
-"Gravewood","The Eldest Trapsmith: 0"
-"Gravewood","Entrenched Ideology: 0"
-"Gravewood","Entrenched Ideology: 0"
-"Gravewood","Entrenched Ideology: 0"
-
-"Gravewood","Encounter","Samo's Humiliations","Event: Wilderness"
-"Gravewood","Encounter","Setting Traps with Radia","Event: Wilderness"
-"Gravewood","Encounter","Galya's Egalitarian Society","Event: Wilderness"
-"Gravewood","Encounter","Council with Lev and Sdila","Event: Wilderness"
-"Gravewood","Encounter","A Summit of the Five Havens","Event: Wilderness"
-"Gravewood","Encounter"
-"Gravewood","Encounter"
-"Gravewood","Encounter"
-"Gravewood","Encounter"
-"Gravewood","Encounter"
-"Gravewood","Encounter"
-"Gravewood","Encounter"
-"Gravewood","Encounter"
-"Gravewood","Encounter"
-"Gravewood","Encounter"
-"Gravewood","Encounter"
-
-"North Oaks","Initial","Gray River","Location: Red Bank, Wilderness","xxACTION Convert any number of xxTIMBER dice into xxFORTUNE dice."
-"North Oaks","Initial","Mirror Woods","Location: Red Bank, Wilderness, Conquest","xxACTION Task (Survival).","Immediate: Spend 9 progress to increase xxTIMBER track by one.","xxDISASTER Test (Survival 3). Failure: All characters at this location are weary.",,,"xxDISASTER"
-"North Oaks","Initial","Exposed Overlook","Location: Spotlight, Red Bank, Wilderness, Conquest","xxACTION Task (Survival).","xxACTION Spend progress.","5: +1 xxTIMBER (xxDIE) 9: +2 xxTIMBER (xxDIE)","11: +3 xxTIMBER (xxDIE) 12: +4 xxTIMBER (xxDIE)","xxCALAMITY A fire breaks out! Lose all progress on this location.","xxCALAMITY"
-"North Oaks","Initial","Musty Tomb","Location: Red Bank, Dungeon, Sorcery","Effect: All characters at this location have +1 Lore.","xxSORCERY Test (Lore 2). Failure: One character at this location is shaken.",,,,"xxSORCERY"
-
-"North Oaks","Initial","The Necromancer","Obstacle: Foe, Sorcery","xxACTION Test (Lore 3).","Success: discard.","Failure: +1 xxDISCORD.","xxWEIRD +4 xxDISCORD (xxDEFENSE Combat). If in staging area, move to occupied North Oaks location.","xxQUICK One character at a North Oaks location is Weary.","xxWEIRD xxQUICK",,"xxHINDRANCE 2  XP: 2"
-"North Oaks","Initial","Restless Dead","Obstacle: Foe, Undead","xxACTION Test (Combat). For every success, discard one Restless Dead at this location.","xxGANG +1 xxDISCORD (xxDEFENSE Combat). If in staging area, move to occupied North Oaks location.",,,,"xxGANG",,"xxHINDRANCE 1  XP: 1"
-
-"North Oaks","Encounter","Timber Source","Event: Resource","Immediate: +1 xxTIMBER (xxDIE)."
-"North Oaks","Encounter","Timber Source","Event: Resource","Immediate: +1 xxTIMBER (xxDIE)."
-"North Oaks","Encounter","Timber Source","Event: Resource","Immediate: +1 xxTIMBER (xxDIE)."
-"North Oaks","Encounter","Ore Source","Event: Resource","Immediate: +1 xxORE (xxDIE)."
-"North Oaks","Encounter","Mana Source","Event: Resource","Immediate: +1 xxMANA (xxDIE)."
-"North Oaks","Encounter","Engines of Progress","Event: Conquest","Immediate: Gain progress on any wilderness task equal to conquest."
-"North Oaks","Encounter","Forest Boar","Event: Beast","Immediate: Test (Combat 1).","Failure: Weary."
-"North Oaks","Encounter","Rocky Terrain","Event: Environment","Immediate: Test (Survival 1).","Success: +1 xxFORTUNE (xxDIE).","Failure: +2 xxDISCORD."
-"North Oaks","Encounter","Storms","Event: Environment","Immediate: Test (Survival 1).","Success: +1 xxFORTUNE (xxDIE).","Failure: +2 xxDISCORD."
-"North Oaks","Encounter","Restless Dead","Obstacle: Foe, Undead","Action: Test (Combat). For every success, discard one Restless Dead at this location.","xxGANG +1 xxDISCORD (xxDEFENSE Combat). If in staging area, move to occupied North Oaks location.",,,,"xxGANG",,"xxHINDRANCE 1  XP: 1"
-"North Oaks","Encounter","Restless Dead","Obstacle: Foe, Undead","Action: Test (Combat). For every success, discard one Restless Dead at this location.","xxGANG +1 xxDISCORD (xxDEFENSE Combat). If in staging area, move to occupied North Oaks location.",,,,"xxGANG",,"xxHINDRANCE 1  XP: 1"
-"North Oaks","Encounter","Restless Dead","Obstacle: Foe, Undead","Action: Test (Combat). For every success, discard one Restless Dead at this location.","xxGANG +1 xxDISCORD (xxDEFENSE Combat). If in staging area, move to occupied North Oaks location.",,,,"xxGANG",,"xxHINDRANCE 1  XP: 1"
-"North Oaks","Encounter","Restless Dead","Obstacle: Foe, Undead","Action: Test (Combat). For every success, discard one Restless Dead at this location.","xxGANG +1 xxDISCORD (xxDEFENSE Combat). If in staging area, move to occupied North Oaks location.",,,,"xxGANG",,"xxHINDRANCE 1  XP: 1"
-"North Oaks","Encounter","Grueling Wilds","Attachment: Ongoing Effect, Environment","Placement: On character at North Oaks location with lowest Survival.","xxMISFORTUNE Test (Survival 1). Failure: Weary.",,,,"xxMISFORTUNE",,"xxMISFORTUNE Test (Survival 1)"
-"North Oaks","Encounter","The Last Necromancer","Event: Rumor","Immediate: +1 xxFORTUNE (xxDIE)",,,,,,"There are signs that the Necromancer of North Oaks was not alone."
-"North Oaks","Encounter","The Standing Stone","Event: Rumor","Immediate: +1 xxFORTUNE (xxDIE)",,,,,,"Scribbled on a stone are what appear to be coded Imperial messages. Who from Red Bank is sending these messages?"
-"North Oaks","Encounter","Exploration Force","Event: Conquest","Immediate: Gain xxFORTUNE (xxDIE) equal to conquest."
-
-"Sightrock","Initial","Lush Fields","Location: Spotlight, Red Bank, Wilderness","Action: Spend 3 xxFORTUNE to gain +1 Food die.","xSAFE If a character is at this location, gain +3 Food dice."
-"Sightrock","Initial","Salmon Run","Location: Red Bank, Wilderness","Action: Task (Survival).","Immediate: Spend 10 progress to raise Food track by one.","xxDISASTER Test (Survival 3). Failure: One character at this location is weary."
-"Sightrock","Initial","The Weird Rock","Location: Red Bank, Dungeon, Sorcery","Effect: All characters have +1 Lore.","xxDOOM Test (Lore 3). Failure: One character at this location is shaken."
-"Sightrock","Journey Under the Rock: 0","Tracing Ley Lines","Challenge: Wilderness","Placement: Lush Fields","Action: Task (Lore)","Immediate: Spend 7 progress. One character at location gains +1 Lore. Move to stage 1."
-"Sightrock","Journey Under the Rock: 0","Dark Thoughts","Obstacle: Sorcery","xxHINDRANCE 1","Action: Test (Command 2). Success: discard. Failure: +1 xxDISCORD.","xxDOOM One character on mission becomes angry."
-"Sightrock","Journey Under the Rock: 1","Through Murky Caverns","Challenge: Wilderness","Placement: The Weird Rock","Action: Task (Survival)","Immediate: Spend 6 progress. One character at location gains +1 Survival. Move to stage 2."
-"Sightrock","Journey Under the Rock: 1","Dark Thoughts","Obstacle: Sorcery","xxHINDRANCE 1","Action: Test (Command 2). Success: discard. Failure: +1 xxDISCORD.","xxDOOM One character on mission becomes angry."
-"Sightrock","Journey Under the Rock: 2","The Formless Spawn","Challenge: Wilderness","Placement: The Weird Rock","Action: Task (Combat)","Immediate: Spend 9 progress. One character at location gains +1 Combat. Complete mission path and discard all Dark Thoughts."
-"Sightrock","Journey Under the Rock: 2","Dark Thoughts","Obstacle: Sorcery","xxHINDRANCE 1","Action: Test (Command 2). Success: discard. Failure: +1 xxDISCORD.","xxDOOM One character on mission becomes angry."
-"Sightrock","A Spreading Fear: 0","Paranoid Mob","Obstacle: Foe","xxHINDRANCE 2","Action: Test (Combat 1). Success: discard and +2 xxDISCORD.","Action: Test (Command 2). Success: discard. Failure: +1 xxDISCORD.","xxGANG +1 xxDISCORD. If in staging area, move to occupied Sightrock location.","xxDEFENSE Combat xxBODY","XP: 1"
-"Sightrock","A Spreading Fear: 0","Paranoid Mob","Obstacle: Foe","xxHINDRANCE 2","Action: Test (Combat 1). Success: discard and +2 xxDISCORD.","Action: Test (Command 2). Success: discard. Failure: +1 xxDISCORD.","xxGANG +1 xxDISCORD. If in staging area, move to occupied Sightrock location.","xxDEFENSE Combat xxBODY","XP: 1"
-"Sightrock","A Spreading Fear: 0","Gill Nets","Challenge: Wilderness","Placement: Salmon Run","Action: Task (Survival)","Immediate: Spend 8 progress. Gain +2 Food. Move to stage 1."
-"Sightrock","A Spreading Fear: 1","Grainery","Challenge: Wilderness","Placement: Lush Fields","Action: Task (Lore)","Immediate: Spend 7 progress. Increase Food track by one. Complete mission path."
-"Sightrock","Encounter","Food Source","Event: Resource","Immediate: +1 Food. Roll dice and add to pool."
-"Sightrock","Encounter","Food Source","Event: Resource","Immediate: +1 Food. Roll dice and add to pool."
-"Sightrock","Encounter","Food Source","Event: Resource","Immediate: +1 Food. Roll dice and add to pool."
-"Sightrock","Encounter","Ore Source","Event: Resource","Immediate: +1 Ore. Roll dice and add to pool."
-"Sightrock","Encounter","Mana Source","Event: Resource","Immediate: +1 xxMANA. Roll dice and add to pool."
-"Sightrock","Encounter","Following Ley Lines","Event: Sorcery","Interrupt: Gain a number of xxMANA dice equal to Sorcery. Roll dice and add to pool."
-"Sightrock","Encounter","Smoke on Dusk's Ayrie","Event: Rumor","Immediate: +1 xxFORTUNE"
-"Sightrock","Encounter","An Eldritch Foe","Event: Rumor","Immediate: +1 xxFORTUNE"
-"Sightrock","Encounter","Golden Burrower","Event: Beast","Immediate: Test (Combat 2). Success: +1 xxFORTUNE. Failure: Weary."
-"Sightrock","Encounter","Deadfall","Event: Environment","Immediate: Test (Survival 2). Success: +1 xxFORTUNE. Failure: +2 xxDISCORD."
-"Sightrock","Encounter","Storms","Event: Environment","Immediate: Test (Survival 2). Success: +1 xxFORTUNE. Failure: +2 xxDISCORD."
-"Sightrock","Encounter","Paranoid Mob","Obstacle: Foe","xxHINDRANCE 2","Action: Test (Combat 1). Success: discard and +2 xxDISCORD.","Action: Test (Command 2). Success: discard. Failure: +1 xxDISCORD.","xxGANG +1 xxDISCORD. If in staging area, move to occupied Sightrock location.","xxDEFENSE Combat xxBODY","XP: 1"
-"Sightrock","Encounter","Paranoid Mob","Obstacle: Foe","xxHINDRANCE 2","Action: Test (Combat 1). Success: discard and +2 xxDISCORD.","Action: Test (Command 2). Success: discard. Failure: +1 xxDISCORD.","xxGANG +1 xxDISCORD. If in staging area, move to occupied Sightrock location.","xxDEFENSE Combat xxBODY","XP: 1"
-"Sightrock","Encounter","Paranoid Mob","Obstacle: Foe","xxHINDRANCE 2","Action: Test (Combat 1). Success: discard and +2 xxDISCORD.","Action: Test (Command 2). Success: discard. Failure: +1 xxDISCORD.","xxGANG +1 xxDISCORD. If in staging area, move to occupied Sightrock location.","xxDEFENSE Combat xxBODY","XP: 1"
-"Sightrock","Encounter","Mind Trap","Obstacle: Sorcery","xxHINDRANCE 3","Action: Test (Command 2). Success: discard.","xxELDRITCH: +3 xxDISCORD. If in staging area, move to occupied Sightrock location.","xxDEFENSE Command (xxPSYCHE)",,"XP: 1",,,
-
-"Eastkeep","Initial","The Rosy Freetrader","Location: Imperial, Urban","Action: Task (Thievery).","Immediate: Spend 12 progress to gain one secret.","xxDISASTER Test (Disguise 2). Failure: One character at this location is weary."
-"Eastkeep","Initial","Map Hall","Location: Spotlight, Imperial, Urban, Espionage","Action: Task (Disguise).","Immediate: Spend 5 progress to discard one Graycloak."
-"Eastkeep","Initial","House of Cloves","Location: Imperial, Urban","Effect: All characters at this location have +1 Disguise.","xxDOOM Test (Rapport 2). Failure: One character at this location is angry"
-"Eastkeep","Rumors of a Frozen Hell: 1","Root Cellar","Location: Imperial, Urban","Action: Move one Graycloak from any occupied location to the Root Cellar."
-"Eastkeep","A Possible Ally: 0","Intercepted Plans","Challenge: Imperial, Urban, Espionage","Placement: Map Hall","Action: Task (Disguise).","Immediate: Spend 5 progress. Gain +1 xxFORTUNE. Move to stage 1."
-"Eastkeep","A Possible Ally: 1","A New Lead","Challenge: Imperial, Urban, Espionage","Placement: The Rosy Freetrader","Action: Task (Rapport).","Immediate: Spend 4 progress. One character at location gains +1 Thievery. Move to stage 2."
-"Eastkeep","A Possible Ally: 1","Graycloaks","Obstacle: Guard","xxHINDRANCE 1","Action: Test (Disguise). For every success, discard one Guard at this location.","xxGANG Gain xxDISCORD as listed on Mission Overview. If in staging area, move to occupied Eastkeep location.","xxDEFENSE Disguise (xxPSYCHE)",,"XP: 1"
-"Eastkeep","A Possible Ally: 2","The Resistance","Challenge: Imperial, Urban, Espionage","Placement: The Rosy Freetrader","Action: Task (Command).","Immediate: Spend 3 progress. One character at location gains +1 Disguise. Complete Mission Path."
-"Eastkeep","Rumors of a Frozen Hell: 0","Costume Ball","Challenge: Imperial, Urban, Espionage","Placement: House of Cloves","Action: Task (Disguise).","Immediate: Spend 4 progress. Increase Secrets track by one. Move to stage 1."
-"Eastkeep","Rumors of a Frozen Hell: 0","Graycloaks","Obstacle: Guard","xxHINDRANCE 1","Action: Test (Disguise). For every success, discard one Guard at this location.","xxGANG Gain xxDISCORD as listed on Mission Overview. If in staging area, move to occupied Eastkeep location.","xxDEFENSE Disguise (xxPSYCHE)",,"XP: 1"
-"Eastkeep","Rumors of a Frozen Hell: 1","Location","Imperial, Urban","Root Cellar","Action: Move one Graycloak from any occupied location to the Root Cellar."
-"Eastkeep","Rumors of a Frozen Hell: 1","Hidden Passage","Challenge: Imperial, Urban, Espionage","Placement: Root Cellar.","Action: Task (Thievery).","Immediate: Spend 6 progress. Increase Secrets track by one. Move to stage 2."
-"Eastkeep","Rumors of a Frozen Hell: 1","Graycloaks","Obstacle: Guard","xxHINDRANCE 1","Action: Test (Disguise). For every success, discard one Guard at this location.","xxGANG Gain xxDISCORD as listed on Mission Overview. If in staging area, move to occupied Eastkeep location.","xxDEFENSE Disguise (xxPSYCHE)",,"XP: 1"
-"Eastkeep","Rumors of a Frozen Hell: 2","Trapped Safe","Challenge: Imperial, Urban, Espionage","Placement: Root Cellar.","Action: Task (Thievery).","Immediate: Spend 8 progress. Increase Secrets track by one. Complete Mission Path."
-"Eastkeep","Encounter","Graycloaks","Obstacle: Guard","xxHINDRANCE 1","Action: Test (Disguise). For every success, discard one Guard at this location.","xxGANG Gain xxDISCORD as listed on Mission Overview. If in staging area, move to occupied Eastkeep location.","xxDEFENSE Disguise (xxPSYCHE)",,"XP: 1"
-"Eastkeep","Encounter","Graycloaks","Obstacle: Guard","xxHINDRANCE 1","Action: Test (Disguise). For every success, discard one Guard at this location.","xxGANG Gain xxDISCORD as listed on Mission Overview. If in staging area, move to occupied Eastkeep location.","xxDEFENSE Disguise (xxPSYCHE)",,"XP: 1"
-"Eastkeep","Encounter","Graycloaks","Obstacle: Guard","xxHINDRANCE 1","Action: Test (Disguise). For every success, discard one Guard at this location.","xxGANG Gain xxDISCORD as listed on Mission Overview. If in staging area, move to occupied Eastkeep location.","xxDEFENSE Disguise (xxPSYCHE)",,"XP: 1"
-"Eastkeep","Encounter","Graycloaks","Obstacle: Guard","xxHINDRANCE 1","Action: Test (Disguise). For every success, discard one Guard at this location.","xxGANG Gain xxDISCORD as listed on Mission Overview. If in staging area, move to occupied Eastkeep location.","xxDEFENSE Disguise (xxPSYCHE)",,"XP: 1"
-"Eastkeep","Encounter","Graycloaks","Obstacle: Guard","xxHINDRANCE 1","Action: Test (Disguise). For every success, discard one Guard at this location.","xxGANG Gain xxDISCORD as listed on Mission Overview. If in staging area, move to occupied Eastkeep location.","xxDEFENSE Disguise (xxPSYCHE)",,"XP: 1"
-"Eastkeep","Encounter","First Contact","Event: Espionage","Immediate: Test (Thievery 1). Success: +1 xxFORTUNE. Failure: Frustrated."
-"Eastkeep","Encounter","Establishing Safehouses","Event: Espionage","Immediate: Test (Disguise 1). Success: +1 xxFORTUNE. Failure: Weary."
-"Eastkeep","Encounter","Risky Gambit","Event: Espionage","Immediate: Optional Test (Thievery 2). Success: +4 xxFORTUNE. Failure: +4 xxDISCORD."
-"Eastkeep","Encounter","Compromised Position","Event: Espionage","Immediate: Test (Tactics 1). Success: +1 xxFORTUNE. Failure: +3 xxDISCORD."
-"Eastkeep","Encounter","The Weak Link","Event: Rumor","Immediate: +1 xxFORTUNE"
-"Eastkeep","Encounter","The Resistance","Event: Rumor","Immediate: +1 xxFORTUNE"
-"Eastkeep","Encounter","A Cold Place","Event: Rumor","Immediate: +1 xxFORTUNE"
-"Eastkeep","Encounter","The Thea Dossier","Event: Rumor","Immediate: +1 xxFORTUNE"
-"Eastkeep","Encounter","Spies","Event: Espionage","Immediate: Gain xxFORTUNE equal to espionage."
-"Eastkeep","Encounter","Spies","Event: Espionage","Immediate: Gain xxFORTUNE equal to espionage."
-
-"Guilder Farms","Initial","Dowling Farm","Location: Imperial, Conquest"
-"Guilder Farms","Initial","Free Guilder Inn","Location: Spotlight, Imperial, Urban, Espionage"
-"Guilder Farms","A Dark Rot: 0"
-"Guilder Farms","A Dark Rot: 1"
-"Guilder Farms","A Dark Rot: 2","Micus's Keep","Location: Imperial, Urban"
-"Guilder Farms","The War Machine: 0"
-"Guilder Farms","The War Machine: 1"
-"Guilder Farms","The War Machine: 2"
-"Guilder Farms","Encounter","Funding the Resistance","Event: Espionage"	
-"Guilder Farms","Encounter","Clash of Cataphracts","Event: Espionage"	
-"Guilder Farms","Encounter","Rumors in the Smoke","Event: Espionage"
-"Guilder Farms","Encounter","Graycloak Captain","Obstacle: Guard, Graycloak"
-"Guilder Farms","Encounter","Title","Event: Espionage"
-"Guilder Farms","Encounter","Title","Event: Espionage"
-"Guilder Farms","Encounter","Title","Event: Espionage"
-"Guilder Farms","Encounter","Title","Event: Espionage"
-"Guilder Farms","Encounter","Title","Event: Espionage"
-"Guilder Farms","Encounter","Title","Event: Espionage"
-"Guilder Farms","Encounter","Title","Event: Espionage"
-"Guilder Farms","Encounter","Title","Event: Espionage"
-"Guilder Farms","Encounter","Title","Event: Espionage"
-"Guilder Farms","Encounter","Title","Event: Espionage"
-"Guilder Farms","Encounter","Title","Event: Espionage"
-"Guilder Farms","Encounter","Title","Event: Espionage"
-
-id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
-PELAKH01,"Pelakhar's Loyalty",S,"Mission","Location","Wilderness","The Long Wastes","Action: (Sunrider Aid) Spend 3 mana to place progress equal to conquest on any ongoing wilderness challenge.",,,	
-PELAKH02,"Pelakhar's Loyalty",S,"Mission","Location","Wilderness","White Sands","Action: Test Lore. Lower discord pool for each success.",,,
-
-PELAKH03,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(SNEAKY) +3 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
-PELAKH04,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Attachment","Challenge, Wilderness","Naked and Afraid","Placement: The Long Wastes","Action: Ongoing Survival","Immediate: Spend 9 progress. Move to stage 1. Burn card.",
-
-PRLAKH05,"Pelakhar's Loyalty",1,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(QUICK) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
-PELAKH06,"Pelakhar's Loyalty",1,"Seriously? A Dragon?","Attachment","Challenge, Magical","Ley Lines","Placement: The Long Wastes","Action: Ongoing Lore","Immediate: Spend 11 progress. Move to stage 2. Burn card.",
-
-PELAKH07,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Attachment","Challenge, Beast, Magical","Pelakhar","Placement: White Sands","Action: Ongoing Combat","Immediate: Spend 13 progress. Complete mission path. Burn card.",
-PELAKH08,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Magical","Breath of Flame","Hindrance: 1","Action: Test Lore 4. Success: Discard. Failure: +2 Discord.","(ELDRITCH) +6 Discord. Defense: Lore.",
-PELAKH09,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Beast","Steel Maw","Hindrance: 4","Action: Test Combat 3. Success: Discard. Failure: +1 Discord.","(FORCEFUL) +3 Discord. Defense: Combat. If in staging area, move to occupied mission location.",
-PELAKH10,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Beast","Tail Whip","Hindrance: 1","Action: Test Combat 3. Success: Discard. Failure: +1 Discord.","(QUICK) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.",
-
-PELAKH11,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Mana Rifts","Interrupt: +2 Mana. Roll dice and add to pool.",,,
-PELAKH12,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
-PELAKH13,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
-PELAKH14,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
-PELAKH15,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
-PELAKH16,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
-PELAKH17,"Pelakhar's Loyalty",,"Encounter","Event","Beast","Dusky Sand Mites","Immediate: Test Survival 3. Failure: +3 Discord.",,,
-PELAKH18,"Pelakhar's Loyalty",,"Encounter","Event","Environment","Rocky Terrain","Immediate: Test Survival 2. Failure: +2 Discord.",,,
-PELAKH19,"Pelakhar's Loyalty",,"Encounter","Event","Environment","Haboob","Immediate: Test Survival 2. Failure: +4 Discord.",,,
-
-PELAKH20,"Pelakhar's Loyalty",,"Encounter","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(GANG) +1 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is (or has been) revealed."
-PELAKH21,"Pelakhar's Loyalty",,"Encounter","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(GANG) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is (or has been) revealed."
-
-id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
-
-ANIMAE01,"The Animaelic Forest",S,"Mission","Location","Magical","Despair","Effect: All characters at this location have -1 resolve.",,,	
-ANIMAE02,"The Animaelic Forest",S,"Mission","Location","Magical","Anger","Effect: All characters at this location have +1 combat.","(DOOM) If two or more characters are on this location, +3 discord.",,
-ANIMAE03,"The Animaelic Forest",S,"Mission","Location","Magical","Safety","Effect: Characters at this location may not take any actions.","(SAFE) If two or more characters are on this location, -3 discord.",,	
-ANIMAE04,"The Animaelic Forest",S,"Mission","Location","Magical","Authority","Effect: All characters at this location have +1 command.","(CALAMITY) If two or more characters are on this location, +3 discord.",,
-
-ANIMAE05,"The Animaelic Forest",S,"The Harrowing","Attachment","Challenge","The Ritual of Purity",,,,
-ANIMAE06,"The Animaelic Forest",1,"The Harrowing","Attachment","Challenge","The Trial of Burning Copper",,,,
-ANIMAE07,"The Animaelic Forest",2,"The Harrowing","Attachment","Challenge","The Beast of One Thousand Eyes",,,,
-
-ANIMAE05,"The Animaelic Forest",S,"Childhood Backlash","Attachment","Challenge","Defend Arcus from Plainsmen Raiders",,,,
-ANIMAE06,"The Animaelic Forest",1,"Childhood Backlash","Attachment","Challenge","Guild of Security Bullies",,,,
-ANIMAE07,"The Animaelic Forest",2,"Childhood Backlash","Attachment","Challenge","You're Not Good Enough",,,,
-
-ANIMAE08,"The Animaelic Forest",,"","Event","Discord",,,,
-
-id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
-PELAKH01,"Pelakhar's Loyalty",S,"Mission","Location","Wilderness","The Long Wastes","Action: (Sunrider Aid) Spend 3 mana to place progress equal to conquest on any ongoing wilderness challenge.",,,	
-PELAKH02,"Pelakhar's Loyalty",S,"Mission","Location","Wilderness","White Sands","Action: Test Lore. Lower discord pool for each success.",,,
-
-PELAKH03,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(SNEAKY) +3 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
-PELAKH04,"Pelakhar's Loyalty",S,"Seriously? A Dragon?","Attachment","Challenge, Wilderness","Naked and Afraid","Placement: The Long Wastes","Action: Ongoing Survival","Immediate: Spend 9 progress. Move to stage 1. Burn card.",
-
-PRLAKH05,"Pelakhar's Loyalty",1,"Seriously? A Dragon?","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(QUICK) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is revealed."
-PELAKH06,"Pelakhar's Loyalty",1,"Seriously? A Dragon?","Attachment","Challenge, Magical","Ley Lines","Placement: The Long Wastes","Action: Ongoing Lore","Immediate: Spend 11 progress. Move to stage 2. Burn card.",
-
-PELAKH07,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Attachment","Challenge, Beast, Magical","Pelakhar","Placement: White Sands","Action: Ongoing Combat","Immediate: Spend 13 progress. Complete mission path. Burn card.",
-PELAKH08,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Magical","Breath of Flame","Hindrance: 1","Action: Test Lore 4. Success: Discard. Failure: +2 Discord.","(ELDRITCH) +6 Discord. Defense: Lore.",
-PELAKH09,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Beast","Steel Maw","Hindrance: 4","Action: Test Combat 3. Success: Discard. Failure: +1 Discord.","(FORCEFUL) +3 Discord. Defense: Combat. If in staging area, move to occupied mission location.",
-PELAKH10,"Pelakhar's Loyalty",2,"Seriously? A Dragon?","Obstacle","Foe, Beast","Tail Whip","Hindrance: 1","Action: Test Combat 3. Success: Discard. Failure: +1 Discord.","(QUICK) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.",
-
-PELAKH11,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Mana Rifts","Interrupt: +2 Mana. Roll dice and add to pool.",,,
-PELAKH12,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
-PELAKH13,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
-PELAKH14,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
-PELAKH15,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
-PELAKH16,"Pelakhar's Loyalty",,"Encounter","Event","Dweomer","Dragon Fear","Immediate: Give one character on quest a psyche condition or move one character on quest to spotlight location.",,,
-PELAKH17,"Pelakhar's Loyalty",,"Encounter","Event","Beast","Dusky Sand Mites","Immediate: Test Survival 3. Failure: +3 Discord.",,,
-PELAKH18,"Pelakhar's Loyalty",,"Encounter","Event","Environment","Rocky Terrain","Immediate: Test Survival 2. Failure: +2 Discord.",,,
-PELAKH19,"Pelakhar's Loyalty",,"Encounter","Event","Environment","Haboob","Immediate: Test Survival 2. Failure: +4 Discord.",,,
-
-PELAKH20,"Pelakhar's Loyalty",,"Encounter","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(GANG) +1 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is (or has been) revealed."
-PELAKH21,"Pelakhar's Loyalty",,"Encounter","Obstacle","Foe, Bandit","Moonriders","Hindrance: 1","Action: Test Combat 3. Failure: +1 Discord.","(GANG) +4 Discord. Defense: Combat. If in staging area, move to occupied mission location.","Special: Discard if Pelakhar challenge is (or has been) revealed."
+"Intemperate Summit","Initial","Location","Goldspike"
+"Intemperate Summit","Initial","Location","Hall of Brass"
+"Intemperate Summit","Initial","Location","Beetle Burrough"
