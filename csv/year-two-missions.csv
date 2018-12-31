@@ -1,8 +1,5 @@
 mission,deck,ctriggers,title,tags,text,lsummary,rsummary,blocka,blockb,blockc,blockd,blocke
 
-"Sowing Rebellion","Initial",,"Dowling Farm","Location: Imperial, Conquest","Nexus of Imperial discontent.",,,"xxACTION Spend 4 xxLUXURY to gain one xxSECRETS."
-"Sowing Rebellion","Initial",,"The Salty Freetrader","Location: Spotlight, Imperial","Where everybody - every single body - knows your name.",,"xxQUICK xxTRAP","xxQUICK If a character is at this location, gain one xxSECRETS.","xxTRAP One character at this location is weary."
-"Sowing Rebellion","Initial",,"Whitehold","Location: Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.",,"xxDOOM","xxDOOM One character at this location is exhausted."
 "Sowing Rebellion","Initial",,"Captured Ally","Obstacle: Issue","Freeing the young Ivian from capture would greatly aid Resistance morale.","xxPROGRESS -3 / xxPSYCHE","xxQUICK","Placement: Whitehold","xxACTION (Test Thievery 3). If you pass, gain one xxSECRETS and discard obstacle.","xxQUICK One character at this location is exhausted."
 "Sowing Rebellion","Initial",,"Graycloak Captain","Obstacle: Guard",,"xxPROGRESS -2 / xxPSYCHE",,"Placement: The Salty Freetrader","xxACTION (Test Disguise 2). Discard guard captain and all other guards at this location."
 
@@ -27,12 +24,3 @@ mission,deck,ctriggers,title,tags,text,lsummary,rsummary,blocka,blockb,blockc,bl
 "Sowing Rebellion","Encounter","xxPROGRESS xxDEADLY","Sabotaged Cataphracts","Event",,,,"(Test Tactics 1). If you pass, you may discard any one threat in play. If you fail, gain one xxDISCORD."
 "Sowing Rebellion","Encounter","xxDISCORD xxELDRITCH","Friendly Fascism","Event",,,,"(Test Rapport 1). If you pass, gain one xxFORTUNE. If you fail, gain one xxDISCORD."
 "Sowing Rebellion","Encounter","xxAPOTHEOSIS xxELDRITCH","Short Fuse","Event",,,,"If one character at an Imperial location is weary, they become angry as well."
-
-"Tragedy and Conspiracy","Initial","Location","Sparrow Keep"
-"Tragedy and Conspiracy","Initial","Location","Outer Fernbrake"
-"Tragedy and Conspiracy","Initial","Location","House of Cloves"
-"Tragedy and Conspiracy","Locked","Location","Graywash Spring"
-
-"Intemperate Summit","Initial","Location","Goldspike"
-"Intemperate Summit","Initial","Location","Hall of Brass"
-"Intemperate Summit","Initial","Location","Beetle Burrough"

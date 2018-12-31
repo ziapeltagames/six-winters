@@ -1,0 +1,14 @@
+mission,deck,ctriggers,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
+
+"Sowing Rebellion","Initial",,"Dowling Farm","Location: Imperial, Conquest","Nexus of Imperial discontent.",,"xxACTION Spend 4 xxLUXURY to gain one xxSECRETS."
+"Sowing Rebellion","Initial",,"The Salty Freetrader","Location: Spotlight, Imperial","Where everybody - every single body - knows your name.","xxQUICK xxTRAP","xxQUICK If a character is at this location, gain one xxSECRETS.","xxTRAP One character at this location is weary."
+"Sowing Rebellion","Initial",,"Whitehold","Location: Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.","xxDOOM","xxDOOM One character at this location is exhausted."
+
+"Tragedy and Conspiracy","Initial",,"Sparrow Keep"
+"Tragedy and Conspiracy","Initial",,"Outer Fernbrake"
+"Tragedy and Conspiracy","Initial",,"House of Cloves"
+"Tragedy and Conspiracy","Locked",,"Graywash Spring"
+
+"Intemperate Summit","Initial",,"Goldspike"
+"Intemperate Summit","Initial",,"Hall of Brass"
+"Intemperate Summit","Initial",,"Beetle Burrough"

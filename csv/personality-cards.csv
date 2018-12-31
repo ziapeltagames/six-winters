@@ -1,28 +1,28 @@
 character,year,@picture,title,text,effecta,effectb,effectc,effectd
 
-Menas,1,"..\images\MENAS.png","Grudging Respect","She can be so infuriating - and she's usually right.","Play effect: Requirement: Thea is at the same location. Cost: Menas is angry.","Effect: Remove all discord for Menas's party."
-Menas,1,"..\images\MENAS.png","Necessary Evils","The world is not a pretty place.","Play effect: Requirement: Fuscus is at the same location.","Effect: +2 progress on a task at this location.","Burn effect: Cost: Lower a faction disposition track by two.","Effect: Raise a different faction disposition track by one."
-Menas,1,"..\images\MENAS.png","Grizzled Veteran","I've seen this trick before.","Play effect: Requirement: Menas is at a Military location.","Effect: +2 progress on a task at this location.","Burn effect: Defend against an obstacle without taking a condition."
+Menas,1,"..\images\characters\MENAS.png","Grudging Respect","She can be so infuriating - and she's usually right.","Play effect: Requirement: Thea is at the same location. Cost: Menas is angry.","Effect: Remove all discord for Menas's party."
+Menas,1,"..\images\characters\MENAS.png","Necessary Evils","The world is not a pretty place.","Play effect: Requirement: Fuscus is at the same location.","Effect: +2 progress on a task at this location.","Burn effect: Cost: Lower a faction disposition track by two.","Effect: Raise a different faction disposition track by one."
+Menas,1,"..\images\characters\MENAS.png","Grizzled Veteran","I've seen this trick before.","Play effect: Requirement: Menas is at a Military location.","Effect: +2 progress on a task at this location.","Burn effect: Defend against an obstacle without taking a condition."
 
-Menas,2,"..\images\MENAS.png","Whispering Spirits","TBD","Play card to gain +1 fortune.","If Oniri is at the same location, may make Menas shaken to burn card.",
+Menas,2,"..\images\characters\MENAS.png","Whispering Spirits","TBD","Play card to gain +1 fortune.","If Oniri is at the same location, may make Menas shaken to burn card.",
 
-Fuscus,1,"..\images\FUSCUS.png","Soft Pity","Seriously? Drop the loner act, kid.","Play effect: Requirement: Keel is at the same location.","Effect: +2 progress on a task at this location."
-Fuscus,1,"..\images\FUSCUS.png","White Lies","No harm, no foul.","Play effect: Cost: Fuscus is exhausted.","Effect: -4 discord for Fuscus's party.","Burn effect: Everyone else in Fuscus's party is angry."
-Fuscus,1,"..\images\FUSCUS.png","Lavender Society","Oh, her? I have friends all over.","Play effect: Cost: Spend a secret.","Effect: Move a character to any location.","Burn effect: Draw a threat."
+Fuscus,1,"..\images\characters\FUSCUS.png","Soft Pity","Seriously? Drop the loner act, kid.","Play effect: Requirement: Keel is at the same location.","Effect: +2 progress on a task at this location."
+Fuscus,1,"..\images\characters\FUSCUS.png","White Lies","No harm, no foul.","Play effect: Cost: Fuscus is exhausted.","Effect: -4 discord for Fuscus's party.","Burn effect: Everyone else in Fuscus's party is angry."
+Fuscus,1,"..\images\characters\FUSCUS.png","Lavender Society","Oh, her? I have friends all over.","Play effect: Cost: Spend a secret.","Effect: Move a character to any location.","Burn effect: Draw a threat."
 
-Fuscus,2,"..\images\FUSCUS.png","Manipulations","Was it worth it?","Cost: Shattered","Lower a disposition track by two, rais a different disposition track by two.","Cost: Burn Card"
+Fuscus,2,"..\images\characters\FUSCUS.png","Manipulations","Was it worth it?","Cost: Shattered","Lower a disposition track by two, rais a different disposition track by two.","Cost: Burn Card"
 
-Thea,1,"..\images\THEA.png","One Voice","We have one mind when it comes to the future of Red Bank.","Play effect: Requirement: Menas is at the same location. Cost: Spend 4 fortune.","A test that Menas is involved in is easy."
-Thea,1,"..\images\THEA.png","The Conciliator","I can't let my burdens get in the way of our goal.","Play effect: Cost: Thea is frustrated.","Effect: Remove all discord from Thea's party.","Burn effect: Cost: Spend 11 luxury.","Effect: Increase a faction disposition track by one."
-Thea,1,"..\images\THEA.png","Priorities","We cannot squander our time while the Empire is preparing for war.","Play effect: Requirement: Thea is at a Red Bank location.","Effect: +1 progress at this location."
+Thea,1,"..\images\characters\THEA.png","One Voice","We have one mind when it comes to the future of Red Bank.","Play effect: Requirement: Menas is at the same location. Cost: Spend 4 fortune.","A test that Menas is involved in is easy."
+Thea,1,"..\images\characters\THEA.png","The Conciliator","I can't let my burdens get in the way of our goal.","Play effect: Cost: Thea is frustrated.","Effect: Remove all discord from Thea's party.","Burn effect: Cost: Spend 11 luxury.","Effect: Increase a faction disposition track by one."
+Thea,1,"..\images\characters\THEA.png","Priorities","We cannot squander our time while the Empire is preparing for war.","Play effect: Requirement: Thea is at a Red Bank location.","Effect: +1 progress at this location."
 
-Thea,2,"..\images\THEA.png","Envoy","TBD","Play to remove a timer on an alliance mission."
+Thea,2,"..\images\characters\THEA.png","Envoy","TBD","Play to remove a timer on an alliance mission."
 
-Keel,1,"..\images\KEEL.png","Tough Love","Okay, Okay, I get it!","Requirement: Menas is involved in a test with Keel.","Effect: Reroll failures."
-Keel,1,"..\images\KEEL.png","Work Better Alone","You'll just slow me down...","Play effect: Requirement: No character is at any of the mission locations for the same mission Keel is on.","Effect: +2 progress on a task at this location."
-Keel,1,"..\images\KEEL.png","Master of Gadgets","You'll see why it's on fire shortly.","Play effect: Cost: Spend a secret.","Effect: Gain one success on a test.","Burn effect: Cost: Keel is wounded.","Effect: Discard a foe."
+Keel,1,"..\images\characters\KEEL.png","Tough Love","Okay, Okay, I get it!","Requirement: Menas is involved in a test with Keel.","Effect: Reroll failures."
+Keel,1,"..\images\characters\KEEL.png","Work Better Alone","You'll just slow me down...","Play effect: Requirement: No character is at any of the mission locations for the same mission Keel is on.","Effect: +2 progress on a task at this location."
+Keel,1,"..\images\characters\KEEL.png","Master of Gadgets","You'll see why it's on fire shortly.","Play effect: Cost: Spend a secret.","Effect: Gain one success on a test.","Burn effect: Cost: Keel is wounded.","Effect: Discard a foe."
 
-Keel,2,"..\images\KEEL.png","Alone in the Dark","","Play when Keel is alone at an Imperial location. Spend 4 secrets. Remove all apotheosis."
+Keel,2,"..\images\characters\KEEL.png","Alone in the Dark","","Play when Keel is alone at an Imperial location. Spend 4 secrets. Remove all apotheosis."
 
 Oniri,2,,"I'm Always in Pain","","+1 Mana.","Spend 4 Mana. Give Oniri a condition to remove a condition from someone else in the party.",""
 Oniri,2,,"Happier Alone","","+1 Mana.","Play when Oniri is alone at a Quest location. Oniri is Exhausted.",""

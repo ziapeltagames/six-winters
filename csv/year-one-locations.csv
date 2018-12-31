@@ -1,0 +1,33 @@
+mission,deck,ctriggers,@image,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
+
+"Threat","Year One",,,"Moonrider Outpost","Wilderness, Diplomacy","Raiders have begun fighting over disputed grain fields.","xxTRAP","xxACTION Task (Rapport).","xxIMMEDIATE Spend 8 progress, discard threat, and gain 2 xxFOOD dice.","xxIMMEDIATE Spend 13 progress, burn threat, and gain 3 xxFOOD dice.","xxTRAP Spend 3 xxFOOD or lower Sunrider disposition by one."
+"Threat","Year One",,,"Silk Roads","Wilderness, Conquest","If you aren't building relationships - you will be left behind.","xxSUN","xxACTION Spend 3 Timber to place one progress.","xxIMMEDIATE Spend 3 progress, burn threat, and gain 2 xxFOOD dice.","xxSUN Lose one xxLUXURY die."
+
+"Starting Location","Initial",,,"Trade Agreement","Spotlight, Red Bank",,,"xxACTION Spend two resource dice to initiate trade with a faction. Gain a number of new resource dice equal to the disposition of the faction. Dice gained and spent should match trade wheel for faction."
+"Starting Location","Initial",,,"Development Research","Spotlight, Red Bank",,,"xxACTION Purchase one available development. Shuffle into either player's asset draw pile."
+"Starting Location","Initial",,,"Amber Lodge","Spotlight, Red Bank, Urban",,,"xxACTION Task (Lore).","xxACTION Character spends 9 progress to remove one condition."
+"Starting Location","Initial",,,"Strategic Investments","Spotlight, Red Bank",,,"xxACTION Spend 5 xxFORTUNE to place one progress.","xxIMMEDIATE Spend 4 progress to increase any disposition track by one.","xxIMMEDIATE Spend 7 progress to increase any resource track by one."
+"Starting Location","Initial",,,"Resource Gathering","Spotlight, Red Bank",,,"xxACTION Test (Resource Track). Use value of resource track for test. For each success, gain one resource die of that type."
+"Starting Location","Initial",,,"Hilltop Square","Spotlight, Red Bank, Urban",,,"xxACTION Gain one Fortune."
+
+"North Oaks","Initial",,,"Gray River","Red Bank, Wilderness",,,"xxACTION Convert any number of xxTIMBER dice into the same number of xxFORTUNE dice."
+"North Oaks","Initial",,,"Mirror Woods","Red Bank, Conquest",,"xxSUN","xxACTION Task (Survival).","xxIMMEDIATE Spend 9 progress to increase xxTIMBER track by one.","xxSUN Test (Survival 2). Failure: All characters at this location are weary.",
+"North Oaks","Initial",,,"Exposed Overlook","Spotlight, Red Bank, Conquest",,"xxDOOM","xxACTION Task (Survival).","xxACTION Spend progress.","5: +1 xxTIMBER die 9: +2 xxTIMBER dice","11: +3 xxTIMBER dice 12: +4 xxTIMBER dice","xxDOOM A fire breaks out! Lose all progress on this location."
+"North Oaks","Initial",,,"Musty Tomb","Red Bank, Dungeon, Sorcery",,"xxTRAP","Effect: All characters at this location have +1 Lore.","xxTRAP Test (Lore 2). Failure: One character at this location is shaken."
+
+"Sightrock","Initial",,,"Lush Fields","Spotlight, Red Bank, Wilderness",,"xxSUN","xxACTION Spend 4 xxFORTUNE to gain one xxFOOD die.","xxSUN If a character is at this location, gain three xxFOOD dice."
+"Sightrock","Initial",,,"Salmon Run","Red Bank, Wilderness",,"xxFORCEFUL","xxACTION Task (Survival).","xxIMMEDIATE Spend 13 progress to raise xxFOOD track by one.","xxFORCEFUL One character at this location is weary."
+"Sightrock","Initial",,,"The Weird Rock","Red Bank, Dungeon, Sorcery",,"xxDOOM","Effect: All characters at this location have +1 Lore.","xxDOOM Test (Lore 1). Failure: One character at this location is shaken."
+
+"Sunriders","Initial",,,"Hogel Manor","Urban, Military",,,"xxACTION (Task Command).","xxIMMEDIATE Spend 10 progress to increase Sunrider Disposition track by one."
+"Sunriders","Initial",,,"Horsethief Meadows","Spotlight, Wilderness",,,"xxACTION Spend 3 xxFOOD to add progress equal to Tactics on any card with a Military tag."
+"Sunriders","Initial",,,"Song Bluff","Spotlight, Military",,"xxSUN","Effect: All characters increase their Tactics by Sunrider Disposition while at least one character is at this location.","xxSUN One character at this location is angry."
+
+"Gravewood","Initial",,,"Maplewood","Wilderness, Sorcery",,,"xxACTION Gain one xxTIMBER."
+"Gravewood","Initial",,,"Spinner Lakes","Wilderness, Conquest",,,"xxACTION Spend 8 xxLUXURY to gain one xxSECRETS."
+"Gravewood","Initial",,,"Green Haven","Spotlight, Stability",,"xxTRAP","Effect: All characters increase their Thievery by Gravewood disposition while at least one character is at this location.","xxTRAP One character at this location is angry."
+"Gravewood","Initial",,,"First Haven","Espionage",,,"xxACTION Spend 3 xxLUXURY to discard one threat."
+
+"Into the Cold","Initial",,,"The Rosy Freetrader","Imperial, Urban",,"xxTRAP","xxACTION (Task Thievery).","xxIMMEDIATE Spend 12 progress to gain one xxSECRETS.","xxTRAP (Test Disguise 2). Failure: One character at this location is weary."
+"Into the Cold","Initial",,,"Map Hall","Imperial, Urban",,,"xxACTION Move one Graycloak to any Imperial location."
+"Into the Cold","Initial",,,"House of Cloves","Imperial, Urban",,"xxDOOM","Effect: All characters at this location have +1 Disguise.","xxDOOM (Test Rapport 2). Failure: One character at this location is angry."
