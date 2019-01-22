@@ -2,6 +2,7 @@ mission,deck,ctriggers,@image,title,tags,text,rsummary,blocka,blockb,blockc,bloc
 
 "Threat","Year One",,,"Moonrider Outpost","Wilderness, Diplomacy","Raiders have begun fighting over disputed grain fields.","xxTRAP","xxACTION Task (Rapport).","xxIMMEDIATE Spend 8 progress, discard threat, and gain 2 xxFOOD dice.","xxIMMEDIATE Spend 13 progress, burn threat, and gain 3 xxFOOD dice.","xxTRAP Spend 3 xxFOOD or lower Sunrider disposition by one."
 "Threat","Year One",,,"Silk Roads","Wilderness, Conquest","If you aren't building relationships - you will be left behind.","xxSUN","xxACTION Spend 3 Timber to place one progress.","xxIMMEDIATE Spend 3 progress, burn threat, and gain 2 xxFOOD dice.","xxSUN Lose one xxLUXURY die."
+"Threat","Year One",,,"Amber Hand","Wilderness, Stability","The pact with Red Bank has not been forgotten by the Amber Hand.","xxFORCEFUL","xxACTION Test (Command 3). If passed, burn threat. If failed, gain 2 xxDISCORD.","xxFORCEFUL Flip a spotlight location card. Location is unusuable for remainder of the season."
 
 "Starting Location","Initial",,,"Trade Agreement","Spotlight, Red Bank",,,"xxACTION Spend two resource dice to initiate trade with a faction. Gain a number of new resource dice equal to the disposition of the faction. Dice gained and spent should match trade wheel for faction."
 "Starting Location","Initial",,,"Development Research","Spotlight, Red Bank",,,"xxACTION Purchase one available development. Shuffle into either player's asset draw pile."
