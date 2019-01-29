@@ -105,7 +105,7 @@ class SixWinters(gym.Env):
         # before the end
 #        if done == True:
 #            return self._get_obs(), self.reward, done, {}
-        return self._get_obs(), self.reward, done, {}
+        return self._get_obs(), self.current_reward + self.reward, done, {}
 
     def reset(self):
         """
