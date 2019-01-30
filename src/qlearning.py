@@ -100,8 +100,9 @@ def train_qlearn(param_space = {}):
     # For minimization problems, this must be lowered, so subtract from
     # some known very high score(this is higher than the avg max of 21)
     avg_r = np.average(rList)
-    cost = 25.0 - avg_r
-    print('Reward',' ',avg_r,' ',param_space)
+    avg_t = np.average(turnList)
+    cost = 25.0 - avg_t
+    print('Reward ',avg_r,' Turns ',avg_t,' ',param_space)
     return {'loss': cost, 'status': STATUS_OK}
 
 # Search the hyperparameter space using tpe
@@ -117,7 +118,7 @@ def bayes_optimization():
     
     trials = Trials()
     best_result = fmin(fn = train_qlearn, space = param_space, 
-                       algo = tpe.suggest, max_evals = 500, trials = trials)
+                       algo = tpe.suggest, max_evals = 100, trials = trials)
     
     f, ax = plt.subplots(1)
     xs = [t['misc']['vals']['y'] for t in trials.trials]
@@ -126,26 +127,26 @@ def bayes_optimization():
     # Undo the minimization
     ys = [25.0 - y for y in ys]
     ax.scatter(xs, ys, s=20, linewidth=0.01, alpha=0.75)
-    ax.set_title('$score$ $vs$ $y$ ', fontsize=18)
+    ax.set_title('$turns$ $vs$ $y$ ', fontsize=18)
     ax.set_xlabel('$y$', fontsize=16)
-    ax.set_ylabel('$score$', fontsize=16)   
+    ax.set_ylabel('$turns$', fontsize=16)   
     
     f, ax = plt.subplots(1)
     xs = [t['misc']['vals']['lr'] for t in trials.trials]
     ax.scatter(xs, ys, s=20, linewidth=0.01, alpha=0.75)
-    ax.set_title('$score$ $vs$ $lr$ ', fontsize=18)
+    ax.set_title('$turns$ $vs$ $lr$ ', fontsize=18)
     ax.set_xlabel('$lr$', fontsize=16)
     ax.set_xscale('log')
-    ax.set_ylabel('$score$', fontsize=16)
+    ax.set_ylabel('$turns$', fontsize=16)
 
     f, ax = plt.subplots(1)
     xs = [t['misc']['vals']['num_episodes'] for t in trials.trials]
     ax.scatter(xs, ys, s=20, linewidth=0.01, alpha=0.75)
-    ax.set_title('$score$ $vs$ $episodes$ ', fontsize=18)
+    ax.set_title('$turns$ $vs$ $episodes$ ', fontsize=18)
     ax.set_xlabel('$episodes$', fontsize=16)
-    ax.set_ylabel('$score$', fontsize=16)    
+    ax.set_ylabel('$turns$', fontsize=16)    
     
-    print("Best Score: ", np.max(ys)," ", best_result)
+    print("Most Turns: ", np.max(ys)," ", best_result)
     
 if __name__ == "__main__":
     bayes_optimization()
