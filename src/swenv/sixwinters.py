@@ -46,8 +46,7 @@ class SixWinters(gym.Env):
         self.observation_space = spaces.Tuple((
             spaces.Discrete(3),
             spaces.Discrete(3),
-            spaces.Discrete(10),
-            spaces.Discrete(20)))
+            spaces.Discrete(10)))
         self.seed()
 
         # Start the first game
@@ -103,8 +102,8 @@ class SixWinters(gym.Env):
                 
         # Doesn't seem to work with many algorithms if there's a reward
         # before the end
-#        if done == True:
-#            return self._get_obs(), self.reward, done, {}
+        if done == True and self.reward <= 0:
+            return self._get_obs(), -1, done, {}
         return self._get_obs(), self.current_reward + self.reward, done, {}
 
     def reset(self):
@@ -126,7 +125,7 @@ class SixWinters(gym.Env):
         return self._get_obs()
         
     def _get_obs(self):
-        return (self.stage, self.current_timers, self.total_timers, self.current_reward)
+        return (self.stage, self.current_timers, self.total_timers)
     
 if __name__ == "__main__":
     # Test out a random "push your luck" strategy
