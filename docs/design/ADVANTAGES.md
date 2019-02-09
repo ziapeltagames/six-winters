@@ -24,6 +24,7 @@ Advantages that are more transient, such as bonuses to a certain kind of test, a
 * Rearrange Progress Deck
 * Cheaper Development Costs
 * Adding Progress Remotely (Not At Location)
+* Bank Progress
 * Search for Encounter Card
 * Search for Progress Card
 * Improving Skills
@@ -31,7 +32,7 @@ Advantages that are more transient, such as bonuses to a certain kind of test, a
 * Removing Conditions
 * Secrets
 * Burning Threats
-* Removing Timers
+* Canceling Timers
 * Removing Discord
 * Resource Track Increase
 * Disposition Track Increase
