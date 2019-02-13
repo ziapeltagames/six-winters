@@ -1,67 +1,62 @@
-category,level,title,food,timber,ore,mana,luxury,effecta,effectb,effectc,summary
+category,level,chance,title,food,timber,ore,mana,luxury,effecta,effectb,effectc,summary
 
-"Conquest",1,"Farbread",0,8,4,0,0,"Gain 2 xxFOOD dice. Roll dice and add to pool. Then draw another asset."
-"Conquest",2,"Gregor's Mill",0,16,0,1,0,"Gain 2 xxTIMBER dice. Roll dice and add to pool. Then draw another asset."
-"Conquest",3,"Refined Alloys",0,2,11,4,0,"Gain 2 xxORE dice. Roll dice and add to pool. Then draw another asset."
-"Conquest",4,"Nyana's Handbook",0,13,12,6,2,"Play on character in party. Character has +1 Survival for the rest of the season.",,,"+1 SURVIVAL"
-"Conquest",5,"All Weather Gear",12,16,10,6,2,"Spend 7 xxFOOD during an Exploration mission to rerrange the top four progress cards in any order."
-"Conquest",6,"Feast Day",0,18,25,8,0,"Gain 4 xxFOOD dice. Roll dice and add to pool."
-"Conquest",7,"Wayhouses",5,28,18,10,0,"Gain 4 xxTIMBER dice. Roll dice and add to pool."
-"Conquest",8,"Willowrock",15,36,0,0,0,"Gain 4 xxORE dice. Roll dice and add to pool."
-"Conquest",9,"Cartography",12,34,18,7,0,"Play on character in party. Character has +2 Survival for the rest of the season.",,,"+2 SURVIVAL"
-"Conquest",10,"Green Leaf",0,41,24,18,5,"Spend 16 xxFOOD to clear all discord from one pool."
-
-"Diplomacy",1,"Study Abroad",0,0,0,0,4,"Spend 1 xxLUXURY die to reroll any resource dice of one type."
-"Diplomacy",2,"Political Bribes",9,0,0,0,5,"Spend 3 xxLUXURY to play on character in party. Character has +1 Rapport for the rest of the season.",,"+1 RAPPORT"
-"Diplomacy",3,"Distant Favors",1,0,0,3,7,"Cost: 1 Luxury die.","Effect: Reroll any failed dice on one test, including any Fortune used.",,
-"Diplomacy",4,"Salts and Spices",12,0,0,0,12,"Cost: 6 Luxury.","Effect: Gain resources from one faction equal to Disposition track. Roll dice and add to pool.",,
-"Diplomacy",5,"Institutes of Knowledge",10,4,3,6,6,"Cost: 4 Luxury. Add two progress to any task at an Urban location.","Gain +4 Luxury. Roll dice and add to pool.",,
-"Diplomacy",6,"Raiments of Starsilk",8,0,0,0,16,"Cost: 4 Luxury. Play on character. Character has +2 Rapport for the rest of the season.","Gain +4 Luxury. Roll dice and add to pool.","+2 RAPPORT",
-"Diplomacy",7,"Diverse Population",0,0,0,10,18,"Cost: 5 Luxury. Add three progress to any task at an Urban location.","Gain +4 Luxury. Roll dice and add to pool.",,
-"Diplomacy",8,"Mercantile Empire",22,0,0,0,22,"Cost: 5 Luxury. During an Alliance mission, rerrange the top three progress cards in any order.","Gain +4 Luxury. Roll dice and add to pool.",,
-"Diplomacy",9,"Stronger Together",14,0,0,12,26,"Cost: 5 Luxury.ne Diplomat obstacle.","Gain +4 Luxury. Roll dice and add to pool.",,
-"Diplomacy",10,"Factions United",18,0,0,16,30,"Cost: 6 Luxury. Add four progress to any task at an Urban location.","(Test) Succeed at any test using Command or Rapport.",,
-
-"Sorcery",1,"Undari's Libram",0,8,0,4,0,"Spend 1 xxMANA die and make one character in party weary to add one success to any test."
-"Sorcery",2,"Philter of Arankh",0,0,0,8,3,"Spend 3 xxMANA and play on character in party. Character has +1 Lore for the rest of the season.",,"+1 LORE"
-"Sorcery",3,"Mana Forge",0,0,0,9,3,"Gain 2 xxMANA dice. Roll dice and add to pool. The draw another asset."
-"Sorcery",4,"Focused Channeling",0,0,0,9,7,"Cost: One character in party is exhausted.","Cost: 2 Mana dice.","Effect: Add two successes to any test.",
-"Sorcery",5,"Order of the Blue Robes",0,0,0,16,0,"Cost: 5 Mana. Play on character. Character has +2 Lore for the rest of the season.","Gain +4 Mana. Roll dice and add to pool.","+2 LORE",
-"Sorcery",6,"Pearl of the North",0,0,18,18,0,"(Test). Become Exhausted and Cost: up to three Mana dice to add the same number successes to any test.","Draw top Threat card.",,
-"Sorcery",7,"College of Dweomercraft",0,0,0,21,6,"Gain +4 Mana. Roll dice and add to pool.","Add three progress to a Sorcery task.",,
-"Sorcery",8,"Psychic Shield",0,19,6,22,0,"Cost: 8 Mana to draw four Assets.","Draw top Threat card.",,
-"Sorcery",9,"Second Sight",0,0,0,26,0,"Cost: 9 Mana to rearrange all of the Threat cards in any order.","Gain +5 Mana. Roll dice and add to pool.",,
-"Sorcery",10,"Corporeal Seal",0,0,0,29,0,"Become Shattered and Cost: 12 Mana tone Threat.","Gain +6 Mana. Roll dice and add to pool.",,
-
-"Stability",1,"A Brief Rest",14,0,0,0,0,"Spend 7 xxFOOD to clear three discord from one pool."
-"Stability",2,"Feast House",14,7,0,0,0,"Spend 8 xxFOOD to remove weary condition from one hero."
-"Stability",3,"Horse and Cart",9,7,9,0,0,"Spend 9 xxFOOD to move one character to any location."
-"Stability",4,"Arts and Culture",17,15,13,0,0,"Gain 1 xxLUXURY die. Roll dice and add to pool. Then each player draws another asset."
-"Stability",5,"Traveling Play",22,10,6,0,0,"Move one character to any Imperial location.","Gain +4 Fortune. Roll dice and add to pool."
-"Stability",6,"Season of Plenty",27,0,0,0,0,"Gain +3 Fortune. Roll dice and add to pool.","Gain +4 Fortune. Roll dice and add to pool."
-"Stability",7,"High Yield Investments",29,0,26,0,4,"Examine top three Encounter cards and place two on the bottom of the deck in any order.","Gain +5 Fortune. Roll dice and add to pool."
-"Stability",8,"Friends Everywhere",30,15,14,0,0,"Cost: 3 Fortune dice. Draw three Assets.","Gain +5 Fortune. Roll dice and add to pool."
-"Stability",9,"Midsummer Party",34,23,18,0,0,"Cost: 4 Fortune dice. Draw four Assets.","Gain +6 Fortune. Roll dice and add to pool."
-"Stability",10,"Bread and Circuses",42,0,0,0,0,"Cost: 9 Food. Increase one faction's Disposition track by one.","Gain +6 Fortune. Roll dice and add to pool."
-
-"Military",1,"Survival Training",6,0,9,0,0,"Spend 4 xxORE to play on character. Character has +1 Survival for the rest of the season.",,,"+1 SURVIVAL"
-"Military",2,"War College",0,3,11,0,0,"Spend 5 xxORE to play on character. Character has +1 Tactics for the rest of the season.",,,"+1 TACTICS"
-"Military",3,"Noble Crest",5,10,15,0,0,"Spend 6 xxORE to play on character. Character has +1 Command for the rest of the season.",,,"+1 COMMAND"
-"Military",4,"Amber Blades",14,9,16,0,0,"Spend 7 xxORE to play on character. Character has +1 Combat for the rest of the season.",,,"+1 COMBAT"
-"Military",5,"Riddle of Steel",15,5,25,0,0,"Spend 8 xxORE to play on character. 6s count as two successes on all Combat tests."
-"Military",6,"Chain of Command",0,0,30,0,0,"Spend 9 xxORE to play on character. Character has +2 Tactics for the rest of the season.","Add two progress to any Military task.","+2 TACTICS"
-"Military",7,"Tangleweed",19,10,27,0,0,"Spend 10 xxORE.","Effect: Play on character. Character has +2 Survival for the rest of the season.","Add two progress to any Military task.","+2 SURVIVAL"
-"Military",8,"Amber Hand Alliance",0,21,31,0,0,"Spend 11 xxORE. Rearrange Threat deck in any order.","Add two progress to any Military task."
-"Military",9,"Veteran Leadership",32,18,35,0,0,"Spend 12 xxORE. Play on character. Character has +2 Command for the rest of the season.","Add two progress to any Military task.","+2 COMMAND"
-"Military",10,"Artificer",28,19,40,0,0,"Spend 13 xxORE. Play on character. Character has +2 Combat for the rest of the season.","Add two progress to any Military task.","+2 COMBAT"
-
-"Espionage",1,"Bribed Officials",0,0,0,0,4,"Spend 2 xxSECRETS to add 5 progress at any Imperial location."
-"Espionage",2,"Disguise Kit",0,0,6,4,4,"Spend 1 xxLUXURY to play on character. Character has +1 Disguise for the rest of the season.",,,"+1 DISGUISE"
-"Espionage",3,"Graystone Lockpicks",5,0,6,3,4,"Spend 3 xxMANA to play on character. Character has +1 Thievery for the rest of the season.",,,"+1 THIEVERY"
-"Espionage",4,"Deep Cover",4,3,4,3,2,"Spend 4 xxLUXURY to play on character. Character has +2 Disguise for the rest of the season.",,,"+2 DISGUISE"
-"Espionage",5,"Call to Akilah",9,6,7,3,0,"During an Infiltration mission, rerrange the top three Progress cards in any order.","Gain +4 Luxury. Roll dice and add to pool."
-"Espionage",6,"Spy Network",13,10,13,10,13,"Cost: 6 Luxury. Add three progress to a task at an Imperial location.","Gain +4 Luxury. Roll dice and add to pool."
-"Espionage",7,"Safehouse",14,10,15,10,14,"Cost: 6 Luxury. Draw Threat card, then shuffle already drawn Threat card back in deck.","Gain +4 Luxury. Roll dice and add to pool."
-"Espionage",8,"Fuligin Cloaks",0,0,13,6,16,"Cost: 6 Luxury. Play on character. Character has +2 Thievery for the rest of the season.","Gain +4 Luxury. Roll dice and add to pool.","+2 THIEVERY",
-"Espionage",9,"Imperial Contacts",18,19,20,12,14,"(Test) Cost: one luxury dice. Reroll all failed dice on any test.","Draw an asset, shuffle asset back into draw pile."
-"Espionage",10,"Funding the Resistance",22,18,26,19,21,"Cost: 12 Luxury. Add two Secrets.","Gain +4 Luxury. Roll dice and add to pool."
+"Conquest",1,"+0","Farbread",0,8,4,0,0,"Gain 1 xxFOOD die. Roll die and add to pool."
+"Conquest",2,"+0","Gregor's Mill",0,16,0,1,0,"Gain 1 xxTIMBER die. Roll die and add to pool."
+"Conquest",3,"+0","Refined Alloys",0,2,11,4,0,"Gain 1 xxORE die. Roll die and add to pool."
+"Conquest",4,"+2","Nyana's Handbook",0,13,12,6,2,"Play on character in party. Character has +1 Survival for the rest of the season.",,,"+1 SURVIVAL"
+"Conquest",5,"+0","All Weather Gear",12,16,10,6,2,"Spend 7 xxFOOD during an Exploration mission to rerrange the top four encounter cards in any order."
+"Conquest",6,"+0","Feast Day",0,18,25,8,0,"Gain 1 xxFOOD die. Roll die and add to pool."
+"Conquest",7,"+0","Wayhouses",5,28,18,10,0,"Gain 1 xxTIMBER die. Roll die and add to pool."
+"Conquest",8,"+0","Willowrock",15,36,0,0,0,"Gain 1 xxORE die. Roll die and add to pool."
+"Conquest",9,"+2","Cartography",12,34,18,7,0,"Play on character in party. Character has +1 Survival for the rest of the season.",,,"+1 SURVIVAL"
+"Conquest",10,"+0","Green Leaf",0,41,24,18,5,"Spend 16 xxFOOD to clear all discord from one pool."
+"Diplomacy",1,"+0","Study Abroad",0,0,0,0,4,"Spend 1 xxLUXURY to reroll any resource dice of one type."
+"Diplomacy",2,"+2","Political Bribes",9,0,0,0,5,"Spend 3 xxLUXURY to play on character in party. Character has +1 Rapport for the rest of the season.",,,"+1 RAPPORT"
+"Diplomacy",3,"+0","Distant Favors",1,0,0,3,7,"Spend 5 xxLUXURY to add one success on any test while at an urban location."
+"Diplomacy",4,"+0","Salts and Spices",12,0,0,0,12,"Spend 6 xxLUXURY to gain resources from one faction equal to Disposition track. Roll dice and add to pool."
+"Diplomacy",5,"+0","Institutes of Knowledge",10,4,3,6,6,"Spend 7 xxLUXURY to add two progress to any task at an urban location."
+"Diplomacy",6,"+2","Raiments of Starsilk",8,0,0,0,16,"Spend 8 xxLUXURY to play on character in party. Character has +1 Rapport for the rest of the season.",,,"+1 RAPPORT"
+"Diplomacy",7,"+0","Diverse Population",0,0,0,10,18,"Gain 1 xxLUXURY die. Roll die and add to pool."
+"Diplomacy",8,"+0","Mercantile Empire",22,0,0,0,22,"Spend 9 xxLUXURY during an Alliance mission to rerrange the top three encounter cards in any order."
+"Diplomacy",9,"+0","Stronger Together",14,0,0,12,26,"Gain 1 xxLUXURY die. Roll die and add to pool."
+"Diplomacy",10,"+0","Factions United",18,0,0,16,30,"Spend 7 xxLUXURY to add two progress to any task at an urban location."
+"Sorcery",1,"+0","Undari's Libram",0,8,0,4,0,"Spend 1 xxMANA and make character weary to add one success to any test."
+"Sorcery",2,"+2","Philter of Arankh",0,0,0,8,3,"Spend 3 xxMANA and play on character in party. Character has +1 Lore for the rest of the season.",,,"+1 LORE"
+"Sorcery",3,"+0","Mana Forge",0,0,0,9,3,"Gain 1 xxMANA die. Roll die and add to pool."
+"Sorcery",4,"+0","Focused Channeling",0,0,0,9,7,"Spend 6 xxMANA and make character weary to add one succes to any test."
+"Sorcery",5,"+2","Order of the Blue Robes",0,0,0,16,0,"Spend 7 xxMANA and play on character. Character has +1 Lore for the rest of the season.",,,"+1 LORE"
+"Sorcery",6,"+0","Pearl of the North",0,0,18,18,0,"Spend 8 xxMANA and make character weary to add one succes to any test."
+"Sorcery",7,"+0","College of Dweomercraft",0,0,0,21,6,"Gain 1 xxMANA die. Roll die and add to pool."
+"Sorcery",8,"+0","Psychic Shield",0,19,6,22,0,"Spend 9 xxMANA to draw four assets, choosing one to keep. Discard the rest."
+"Sorcery",9,"+0","Second Sight",0,0,0,26,0,"Spend 10 xxMANA to rearrange the threat deck in any order."
+"Sorcery",10,"+0","Corporeal Seal",0,0,0,29,0,"Spend 12 xxMANA and become shattered to burn any threat in play."
+"Stability",1,"+0","A Brief Rest",14,0,0,0,0,"Spend 7 xxFOOD to clear three discord from one pool."
+"Stability",2,"+0","Feast House",14,7,0,0,0,"Spend 8 xxFOOD to remove weary condition from one hero."
+"Stability",3,"+0","Horse and Cart",9,7,9,0,0,"Spend 9 xxFOOD to move one character to any location."
+"Stability",4,"+0","Arts and Culture",17,15,13,0,0,"Gain 1 xxFORTUNE die. Roll die and add to pool."
+"Stability",5,"+0","Traveling Play",22,10,6,0,0,"Move one character to any Imperial location."
+"Stability",6,"+0","Season of Plenty",27,0,0,0,0,"Gain 1 xxFORTUNE die. Roll die and add to pool."
+"Stability",7,"+0","High Yield Investments",29,0,26,0,4,"Examine top three encounter cards and place two on the bottom of the deck in any order."
+"Stability",8,"+0","Friends Everywhere",30,15,14,0,0,"Spend 10 xxFORTUNE to examine the top asset card."
+"Stability",9,"+0","Midsummer Party",34,23,18,0,0,"Spend 12 xxFORTUNE to examine the top asset card."
+"Stability",10,"+0","Bread and Circuses",42,0,0,0,0,"Spend 18 xxFOOD to increase on faction's disposition track by one."
+"Military",1,"+2","Survival Training",6,0,9,0,0,"Spend 4 xxORE to play on character. Character has +1 Survival for the rest of the season.",,,"+1 SURVIVAL"
+"Military",2,"+2","War College",0,3,11,0,0,"Spend 5 xxORE to play on character. Character has +1 Tactics for the rest of the season.",,,"+1 TACTICS"
+"Military",3,"+2","Noble Crest",5,10,15,0,0,"Spend 6 xxORE to play on character. Character has +1 Command for the rest of the season.",,,"+1 COMMAND"
+"Military",4,"+2","Amber Blades",14,9,16,0,0,"Spend 7 xxORE to play on character. Character has +1 Combat for the rest of the season.",,,"+1 COMBAT"
+"Military",5,"+0","Riddle of Steel",15,5,25,0,0,"Spend 13 xxORE to discard one foe (obstacle) in play."
+"Military",6,"+2","Chain of Command",0,0,30,0,0,"Spend 14 xxORE to play on character. Character has +1 Tactics for the rest of the season.",,,"+1 TACTICS"
+"Military",7,"+2","Tangleweed",19,10,27,0,0,"Spend 14 xxORE to play on character. Character has +1 Survival for the rest of the season.",,,"+1 SURVIVAL"
+"Military",8,"+0","Amber Hand Alliance",0,21,31,0,0,"Spend 14 xxORE to rearrange the threat deck in any order."
+"Military",9,"+2","Veteran Leadership",32,18,35,0,0,"Spend 15 xxORE to play on character. Character has +1 Command for the rest of the season.",,,"+2 COMMAND"
+"Military",10,"+2","Artificer",28,19,40,0,0,"Spend 15 xxORE to play on character. Character has +1 Combat for the rest of the season.",,,"+1 COMBAT"
+"Espionage",1,"+0","Bribed Officials",0,0,0,0,4,"Spend 2 xxSECRETS to add 5 progress at any Imperial location."
+"Espionage",2,"+2","Disguise Kit",0,0,6,4,4,"Spend 1 xxLUXURY to play on character. Character has +1 Disguise for the rest of the season.",,,"+1 DISGUISE"
+"Espionage",3,"+2","Graystone Lockpicks",5,0,6,3,4,"Spend 3 xxMANA to play on character. Character has +1 Thievery for the rest of the season.",,,"+1 THIEVERY"
+"Espionage",4,"+2","Deep Cover",4,3,4,3,2,"Spend 4 xxLUXURY to play on character. Character has +1 Disguise for the rest of the season.",,,"+1 DISGUISE"
+"Espionage",5,"+0","Call to Akilah",9,6,7,3,0,"During an Infiltration mission, rerrange the top three encounter cards in any order."
+"Espionage",6,"+0","Spy Network",13,10,13,10,13,"Spend 6 xxLUXURY to add two progress to a task at an Imperial location."
+"Espionage",7,"+0","Safehouse",14,10,15,10,14,"Spend 7 xxLUXURY to draw a threat card and optionally shuffle already drawn threat card back in threat deck."
+"Espionage",8,"+2","Fuligin Cloaks",0,0,13,6,16,"Spend 8 xxLUXURY to play on character. Character has +1 Thievery for the rest of the season.",,,"+1 THIEVERY"
+"Espionage",9,"+0","Imperial Contacts",18,19,20,12,14,"Spend 8 xxLUXURY to add one success while at an Imperial location."
+"Espionage",10,"+0","Funding the Resistance",22,18,26,19,21,"Spend 16 xxLUXRY to increase the xxSECRETS track by one."
