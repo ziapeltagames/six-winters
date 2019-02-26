@@ -64,3 +64,7 @@ Viator,3,0,"TBD",,"","",""
 Lucia,4,0,"Secret Police",,,,
 Lucia,4,0,"Hand of the Autarch",,,,
 Lucia,4,0,"Bitter Truth",,,,
+
+## Ideas
+
+Thea: Card that reinforces she does better when focusing on one thing at a time? Oniri maybe has one that reflects handling multiple things at once?

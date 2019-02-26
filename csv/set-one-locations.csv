@@ -1,0 +1,49 @@
+mission,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
+
+"Threat","Moonrider Outpost","Wilderness, Diplomacy","Raiders have begun fighting over disputed grain fields.","xxTRAP","xxACTION Task (Rapport).","xxIMMEDIATE Spend 8 progress, discard threat, and gain 2 xxFOOD dice.","xxIMMEDIATE Spend 13 progress, burn threat, and gain 3 xxFOOD dice.","xxTRAP Spend 3 xxFOOD or lower Sunrider disposition by one."
+"Threat","Silk Roads","Wilderness, Conquest","If you aren't building relationships - you will be left behind.","xxSUN","xxACTION Spend 3 Timber to place one progress.","xxIMMEDIATE Spend 3 progress, burn threat, and gain 2 xxFOOD dice.","xxSUN Lose one xxLUXURY die."
+"Threat","Amber Hand","Wilderness, Stability","The pact with Red Bank has not been forgotten by the Amber Hand.","xxFORCEFUL","xxACTION Test (Command 3). If passed, burn threat. If failed, gain 2 xxDISCORD.","xxFORCEFUL Flip a spotlight location card. Location is unusuable for remainder of the season."
+
+"Starting Location","Trade Agreement","Spotlight, Red Bank",,,"xxACTION Spend two resource dice to initiate trade with a faction. Gain a number of new resource dice equal to the disposition of the faction. Dice gained and spent should match trade wheel for faction."
+"Starting Location","Development Research","Spotlight, Red Bank",,,"xxACTION Purchase one available development. Shuffle into either player's asset draw pile."
+"Starting Location","Amber Lodge","Spotlight, Red Bank, Urban",,,"xxACTION Task (Lore).","xxACTION Character spends 9 progress to remove one condition."
+"Starting Location","Strategic Investments","Spotlight, Red Bank",,,"xxACTION Spend 5 xxFORTUNE to place one progress.","xxIMMEDIATE Spend 4 progress to increase any disposition track by one.","xxIMMEDIATE Spend 7 progress to increase any resource track by one."
+"Starting Location","Resource Gathering","Spotlight, Red Bank",,,"xxACTION Test (Resource Track). Use value of resource track for test. For each success, gain one resource die of that type."
+
+"North Oaks","Gray River","Red Bank, Wilderness",,,"xxACTION Convert any number of xxTIMBER dice into the same number of xxFORTUNE dice."
+"North Oaks","Mirror Woods","Red Bank, Conquest",,"xxSUN","xxSUN Test (Survival 2). Failure: All characters at this location are weary.",
+"North Oaks","Exposed Overlook","Spotlight, Red Bank, Conquest",,,"xxACTION Gain one xxTIMBER die."
+"North Oaks","Musty Tomb","Red Bank, Dungeon, Sorcery",,"xxTRAP","All characters at this location have +1 Lore.","xxTRAP One character at this location is shaken."
+
+"Sightrock","Lush Fields","Spotlight, Red Bank, Wilderness",,"xxSUN","xxACTION Spend 4 xxFORTUNE to gain one xxFOOD die.","xxSUN If a character is at this location, gain three xxFOOD dice."
+"Sightrock","Salmon Run","Red Bank, Wilderness",,"xxFORCEFUL","xxACTION Task (Survival).","xxIMMEDIATE Spend 13 progress to raise xxFOOD track by one.","xxFORCEFUL One character at this location is weary."
+"Sightrock","The Weird Rock","Red Bank, Dungeon, Sorcery",,"xxDOOM","Effect: All characters at this location have +1 Lore.","xxDOOM Test (Lore 1). Failure: One character at this location is shaken."
+
+"Sunriders","Hogel Manor","Urban, Military",,,"xxACTION (Task Command).","xxIMMEDIATE Spend 10 progress to increase Sunrider Disposition track by one."
+"Sunriders","Horsethief Meadows","Spotlight, Wilderness",,,"xxACTION Spend 3 xxFOOD to add progress equal to Tactics on any card with a Military tag."
+"Sunriders","Song Bluff","Spotlight, Military",,"xxSUN","Effect: All characters increase their Tactics by Sunrider Disposition while at least one character is at this location.","xxSUN One character at this location is angry."
+
+"Gravewood","Maplewood","Wilderness, Sorcery",,,"xxACTION Gain one xxTIMBER."
+"Gravewood","Spinner Lakes","Wilderness, Conquest",,,"xxACTION Spend 8 xxLUXURY to gain one xxSECRETS."
+"Gravewood","Green Haven","Spotlight, Stability",,"xxTRAP","Effect: All characters increase their Thievery by Gravewood disposition while at least one character is at this location.","xxTRAP One character at this location is angry."
+"Gravewood","First Haven","Espionage",,,"xxACTION Spend 3 xxLUXURY to discard one threat."
+
+"Into the Cold","The Rosy Freetrader","Imperial, Urban",,"xxTRAP","xxTRAP One character at this location is weary."
+"Into the Cold","Map Hall","Imperial, Urban",,,"xxACTION Move one Graycloak to the Rosy Freetrader."
+"Into the Cold","House of Cloves","Imperial, Urban",,"xxDOOM","Effect: All characters at this location have +1 Disguise.","xxDOOM (Test Rapport 2). Failure: One character at this location is angry."
+"Into the Cold","Guild of Secrets","Imperial",,,"All obstacles at this location have +2 xxDISCORD."
+
+"Sowing Rebellion","Dowling Farm","Imperial, Conquest","Nexus of Imperial discontent.",,"xxACTION Spend 5 xxLUXURY to gain one xxSECRETS."
+"Sowing Rebellion","The Salty Freetrader","Spotlight, Imperial","Where everybody - every single body - knows your name.","xxTRAP","xxTRAP One character at this location is weary."
+"Sowing Rebellion","Whitehold","Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.",,"All guards (obstacles) at this location have +1 xxDISCORD."
+"Sowing Rebellion","Under Whitehold","Imperial, Espionage","The caverns below Whitehold have both riches and traps.","xxTRAP","xxACTION Take two xxDISCORD to gain one xxLUXURY die.","xxTRAP One character at this location is wounded."
+
+"Tragedy and Conspiracy","Sparrow Keep","Red Bank, Urban","Text","Damage?"
+"Tragedy and Conspiracy","Outer Fernbrake","Red Bank, Urban","Text","TBD"
+"Tragedy and Conspiracy","House of Cloves","Red Bank, Urban","Text","TBD"
+"Tragedy and Conspiracy","Graywash Spring","Red Bank, Urban","Text","TBD"
+
+"Whispers at Lily Manor","Goldspike","Urban","Text","TBD"
+"Whispers at Lily Manor","Hall of Brass","Urban","Text","TBD"
+"Whispers at Lily Manor","Beetle Burrough","Urban","Text","TBD"
+"Whispers at Lily Manor","Wrenhouse","Urban","Text","TBD"

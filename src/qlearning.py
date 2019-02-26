@@ -26,12 +26,14 @@ def qactions(qtable, cstate):
 def qaction(qtable, cstate, caction):
     return qactions(qtable, cstate)[caction]
 
-# Run through one game, returning number of turns
+# Run through one game, returning number of turns, updates the Q
+# table using standard Q learning algorithm
 def play_game(qt, env, lr, y, training = True, logging = False):
     if logging:
         print("(Stage, Current Timers, Total Timers, Current Reward)")
         print("[Bank Progress / Draw] --> Action (0 = Bank, 1 = Draw) Reward")        
 
+    # Reset the game state
     s = env.reset()
     turns = 0
     reward = 0
@@ -46,7 +48,8 @@ def play_game(qt, env, lr, y, training = True, logging = False):
             print(s, qactions(qt, s),"-->",act,reward) 
         s1, reward, done, _ = env.step(act)
         if training:
-            #Update Q-Table with new knowledge
+            
+            #Update Q table with new knowledge
             sa, sb, sc = indices(s)
             qt[sa, sb, sc, act] = qaction(qt, s, act) + lr*(reward + y*np.max(qactions(qt, s1)) - qaction(qt, s, act))
         
@@ -57,28 +60,34 @@ def play_game(qt, env, lr, y, training = True, logging = False):
             
     return turns, reward, qt
 
+# Train a simple Q learning algorithm to play Six Winters
 def train_qlearn(param_space = {}):
     
-    #Initialize table with all zeros
+    # Initialize Q table with all zeros
     Q = np.zeros([env.observation_space.spaces[0].n,
                   env.observation_space.spaces[1].n,
                   env.observation_space.spaces[2].n,
                   env.action_space.n])
     
-    # Set learning parameters
+    # lr is the learning rate, the speed at which the Q table is updated
     lr = .00001
     if 'lr' in param_space:
         lr = param_space['lr']
     
+    # y is the amount to consider future rewards, the higher it is, the more
+    # the future rewards are weighed against current rewards
     y = .9
     if 'y' in param_space:
         y = param_space['y']
         
+    # Number of episodes to conduct training, is there a way to check for
+    # convergence?
     num_episodes = 100000
     if 'num_episodes' in param_space:
         num_episodes = int(param_space['num_episodes'])
     
-    # Train the network
+    # Play a game, returning the updated Q table, along with the number
+    # of turns the game lasted, and the total reward
     for i in range(num_episodes):
         turns, r, Q = play_game(Q, env, lr, y, training = True)
     
@@ -89,16 +98,10 @@ def train_qlearn(param_space = {}):
         turns, r, Q = play_game(Q, env, lr, y, training = False)
         turnList.append(turns)
         rList.append(r)
-            
-    # print("lr ",lr," y ",y," episodes ",num_episodes)
-    # print("Testing score: " + str(np.average(rList)))
-    # print("Testing turns: " + str(np.average(turnList)))
-    
-    # Log a single playthrough
-    # play_game(Q, env, lr, y, training = False, logging = True)
     
     # For minimization problems, this must be lowered, so subtract from
-    # some known very high score(this is higher than the avg max of 21)
+    # some known very high score (much higher than the avg max of 21),
+    # this allows for bayesian hyper optimization
     avg_r = np.average(rList)
     avg_t = np.average(turnList)
     cost = 25.0 - avg_t
@@ -131,6 +134,7 @@ def bayes_optimization():
     ax.set_xlabel('$y$', fontsize=16)
     ax.set_ylabel('$turns$', fontsize=16)   
     
+    # Plot correlations
     f, ax = plt.subplots(1)
     xs = [t['misc']['vals']['lr'] for t in trials.trials]
     ax.scatter(xs, ys, s=20, linewidth=0.01, alpha=0.75)

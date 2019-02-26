@@ -4,7 +4,7 @@ This document illustrates the different types of benefits players can gain in _S
 
 This list of advantages is sorted *roughly* in order of benefit, with the best advantages at the end of the list. Gaining fortune is a very common benefit. Fortune fuels other abilities, particularly personality and developments, and is one of the core economies of the game.
 
-Advantages that are more transient, such as bonuses to a certain kind of test, are naturally not as useful as permanent changes, such as improving a character's skill. Some advantages, such as lowering apotheosis or removing discord, should be very rare, since those are both key timers that help push the game forward and help to build tension. In fact, increasing discord or apotheosis as a play cost for an advantage can create some tough choices for players.
+Advantages that are more transient, such as bonuses to a certain kind of test, are naturally not as useful as permanent changes, such as improving a character's skill. Some advantages, such as lowering apotheosis or removing discord, should be more rare, since those are both key timers that help push the game forward and help to build tension. In fact, increasing discord or apotheosis as a play cost for an advantage can create some tough choices for players.
 
 * Fortune Dice
 * Extra Test Dice
@@ -15,6 +15,7 @@ Advantages that are more transient, such as bonuses to a certain kind of test, a
 * Resource Dice Rerolls
 * Better Defense
 * Extra Movement
+* Trading Resources
 * Moving Obstacles
 * Draw Asset Card(s)
 * Rearrange Encounter Deck

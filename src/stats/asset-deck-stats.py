@@ -51,7 +51,7 @@ def build_deck():
     
 epochs = 100000
 deck_size = len(build_deck())
-single_vals = [2, 3]
+single_vals = [3, 3]
 group_val = np.sum(single_vals)
 
 single_draw = []
