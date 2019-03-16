@@ -19,9 +19,10 @@ mission,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
 "Doom Under Sightrock","Salmon Run","Red Bank, Wilderness",,"xxFORCEFUL","xxACTION Task (Survival).","xxCIRCLE Spend 13 progress to raise xxFOOD track by one.","xxFORCEFUL One character at this location is weary."
 "Doom Under Sightrock","The Weird Rock","Red Bank, Dungeon, Sorcery",,"xxMOON","Effect: All characters at this location have +1 Lore.","xxMOON One character at this location is shaken."
 
-"Sunriders","Hogel Manor","Urban, Military",,,"xxACTION (Task Command).","xxCIRCLE Spend 10 progress to increase Sunrider Disposition track by one."
-"Sunriders","Horsethief Meadows","Spotlight, Wilderness",,,"xxACTION Spend 3 xxFOOD to add progress equal to Tactics on any card with a Military tag."
-"Sunriders","Song Bluff","Spotlight, Military",,"xxSUN","Effect: All characters increase their Tactics by Sunrider Disposition while at least one character is at this location.","xxSUN One character at this location is angry."
+"The Sunriders","Hogel Manor","Urban, Military",,,"xxACTION Spend 10 xxPROGRESS to increase Sunrider Disposition track by one."
+"The Sunriders","Horsethief Meadows","Spotlight, Wilderness",,,"xxACTION Spend 1 xxFORTUNE to add xxPROGRESS equal to Sunrider Disposition while current mission path is at military location."
+"The Sunriders","Song Bluff","Wilderness, Military",,"xxSUN","xxSUN One character at this location takes a xxPSYCHE condition."
+"The Sunrdiers","Spirit Lake","Wilderness",,,"xxACTION Spend 1 xxFORTUNE to gain one xxMANA die."
 
 "Gravewood","Maplewood","Wilderness, Sorcery",,,"xxACTION Gain one xxTIMBER."
 "Gravewood","Spinner Lakes","Wilderness, Conquest",,,"xxACTION Spend 8 xxLUXURY to gain one xxSECRETS."
@@ -35,7 +36,7 @@ mission,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
 
 "Sowing Rebellion","Dowling Farm","Imperial, Conquest","Nexus of Imperial discontent.",,"xxACTION Spend 5 xxLUXURY to gain one xxSECRETS."
 "Sowing Rebellion","The Salty Freetrader","Imperial","Where everybody - every single body - knows your name.","xxQUICK","xxQUICK One character at this location is weary."
-"Sowing Rebellion","Whitehold","Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.",,"All guards (obstacles) at this location have +1 xxDISCORD."
+"Sowing Rebellion","Whitehold","Imperial, Urban, Military","Graycloak headquarters in the breadbasket of the Empire.",,"All guards (obstacles) at this location have +1 xxDISCORD."
 "Sowing Rebellion","Under Whitehold","Imperial, Espionage","The caverns below Whitehold have both riches and traps.","xxFIRE","xxACTION Take two xxDISCORD to gain one xxLUXURY die.","xxFIRE One character at this location is wounded."
 
 "Tragedy and Conspiracy","Sparrow Keep","Espionage","How is it that a nexus of such evil activity was allowed to grow so large?","xxFORCEFUL","xxFORCEFUL One character at this location is wounded."
