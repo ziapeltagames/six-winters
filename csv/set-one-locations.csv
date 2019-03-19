@@ -1,17 +1,17 @@
 mission,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
 
-"Threat","Moonrider Outpost","Wilderness, Diplomacy","Raiders have begun fighting over disputed grain fields.","xxFIRE","xxACTION Task (Rapport).","xxCIRCLE Spend 8 progress, discard threat, and gain 2 xxFOOD dice.","xxCIRCLE Spend 13 progress, burn threat, and gain 3 xxFOOD dice.","xxFIRE Spend 3 xxFOOD or lower Sunrider disposition by one."
-"Threat","Silk Roads","Wilderness, Conquest","If you aren't building relationships - you will be left behind.","xxSUN","xxACTION Spend 3 Timber to place one progress.","xxCIRCLE Spend 3 progress, burn threat, and gain 2 xxFOOD dice.","xxSUN Lose one xxLUXURY die."
-"Threat","Amber Hand","Wilderness, Stability","The pact with Red Bank has not been forgotten by the Amber Hand.","xxFORCEFUL","xxACTION Test (Command 5). If passed, burn threat and move characters to a spotlight location. If failed, gain 2 xxDISCORD.","xxFORCEFUL If there is more than one spotlight location, flip a spotlight location card. Location is unusuable for remainder of the season."
+"Threat","Moonrider Outpost","Wilderness, Diplomacy","Raiders have begun fighting over disputed grain fields.","xxFIRE","xxACTION Spend 3 xxORE and Test (Rapport 5). If passed, burn threat, and gain 2 xxFOOD dice.","xxFIRE Spend 3 xxFOOD or lower Sunrider disposition by one."
+"Threat","Silk Roads","Wilderness, Conquest","If you aren't building relationships - you will be left behind.","xxSUN","xxACTION Spend 11 xxTIMBER, burn threat, and gain 2 xxFOOD dice.","xxSUN Lose one xxLUXURY die."
+"Threat","Amber Hand","Wilderness, Stability","The pact with Red Bank has not been forgotten by the Amber Hand.","xxFORCEFUL","xxACTION Test (Command 5). If passed, burn threat and move characters to a spotlight location. If failed, gain 2 xxDISCORD.","xxFORCEFUL If there is more than one usable spotlight location, flip a spotlight location card. Location is unusuable for remainder of the season."
 
 "Starting Location","Trade Agreement","Spotlight, Red Bank",,,"xxACTION Spend two resource dice to initiate trade with a faction. Gain a number of new resource dice equal to the disposition of the faction. Dice gained and spent should match trade wheel for faction."
-"Starting Location","Development Research","Spotlight, Red Bank",,,"xxACTION Purchase one available development. Development is unlocked for future seasons."
-"Starting Location","Amber Lodge","Spotlight, Red Bank, Urban",,,"xxACTION Task (Lore).","xxACTION Character spends 12 progress to remove one condition."
-"Starting Location","Strategic Investments","Spotlight, Red Bank",,,"xxACTION Spend 5 xxFORTUNE to place one progress.","xxCIRCLE Spend 4 progress to increase any disposition track by one.","xxCIRCLE Spend 7 progress to increase any resource track by one."
+"Starting Location","Development Research","Spotlight, Red Bank",,,"xxACTION Purchase one available development. Add development to asset discard pile."
+"Starting Location","Amber Lodge","Spotlight, Red Bank, Urban",,,"xxACTION Spend 1 xxFORTUNE to look at the top asset card on either draw pile. Return the card to the top when finished."
+"Starting Location","Tactical Planning","Spotlight, Red Bank",,,"xxACTION Spend 3 xxFORTUNE to take an asset from your discard pile into your hand."
 "Starting Location","Resource Gathering","Spotlight, Red Bank",,,"xxACTION Test (Resource Track). Use value of resource track for test. For each success, gain one resource die of that type."
 
-"The Necromancer of North Oaks","Gray River","Red Bank, Wilderness","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.",,"xxACTION Convert any number of xxTIMBER dice into the same number of xxFORTUNE dice."
-"The Necromancer of North Oaks","Mirror Woods","Spotlight, Red Bank, Conquest","Echoes of magic portend future events.",,"xxACTION Spend 12 xxFORTUNE to draw one asset from the discard pile into hand."
+"The Necromancer of North Oaks","Gray River","Red Bank, Wilderness","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.",,"xxACTION Convert any number of xxTIMBER dice into the same number of xxFORTUNE."
+"The Necromancer of North Oaks","Mirror Woods","Spotlight, Red Bank, Conquest","Echoes of magic portend future events.",,"xxACTION Move any number of Restless Dead to this location by spending the same amount of xxFORTUNE."
 "The Necromancer of North Oaks","Exposed Overlook","Red Bank, Conquest","Through the mists of morning it is possible to see the furthest hinterlands of Red Bank.","xxICE","xxICE One character at this location is weary."
 "The Necromancer of North Oaks","Musty Tomb","Red Bank, Dungeon, Sorcery","A place hiding the oldest secrets.","xxMOON","All characters at this location have +1 Lore.","xxMOON One character at this location is shaken."
 
@@ -19,7 +19,7 @@ mission,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
 "Doom Under Sightrock","Salmon Run","Red Bank, Wilderness",,"xxFORCEFUL","xxACTION Task (Survival).","xxCIRCLE Spend 13 progress to raise xxFOOD track by one.","xxFORCEFUL One character at this location is weary."
 "Doom Under Sightrock","The Weird Rock","Red Bank, Dungeon, Sorcery",,"xxMOON","Effect: All characters at this location have +1 Lore.","xxMOON One character at this location is shaken."
 
-"The Sunriders","Hogel Manor","Urban, Military",,,"xxACTION Spend 10 xxPROGRESS to increase Sunrider Disposition track by one."
+"The Sunriders","Hogel Manor","Urban, Military",,,"xxACTION Spend 11 xxPROGRESS to increase Sunrider Disposition track by one."
 "The Sunriders","Horsethief Meadows","Spotlight, Wilderness",,,"xxACTION Spend 1 xxFORTUNE to add xxPROGRESS equal to Sunrider Disposition while current mission path is at military location."
 "The Sunriders","Song Bluff","Wilderness, Military",,"xxSUN","xxSUN One character at this location takes a xxPSYCHE condition."
 "The Sunrdiers","Spirit Lake","Wilderness",,,"xxACTION Spend 1 xxFORTUNE to gain one xxMANA die."
