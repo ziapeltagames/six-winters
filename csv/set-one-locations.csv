@@ -10,19 +10,19 @@ mission,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
 "Starting Location","Tactical Planning","Spotlight, Red Bank",,,"xxACTION Spend 3 xxFORTUNE to take an asset from your discard pile into your hand."
 "Starting Location","Resource Gathering","Spotlight, Red Bank",,,"xxACTION Test (Resource Track). Use value of resource track for test. For each success, gain one resource die of that type."
 
-"The Necromancer of North Oaks","Gray River","Red Bank, Wilderness","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.",,"xxACTION Convert any number of xxTIMBER dice into the same number of xxFORTUNE."
-"The Necromancer of North Oaks","Mirror Woods","Spotlight, Red Bank, Conquest","Echoes of magic portend future events.",,"xxACTION Move any number of Restless Dead to this location by spending the same amount of xxFORTUNE."
-"The Necromancer of North Oaks","Exposed Overlook","Red Bank, Conquest","Through the mists of morning it is possible to see the furthest hinterlands of Red Bank.","xxICE","xxICE One character at this location is weary."
-"The Necromancer of North Oaks","Musty Tomb","Red Bank, Dungeon, Sorcery","A place hiding the oldest secrets.","xxMOON","All characters at this location have +1 Lore.","xxMOON One character at this location is shaken."
+"The Necromancer of North Oaks","Gray River","Red Bank, Wilderness","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.",,"xxACTION Gain 2 xxTIMBER dice."
+"The Necromancer of North Oaks","Mirror Woods","Red Bank, Conquest","The source of magical power in the area.",,"For each progress token on this location, characters at North Oaks locations get +1 to tests against foes.","xxACTION Spend 4 xxMANA and become weary to add one progress to this location."
+"The Necromancer of North Oaks","Outer Fernbrake","Red Bank, Conquest","Simple folk banded together in the shadow of darkness.","xxICE","xxICE If there any Restless Dead here, gain one xxAPOTHEOSIS."
+"The Necromancer of North Oaks","Musty Tomb","Red Bank, Dungeon, Sorcery","A place hiding the oldest secrets.","xxMOON","xxACTION Take 2 xxDISCORD to move any number of Restless Dead to this location.","xxMOON One character at this location is shaken."
 
 "Doom Under Sightrock","Lush Fields","Spotlight, Red Bank, Wilderness",,,"xxACTION Spend 4 xxFORTUNE to gain one xxFOOD die."
 "Doom Under Sightrock","Salmon Run","Red Bank, Wilderness",,"xxFORCEFUL","xxACTION Task (Survival).","xxCIRCLE Spend 13 progress to raise xxFOOD track by one.","xxFORCEFUL One character at this location is weary."
 "Doom Under Sightrock","The Weird Rock","Red Bank, Dungeon, Sorcery",,"xxMOON","Effect: All characters at this location have +1 Lore.","xxMOON One character at this location is shaken."
 
-"The Sunriders","Hogel Manor","Urban, Military",,,"xxACTION Spend 11 xxPROGRESS to increase Sunrider Disposition track by one."
-"The Sunriders","Horsethief Meadows","Spotlight, Wilderness",,,"xxACTION Spend 1 xxFORTUNE to add xxPROGRESS equal to Sunrider Disposition while current mission path is at military location."
-"The Sunriders","Song Bluff","Wilderness, Military",,"xxSUN","xxSUN One character at this location takes a xxPSYCHE condition."
-"The Sunrdiers","Spirit Lake","Wilderness",,,"xxACTION Spend 1 xxFORTUNE to gain one xxMANA die."
+"The Sunriders","Hogel Manor","Urban, Military",,"xxSUN","xxSUN Gain 1 xxDISCORD for each issue in play at this location."
+"The Sunriders","Horsethief Meadows","Wilderness",,,"xxACTION Gain an amount of xxFOOD dice equal to the military development level."
+"The Sunriders","Song Bluff","Wilderness, Military",,"xxQUICK","xxQUICK Gain xxDISCORD equal to the current level of freedom."
+"The Sunriders","Spirit Lake","Wilderness",,,"xxACTION Spend 2 xxMANA to discard any issue in play at a Sunriders location."
 
 "Gravewood","Maplewood","Wilderness, Sorcery",,,"xxACTION Gain one xxTIMBER."
 "Gravewood","Spinner Lakes","Wilderness, Conquest",,,"xxACTION Spend 8 xxLUXURY to gain one xxSECRETS."
