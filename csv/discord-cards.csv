@@ -1,6 +1,0 @@
-character,year,@picture,chance,title,text,effecta,effectb,effectc,effectd
-
-Keel,1,"..\images\characters\KEEL.png","-1","Overanalysis","We have no good choices now.","xxDISCARD Keel is shaken and loses his action for this round."
-Menas,1,"..\images\characters\MENAS.png","-1","Shoot the Messenger","Why the ever loving fuck did you let things get so bad?","xxDISCARD If Keel is in the same location as Menas, make Keel and Menas angry. Keel is unavailable for the rest of the mission."
-Thea,1,"..\images\characters\THEA.png","-1","Doubt","I'm giving it my best - and it's not enough.","xxDISCARD Thea is unavailable for the rest of the mission. Discard Thea's character card and any attached assets." 
-Fuscus,1,"..\images\characters\FUSCUS.png","-1","On the Grift","No one appreciates the breath of life like I do.","xxDISCARD: Spend 11 xxLUXURY."

@@ -8,21 +8,21 @@ mission,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
 "Starting Location","Development Research","Spotlight, Red Bank",,,"xxACTION Purchase one available development. Add development to asset discard pile."
 "Starting Location","Amber Lodge","Spotlight, Red Bank, Urban",,,"xxACTION Spend 1 xxFORTUNE to look at the top asset card on either draw pile. Return the card to the top when finished."
 "Starting Location","Tactical Planning","Spotlight, Red Bank",,,"xxACTION Spend 3 xxFORTUNE to take an asset from your discard pile into your hand."
-"Starting Location","Resource Gathering","Spotlight, Red Bank",,,"xxACTION Test (Resource Track). Use value of resource track for test. For each success, gain one resource die of that type."
+"Starting Location","Resource Gathering","Spotlight, Red Bank",,,"xxACTION Gain one resource die of any type."
 
 "The Necromancer of North Oaks","Gray River","Red Bank, Wilderness","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.",,"xxACTION Gain 2 xxTIMBER dice."
 "The Necromancer of North Oaks","Mirror Woods","Red Bank, Conquest","The source of magical power in the area.",,"For each progress token on this location, characters at North Oaks locations get +1 to tests against foes.","xxACTION Spend 4 xxMANA and become weary to add one progress to this location."
 "The Necromancer of North Oaks","Outer Fernbrake","Red Bank, Conquest","Simple folk banded together in the shadow of darkness.","xxICE","xxICE If there any Restless Dead here, gain one xxAPOTHEOSIS."
 "The Necromancer of North Oaks","Musty Tomb","Red Bank, Dungeon, Sorcery","A place hiding the oldest secrets.","xxMOON","xxACTION Take 2 xxDISCORD to move any number of Restless Dead to this location.","xxMOON One character at this location is shaken."
 
-"Doom Under Sightrock","Lush Fields","Spotlight, Red Bank, Wilderness",,,"xxACTION Spend 4 xxFORTUNE to gain one xxFOOD die."
-"Doom Under Sightrock","Salmon Run","Red Bank, Wilderness",,"xxFORCEFUL","xxACTION Task (Survival).","xxCIRCLE Spend 13 progress to raise xxFOOD track by one.","xxFORCEFUL One character at this location is weary."
-"Doom Under Sightrock","The Weird Rock","Red Bank, Dungeon, Sorcery",,"xxMOON","Effect: All characters at this location have +1 Lore.","xxMOON One character at this location is shaken."
-
 "The Sunriders","Hogel Manor","Urban, Military",,"xxSUN","xxSUN Gain 1 xxDISCORD for each issue in play at this location."
 "The Sunriders","Horsethief Meadows","Wilderness",,,"xxACTION Gain an amount of xxFOOD dice equal to the military development level."
 "The Sunriders","Song Bluff","Wilderness, Military",,"xxQUICK","xxQUICK Gain xxDISCORD equal to the current level of freedom."
 "The Sunriders","Spirit Lake","Wilderness",,,"xxACTION Spend 2 xxMANA to discard any issue in play at a Sunriders location."
+
+"Doom Under Sightrock","Lush Fields","Spotlight, Red Bank, Wilderness",,,"xxACTION Spend 4 xxFORTUNE to gain one xxFOOD die."
+"Doom Under Sightrock","Salmon Run","Red Bank, Wilderness",,"xxFORCEFUL","xxACTION Task (Survival).","xxCIRCLE Spend 13 progress to raise xxFOOD track by one.","xxFORCEFUL One character at this location is weary."
+"Doom Under Sightrock","The Weird Rock","Red Bank, Dungeon, Sorcery",,"xxMOON","Effect: All characters at this location have +1 Lore.","xxMOON One character at this location is shaken."
 
 "Gravewood","Maplewood","Wilderness, Sorcery",,,"xxACTION Gain one xxTIMBER."
 "Gravewood","Spinner Lakes","Wilderness, Conquest",,,"xxACTION Spend 8 xxLUXURY to gain one xxSECRETS."
