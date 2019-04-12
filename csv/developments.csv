@@ -22,7 +22,7 @@ category,level,chance,title,food,timber,ore,mana,luxury,effecta,effectb,effectc,
 "Diplomacy",9,"+0","Stronger Together",14,0,0,12,26,"xxIMMEDIATE Gain xxLUXURY dice equal to xxLUXURY track. Roll dice and add to pool."
 "Diplomacy",10,"+0","Factions United",18,0,0,16,30,"Spend 7 xxLUXURY to add 2 xxPROGRESS while at an urban location."
 
-"Sorcery",1,"-1","Undari's Libram",0,8,0,4,0,"Spend 1 xxMANA to add 3 xxPROGRESS."
+"Sorcery",1,"-1","Undari's Libram",0,8,0,4,0,"Spend 1 xxMANA to add xxPROGRESS equal to xxRISK."
 "Sorcery",2,"+1","Philter of Arankh",0,0,0,8,3,"Spend 3 xxMANA and play on character in party. Character has +1 Lore for the rest of the season.",,,"+1 LORE"
 "Sorcery",3,"-1","Mana Forge",0,0,0,9,3,"xxIMMEDIATE Gain xxMANA dice equal to xxMANA track. Roll dice and add to pool."
 "Sorcery",4,"+0","Focused Channeling",0,0,0,9,7,"TBD."
