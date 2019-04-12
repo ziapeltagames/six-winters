@@ -1,19 +1,15 @@
-mission,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
+mission,title,tags,risk,text,rsummary,blocka,blockb,blockc,blockd,blocke
 
-"Threat","Moonrider Outpost","Wilderness, Diplomacy","Raiders have begun fighting over disputed grain fields.","xxFIRE","xxACTION Spend 3 xxORE and Test (Rapport 5). If passed, burn threat, and gain 2 xxFOOD dice.","xxFIRE Spend 3 xxFOOD or lower Sunrider disposition by one."
-"Threat","Silk Roads","Wilderness, Technology","If you aren't building relationships - you will be left behind.","xxSUN","xxACTION Spend 11 xxTIMBER, burn threat, and gain 2 xxFOOD dice.","xxSUN Lose one xxLUXURY die."
-"Threat","Amber Hand","Urban, Military","The pact with Red Bank has not been forgotten by the Amber Hand.","xxFORCEFUL","xxACTION Test (Command 5). If passed, burn threat and move characters to a spotlight location. If failed, gain 2 xxDISCORD.","xxFORCEFUL If there is more than one usable spotlight location, flip a spotlight location card. Location is unusuable for remainder of the season."
+"Starting Location","xxSPOTLIGHT Undari's Tower","Sorcery, Red Bank",,"The great mage left behind all manner of useful recipes",,"xxACTION Herbal Compress. Spend xxPROGRESS equal to mission difficulty to remove one mild xxBODY condition.","xxACTION Magical Research. Purchase a sorcery development. Place in asset discard pile."
+"Starting Location","xxSPOTLIGHT Lavender Mill","Technology, Red Bank",,"The great hub of Red Bank bustles with activity.",,"xxACTION Refinery. Gain one resource die of any type.","xxACTION The Forge. Purchase a technology development. Place in asset discard pile."
+"Starting Location","xxSPOTLIGHT Amber Lodge","Espionage, Red Bank, Urban",,,,"xxACTION Map Hall. Spend xxPROGRESS equal to mission difficulty to look at the top asset card on either draw pile. Return the card to the top when finished.","xxACTION Secrets Revealed. Purchase an espionage development. Place in asset discard pile."
+"Starting Location","xxSPOTLIGHT Sightrock Keep","Military, Red Bank",,,,"xxACTION Tactical Planning. Spend xxPROGRESS equal to mission difficulty to take an asset from your discard pile into your hand.","xxACTION Training Grounds. Purchase a military development. Place in asset discard pile."
+"Starting Location","xxSPOTLIGHT The Great Hall","Diplomacy, Red Bank",,,,"xxACTION Rest and Relaxation. Spend xxPROGRESS equal to mission difficulty to remove one mild xxPSYCHE condition.","xxACTION Great Council. Purchase a diplomacy development. Place in asset discard pile."
 
-"Starting Location","xxSPOTLIGHT Trade Agreement","Spotlight, Red Bank",,,"xxACTION Spend two resource dice to initiate trade with a faction. Gain a number of new resource dice equal to the disposition of the faction. Dice gained and spent should match trade wheel for faction."
-"Starting Location","xxSPOTLIGHT Development Research","Spotlight, Red Bank",,,"xxACTION Purchase one available development. Add development to asset discard pile."
-"Starting Location","xxSPOTLIGHT Amber Lodge","Spotlight, Red Bank, Urban",,,"xxACTION Spend 1 xxFORTUNE to look at the top asset card on either draw pile. Return the card to the top when finished."
-"Starting Location","xxSPOTLIGHT Tactical Planning","Spotlight, Red Bank",,,"xxACTION Spend 3 xxFORTUNE to take an asset from your discard pile into your hand."
-"Starting Location","xxSPOTLIGHT Resource Gathering","Spotlight, Red Bank",,,"xxACTION Gain one resource die of any type."
-
-"The Necromancer of North Oaks","Gray River","Red Bank, Wilderness","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.",,"xxACTION Gain 2 xxTIMBER dice."
-"The Necromancer of North Oaks","Mirror Woods","Red Bank","The source of magical power in the North.",,"For each progress token on this location, characters at North Oaks locations get +1 to tests against foes.","xxACTION Spend 4 xxMANA and become weary to add one progress to this location."
-"The Necromancer of North Oaks","Outer Fernbrake","Red Bank","Simple folk banded together in the shadow of darkness.","xxICE","xxICE If there any Restless Dead here, gain one xxAPOTHEOSIS."
-"The Necromancer of North Oaks","Musty Tomb","Red Bank, Dungeon, Sorcery","A place hiding the oldest secrets.","xxMOON","xxACTION Take 2 xxDISCORD to move any number of Restless Dead to this location.","xxMOON One character at this location is shaken."
+"The Necromancer of North Oaks","Outer Fernbrake","Red Bank","0 xxRISK","Simple folk band together in the shadow of darkness.","xxICE","xxICE Casualties of the Undead. If there any Restless Dead here, lose 1 xxSTABILITY.","xxACTION Community Building. If this is stage 4, Test (Command). Add successes to xxPROGRESS."
+"The Necromancer of North Oaks","Gray River","Red Bank, Wilderness","1 xxRISK","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.",,"xxACTION Gain 2 xxTIMBER dice.","xxACTION Mapping the Land. If this is stage 1, Test (Survival). Add successes to xxPROGRESS."
+"The Necromancer of North Oaks","Mirror Woods","Red Bank","2 xxRISK","The source of magical power in the North.",,"For each progress token on this location, characters at North Oaks locations get +1 to tests against foes.","xxACTION Necromantic Ward. Spend 4 xxMANA and become weary to add one progress to this location.","xxACTION Battles Against the Undead. If this is stage 2, Test (Combat). Add successes to xxPROGRESS."
+"The Necromancer of North Oaks","Musty Tomb","Red Bank, Dungeon, Sorcery","3 xxRISK","A place hiding the oldest secrets.",,"xxACTION Source of the Undead. Take 2 xxDISCORD to move any number of Restless Dead to this location.","xxACTION If this is stage 3, Test (Lore). Add successes to xxPROGRESS."
 
 "The Sunriders","Hogel Manor","Urban","For a Sunrider, Hogel's decorations and appointments are almost gaudy, and his demeanor doubly so.","xxSUN","xxSUN Take 1 xxDISCORD for each issue in play at this location."
 "The Sunriders","Horsethief Meadows","Wilderness, Military","Feats of martial prowess take place across the wide open plains.",,"xxACTION Spend 6 xxPROGRESS to increase Security track by one."
@@ -22,7 +18,7 @@ mission,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
 
 "Into the Cold","The Rosy Freetrader","Imperial, Urban","A popular meeting place for both the poor and wealthy of Eastkeep.",,"xxACTION Move one Graycloak to the Rosy Freetrader."
 "Into the Cold","Map Hall","Imperial, Urban","Somewhere amongst the piles of maps and ledgers are useful Imperial plans.","xxQUICK","xxACTION Spend one xxSECRETS to gain two dice of any one resource.","xxQUICK One character at this location is weary."
-"Into the Cold","House of Cloves","Imperial, Urban","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxICE","Effect: All characters at this location have +1 Disguise.","xxICE One character at this location is angry."
+"Into the Cold","House of Copper","Imperial, Urban","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxICE","Effect: All characters at this location have +1 Disguise.","xxICE One character at this location is angry."
 "Into the Cold","Guild of Secrets","Imperial, Espionage","If there is a nexus of evil in Eastkeep, it is most certainly the guild of secrets.",,"All obstacles at this location have +2 xxDISCORD."
 
 "Doom Under Sightrock","Lush Fields","Spotlight, Red Bank, Wilderness",,,"xxACTION Spend 4 xxFORTUNE to gain one xxFOOD die."

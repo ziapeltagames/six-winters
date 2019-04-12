@@ -1,0 +1,62 @@
+Tragedy and Conspiracy - The heroes find something going on at Sparrow Keep. An insurgency of Imperial agents have made a home there. Compounding this, conspiracy theories have sprung up in Outer Fernbrake, making the people turn against Red Bank. Traces of Power, originating from the Animaelic Forest, are showing up in the House of Cloves. Can the heroes find the Autarch?
+
+Name: TRAGEDY AND CONSPIRACY
+
+Theme: There was a tragedy? What? A small kid was murdered? How?
+
+Obstacles:
+
+STARTING A Great Discontent (Command), lowers rapport tests, causes discord
+
+Inquisitor (Combat)
+Uprising (Rapport)
+Uprising (Rapport)
+
+Events:
+
+Castor's Dirge
+angry people
+clues about imperials
+
+
+Stages:
+
+Raid Under Sparrow Keep
+Sparrow Keep (Combat)
+
+Conspiracy of the Common Folk
+Outer Fernbrake (Rapport)
+
+Traces of Power
+House of Cloves (Lore)
+
+Community Building
+Graywash Spring (Command)
+
+Imperials have fanned the flames of conspiracy against Red Bank in the wake of a terrible tragedy.
+
+
+SUMMIT AT LILY MANOR
+
+Theme:
+
+Obstacles:
+
+Undercover Agent (Disguise), can be discarded by unlocking something on the T&C side, this is a hard one!
+
+Events:
+
+Loose Lips
+Beetle Borough (Disguise)
+
+Backup Plans
+Goldspike (Tactics)
+
+A Plot Revealed
+Hall of Brass (Command)
+
+Idle Chatter
+Goldspike (Rapport)
+
+A gathering of cultures, Imperials work to spread distrust against Red Bank
+15 Reveal Something? Guards? An ally? Proof?
