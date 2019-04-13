@@ -41,6 +41,7 @@ mission,deck,ctriggers,title,tags,text,lsummary,csummary,rsummary,blocka,blockb,
 "Sunriders","Encounter","xxTIMERxxFIRE","Ile's Campaign","Event",,,,,"Gain 1 xxFORTUNE and burn card."
 "Sunriders","Encounter","xxTIMERxxFIRE","Dashen","Obstacle: Diplomat",,"2 xxPROGRESS / xxPSYCHE",,,"Placement: Horsethief Meadows.","xxACTION Test (Command 3) If passed, burn card."
 "Sunriders","Encounter","xxTIMERxxICE","Border Raids","Obstacle: Issue","The Moonriders continue to attack us from the east.","1 xxPROGRESS 1 xxDISCORD / xxPSYCHE",,,"xxACTION Test (Tactics X) Where X is the number of issues at this location. If passed, discard."
+
 "Sunriders","Encounter","xxDISCORDxxSUN","Shame To Anger","Event","Why can't you just trust my judgement?",,,,"If there is a frustrated character at a Sunriders location, they become angry."
 "Sunriders","Encounter","xxDISCORDxxICE","Dragon Shrine","Event",,,,,"Gain 1 xxFORTUNE."
 "Sunriders","Encounter","xxPROGRESSxxICE","Arban's Sunset Ride","Event",,,,,"Test (Command 2). If passed, gain 1 xxFORTUNE. Otherwise, one character making test is frustrated."
