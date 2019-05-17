@@ -1,9 +1,9 @@
 mission,title,tags,risk,text,rsummary,blocka,blockb,blockc,blockd,blocke
 
-"Starting Location","xxSPOTLIGHT Undari's Tower","Sorcery, Red Bank",,"The vile mage left behind all manner of useful recipes. Provided you have the will to use them.",,"xxACTION Blue Toad Compress. Remove a xxBODY condition by spending xxMANA dice equal to condition value."
-"Starting Location","xxSPOTLIGHT The Great Hall","Diplomacy, Red Bank",,"Fuscus has been known to entertain large groups in the Great Hall.",,"xxACTION Rest and Relaxation. Remove a xxPSYCHE condition by spending xxFOOD dice equal to condition value."
+"Starting Location","xxSPOTLIGHT Undari's Tower","Sorcery, Red Bank",,"The vile mage left behind all manner of useful recipes. Provided you have the will to use them.",,"xxACTION Blue Toad Compress. Remove a minor xxBODY condition by spending xxMANA equal to condition value."
+"Starting Location","xxSPOTLIGHT The Great Hall","Diplomacy, Red Bank",,"Fuscus has been known to entertain large groups in the Great Hall.",,"xxACTION Rest and Relaxation. Remove a minor xxPSYCHE condition by spending xxFOOD equal to condition value."
 "Starting Location","xxSPOTLIGHT Amber Lodge","Espionage, Red Bank, Urban",,"The repurposed barracks of the Amber Hand has become Thea's personal offices.",,"xxACTION Map Hall. Look at the top asset card on either draw pile. Return the card to the top when finished."
-"Starting Location","xxSPOTLIGHT Lavender Mill","Technology, Red Bank",,"The great hub of Red Bank bustles with activity.",,"xxACTION The Exchange. Spend 3 xxPROGRESS to gain two resource dice of any type."
+"Starting Location","xxSPOTLIGHT Lavender Mill","Technology, Red Bank",,"The great hub of Red Bank bustles with activity.",,"xxACTION The Exchange. Spend 3 xxPROGRESS to gain three resource dice of any type."
 "Starting Location","xxSPOTLIGHT Sightrock Keep","Military, Red Bank",,"At the edge of your vision, looking west, you can just make out Eastkeep wall... looming.",,"xxACTION Tactical Planning. Draw the top two asset cards from your asset draw pile."
 
 "The Necromancer of North Oaks","1) Gray River","Wilderness","xxRISK","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.",,"xxACTION Mapping the Land. Test (Survival xxPROGRESS). Add xxPROGRESS equal to successes.","xxACTION Logging Operation. Gain 2 xxTIMBER dice."
@@ -16,18 +16,18 @@ mission,title,tags,risk,text,rsummary,blocka,blockb,blockc,blockd,blocke
 "The Sunriders","3) Song Bluff","Wilderness","xxRISK","Amongst the Sunriders, honor and family are more important than diversity of thought.",,"xxACTION Discussing Battle Plans. Test (Tactics xxPROGRESS). Add xxPROGRESS equal to successes."
 "The Sunriders","4) Spirit Lake","Wilderness","xxRISK xxRISK","The clear waters of Spirit Lake reflect back the wisdom of ancestors. Feeding the lake earns the Sunriders' respect.",,"xxACTION Twilight Swordplay. Test (Combat xxPROGRESS). Add xxPROGRESS equal to successes.","xxACTION Speak with the Dead. Spend 4 xxMANA to burn any issue in play at a Sunriders location."
 
-"Into the Cold","The Rosy Freetrader","Imperial, Urban","2 xxRISK","A popular meeting place for both the poor and wealthy of Eastkeep.",,"xxACTION Cause a Scene. Move one Graycloak to the Rosy Freetrader."
-"Into the Cold","Map Hall","Imperial, Urban","1 xxRISK","Somewhere amongst the piles of maps and ledgers are useful Imperial plans.","xxQUICK","xxACTION Spend one xxSECRETS to gain two dice of any one resource.","xxQUICK One character at this location is weary."
-"Into the Cold","House of Copper","Dungeon","2 xxRISK","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxICE","Effect: All characters at this location have +1 Disguise.","xxICE One character at this location is angry."
-"Into the Cold","Guild of Secrets","Imperial, Urban","3 xxRISK","If there is a nexus of evil in Eastkeep, it is most certainly the guild of secrets.",,"All obstacles at this location have +2 xxDISCORD."
+"Into the Cold","1) The Rosy Freetrader","Imperial, Urban","xxRISK","A popular meeting place for both the poor and wealthy of Eastkeep.",,"xxACTION Test ()","xxACTION Cause a Scene. Move one Graycloak to the Rosy Freetrader."
+"Into the Cold","2) Map Hall","Imperial","xxRISK xxRISK","Somewhere amongst the piles of maps and ledgers are useful Imperial plans.",,"xxACTION Test ()","xxACTION Spend 2 xxPROGRESS to gain two dice of any one resource."
+"Into the Cold","3) House of Copper","Dungeon","xxRISK","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.",,"xxACTION Test()"
+"Into the Cold","4) Guild of Secrets","Imperial, Urban","xxRISK xxRISK xxRISK","If there is a nexus of evil in Eastkeep, it is most certainly the guild of secrets.","xxAIR","xxACTION Test()","xxAIR If possible, move a Graycloak here from another location."
 
-"Doom Under Sightrock","Lush Fields","Spotlight, Red Bank, Wilderness",,,,"xxACTION Spend 4 xxFORTUNE to gain one xxFOOD die."
-"Doom Under Sightrock","Salmon Run","Red Bank, Wilderness",,,"xxFORCEFUL","xxACTION Task (Survival).","xxCIRCLE Spend 13 progress to raise xxFOOD track by one.","xxFORCEFUL One character at this location is weary."
-"Doom Under Sightrock","The Weird Rock","Red Bank, Dungeon, Sorcery",,,"xxMOON","Effect: All characters at this location have +1 Lore.","xxMOON One character at this location is shaken."
+"Doom Under Sightrock","1) Lush Fields","Red Bank, Wilderness","xxRISK,,,"xxACTION Gain 2 xxFOOD dice."
+"Doom Under Sightrock","2) Salmon Run","Wilderness","xxRISK",,,"xxACTION Test (Survival xxPROGRESS)."
+"Doom Under Sightrock","3) The Weird Rock","Dungeon","xRISK xxRISK xxRISK",,,"xxMOON One character at this location is shaken."
 
 "Gravewood","Maplewood","Wilderness, Sorcery",,,,"xxACTION Gain one xxTIMBER."
 "Gravewood","Spinner Lakes","Wilderness, Conquest",,,,"xxACTION Spend 8 xxLUXURY to gain one xxSECRETS."
-"Gravewood","Green Haven","Spotlight, Stability",,,"xxFIRE","Effect: All characters increase their Thievery by Gravewood disposition while at least one character is at this location.","xxFIRE One character at this location is angry."
+"Gravewood","Green Haven","Stability",,,"xxFIRE","Effect: All characters increase their Thievery by Gravewood disposition while at least one character is at this location.","xxFIRE One character at this location is angry."
 "Gravewood","First Haven","Espionage",,,,"xxACTION Spend 3 xxLUXURY to discard one threat."
 
 "Sowing Rebellion","Dowling Farm","Imperial, Conquest","Nexus of Imperial discontent.",,"xxACTION Spend 5 xxLUXURY to gain one xxSECRETS."
