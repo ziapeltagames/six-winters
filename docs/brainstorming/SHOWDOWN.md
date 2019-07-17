@@ -142,8 +142,8 @@ Purging the Filth - Combat, 2, take a condition
 A Father's Vengeance - Harmful, take 1 discord / violent locals
 Aid from Burgan Vale - Helpful, gain 2 xxMANA dice, Yasmina.
 
-Funeral Dirge - Rapport, 3, Burn,
-Raid Under Sparrow Keep - Combat, 3, Burn spies
+Funeral Dirge - Rapport, 3, Burn, adds discord
+Raid Under Sparrow Keep - Combat, 3, add progress to SK
 Traces of Power - Lore, 3, Burn, Helps with Veil Ward.
 
 # WHISPERS AT AT LILY MANOR
