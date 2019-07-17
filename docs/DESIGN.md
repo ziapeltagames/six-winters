@@ -138,38 +138,46 @@ Another way to make advantages less useful is to use play costs. For example, a 
 
 These abilities should be used with care. Taking Conditions and getting Discord are a big source of tension, so it shouldn't be easy to lower them. It's better to have abilities that help lower the hindrance value of obstacles or that improve defense. Once you get Discord or Conditions, they should be hard to remove. In the case of discord, that usually invovles spending some other resource or getting a condition.
 
-## Event Card Effects
+## Event Cards
 
 Events are short term challenges players face during a mission. They lean mostly negative in nature. The positive cards come more from the asset deck. Many feature a skill test to determine if the effect is positive or negative. Furthermore, certain mission types lean towards certain types of effects.
 
-* Take Discord
-* Take Condition
-* Gain or Trade Resource Dice
-   * Mainly during Exploration missions
-* Add Threat Progress
-   * Mainly during Alliance missions
-* Secrets
-   * Mainly during Infiltration missions
+* Alliance
+   * Use mission progress
+   * Add progress to threats
+   * Take discord
+   * Air
+* Infiltration
+   * Use progress on threats
+   * Gain mission progress
+   * Psyche stress
+   * Fire
+* Exploration
+   * Use mission progress
+   * Gain and trade resources
+   * Body stress
+   * Earth
+* Quest
+   * Use resources
+   * Gain mission progress
+   * Gain conditions
+   * Water
+* Showdowns
+   * Showdowns tend to combine two of the above mission types
 
-## Personality Cards
+## Character Cards
 
-On some personality cards, there is a burn option. Typically the option to burn the card advances a relaionship between characters and may be trickier to make happen. Burning personality cards provides an advantage to the player, because their asset deck can shrink in size and they can employ more deck building concepts using developments.
-
-The biggest focus of personality cards is interactions between characters. As such, most of them should have requirements that character X or Y are present.
+Character cards are mostly positive. The biggest focus of character cards is interactions between characters. As such, some of them have requirements that character X or Y are present.
 
 * Better Defense
 * Extra Movement
 * Moving Obstacles
+* Bypass Obstacle Defense
 * Moving Threats
-* Progress
+* Mission Progress
 * Burning Threats
-* Secrets
 * Lower Discord
-* Lowering Apotheosis
-
-The discard options for personality cards should mainly revolve around adding more progress, rerolling dice for tests. The burn options can be more creative - and they can more frequently leverage secrets to do powerful things, like lowering the apotheosis pool.
-
-They probably shouldn't give permanent +1s to skills, since that ties a skill to a character, which would somewhat limit flexibility. The +1 skill sorts of cards are developments.
+* Remove Condition
 
 ## Developments
 
@@ -177,59 +185,72 @@ Developments are also differentiated somewhat by type. Maybe as a general rule n
 
 It would also be good if the peak development in each track was fairly powerful. It probably needs to be something valuable in the climactic mission? Since it will be purchased so late in the campaign?
 
-* Conquest (Timber, Ore)
-   * Core Advantages
-      * Survival (+1, +2)
-      * Timber (+1, +2)
-      * Food (+1, +2)
-      * Ore (+1, +2)
-      * Exploration Mission Progress Deck
-   * Peak Advantage
-      * Clear Discord
-   * Burn Advantages
-      * Wilderness or Conquest Task Progress
 * Diplomacy (Luxury, Food)
-   * Advantages
-      * Rapport (+1, +2)
-      * Luxury (+1, +2)
-      * Alliance
+   * Rapport (+1, +2)
+   * Luxury (+1, +2)
+   * Alliance
 * Sorcery (Mana)
-   * Advantages
-      * Lore (+1, +2)
-      * Mana (+1, +2)
-* Stability (Food, Timber, Ore)
-   * Advantages
-      * Fortune
+   * Lore (+1, +2)
+   * Mana (+1, +2)
+* Technology (Food, Timber, Ore)
+   * Fortune
+   * Survival (+1, +2)
+   * Timber (+1, +2)
+   * Food (+1, +2)
+   * Ore (+1, +2)
+   * Exploration Mission Progress Deck      
 * Military (Ore, Food, Timber)
-   * Advantages
-      * Combat (+1, +2)
-      * Tactics (+1, +2)
-      * Command (+1, +2)
+   * Combat (+1, +2)
+   * Tactics (+1, +2)
+   * Command (+1, +2)
 * Espionage (All Resources)
-   * Advantages
-      * Disguise
-      * Thievery
-      * Infiltration
+   * Disguise
+   * Thievery
+   * Infiltration
 
-## Locations
+## Mission Locations
 
-These should be permanent manipulations.
+Mission locations typically are ways to interact with obstacles that are in play. Usually mission locations have negative effects. It's not essential that mission locations have any effects at all.
 
-* Raising Tracks
+* Take Discord
+   * Can be modified based on obstacles at the location, such as take X discord for each type of Y obstacle
+* Take Condition
+* Remove Progress
+   * This makes the location much trickier to use for progress
+* Gain / Trade Resource
+* Affect Obstacle Movement
+   * Could have an obstacle or character move to / from the location
 
-Should be roughly ten of these that can be found, for all of the tracks.
+## Obstacles
 
-* More Resources
-* Using Disposition
-* Drawing Threats
+The bread and butter of obstacles is to make it harder to place progress as well as adding to the discord pool.
 
-### Spotlight Locations
+* Discord
+* Progress
 
-* Emphasizing Alliances
+## Spotlight Locations
+
+Spotlight locations usually give positive abilities.
+
+* Trading Resources
+* Gaining Resources
+* Buying Developments
+* Emphasize alliance with other factions
 
 ## Artifacts
 
 These should be very good, at the level of the best developments or the highest lifepath cards. One big advantage with artifacts is that they start the session in play.To-do: When the design stops changing so much, this will have mission design guidance that can be used to possibly hire other people to help make missions. Right now the game is in flux too much.
+
+## Threats
+
+* Lower resources
+* Lower resource tracks
+* Lower secrets
+* Increase discord
+* Increase apotheosis
+* Give conditions
+* Lower disposition
+* Broad effects (no mana for spells, etc)
 
 # Characters
 
@@ -599,17 +620,17 @@ Lucia,4,0,"Secret Police",,,,
 Lucia,4,0,"Hand of the Autarch",,,,
 Lucia,4,0,"Bitter Truth",,,,
 
-## Ideas
-
 Thea: Card that reinforces she does better when focusing on one thing at a time? Oniri maybe has one that reflects handling multiple things at once?
 
-Notes on culture and trade from ~1200s central Asia.
+# Thematic Ideas
 
-"Spectacular buildings were erected in the huge cities of Babylon, Persepolis, Pasargadae and Susa, where King Darius built a magnificent palace using the highest-quality ebony and silver from Egypt and cedar from Lebanon, fine gold from Bactria, lapis and cinnabar from Sogdiana, turquoise from Khwarezm and ivory from India."
+Buildings were erected in the huge cities of Babylon, Persepolis, Pasargadae and Susa, where King Darius built a magnificent palace using the highest-quality ebony and silver from Egypt and cedar from Lebanon, fine gold from Bactria, lapis and cinnabar from Sogdiana, turquoise from Khwarezm and ivory from India.
 
-"The most famous and valuable mounts were bred in the Fergana valley to the far side of the spectacular Pamir mountain range that straddles what is now eastern Tajikstan and north-eastern Afghanistan. Much admired for their strength, they are described by Chinese writers as being sired by dragons and are referred to as hanxue ma or 'sweating blood' - the result of their distinctive red perspiration that was caused either by a local parasite or by the horses' having unusually think skin and therefore being prone to blood vessels bursting during exertion."
+The most famous and valuable mounts were bred in the Fergana valley to the far side of the spectacular Pamir mountain range that straddles what is now eastern Tajikstan and north-eastern Afghanistan. Much admired for their strength, they are described by Chinese writers as being sired by dragons and are referred to as hanxue ma or sweating blood - the result of their distinctive red perspiration that was caused either by a local parasite or by the horses' having unusually think skin and therefore being prone to blood vessels bursting during exertion.
 
-"Diplomatic envoys typically accompanied large caravans bringing goods for trading, which then returned home with products that were sought after at home - including Red Sea pearls, jade, lapis lazuli and consumables such as onions, cucumbers, coriander, pomegranates, pistachios and apricots. Highly desirable frankincense and myrrh, which in fact came from Yemen and Ethiopia, were known in China as Possu - that is, Persian goods. As we know from one later source, the peaches of Samarkand were considered immensely valuable: 'as large as goose eggs' and with a famously rich color to them, they were known in China as 'Golden Peaches'."# Asset Deck Construction
+Diplomatic envoys typically accompanied large caravans bringing goods for trading, which then returned home with products that were sought after at home - including Red Sea pearls, jade, lapis lazuli and consumables such as onions, cucumbers, coriander, pomegranates, pistachios and apricots. Highly desirable frankincense and myrrh, which in fact came from Yemen and Ethiopia, were known in China as Possu - that is, Persian goods. As we know from one later source, the peaches of Samarkand were considered immensely valuable: 'as large as goose eggs' and with a famously rich color to them, they were known in China as Golden Peaches.
+
+# Asset Deck Construction
 
 As it currently stands, there are quite a few situational cards which can get tied up in player's hands. One thought is to make the asset deck more like a regular deck building game - such that you start drawing again when it's cleared out. To make that work, cards must be either discarded or played frequently.
 
@@ -1287,6 +1308,18 @@ Two threats are drawn at the beginning of each season. They are typically an eff
 
 Threats tend to attach to a specific type of location, sometimes the threat will require the players to use a type of location if they have one. Sometimes a threat will take a location slot from those available.
 
+### Threat Ideas
+
+* Military threats
+   * Could "burn" Red Bank locations so that the location cards almost function as a hit points as such for badness
+* Bandits
+* Building a wonder to keep up with the Empire
+   * Gardens of the Pomegranates
+* Assassination
+* Werewolf infection
+* Pandemic
+* Magical Backlash
+
 # Interacting Subsystems
 
 ## The Spatial Game
@@ -1399,29 +1432,6 @@ One pattern that might be worthwhile is placing a certain amount of progress on 
 It would be nice if the threats weren't necessarily a guaranteed occurrence. One way that could happen is via a trigger causing a dice roll. These might be special sorts of tests where things like mana couldn't be used (since mana requires a caster and backlash). Something like, "Rare: Red Bank Test: Espionage 3. Success: Blah. Failure: Blah." Might be worth having that as a generally available test type?
 
 On thinking about it more, this probably isn't necessary. The "not a guaranteed occurrence" can probably be handled by triggers. Although, the triggers are doubled, so need to take that into account.
-
-# Threat Effects
-
-* Lower resources
-* Lower resource tracks
-* Lower secrets
-* Increase discord
-* Increase apotheosis
-* Give conditions
-* Lower disposition
-* Broad effects (no mana for spells, etc)
-
-# Threat Ideas
-
-* Military threats
-   * Could "burn" Red Bank locations so that the location cards almost function as a hit points as such for badness
-* Bandits
-* Building a wonder to keep up with the Empire
-   * Gardens of the Pomegranates
-* Assassination
-* Werewolf infection
-* Pandemic
-* Magical Backlash
 
 # Old Threats
 
