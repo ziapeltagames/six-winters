@@ -1,14 +1,14 @@
 # Six Winters
 
-This section is still very much unfinished. Currently, the procedures mostly live in the TURN_OVERVIEW.md file as well as in various brainstorming documents and in the designer's head.
+This section is still very much unfinished and in progress. Additionally, it is not always maintained with current content.
 
 # Overview
 
-The players control Red Bank, a growing society that is under constant threat from the Empire of the Autarch. The Autarch is working to achieve an apotheosis, becoming powerful and unstoppable. The players are trying to thwart this apotheosis by discovering the secrets contained within the Animaelic Forest, the source of the Autarch's power, and her greatest weakness.
+**Six Winters** is a two player cooperative mission based campaign game. Each session, players choose missions to undertake, which are represented by different decks of cards. Players select characters for the mission from a growing character pool, taking into consideration the strengths and weaknesses of each character. A mission takes about ninety minutes to play. The design goal is to make a game for nerdy couples who enjoy a game with a strong narrative that can be played on a weeknight. 
 
-Six Winters is a mission based campaign game. Each session, players choose a mission to udertake, which is represented by different decks of cards. Players select characters for the mission from a common pool, taking into consideration the strengths and weaknesses of each character. A mission takes about an hour to play, and is played by one or two players.
+The players control **Red Bank**, a growing society that is under constant threat from the **Empire of the Autarch**. The Autarch is working to achieve an **apotheosis**, becoming powerful and unstoppable. The players are trying to thwart this apotheosis by discovering the secrets contained within the **Animaelic Forest**, the source of the Autarch's power, but also her greatest weakness.
 
-There is a race between the Autarch gaining apotheosis and Red Bank learning secrets. If the Autarch gains apotheosis, it is possible for the players to win the campaign, although it becomes much more difficult.
+Along the way, seasons will pass, the characters will grow and change, and players will make choices about the strategic direction for Red Bank.
 
 # Missions
 
@@ -24,7 +24,7 @@ TBD
 
 ### Quest
 
-# Card Structure
+# Cards
 
 TBD
 
@@ -49,7 +49,7 @@ Tags might appear on cards to give them more flavor and pair with character abil
 
 Common tags: Wilderness, Urban, Red Bank, Sorcery, Guard, Undead, Beast, Diplomat, Trap, Challenge, Environment, Condition, Asset, Resource, Secret, Favor
 
-## Card Decks
+## Decks
 
 Finally, the different types of cards get placed into different decks depending on how they're used.
 
@@ -66,13 +66,88 @@ Finally, the different types of cards get placed into different decks depending 
 
 ## Conditions
 
-## Lifepath
+## Motivation
 
 ## Discord
 
-## Resolve
+## Tags
 
-## Traits
+# Setting Up a Session
+
+TBD
+
+* Choose Spotlight Player
+* Spotlight Player Rolls Starting Resources
+* Draw Starting Threat
+* Choose Missions
+* Choose Spotlight Locations
+     * Type of locations may be dictated by threat card
+     * Six total spotlight locations
+* Divide Up Characters
+     * Each player needs at least one character
+* Divide Up Assets
+     * Must place character cards (lifepath and discord) with appropriate group
+* Place Starting Mission Cards
+* Place Characters at Locations
+     * At least one character in group must be in mission location
+
+# Turns
+
+A turn in _Six Winters_ is composed of the following phases.
+
+# Refresh
+
+* Any exhausted cards are refreshed
+* Player may end mission during any refresh phase
+     * Players who voluntarily end their mission may still take actions with characters in spotlight and threat locations until the other player ends their mission
+          * Event cards are still drawn for any obstacle and location triggers in spotlight locations
+     * When both players end their missions, the season is over
+
+# Movement
+
+* Move to any location in the same mission area or to/from a spotlight location
+     * Must leave at least one character in current mission area
+
+# Move Obstacles
+
+* Any obstacles at mission locations with no characters are moved to the mission staging area
+* Players may move any obstacles from the staging area to any location with characters
+
+# Resolve
+
+* Each player may choose one location occupied by a character in the party
+     * Players may lower discord pool by total resolve of all characters in chosen location
+     * Player gives one character in chosen location a condition
+
+# Event
+
+* Draw event card
+     * If a discord card is drawn, resolve card and draw again
+* If event card has asset icon, draw one card from asset deck
+* Resolve timer trigger
+* Resolve location triggers
+* Resolve obstacle triggers     
+     * Players may take a condition to defend against obstacles using the listed skill if the obstacles are at the same location
+     * Most obstacles in mission staging area move to an occupied location after they are triggered
+
+# Encounter
+
+* Draw an encounter card
+     * Event: resolve immediately
+          * Any skill tests must be taken by characters in a mission area
+          * Characters in the same area may combine skills
+     * Hand: place in hand
+     * Location / Attachment / Obstacle: place as directed
+          * Unless otherwise specified, obstacles are placed in the mission staging area
+
+# Action
+
+* Each character may perform one action
+* Test: Characters may add skills together for test if they are at the same location
+     * Any rerolls apply to all skill dice used
+     * Owning player makes rolls
+* Task: Player places progress tokens equal to listed skill or track
+     * Subtract the hindrance of all obstacles at the location
 
 # Actions
 

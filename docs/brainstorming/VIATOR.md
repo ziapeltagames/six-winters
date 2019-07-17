@@ -1,8 +1,7 @@
-iator’s charm
+Viator’s charm
 
 “Why, but of course. Tonight is a night to be merry – worries should be left at the door. A small little town like Redbank can cause no disturbance here.”
 
- 
 
 Viator’s sympathy
 

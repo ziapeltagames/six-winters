@@ -1,7 +1,7 @@
 mission,deck,ctriggers,title,tags,text,lsummary,csummary,rsummary,blocka,blockb,blockc,blockd,blocke
 
-"Threat","Year One",,"Moonrider Outpost","Threat: Diplomacy","Raiders have begun fighting over disputed grain fields.",,,"xxWATER","When threat comes into play, add progress counters equal to Diplomacy.","xxACTION Brokering Peace. Test (Rapport 4). If passed, add one progress counter.","xxWATER Raid. Remove one progress counter from this threat. If there are none to remove, spend 3 xxFOOD or lose 1 xxSTABILITY.","xxCIRCLE After mission, burn threat if it has any progress counters."
-"Threat","Year One",,"Silk Roads","Threat: Technology","If you aren't building relationships - you will be left behind.",,,"xxFIRE","When threat comes into play, add progress counters equal to Technology.","xxACTION Construction. Spend 9 xxTIMBER to add one progress counter.","xxFIRE Levy. Remove one progress counter from this threat. If there are none to remove, lose 1 xxLUXURY die.","xxCIRCLE After mission, burn threat if it has any progress counters."
+"Threat","Act One",,"Moonrider Outpost","Threat: Diplomacy","Raiders have begun fighting over disputed grain fields.",,,"xxWATER","When threat comes into play, add progress counters equal to Diplomacy.","xxACTION Brokering Peace. Test (Rapport 4). If passed, add one progress counter.","xxWATER Raid. Remove one progress counter from this threat. If there are none to remove, spend 3 xxFOOD or lose 1 xxSTABILITY.","xxCIRCLE After mission, burn threat if it has any progress counters."
+"Threat","Act One",,"Silk Roads","Threat: Technology","If you aren't building relationships - you will be left behind.",,,"xxFIRE","When threat comes into play, add progress counters equal to Technology.","xxACTION Construction. Spend 9 xxTIMBER to add one progress counter.","xxFIRE Levy. Remove one progress counter from this threat. If there are none to remove, lose 1 xxLUXURY die.","xxCIRCLE After mission, burn threat if it has any progress counters."
 
 "The Necromancer of North Oaks","Initial","xxSTARTING","The Necromancer","Obstacle: Foe","A cloaked figure hangs above the ground, limp and lifeless, but the power exuding from it tells you that it is not all that it seems. ","xxDEFENSE / 1 xxPSYCHE",,"xxAIR xxBUST","Attach to Undari's Tomb","xxACTION Circle of Banishing. May take this action only if there are no Restless Dead at this location. Test (Lore 4). If passed, burn card.","xxAIR Enervation Spell. One character at a North Oaks location takes 2 xxBODY.","xxBUST Summoning Circle. If possible, find and play a Restless Dead card from the encounter deck before reshuffling."
 "The Necromancer of North Oaks","Initial","xxSTARTING","Restless Dead","Obstacle: Foe","A mere shadow of a human, walking like a marionette yanked on strings.","xxDEFENSE / 1 xxBODY",,"xxEARTH xxWATER xxFIRE","Attach to Undari's Tomb.","xxACTION Battle the Undead. Test (Combat). For every two successes, burn one Restless Dead at this location.","xxEARTH The Hunger. Move one location right.","xxWATER Lose 1 xxPROGRESS at this location.","xxFIRE Take 1 xxDISCORD."
@@ -153,13 +153,18 @@ mission,deck,ctriggers,title,tags,text,lsummary,csummary,rsummary,blocka,blockb,
 "Sowing Rebellion","Encounter","xxWATER","Sabotaged Cataphracts","Event",,,,,"(Test Tactics 1). If you pass, you may discard any one threat in play. If you fail, gain one xxDISCORD."
 "Sowing Rebellion","Encounter","xxAIR","Friendly Fascism","Event",,,,,"(Test Rapport 1). If you pass, gain 1 xxFORTUNE. If you fail, gain one xxDISCORD."
 
-"Tragedy and Conspiracy","Inital","xxSTARTING","Weaver of Secrets","Obstacle: Foe","How much destruction can be caused by one motivated person? Countless amounts.","2 xxPROGRESS 2 xxDISCORD / xxPSYCHE",,"xxMOON","Placement: House of Cloves","xxMOON Take one xxAPOTHEOSIS.","xxACTION Test Lore 5. On success, discard."
-"Tragedy and Conspiracy","Inital","xxSTARTING","Autarch Spies","Obstacle: Foe","Thea no longer represents our true interests! Glory to Red Bank!","3 xxPROGRESS 1 xxDISCORD / xxPSYCHE",,,"Placement: Graywash Spring","xxACTION Test Combat 3. On success, discard."
+"Threat","Showdown",,"Veil Ward","Threat: Sorcery","TBD",,,"xxEARTH","At start of mission, add progress counters equal to Sorcery.","xxACTION"
+
+"Tragedy and Conspiracy","Initial","xxSTARTING","Weaver of Secrets","Obstacle: Foe, House of Cloves","One suitably motivated can cause limitless destruction. Only by intoning their true name are they be banished.","3 xxPSYCHE | 3 xxDEFENSE | 3 xxTRACKING",,,"xxACTION Speak Aloud the Weaver's True Name (Lore xxDEFENSE)."
+"Tragedy and Conspiracy","Initial","xxSTARTING","Violent Locals","Obstacle: Foe","Descriptive Text.","",
+"Tragedy and Conspiracy","Initial","xxSTARTING","Conspiracy Spreads","Obstacle: Foe","I heard that Thea's deathless puppet killed  Text.","",
+"Tragedy and Conspiracy","Initial","xxSTARTING","Autarch Spies","Obstacle: Foe","Thea no longer represents our true interests! Glory to the real Red Bank!","",
+"Tragedy and Conspiracy","Initail","xxSTARTING","Autarch Spies","Obstacle: Foe","Thea no longer represents our true interests! Glory to the real Red Bank!","3 xxPROGRESS 1 xxDISCORD / xxPSYCHE",,,"Placement: Graywash Spring","xxACTION Test Combat 3. On success, discard."
 
 "Tragedy and Conspiracy","Encounter","xxTIMER xxEARTH","Conspiracy Spreads","Obstacle: Issue","Nepotian saw Oniri fell that poor boy low. Why isn't anyone allowed to talk about it?","2 xxPROGRESS 2 xxDISCORD / xxPSYCHE",,,"Placement: Current mission path.","xxACTION Test Rapport 3. On success, discard."
-"Tragedy and Conspiracy","Encounter","xxTIMER xxEARTH","Autarch Spies","Obstacle: Foe","Thea no longer represents our true interests! Glory to Red Bank!","3 xxPROGRESS 1 xxDISCORD / xxPSYCHE",,,"Placement: Graywash Spring","xxACTION Test Combat 3. On success, discard."
+"Tragedy and Conspiracy","Encounter","xxTIMER xxEARTH","Autarch Spies","Obstacle: Foe","Thea no longer represents our true interests! Glory to the real Red Bank!","3 xxPROGRESS 1 xxDISCORD / xxPSYCHE",,,"Placement: Graywash Spring","xxACTION Test Combat 3. On success, discard."
 "Tragedy and Conspiracy","Encounter","xxTIMER xxWATER","Conspiracy Spreads","Obstacle: Issue","Was it under Thea's orders to make us hate the Empire more?","2 xxPROGRESS 2 xxDISCORD / xxPSYCHE",,,"Placement: Current mission path.","xxACTION Test Rapport 3. On success, discard."
-"Tragedy and Conspiracy","Encounter","xxTIMER xxWATER","Autarch Spies","Obstacle: Foe","Thea no longer represents our true interests! Glory to Red Bank!","3 xxPROGRESS 1 xxDISCORD / xxPSYCHE",,,"Placement: Graywash Spring","xxACTION Test Combat 3. On success, discard."
+"Tragedy and Conspiracy","Encounter","xxTIMER xxWATER","Autarch Spies","Obstacle: Foe","Thea no longer represents our true interests! Glory to the real Red Bank!","3 xxPROGRESS 1 xxDISCORD / xxPSYCHE",,,"Placement: Graywash Spring","xxACTION Test Combat 3. On success, discard."
 "Tragedy and Conspiracy","Encounter","xxTIMER xxWATER","Violent Locals","Obstacle: Foe","Text.","1 xxPROGRESS 1 xxDISCORD / xxBODY",,,"Placement: Current mission path.","xxACTION Test Survival 3."
 "Tragedy and Conspiracy","Encounter","xxTIMER xxWATER","Unalive and Alone","Event",,"2 xxPROGRESS 2 xxDISCORD / xxPSYCHE",,,"Placement: Current mission path.","xxACTION Test Survival 3."
 "Tragedy and Conspiracy","Encounter","xxTIMER xxFIRE","Conspiracy Spreads","Obstacle: Issue","Text.","2 xxPROGRESS 2 xxDISCORD / xxPSYCHE",,,"Placement: Current mission path.","xxACTION Test Rapport 3. On success, discard."
@@ -176,6 +181,21 @@ mission,deck,ctriggers,title,tags,text,lsummary,csummary,rsummary,blocka,blockb,
 "Tragedy and Conspiracy","Encounter","xxWATER","Title","Event",,,,"Technology"
 "Tragedy and Conspiracy","Encounter","xxWATER","Title","Event",,,,"Fortune?"
 "Tragedy and Conspiracy","Encounter","xxAIR","Title","Event",,,,"Fortune?"
+
+Unalive and Alone - Oniri.
+Under Siege - Thea.
+
+## Events
+
+Raid Under Sparrow Keep
+Traces of Power - Helps with Veil Ward.
+Community Building
+Echoes of Magic
+A Father's Vengeance
+Funeral Dirge
+Oniri's Innocence
+Aid from Burgan Vale - Yasmina.
+Surprise Attack
 
 "Whispers at Lily Manor","Initial","xxSTARTING","Viator"
 "Whispers at Lily Manor","Initial","xxSTARTING",

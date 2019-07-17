@@ -6,14 +6,16 @@ Influences: *Incan Gold*, *Tales of the Arabian Nights*, *7th Continent*, *City 
 
 # Directory Structure
 
+There are three subdirectories for organizing content.
+
 ## csv
 
-This is the main actively developed area. There are .csv files for most cards in the game. They get imported into InDesign to quickly create physical card decks for playtesting. There are cards for missions, developments, and character decks, along with a progress deck.
+This is the main actively developed area. There are .csv files for most cards in the game. They get imported into InDesign via Data Merge to quickly create physical card decks for playtesting. There are cards for missions, developments, and characters, which interact in various ways.
 
 ## docs
 
-Markdown files of various documentation for *Six Winters*.
+Markdown files of various documentation for *Six Winters*. The core rules are in [RULES.md](docs/RULES.md). There is also a doc for brainstorming ideas, as well as recording playtest thoughts, although I don't use the playtest doc as often as I should. 
 
 ## src
 
-Some python code to calculate the probability of different card and dice combinations in the game.
+Some python code to calculate the probability of different card and dice combinations in the game. I use this to make informed design decisions. There is also some reinforcment learning code to discover optimal play strategies.
