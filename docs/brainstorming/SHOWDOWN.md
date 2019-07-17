@@ -89,13 +89,14 @@ This can impact Yasmina and Oniri.
 
 * Difficulty: 3
 * Skills: Command, Combat, Rapport, Lore
+* Triggers: Earth, Water, Air, Fire
 
 ## Locations
 
-1) Graywash Spring (Rapport)
-2) Outer Fernbrake (Command)
-3) House of Lavender (Lore)
-4) Sparrow Keep (Combat)
+1) Outer Fernbrake, Command, Red Bank, Water, 1 Stability if Violent Locals are present
+2) Graywash Spring, Rapport, Red Bank
+3) House of Lavender, Lore, Urban, Spend 8 xxLUXURY to burn all spies at this location?
+4) Sparrow Keep, Combat, Dungeon, Fire, 2 Discord if Autarch Spies are present
 
 ## Achievements
 
@@ -109,44 +110,47 @@ This can impact Yasmina and Oniri.
 
 ## Obstacles
 
-Weaver of Secrets (LOCKED) - Lore. Can make it easier with progress from veil ward.
+Weaver of Secrets (LOCKED) - Lore. 3 xxPSYCHE | 4 xxDEFENSE | 4 xxTRACKING. Can make it easier with progress from veil ward. Earth: Cause 2 discord for each conspiracy in play. Water: Moves to where the most progress is and remove 2 of it.
 
-Violent Locals - Rapport,
-Conspiracy Spreads - Command, 
-Autarch Spies - Combat,
-Autarch Spies - Combat,
+Violent Locals - Rapport. Mob. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Air: 2 discord. Fire: attack.
+Conspiracy Spreads - Command. 2 xxPSYCHE | 0 xxDEFENSE | 3 xxTRACKING. Special: Discard when defeated. Air: 1 discord.
+Autarch Spies - Combat. Mob. 2 xxBODY | 2 xxDEFENSE | 2 xxTRACKING. Water: Remove 2 progress. Fire: 2 discord.
+Autarch Spies - Combat. Mob. 2 xxBODY | 2 xxDEFENSE | 2 xxTRACKING. Water: Remove 2 progress. Fire: 2 discord.
 
-Violent Locals - Rapport,
-Violent Locals - Rapport,
-Violent Locals - Rapport,
-Autarch Spies - Combat, 
-Autarch Spies - Combat, 
-Autarch Spies - Combat, 
-Conspiracy Spreads - Command
-Conspiracy Spreads - Command
-The Waiting Game - Survival
+Violent Locals - Rapport. Mob. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Air: 2 discord. Fire: attack.
+Violent Locals - Rapport. Mob. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Air: 2 discord. Fire: attack.
+Violent Locals - Rapport. Mob. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Air: 2 discord. Fire: attack.
+Autarch Spies - Combat. Mob. 2 xxBODY | 2 xxDEFENSE | 2 xxTRACKING. Water: Remove 2 progress. Fire: 2 discord. 
+Autarch Spies - Combat. Mob. 2 xxBODY | 2 xxDEFENSE | 2 xxTRACKING. Water: Remove 2 progress. Fire: 2 discord. 
+Autarch Spies - Combat. Mob. 2 xxBODY | 2 xxDEFENSE | 2 xxTRACKING. Water: Remove 2 progress. Fire: 2 discord. 
+Conspiracy Spreads - Command. 2 xxPSYCHE | 0 xxDEFENSE | 3 xxTRACKING. Special: Discard when defeated. Air: 1 discord.
+Conspiracy Spreads - Command. 2 xxPSYCHE | 0 xxDEFENSE | 3 xxTRACKING. Special: Discard when defeated. Air: 1 discord.
+The Waiting Game - Survival. 1 xxBODY | 0 xxDEFENSE | 4 xxTRACKING.
 
 ## Motivation
 
-Unalive and Alone - Lore, Oniri decides whether to help,
-Under Siege - Command, People question Thea’s leadership,
+Unalive and Alone - Lore. 1 xxPSYCHE | 2 xxDEFENSE | 3 xxTRACKING. Oniri decides whether to help. Water: Oniri takes a condition.
+Under Siege - Command. 2 xxPSYCHE | 2 xxDEFENSE | 3 xxTRACKING. People question Thea’s leadership. Air: Thea takes a condition. Fire: Discard one conspiracy card.
 
 ## Events
 
-Raid Under Sparrow Keep - Combat, 
-Traces of Power - Lore, Helps with Veil Ward.
-Community Building - Command, 
-Echoes of Magic - Lore, 
-A Father's Vengeance - Rapport, 
-Funeral Dirge Rapport, 
-Oniri's Innocence - Command, 
-Aid from Burgan Vale - Helpful, Yasmina.
-Purging the Filth - Combat
+Community Building - Command, 2, positive, add progress to obstacles
+Echoes of Magic - Lore, 2, take 1 discord
+Oniri's Innocence - Command, 3, take 1 discord
+Purging the Filth - Combat, 2, take a condition
+
+A Father's Vengeance - Harmful, take 1 discord / violent locals
+Aid from Burgan Vale - Helpful, gain 2 xxMANA dice, Yasmina.
+
+Funeral Dirge - Rapport, 3, Burn,
+Raid Under Sparrow Keep - Combat, 3, Burn spies
+Traces of Power - Lore, 3, Burn, Helps with Veil Ward.
 
 # WHISPERS AT AT LILY MANOR
 
 * Difficulty: 3
 * Skills: Rapport, Tactics, Disguise, Thievery
+* Triggers: Air, Fire, Earth, Water
 
 ## Locations
 
@@ -154,6 +158,16 @@ Purging the Filth - Combat
 2) Goldspike (Rapport)
 3) Hall of Brass (Tactics)
 4) Wrenhouse (Disguise)
+
+"Tragedy and Conspiracy","1) Outer Fernbrake","Red Bank","The people of Outer Fernbrake are growing to distrust Thea's leadership.","xxWATER","xxACTION Carrots and Sticks. Test (Command xxPROGRESS).","xxWATER If there are any Violent Locals here, lose 1 xxSTABILITY."
+"Tragedy and Conspiracy","2) Graywash Spring","Red Bank","The river out of North Oaks winds its way through the community of close knit cottages.",,"xxACTION Helping the Locals. Test (Rapport xxPROGRESS)."
+"Tragedy and Conspiracy","3) House of Lavender","Red Bank, Urban","Swirls of intoxicating smoke tie together the deals and favors with an ephemeral bond.",,"xxACTION Channeling Ley Lines. Test (Lore xxPROGRESS).","Take 2 xxDISCORD and gain 2 xxMANA dice."
+"Tragedy and Conspiracy","4) Sparrow Keep","Dungeon","How is it that a nexus of such evil activity was allowed to grow so large?","xxFIRE","xxACTION Assault! Test (Combat xxPROGRESS).","xxFIRE If there are any Autarch Spies here, take 2 xxDISCORD."
+
+"Whispers at Lily Manor","1) Beetle Burrough","Urban","You look like someone who wants to know a secret?",,"xxACTION Stealing Secrets. Test (Thievery xxPROGRESS)."
+"Whispers at Lily Manor","2) Goldspike","Faction","Who knows what future badness brings but the keeper of secrets in a chamber of gold?",,"xxACTION Charm Offensive. Test (Rapport xxPROGRESS)."
+"Whispers at Lily Manor","3) Hall of Brass","Faction","Zarrah greets all newcomers in the great hall of world renown.","xxAIR","xxACTION Analyzing Defenses. Test (Tactics xxPROGRESS).","xxAIR If there are any issues here, one character at this location is angry."
+"Whispers at Lily Manor","4) Wrenhouse","Urban","Both regret and conviction in equal measure.",,"xxACTION Sex and Drugs. Test (Disguise xxPROGRESS).","Take 2 xxDISCORD to move an obstacle to this location."
 
 ## Achievements
 
@@ -166,18 +180,18 @@ Sorcery - Progress and Resources
 
 ## Obstacles
 
-The Subtect (LOCKED)
-Zarrah (LOCKED)
-High Society (LOCKED)
+The Subtect (LOCKED) - Thievery
+Zarrah (LOCKED) - Command
+High Society (LOCKED) - Disguise
 
-Strong Arm Tactics
+Strong Arm Tactics - Combat
 
-Viator
-Sut
-Global Stability
-Long Shadows
-Eastern Isolationism
-The Djinn
+Viator - Rapport
+Sut - Rapport
+Global Stability - Tactics
+Long Shadows - Command
+Eastern Isolationism - Tactics
+The Djinn - Lore
 
 ## Motivation
 

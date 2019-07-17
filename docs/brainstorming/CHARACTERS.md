@@ -1,6 +1,14 @@
 # Character Cards
 
-Ideas for personality cards and relationships.
+Ideas for character cards, motivation, and discord.
+
+# Motivation
+
+Currently, there are motivation cards for each character. Do they need to be more general? If a card is for character X and they aren't on the mission, what happens? Could discard it, which is probably the easiest approach. Or it could be burned.
+
+Maybe some motivation cards could be general, such that any character could tackle them? Then again, that brings up weird things where a team of characters could make progress on it. And they're supposed to be solo sorts of efforts. One way around that is to attach them to a character.
+
+# Character Cards
 
 ## Year One
 
