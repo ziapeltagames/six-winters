@@ -1,38 +1,47 @@
-name,type,titlea,titleb,titlec,titled,text,achieva,costa,achievb,costb,achievc,costc,achievd,costd,achieve,coste,achievf,costf,achievg,costg,achievh,chosth
+name,type,skills,resources,text,aftera,rewarda,rewardb,rewardc,rewardd,rewarde,rewardf,rewardg,rewardh,rewardi,rewardj
 
-"The Necromancer of North Oaks","Exploration, Year 1, Difficulty 2","1) Gray River (Survival)","2) Mirror Woods (Combat)","3) Musty Tomb (Lore)","4) Outer Fernbrake (Command)","Deep within the oak forest lies an ancient source of evil.","An outpost in the dark forest","xxSQUARE Spend 6 xxPROGRESS and 4 xxFOOD","Gather supplies","xxSQUARE Spend 10 xxPROGRESS","Solace for the slaughtered victims","xxSQUARE Spend 12 xxPROGRESS","Roads and mills","xxSQUARE Spend 5 xxTIMBER and 3 xxORE","Incant a ward against the deathless","xxSQUARE Spend 4 xxMANA","A kindness for the captive shadow","xxSQUARE Banish the necromancer"
-"The Sunriders","Alliance, Year 1, Difficulty 2","1) Horsethief Meadows (Command)","2) Hogel Manor (Rapport)","3) Song Bluff (Tactics)","4) Spirit Lake (Combat)","The people of the steppes are a powerful ally in the fight against the Empire.","Pleas for unity","xxSQUARE Spend 6 xxPROGRESS and 3 xxMANA","Discuss the Empire's military strategy","xxSQUARE Spend 5 xxPROGRESS and advance mission stage","Rumors of smoke and fire","xxSQUARE Spend 11 xxPROGRESS","A great feast","xxSQUARE Spend 8 xxFOOD","Prepare for war","xxSQUARE Buy a Military development","Positive sentiment towards Red Bank","xxSQUARE No issues are in play"
+"The Necromancer of North Oaks","Exploration, Year 1, Difficulty 2","Survival, Combat, Lore, Command","Food, Ore","Deep within the oak forest lies an ancient source of evil.","If the necromancer was killed, give one of the characters who helped kill the necromancer the tag deathtouched. Unlock the Deathtouched asset card and add it to their character deck.","xxSQUARE Improve Survival","xxSQUARE Improve Combat","xxSQUARE Increase xxTIMBER track","xxSQUARE Increase xxTIMBER track","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point"
 
-"Doom Under Sightrock","Exploration, Year 1, Difficulty 3","A Spreading Fear","Salmon Run (Command)","Journey Under the Rock","The Weird Rock (Survival)","Eldritch Echoes","Pool Beyond Space and Time (Lore)","Bonds of Friendship","Lush Fields (Rapport)","xxTIMER Spend 1 xxFOOD or gain 3 xxDISCORD.",,"A grim and hopeless despair permeates the lush fields and streams in the shadow of Sightrock.","xxSQUARE 10","+1 xxFOOD Track","xxSQUARE 15","+1 xxFOOD Track","xxSQUARE 20","+1 xxFOOD Track","xxSQUARE 15","+1 Command","xxSQUARE 25","+1 Survival"
-"Gravewood","Alliance, Year 1, Difficulty 3","Old Suspicions","First Haven (Thievery)","The Iconoclast","Green Haven (Command)","Island of Apples","Spinner Lakes (Rapport)","Tales of Myth","Maplewood (Lore)","xxTIMER Spend 1 xxLUXURY or gain 2 xxDISCORD.",,"Fiercely independent and secretive, the woodsfolk are sparing with their trust.","xxSQUARE 10","+1 Gravewood Disposition","xxSQUARE 15","+1 Gravewood Disposition","xxSQUARE 20","+1 Gravewood Disposition","xxSQUARE 15","+1 Thievery","xxSQUARE 25","+1 Rapport"
-"Into the Cold","Infiltration, Year 1, Difficulty 2","Rumors of a Frozen Hell","Rosy Freetrader (Disguise)","In the Vaults","Map Hall (Thievery)","A Possible Ally","House of Cloves (Rapport)","Payback","Guild of Secrets (Combat)","xxTIMER Spend 1 xxMANA or gain 1 xxAPOTHEOSIS.",,"Eastkeep is the safest entry point to the Empire.","xxSQUARE 20","+1 xxSECRETS Track","xxSQUARE 30","+1 xxSECRETS Track","xxSQUARE 5","+2 xxLUXURY dice","xxSQUARE 10","+1 Disguise","xxSQUARE 30","+1 Thievery"
+"Doom Under Sightrock","Exploration, Year 1, Difficulty 3","Command, Survival, Lore, Rapport","Food, Mana","A grim and hopeless despair permeates the lush fields and streams in the shadow of Sightrock.",,"xxSQUARE Improve Lore","xxSQUARE Improve Survival","xxSQUARE Increase Food Track","xxSQUARE Increase Food Track","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point"
 
-"Ballad of Eight Ears","Exploration, Year 2, Difficulty 4","Deer Hunt","Pine Bluff (Survival)","Polymorphic Deception","Rocky Outcrop (Lore)","Eight Ears Revealed","Gray Forest (Combat)","Imperial Surveys","Azure Peak (Tactics)","xxTIMER Spend 2 xxFOOD or gain 1 xxAPOTHEOSIS.",,"The cursed hermit known as Eight Ears guards the dark hollows of Gray Forest.","xxSQUARE 20","+1 xxORE Track","xxSQUARE 25","+1 xxORE Track","xxSQUARE 30","+1 xxORE Track","xxSQUARE 5","+2 xxORE dice","xxSQUARE 20","+1 Combat","xxSQUARE 25","+1 Lore"
-"Burgan Vale","Alliance, Year 2, Difficulty 3","Audience with Elisa","Shimmerhall (Command)","Legend of the Palimpsest","Arankh (Lore)","The Academic","Blue Rock (Survival)","Silence and Contemplation","Lower Wash (Disguise)","xxTIMER Spend 3 xxMANA or gain 3 xxDISCORD.",,"The people of Burgan Vale treat the Veil - the energies which bind the land the people together - as the centerpiece for every aspect of life.","xxSQUARE 15","+1 Burgan Vale Disposition","xxSQUARE 20","+1 Burgan Vale Disposition","xxSQUARE 25","+1 Burgan Vale Disposition","xxSQUARE 15","+1 xxMANA Track","xxSQUARE 25","+1 Lore"
-"Sowing Rebellion","Infiltration, Year 2, Difficulty 4","A Dark Rot","Free Guilder Inn (Disguise)","The Resistance","Dowling Farm (Command)","The War Machine","Whitehold (Tactics)","Raiding Imperial Coffers","Under Whitehold (Thievery)","xxTIMER Spend 5 xxLUXURY or gain 1 xxAPOTHEOSIS.",,"The breadbasket of the Empire, the people of Guilder Farms are not content.","xxSQUARE 30","+1 xxSECRETS Track","xxSQUARE 40","+1 xxSECRETS Track","xxSQUARE 15","+1 xxLUXURY Track","xxSQUARE 15","+1 Disguise","xxSQUARE 30","+1 Thievery"
-"Tragedy and Conspiracy","Showdown, Year 2, Difficulty 4","Conspiracy of the Common Folk","Outer Fernbrake (Rapport)","Raid Under Sparrow Keep","Sparrow Keep (Combat)","Traces of Power","House of Cloves (Lore)","Community Building","Graywash Spring (Command)","xxTIMER Spend 7 xxFOOD or gain 1 xxAPOTHEOSIS.",,"Imperials have fanned the flames of conspiracy against Red Bank in the wake of a terrible tragedy.","xxSQUARE 30","Discard Veil Ward","xxSQUARE 5","+1 Victory Point","xxSQUARE 10","+1 Victory Point","xxSQUARE 15","+1 Victory Point","xxSQUARE 20","+1 Victory Point","xxSQUARE 25","+1 Victory Point","xxSQUARE 30","+1 Victory Point"
-"Whispers at Lily Manor","Showdown, Year 2, Difficulty 4","Loose Lips","Beetle Borough (Disguise)","Backup Plans","Goldspike (Tactics)","A Plot Revealed","Hall of Brass (Command)","Zarah's Charm","Wrenhouse (Rapport)","xxTIMER Spend 4 xxLUXURY or gain 1 xxAPOTHEOSIS.",,"A gathering of cultures, Imperials work to spread distrust against Red Bank.","xxSQUARE 10","Unlock Viator","xxSQUARE 20","Discard Weaver of Secrets","xxSQUARE 10","+1 Victory Point","xxSQUARE 15","+1 Victory Point","xxSQUARE 20","+1 Victory Point","xxSQUARE 25","+1 Victory Point"
+"The Sunriders","Alliance, Year 1, Difficulty 2","Command, Rapport, Tactics, Combat","Food, Military","The people of the steppes are a powerful ally in the fight against the Empire.","If Ile is still in play, make a character shaken and then increase their motivation by one.","xxSQUARE Improve Tactics","xxSQUARE Improve Rapport","xxSQUARE Unlock Spirit Lake spotlight location","xxSQUARE Increase xxSTABILITY track","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point"
 
-"Towards Prominence","Infiltration, Year 3, Difficulty 4",,,,,,,,,,,"TBD","xxSQUARE 30","+1 xxSECRETS track"
-"Crescent Hold","Alliance, Year 3, Difficulty 4",,,,,,,,,,,"TBD","xxSQUARE 30","+1 Crescent Hold Disposition"
-"Pelakhar's Loyalty","Quest, Year 3, Difficulty 3",,,,,,,,,,,"TBD","xxSQUARE 30","+1 Quest Point"
-"Ferry's Glenn","Exploration, Year 3, Difficulty 4",,,,,,,,,,,"TBD","xxSQUARE 30","+1 xxMANA Track"
-"The Gossamer Veil","Quest, Year 3, Difficulty 4",,,,,,,,,,,"TBD","xxSQUARE 30","+1 Quest Point"
+"Gravewood","Alliance, Year 1, Difficulty 3","Thievery, Command, Rapport, Lore","Ore, Luxury","Fiercely independent and secretive, the woodsfolk are sparing with their trust.","Aftermath text.","xxSQUARE Improve Thievery","xxSQUARE Improve Command","xxSQUARE Unlock Isle of Apples spotlight location","xxSQUARE Increase xxSTABILITY track","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point"
 
-"Lily Manor","Alliance, Year 4, Difficulty 4",,,,,,,,,,,"TBD","xxSQUARE 30","+1 Lily Manor Disposition"
-"Aren's Forge","Quest, Year 4, Difficulty 3",,,,,,,,,,,"TBD","xxSQUARE 30","+1 Quest Point"
-"Thedda's Palimpsest","Quest, Year 4, Difficulty 5",,,,,,,,,,,"TBD","xxSQUARE 30","+1 Quest Point"
-"Direct Assault","Showdown, Year 4, Difficulty 5",,,,,,,,,,,"TBD","xxSQUARE 30","+1 Victory Point"
-"Enemy Within","Showdown, Year 4, Difficulty 5",,,,,,,,,,,"TBD","xxSQUARE 30","+1 Victory Point"
+"Into the Cold","Infiltration, Year 1, Difficulty 2","Disguise, Thievery, Rapport, Combat","Luxury, Mana","Eastkeep is the safest entry point to the Empire.","Aftermath text.","xxSQUARE Improve Thievery","xxSQUARE Improve Disguise","xxSQUARE Unlock Map Hall spotlight location","xxSQUARE Increase xxLUXURY track","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point"
 
-"Yearly Field","Infiltration, Year 5, Difficulty 4",,,,,,,,,,,"TBD","xxSQUARE 30","+1 xxSECRETS Track"
-"Dusk's Ayrie","Exploration, Year 5, Difficulty 5",,,,,,,,,,,"TBD","xxSQUARE 30","+1 xxLUXURY Track"
-"Sapphire Djinn","Quest, Year 5, Difficulty 3",,,,,,,,,,,"TBD","xxSQUARE 30","+1 Quest Point"
-"Southkeep","Infiltration, Year 5, Difficulty 5",,,,,,,,,,,"TBD","xxSQUARE 30","+1 xxSECRETS Track"
-"Firstborn Peak","Quest, Year 5, Difficulty 4",,,,,,,,,,,"TBD","xxSQUARE 30","+1 Quest Point"
+"Ballad of Eight Ears","Exploration, Year 2, Difficulty 4","Survival, Lore, Combat, Tactics","Food, Ore","The cursed hermit known as Eight Ears guards the dark hollows of Gray Forest.","Aftermath text.","xxSQUARE Improve Lore","xxSQUARE Improve Combat","xxSQUARE Increase xxORE Track","xxSQUARE Increase xxORE Track","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point"
 
-"Bitter Rose","Exploration, Year 6, Difficulty 5",,,,,,,,,,,"TBD","xxSQUARE 30","+1 xxMANA Track"
-"The Council","Alliance, Year 6, Difficulty 4",,,,,,,,,,,"TBD","xxSQUARE 30","+1 Faction Disposition"
-"Dawncaves","Infiltration, Year 6, Difficulty 5",,,,,,,,,,,"TBD","xxSQUARE 30","+1 xxSECRETS Track"
-"The Sundering","Showdown, Year 6, Difficulty 6",,,,,,,,,,,"TBD","xxSQUARE 30","+1 Victory Point"
-"Animaelic Forest","Showdown, Year 6, Diffiulty 7",,,,,,,,,,"Special: If discord overflows in the animaelic forest, a character in the group is killed, lost in the maelstrom. If a character is knocked out, they are removed from play.",,"xxSQUARE 30","+1 Victory Point"
+"Burgan Vale","Alliance, Year 2, Difficulty 3","Command, Lore, Survival, Disguise","Mana, Ore","The people of Burgan Vale treat the Veil - the energies which bind the land the people together - as the centerpiece for every aspect of life.","Aftermath text.","xxSQUARE Improve Lore","xxSQUARE Improve Lore","xxSQUARE Unlock Arankh Tower spotlight location","xxSQUARE Increase xxSTABILITY track","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point"
+
+"Sowing Rebellion","Infiltration, Year 2, Difficulty 4","Disguise, Command, Tactics, Thievery","Luxury, Ore","The breadbasket of the Empire, the people of Guilder Farms are not content.","Aftermath text.","xxSQUARE Improve Thievery","xxSQUARE Improve Disguise","xxSQUARE Unlock Whitehold spotlight location","xxSQUARE Increase xxLUXURY track","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point","xxSQUARE Victory Point"
+
+"Tragedy and Conspiracy","Showdown, Year 2, Difficulty 4","Command, Rapport, Lore, Combat","Food, Mana","Imperials have fanned the flames of conspiracy against Red Bank in the wake of a terrible tragedy."
+
+"Whispers at Lily Manor","Showdown, Year 2, Difficulty 4","Thievery, Rapport, Tactics, Disguise","Luxury, Mana","A gathering of cultures, Imperials work to spread distrust against Red Bank."
+
+"Towards Prominence","Infiltration, Year 3, Difficulty 4","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 xxSECRETS track"
+"Crescent Hold","Alliance, Year 3, Difficulty 4","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 Crescent Hold Disposition"
+"Pelakhar's Loyalty","Quest, Year 3, Difficulty 3","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 Quest Point"
+"Ferry's Glenn","Exploration, Year 3, Difficulty 4","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 xxMANA Track"
+"The Gossamer Veil","Quest, Year 3, Difficulty 4","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 Quest Point"
+
+"Lily Manor","Alliance, Year 4, Difficulty 4","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 Lily Manor Disposition"
+"Aren's Forge","Quest, Year 4, Difficulty 3","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 Quest Point"
+"Thedda's Palimpsest","Quest, Year 4, Difficulty 5","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 Quest Point"
+
+"Direct Assault","Showdown, Year 4, Difficulty 5","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 Victory Point"
+"Enemy Within","Showdown, Year 4, Difficulty 5","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 Victory Point"
+
+"Yearly Field","Infiltration, Year 5, Difficulty 4","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 xxSECRETS Track"
+"Dusk's Ayrie","Exploration, Year 5, Difficulty 5","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 xxLUXURY Track"
+"Sapphire Djinn","Quest, Year 5, Difficulty 3","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 Quest Point"
+"Southkeep","Infiltration, Year 5, Difficulty 5","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 xxSECRETS Track"
+"Firstborn Peak","Quest, Year 5, Difficulty 4","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 Quest Point"
+
+"Bitter Rose","Exploration, Year 6, Difficulty 5","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 xxMANA Track"
+"The Council","Alliance, Year 6, Difficulty 4","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 Faction Disposition"
+"Dawncaves","Infiltration, Year 6, Difficulty 5","Skills Used","Resources Used","Text","Aftermath","xxSQUARE +1 xxSECRETS Track"
+
+"The Sundering","Showdown, Year 6, Difficulty 6","Skills Used","Resources Used","Text"
+"Animaelic Forest","Showdown, Year 6, Diffiulty 7","Skills Used","Resources Used","If discord overflows in the animaelic forest, a character in the group is killed, lost in the maelstrom. If a character is knocked out, they are removed from play.
