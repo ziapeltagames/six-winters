@@ -1,3 +1,9 @@
+At the start of each winter and before the showdown, read the entry here in the campaign book.
+
+[First Winter](#the-first-winter)
+[Second Winter](#the-second-winter)
+[Whispers and Conspiracies (First Showdown)](#whispers-and-conspiracies)
+
 # The First Winter
 
 Thea’s finger was hovering over a mark on the map when the doors to the Amber Lodge burst open. “Speaker, we found something that might interest you!”
@@ -18,7 +24,7 @@ One scout glanced up at her, before averting his eyes to the ground, a garbled m
 
 “Order...” he finally said.
 
-Fuscus crossed his legs and leaned back in his chair. “Who’s order?” The man mumbled again, too quiet for them to hear. “I recommend you speak louder if you don’t want our thick-headed giant to kick your ribs in.”
+Fuscus crossed his legs and leaned back in his chair. “Whose order?” The man mumbled again, too quiet for them to hear. “I recommend you speak louder if you don’t want our thick-headed giant to kick your ribs in.”
 
 Keel snorted suddenly before quickly looking away. Menas glared at Fuscus, but was forced to look back at the scout when he spoke again. “Autarch.”
 
@@ -48,11 +54,13 @@ Fuscus rested his finger at the top of the map. “Still, not much, which makes 
 
 Fuscus leaped to his feet. “What the fuck mountain man? Do you realize how long it took to make that map?” He motioned at the knife, still quaking from where it stuck out of the table. “What’s your grudge against cartographers? Seriously!” He groaned and pinched the bridge of his nose. “It’s not like we can just head up there. There’s still the matter of the Sunriders. And Gravewood.”
 
-“We’re not even going to figure out what the Autarch wanted? Eastkeep holds plenty of secrets,” Keel mumbled.
+“If we're worried about Imperial interference, why not take the direct route? Eastkeep holds plenty of secrets,” Keel mumbled.
 
 Menas glared at Fuscus, before standing up straight, turning to Thea. “Where first?”
 
 # The Second Winter
+
+TBD
 
 # Whispers and Conspiracies
 
@@ -61,6 +69,7 @@ Menas glared at Fuscus, before standing up straight, turning to Thea. “Where f
 Fuscus looked up at Thea, who was standing above them, hands curled into fists and placed on her hips. “We leave bright and early in the morning. We have to be at Lily Manor by seven, sharp.” She huffed, blowing a stray strand of hair out from where it hung down her forehead. “They’re sticklers about that sort of thing.”
 
 “They aren’t if they like you,” Fuscus said, arching an eyebrow. Thea glared at him, and he raised his hands in surrender. “Just mentioning, sweetheart. Just mentioning.”
+
 Menas grunted his response. “They’re the spenders. Right?”
 
 “They like their things, yes,” Fuscus said. And they really did. Lily Manor was known for its lavish mansions, grand feasts, and starving people.
@@ -125,18 +134,18 @@ Thea shook her head, glancing at Oniri. “Oniri’s been here. I can vouch for 
 
 The knife lowered, only a little bit, and when Aisling spoke, his voice was thick. “Can I?” He glared at Oniri. “Lots of people said they saw you. They said ‘bone-patterned cloak’. I don’t know anyone else who has something like that.”
 
-Oniri hummed. “Lying.” They traced shapes on the table again, not looking up still. “Not me.”
+Oniri hummed. “Lying.” They traced shapes on the table again, not looking up still.
 
 Thea bit her lip, her eyebrows pinching together with concern. “We’ll need to look into this. We’ll find out who did this to your son, but it wasn’t Oniri. Okay?”
-“Look at them,” Aisling barked. “You can’t even consider that they could do more than we realize?”
+“Look at it!” Aisling barked. “You can’t even consider that it could do more than we realize?”
 
 “You’re going to need to leave,” Menas said.
 
-“That thing can cast magic without even meaning to. You can’t even consider the possibility of them being in more than one place at a time?”
+“That thing can cast magic without even meaning to. You can’t even consider the possibility of it being in more than one place at a time?”
 
 “You need to leave.”
 
-“They killed him. They killed him, and we’re just going to let them get away with it?”
+“It killed him. It killed him, and you're going to do nothing?”
 
 “Have it your way, then.” Menas got to his feet, the flooring creaking beneath his weight, his towering height blocking the light of the fire behind him. He marched over to 
 Aisling, glaring at the man. Aisling dropped his knife out of fear. Menas promptly grabbed Aisling around the midsection, hoisting the man over his shoulder like a sack of potatoes and carrying him towards the door. He tossed Aisling out into the storm and shut the door behind him.
@@ -147,15 +156,16 @@ Fuscus sighed, resting his hands on his hips. He needed a glass of wine, really.
 
 “The Autarch has magic,” Keel remarked off-handedly. “Think it’s her?”
 
-Fuscus paused, considering. It makes sense. Burgen Veil is full of wizards, but they’re all too snobby about their arbitrary rules and regulations to really pull anything like this off. Murdering a little boy? Weird. Framing another magic user for it? Even weirder, and clearly premeditated. But… “Is the Autarch really that interested in Redbank? We haven’t made any moves against the Empire.”
+Fuscus paused, considering. It makes sense. Burgen Veil is full of wizards, but they’re too snobby about their arbitrary rules and regulations to do something like this. Murdering a little boy? Weird. Framing another magic-user for it? Even weirder, and clearly premeditated. But… “Is the Autarch really that interested in Redbank? We haven’t made any moves against the Empire.”
 
-“We haven’t even gone public with our plans,” Keel noted. He set his crossbow down, finally giving them his attention. “We’ve only talked with the council. And not even the full council.”
+“We haven’t gone public with our plans,” Keel noted. He set his crossbow down, finally giving them his attention. “We’ve only talked with the council. And not even the full council.”
 
 “You don’t think…” Thea swallowed, sitting up. “They’re listening. Keeping an ear on us.”
 
 “Are you suggesting a spy?” Menas scoffed. “This is only one piece of information. It’s a big leap, from here to spy.”
 
 “Is it? The Autarch likes an eye and an ear on everything. What better way to destroy a thieves’ den than to throw a bomb in the middle? Cause chaos to clear it out, basically the Autarch’s model.” Fuscus sat back down into his chair. It was strange, but not impossible.
+
 Thea cleared her throat. “That settles it. I’m staying here. You guys go to Lily Manor without me.”
 
 “What? No.” Fuscus crossed his arms over his chest, shaking his head. “No, I can’t handle these three without you there. There’s no point in diplomacy if we can’t put our best foot forward.”

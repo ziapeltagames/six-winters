@@ -148,22 +148,22 @@ Events are short term challenges players face during a mission. They lean mostly
    * Use mission progress
    * Add progress to threats
    * Take discord
-   * Air
+   * Air, Fire, Earth, Water
 * Infiltration
    * Use progress on threats
    * Gain mission progress
    * Psyche stress
-   * Fire
+   * Fire, Earth, Water, Air
 * Exploration
    * Use mission progress
    * Gain and trade resources
    * Body stress
-   * Earth
+   * Earth, Water, Air, Fire
 * Quest
    * Use resources
    * Gain mission progress
    * Gain conditions
-   * Water
+   * Water, Air, Fire, Earth
 * Showdowns
    * Showdowns tend to combine two of the above mission types
 
@@ -984,11 +984,7 @@ Viator's Sympathy - Add progress to an issue. “Every city is of importance. Li
 
 ## Threat
 
-Veil Ward - The veil ward is a secure magical communication mechanism. The Weaver of Secrets can use it to give the# Overview
-
-Brainstorming about different sorts of spotlight location abilities, and which mission they should appear in.
-
-There should be one (or more) location abilities that raise each of the fifteen tracks in the game. Five resource tracks, five society tracks, and five faction disposition tracks. More than likely, the resource track increases should be found in exploration missions. The society tracks found in alliance missions. Society tracks can be sprinkled around elsewhere.
+Veil Ward - The veil ward is a secure magical communication mechanism. The Weaver of Secrets can use it to give the
 
 # Third Showdown
 
