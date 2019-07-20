@@ -3,8 +3,8 @@ Musings about design ideas central to _Six Winters_.
 * [Currencies](#currencies) - Economies central to the game. 
 * [Card Types](#card-types) - Various types of cards in the game.
 * [Card Effects](#card-effects) - Broad ideas for card efffects based on card types.
-* [First Showdown](#first-showdown) - Sketch of the first showdown.
-* [Third Showdown](#thrid-showdown) - Sketch of the third and final showdown.
+* [Mission Design](#mission-design)
+* [Threat Design](#thread-design)
 
 # Currencies
 
@@ -29,8 +29,8 @@ These are all of the various currencies in the game. Ultimately, _Six Winters_ i
    * Espionage
 * Character Skills
 * Character Tags - Usually relate to special unlocked character cards
-* Motivation Cards
-* Discord Cards
+* Motivation Cards / Track
+* Discord Cards / Track
 * Resource Dice - Resource dice fuel asset and location abilities
    * Timber
    * Mana
@@ -60,20 +60,24 @@ Games are a combination of choices and uncertainty. If either element is lacking
 
 There are five different types of cards in the game. Each type of card has slightly different ways it is put into play and used.
 
-* Asset - Typically these are held in a player's hand, they can usually be played as interrupts whenever the player wants
+* Asset - Manipulating the asset deck is a core part of the game
+   * Assets can usually be played as interrupts, whenever the player wants
+   * Assets can be character cards, motivation cards, discord cards, developments, and artifacts
    * Sometimes there are restrictions on how they can be played, for example, only on a character at a wilderness location, etc
    * Some assets are played down as a global effect for the remainder of the game
 * Location - These are places that characters can be, they typically have actions on them that characters can do
    * Spotlight locations are places the player's have found that they put into play at the start of a mission
-* Attachment - Cards that attach to a location or a character and affect it somehow
 * Event - These cards do something and then are usually discarded
 * Obstacle - These cards attach to locations and have codified rules for burning them
+* Attachment - Cards that attach to a location or a character and affect it somehow
 
 ## Tags
 
-Tags might appear on cards to give them more flavor and pair with character abilities. Tags are mostly for obstacles and locations.
+Tags appear on cards to give them more flavor and pair with character abilities. Tags are used for threats, obstacles, and locations. Generally only one or at most two tags are used on a card.
 
-Common tags: Wilderness, Urban, Dungeon, Red Bank, Diplomat, Foe, Guard, Trap
+* Obstacle Tags: Foe, Guard, Diplomat, Environment, Issue, Trap, Motivation, Discord, Mob
+* Location Tags: Wilderness, Dungeon, Urban, Red Bank, Imperial
+* Threat Tags: Stability, Sorcery, Military, Espionage, Diplomacy, Technology
 
 ## Card Decks
 
@@ -86,38 +90,52 @@ Finally, the different types of cards get placed into different decks depending 
 
 # Card Effects
 
-Following is a list of advantages and disadvantages cards may confer, sorted *roughly* in order of impact, with the most impactful card effects at the end of the list.
+Following is a list of advantages and disadvantages cards may confer, sorted *roughly* in order of impact, with the most impactful card effects at the bottom of the list. This list is not comprehensive, but is a good place to look for inspiration. Where appropriate, the card type that most commonly uses the effect is listed.
 
-Effects that are more transient, such as bonuses to a certain kind of test, are naturally not as useful as permanent changes, such as improving a character's skill. Some effects, such as removing discord, should be more rare, since those are both key timers that help push the game forward and help to build tension. In fact, increasing discord or apotheosis as a play cost for an advantage can create some tough choices for players.
-
-* Add To / Subtract From Test
-* Test Redraw
-* Automatic Test Successes
-* Bypass Obstacle Defenses
-* Improved Obstacle Defenses
-* Add To / Subtract From Progress on Locations or Obstacles
-* Add / Remove Resource Dice - Removing resource dice should be fairly clearly telegraphed, not a good use for encounter events
-* Resource Dice Rerolls
-* Better Defense
-* Extra Movement
-* Trading Resources
-* Moving Obstacles
-* Draw Asset Card(s)
-* Rearrange Encounter Deck
-* Rearrange Asset Deck
-* Moving Threats
-* Cheaper Development Costs
-* Adding Progress Remotely (Not At Location)
+* Add To A Test - Assets, frequently restricted by tags or character relationships
+* Make Tests Harder - Obstacles
+* Test Redraw - Assets
+* Automatic Test Success - Assets, usually restricted by a tag
+* Trading Resources - A common spotlight location ability
+* Reroll Resource Dice - Assets and spotlight locations
+* Bypass Obstacle Defenses - Assets
+* Add Obstacle / Threat / Mission Progress Locally - Events
+* Add Mission Progress - Assets, Events
+* Remove Obstacle / Threat / Mission Progress - Obstacles, Threats
+* Improved Obstacle Defenses - Mission Locations
+* Add Discord - Obstacles, Events
+* Add Resource Dice - Spotlight Locations, Assets
+* Lose Resource Dice - Events
+* Take Stress - Events, Obstacles
+* Take Condition - Events, Obstacles
+* Better Character Defense - Assets
+* Extra Movement - Assets
+* Remove Discord - Assets, this should be costly, as discord is a major source of tension
+* Moving Obstacles - Assets
+* Draw Asset Cards - Spotlight Locations, Events
+* Rearrange Encounter Deck - Assets, Spotlight Locations
+* Rearrange Asset Deck - Assets, Spotlight Locations
+* Draw New Achievement Card - Assets
+* Cheaper Development Costs - Assets, Spotlight Locations
+* Add Obstacle / Threat / Mission Progress Remotely - Assets, Spotlight Locations
 * Search for Encounter Card
-* Search for Asset Card
-* Improving Skills - Character skills should never go down, that's too demoralizing
-* Add / Remove Conditions
-* Add / Remove Threat Progress
-* Extra Timer - This is pretty harsh
-* Canceling Timers
-* Add / Removing Discord - Discord should be fairly difficult to remove
-* Resource Track Increase / Decrease
-* Stability Track Increase / Decrease
+* Search for Asset Card - Assets, Spotlight Locations
+* Remove Condition - Assets, Spotlight Locations
+* Extra Timer - Mission Locations, This is rough!
+* Cancel Timer - Assets
+* Discord Track Increase - Almost always happens because of discord flow, not a direct effect
+* Motivation Track Decrease - Threats, Obstacles
+* Resource Track Decrease - Threats, Obstacles
+* Stability Track Decrease - Threats
+
+These effects are almost always restricted to mission achievements.
+
+* Special Character Card - Mission Achievement
+* Discord Track Decrease - Mission Achievement
+* Motivation Track Increase - Special Obstacles, Mission Achievement
+* Resource Track Increases - Mission Achievement
+* Stability Track Increase - Mission Achievement
+* Improve Skills (These Can't Go Down) - Mission Achievement
 
 There are other types of advantages which are very situational. Frequently, doing something like drawing threats isn't desired, but there are reasons it's useful.
 
@@ -126,62 +144,41 @@ There are other types of advantages which are very situational. Frequently, doin
 
 ## Test Manipulation
 
-Tests are the primary way players interface with the game. It is natural that many of the benefits will apply to this core mechanics. Redrawing is an option, but can start to be a little cumbersome. It also churns through the deck quicker. Improved character skills and new character cards are longer term methods to grow this ability. Attachments or global effects are another option here.
+Tests are the primary way players interface with the game. It is natural that many of the benefits will apply to this core mechanic. This is particularly common for asset cards. Redrawing a failed test is an option, but should be used sparingly since too many redraws can feel cumbersome. It also churns through the asset deck quicker, which isn't usually a positive. Improved character skills and new character cards are longer term methods to grow this ability. Attachments or global effects are another option.
 
 ## Using Tags
 
-One way to make advantages less useful is by restricting their use to the presence of certain tags. For example, a development might give a bonus to defense for any obstacle with an undead tag. Using tags provides a way to inject more theme into the game, and it gives players interesting choices, since some characters may be better suited to different sorts of situations.
+One way to make advantages less useful is by restricting their use to the presence of certain tags. For example, a development might give a bonus to defense for any obstacle with an foe tag. Using tags provides a way to inject more theme into the game, and it gives players interesting choices, since some characters may be better suited to different sorts of situations.
 
 ## Play Costs
 
-Another way to make advantages less useful is to use play costs. For example, a card may cost a certain number of resources (either number of dice or value of dice) to put into play, or the players may have to take discord or a condition. This is a very useful pattern for the game. Play costs help move the economies of the game around. This is common for assets.
+Another way to modify card effectiveness is to use play costs. For example, a card may cost a certain number of resources (either number of dice or value of dice) to put into play, or the players may have to take discord or a condition. This is a very useful pattern for the game. Play costs help move the economies of the game around. This isn't as useful of a pattern for asset cards, since they're generally supposed to be positive and easily usable. But it's a very good pattern for location actions.
 
 ## Removing Conditions and Discord
 
-These abilities should be used with care. Taking Conditions and getting Discord are a big source of tension, so it shouldn't be easy to lower them. It's better to have abilities that help lower the hindrance value of obstacles or that improve defense. Once you get Discord or Conditions, they should be hard to remove. In the case of discord, that usually invovles spending some other resource or getting a condition.
+These abilities should be used with great care. Taking Conditions and getting Discord are a big source of tension, so it shouldn't be easy to lower them. Only strong asset cards should have these effects, and it wouldn't be unusual to have to pay a cost in terms of resources to make this happen.
 
-## Event Cards
+## Offense vs Defense
 
-Events are short term challenges players face during a mission. They lean mostly negative in nature. The positive cards come more from the asset deck. Many feature a skill test to determine if the effect is positive or negative. Furthermore, certain mission types lean towards certain types of effects.
+In general, something happenign is better than nothing happening! While that may be straightforward, it's easy to accidentally fall into a trap of coming up with too many defensive card effects. But cards that make it easier to take out obstacles should be favored over cards that help prevent damage or ignore triggers.
 
-* Alliance
-   * Use mission progress
-   * Add progress to threats
-   * Take discord
-   * Air, Fire, Earth, Water
-* Infiltration
-   * Use progress on threats
-   * Gain mission progress
-   * Psyche stress
-   * Fire, Earth, Water, Air
-* Exploration
-   * Use mission progress
-   * Gain and trade resources
-   * Body stress
-   * Earth, Water, Air, Fire
-* Quest
-   * Use resources
-   * Gain mission progress
-   * Gain conditions
-   * Water, Air, Fire, Earth
-* Showdowns
-   * Showdowns tend to combine two of the above mission types
+# Asset Card Design
 
-## Character Cards
+## Character Card Effects
 
-Character cards are mostly positive. The biggest focus of character cards is interactions between characters. As such, some of them have requirements that character X or Y are present.
+Character cards are mostly positive. The biggest focus of character cards is interactions between characters. As such, some of them incentivize having different pairings of characters for a bigger effect.
 
+* Add Obstacle / Threat / Mission Progress
 * Better Defense
 * Extra Movement
 * Moving Obstacles
 * Bypass Obstacle Defense
-* Moving Threats
-* Mission Progress
 * Burning Threats
 * Lower Discord
 * Remove Condition
+* Manipulating Achievement Deck
 
-## Developments
+## Development Effects
 
 Developments are also differentiated somewhat by type. Maybe as a general rule none of these should remove conditions or discord? That might be a better thing for character cards to do. The various types should also roughly map to the different quest types.
 
@@ -210,7 +207,49 @@ It would also be good if the peak development in each track was fairly powerful.
    * Thievery
    * Infiltration
 
-## Mission Locations
+## Artifact Effects
+
+These should be very good, at the level of the best developments or the highest lifepath cards. One big advantage with artifacts is that they start the session in play.
+
+# Spotlight Location Design
+
+Spotlight locations usually give positive abilities.
+
+* Trading Resources
+* Gaining Resources
+* Buying Developments
+* Emphasize alliance with other factions
+
+# Mission Design
+
+Missions fall into four categories, not including the showdowns: exploration, alliance, infiltration, and quest. Each of these categories has a broad theme that has both narrative and mechanical ramifications. Missions also have a difficulty number from 1-10, which is used for any event cards that need tests. Missions have four skills associated with them that are also used to guide tests for both events as well as mission locations and obstacles. Finally, missions have two resource types that might be needed.
+
+## Event Card Effects
+
+Events are short term challenges players face during a mission. They trend more negative, sometimes presenting the player with choices and difficult trade-offs. The positive cards come more from the asset deck. Many event cardds feature a skill test to determine if the effect is positive or negative. Any type of card effect is potentially an option, but most cards tend toward the most common currencies (discord and stress).
+
+Additionally, certain mission types lean towards certain types of effects, as detailed below.
+
+* Alliance
+   * Choice: Mission progress --> Threat progres
+   * Negative: Discord
+   * Trigger Frequency: Air, Fire, Earth, Water
+* Infiltration
+   * Choice: Threat progress --> Mission progress 
+   * Negative: Psyche stress
+   * Trigger Frequency: Fire, Earth, Water, Air
+* Exploration
+   * Choice: Mission progress --> Resrouces
+   * Negative: Body stress
+   * Choice: Earth, Water, Air, Fire
+* Quest
+   * Choice: Resources --> Mission progress
+   * Negative: Conditions
+   * Trigger Frequency: Water, Air, Fire, Earth
+* Showdowns
+   * Showdowns tend to combine two of the above mission types
+
+## Mission Location Effects
 
 Mission locations typically are ways to interact with obstacles that are in play. Usually mission locations have negative effects. It's not essential that mission locations have any effects at all.
 
@@ -228,36 +267,69 @@ Mission locations typically are ways to interact with obstacles that are in play
 * Modify skills
    * Could make tests easier / harder at the location
 
-## Obstacles
+## Obstacle Effects
 
-The bread and butter of obstacles is to make it harder to place progress as well as adding to the discord pool.
+The bread and butter of obstacles is to make it harder to place progress as well as adding to the discord pool. Causing stress and conditions is explicity in how the interrupt mechanics for obstacles work, so it's usually not a triggered effect. If it is a triggered effect, it's usually a more global "any characters on mission" type of effect.
 
-* Discord
-* Progress
+* Take Discord
+* Remove Mission Progress
+* Make Tests at Location More Difficult
+* Cause Stress
+* Cause Conditions
 
-## Spotlight Locations
+# Threat Design
 
-Spotlight locations usually give positive abilities.
+A threat is drawn at the beginning of each season. They are typically an effect which is present through the whole session and then resolved at the end of the session. Threats attach to the spotlight location that matches their tag (one of the five development types). They start with a certain amount of progress equal to the related development level. Over the session, the progress dwindles, forcing bad things to happen. At the end of the session, if the progress is above some value, the threat is successfully resolved.
 
-* Trading Resources
-* Gaining Resources
-* Buying Developments
-* Emphasize alliance with other factions
+## Unresolved Threats
 
-## Artifacts
+Not sure what effect unresolved threats should have. Having narratives that relate to showdowns feels like a tight way to handle the narrative. It would also be nice if they fit into tech that already exists.
 
-These should be very good, at the level of the best developments or the highest lifepath cards. One big advantage with artifacts is that they start the session in play.
+* Stay as Threats - One option is to have all the unresolved threats come back during the showdown, giving players lots to juggle on top of everything else, maybe a little bit anticlimactic? But it doesn't require any new cards or changes! Players will also be very aware of what to expect. That also gives a nice upper bound on the number of threats (five).
+* Encounter Deck - Maybe a little more explicit, since there could be specific cards added. This isn't a terrible idea. It does create the right psychological impact, since there is a "oh, this thing I let fester is adding this to the deck" moment. And then those things can cause problems. They would most likely be obstacles, so that they could start in play and not be missed by chance.
+* Global Effects - Each threat creates a global effect. This is interesting, but potentially *very* fiddly with everything else going on. Already plenty of triggers!
+* Achievement Deck - When building the achievement deck for the showdown, players could choose cards based on which threats are still unresolved. This doesn't feel as great, because it's not very explicit? That is, it won't be obvious how big of an impact the threats are having, because they're clumped in to other mechanics.
+* Asset Deck - These are supposed to be useful / good cards, so this doesn't make much sense.
 
-## Threats
+## Threat Card Effects
 
 * Lower resources
 * Lower resource tracks
-* Lower secrets
 * Increase discord
-* Increase apotheosis
 * Give conditions
-* Lower disposition
-* Broad effects (no mana for spells, etc)
+* Make obstacles of a certain type more difficult
+* Make gaining progress more difficult
+* Increase a discord track
+* Lower a motivation track
+
+## Old Threats
+
+Espionage,1,"False Maps","Immediately. Espionage 0-3: May not gain consequences to ignore timers during Exploration missions."
+Stability,1,"Food Shortages","Immediately. Stability 0-2: -1 food."
+Military,1,"Western Front","End of Season. Military 0-2: -1 stability."
+General,1,"Moonrider Raids","Immediately. Sunriders disposition 0-3: May not trade with Sunriders for remainder of season."
+Espionage,1,"Sunrider Grain Dispute","End of Season. Espionage 0: -2 disposition with Sunriders. Espionage 1-2: -1 disposition with Sunriders."
+Military,1,"Crescent Hold Calls for Aid","End of Season. Subtract 1 from military or drop disposition with Crescent Hold by 1. Subtract 3 from military to burn card."
+Espionage,1,"The Mole","Immediately. Espionage 0-2: -1 ore."
+Secrets,1,"Careless Whispers","Immediately. If all secrets have not been found in Eastkeep, -1 espionage."
+Sorcery,1,"A Growing Bond","End of Season. Subtract 1 from sorcery or +1 Apotheosis. Subtract 3 from sorcery to burn card."
+Secrets,1,"The Harrowing","End of Season. Secrets 0-4: +1 Apotheosis."
+Diplomacy,2,"Farmer Rebellion","End of Season. Diplomacy 0-2: Next season produce 2 fewer food."
+Conquest,2,"Materials Shortage","Immediately. Conquest 0-2: Effect. All survival tests are difficult for the remainder of the season."
+General,2,"Restless Spirits","Immediately. Spend one sorcery or character with highest Lore must return to Red Bank. Ignore if character with highest Lore already at Red Bank."
+Sorcery,2,"Darkness on the Steppes","End of Season. Sorcery 0-2: -1 disposition with Sunriders."
+Espionage,2,"Disgruntled Miners","End of Season. Espionage 0-4: -1 disposition with Crescent Hold."
+Stability,2,"Rites of the Blue Robe","End of Season. Stability 0-4: -1 disposition with Burgan Vale."
+Espionage,2,"Misinformation","Immediately. Subtract 1 from espionage or lose 1 secret from Eastkeep. Subtract 3 from espionage to burn card."
+Military,2,"Holding the Outer Reach","End of Season. Subtract 1 from military or North Oaks produces no resources next season. Subtract 3 from military to burn card."
+Secrets,2,"The Southkeep Gambit","End of Season. Subtract 1 from espionage or +1 Apotheosis. Subtract 3 from espionage to burn card."
+Apotheosis,Secrets,2,"Ritual of Law","End of Season. Secrets 0-8: +1 Apotheosis."
+Apotheosis,Secrets,3,"Connection Made","End of Season. Secrets 0-6: +2 Apotheosis. Secrets 7-12: +1 Apotheosis."
+Apotheosis,Secrets,4,"The Far Forest","End of Season. Secrets 0-8: +2 Apotheosis. Secrets 9-16: +1 Apotheosis."
+Espionage,5,"Assassination","Character is assassinated."
+Apotheosis,Secrets,5,"The Sundering","End of Season. Secrets 0-10: +2 Apotheosis. Secrets 10-20: +1 Apotheosis."# Trait Idea
+
+This might provide another way to customize characters beyond lifepath and discord cards. These would be broad tags that could be assigned to characters, like headstrong or careful. They would show up on encounter cards and let characters make unique sorts of choices.
 
 # Characters
 
@@ -303,289 +375,15 @@ Each character in the campaign has personality cards which make them better suit
 
 ## Viator (Sunriders, Gravewood, Crescent Hold, Lily Manor)
 
-## Lucia (Eastkeep, Guilder Farms, Yearly Field, Dawncaves)This document illustrates the different types of benefits players can gain in _Six Winters_, along with how those benefits map to encounters, personality, developments, locations, mission paths, and artifacts.
+## Lucia (Eastkeep, Guilder Farms, Yearly Field, Dawncaves)
 
-# Mission Design
-
-Missions fall into a number of broad categories: exploration, alliance, infiltration, and quest. Each of these categories somewhat dictates a direction for how the mission should evolve. The difficulty of a mission, a number from 1-10, also provides some guidance to mission construction. Within those broad constraints is quite a bit of latitude.
-
-## Mission Overview
-
-Most missions have an encounter deck which is randomly shuffled. Without that, there is a linear series of challenges.
-
-## Locations
-
-One of the first decisions is how many locations to place in a mission, and how long each should last.
-
-## Encounters
-
-It is not necessary to have an encounter deck, but random events add variety to the game and can be fun. They are typically triggered by the common or uncommon symbols on the progress card deck.
-
-## Attachments
-
-## Events
-
-* The main text block can have up to 75 words in two paragraphs.
-
-## Obstacles
-
-* 
-
-## Skill Tests
-
-## Reward Cycles
-
-# Quests
-
-The older quests had a few locations, which were effectively serial challenges, folowed by a number of challenges. Should locations go away sometimes? Or maybe sometimes you can freely move to a new location?
-
-Gossamer Veil Mission Deck: Memory Lake, Sailing Across, Isle of Apples, Stone Door, Vault of Echoes, Vault of Ten Locks, The Weaver
-
-Gossamer Veil Encounter Deck: Forgotten Identity, Hollow Guards, Sunrider Icon (Delivery), Yari's Secret, Silk Trap, Arcane Research# Core Triggers
-
-The usual deck size for a mission is twenty cards, which is where these numbers come from. The core triggers are fairly critical for mission prorgress. At least one of these core triggers needs to be on each encounter card.
-
-## Timers
-
-Timers play the most important role in the encounter deck. They determine how long a mission will last. If there are fewer timers, the mission will last longer. There need to be at least three timers for each step of the mission path.
-
-The standard encounter deck is twenty cards, ten of which are timers. This produces a game that usually lasts between 12 and 21 turns, with the most common game being around 14.
-
-Timers / Deck Size: Avg Number Turns (Low Risk) - Avg Number Turns (High Risk)
-
-10/20: 12 - 21
-11/20: 11 - 18
-12/20: 10 - 16
-
-10/21: 13 - 22
-11/21: 12 - 19
-12/21: 11 - 17
-
-10/22: 14 - 24
-11/22: 12 - 21
-12/22: 11 - 18
-
-## Progress and Discord
-
-In general, progress triggers are favored over discord triggers. Something like 5 progress and 3 discord is a good baseline. See the analysis below under timer cards for what this means in terms of totals.
-
-If discord is much higher, it will incentivize players to knock out obstacles. Lowering the number of discord triggers will make it such that players may push their luck more.
-
-## Threat and Apotheosis
-
-These should be more rare, although it's certainly possible to have a mission that features these more, but it would be brutal. By default, each of these should probably occur only once.
-
-# Triggers
-
-## Frequencies
-
-It can be difficult to understand how often triggers will be drawn. It depends on deck size and on how aggressive a player is with pushing their luck. Of course, the triggers placed one cards with timers will usually only occur once, since timer cards are not shuffled back into the encounter deck. This fact can be leveraged when deciding how to interact various triggers with obstacles. For example, one really bad trigger could be placed on a timer card, and it will only interact with an obstacle once.
-
-## Non-timer Card Analysis
-
-It's easier to do the math on the non-timer cards. In that case, it roughly breaks down as follows, where the ranges are the number of times the trigger is drawn. The lower end is for a player moving quickly (moving to the next stage when two timers are drawn) and the higer end for a player waiting until three timers are drawn. All of this analysis is done on the standard 20 card deck with 10 timers.
-
-1: 0.69 - 1.24
-2: 1.37 - 2.51
-3: 2.05 - 3.73 
-4: 2.76 - 5.01
-5: 3.44 - 6.22
-6: 4.12 - 7.46
-7: 4.84 - 8.72
-8: 5.49 - 9.92
-9: 6.19 - 11.25
-10: 6.89 - 12.44
-
-Note that for non-timer cards, triggers tend to occur more later in the mission, since more timer cards are removed as the mission progresses.
-
-## Timer Card Analysis
-
-For timer cards, triggers are naturally bounded, since timer cards are not reshuffled back into the deck. This not only gives them a hard maximum, but also tends to narrow the variance.
-
-1: 0.59 - 0.90
-2: 1.19 - 1.80
-3: 1.79 - 2.70
-4: 2.39 - 3.60
-5: 2.98 - 4.50
-6: 3.59 - 5.39
-7: 4.20 - 6.29
-8: 4.79 - 7.20
-9: 5.39 - 8.09
-10: 6.00 - 9.00
-
-## Combined Triggers
-
-It's also perfectly normal to put a particular trigger on both timer and non-timer cards. This would make the trigger occur at a more steady rate.
-
-# Sample Decks
-
-## Basic Twenty Card Encounter Deck
-
-Here's a standard twenty card deck, with ten timers, that works pretty well for a three stage mission path.
-
-Eldritch, Trap, Doom, Forceful, Quick, Deadly
-
-xxTIMER, xxDOOM
-xxTIMER, xxDOOM
-xxTIMER, xxDOOM
-xxTIMER, xxTRAP
-xxTIMER, xxTRAP
-xxTIMER, xxTRAP
-xxTIMER, xxTRAP
-xxTIMER, xxFORCEFUL
-xxTIMER, xxQUICK
-xxTIMER, xxELDRITCH
-xxDISCORD, xxFORCEFUL
-xxPROGRESS, xxFORCEFUL
-xxDISCORD, xxQUICK
-xxPROGRESS, xxQUICK
-xxPROGRESS, xxQUICK
-xxTHREAT, xxTRAP
-xxPROGRESS, xxQUICK
-xxPROGRESS, xxDEADLY
-xxDISCORD, xxELDRITCH
-xxAPOTHEOSIS, xxELDRITCH# Types of Achievements
-
-There are number of types of achievements that could be put into play.
-
-* Spending Resources
-* Buy Developments
-* No Obstacles of Type / Name X in Play
-* Defeat an Obstacle - These
-* Buy a Development
-* Fulfill a Condition
-
-### Brainstorm
-
-Not sure if buying something that has an effect should count as "spending resources"? Probably not. This is spending resources solely in fulfillment of the achievement.
-
-Achievements that are for taking out a specific obstacle are tricky. If the obstacle is in play at the start of the mission, it undermines the nature of card based achievements, since the obstacle could be tackled without the achievement being in play. But only being able to remove the obstacle without the achievement in play doesn't seem good at all, either. Probably the best option is to have "locked" obstacles that come into play when the achievement card does. That preserves the trade off of deciding when to tackle the achievement.Brainstorming about how the final mission should play out.
-
-# Motivation
+## Motivation
 
 Currently, there are motivation cards for each character. Do they need to be more general? If a card is for character X and they aren't on the mission, what happens? Could discard it, which is probably the easiest approach. Or it could be burned.
 
 Maybe some motivation cards could be general, such that any character could tackle them? Then again, that brings up weird things where a team of characters could make progress on it. And they're supposed to be solo sorts of efforts. One way around that is to attach them to a character.
 
-# Asset Deck Construction
-
-As it currently stands, there are quite a few situational cards which can get tied up in player's hands. One thought is to make the asset deck more like a regular deck building game - such that you start drawing again when it's cleared out. To make that work, cards must be either discarded or played frequently.
-
-## One Card Limit
-
-Having only one asset card at a time may allow for two things: it's easier to keep track of what your card does, and it forces you to either play it or discard it to churn faster. The cards could also be a little more complex.
-
-Players could choose what developments to put in their decks, but taking the character cards would be mandatory. That also gives a bottom end to how much you could realistically cycle your deck. If each character has two cards that can't be burned, it would mean there's at minimum a four card cycle in place. So you would probably only see the same development at most three or so times. That allows for some deck building ideas, but probably prevents less fun corner cases like a deck size of one.
-
-## New Personality Cards
-
-Using this model, there would always need to be *some* advancement cards that can't be burned or churned through. That way the deck size is at some minimal level. The particular development abilities will also help.
-
-When a new year comes along, then, it will probably be the case that you have to take all of the new advancement cards for the character. That wouldn't allow customization at that level, like in developments. That may be okay. If it's possible to burn some advancement cards, it may be more of a game to decide when and how to make that happen. You could burn some of those cards in order to shrink your deck and use developments more.
-
-## Using Tags
-
-Another option may be to use tags sometimes. Burning certain cards could give you a tag. Then, during the narrative phase, if you have various tags, you have to take certain character cards? Maybe they should be called personality cards?
-
-That's fiddly, but maybe not overly so. It does also give the game quite a bit of depth. It will be a little tricky to make sure that the discord cards and personality cards don't overlap too much.
-
-# Deck Building
-
-Currently the game doesn't include fully fleshed out deck building. In a standard deckbuilding game, the deck is the engine, and it builds up over time, with more of some sort of currency being generated. The progress deck right now has a series of triggers and timers, which control both how long the game takes and what sort of events happen. It might be nice to split them all up. So there is only one trigger on each card, possibly with one timer as well.
-
-Into this mix are added developments and character cards. However, there's really no downside to adding these cards. In fact, you would always add all of your developments. In a standard deckbuilding game, these developments would be what generates currency (whatever that is - resources or what have you). In a standard deckbuilder, you would burn some of the cards that aren't doing as much for you.
-
-The problem with doing a standard deckbuilder with Six Winters is that you can't burn the cards with triggers or timers on them, because it would be super easy to throw the whole deck out of whack. The timers are critical for pacing missions.
-
-## Questions
-
-* Why would you voluntarily leave developments out of a deck, or burn other developments?
-
-If developments are always good, and other cards are always bad, you probably would never leave out developments. The burn effects on developments may motivate you to burn them for something even better. But otherwise, you're going to leave them in. Typically, tuning your deck, either by leaving stuff out or burning things, occurs if you have low value cards, along with some high value cards. You'll either leave out the low value cards or burn them. In this case, the cards of low value are triggers and timers. And it's not really possible to burn them. You would always choose to burn timers, since those end the season.
-
-If there were also triggers on developments, that would make you more likely to burn them. That said, you could seriously skew those probabilities if they could be burn or modified. It seems like, in general, if you have a deck of "bad stuff" as it were, you can't really modify that.
-
-You could have two decks: one for the progress cards and one for developments. Then you would want to tune the development decks. However, it gets back to having lots of different decks, which isn't great. Encounter deck, developments deck, and progress deck (with character cards). The benefit is that you might think more about the actual deckbuilding elements of the cards. That said - if the progress deck is what drives pulling cards, there will always be an issue of having various numbers of "draw development" cards in the progress deck. They would have to continually be added.
-
-However, it could be the case that by simply paying for the various developments and having interesting burn options, there may be enough there to make for interesting choices.
-
-## Option: Development Deck, Progress Deck (+ Character Cards), Encounter Deck
-
-In this case you could either draw one development each turn, or you could have a location card which features a "draw development" ability. That does tie up actions for quite some time, though. For maybe nothing that interesting. # General Mission Brainstorming
-
-The following types of cards may be found during a mission.
-
-* Hand - Place into player's hand.
-   * Artifact - Place in hand. Additionally, a player may start any season with this card in their hand.
-   * Development - Frequently goes into a player's hand.
-* Obstacle - Goes into the area for obstacles.
-   * Maybe need a better word for this? In an alliance mission, they aren't really foes. Maybe opponent? Rival? Opposition?
-* Event - Handle immediately.
-* Attachment - Attach to what's described, either a character or a location.
-* Location - Place on the mission tableau. May also be added to the spotlight tableau.
-
-## Multiple Players
-
-It's possible for both players to go on the same quest. In general, this is overkill, but it is possible. This is also discouraged by having "lowest" skill tests. However, there may be times where it's useful to undertake the same mission. In particular, this is true for the Animaelic Forest quest.
-
-# Infiltration
-
-Infiltration missions are on average more difficult. They're the main method by which you get secrets, but they have the most downside.
-
-Increase: Secrets, Apotheosis
-Decrease: Society, Resources, Dispositions
-
-# Exploration
-
-Increase: Resources, Fortune, Developments
-Decrease: Society, Dispositions
-
-# Alliance
-
-Increase: Dispositions, Society, Character Cards
-Decrease: Resources
-
-# Quests
-
-Quests are the most diverse, from the animaelic forest (which is how you win the game) to a minor side quest unlocked by a threat. There is tremendous latitude in how these are constructed as well as what sorts of rewards are gained. Many quests have interesting locations or artifacts.
-
-## Gossamer Veil
-
-The older quests had a few locations, which were effectively serial challenges, folowed by a number of challenges. Should locations go away sometimes? Or maybe sometimes you can freely move to a new location?
-
-Gossamer Veil Mission Overview:
-
-1 Timer:
-2 Timers:
-3 Timers:
-4 Timers:
-5 Timers:
-Uncommon: Draw Cards (6)
-Rare: ?
-
-Gossamer Veil Mission Deck: 
-
-Location: Sailing Memory Lake, Optional Test,
-Location: Isle of Apples, Effect
-Attachment: Stone Door, Optional Test
-Location: Yari's Vault, Effect
-Attachment: Vault of Ten Locks, Optional Test
-Attachment: The Weaver, Optional Test
-
-Roughly four staged tests to complete the quest.
-
-Gossamer Veil Encounter Deck: 
-
-Event: Forgotten Identity
-Attachment: Hollow Guards
-Artifact: Sunrider Icon, Delivery Bonus?
-Event: Yari's Secret
-Attachment: Silk Trap
-Event: Ancient Clues, Secrets Track?
-
-# Character Cards
-
-## Year One
+## Old Year One Character Cards
 
 Menas: "Strong Personalities", Thea, Clear All Discord, Angry
 Menas B: "Necessary Evils", Fuscus Progress, Burn Shift Dispositions
@@ -619,7 +417,7 @@ Fuscus,1,0,"Trinkets and Baubles","Cost: 3 xxLUXURY.","Effect: A test Fuscus is 
 Fuscus,1,0,"It's Tiring Being This Handsome","Cost: Fuscus is weary.","Effect: +1 Skill","Disguise: +3 Skill.","I just adore your shoes!","+1 Skill (+3 Disguise)"
 Fuscus,1,0,"White Lies","Cost: Fuscus is exhausted.","Effect: Remove 4 discord from either pool.",,"No harm, no foul.","REMOVE DISCORD"
 
-## Year Two
+## Old Year Two Character Cards
 
 Oniri,1,0,"I'm Always in Pain",,"+1 Mana.","Spend 4 Mana. Give Oniri a condition to remove a condition from someone else in the party.",""
 Oniri,1,0,"Always Alone",,"+1 Mana.","Play when Oniri is alone at a Quest location. Oniri is Exhausted.",""
@@ -666,35 +464,7 @@ Since both missions of the showdown are known, there is an oppotunity to have in
 
 It most likely will not be possible to lose a showdown in the traditional sense. Six Winters is far more of a narrative experience than an optimization experience. But the consequences for the showdown should be stronger than for a regular mission, and should involve Red Bank to a larger degree, rather than only focusing on characters.
 
-# Tags
-
-This is the current list of tags currently in use. New ones may be possibly added, but that should be done with care, as it will dilute the effectiveness of cards that use tags.
-
-Many of these tags are more commonly found in certain sorts of missions. For example, Alliance missions are more likely to have cards witht he Diplomat and Diplomacy tags, as well as possible Urban locations, or maybe Stability.
-
-* Wilderness
-* Urban
-* Dungeon
-* Red Bank
-* Imperial
-
-* Guard
-* Foe
-* Undead
-* Beast
-* Diplomat
-* Trap
-* Environment
-
-* Conquest
-* Sorcery
-* Stability
-* Military
-* Espionage
-* Diplomacy
-* Autarch
-
-## Character Tags
+# Character Tags / Traits
 
 This is a variant that is still under consideration. Characters may have tags that get added to them, and cards could refer to these tags. However, there is already quite a bit going on, so not sure if this is worth it or not!
 
@@ -713,278 +483,29 @@ The idea for these tags is that they could have benefits or penalties that are s
 * Charming
 * Protective
 
-## Red Bank Tests
-
-It would be nice if the threats weren't necessarily a guaranteed occurrence. One way that could happen is via a trigger causing a dice roll. These might be special sorts of tests where things like mana couldn't be used (since mana requires a caster and backlash). Something like, "Rare: Red Bank Test: Espionage 3. Success: Blah. Failure: Blah." Might be worth having that as a generally available test type?
-
-On thinking about it more, this probably isn't necessary. The "not a guaranteed occurrence" can probably be handled by triggers. Although, the triggers are doubled, so need to take that into account.
-
-## Implementation Difficuties
+## Implementation Difficulties
 
 Would need to come up with a list of traits beforehand. Probably in the 7-10 range? The best time to assign these might be during interludes. Putting them on encounter cards is probably the best spot for them. Putting them on locations could get pretty messy.
 
 However, putting them on encounters makes them pretty random. Through the luck of the draw, you could certainly control none of the characters that have a particular trait. Not sure if there's a way around that? It's not ideal to have some cards that do nothing, though. Maybe they can do X thing, but if a character in the group has a trait, they do Y thing?
 
-## Trait Ideas
-
-Will need to come up with a list of potential traits.
-
-* Headstrong
-* Cautious
-* Social
-* Introverted
-* Isolated
-* Careful
-* Bookish
-* Studious
-* Empathic
-* Amiable
-* Charming
-* Protective
-
-# Threats
-
-Threats are drawn at the beginning of each season. They are typically an effect which is present through the whole season (unless resolved somehow) or an effect which triggers at season's end. The latter is the more common type of threat.
-
-Threats tend to attach to a specific type of location, sometimes the threat will require the players to use a type of location if they have one. Sometimes a threat will take a location slot from those available.
-
-### Threat Ideas
-
-* Military threats
-   * Could "burn" Red Bank locations so that the location cards almost function as a hit points as such for badness
-* Bandits
-* Building a wonder to keep up with the Empire
-   * Gardens of the Pomegranates
-* Assassination
-* Werewolf infection
-* Pandemic
-* Magical Backlash
-
-Threats are played as:
-
-* Locations (either to spotlight area or into the indicated mission area)
-* Attachments to locations (must play the type of location if possible)
-* Attachments to characters
-* Obstacles (would need to go to one player's staging area, for general types of threats)
-
-Threat effects are either:
-
-* Effects that are ongoing
-* Effects that occur when a certain progress trigger happens
-* Effects that occur at the end of the season
-     * This option doesn't generate as much pressure as the others
-
-## Threat Triggers
-
-As it stands now, triggers occur only on locations you're actually at. For obstacles, they occur broadly. They also occur on attachments attached to characters. Do they occur on all attachments generally?
-
-Maybe they should just occur on all obstacles / attachments / locations? The "you have to be there" was to make it easier to scan over cards, but it makes threat design tough? Maybe all the locations / attachments / obstacles in the player's mission area as well as the spotlight area will activate.
-
-## Threat Timers
-
-One pattern that might be worthwhile is placing a certain amount of progress on a threat, that dwindles each time a trigger comes up. That's one used in Eldritch Horror frequently, and something like that may work here. The different development tracks could provide a good basis for that.
-
-## Old Threats
-
-Espionage,1,"False Maps","Immediately. Espionage 0-3: May not gain consequences to ignore timers during Exploration missions."
-Stability,1,"Food Shortages","Immediately. Stability 0-2: -1 food."
-Military,1,"Western Front","End of Season. Military 0-2: -1 stability."
-General,1,"Moonrider Raids","Immediately. Sunriders disposition 0-3: May not trade with Sunriders for remainder of season."
-Espionage,1,"Sunrider Grain Dispute","End of Season. Espionage 0: -2 disposition with Sunriders. Espionage 1-2: -1 disposition with Sunriders."
-Military,1,"Crescent Hold Calls for Aid","End of Season. Subtract 1 from military or drop disposition with Crescent Hold by 1. Subtract 3 from military to burn card."
-Espionage,1,"The Mole","Immediately. Espionage 0-2: -1 ore."
-Secrets,1,"Careless Whispers","Immediately. If all secrets have not been found in Eastkeep, -1 espionage."
-Sorcery,1,"A Growing Bond","End of Season. Subtract 1 from sorcery or +1 Apotheosis. Subtract 3 from sorcery to burn card."
-Secrets,1,"The Harrowing","End of Season. Secrets 0-4: +1 Apotheosis."
-Diplomacy,2,"Farmer Rebellion","End of Season. Diplomacy 0-2: Next season produce 2 fewer food."
-Conquest,2,"Materials Shortage","Immediately. Conquest 0-2: Effect. All survival tests are difficult for the remainder of the season."
-General,2,"Restless Spirits","Immediately. Spend one sorcery or character with highest Lore must return to Red Bank. Ignore if character with highest Lore already at Red Bank."
-Sorcery,2,"Darkness on the Steppes","End of Season. Sorcery 0-2: -1 disposition with Sunriders."
-Espionage,2,"Disgruntled Miners","End of Season. Espionage 0-4: -1 disposition with Crescent Hold."
-Stability,2,"Rites of the Blue Robe","End of Season. Stability 0-4: -1 disposition with Burgan Vale."
-Espionage,2,"Misinformation","Immediately. Subtract 1 from espionage or lose 1 secret from Eastkeep. Subtract 3 from espionage to burn card."
-Military,2,"Holding the Outer Reach","End of Season. Subtract 1 from military or North Oaks produces no resources next season. Subtract 3 from military to burn card."
-Secrets,2,"The Southkeep Gambit","End of Season. Subtract 1 from espionage or +1 Apotheosis. Subtract 3 from espionage to burn card."
-Apotheosis,Secrets,2,"Ritual of Law","End of Season. Secrets 0-8: +1 Apotheosis."
-Apotheosis,Secrets,3,"Connection Made","End of Season. Secrets 0-6: +2 Apotheosis. Secrets 7-12: +1 Apotheosis."
-Apotheosis,Secrets,4,"The Far Forest","End of Season. Secrets 0-8: +2 Apotheosis. Secrets 9-16: +1 Apotheosis."
-Espionage,5,"Assassination","Character is assassinated."
-Apotheosis,Secrets,5,"The Sundering","End of Season. Secrets 0-10: +2 Apotheosis. Secrets 10-20: +1 Apotheosis."# Trait Idea
-
-This might provide another way to customize characters beyond lifepath and discord cards. These would be broad tags that could be assigned to characters, like headstrong or careful. They would show up on encounter cards and let characters make unique sorts of choices.
-
-# First Showdown
-
-The first showdown has two missions, **Tragedy and Conspiracy**, set in Red Bank, and **Whispers at Lily Manor**, set in Lily Manor, a major hub of trade.
-
-An ill wind blows across the village of Outer Fernbrake, which sits on the northern edge of Red Bank. An insurgency of Imperial agents made a base there, in the old ruins of Sparrow Keep. They work to undermine Red Bank from within. In service to this goal, a mage, known as the Weaver of Secrets, has murdered Castor, a local boy. The sorcerous nature of the murder points the finger at Oniri, who is newly arrived in Red Bank. Agents of the Empire fan the flames of conspiracy theories that seek to bring down Oniri, and by association, Thea. The Autarch sees Oniri as a threat to her hegemony. And indeed, this task is succeeding. The people are turning against the leadership of Red Bank.
-
-At the same time, envoys from Red Bank have arrived at Lily Manor for the annual Sunfall Trade. This is a major festival that draws in representatives from major factions throughout the lands of Six Winters. Despite the unrest in Red Bank, it would be folly to miss the opportunity to unite the factions in common cause against the Empire. But The Empire's influence is expanding at an alarming speed, taking both land and trade. The Empire also sent representatives to Lily Manor, working to undermine Red Bank's credibility.
-
-## Interactions
-
-The Empire has placed a veil ward to funnel malevolent energy into Red Bank. Conspiracies spread faster with a stronger Veil Ward. Weakening this ward also makes it easier to identify the Weaver of Secrets. If the Weaver of Secrets is brought down while the Subtect is in play, the Subtect becomes easier to take out. This is tricky to juggle, as both need to be in play at the same time.
-
-Viator functions as somewhat of a wild card. Helping heal discord, but also making some issues more difficult. Zarrah is more difficult the more issues are in play. Finally, taking out the Sapphire Djinn can weaken the veil ward.
-
-* Weaver of Secrets (LOCKED): Comes into play with the Weaver achievement. Weakened by weakening the veil ward. If taken out when the Subtect is in play, the Subtect can be weakened.
-
-* Conspiracy Spreads: Fueled by the veil ward.
-* Angry Locals: Fueled by conspiracies.
-
-* The Subtect (LOCKED): Comes into play with the Subtect achievement. Can be weakened by stopping the Weaver.
-
-* Zarrah (LOCKED): Comes into play with the Zarrah achievement.
-* High Society (LOCKED): Comes into play with the Zarrah achievement.
-
-* Global Stability: The difficulty of taking this out depends on how many conspiracies are in play in Red Bank.
-
-* Sapphire Djinn: Can hurt the veil ward.
-* Viator: A wildcard. Helps with discord - hurts with issues.
-
-## Resolution
-
-Based on the number of achievements of each type, a variety of results could happen. Possible negative results could include locations or effects that must be put into play, similar to spotlight locations. Or they could create more threats of a severe nature. That's nice, because it's already in the system. Additionally, could have tags placed onto Red Bank.
-
-Positive results could grant access to new spotlight locations or special character cards.
-
-## Diplomacy
-
-A low diplomacy result makes it harder to trade or gain allies.
-
-* 0: No factions are helpful
-* 1: Lily Manor uncertain
-* 2: Lily Manor helpful
-* 3: Viator is motivated
-
-## Stability
-
-This will most likely impact the stability of Red Bank. Which has long lasting repercussions.
-
-* 0: -3 stability.
-* 1: -2 stability.
-* 2: -1 stability.
-* 3: +1 stability.
-
-## Espionage
-
-How much the Autarch works their way into Red Bank.
-
-* 0: Spotlight location.
-* 1: Spotlight location (negative).
-* 2: Spotlight location (negative).
-* 3: Spotlight location (positive).
-
-## Sorcery
-
-This can impact Yasmina and Oniri.
-
-* 0: Yasmina has 3 discord
-* 1: Yasmina has 2 discord
-* 2: Yasmina has 1 discord
-* 3: Yasmina has 1 motivation
-
-## TRAGEDY AND CONSPIRACY
-
-* Difficulty: 3
-* Skills: Command, Combat, Rapport, Lore
-* Triggers: Earth, Water, Air, Fire
-
-## Locked Cards
-
-Weaver of Secrets (LOCKED) - Lore. 3 xxPSYCHE | 4 xxDEFENSE | 4 xxTRACKING. Can make it easier with progress from veil ward. Earth: Cause 2 discord for each conspiracy in play. Water: Moves to where the most progress is and remove 2 of it.
-
-## Starting Obstacles
-
-Violent Locals - Rapport. Mob. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Air: 2 discord. Fire: attack.
-Conspiracy Spreads - Command. 2 xxPSYCHE | 0 xxDEFENSE | 3 xxTRACKING. Special: Discard when defeated. Air: 1 discord.
-Autarch Spies - Combat. Mob. 2 xxBODY | 2 xxDEFENSE | 2 xxTRACKING. Water: Remove 2 progress. Fire: 2 discord.
-Autarch Spies - Combat. Mob. 2 xxBODY | 2 xxDEFENSE | 2 xxTRACKING. Water: Remove 2 progress. Fire: 2 discord.
-
-## Encounter Obstacles
-
-Violent Locals - Rapport. Mob. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Air: 2 discord. Fire: attack.
-Violent Locals - Rapport. Mob. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Air: 2 discord. Fire: attack.
-Violent Locals - Rapport. Mob. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Air: 2 discord. Fire: attack.
-Autarch Spies - Combat. Mob. 2 xxBODY | 2 xxDEFENSE | 2 xxTRACKING. Water: Remove 2 progress. Fire: 2 discord. 
-Autarch Spies - Combat. Mob. 2 xxBODY | 2 xxDEFENSE | 2 xxTRACKING. Water: Remove 2 progress. Fire: 2 discord. 
-Autarch Spies - Combat. Mob. 2 xxBODY | 2 xxDEFENSE | 2 xxTRACKING. Water: Remove 2 progress. Fire: 2 discord. 
-Conspiracy Spreads - Command. 2 xxPSYCHE | 0 xxDEFENSE | 3 xxTRACKING. Special: Discard when defeated. Air: 1 discord.
-Conspiracy Spreads - Command. 2 xxPSYCHE | 0 xxDEFENSE | 3 xxTRACKING. Special: Discard when defeated. Air: 1 discord.
-The Waiting Game - Survival. 1 xxBODY | 0 xxDEFENSE | 4 xxTRACKING.
-
-## Motivation
-
-Unalive and Alone - Lore. 1 xxPSYCHE | 2 xxDEFENSE | 3 xxTRACKING. Oniri decides whether to help. Water: Oniri takes a condition.
-Under Siege - Command. 2 xxPSYCHE | 2 xxDEFENSE | 3 xxTRACKING. People question Thea’s leadership. Air: Thea takes a condition. Fire: Discard one conspiracy card.
-
-## Replay Events
-
-Community Building - Command, 2, positive, add progress to obstacles
-Echoes of Magic - Lore, 2, take 1 discord
-Oniri's Innocence - Command, 3, take 1 discord
-Purging the Filth - Combat, 2, take a condition
-A Father's Vengeance - Harmful, take 1 discord / violent locals
-Aid from Burgan Vale - Helpful, gain 2 xxMANA dice, Yasmina.
-
-## Burn Events
-
-Funeral Dirge - Rapport, 3, Burn, adds discord
-Raid Under Sparrow Keep - Combat, 3, add progress to SK
-Traces of Power - Lore, 3, Burn, Helps with Veil Ward.
-
-## WHISPERS AT AT LILY MANOR
-
-* Difficulty: 3
-* Skills: Rapport, Tactics, Disguise, Thievery
-* Triggers: Air, Fire, Earth, Water
-
-## Locked Cards
-
-The Subtect (LOCKED) - Thievery. Diplomat. 2 xxPSYCHE | 4 xxDEFENSE | 3 xxTRACKING. Can add progress from Weaver. Air: Progress Fire: Discord
-Zarrah (LOCKED) - Command. Diplomat. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Air: Progress Earth: Discord
-High Society (LOCKED) - Disguise. Issue. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Fire: Spend Luxury Water: Discord
-
-## Starting Obstacles
-
-Strong Arm Tactics - Combat. Issue. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Air: Discord
-Viator - Rapport. Diplomat. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Fire: Remove progress Water: Remove discord
-
-## Encounter Obstacles
-
-Sut - Rapport. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Fire: Discord
-Global Stability - Tactics. Issue. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Fire: Progress
-Long Shadows - Command. Issue. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Air: Progress
-Eastern Isolationism - Tactics. Issue. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Earth: Discord
-The Sapphire Djinn - Lore. Foe. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Earth: Discord Water: Add mana dice
-
-## Motivation
-
-Moment of Clarity - Fuscus. Rapport. Motivation. 2 xxBODY | 1 xxDEFENSE | 3 xxTRACKING. Air: Condition Earth: Add progress
-
-## Events
-
-Foreign Spells - Lore. 2. Threat progress
-Wine Harvest - Rapport. 2. Luxury die
-Warnings from Burgan Vale - Tactics. 2. Progress
-Pillow Talk - Disguise. 2. Discord
-Poison! - Thievery. 2. Condition
-Unified Front - Tactics. 3. Discord
-Akilah - Rapport. 3. Discord
-The Drug Trade - Disguise. 3. Condition
-Grave Concerns - Thievery. 3. Discord
-Pleasure Dome - Rapport. 4. Luxury die
-Rising Darkness - Tactics. 4. Discord
-
-## Burn Events
-
-Yasmina's Concern - Choice. Condition for threat progress?
-Viator's Charm - Angry. “Why, but of course. Tonight is a night to be merry – worries should be left at the door. A small little town like Red Bank can cause no disturbance here.”
-Viator's Sympathy - Add progress to an issue. “Every city is of importance. Lily Manor will do everything in its power to aid Red Bank. Any kingdom, large or small, is deserving of peace.”
-
-## Threat
-
-Veil Ward - The veil ward is a secure magical communication mechanism. The Weaver of Secrets can use it to give the
+# First Showdown Playtest
+
+Need to make some assumptions for the first showdown playtest. What missions have been finished? What was purchased during each mission?
+
+* Year 1
+   * North Oaks - Sorcery 1, +1 Timber, + 1 Timber, +1 Survival, +1 Combat
+   * Sunriders - Military 1, Technology 1, Increase Stability, +1 Rapport, +1 Tactics
+* Year 1
+   * Sightrock - Diplomacy 1, +1 Food, +1 Lore, +1 Survival
+   * Gravewood - Espionage 1, +1 Command, +1 Thievery
+* Year 2
+   * Eight Ears - Technology 2, +1 Ore, +1 Combat
+   * Sowing Rebellion - Espionage 2, Sorcery 2, +1 Thievery, +1 Luxury, Whitehold
+
+## Threats
+
+Not sure what effect unresolved threats should have?
 
 # Third Showdown
 

@@ -62,7 +62,15 @@ Menas glared at Fuscus, before standing up straight, turning to Thea. “Where f
 
 TBD
 
-# Whispers and Conspiracies
+# Sunfall
+
+An ill wind blows across the village of Outer Fernbrake, which sits on the northern edge of Red Bank. An insurgency of Imperial agents has made a base there, in the old ruins of Sparrow Keep. They work to undermine Red Bank from within. In service to this goal, a mage, known as the Weaver of Secrets, has murdered Castor, a local boy. The sorcerous nature of the murder points the finger at Oniri, who is newly arrived in Red Bank. Agents of the Empire fan the flames of conspiracy theories that seek to bring down Oniri, and by association, Thea. The Autarch sees Oniri as a threat to her hegemony. And indeed, this task is succeeding. The people are turning against the leadership of Red Bank.
+
+At the same time, envoys from Red Bank have arrived at Lily Manor for the annual Sunfall Trade. This is a major festival that draws in leaders from throughout the lands of Six Winters. Despite the unrest in Red Bank, it would be folly to miss the opportunity to unite the factions in common cause against the Empire. The Empire also sent representatives to Lily Manor, working to undermine Red Bank's credibility by pointing to the growing unrest at home.
+
+Can this plot be stopped?
+
+## The Conspiracy Begins
 
 “Is everything packed?”
 

@@ -13,7 +13,7 @@ Menas,"Starting Character Card",,"..\images\characters\MENAS.png","+2","Cut out 
 Menas,"Starting Character Card",,"..\images\characters\MENAS.png","X2","Clever Trap","We can't fight directly against overwhelming odds.","Attach to a wilderness location. If an obstacle would be attached to the location, discard (not burn!) the obstacle instead.",,,,"Discard Obstacle"
 
 Menas,"Discord 1A","..\images\pngs\backstab.png","..\images\characters\MENAS.png","-1","Shoot the Messenger","Why the ever loving fuck did you let things get so bad?","xxIMMEDIATE If Fuscus is in the same location as Menas, both Fuscus and Menas are angry."
-Menas,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\MENAS.png","+1","Be Preparaed","No, that was not all luck.","Attach to Menas. If Menas scores a critical success (2 or more than the difficulty of a test), gain 2 xxORE dice and discard this card.",,,,"+1 xxORE on Critical Success"
+Menas,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\MENAS.png","+1","Be Preparaed","No, that was not all luck.","Attach to Menas. If Menas scores a critical success (2 or more than the difficulty of a test), gain 1 xxORE dice and discard this card.",,,,"+1 xxORE on Critical Success"
 
 Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","xxNULL","Pillow Talk","It wasn't my best performance, but I learned something useful.","Take 3 xxDISCORD to add one progress to a threat."
 Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","-2","Soft Pity","Fine. I hope that rigid code keeps you warm at night.","Add one to a test Fuscus and Thea work together on."
@@ -48,8 +48,8 @@ Thea,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\
 Keel,"Starting Character Card",,"..\images\characters\KEEL.png","xxNULL","Work Better Alone","You'll just slow me down....","Add one to Keel's test if he is alone at a location."
 Keel,"Starting Character Card",,"..\images\characters\KEEL.png","-2","Tough Love","Okay, Okay, I get it! It won't happen again.","Add one to a test that Menas and Keel work together on."
 Keel,"Starting Character Card",,"..\images\characters\KEEL.png","-2","Tough Love","Okay, Okay, I get it! It won't happen again.","Add one to a test that Menas and Keel work together on."
-Keel,"Starting Character Card",,"..\images\characters\KEEL.png","-1","Nose for Danger","It's risky, but we have to stay one step ahead of the Empire.","Draw asset cards equal to the xxRISK at Keel's location."
-Keel,"Starting Character Card",,"..\images\characters\KEEL.png","-1","Nose for Danger","It's risky, but we have to stay one step ahead of the Empire.","Draw asset cards equal to the xxRISK at Keel's location."
+Keel,"Starting Character Card",,"..\images\characters\KEEL.png","-1","Nose for Danger","It's risky, but we have to stay one step ahead of the Empire.","Draw two asset cards if Keel is at an Imperial location."
+Keel,"Starting Character Card",,"..\images\characters\KEEL.png","-1","Nose for Danger","It's risky, but we have to stay one step ahead of the Empire.","Draw two asset cards if Keel is at an Imperial location."
 Keel,"Starting Character Card",,"..\images\characters\KEEL.png","+0","Trick Shot","I've practiced this a million times. In my head.","Take 1 xxDISCORD to add one to a test Keel is involved in."
 Keel,"Starting Character Card",,"..\images\characters\KEEL.png","+0","Trick Shot","I've practiced this a million times. In my head.","Take 1 xxDISCORD to add one to a test Keel is involved in."
 Keel,"Starting Character Card",,"..\images\characters\KEEL.png","+1","Misdirection","I swear I heard something. From just outside the gate.","Move a foe or guard to a different location on the same mission."
@@ -58,6 +58,6 @@ Keel,"Starting Character Card",,"..\images\characters\KEEL.png","+2","Secret Sta
 Keel,"Starting Character Card",,"..\images\characters\KEEL.png","X2","Eyes on the Prize","These other things are distractions.","Attach to Keel. Cancel a xxFIRE trigger for Keel's mission, then discard this card.",,,,"Cancel xxFIRE"
 
 Keel,"Discord 1A","..\images\pngs\backstab.png","..\images\characters\KEEL.png","-1","Overanalysis","We have no good choices now.","xxIMMEDIATE Attach this card to Keel. Keel loses his next action then discard this card.",,,,"Lose Action"
-Keel,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\KEEL.png","+1","The Graduate","It's time to put into action what I learned all those years toiling away in Crescent Hold.","Add xxPROGRESS to Keel's location equal to the xxRISK."
+Keel,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\KEEL.png","+1","The Graduate","It's time to put into action what I learned all those years toiling away in Crescent Hold.","Add 2 Mission Progress if Keel is at an Imperial location."
 
 Tag,"North Oaks","..\images\pngs\octogonal-eye.png",,"+0","Deathtouched","The Necromancer of North Oaks left a dark and enduring legacy behind.","If Oniri is on the same mission as this character, any xxBODY conditions this character would take are given to Oniri instead."
