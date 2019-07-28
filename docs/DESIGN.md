@@ -219,6 +219,7 @@ Spotlight locations usually give positive abilities.
 * Gaining Resources
 * Buying Developments
 * Emphasize alliance with other factions
+* Help with threats
 
 # Mission Design
 
@@ -251,7 +252,7 @@ Additionally, certain mission types lean towards certain types of effects, as de
 
 ## Mission Location Effects
 
-Mission locations typically are ways to interact with obstacles that are in play. Usually mission locations have negative effects. It's not essential that mission locations have any effects at all.
+Mission locations typically are ways to interact with obstacles that are in play. Usually mission locations have negative effects. It's not essential that mission locations have any effects at all. A big part of mission locations are their tags.
 
 * Take Discord
    * Can be modified based on obstacles at the location, such as take X discord for each type of Y obstacle
@@ -266,6 +267,8 @@ Mission locations typically are ways to interact with obstacles that are in play
    * Obstacles could be stronger or weaker at a particular location
 * Modify skills
    * Could make tests easier / harder at the location
+* Tags
+   * A big part of locations is the available tags, which can be used by both character cards and encounter cards
 
 ## Obstacle Effects
 
@@ -281,9 +284,11 @@ The bread and butter of obstacles is to make it harder to place progress as well
 
 A threat is drawn at the beginning of each season. They are typically an effect which is present through the whole session and then resolved at the end of the session. Threats attach to the spotlight location that matches their tag (one of the five development types). They start with a certain amount of progress equal to the related development level. Over the session, the progress dwindles, forcing bad things to happen. At the end of the session, if the progress is above some value, the threat is successfully resolved.
 
+Like obstacles, they have a skill which players may use to add progress to them. If there is progress on the threat at the end of the mission, it is resolved.
+
 ## Unresolved Threats
 
-Not sure what effect unresolved threats should have. Having narratives that relate to showdowns feels like a tight way to handle the narrative. It would also be nice if they fit into tech that already exists.
+Not sure what effect unresolved threats should have. Having narratives that relate to showdowns feels like a tight way to handle the narrative. It would also be nice if they fit into tech that already exists. The most straightforward way is to play all unresolved threats during the showdown.
 
 * Stay as Threats - One option is to have all the unresolved threats come back during the showdown, giving players lots to juggle on top of everything else, maybe a little bit anticlimactic? But it doesn't require any new cards or changes! Players will also be very aware of what to expect. That also gives a nice upper bound on the number of threats (five).
 * Encounter Deck - Maybe a little more explicit, since there could be specific cards added. This isn't a terrible idea. It does create the right psychological impact, since there is a "oh, this thing I let fester is adding this to the deck" moment. And then those things can cause problems. They would most likely be obstacles, so that they could start in play and not be missed by chance.
@@ -301,35 +306,8 @@ Not sure what effect unresolved threats should have. Having narratives that rela
 * Make gaining progress more difficult
 * Increase a discord track
 * Lower a motivation track
-
-## Old Threats
-
-Espionage,1,"False Maps","Immediately. Espionage 0-3: May not gain consequences to ignore timers during Exploration missions."
-Stability,1,"Food Shortages","Immediately. Stability 0-2: -1 food."
-Military,1,"Western Front","End of Season. Military 0-2: -1 stability."
-General,1,"Moonrider Raids","Immediately. Sunriders disposition 0-3: May not trade with Sunriders for remainder of season."
-Espionage,1,"Sunrider Grain Dispute","End of Season. Espionage 0: -2 disposition with Sunriders. Espionage 1-2: -1 disposition with Sunriders."
-Military,1,"Crescent Hold Calls for Aid","End of Season. Subtract 1 from military or drop disposition with Crescent Hold by 1. Subtract 3 from military to burn card."
-Espionage,1,"The Mole","Immediately. Espionage 0-2: -1 ore."
-Secrets,1,"Careless Whispers","Immediately. If all secrets have not been found in Eastkeep, -1 espionage."
-Sorcery,1,"A Growing Bond","End of Season. Subtract 1 from sorcery or +1 Apotheosis. Subtract 3 from sorcery to burn card."
-Secrets,1,"The Harrowing","End of Season. Secrets 0-4: +1 Apotheosis."
-Diplomacy,2,"Farmer Rebellion","End of Season. Diplomacy 0-2: Next season produce 2 fewer food."
-Conquest,2,"Materials Shortage","Immediately. Conquest 0-2: Effect. All survival tests are difficult for the remainder of the season."
-General,2,"Restless Spirits","Immediately. Spend one sorcery or character with highest Lore must return to Red Bank. Ignore if character with highest Lore already at Red Bank."
-Sorcery,2,"Darkness on the Steppes","End of Season. Sorcery 0-2: -1 disposition with Sunriders."
-Espionage,2,"Disgruntled Miners","End of Season. Espionage 0-4: -1 disposition with Crescent Hold."
-Stability,2,"Rites of the Blue Robe","End of Season. Stability 0-4: -1 disposition with Burgan Vale."
-Espionage,2,"Misinformation","Immediately. Subtract 1 from espionage or lose 1 secret from Eastkeep. Subtract 3 from espionage to burn card."
-Military,2,"Holding the Outer Reach","End of Season. Subtract 1 from military or North Oaks produces no resources next season. Subtract 3 from military to burn card."
-Secrets,2,"The Southkeep Gambit","End of Season. Subtract 1 from espionage or +1 Apotheosis. Subtract 3 from espionage to burn card."
-Apotheosis,Secrets,2,"Ritual of Law","End of Season. Secrets 0-8: +1 Apotheosis."
-Apotheosis,Secrets,3,"Connection Made","End of Season. Secrets 0-6: +2 Apotheosis. Secrets 7-12: +1 Apotheosis."
-Apotheosis,Secrets,4,"The Far Forest","End of Season. Secrets 0-8: +2 Apotheosis. Secrets 9-16: +1 Apotheosis."
-Espionage,5,"Assassination","Character is assassinated."
-Apotheosis,Secrets,5,"The Sundering","End of Season. Secrets 0-10: +2 Apotheosis. Secrets 10-20: +1 Apotheosis."# Trait Idea
-
-This might provide another way to customize characters beyond lifepath and discord cards. These would be broad tags that could be assigned to characters, like headstrong or careful. They would show up on encounter cards and let characters make unique sorts of choices.
+* Lower stability
+* More timers
 
 # Characters
 
@@ -379,9 +357,43 @@ Each character in the campaign has personality cards which make them better suit
 
 ## Motivation
 
-Currently, there are motivation cards for each character. Do they need to be more general? If a card is for character X and they aren't on the mission, what happens? Could discard it, which is probably the easiest approach. Or it could be burned.
+Motivation is increased through mission achievements and other mission aftermath effects. Any character's motivation may be increased, although occasionally negative effects hit the character with the highest motivation first.
 
-Maybe some motivation cards could be general, such that any character could tackle them? Then again, that brings up weird things where a team of characters could make progress on it. And they're supposed to be solo sorts of efforts. One way around that is to attach them to a character.
+Potential motivation skeleton.
+
+* North Oaks - Menas
+* Sightrock - Thea
+* Sunriders - Thea
+* Gravewood - Keel
+* Eastkeep - Keel
+
+* Gray Forest
+* Burgan Vale
+* Prominence
+
+* Lily Manor - Fuscus
+* Red Bank - Thea
+
+### Brainstorming
+
+Raising Motivation
+
+* Mission Achievements - Could have these increase a particular character's motivation, even if they aren't on the mission, or could make them general to any character. Making them general to any character does mean that one character could advance much more quickly than others. Perhaps the achievement could restrict how high the motivation is, like "increase motivation (max 2)". "Increase a character's Motivation by 1 to a maximum of 2.", or something like "Increase lowest motivation track"
+* Obstacles - These can be very customized, but it does push certain characters toward certain missions, which removes some of the player agency. Also, what happens when a character is killed? Having a spotlight character feels much more thematic than a mission achievement, even if it robs some player agency. If they are done as obstacles, they should be locked obstacles that come into play if that character is selected.
+* Character Deck - Another possibility is to tie them closer to the character deck. So a motivation card would be added in, and if completed, would level the character up.
+* Motivation Pool - Have some sort of pool, if it overflows, a character raises motivation, a little like how discord works - increasing the pool may be a function of character cards and some event / location abilities? Motivation isn't really a party resource, though? Where discord is a party resource. Also, by being general, would suffer from the same issue of letting one character advance much quicker than others.
+
+Lowering Motivation
+
+* Showdown Fallout - This makes quite a bit of sense, as it can be customized, however, it's also going to be fairly rare
+* Threats
+* Obstacles
+
+## Discord
+
+Discord is raised when the discord pool overflows. It can be lowered with mission achievements. "Decrease lowest discord track"
+
+Should the Discord pool overflowing raise the character with the *highest* discord?
 
 ## Old Year One Character Cards
 
@@ -448,7 +460,9 @@ Lucia,4,0,"Bitter Truth",,,,
 
 ## Ideas
 
-Thea: Card that reinforces she does better when focusing on one thing at a time? Oniri maybe has one that reflects handling multiple things at once?# Showdowns
+Thea: Card that reinforces she does better when focusing on one thing at a time? Oniri maybe has one that reflects handling multiple things at once?
+
+# Showdowns
 
 Each chapter ends with a showdown. A showdown is a two pronged mission, intended to showcase stronger interactions between missions than are present during a regular session. Additionally, the achievements have **types** associated with them. The resolution of the showdown is based on how many of each type are collected during the session. There are three showdowns in the campaign. At the end of years two, four, and six.
 
