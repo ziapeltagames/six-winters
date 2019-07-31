@@ -145,6 +145,7 @@ The knife lowered, only a little bit, and when Aisling spoke, his voice was thic
 Oniri hummed. “Lying.” They traced shapes on the table again, not looking up still.
 
 Thea bit her lip, her eyebrows pinching together with concern. “We’ll need to look into this. We’ll find out who did this to your son, but it wasn’t Oniri. Okay?”
+
 “Look at it!” Aisling barked. “You can’t even consider that it could do more than we realize?”
 
 “You’re going to need to leave,” Menas said.
@@ -164,7 +165,7 @@ Fuscus sighed, resting his hands on his hips. He needed a glass of wine, really.
 
 “The Autarch has magic,” Keel remarked off-handedly. “Think it’s her?”
 
-Fuscus paused, considering. It makes sense. Burgen Veil is full of wizards, but they’re too snobby about their arbitrary rules and regulations to do something like this. Murdering a little boy? Weird. Framing another magic-user for it? Even weirder, and clearly premeditated. But… “Is the Autarch really that interested in Redbank? We haven’t made any moves against the Empire.”
+Fuscus paused, considering. It makes sense. Burgen Veil is full of wizards, but they’re too snobby about their arbitrary rules and regulations to do something like this. Murdering a little boy? Weird. Framing another magic-user for it? Even weirder, and clearly premeditated. But… “Is the Autarch really that interested in Red Bank? We haven’t made any moves against the Empire.”
 
 “We haven’t gone public with our plans,” Keel noted. He set his crossbow down, finally giving them his attention. “We’ve only talked with the council. And not even the full council.”
 

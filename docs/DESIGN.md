@@ -105,6 +105,7 @@ Following is a list of advantages and disadvantages cards may confer, sorted *ro
 * Improved Obstacle Defenses - Mission Locations
 * Add Discord - Obstacles, Events
 * Add Resource Dice - Spotlight Locations, Assets
+* Free Action - Buy Development
 * Lose Resource Dice - Events
 * Take Stress - Events, Obstacles
 * Take Condition - Events, Obstacles

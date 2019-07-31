@@ -10,12 +10,12 @@ Menas,"Starting Character Card",,"..\images\characters\MENAS.png","+0","Call to 
 Menas,"Starting Character Card",,"..\images\characters\MENAS.png","+1","Contingency Plan","This will hold for now.","Spend 1 xxORE to take any card from the asset discard pile."
 Menas,"Starting Character Card",,"..\images\characters\MENAS.png","+1","Contingency Plan","This will hold for now.","Spend 1 xxORE to take any card from the asset discard pile."
 Menas,"Starting Character Card",,"..\images\characters\MENAS.png","+2","Cut out of Wood","It's not as bad as it looks.","Attach to Menas. Cancel the next xxBODY condition Menas would take, then discard this card.",,,,"Cancel xxBODY"
-Menas,"Starting Character Card",,"..\images\characters\MENAS.png","X2","Clever Trap","We can't fight directly against overwhelming odds.","Attach to a wilderness location. If a Foe would be attached to the location, discard (not burn!) the Foe instead.",,,,"Discard Foe"
+Menas,"Starting Character Card",,"..\images\characters\MENAS.png","X2","Clever Trap","We can't fight directly against overwhelming odds.","Attach to a Wilderness location. If a Foe would be attached to the location, discard (not burn!) the Foe instead.",,,,"Discard Foe"
 
 Menas,"Discord 1A","..\images\pngs\backstab.png","..\images\characters\MENAS.png","-1","Shoot the Messenger","Why the ever loving fuck did you let things get so bad?","xxIMMEDIATE If Fuscus is in the same location as Menas, both Fuscus and Menas are Angry."
-Menas,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\MENAS.png","+1","Be Preparaed","No, that was not all luck.","Attach to Menas. If Menas places 3 or more Progress, gain 2 xxORE dice and discard this card.",,,,"+2 xxORE Dice / 3 Progress"
+Menas,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\MENAS.png","+1","Be Preparaed","No, that was not all luck.","xxIMMEDIATE Gain one resource die of your choice. Roll die and add to pool."
 
-Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","xxNULL","Pillow Talk","It wasn't my best performance, but I learned something useful.","Take 3 xxDISCORD to add one progress to a threat."
+Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","xxNULL","Pillow Talk","It wasn't my best performance, but I learned something useful.","Take 1 xxDISCORD to add one progress to a threat."
 Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","-2","Soft Pity","Fine. I hope that rigid code keeps you warm at night.","Add one to a test Fuscus and Thea work together on."
 Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","-2","Soft Pity","Fine. I hope that rigid code keeps you warm at night.","Add one to a test Fuscus and Thea work together on."
 Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","-1","Market Manipulations","A little of this for a lot of that. No one will notice the difference.","Reroll all resource dice of one type."
@@ -28,7 +28,7 @@ Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","+2","Bad In
 Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","X2","Lavender Society","Know the password? Of course I know the password. This is my place!","Attach to an urban location. Any character present at the location may add one to all tests.",,,,"+1 Test"
 
 Fuscus,"Discord 1A","..\images\pngs\backstab.png","..\images\characters\FUSCUS.png","-1","On the Grift","No one appreciates the breath of life like I do.","xxIMMEDIATE Spend 1 xxLUXURY or take 2 xxDISCORD."
-Fuscus,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\FUSCUS.png","+1","Charming Host","","Move one Issue or Diplomat to a different location at the same mission."
+Fuscus,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\FUSCUS.png","+1","Charming Host","","xxIMMEDIATE If Fuscus is at a mission location, may move one Issue or Diplomat to a different location on the same mission."
 
 Thea,"Starting Character Card",,"..\images\characters\THEA.png","xxNULL","The Conciliator","I can't let my burdens get in the way of our goal.","Make Thea frustrated to remove 4 xxDISCORD from Thea's party."
 Thea,"Starting Character Card",,"..\images\characters\THEA.png","-2","Speaker for Red Bank","Time is short, and we must work quickly.","Add one to Thea's test when she is at a Red Bank location."
@@ -43,7 +43,7 @@ Thea,"Starting Character Card",,"..\images\characters\THEA.png","+2","Higher Pur
 Thea,"Starting Character Card",,"..\images\characters\THEA.png","X2","Steady Command","Do not give in to your fears.","Attach to Thea. Cancel an xxAIR trigger for Thea's mission, then discard this card.",,,,"Cancel xxAIR"
 
 Thea,"Discord 1A","..\images\pngs\backstab.png","..\images\characters\THEA.png","-1","Doubt","I'm giving it my best - and it's not enough.","xxIMMEDIATE Make Thea weary if she isn't already." 
-Thea,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\THEA.png","+1","Divide and Conquer","This is a good plan. Now it's time to put it into action.","If Thea is alone, add 2 Mission Progress to her location."
+Thea,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\THEA.png","+1","Clear Vision","It's not just words! It's the intent behind them.","xxIMMEDIATE If Thea is at a Red Bank location, add 2 Mission Progress there."
 
 Keel,"Starting Character Card",,"..\images\characters\KEEL.png","xxNULL","Work Better Alone","You'll just slow me down....","Add one to Keel's test if he is alone at a location."
 Keel,"Starting Character Card",,"..\images\characters\KEEL.png","-2","Tough Love","Okay, Okay, I get it! It won't happen again.","Add one to a test that Menas and Keel work together on."
@@ -58,6 +58,17 @@ Keel,"Starting Character Card",,"..\images\characters\KEEL.png","+2","Secret Sta
 Keel,"Starting Character Card",,"..\images\characters\KEEL.png","X2","Eyes on the Prize","These other things are distractions.","Attach to Keel. Cancel a xxFIRE trigger for Keel's mission, then discard this card.",,,,"Cancel xxFIRE"
 
 Keel,"Discord 1A","..\images\pngs\backstab.png","..\images\characters\KEEL.png","-1","Overanalysis","We have no good choices now.","xxIMMEDIATE If Keel is at a Red Bank location, remove 2 Mission Progress."
-Keel,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\KEEL.png","+1","The Graduate","It's time to put into action what I learned all those years toiling away in Crescent Hold.","Add 2 Mission Progress if Keel is at an Imperial location."
+Keel,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\KEEL.png","+1","The Graduate","It's time to put into action what I learned all those years toiling away in Crescent Hold.","xxIMMEDIATE If Keel is at an Imperial location, add 2 Mission Progress there."
 
 Tag,"North Oaks","..\images\pngs\octogonal-eye.png",,"+0","Deathtouched","The Necromancer of North Oaks left a dark and enduring legacy behind.","If Oniri is on the same mission as this character, any xxBODY conditions this character would take are given to Oniri instead."
+
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","xxNULL","Title","Quote","Effect"
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","xxNULL","Title","Quote","Effect"
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","-2","Title","Quote","Effect"
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","-1","Title","Quote","Effect"
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","-1","Title","Quote","Effect"
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","+1","Title","Quote","Effect"
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","+1","Title","Quote","Effect"
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","+2","Title","Quote","Effect"
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","X2","Title","Quote","Effect"
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","X2","Title","Quote","Effect"
