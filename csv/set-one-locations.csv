@@ -16,7 +16,7 @@ mission,ctriggers,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
 "Doom Under Sightrock",,"3) The Weird Rock","Dungeon","Text",,"xxACTION Journey under the rock (Survival xxPROGRESS).","xxMOON One character at this location is shaken."
 "Doom Under Sightrock",,"4) Pool Beyond Space and Time","Dungeon","Text",,"xxACTION Eldritch echoes (Lore xxPROGRESS)."
 
-"The Sunriders",,"xxSPOTLIGHT Spirit Lake","Sorcery, Faction","The clear waters of Spirit Lake reflect back the wisdom of ancestors. Feeding the lake earns the Sunriders' respect.","xxAIR","xxAIR Gain one Mana Die."
+"The Sunriders",,"xxSPOTLIGHT Spirit Lake","Sorcery, Faction","The clear waters of Spirit Lake reflect back the wisdom of ancestors. Feeding the lake earns the Sunriders' respect.","xxAIR","xxAIR May trade a Mana die for any other die type. Roll the new die and add to the pool."
 
 "The Sunriders",,"1) Horsethief Meadows","Wilderness","Feats of martial prowess take place across the wide open plains.",,"xxACTION First Impressions. Test (Command xxPROGRESS).","xxACTION Rangers of the South. Spend 5 xxPROGRESS to increase xxSTABILITY track by one."
 "The Sunriders",,"2) Hogel Manor","Urban","For a Sunrider, Hogel's decorations and appointments are almost gaudy, and his demeanor doubly so.",,"xxACTION Wine and Loathing. Test (Rapport xxPROGRESS)."

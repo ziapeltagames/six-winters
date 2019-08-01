@@ -59,6 +59,7 @@ Keel,"Starting Character Card",,"..\images\characters\KEEL.png","X2","Eyes on th
 
 Keel,"Discord 1A","..\images\pngs\backstab.png","..\images\characters\KEEL.png","-1","Overanalysis","We have no good choices now.","xxIMMEDIATE If Keel is at a Red Bank location, remove 2 Mission Progress."
 Keel,"Motivation 1A","..\images\pngs\fire-silhouette.png","..\images\characters\KEEL.png","+1","The Graduate","It's time to put into action what I learned all those years toiling away in Crescent Hold.","xxIMMEDIATE If Keel is at an Imperial location, add 2 Mission Progress there."
+Keel,"Motivation 2A","..\images\pngs\fire-silhouette.png","..\images\characters\KEEL.png","+2","All the Gadgets","What this? Just something I whipped up.","xxIMMEDIATE Add 2 Progress to any Foes or Guards on the same mission."
 
 Tag,"North Oaks","..\images\pngs\octogonal-eye.png",,"+0","Deathtouched","The Necromancer of North Oaks left a dark and enduring legacy behind.","If Oniri is on the same mission as this character, any xxBODY conditions this character would take are given to Oniri instead."
 
