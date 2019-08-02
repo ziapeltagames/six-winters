@@ -75,16 +75,15 @@ There are five different types of cards in the game. Each type of card has sligh
 
 Tags appear on cards to give them more flavor and pair with character abilities. Tags are used for threats, obstacles, and locations. Generally only one or at most two tags are used on a card.
 
-* Obstacle Tags: Foe, Guard, Diplomat, Environment, Issue, Trap, Motivation, Discord, Mob
-* Location Tags: Wilderness, Dungeon, Urban, Red Bank, Imperial
+* Obstacle Tags: Foe, Guard, Diplomat, Environment, Issue, Trap, Motivation, Discord
+* Location Tags: Wilderness, Dungeon, Urban, Red Bank, Imperial, Faction
 * Threat Tags: Stability, Sorcery, Military, Espionage, Diplomacy, Technology
 
 ## Card Decks
 
 Finally, the different types of cards get placed into different decks depending on how they're used.
 
-* Asset - Each player uses an asset deck that has triggers for locations and obstacles along with effect cards
-* Developments - These cards are available for purchase during the game, later they are placed in the progress deck at the start of the mission
+* Asset - Each player uses an asset deck that has numerical resolutions on it as well as special abilities
 * Encounter - The encounter deck for the mission has random events characters encounter via progress deck triggers
 * Achievement - Used to restrict the number of achievements in play
 
@@ -103,6 +102,7 @@ Following is a list of advantages and disadvantages cards may confer, sorted *ro
 * Add Mission Progress - Assets, Events
 * Remove Obstacle / Threat / Mission Progress - Obstacles, Threats
 * Improved Obstacle Defenses - Mission Locations
+* Advance the Stage - Assets
 * Add Discord - Obstacles, Events
 * Add Resource Dice - Spotlight Locations, Assets
 * Free Action - Buy Development
@@ -165,45 +165,73 @@ In general, something happenign is better than nothing happening! While that may
 
 # Asset Card Design
 
+There are three types of assets: character cards, developments, and artifacts.
+
 ## Character Card Effects
 
-Character cards are mostly positive. The biggest focus of character cards is interactions between characters. As such, some of them incentivize having different pairings of characters for a bigger effect.
+Character cards, with the exception of discord cards, are positive. The biggest focus of character cards are interactions between characters. As such, some of them incentivize having different pairings of characters for a bigger effect. They also tend to make heavy use of location and obstacle tags, such that each character has a specialization of sorts.
 
-* Add Obstacle / Threat / Mission Progress
-* Better Defense
+As a general design principle, there isn't much to help with defense or to cancel bad things from happening. Nothing happening is usually boring!
+
+* Add to Test
+   * If another character present
+   * If character is alone
+* Add Progress to Obstacle
+   * Restricted by tag
+* Add Progress to Threat
+   * Restricted by type
+* Add Progress to Location
+   * Restricted by tag
 * Extra Movement
+   * To another character
+   * Swap places
+   * To location type X
 * Moving Obstacles
-* Bypass Obstacle Defense
-* Burning Threats
+* Bypass/Lower Obstacle Defense
+* Discard Obstacle
+   * By type
 * Lower Discord
-* Remove Condition
 * Manipulating Achievement Deck
+* Manipulating Asset Deck
+* Purchase a Development
+* Advance the Stage
+
+Discord cards make it bad to be at particular locations or with particular characters.
+
+* Lose progress 
+* Take discord
+* Move a character to a particular location (maybe a spotlight location)
 
 ## Development Effects
 
-Developments are also differentiated somewhat by type. Maybe as a general rule none of these should remove conditions or discord? That might be a better thing for character cards to do. The various types should also roughly map to the different quest types.
+It is possible to customize developments to a greater degree, so they can be somewhat more restrictive by type of mission.
 
-It would also be good if the peak development in each track was fairly powerful. It probably needs to be something valuable in the climactic mission? Since it will be purchased so late in the campaign?
+* Gain resource dice (use resource tracks)
+* Add to skills (attach card to a character)
+* Permanaent skill increase (harder to get)
+* Rearrange top three encounter cards in any order (Alliance, Exploration, Infiltration, Quest)
 
-* Diplomacy (Luxury, Food)
-   * Rapport (+1, +2)
-   * Luxury (+1, +2)
+It would also be good if the peak development in each track was fairly powerful. It probably needs to be something valuable in the climactic mission? Since it will be purchased so late in the campaign? Developments commonly feature bonuses to resource dice and skill increases.
+
+* Diplomacy
+   * Rapport
+   * Luxury
    * Alliance
-* Sorcery (Mana)
-   * Lore (+1, +2)
-   * Mana (+1, +2)
-* Technology (Food, Timber, Ore)
-   * Fortune
-   * Survival (+1, +2)
-   * Timber (+1, +2)
-   * Food (+1, +2)
-   * Ore (+1, +2)
-   * Exploration Mission Progress Deck      
-* Military (Ore, Food, Timber)
-   * Combat (+1, +2)
-   * Tactics (+1, +2)
-   * Command (+1, +2)
-* Espionage (All Resources)
+* Sorcery
+   * Lore
+   * Mana
+   * Quest
+* Technology
+   * Survival
+   * Timber
+   * Food
+   * Ore
+   * Exploration
+* Military
+   * Combat
+   * Tactics
+   * Command
+* Espionage
    * Disguise
    * Thievery
    * Infiltration
@@ -212,149 +240,51 @@ It would also be good if the peak development in each track was fairly powerful.
 
 These should be very good, at the level of the best developments or the highest lifepath cards. One big advantage with artifacts is that they start the session in play.
 
-# Spotlight Location Design
+### Brainstorm
 
-Spotlight locations usually give positive abilities.
+Not totally sure how artifacts should work. One option is to apply them as global effects that modify state. But that could get difficult to remember. Another option is that they attach to different sorts of locations. Attaching to locations is nice, because it's not as global, and is easier to see. They could have effects on everything at that location (-1 defense, +1 progress, etc). They could also attach to threats of different types, making threats easier to handle.
 
-* Trading Resources
-* Gaining Resources
-* Buying Developments
-* Emphasize alliance with other factions
-* Help with threats
+# Character Design
 
-# Mission Design
-
-Missions fall into four categories, not including the showdowns: exploration, alliance, infiltration, and quest. Each of these categories has a broad theme that has both narrative and mechanical ramifications. Missions also have a difficulty number from 1-10, which is used for any event cards that need tests. Missions have four skills associated with them that are also used to guide tests for both events as well as mission locations and obstacles. Finally, missions have two resource types that might be needed.
-
-## Event Card Effects
-
-Events are short term challenges players face during a mission. They trend more negative, sometimes presenting the player with choices and difficult trade-offs. The positive cards come more from the asset deck. Many event cardds feature a skill test to determine if the effect is positive or negative. Any type of card effect is potentially an option, but most cards tend toward the most common currencies (discord and stress).
-
-Additionally, certain mission types lean towards certain types of effects, as detailed below.
-
-* Alliance
-   * Choice: Mission progress --> Threat progres
-   * Negative: Discord
-   * Trigger Frequency: Air, Fire, Earth, Water
-* Infiltration
-   * Choice: Threat progress --> Mission progress 
-   * Negative: Psyche stress
-   * Trigger Frequency: Fire, Earth, Water, Air
-* Exploration
-   * Choice: Mission progress --> Resrouces
-   * Negative: Body stress
-   * Choice: Earth, Water, Air, Fire
-* Quest
-   * Choice: Resources --> Mission progress
-   * Negative: Conditions
-   * Trigger Frequency: Water, Air, Fire, Earth
-* Showdowns
-   * Showdowns tend to combine two of the above mission types
-
-## Mission Location Effects
-
-Mission locations typically are ways to interact with obstacles that are in play. Usually mission locations have negative effects. It's not essential that mission locations have any effects at all. A big part of mission locations are their tags.
-
-* Take Discord
-   * Can be modified based on obstacles at the location, such as take X discord for each type of Y obstacle
-* Take Condition
-   * This can be sort of rough and arbitrary, since it's really hard to not go to a particular location
-* Remove Progress
-   * This makes the location much trickier to use for progress
-* Gain / Trade Resource
-* Affect Obstacle Movement
-   * Could have an obstacle or character move to / from the location
-* Modify obstacles
-   * Obstacles could be stronger or weaker at a particular location
-* Modify skills
-   * Could make tests easier / harder at the location
-* Tags
-   * A big part of locations is the available tags, which can be used by both character cards and encounter cards
-
-## Obstacle Effects
-
-The bread and butter of obstacles is to make it harder to place progress as well as adding to the discord pool. Causing stress and conditions is explicity in how the interrupt mechanics for obstacles work, so it's usually not a triggered effect. If it is a triggered effect, it's usually a more global "any characters on mission" type of effect.
-
-* Take Discord
-* Remove Mission Progress
-* Make Tests at Location More Difficult
-* Cause Stress
-* Cause Conditions
-
-# Threat Design
-
-A threat is drawn at the beginning of each season. They are typically an effect which is present through the whole session and then resolved at the end of the session. Threats attach to the spotlight location that matches their tag (one of the five development types). They start with a certain amount of progress equal to the related development level. Over the session, the progress dwindles, forcing bad things to happen. At the end of the session, if the progress is above some value, the threat is successfully resolved.
-
-Like obstacles, they have a skill which players may use to add progress to them. If there is progress on the threat at the end of the mission, it is resolved.
-
-## Unresolved Threats
-
-Not sure what effect unresolved threats should have. Having narratives that relate to showdowns feels like a tight way to handle the narrative. It would also be nice if they fit into tech that already exists. The most straightforward way is to play all unresolved threats during the showdown.
-
-* Stay as Threats - One option is to have all the unresolved threats come back during the showdown, giving players lots to juggle on top of everything else, maybe a little bit anticlimactic? But it doesn't require any new cards or changes! Players will also be very aware of what to expect. That also gives a nice upper bound on the number of threats (five).
-* Encounter Deck - Maybe a little more explicit, since there could be specific cards added. This isn't a terrible idea. It does create the right psychological impact, since there is a "oh, this thing I let fester is adding this to the deck" moment. And then those things can cause problems. They would most likely be obstacles, so that they could start in play and not be missed by chance.
-* Global Effects - Each threat creates a global effect. This is interesting, but potentially *very* fiddly with everything else going on. Already plenty of triggers!
-* Achievement Deck - When building the achievement deck for the showdown, players could choose cards based on which threats are still unresolved. This doesn't feel as great, because it's not very explicit? That is, it won't be obvious how big of an impact the threats are having, because they're clumped in to other mechanics.
-* Asset Deck - These are supposed to be useful / good cards, so this doesn't make much sense.
-
-## Threat Card Effects
-
-* Lower resources
-* Lower resource tracks
-* Increase discord
-* Give conditions
-* Make obstacles of a certain type more difficult
-* Make gaining progress more difficult
-* Increase a discord track
-* Lower a motivation track
-* Lower stability
-* More timers
-
-# Characters
-
-Each character in the campaign has personality cards which make them better suited to various types of missions.
+Each character in the campaign has character cards which make them better suited to various types of missions. These character cards are the primary means of expression. They additionally have starting skills which tend to push them in specific directions.
 
 ## Thea (Starting Character)
 
-* Alliance 4, Exploration 2
-* Costs
-   * Fortune
+Thea is a core character, arguably the key protagonist of the game. She has no cards which refer to other characters, in order to make her more flexible. However, many other character cards refer to her.
+
+* Red Bank
+* Discord
 
 ## Menas (Starting Character)
 
-* Exploration 4, Alliance 2
-* Costs
-   * Food
+* Thea
+* Wilderness
+* Foe
+* Discord
 
 ## Fuscus (Starting Character)
 
-* Alliance 3, Infiltration 3
-* Costs
-   * Luxury
-   * Secrets
+* Thea
+* Keel
+* Urban
+* Issue
+* Discord
 
 ## Keel (Starting Character)
 
-* Infiltration 4, Exploration 2
-* Friendly: Menas, Thea, and Lucia.
-* Dislikes: Oniri
-   * Disagreement between tech and magic.
-* Costs
-   * Ore
-   * Secrets
+* Menas
+* Alone
+* Guard
 
 ## Oniri (North Oaks)
 
-* Infiltration 4, Exploration 2
-* Shadow Walk
-* Costs
-   * Mana
+* Dungeon
 
-## Yasmini (Sunriders, Gravewood, Burgan Vale)
+## Yasmini (Burgan Vale)
 
-## Viator (Sunriders, Gravewood, Crescent Hold, Lily Manor)
+## Viator (Lily Manor)
 
-## Lucia (Eastkeep, Guilder Farms, Yearly Field, Dawncaves)
+## Lucia (Dawncaves)
 
 ## Motivation
 
@@ -392,76 +322,108 @@ Lowering Motivation
 
 ## Discord
 
-Discord is raised when the discord pool overflows. It can be lowered with mission achievements. "Decrease lowest discord track"
+Discord is raised when the discord pool overflows. It can be lowered with mission achievements.
 
-Should the Discord pool overflowing raise the character with the *highest* discord?
+# Spotlight Location Design
 
-## Old Year One Character Cards
+Spotlight locations usually give positive abilities.
 
-Menas: "Strong Personalities", Thea, Clear All Discord, Angry
-Menas B: "Necessary Evils", Fuscus Progress, Burn Shift Dispositions
-Menas B: "Grizzled Veteran", Military Progress, Burn Defend
+* Trading Resources
+* Buying Developments
+* Emphasize Faction Alliances
+* Help With Threats
 
-Fuscus: "Codependence", Keel, Progress
-Fuscus B: "White Lies", -4 Discord, Exhausted, Burn Angry
-Fuscus B: "Underground Networks", Spend Secrets, Movement, Burn Draw Threat
+# Mission Design
 
-Thea: Spend Fortune, Menas, Easy
-Thea B: -4 Discord, Exhausted, Burn Spend Lux to Increase Disposition
-Thea: Red Bank Progress
+Missions fall into four categories, not including the showdowns: exploration, alliance, infiltration, and quest. Each of these categories has a broad theme that has both narrative and mechanical ramifications. Missions also have a difficulty number from 1-10, which is used for any event cards that need tests. Missions have four skills associated with them that are also used to guide tests for both events as well as mission locations and obstacles. Finally, missions have two resource types that might be needed.
 
-Keel: Menas, Reroll
-Keel: Alone, Progress
-Keel B: Espionage Progress, Burn Spend Secrets to Burn Threat
+## Event Card Effects
 
-Keel,1,0,"Right Tool For The Job","Effect: +1 Skill.","Thievery: +2 Skill.",,"The master of gadgets.","+1 Skill (+2 Thievery)"
-Keel,1,0,"Work Better Alone","Effect: +1 Skill.","Keel is alone: +2 Skill.",,"You'll just slow me down.","+1 Skill (+2 Alone)"
-Keel,1,0,"Tough Love","Requirement: Keel and Menas are both involved in a test.","Effect: After the test, reroll all failures.",,"Okay, okay, I get it!"
+Events are short term challenges players face during a mission. They trend more negative, sometimes presenting the player with choices and difficult trade-offs. The positive cards come more from the asset deck. Many event cardds feature a skill test to determine if the effect is positive or negative. Any type of card effect is potentially an option, but most cards tend toward the most common currencies (discord and stress).
 
-Menas,1,0,"The Direct Approach","Cost: Menas is weary.","Effect: Remove 4 discord from Menas's party.",,"It's tiring keeping the distractable youth on task.","REMOVE DISCORD"
-Menas,1,0,"Grizzled Veteran","Effect: Menas may defend an obstacle without taking a condition.",,,"I've seen this trick before.","FREE DEFEND"
-Menas,1,0,"Strong Personalities","Requirement: Thea is in the same location as Menas.","Cost: Menas is angry.","Effect: Remove all discord from Menas's party.","She can be so infuriating - and she's usually right.","REMOVE DISCORD (WITH THEA)"
+Additionally, certain mission types lean towards certain types of effects, as detailed below.
 
-Thea,1,0,"Black and White","Effect: +1 Skill","Rapport: +2 Skill.",,"I can speak confidently for Red Bank.","+1 Skill (+2 Rapport)"
-Thea,1,0,"Diplomatic Insights","Effect: +1 Skill","Command: +2 Skill.",,"Now is the time to work together for the greater good.","+1 Skill (+2 Command)"
-Thea,1,0,"The Conciliator","Cost: Thea is frustrated.","Effect: Remove all discord from Thea's party.",,"I can't let my burdens get in the way of our goal.","REMOVE DISCORD"
+* Alliance
+   * Choice: Mission progress --> Threat progres
+   * Negative: Discord
+   * Trigger Frequency: Air, Fire, Earth, Water
+* Infiltration
+   * Choice: Threat progress --> Mission progress 
+   * Negative: Psyche stress
+   * Trigger Frequency: Fire, Earth, Water, Air
+* Exploration
+   * Choice: Mission progress --> Resrouces
+   * Negative: Body stress
+   * Choice: Earth, Water, Air, Fire
+* Quest
+   * Choice: Resources --> Mission progress
+   * Negative: Conditions
+   * Trigger Frequency: Water, Air, Fire, Earth
+* Showdowns
+   * Showdowns tend to combine all of the above mission types
 
-Fuscus,1,0,"Trinkets and Baubles","Cost: 3 xxLUXURY.","Effect: A test Fuscus is involved in is easy.",,"Everyone has something that catches their eye.","TEST: EASY"
-Fuscus,1,0,"It's Tiring Being This Handsome","Cost: Fuscus is weary.","Effect: +1 Skill","Disguise: +3 Skill.","I just adore your shoes!","+1 Skill (+3 Disguise)"
-Fuscus,1,0,"White Lies","Cost: Fuscus is exhausted.","Effect: Remove 4 discord from either pool.",,"No harm, no foul.","REMOVE DISCORD"
+## Mission Location Effects
 
-## Old Year Two Character Cards
+Mission locations typically are ways to interact with obstacles that are in play. Usually mission locations have negative effects. It's not essential that mission locations have any effects at all. A big part of mission locations are their tags.
 
-Oniri,1,0,"I'm Always in Pain",,"+1 Mana.","Spend 4 Mana. Give Oniri a condition to remove a condition from someone else in the party.",""
-Oniri,1,0,"Always Alone",,"+1 Mana.","Play when Oniri is alone at a Quest location. Oniri is Exhausted.",""
-Oniri,1,0,"Necromantic Mana Well",,"+1 Mana.","Oniri is Shattered. Increase Mana track by one.",""
+* Take Discord
+   * Can be modified based on obstacles at the location, such as take X discord for each type of Y obstacle
+* Take Condition
+   * This can be sort of rough and arbitrary, since it's really hard to not go to a particular location
+   * Not usually a good idea
+* Remove Progress
+   * This makes the location much trickier to use for progress, it is also better handled with obstacles, since they can be mitigated
+* Gain / Trade Resource
+   * Usually better handled with spotlight locations and developments
+* Affect Obstacle Movement
+   * Could have an obstacle or character move to / from the location
+* Modify obstacles
+   * Obstacles could be stronger or weaker at a particular location
+   * This is a good ability!
+* Modify skills
+   * Could make tests easier / harder at the location
+* Tags
+   * A big part of locations is the available tags, which can be used by both character cards and encounter cards
 
-Thea,2,2,"Envoy",,"Remove a timer on an alliance mission."
+## Obstacle Effects
 
-Menas,2,2,"Whispering Spirits",,"+1 Fortune","Play when Oniri is at the same location. Menas is Shaken.",
+The bread and butter of obstacles is to make it harder to place progress as well as adding to the discord pool. Causing stress and conditions is explicity in how the interrupt mechanics for obstacles work, so it's usually not a triggered effect. If it is a triggered effect, it's usually a more global "any characters on mission" type of effect.
 
-Fuscus,2,2,"Manipulations","Cost: Shattered","Lower a disposition track by two, rais a different disposition track by two.","Cost: Burn Card","Was it worth it?"
+* Take Discord
+* Remove Mission Progress
+* Make Tests at Location More Difficult
+* Cause Stress
+* Cause Conditions
+* Impact Movement
 
-Keel,2,5,"Alone in the Dark",,"Play when Keel is alone at an Imperial location. Spend 4 secrets. Remove all apotheosis."
-Keel,2,3,"Misdirection",,"+3 Fortune.","Move an obstacle to any unoccupied urban location in same mission area.",""
+# Threat Design
 
-Thea,2,3,"A Call to Action",,"Increase the disposition of a faction by one.",,
+A threat is drawn at the beginning of each season. They are typically an effect which is present through the whole session and then resolved at the end of the session. Threats attach to the spotlight location that matches their tag (one of the five development types). They start with a certain amount of progress equal to the related development level. Over the session, the progress dwindles, forcing bad things to happen. At the end of the session, if the progress is above some value, the threat is successfully resolved.
 
-Yasmina,2,0,"Food and Water",,"+2 Fortune.","On success remove a weary condition on any character in party.",
-Yasmina,2,0,"TBD",,
-Yasmina,2,0,"Well Actually...",,,,
+Like locations, they have a skill which players may use to add progress to them. If there is some amount of progress on the threat at the end of the mission, it is resolved.
 
-Viator,3,0,"TBD",,"","",""
-Viator,3,0,"Progressing Illness",,,"Take two conditions.",,
-Viator,3,0,"TBD",,"","",""
+## Unresolved Threats
 
-Lucia,4,0,"Secret Police",,,,
-Lucia,4,0,"Hand of the Autarch",,,,
-Lucia,4,0,"Bitter Truth",,,,
+Not sure what effect unresolved threats should have. Having narratives that relate to showdowns feels like a tight way to handle the narrative. It would also be nice if they fit into tech that already exists. The most straightforward way is to play all unresolved threats during the showdown.
 
-## Ideas
+* Stay as Threats - One option is to have all the unresolved threats come back during the showdown, giving players lots to juggle on top of everything else, maybe a little bit anticlimactic? But it doesn't require any new cards or changes! Players will also be very aware of what to expect. That also gives a nice upper bound on the number of threats (five).
+* Encounter Deck - Maybe a little more explicit, since there could be specific cards added. This isn't a terrible idea. It does create the right psychological impact, since there is a "oh, this thing I let fester is adding this to the deck" moment. And then those things can cause problems. They would most likely be obstacles, so that they could start in play and not be missed by chance.
+* Global Effects - Each threat creates a global effect. This is interesting, but potentially *very* fiddly with everything else going on. Already plenty of triggers!
+* Achievement Deck - When building the achievement deck for the showdown, players could choose cards based on which threats are still unresolved. This doesn't feel as great, because it's not very explicit? That is, it won't be obvious how big of an impact the threats are having, because they're clumped in to other mechanics.
+* Asset Deck - These are supposed to be useful / good cards, so this doesn't make much sense.
 
-Thea: Card that reinforces she does better when focusing on one thing at a time? Oniri maybe has one that reflects handling multiple things at once?
+## Threat Card Effects
+
+* Lower resources
+* Lower resource tracks (showdown?)
+* Increase discord
+* Give conditions
+* Make obstacles of a certain type more difficult
+* Make gaining progress more difficult
+* Increase a discord track
+* Lower a motivation track (showdown?)
+* Lower stability
+* More timers
 
 # Showdowns
 
