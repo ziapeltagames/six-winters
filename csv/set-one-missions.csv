@@ -12,7 +12,7 @@ mission,btrigger,ctriggers,title,tags,text,lsummary,csummary,rsummary,blocka,blo
 "Threat","Act One",,"Moonrider Raids","Threat: Military (Command)","TBD",,,"xxFIRE","xxFIRE Add condition."
 "Threat","Act One","xxLOCKED","Moonrider Raids","Threat: Military (Command), Showdown","TBD",,,"xxFIRE","xxFIRE Add condition."
 
-"Threat","Act One",,"Strange Magic","Threat: Sorcery (Lore)","Currents of dark magic are probing Red Bank.","1 xxDEFENSE","5 xxPROGRESS","3 xxPSYCHE / xxFIRE","xxFIRE Remove 1 Progress. If there is no Progress to remove, lose 1 Mana die."
+"Threat","Act One",,"Strange Magic","Threat: Sorcery (Lore)","Currents of dark magic are probing Red Bank.","1 xxDEFENSE","5 xxTRACKING","3 xxPSYCHE / xxFIRE","xxFIRE Remove 1 Progress. If there is no Progress to remove, lose 1 Mana die."
 "Threat","Act One","xxLOCKED xxLORE","Veil Ward","Threat: Sorcery, Showdown","Currents of dark magic target the inhabitants of Outer Fernbrake.","1 xxDEFENSE",,"3 xxPSYCHE","xxACTIVATE Remove 1 Progress. If there is no Progress to remove, put a burned Conspiracy Spreads card into play at Outer Fernbrake."
 
 

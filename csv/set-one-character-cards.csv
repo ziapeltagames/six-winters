@@ -28,7 +28,7 @@ Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","+2","Bad In
 Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","X2","Lavender Society","Know the password? Of course I know the password. This is my place!","Attach to an urban location. Any character present at the location may add 1 to all tests.",,,,"+1 Test"
 
 Fuscus,"Discord","..\images\pngs\backstab.png","..\images\characters\FUSCUS.png","-1","On the Grift","No one appreciates the breath of life like I do.","xxIMMEDIATE Set each die in the Luxury pool to a 1 or take 2 xxDISCORD."
-Fuscus,"Motivation","..\images\pngs\fire-silhouette.png","..\images\characters\FUSCUS.png","+1","Charming Host","","May move one Issue or Diplomat to a different location on the same mission."
+Fuscus,"Motivation","..\images\pngs\fire-silhouette.png","..\images\characters\FUSCUS.png","+1","Charming Host","Welcome friends!","May move one Issue or Diplomat to a different location on the same mission."
 
 Thea,"Starting Character Card",,"..\images\characters\THEA.png","xxNULL","The Conciliator","I can't let my burdens get in the way of our goal.","Make Thea frustrated to remove 4 xxDISCORD from Thea's party."
 Thea,"Starting Character Card",,"..\images\characters\THEA.png","-2","Speaker for Red Bank","Time is short, and we must work quickly.","Add 1 to Thea's test when she is at a Red Bank location."
@@ -63,13 +63,13 @@ Keel,"Motivation","..\images\pngs\fire-silhouette.png","..\images\characters\KEE
 
 Tag,"North Oaks","..\images\pngs\octogonal-eye.png",,"+1","Deathtouched","The Necromancer of North Oaks left a dark and enduring legacy behind.","If Oniri is on the same mission as this character, any xxBODY conditions this character would take are given to Oniri instead."
 
-Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","xxNULL","Always in Pain","No. This isn't something you can understand.","xxIMMEDIATE If this card was drawn for a test, may make Oniri Exhausted to change the xxNULL result to a X2 result. Otherwise, discard."
-Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","xxNULL","Always in Pain","No. This isn't something you can understand.","xxIMMEDIATE If this card was drawn for a test, may make Oniri Exhausted to change the xxNULL result to a X2 result. Otherwise, discard."
-Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","-2","Pass for a Friend","Your future is disturbing.","Add 2 to a test that Oniri and Thea work together on."
-Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","-2","Pass for a Friend","Your future is disturbing.","Add 2 to a test that Oniri and Thea work together on."
-Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","-2","Pass for a Friend","Your future is disturbing.","Add 2 to a test that Oniri and Thea work together on."
-Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","+2","Shadow Form","Why would I walk?","xxIMMEDIATE May move Oniri to any location."
-Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","+2","Shadow Form","Why would I walk?","xxIMMEDIATE May move Oniri to any location."
-Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","+2","Shadow Form","Why would I walk?","xxIMMEDIATE May move Oniri to any location."
-Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","X2","Title","Quote","Attach to a Dungeon location."
-Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","X2","Title","Quote","Attach to a Dungeon location."
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","xxNULL","Always in Pain","No Understanding.","xxIMMEDIATE If this card was drawn for a test, may make Oniri Exhausted to change the xxNULL result to a X2 result. Otherwise, discard."
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","xxNULL","Always in Pain","No Understanding.","xxIMMEDIATE If this card was drawn for a test, may make Oniri Exhausted to change the xxNULL result to a X2 result. Otherwise, discard."
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","-2","What Passes for a Friend","Disturbing future.","Add 2 to a test that Oniri and Thea work together on."
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","-2","What Passes for a Friend","Disturbing future.","Add 2 to a test that Oniri and Thea work together on."
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","-2","What Passes for a Friend","Disturbing future.","Add 2 to a test that Oniri and Thea work together on."
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","+2","Shadow Form","Why walk?","May move Oniri to any location."
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","+2","Shadow Form","Why walk?","May move Oniri to any location."
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","+2","Shadow Form","Why walk?","May move Oniri to any location."
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","X2","Long Shadows","Danger.","Attach to a Dungeon location. Any character present at the location may add 1 to all tests." ",,,,"+1 Test"
+Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","X2","Long Shadows","Danger.","Attach to a Dungeon location. Any character present at the location may add 1 to all tests."",,,,"+1 Test"
