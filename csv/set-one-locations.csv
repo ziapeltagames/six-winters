@@ -9,7 +9,7 @@ mission,ctriggers,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
 "The Necromancer of North Oaks","xxSURVIVAL","Gray River","Wilderness","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.","xxEARTH","xxACTION Logging Operation. Gain 2 xxTIMBER dice."
 "The Necromancer of North Oaks","xxCOMBAT","Mirror Woods","Wilderness","The dense woods appear to shimmer and twist, a byproduct of the fallen soldiers rotting beneath the roots.","xxWATER"
 "The Necromancer of North Oaks","xxLORE","Undari's Tomb","Dungeon","The mage's resting place has become a source of evil. The old wards were not strong enough.","xxFIRE","xxACTION Source of the Undead. Take 2 xxDISCORD to move any number of Restless Dead to this location."
-"The Necromancer of North Oaks","xxCOMMAND","Outer Fernbrake","Red Bank, Urban","Simple folk band together in the shadow of darkness.","xxFIRE","xxFIRE If there any Restless Dead here, lower xxSTABILITY."
+"The Necromancer of North Oaks","xxCOMMAND","Outer Fernbrake","Red Bank, Urban","Simple folk band together in the shadow of darkness.","xxFIRE","xxACTION May purchase a Technology development using resources from the pool.","xxFIRE If there any Restless Dead here, lower xxSTABILITY."
 
 "Doom Under Sightrock","xxRAPPORT","Lush Fields","Wilderness","Text","xxWATER","xxACTION Harvest. Gain 2 xxFOOD dice."
 "Doom Under Sightrock","xxCOMMAND","Salmon Run","Red Bank","Text","xxEARTH"
