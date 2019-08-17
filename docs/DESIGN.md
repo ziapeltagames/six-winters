@@ -44,6 +44,10 @@ These are all of the various currencies in the game. Ultimately, _Six Winters_ i
    * Obstacle Progress - Obstacles are the main thing players deal with in the short term
    * Mission Progress - A central part of the game, tend to fluctuate greatly
 
+### Brainstorm
+
+There are currencies tied to a mission, like progress, and group level currencies, like resources. It's nice to have a group level currency, but it does make achievements that use them feel a little less tied to the mission. There's maybe a tension there.
+
 ## Sources of Uncertainty
 
 Games are a combination of choices and uncertainty. If either element is lacking, it's not very interesting. Identifying how choices and uncertainty mix is useful for figuring out where the game might be lacking. Also might be worth thinking about similar games and how they handle the same problems. Is it possible to think about using elements from similar games? These are the primary sources of uncertainty in _Six Winters_.
@@ -280,7 +284,7 @@ Thea is a core character, arguably the key protagonist of the game. She has no c
 
 * Dungeon
 
-## Yasmini (Burgan Vale)
+## Yasmina (Burgan Vale)
 
 ## Viator (Lily Manor)
 
