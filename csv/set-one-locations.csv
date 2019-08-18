@@ -17,21 +17,18 @@ mission,ctriggers,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
 "Doom Under Sightrock","xxLORE","Pool Beyond Space and Time","Dungeon","Text","xxAIR","xxAIR One character at this location is weary."
 
 "The Sunriders",,"xxSPOTLIGHT Spirit Lake","Stability, Faction","The clear waters of Spirit Lake reflect back the wisdom of ancestors. Feeding the lake earns the Sunriders' respect.","xxAIR","xxAIR May trade a Mana die for a Food die."
-
 "The Sunriders","xxCOMMAND","Horsethief Meadows","Wilderness","Feats of martial prowess take place across the wide open plains.","xxEARTH","xxACTION Rangers of the South. Spend 5 xxPROGRESS to increase xxSTABILITY track by one."
 "The Sunriders","xxRAPPORT","Hogel Manor","Urban","For a Sunrider, Hogel's decorations and appointments are almost gaudy, and his demeanor doubly so.","xxWATER"
 "The Sunriders","xxTACTICS","Song Bluff","Wilderness","Amongst the Sunriders, honor and family are more important than diversity of thought.","xxFIRE"
 "The Sunriders","xxCOMBAT","Spirit Lake","Wilderness","The clear waters of Spirit Lake reflect back the wisdom of ancestors. Feeding the lake earns the Sunriders' respect.","xxAIR","xxACTION Speak with the Dead. Spend 4 xxMANA to burn any issue in play at a Sunriders location."
 
 "Gravewood",,"xxSPOTLIGHT Green Haven","Stability, Faction","Galya, the leader of Green Haven, is a valuable and reliable ally.","xxFIRE","xxFIRE May trade a Luxury die for a Timber die."
-
 "Gravewood","xxTHIEVERY","First Haven","Urban","Text","xxAIR","xxACTION Spend 3 xxLUXURY to add one progress to a threat."
 "Gravewood","xxCOMMAND","Green Haven","Urban","Text","xxFIRE","Effect: All characters increase their Thievery by Gravewood disposition while at least one character is at this location.","xxFIRE One character at this location is angry."
 "Gravewood","xxRAPPORT","Spinner Lakes","Wilderness","Text","xxWATER","xxACTION Spend 8 xxLUXURY to gain one xxSECRETS."
 "Gravewood","xxTIMBER xxLORE","Maplewood","Wilderness","Text","xxEARTH","xxACTION Gain one xxTIMBER die on this location."
 
-"Into the Cold",,"xxSPOTLIGHT House of Copper","Technology, Imperial","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxWATER","The Exchange. xxACTION May reroll all dice in one pool.","xxWATER May reroll the Timber pool."
-
+"Into the Cold",,"xxSPOTLIGHT House of Copper","Technology, Imperial","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxWATER","xxACTION The Exchange. May reroll all dice in one pool.","xxWATER May reroll the Timber pool."
 "Into the Cold","xxDISGUISE","The Rosy Freetrader","Imperial, Urban","A popular meeting place for both the poor and wealthy of Eastkeep.","xxFIRE","xxACTION Cause a Scene. Move one Graycloak to the Rosy Freetrader."
 "Into the Cold","xxTHIEVERY","Map Hall","Imperial","Somewhere amongst the piles of maps and ledgers are useful Imperial plans.","xxWATER"
 "Into the Cold","xxRAPPORT","House of Copper","Dungeon","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxEARTH"
@@ -48,7 +45,6 @@ mission,ctriggers,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
 "Burgan Vale","xxDISGUISE","Lower Wash","Faction, Urban","Text.","xxEARTH"
 
 "Sowing Rebellion",,"xxSPOTLIGHT Whitehold","Espionage, Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.","xxFIRE","xxACTION Imperial Secrets. Look at the top 2 asset cards, drawing 1 and placing the other back on top of the asset deck.","xxFIRE May shuffle 1 Mission Die at any Imperial location."
-
 "Sowing Rebellion","xxDISGUISE","Freeguilder Inn","Imperial","Where everybody - every single body - knows your name.","xxAIR","xxAIR One character at this location is weary."
 "Sowing Rebellion","xxCOMMAND","Dowling Farm","Imperial","Nexus of Imperial discontent.","xxWATER","xxACTION Spend 5 xxLUXURY to gain one xxSECRETS."
 "Sowing Rebellion","xxTACTICS","Whitehold","Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.","xxEARTH","All guards (obstacles) at this location have +1 xxDISCORD."

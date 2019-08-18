@@ -15,7 +15,7 @@ Menas,"Starting Character Card",,"..\images\characters\MENAS.png","X2","Clever T
 Menas,"Discord","..\images\pngs\backstab.png","..\images\characters\MENAS.png","-1","Shoot the Messenger","Why the ever loving fuck did you let things get so bad?","xxIMMEDIATE If Fuscus is in the same location as Menas, both Fuscus and Menas are Angry."
 Menas,"Motivation","..\images\pngs\fire-silhouette.png","..\images\characters\MENAS.png","+1","Be Preparaed","No, that was not all luck.","xxIMMEDIATE Gain 1 resource die of your choice. Roll die and add to pool."
 
-Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","xxNULL","Pillow Talk","It wasn't my best performance, but I learned something useful.","Take 1 xxDISCORD to add 1 progress to a threat."
+Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","xxNULL","Inside Information","It wasn't my best performance, but I learned something useful.","Take 1 xxDISCORD to add 1 progress to a threat."
 Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","-2","Soft Pity","Fine. I hope that rigid code keeps you warm at night.","Add 2 to a test Fuscus and Thea work together on."
 Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","-2","Soft Pity","Fine. I hope that rigid code keeps you warm at night.","Add 2 to a test Fuscus and Thea work together on."
 Fuscus,"Starting Character Card",,"..\images\characters\FUSCUS.png","-1","Market Manipulations","A little of this for a lot of that. No one will notice the difference.","xxIMMEDIATE May reroll all dice in one resource pool."
