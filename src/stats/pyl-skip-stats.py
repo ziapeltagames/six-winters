@@ -1,7 +1,7 @@
+    
 # -*- coding: utf-8 -*-
 """
 How do turns work if cards are skipped on the draws?
-
 @author: zia
 """
 
