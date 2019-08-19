@@ -375,7 +375,7 @@ Mission locations typically are ways to interact with obstacles that are in play
 * Take Condition
    * This can be sort of rough and arbitrary, since it's really hard to not go to a particular location
    * Not usually a good idea
-* Remove Progress
+* Subtract Progress
    * This makes the location much trickier to use for progress, it is also better handled with obstacles, since they can be mitigated
 * Gain / Trade Resource
    * Usually better handled with spotlight locations and developments
@@ -399,6 +399,59 @@ The bread and butter of obstacles is to make it harder to place progress as well
 * Cause Stress
 * Cause Conditions
 * Impact Movement
+
+## Mission Length
+
+The number of cards, timers, and timers that can be burned have a large impact on the length of a mission. Following are some sample average turns based on those decisions.
+
+* Timers 10 / 20 ( 6 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
+    * stage:  0  turns:  5.56  diff:  5.56  stdev:  1.59
+    * stage:  1  turns:  9.61  diff:  4.04  stdev:  1.86
+    * stage:  2  turns:  13.05  diff:  3.45  stdev:  1.94
+
+* Timers 10 / 20 ( 7 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
+    * stage:  0  turns:  5.57  diff:  5.57  stdev:  1.59
+    * stage:  1  turns:  9.63  diff:  4.07  stdev:  1.85
+    * stage:  2  turns:  13.06  diff:  3.42  stdev:  1.88
+
+* Timers 10 / 20 ( 8 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
+    * stage:  0  turns:  5.56  diff:  5.56  stdev:  1.59
+    * stage:  1  turns:  9.63  diff:  4.07  stdev:  1.82
+    * stage:  2  turns:  13.01  diff:  3.38  stdev:  1.83
+
+If more cards can be burned - it can mean a shorter third stage since there are fewer cards in the deck.
+
+* Timers 10 / 20 ( 10 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
+    * stage:  0  turns:  5.56  diff:  5.56  stdev:  1.59
+    * stage:  1  turns:  9.61  diff:  4.05  stdev:  1.75
+    * stage:  2  turns:  12.88  diff:  3.26  stdev:  1.68
+
+* Timers 11 / 20 ( 6 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
+    * stage:  0  turns:  5.18  diff:  5.18  stdev:  1.51
+    * stage:  1  turns:  8.99  diff:  3.81  stdev:  1.76
+    * stage:  2  turns:  12.31  diff:  3.32  stdev:  1.84
+
+This number (11/20 timers, 7 of which are obstacles or can be burned) seems to work pretty well in practice.
+
+* Timers 11 / 20 ( 7 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
+    * stage:  0  turns:  5.18  diff:  5.18  stdev:  1.51
+    * stage:  1  turns:  9.01  diff:  3.83  stdev:  1.76
+    * stage:  2  turns:  12.32  diff:  3.32  stdev:  1.81
+
+* Timers 11 / 20 ( 8 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
+    * stage:  0  turns:  5.17  diff:  5.17  stdev:  1.5
+    * stage:  1  turns:  9.02  diff:  3.85  stdev:  1.74
+    * stage:  2  turns:  12.31  diff:  3.3  stdev:  1.77
+
+* Timers 11 / 20 ( 9 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
+    * stage:  0  turns:  5.16  diff:  5.16  stdev:  1.5
+    * stage:  1  turns:  9.01  diff:  3.85  stdev:  1.73
+    * stage:  2  turns:  12.28  diff:  3.27  stdev:  1.72  
+
+* Timers 12 / 22 ( 7 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
+    * stage:  0  turns:  5.26  diff:  5.26  stdev:  1.61
+    * stage:  1  turns:  9.14  diff:  3.88  stdev:  1.91
+    * stage:  2  turns:  12.53  diff:  3.39  stdev:  2.02
 
 # Threat Design
 
