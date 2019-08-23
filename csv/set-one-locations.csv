@@ -1,15 +1,15 @@
-mission,ctriggers,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
+mission,ctriggers,title,tags,text,rsummary,blocka,blockb,blockc
 
 "Starting Location",,"xxSPOTLIGHT Undari's Tower","Sorcery, Red Bank","The vile mage left behind all manner of useful recipes. Provided you have the will to use them.","xxWATER","xxACTION Blue Toad Compress. Remove a minor xxBODY condition by spending xxMANA dice equal to condition value."
 "Starting Location",,"xxSPOTLIGHT The Great Hall","Diplomacy, Red Bank","Fuscus has been known to entertain large groups in the Great Hall.","xxAIR","xxACTION Rest and Relaxation. Remove a minor xxPSYCHE condition by spending xxFOOD dice equal to condition value."
 "Starting Location",,"xxSPOTLIGHT Amber Lodge","Espionage, Red Bank, Urban","The repurposed barracks of the Amber Hand has become Thea's personal offices.","xxFIRE","xxACTION Developing Assets. Look at the top asset card on either draw pile. Draw into hand or place back on top of asset draw pile."
-"Starting Location",,"xxSPOTLIGHT Lavender Mill","Technology, Red Bank","The great hub of Red Bank bustles with activity.","xxEARTH","xxACTION The Exchange. May reroll all dice in one pool."
-"Starting Location",,"xxSPOTLIGHT Sightrock Keep","Military, Red Bank","At the edge of your vision, looking west, you can just make out Eastkeep wall... looming.","xxEARTH","xxACTION Tactical Planning. May draw a new achievement. Discard one of the two Achievements already in play to the bottom of the Achievement draw pile."
+"Starting Location",,"xxSPOTLIGHT Lavender Mill","Technology, Red Bank","The great hub of Red Bank bustles with activity.","xxEARTH","xxACTION The Exchange. Reroll all resource dice in one pool."
+"Starting Location",,"xxSPOTLIGHT Sightrock Keep","Military, Red Bank","At the edge of your vision, looking west, you can just make out Eastkeep wall... looming.","xxEARTH","xxACTION Tactical Planning. Reroll all resource dice at one location.
 
 "The Necromancer of North Oaks","xxSURVIVAL","Gray River","Wilderness","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.","xxEARTH","xxACTION Logging Operation. Gain 2 xxTIMBER dice."
 "The Necromancer of North Oaks","xxCOMBAT","Mirror Woods","Wilderness","The dense woods appear to shimmer and twist, a byproduct of the fallen soldiers rotting beneath the roots.","xxWATER"
 "The Necromancer of North Oaks","xxLORE","Undari's Tomb","Dungeon","The mage's resting place has become a source of evil. The old wards were not strong enough.","xxFIRE","xxACTION Source of the Undead. Take 2 xxDISCORD to move any number of Restless Dead to this location."
-"The Necromancer of North Oaks","xxCOMMAND","Outer Fernbrake","Red Bank, Urban","Simple folk band together in the shadow of darkness.","xxFIRE","xxACTION May purchase a Technology development using resources from the pool.","xxFIRE If there any Restless Dead here, lower xxSTABILITY."
+"The Necromancer of North Oaks","xxCOMMAND","Outer Fernbrake","Red Bank","Simple folk band together in the shadow of darkness.","xxFIRE","xxACTION May purchase a Technology development using resources from the pool.","xxFIRE If there any Restless Dead here, lower xxSTABILITY."
 
 "Doom Under Sightrock","xxRAPPORT","Lush Fields","Wilderness","Text","xxWATER","xxACTION Harvest. Gain 2 xxFOOD dice."
 "Doom Under Sightrock","xxCOMMAND","Salmon Run","Red Bank","Text","xxEARTH"
@@ -44,18 +44,18 @@ mission,ctriggers,title,tags,text,rsummary,blocka,blockb,blockc,blockd,blocke
 "Burgan Vale","xxSURVIVAL","Blue Rock","Dungeon","Text.","xxFIRE"
 "Burgan Vale","xxDISGUISE","Lower Wash","Faction, Urban","Text.","xxEARTH"
 
-"Sowing Rebellion",,"xxSPOTLIGHT Whitehold","Espionage, Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.","xxFIRE","xxACTION Imperial Secrets. Look at the top 2 asset cards, drawing 1 and placing the other back on top of the asset deck.","xxFIRE May shuffle 1 Mission Die at any Imperial location."
+"Sowing Rebellion",,"xxSPOTLIGHT Whitehold","Espionage, Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.","xxFIRE","xxACTION Imperial Secrets. Look at the top 2 asset cards, drawing 1 and placing the other back on top of the asset deck.","xxFIRE May exchange 1 resource die at any Imperial location."
 "Sowing Rebellion","xxDISGUISE","Freeguilder Inn","Imperial","Where everybody - every single body - knows your name.","xxAIR","xxAIR One character at this location is weary."
 "Sowing Rebellion","xxCOMMAND","Dowling Farm","Imperial","Nexus of Imperial discontent.","xxWATER","xxACTION Spend 5 xxLUXURY to gain one xxSECRETS."
 "Sowing Rebellion","xxTACTICS","Whitehold","Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.","xxEARTH","All guards (obstacles) at this location have +1 xxDISCORD."
 "Sowing Rebellion","xxTHIEVERY","Under Whitehold","Imperial","The caverns below Whitehold have both riches and traps.","xxFIRE","xxACTION Take two xxDISCORD to gain one xxLUXURY die.","xxFIRE One character at this location is wounded."
 
-"Tragedy and Conspiracy","xxFOOD xxCOMMAND","Outer Fernbrake","Red Bank","The people of Outer Fernbrake are growing to distrust Thea's leadership.","xxEARTH","xxEARTH If there are any Violent Locals here, lower Stability."
+"Tragedy and Conspiracy","xxFOOD xxCOMMAND","Outer Fernbrake","Red Bank","The people of Outer Fernbrake are growing to distrust Thea's leadership.","xxEARTH","xxEARTH Take 1 Discord for each Violent Local at this location."
 "Tragedy and Conspiracy","xxMANA xxLORE","House of Lavender","Red Bank, Urban","Swirls of intoxicating smoke tie together the deals and favors with an ephemeral bond.","xxWATER"
 "Tragedy and Conspiracy","xxTIMBER xxSURVIVAL","Graywash Spring","Red Bank, Wilderness","The river out of North Oaks winds its way through dense forests and hidden ruins.","xxAIR"
-"Tragedy and Conspiracy","xxORE xxCOMBAT","Sparrow Keep","Imperial, Dungeon","How is it that a nexus of such evil activity was allowed to grow so large?","xxFIRE","xxFIRE Take 1 Discord for each Autarch Spy at this location."
+"Tragedy and Conspiracy","xxORE xxCOMBAT","Sparrow Keep","Imperial, Dungeon","How is it that a nexus of such evil activity was allowed to grow so large?","xxFIRE","xxFIRE Any Autarch Spies have +1 xxDEFENSE here."
 
-"Whispers at Lily Manor","xxFOOD xxDISGUISE","Wrenhouse","Imperial, Urban","Both regret and conviction in equal measure.","xxAIR","xxACTION Move an obstacle to this location."
+"Whispers at Lily Manor","xxFOOD xxDISGUISE","Wrenhouse","Imperial, Urban","Both regret and conviction in equal measure.","xxAIR"
 "Whispers at Lily Manor","xxLUXURY xxTACTICS","Hall of Brass","Faction","Zarrah greets all newcomers in the great hall of world renown.","xxFIRE","xxFIRE If there are any issues here, one character at a mission location is Angry."
 "Whispers at Lily Manor","xxMANA xxRAPPORT","Goldspike","Faction","Who knows what future badness brings but the keeper of secrets in a chamber of gold?","xxWATER","Effect: Any issues here have +1 xxTRACKING."
 "Whispers at Lily Manor","xxLUXURY xxTHIEVERY","Beetle Burrough","Urban","You look like someone who wants to know a secret?","xxEARTH"

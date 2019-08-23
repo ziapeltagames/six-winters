@@ -402,7 +402,7 @@ The bread and butter of obstacles is to make it harder to place progress as well
 
 ## Mission Length
 
-The number of cards, timers, and timers that can be burned have a large impact on the length of a mission. Following are some sample average turns based on those decisions.
+The number of cards, timers, and timers that can be burned have a large impact on the length of a mission. Following are some sample average turns based on those decisions. Listed are the number of timers out of the number of cards, along with the number of timers that could be burned. Additionally listed is the distribution of how many encounters are taken on a turn. Empty refers to the percentage of time the stage ends due to running out of cards.
 
 * Timers 10 / 20 ( 6 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
     * stage:  0  turns:  5.56  diff:  5.56  stdev:  1.59
@@ -419,12 +419,12 @@ The number of cards, timers, and timers that can be burned have a large impact o
     * stage:  1  turns:  9.63  diff:  4.07  stdev:  1.82
     * stage:  2  turns:  13.01  diff:  3.38  stdev:  1.83
 
-If more cards can be burned - it can mean a shorter third stage since there are fewer cards in the deck.
+If more cards can be burned - it can mean a shorter third stage since there are fewer cards in the deck. It also tends to mean that later stages end because the deck runs out, not that the timers run out.
 
-* Timers 10 / 20 ( 10 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
-    * stage:  0  turns:  5.56  diff:  5.56  stdev:  1.59
-    * stage:  1  turns:  9.61  diff:  4.05  stdev:  1.75
-    * stage:  2  turns:  12.88  diff:  3.26  stdev:  1.68
+* Timers 10 / 20 ( 10 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+    * stage:  0  turns:  5.617  diff:  5.617  stdev:  1.642 empty:  0.077
+    * stage:  1  turns:  9.715  diff:  4.097  stdev:  1.841 empty:  0.308
+    * stage:  2  turns:  13.044  diff:  3.329  stdev:  1.772 empty:  0.558
 
 * Timers 11 / 20 ( 6 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
     * stage:  0  turns:  5.18  diff:  5.18  stdev:  1.51
@@ -433,10 +433,10 @@ If more cards can be burned - it can mean a shorter third stage since there are 
 
 This number (11/20 timers, 7 of which are obstacles or can be burned) seems to work pretty well in practice.
 
-* Timers 11 / 20 ( 7 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
-    * stage:  0  turns:  5.18  diff:  5.18  stdev:  1.51
-    * stage:  1  turns:  9.01  diff:  3.83  stdev:  1.76
-    * stage:  2  turns:  12.32  diff:  3.32  stdev:  1.81
+* Timers 11 / 20 ( 7 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+    * stage:  0  turns:  5.2  diff:  5.2  stdev:  1.54 empty:  0.04
+    * stage:  1  turns:  9.04  diff:  3.84  stdev:  1.81 empty:  0.07
+    * stage:  2  turns:  12.38  diff:  3.34  stdev:  1.88 empty:  0.14
 
 * Timers 11 / 20 ( 8 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
     * stage:  0  turns:  5.17  diff:  5.17  stdev:  1.5
@@ -446,12 +446,44 @@ This number (11/20 timers, 7 of which are obstacles or can be burned) seems to w
 * Timers 11 / 20 ( 9 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
     * stage:  0  turns:  5.16  diff:  5.16  stdev:  1.5
     * stage:  1  turns:  9.01  diff:  3.85  stdev:  1.73
-    * stage:  2  turns:  12.28  diff:  3.27  stdev:  1.72  
+    * stage:  2  turns:  12.28  diff:  3.27  stdev:  1.72
 
-* Timers 12 / 22 ( 7 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
-    * stage:  0  turns:  5.26  diff:  5.26  stdev:  1.61
-    * stage:  1  turns:  9.14  diff:  3.88  stdev:  1.91
-    * stage:  2  turns:  12.53  diff:  3.39  stdev:  2.02
+* Timers 11 / 21 ( 7 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 3]
+    * stage:  0  turns:  5.42  diff:  5.42  stdev:  1.62
+    * stage:  1  turns:  9.39  diff:  3.98  stdev:  1.91
+    * stage:  2  turns:  12.83  diff:  3.43  stdev:  2.0  
+
+* Timers 10 / 22 ( 6 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+    * stage:  0  turns:  6.12  diff:  6.12  stdev:  1.86 empty:  0.08
+    * stage:  1  turns:  10.51  diff:  4.38  stdev:  2.24 empty:  0.12
+    * stage:  2  turns:  14.21  diff:  3.7  stdev:  2.39 empty:  0.18
+
+* Timers 11 / 22 ( 6 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+    * stage:  0  turns:  5.69  diff:  5.69  stdev:  1.77 empty:  0.04
+    * stage:  1  turns:  9.78  diff:  4.1  stdev:  2.11 empty:  0.05
+    * stage:  2  turns:  13.3  diff:  3.52  stdev:  2.25 empty:  0.08    
+
+* Timers 12 / 22 ( 7 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+    * stage:  0  turns:  5.281  diff:  5.281  stdev:  1.638 empty:  0.02
+    * stage:  1  turns:  9.152  diff:  3.871  stdev:  1.944 empty:  0.029
+    * stage:  2  turns:  12.542  diff:  3.39  stdev:  2.071 empty:  0.054
+
+This combo also looks promising - less of a swing between stages, and a low chance of reaching the end of the deck.
+
+* Timers 12 / 22 ( 8 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+    * stage:  0  turns:  5.28  diff:  5.28  stdev:  1.64 empty:  0.02
+    * stage:  1  turns:  9.18  diff:  3.9  stdev:  1.96 empty:  0.04
+    * stage:  2  turns:  12.59  diff:  3.41  stdev:  2.08 empty:  0.09   
+
+* Timers 13 / 22 ( 8 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+    * stage:  0  turns:  4.91  diff:  4.91  stdev:  1.49 empty:  0.01
+    * stage:  1  turns:  8.59  diff:  3.67  stdev:  1.75 empty:  0.02
+    * stage:  2  turns:  11.87  diff:  3.28  stdev:  1.85 empty:  0.03
+
+* Timers 13 / 22 ( 9 burn ) [0, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+    * stage:  0  turns:  4.93  diff:  4.93  stdev:  1.5 empty:  0.01
+    * stage:  1  turns:  8.63  diff:  3.7  stdev:  1.77 empty:  0.02
+    * stage:  2  turns:  11.92  diff:  3.3  stdev:  1.87 empty:  0.06    
 
 # Threat Design
 
