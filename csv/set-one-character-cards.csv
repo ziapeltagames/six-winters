@@ -61,7 +61,7 @@ Keel,"Discord","..\images\pngs\backstab.png","..\images\characters\KEEL.png","-1
 Keel,"Motivation","..\images\pngs\fire-silhouette.png","..\images\characters\KEEL.png","+1","The Graduate","It's time to put into action what I learned all those years toiling away in Crescent Hold.","xxIMMEDIATE May reroll any dice at an Imperial location."
 Keel,"Motivation","..\images\pngs\fire-silhouette.png","..\images\characters\KEEL.png","+2","All the Gadgets","What this? Just something I whipped up.","xxIMMEDIATE Add 1 Progress to all Foes and Guards in one location."
 
-Tag,"North Oaks","..\images\pngs\octogonal-eye.png","..\images\characters\ONIRI.png","+1","Deathtouched","The Necromancer of North Oaks left a dark and enduring legacy behind.","May make Oniri Weary to add 2 to a test for the Deathtouched character."
+Tag,"North Oaks","..\images\pngs\octogonal-eye.png","..\images\characters\ONIRI.png","+1","Deathtouched","The Necromancer of North Oaks left a dark and enduring legacy behind.","The deathtouched character may transfer a major condition to Oniri (even if Oniri is not on any mission)."
 
 Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","xxNULL","Always in Pain","No understanding.","xxIMMEDIATE If this card was drawn for a test, may make Oniri Exhausted to change the xxNULL result to a X2 result. Otherwise, discard."
 Oniri,"Starting Character Card",,"..\images\characters\ONIRI.png","xxNULL","Always in Pain","No understanding.","xxIMMEDIATE If this card was drawn for a test, may make Oniri Exhausted to change the xxNULL result to a X2 result. Otherwise, discard."

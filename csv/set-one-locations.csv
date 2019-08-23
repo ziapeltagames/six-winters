@@ -6,33 +6,33 @@ mission,ctriggers,title,tags,text,rsummary,blocka,blockb,blockc
 "Starting Location",,"xxSPOTLIGHT Lavender Mill","Technology, Red Bank","The great hub of Red Bank bustles with activity.","xxEARTH","xxACTION The Exchange. Reroll all resource dice in one pool."
 "Starting Location",,"xxSPOTLIGHT Sightrock Keep","Military, Red Bank","At the edge of your vision, looking west, you can just make out Eastkeep wall... looming.","xxEARTH","xxACTION Tactical Planning. Reroll all resource dice at one location.
 
-"The Necromancer of North Oaks","xxSURVIVAL","Gray River","Wilderness","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.","xxEARTH","xxACTION Logging Operation. Gain 2 xxTIMBER dice."
-"The Necromancer of North Oaks","xxCOMBAT","Mirror Woods","Wilderness","The dense woods appear to shimmer and twist, a byproduct of the fallen soldiers rotting beneath the roots.","xxWATER"
-"The Necromancer of North Oaks","xxLORE","Undari's Tomb","Dungeon","The mage's resting place has become a source of evil. The old wards were not strong enough.","xxFIRE","xxACTION Source of the Undead. Take 2 xxDISCORD to move any number of Restless Dead to this location."
-"The Necromancer of North Oaks","xxCOMMAND","Outer Fernbrake","Red Bank","Simple folk band together in the shadow of darkness.","xxFIRE","xxACTION May purchase a Technology development using resources from the pool.","xxFIRE If there any Restless Dead here, lower xxSTABILITY."
-
-"Doom Under Sightrock","xxRAPPORT","Lush Fields","Wilderness","Text","xxWATER","xxACTION Harvest. Gain 2 xxFOOD dice."
-"Doom Under Sightrock","xxCOMMAND","Salmon Run","Red Bank","Text","xxEARTH"
-"Doom Under Sightrock","xxSURVIVAL","The Weird Rock","Dungeon","Text","xxFIRE"
-"Doom Under Sightrock","xxLORE","Pool Beyond Space and Time","Dungeon","Text","xxAIR","xxAIR One character at this location is weary."
+"The Necromancer of North Oaks","xxSURVIVAL","Gray River","Wilderness","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.","xxEARTH","Effect: Treat this location as a xxTIMBER pool with track size of 2. May spend xxTIMBER from this location in addition to or instead of main pool."
+"The Necromancer of North Oaks","xxORE xxCOMBAT","Mirror Woods","Wilderness","The dense woods appear to shimmer and twist, a byproduct of the fallen soldiers rotting beneath the roots.","xxWATER"
+"The Necromancer of North Oaks","xxMANA xxLORE","Undari's Tomb","Dungeon","The mage's resting place has become a source of evil. The old wards were not strong enough.","xxFIRE","xxACTION Source of the Undead. Take 2 xxDISCORD to move any number of Restless Dead to this location."
+"The Necromancer of North Oaks","xxFOOD xxCOMMAND","Outer Fernbrake","Red Bank","Simple folk band together in the shadow of darkness.","xxFIRE","xxACTION May purchase a Technology development using only resources from the pools."
 
 "The Sunriders",,"xxSPOTLIGHT Spirit Lake","Stability, Faction","The clear waters of Spirit Lake reflect back the wisdom of ancestors. Feeding the lake earns the Sunriders' respect.","xxAIR","xxAIR May trade a Mana die for a Food die."
-"The Sunriders","xxCOMMAND","Horsethief Meadows","Wilderness","Feats of martial prowess take place across the wide open plains.","xxEARTH","xxACTION Rangers of the South. Spend 5 xxPROGRESS to increase xxSTABILITY track by one."
-"The Sunriders","xxRAPPORT","Hogel Manor","Urban","For a Sunrider, Hogel's decorations and appointments are almost gaudy, and his demeanor doubly so.","xxWATER"
-"The Sunriders","xxTACTICS","Song Bluff","Wilderness","Amongst the Sunriders, honor and family are more important than diversity of thought.","xxFIRE"
-"The Sunriders","xxCOMBAT","Spirit Lake","Wilderness","The clear waters of Spirit Lake reflect back the wisdom of ancestors. Feeding the lake earns the Sunriders' respect.","xxAIR","xxACTION Speak with the Dead. Spend 4 xxMANA to burn any issue in play at a Sunriders location."
-
-"Gravewood",,"xxSPOTLIGHT Green Haven","Stability, Faction","Galya, the leader of Green Haven, is a valuable and reliable ally.","xxFIRE","xxFIRE May trade a Luxury die for a Timber die."
-"Gravewood","xxTHIEVERY","First Haven","Urban","Text","xxAIR","xxACTION Spend 3 xxLUXURY to add one progress to a threat."
-"Gravewood","xxCOMMAND","Green Haven","Urban","Text","xxFIRE","Effect: All characters increase their Thievery by Gravewood disposition while at least one character is at this location.","xxFIRE One character at this location is angry."
-"Gravewood","xxRAPPORT","Spinner Lakes","Wilderness","Text","xxWATER","xxACTION Spend 8 xxLUXURY to gain one xxSECRETS."
-"Gravewood","xxTIMBER xxLORE","Maplewood","Wilderness","Text","xxEARTH","xxACTION Gain one xxTIMBER die on this location."
+"The Sunriders","xxTIMBER xxCOMMAND","Horsethief Meadows","Wilderness","Feats of martial prowess take place across the wide open plains.","xxEARTH","xxACTION May purchase a Military development using only resources from the pools."
+"The Sunriders","xxLUXURY xxRAPPORT","Hogel Manor","Urban","For a Sunrider, Hogel's decorations and appointments are almost gaudy, and his demeanor doubly so.","xxWATER"
+"The Sunriders","xxTIMBER xxTACTICS","Song Bluff","Wilderness","Amongst the Sunriders, honor and family are more important than diversity of thought.","xxFIRE"
+"The Sunriders","xxMANA xxCOMBAT","Spirit Lake","Wilderness","The clear waters of Spirit Lake reflect back the wisdom of ancestors. Feeding the lake earns the Sunriders' respect.","xxAIR","xxACTION May trade a Mana die for a Food die."
 
 "Into the Cold",,"xxSPOTLIGHT House of Copper","Technology, Imperial","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxWATER","xxACTION The Exchange. May reroll all dice in one pool.","xxWATER May reroll the Timber pool."
 "Into the Cold","xxDISGUISE","The Rosy Freetrader","Imperial, Urban","A popular meeting place for both the poor and wealthy of Eastkeep.","xxFIRE","xxACTION Cause a Scene. Move one Graycloak to the Rosy Freetrader."
 "Into the Cold","xxTHIEVERY","Map Hall","Imperial","Somewhere amongst the piles of maps and ledgers are useful Imperial plans.","xxWATER"
 "Into the Cold","xxRAPPORT","House of Copper","Dungeon","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxEARTH"
 "Into the Cold","xxCOMBAT","Guild of Secrets","Imperial, Urban","If there is a nexus of evil in Eastkeep, it is most certainly the guild of secrets.","xxAIR","xxAIR If possible, move a Graycloak here from another location."
+
+"Doom Under Sightrock","xxRAPPORT","Lush Fields","Wilderness","Text","xxWATER","xxACTION Harvest. Gain 2 xxFOOD dice."
+"Doom Under Sightrock","xxCOMMAND","Salmon Run","Red Bank","Text","xxEARTH"
+"Doom Under Sightrock","xxSURVIVAL","The Weird Rock","Dungeon","Text","xxFIRE"
+"Doom Under Sightrock","xxLORE","Pool Beyond Space and Time","Dungeon","Text","xxAIR","xxAIR One character at this location is weary."
+
+"Gravewood",,"xxSPOTLIGHT Green Haven","Stability, Faction","Galya, the leader of Green Haven, is a valuable and reliable ally.","xxFIRE","xxFIRE May trade a Luxury die for a Timber die."
+"Gravewood","xxTHIEVERY","First Haven","Urban","Text","xxAIR","xxACTION Spend 3 xxLUXURY to add one progress to a threat."
+"Gravewood","xxCOMMAND","Green Haven","Urban","Text","xxFIRE","Effect: All characters increase their Thievery by Gravewood disposition while at least one character is at this location.","xxFIRE One character at this location is angry."
+"Gravewood","xxRAPPORT","Spinner Lakes","Wilderness","Text","xxWATER","xxACTION Spend 8 xxLUXURY to gain one xxSECRETS."
+"Gravewood","xxTIMBER xxLORE","Maplewood","Wilderness","Text","xxEARTH","xxACTION Gain one xxTIMBER die on this location."
 
 "Ballad of Eight Ears","xxSURVIVAL","Pine Bluff","Red Bank","Text.","xxEARTH"
 "Ballad of Eight Ears","xxLORE","Rocky Outcrop","Wilderness","Text.",,"xxAIR"
@@ -50,12 +50,12 @@ mission,ctriggers,title,tags,text,rsummary,blocka,blockb,blockc
 "Sowing Rebellion","xxTACTICS","Whitehold","Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.","xxEARTH","All guards (obstacles) at this location have +1 xxDISCORD."
 "Sowing Rebellion","xxTHIEVERY","Under Whitehold","Imperial","The caverns below Whitehold have both riches and traps.","xxFIRE","xxACTION Take two xxDISCORD to gain one xxLUXURY die.","xxFIRE One character at this location is wounded."
 
-"Tragedy and Conspiracy","xxORE xxCOMMAND","Outer Fernbrake","Red Bank","The people of Outer Fernbrake are growing to distrust Thea's leadership.","xxEARTH","xxEARTH Take 1 Discord for each Violent Local at this location."
-"Tragedy and Conspiracy","xxMANA xxLORE","House of Lavender","Red Bank, Urban","Swirls of intoxicating smoke tie together the deals and favors with an ephemeral bond.","xxWATER"
+"Tragedy and Conspiracy","xxORE xxCOMMAND","Outer Fernbrake","Red Bank","The people of Outer Fernbrake are growing to distrust Thea's leadership.","xxEARTH"
+"Tragedy and Conspiracy","xxMANA xxLORE","House of Lavender","Red Bank, Urban","Swirls of intoxicating smoke tie together the deals and favors with an ephemeral bond.","xxWATER","xxACTION May purchase a Sorcery development using only resources from the pools."
 "Tragedy and Conspiracy","xxTIMBER xxSURVIVAL","Graywash Spring","Red Bank, Wilderness","The river out of North Oaks winds its way through dense forests and hidden ruins.","xxAIR"
 "Tragedy and Conspiracy","xxORE xxCOMBAT","Sparrow Keep","Imperial, Dungeon","How is it that a nexus of such evil activity was allowed to grow so large?","xxFIRE","xxFIRE Any Autarch Spies have +1 xxDEFENSE here."
 
 "Whispers at Lily Manor","xxFOOD xxDISGUISE","Wrenhouse","Imperial, Urban","Both regret and conviction in equal measure.","xxAIR"
-"Whispers at Lily Manor","xxLUXURY xxTACTICS","Hall of Brass","Faction","Zarrah greets all newcomers in the great hall of world renown.","xxFIRE","xxFIRE If there are any issues here, one character at a mission location is Angry."
+"Whispers at Lily Manor","xxLUXURY xxTACTICS","Hall of Brass","Faction","Zarrah greets all newcomers in the great hall of world renown.","xxFIRE","xxACTION May purchase a Diplomacy development using only resources from the pools."
 "Whispers at Lily Manor","xxMANA xxRAPPORT","Goldspike","Faction","Who knows what future badness brings but the keeper of secrets in a chamber of gold?","xxWATER","Effect: Any issues here have +1 xxTRACKING."
 "Whispers at Lily Manor","xxLUXURY xxTHIEVERY","Beetle Burrough","Urban","You look like someone who wants to know a secret?","xxEARTH"
