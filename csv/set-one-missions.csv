@@ -3,18 +3,14 @@ mission,btrigger,ctriggers,title,tags,text,lsummary,csummary,rsummary,blocka,blo
 "Threat","Act One","xxTHIEVERY","The Mole","Threat: Espionage","How is this known to the world? How is the Empire one step ahead of us?","0 xxDEFENSE",,"3 xxBODY","xxACTIVATE Remove 1 Progress from this threat. If there is no Progress to remove, spend 4 Mission Progress from any locations or lose 1 Stability."
 "Threat","Act One","xxLOCKED xxTHIEVERY","Security Lost","Threat: Espionage, Showdown","Spies! Spies everywhere!","0 xxDEFENSE",,"3 xxBODY",,"xxACTIVATE Remove 1 Progress from this threat. If there is no Progress to remove, put a burned Autarch Spy card into play at Sparrow Keep."
 
-"Threat","Act One",,"Diplomatic Maneuverings","Threat: Diplomacy (Rapport)","If you aren't building relationships - you will be left behind.",,,"xxWATER","xxWATER Levy. Remove 1 Progress from this threat. If there is no Progress to remove, lose 1 Luxury die."
-"Threat","Act One","xxLOCKED","Diplomatic Maneuverings","Threat: Diplomacy (Rapport), Showdown","If you aren't building relationships - you will be left behind.",,,"xxWATER","xxWATER Levy. Remove 1 Progress from this threat. If there is no Progress to remove, lose 1 Luxury die."
+"Threat","Act One","xxRAPPORT","Diplomatic Maneuverings","Threat: Diplomacy (Rapport)","If you aren't building relationships - you will be left behind.",,,"xxWATER","xxWATER Levy. Remove 1 Progress from this threat. If there is no Progress to remove, lose 1 Luxury die. Lower lux track."
+"Threat","Act One","xxLOCKED xxRAPPORT","Diplomatic Maneuverings","Threat: Diplomacy (Rapport), Showdown","If you aren't building relationships - you will be left behind.",,,"xxWATER","xxWATER Levy. Remove 1 Progress from this threat. If there is no Progress to remove, lose 1 Luxury die."
 
-"Threat","Act One",,"Title","Threat: Technology (Lore)","TBD",,,"xxEARTH","xxEARTH Lose Mission Progress."
-"Threat","Act One","xxLOCKED","Title","Threat: Technology (Lore), Showdown","TBD",,,"xxEARTH","xxEARTH Lose Mission Progress."
+"Threat","Act One","xxTACTICS","Moonrider Raids","Threat: Military (Command)","TBD",,,"xxFIRE","xxFIRE Add condition. Lower food track."
+"Threat","Act One","xxLOCKED xxTACTICS","Moonrider Raids","Threat: Military (Command), Showdown","TBD",,,"xxFIRE","xxFIRE Add condition."
 
-"Threat","Act One",,"Moonrider Raids","Threat: Military (Command)","TBD",,,"xxFIRE","xxFIRE Add condition."
-"Threat","Act One","xxLOCKED","Moonrider Raids","Threat: Military (Command), Showdown","TBD",,,"xxFIRE","xxFIRE Add condition."
-
-"Threat","Act One",,"Strange Magic","Threat: Sorcery (Lore)","Currents of dark magic are probing Red Bank.","1 xxDEFENSE","5 xxTRACKING","3 xxPSYCHE / xxFIRE","xxFIRE Remove 1 Progress. If there is no Progress to remove, lose 1 Mana die."
+"Threat","Act One","xxLORE","Strange Magic","Threat: Sorcery (Lore)","Currents of dark magic are probing Red Bank.","1 xxDEFENSE","5 xxTRACKING","3 xxPSYCHE / xxFIRE","xxFIRE Remove 1 Progress. If there is no Progress to remove, lose 1 Mana die. Lower mana track."
 "Threat","Act One","xxLOCKED xxLORE","Veil Ward","Threat: Sorcery, Showdown","Currents of dark magic target the inhabitants of Outer Fernbrake.","1 xxDEFENSE",,"3 xxPSYCHE","xxACTIVATE Remove 1 Progress. If there is no Progress to remove, put a burned Conspiracy Spreads card into play at Outer Fernbrake."
-
 
 "The Necromancer of North Oaks","Initial","xxLOCKED","See it for Myself","Obstacle: Motivation, Menas","Menas scouts the northern wilds looking for signs of the Empire.","xxDEFENSE / 1 xxBODY",,"xxAIR xxWATER","Attach to XYZ","xxACTION Signs of Sorcerous Danger. Spend 5 xxPROGRESS and make Menas weary. Then improve Menas's Motivation and burn this card.","xxAIR Veteran of the Old War. If Menas is at a North Oaks location, gain 2 xxPROGRESS.","xxWATER Take 1 xxDISCORD."
 
@@ -228,7 +224,7 @@ mission,btrigger,ctriggers,title,tags,text,lsummary,csummary,rsummary,blocka,blo
 "Whispers at Lily Manor","xxTIMER","xxRAPPORT","The Sapphire Djinn","Obstacle: Foe","You... amuse me. Let's play!","1 xxDEFENSE","4 xxTRACKING","2 xxBODY","xxCIRCLE When the Sapphire Djinn is burned, add 2 progress to the Veil Ward threat.","xxACTIVATE Take 2 Discord and add 1 Mana die to pool."
 "Whispers at Lily Manor","xxTIMER","","No Rest","Event",,,,,"May take 1 Discord to move a character at this location to any other location."
 "Whispers at Lily Manor","xxTIMER","","A Shining Example","Event",,,,,"Peace at home is peace abroad. If Stability is higher than 2, may reroll any Mission Progress dice at this location."
-"Whispers at Lily Manor","xxTIMER","","Yasmina'a Concern","Event",,,,,"'If you'll allow me to speak candidly - this threat is far greater than you realize. I have been sent to help you.' You may take 2 Discord to add a Mana die to Goldspike."
+"Whispers at Lily Manor","xxTIMER","","Yasmina's Concern","Event",,,,,"'If you'll allow me to speak candidly - this threat is far greater than you realize. I have been sent to help you.' You may take 2 Discord to add a Mana die to Goldspike."
 "Whispers at Lily Manor","xxTIMER","","Viator's Charm","Event",,,,,"'Why, but of course. Tonight is a night to be merry! Worries should be left at the door. A small little town like Red Bank can cause no disturbance here.' One character at this location is Angry."
 "Whispers at Lily Manor","xxTIMER","","Viator's Sympathy","Event",,,,,"'Every city is of importance. Lily Manor will do everything in its power to aid Red Bank. Any kingdom, large or small, is deserving of peace.' Draw two asset cards."
 

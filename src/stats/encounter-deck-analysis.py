@@ -52,6 +52,26 @@ def build_deck(burn, timer, total):
 
     return timer_deck
 
+def build_threat_deck(mil, dip, arc, esp, trade):
+    threat_deck = []
+    
+    for i in range(mil):
+        threat_deck.append('MIL '+str(i+1))
+        
+    for i in range(dip):
+        threat_deck.append('DIP'+str(i+1))
+        
+    for i in range(arc):
+        threat_deck.append('ARC'+str(i+1))
+        
+    for i in range(esp):
+        threat_deck.append('ESP'+str(i+1))
+        
+    for i in range(trade):
+        threat_deck.append('TRADE')
+        
+    return threat_deck
+        
 # Experimenting with a variant where timers are added
 # between each stage
 def add_timers(burn, timer, rlist):
@@ -66,13 +86,13 @@ def add_timers(burn, timer, rlist):
 # This is somewhat of a guess, but 1-2 seems the most common number,
 # fewer encounters means the game will tend to last longer, but
 # it also means you can't do as much
-encounter_distribution = [0, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+encounter_distribution = [1, 1, 1, 1, 2, 2, 2, 2, 2, 3]
 
 add_burn_cards = 2
 add_timer_cards = 0
 
-burn_cards = 6
-timer_cards = 4
+burn_cards = 7
+timer_cards = 3
 total_cards = 20
 
 # 4,3,2,1=10, 3,2,2,2=9
@@ -87,6 +107,9 @@ epochs = 10000
 # Number of stages in the game
 stages = 3
 
+# How many campaign cards to draw
+campaign_cards = 2
+
 # Number of triggers in each stage
 num_triggers = [1, 2, 3]
 
@@ -99,6 +122,9 @@ turns_dict = {}
 # Holds whether the deck emptied out
 empty_deck_dict = {}
     
+mil_threat_list = []
+mil_val_list = []
+
 # See how each stage looks
 for stage in range(stages):
     turns_dict[stage] = []
@@ -109,6 +135,13 @@ for e in range(epochs):
 
     # Reset the deck
     timer_deck = build_deck(burn_cards, timer_cards, total_cards)
+    threat_deck = build_threat_deck(6,6,6,6,15)
+    
+    current_threat_card = 0
+    mil_threats = 0
+    mil_vals = 0
+    shuffle(threat_deck)
+    
     turns = 0
     
     for stage in range(stages):
@@ -122,6 +155,15 @@ for e in range(epochs):
         # If the deck runs out, the stage is also done
         while current_card < len(timer_deck):
             turns = turns + 1
+            
+            # Draw a threat card
+            for i in range(campaign_cards):
+                if current_threat_card < len(threat_deck):
+                    threat_card = threat_deck[current_threat_card]
+                    if 'MIL' in threat_card:
+                        mil_threats = mil_threats + 1
+                        mil_vals = mil_vals + int(threat_card[-1:])
+                    current_threat_card = current_threat_card + 1
             
             # If any triggers are a timer, add to the timer total
             timers = False
@@ -158,6 +200,8 @@ for e in range(epochs):
             empty_deck_dict[stage].append(0)
             
         turns_dict[stage].append(turns)
+        mil_threat_list.append(mil_threats)
+        mil_val_list.append(mil_vals)
         
 prev_avg = 0
 
@@ -166,3 +210,7 @@ for i in range(stages):
     percent_empty = sum(empty_deck_dict[i]) / len(empty_deck_dict[i])
     print('stage: ', i, ' turns: ', round(cur_avg, 3), ' diff: ', round(cur_avg - prev_avg, 3), ' stdev: ', round(statistics.stdev(turns_dict[i]), 3), 'empty: ', round(percent_empty, 4))
     prev_avg = cur_avg
+    
+mil_avg = sum(mil_threat_list) / len(mil_threat_list)
+mil_val_avg = sum(mil_val_list) / len(mil_val_list)
+print('Threat: ', round(mil_avg, 3), statistics.stdev(mil_threat_list), round(mil_val_avg, 3))

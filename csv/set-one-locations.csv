@@ -1,23 +1,24 @@
 mission,ctriggers,title,tags,text,rsummary,blocka,blockb,blockc
 
-"Starting Location",,"xxSPOTLIGHT Undari's Tower","Sorcery, Red Bank","The vile mage left behind all manner of useful recipes. Provided you have the will to use them.","xxWATER","xxACTION Blue Toad Compress. Remove a minor xxBODY condition by spending xxMANA dice equal to condition value."
-"Starting Location",,"xxSPOTLIGHT The Great Hall","Diplomacy, Red Bank","Fuscus has been known to entertain large groups in the Great Hall.","xxAIR","xxACTION Rest and Relaxation. Remove a minor xxPSYCHE condition by spending xxFOOD dice equal to condition value."
-"Starting Location",,"xxSPOTLIGHT Amber Lodge","Espionage, Red Bank, Urban","The repurposed barracks of the Amber Hand has become Thea's personal offices.","xxFIRE","xxACTION Developing Assets. Look at the top asset card on either draw pile. Draw into hand or place back on top of asset draw pile."
-"Starting Location",,"xxSPOTLIGHT Lavender Mill","Technology, Red Bank","The great hub of Red Bank bustles with activity.","xxEARTH","xxACTION The Exchange. Reroll all resource dice in one pool."
-"Starting Location",,"xxSPOTLIGHT Sightrock Keep","Military, Red Bank","At the edge of your vision, looking west, you can just make out Eastkeep wall... looming.","xxEARTH","xxACTION Tactical Planning. Reroll all resource dice at one location.
+"Starting Location","xxFOOD","xxSPOTLIGHT Undari's Tower","Security","The vile mage left behind all manner of useful recipes. Provided you have the will to use them.","xxWATER","xxACTION Remove a minor condition by spending xxMANA dice equal to condition value."
+"Starting Location","xxORE","xxSPOTLIGHT Amber Lodge","Espionage","The repurposed barracks of the Amber Hand has become Thea's personal offices.","xxFIRE","xxACTION Look at the top asset card on either draw pile. Draw into hand or place back on top of asset draw pile."
+"Starting Location","xxLUXURY","xxSPOTLIGHT Lavender Mill","Diplomacy","The great hub of Red Bank bustles with activity.","xxAIR","xxACTION Trade resources along the wheel of trade by spending the trade value of one type to get one die of the appropriate type."
+"Starting Location","xxTIMBER","xxSPOTLIGHT Sightrock Keep","Conquest","At the edge of your vision, looking west, you can just make out Eastkeep wall... looking back.","xxEARTH","xxACTION Reroll all resource dice in one pool or at one location."
 
 "The Necromancer of North Oaks","xxSURVIVAL","Gray River","Wilderness","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.","xxEARTH","Effect: Treat this location as a xxTIMBER pool with track size of 2. May spend xxTIMBER from this location in addition to or instead of main pool."
 "The Necromancer of North Oaks","xxORE xxCOMBAT","Mirror Woods","Wilderness","The dense woods appear to shimmer and twist, a byproduct of the fallen soldiers rotting beneath the roots.","xxWATER"
 "The Necromancer of North Oaks","xxMANA xxLORE","Undari's Tomb","Dungeon","The mage's resting place has become a source of evil. The old wards were not strong enough.","xxFIRE","xxACTION Source of the Undead. Take 2 xxDISCORD to move any number of Restless Dead to this location."
-"The Necromancer of North Oaks","xxFOOD xxCOMMAND","Outer Fernbrake","Red Bank","Simple folk band together in the shadow of darkness.","xxFIRE","xxACTION May purchase a Technology development using only resources from the pools."
+"The Necromancer of North Oaks","xxFOOD xxCOMMAND","Outer Fernbrake","Red Bank","Simple folk band together in the shadow of darkness.","xxFIRE"
 
-"The Sunriders",,"xxSPOTLIGHT Spirit Lake","Stability, Faction","The clear waters of Spirit Lake reflect back the wisdom of ancestors. Feeding the lake earns the Sunriders' respect.","xxAIR","xxAIR May trade a Mana die for a Food die."
-"The Sunriders","xxTIMBER xxCOMMAND","Horsethief Meadows","Wilderness","Feats of martial prowess take place across the wide open plains.","xxEARTH","xxACTION May purchase a Military development using only resources from the pools."
+"The Sunriders",,"xxSPOTLIGHT Spirit Lake","Alliance, Faction","The clear waters of Spirit Lake reflect back the wisdom of ancestors. Feeding the lake earns the Sunriders' respect.","xxAIR","xxACTION Reroll all resource dice in one pool or at one location.","xxAIR May trade a Mana die for a Food die."
+
+"The Sunriders","xxTIMBER xxCOMMAND","Horsethief Meadows","Wilderness","Feats of martial prowess take place across the wide open plains.","xxEARTH"
 "The Sunriders","xxLUXURY xxRAPPORT","Hogel Manor","Urban","For a Sunrider, Hogel's decorations and appointments are almost gaudy, and his demeanor doubly so.","xxWATER"
 "The Sunriders","xxTIMBER xxTACTICS","Song Bluff","Wilderness","Amongst the Sunriders, honor and family are more important than diversity of thought.","xxFIRE"
 "The Sunriders","xxMANA xxCOMBAT","Spirit Lake","Wilderness","The clear waters of Spirit Lake reflect back the wisdom of ancestors. Feeding the lake earns the Sunriders' respect.","xxAIR","xxACTION May trade a Mana die for a Food die."
 
-"Into the Cold",,"xxSPOTLIGHT House of Copper","Technology, Imperial","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxWATER","xxACTION The Exchange. May reroll all dice in one pool.","xxWATER May reroll the Timber pool."
+"Into the Cold",,"xxSPOTLIGHT House of Copper","Technology, Imperial","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxWATER","xxACTION The Exchange. May reroll all dice in one pool or at one location.","xxWATER May reroll the Timber pool."
+
 "Into the Cold","xxDISGUISE","The Rosy Freetrader","Imperial, Urban","A popular meeting place for both the poor and wealthy of Eastkeep.","xxFIRE","xxACTION Cause a Scene. Move one Graycloak to the Rosy Freetrader."
 "Into the Cold","xxTHIEVERY","Map Hall","Imperial","Somewhere amongst the piles of maps and ledgers are useful Imperial plans.","xxWATER"
 "Into the Cold","xxRAPPORT","House of Copper","Dungeon","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxEARTH"
@@ -44,18 +45,19 @@ mission,ctriggers,title,tags,text,rsummary,blocka,blockb,blockc
 "Burgan Vale","xxSURVIVAL","Blue Rock","Dungeon","Text.","xxFIRE"
 "Burgan Vale","xxDISGUISE","Lower Wash","Faction, Urban","Text.","xxEARTH"
 
-"Sowing Rebellion",,"xxSPOTLIGHT Whitehold","Espionage, Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.","xxFIRE","xxACTION Imperial Secrets. Look at the top 2 asset cards, drawing 1 and placing the other back on top of the asset deck.","xxFIRE May exchange 1 resource die at any Imperial location."
+"Sowing Rebellion",,"xxSPOTLIGHT Whitehold","Infiltration, Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.","xxFIRE","xxACTION Look at the top 2 asset cards, drawing 1 and placing the other back on top of the asset deck.","xxFIRE May exchange 1 resource die at any Imperial location."
+
 "Sowing Rebellion","xxDISGUISE","Freeguilder Inn","Imperial","Where everybody - every single body - knows your name.","xxAIR","xxAIR One character at this location is weary."
 "Sowing Rebellion","xxCOMMAND","Dowling Farm","Imperial","Nexus of Imperial discontent.","xxWATER","xxACTION Spend 5 xxLUXURY to gain one xxSECRETS."
 "Sowing Rebellion","xxTACTICS","Whitehold","Imperial, Urban","Graycloak headquarters in the breadbasket of the Empire.","xxEARTH","All guards (obstacles) at this location have +1 xxDISCORD."
 "Sowing Rebellion","xxTHIEVERY","Under Whitehold","Imperial","The caverns below Whitehold have both riches and traps.","xxFIRE","xxACTION Take two xxDISCORD to gain one xxLUXURY die.","xxFIRE One character at this location is wounded."
 
 "Tragedy and Conspiracy","xxORE xxCOMMAND","Outer Fernbrake","Red Bank","The people of Outer Fernbrake are growing to distrust Thea's leadership.","xxEARTH"
-"Tragedy and Conspiracy","xxMANA xxLORE","House of Lavender","Red Bank, Urban","Swirls of intoxicating smoke tie together the deals and favors with an ephemeral bond.","xxWATER","xxACTION May purchase a Sorcery development using only resources from the pools."
+"Tragedy and Conspiracy","xxMANA xxLORE","House of Lavender","Red Bank, Urban","Swirls of intoxicating smoke tie together the deals and favors with an ephemeral bond.","xxWATER"
 "Tragedy and Conspiracy","xxTIMBER xxSURVIVAL","Graywash Spring","Red Bank, Wilderness","The river out of North Oaks winds its way through dense forests and hidden ruins.","xxAIR"
 "Tragedy and Conspiracy","xxORE xxCOMBAT","Sparrow Keep","Imperial, Dungeon","How is it that a nexus of such evil activity was allowed to grow so large?","xxFIRE","xxFIRE Any Autarch Spies have +1 xxDEFENSE here."
 
 "Whispers at Lily Manor","xxFOOD xxDISGUISE","Wrenhouse","Imperial, Urban","Both regret and conviction in equal measure.","xxAIR"
-"Whispers at Lily Manor","xxLUXURY xxTACTICS","Hall of Brass","Faction","Zarrah greets all newcomers in the great hall of world renown.","xxFIRE","xxACTION May purchase a Diplomacy development using only resources from the pools."
+"Whispers at Lily Manor","xxLUXURY xxTACTICS","Hall of Brass","Faction","Zarrah greets all newcomers in the great hall of world renown.","xxFIRE"
 "Whispers at Lily Manor","xxMANA xxRAPPORT","Goldspike","Faction","Who knows what future badness brings but the keeper of secrets in a chamber of gold?","xxWATER","Effect: Any issues here have +1 xxTRACKING."
 "Whispers at Lily Manor","xxLUXURY xxTHIEVERY","Beetle Burrough","Urban","You look like someone who wants to know a secret?","xxEARTH"

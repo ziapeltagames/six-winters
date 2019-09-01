@@ -1,21 +1,26 @@
-Musings about design ideas central to _Six Winters_.
+Musings on _Six Winters_ design.
 
-* [Currencies](#currencies) - Economies central to the game. 
-* [Card Types](#card-types) - Various types of cards in the game.
-* [Card Effects](#card-effects) - Broad ideas for card efffects based on card types.
+* [Currencies](#currencies)
+* [Card Types](#card-types)
+* [Card Effects](#card-effects)
+* [Asset Card Design](#asset-card-design)
+* [Character Design](#character-design)
+* [Spotlight Location Design](#spotlight-location-design)
 * [Mission Design](#mission-design)
 * [Threat Design](#thread-design)
+* [Showdowns](#showdowns)
 
 # Currencies
 
 These are all of the various currencies in the game. Ultimately, _Six Winters_ is intentionally very episodic in nature. These currencies are roughly ordered from longer term to shorter term.
 
+* Acts - There are three acts to the game, each of which lasts two years and ends with a showdown
 * Seasons - The march of seasons restricts mission choices
 * Missions - Players are not able to undertake every mission, and must make choices based on long term strategy
-* Threats - Each year there is a set of different threats to deal with
-* Stability - Stability is an important long term currency, since it restricts how many developments can be used
-* Spotlight Locations - These can be unlocked with different missions
-* Resource Tracks - Higher resource tracks make it easier to gain more of that type of resoruce
+* Threats - Each act has a set of different threats to deal with
+* Stability - Stability is an important long term currency, since it restricts how many developments can be used and the hand size
+* Spotlight Locations - These can be unlocked as specific mission rewards
+* Resource Tracks - Higher resource tracks make it easier to use that type of resoruce
    * Timber
    * Mana
    * Ore
@@ -42,19 +47,23 @@ These are all of the various currencies in the game. Ultimately, _Six Winters_ i
 * Progress - The main activity players are trying to do is gain various types of progress to achieve their goals
    * Threat Progress - Not as essential, but dealing with threats is helpful for the showdown
    * Obstacle Progress - Obstacles are the main thing players deal with in the short term
-   * Mission Progress - A central part of the game, tend to fluctuate greatly
+   * Mission Progress - A central part of the game, uses dice, and tends to fluctuate greatly
 
 ### Brainstorm
 
-There are currencies tied to a mission, like progress, and group level currencies, like resources. It's nice to have a group level currency, but it does make achievements that use them feel a little less tied to the mission. There's maybe a tension there.
+It would be good to think about when and how the different longer term state can change.
+
+* Skills - Character skills increase from mission rewards, and some very powerful developments and artifacts. Once increased, they do not degrade.
+* Discord - Discord is more fluid. It can increase from overflowing discord during missions (not too hard to do), and can be decreased as a mission reward.
+* Motivation - Motivation increases from specific mission obstacles.
 
 ## Sources of Uncertainty
 
 Games are a combination of choices and uncertainty. If either element is lacking, it's not very interesting. Identifying how choices and uncertainty mix is useful for figuring out where the game might be lacking. Also might be worth thinking about similar games and how they handle the same problems. Is it possible to think about using elements from similar games? These are the primary sources of uncertainty in _Six Winters_.
 
 * Resource Dice - There are many resource dice, so this chance does tend to average out, but it can still drive choices
-* Asset Deck - This is the biggest source of uncertainty, and manipulating the asset deck well is the main method for success
-   * Triggers
+* Asset Deck - This is a primary source of uncertainty, and manipulating the asset deck well is the main method for success
+   * Character Cards
    * Developments
    * Motivation Cards
    * Discord Cards
@@ -71,9 +80,11 @@ There are five different types of cards in the game. Each type of card has sligh
    * Some assets are played down as a global effect for the remainder of the game
 * Location - These are places that characters can be, they typically have actions on them that characters can do
    * Spotlight locations are places the player's have found that they put into play at the start of a mission
-* Event - These cards do something and then are usually discarded
+* Event - These are encounter cards which do something and then are usually discarded
 * Obstacle - These cards attach to locations and have codified rules for burning them
+   * Threats - Threats are really special instances of the obstacle mechanic, tied to spotlight locations rather than mission locations
 * Attachment - Cards that attach to a location or a character and affect it somehow
+   * These might be assets or obstacles
 
 ## Tags
 
@@ -90,6 +101,7 @@ Finally, the different types of cards get placed into different decks depending 
 * Asset - Each player uses an asset deck that has numerical resolutions on it as well as special abilities
 * Encounter - The encounter deck for the mission has random events characters encounter via progress deck triggers
 * Achievement - Used to restrict the number of achievements in play
+* Threat - The deck of threats is used throughout the act
 
 # Card Effects
 
@@ -514,23 +526,7 @@ Not sure what effect unresolved threats should have. Having narratives that rela
 * Lower stability
 * More timers
 
-# Showdowns
-
-Each chapter ends with a showdown. A showdown is a two pronged mission, intended to showcase stronger interactions between missions than are present during a regular session. Additionally, the achievements have **types** associated with them. The resolution of the showdown is based on how many of each type are collected during the session. There are three showdowns in the campaign. At the end of years two, four, and six.
-
-## Interactions
-
-Since both missions of the showdown are known, there is an oppotunity to have interactions between obstacles and cards from each mission. These are general patterns that might be used.
-
-* Trade-off: In this pattern, an effect for mission A could be positive, while it could be negative for mission B. Removing the effect depends on the situation. This could also be done with a threat, where more progress helps mission A but hinders mission B.
-* Conditional Chain: In this situation, an obstacle for mission A might need to be dealt with prior to the removal of an obstacle at mission B. This only becomes interesting if there is a different pressing situation at mission A that needs to be handled.
-* Remote Action: Actions at mission A could have a more direct impact for mission B. Adding or removing progress, making tasks easier or harder.
-
-### Brainstorm
-
-It most likely will not be possible to lose a showdown in the traditional sense. Six Winters is far more of a narrative experience than an optimization experience. But the consequences for the showdown should be stronger than for a regular mission, and should involve Red Bank to a larger degree, rather than only focusing on characters.
-
-# Character Tags / Traits
+# Character Tags
 
 This is a variant that is still under consideration. Characters may have tags that get added to them, and cards could refer to these tags. However, there is already quite a bit going on, so not sure if this is worth it or not!
 
@@ -554,6 +550,22 @@ The idea for these tags is that they could have benefits or penalties that are s
 Would need to come up with a list of traits beforehand. Probably in the 7-10 range? The best time to assign these might be during interludes. Putting them on encounter cards is probably the best spot for them. Putting them on locations could get pretty messy.
 
 However, putting them on encounters makes them pretty random. Through the luck of the draw, you could certainly control none of the characters that have a particular trait. Not sure if there's a way around that? It's not ideal to have some cards that do nothing, though. Maybe they can do X thing, but if a character in the group has a trait, they do Y thing?
+
+# Showdowns
+
+Each chapter ends with a showdown. A showdown is a two pronged mission, intended to showcase stronger interactions between missions than are present during a regular session. Additionally, the achievements have **types** associated with them. The resolution of the showdown is based on how many of each type are collected during the session. There are three showdowns in the campaign. At the end of years two, four, and six.
+
+## Interactions
+
+Since both missions of the showdown are known, there is an oppotunity to have interactions between obstacles and cards from each mission. These are general patterns that might be used.
+
+* Trade-off: In this pattern, an effect for mission A could be positive, while it could be negative for mission B. Removing the effect depends on the situation. This could also be done with a threat, where more progress helps mission A but hinders mission B.
+* Conditional Chain: In this situation, an obstacle for mission A might need to be dealt with prior to the removal of an obstacle at mission B. This only becomes interesting if there is a different pressing situation at mission A that needs to be handled.
+* Remote Action: Actions at mission A could have a more direct impact for mission B. Adding or removing progress, making tasks easier or harder.
+
+### Brainstorm
+
+It most likely will not be possible to lose a showdown in the traditional sense. Six Winters is far more of a narrative experience than an optimization experience. But the consequences for the showdown should be stronger than for a regular mission, and should involve Red Bank to a larger degree, rather than only focusing on characters.
 
 # First Showdown Playtest
 
