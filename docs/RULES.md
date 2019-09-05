@@ -4,9 +4,9 @@ This section is still very much unfinished and in progress. Additionally, it is 
 
 # Overview
 
-**Six Winters** is a two player cooperative mission based campaign game. Each session, players choose missions to undertake, which are represented by different decks of cards. Players select characters for the mission from a growing character pool, taking into consideration the strengths and weaknesses of each character. A mission takes about ninety minutes to play. The design goal is to make a game for nerdy couples who enjoy a game with a strong narrative that can be played on a weeknight. 
+**Six Winters** is a two player cooperative fantasy campaign game. Each session, players choose missions to undertake, which are represented by different decks of cards. Players select characters for the mission from a growing character pool, taking into consideration the strengths and weaknesses of each character. A mission takes about ninety minutes to play. The design goal is to make a game for nerdy couples who enjoy a game with a strong narrative that can be played on a weeknight. 
 
-The players control **Red Bank**, a growing society that is under constant threat from the **Empire of the Autarch**. The Autarch is working to achieve an **apotheosis**, becoming powerful and unstoppable. The players are trying to thwart this apotheosis by discovering the secrets contained within the **Animaelic Forest**, the source of the Autarch's power, but also her greatest weakness.
+The players control **Red Bank**, a fledgling society that is under constant threat from the **Empire of the Autarch**. The Autarch is working to achieve an **apotheosis**, becoming powerful and unstoppable. The players are trying to thwart this apotheosis by discovering the secrets contained within the **Animaelic Forest**, the source of the Autarch's power, but also her greatest weakness.
 
 Along the way, seasons will pass, the characters will grow and change, and players will make choices about the strategic direction for Red Bank.
 

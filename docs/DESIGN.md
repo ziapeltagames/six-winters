@@ -15,10 +15,12 @@ Musings on _Six Winters_ design.
 These are all of the various currencies in the game. Ultimately, _Six Winters_ is intentionally very episodic in nature. These currencies are roughly ordered from longer term to shorter term.
 
 * Acts - There are three acts to the game, each of which lasts two years and ends with a showdown
-* Seasons - The march of seasons restricts mission choices
+* Seasons - Seasons march towards a showdown
 * Missions - Players are not able to undertake every mission, and must make choices based on long term strategy
-* Threats - Each act has a set of different threats to deal with
-* Stability - Stability is an important long term currency, since it restricts how many developments can be used and the hand size
+* Threats - Threats build and change over the course of the campaign
+* Stability - Stability is an important long term currency, since it restricts how many developments can be used and overall the hand size
+* Influence - Affects ability to trade resources
+* Technology - A limit on the types of developments players can buy
 * Spotlight Locations - These can be unlocked as specific mission rewards
 * Resource Tracks - Higher resource tracks make it easier to use that type of resoruce
    * Timber
@@ -28,15 +30,15 @@ These are all of the various currencies in the game. Ultimately, _Six Winters_ i
    * Food
 * Developments - A way to improve asset decks long term
    * Sorcery
-   * Military
+   * Security
    * Diplomacy
-   * Technology
+   * Community
    * Espionage
 * Character Skills
-* Character Tags - Usually relate to special unlocked character cards
+* Character Tags - Relate to special unlocked character cards
 * Motivation Cards / Track
 * Discord Cards / Track
-* Resource Dice - Resource dice fuel asset and location abilities
+* Resource Dice - Resource dice are the primary means of progress during a mission
    * Timber
    * Mana
    * Ore
@@ -49,13 +51,18 @@ These are all of the various currencies in the game. Ultimately, _Six Winters_ i
    * Obstacle Progress - Obstacles are the main thing players deal with in the short term
    * Mission Progress - A central part of the game, uses dice, and tends to fluctuate greatly
 
-### Brainstorm
+## Long Term State Changes
 
-It would be good to think about when and how the different longer term state can change.
+The longer term currencies can change in a variety of ways.
 
-* Skills - Character skills increase from mission rewards, and some very powerful developments and artifacts. Once increased, they do not degrade.
-* Discord - Discord is more fluid. It can increase from overflowing discord during missions (not too hard to do), and can be decreased as a mission reward.
-* Motivation - Motivation increases from specific mission obstacles.
+* Motivation - Each character has special achievement cards that may be mixed into the achievement deck. Will never decrease.
+* Skills - Increase via mission rewards. Will never decrease.
+* New Characters - Released at certain time intervals in the game.
+* Discord - Can go up during a mission. Is lowered by resting a character.
+* Resource Tracks - Increase via Exploration mission rewards. Decrease via Security threats.
+* Stability - Increase via Community mission rewards. Decrease via Community threats.
+* Influence - Increase via Diplomacy mission rewards. Decrease via Diplomacy threats.
+* Technology - Increase by spending 1 die of each resource type during planning phase. Decrease via Espionage threats.
 
 ## Sources of Uncertainty
 
@@ -68,6 +75,7 @@ Games are a combination of choices and uncertainty. If either element is lacking
    * Motivation Cards
    * Discord Cards
 * Encounter Cards
+* Campaign Deck
 
 # Card Types
 
@@ -237,13 +245,13 @@ It would also be good if the peak development in each track was fairly powerful.
    * Lore
    * Mana
    * Quest
-* Technology
+* Community
    * Survival
    * Timber
    * Food
    * Ore
    * Exploration
-* Military
+* Security
    * Combat
    * Tactics
    * Command
@@ -268,23 +276,25 @@ Each character in the campaign has character cards which make them better suited
 
 Thea is a core character, arguably the key protagonist of the game. She has no cards which refer to other characters, in order to make her more flexible. However, many other character cards refer to her.
 
-* Red Bank
 * Discord
+* Red Bank
+* Issue
+* Thea's motivation improves as the status of Red Bank improves
 
 ## Menas (Starting Character)
 
+* Discord
 * Thea
 * Wilderness
 * Foe
-* Discord
 
 ## Fuscus (Starting Character)
 
+* Discord
 * Thea
 * Keel
 * Urban
 * Issue
-* Discord
 
 ## Keel (Starting Character)
 
