@@ -159,7 +159,9 @@ TBD
 
 # Tasks
 
-TBD# Season Setup
+TBD
+
+# Season Setup
 
 * Choose Spotlight Player
 * Spotlight Player Rolls Starting Resources
@@ -180,7 +182,11 @@ TBD# Season Setup
 * Resolve
 * Event
 * Encounter
-* ActionsA turn in _Six Winters_ is composed of the following phases.
+* Actions
+
+# Turn
+
+A turn in _Six Winters_ is composed of the following phases.
 
 # Refresh
 

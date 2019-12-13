@@ -12,15 +12,15 @@ Musings on _Six Winters_ design.
 
 # Currencies
 
-These are all of the various currencies in the game. Ultimately, _Six Winters_ is intentionally very episodic in nature. These currencies are roughly ordered from longer term to shorter term.
+These are all of the various currencies in the game. Ultimately, _Six Winters_ is intentionally episodic in nature. These currencies are roughly ordered from longer term to shorter term influence.
 
 * Acts - There are three acts to the game, each of which lasts two years and ends with a showdown
-* Seasons - Seasons march towards a showdown
-* Missions - Players are not able to undertake every mission, and must make choices based on long term strategy
+* Seasons - Seasons march towards a showdown at the end of an act
+* Missions - Players are not able to undertake every mission, and must make choices based on long term strategy and changes in the campaign deck
 * Threats - Threats build and change over the course of the campaign
-* Stability - Stability is an important long term currency, since it restricts how many developments can be used and overall the hand size
-* Influence - Affects ability to trade resources
-* Technology - A limit on the types of developments players can buy
+* Stability - Stability is an important long term currency, since it restricts how many developments can be used during one mission and overall asset hand size per player
+* Influence - Affects ability to trade resources, listing value that must be spent to gain a die of a certain type
+* Technology - A limit on the types of developments players can buy, ranked from 1-10, which matches tech level of developments
 * Spotlight Locations - These can be unlocked as specific mission rewards
 * Resource Tracks - Higher resource tracks make it easier to use that type of resoruce
    * Timber
@@ -55,10 +55,10 @@ These are all of the various currencies in the game. Ultimately, _Six Winters_ i
 
 The longer term currencies can change in a variety of ways.
 
-* Motivation - Each character has special achievement cards that may be mixed into the achievement deck. Will never decrease.
+* Motivation Track - Each character has special achievement cards that may be mixed into the achievement deck. Will never decrease.
 * Skills - Increase via mission rewards. Will never decrease.
 * New Characters - Released at certain time intervals in the game.
-* Discord - Can go up during a mission. Is lowered by resting a character.
+* Discord Track - Can increase during a mission when discord overflows. Is lowered by resting a character.
 * Resource Tracks - Increase via Exploration mission rewards. Decrease via Security threats.
 * Stability - Increase via Community mission rewards. Decrease via Community threats.
 * Influence - Increase via Diplomacy mission rewards. Decrease via Diplomacy threats.
@@ -71,11 +71,14 @@ Games are a combination of choices and uncertainty. If either element is lacking
 * Resource Dice - There are many resource dice, so this chance does tend to average out, but it can still drive choices
 * Asset Deck - This is a primary source of uncertainty, and manipulating the asset deck well is the main method for success
    * Character Cards
-   * Developments
-   * Motivation Cards
    * Discord Cards
 * Encounter Cards
+* Achievement Deck
+   * Mission Achievements
+   * Motivation Cards
 * Campaign Deck
+   * Development Cards
+   * Threats
 
 # Card Types
 
