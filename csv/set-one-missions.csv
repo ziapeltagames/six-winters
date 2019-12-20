@@ -34,6 +34,7 @@ mission,btrigger,ctriggers,title,tags,text,lsummary,csummary,rsummary,blocka,blo
 "Sunriders","xxTIMER","xxRAPPORT","Hogel","Obstacle: Diplomat","Hah! You think Arban rules the Sunriders? But who has the will of the people?","0 xxDEFENSE","3 xxTRACKING","2 xxPSYCHE","xxACTIVATE Subtract 2 Mission Progress at this location."
 "Sunriders","xxTIMER","xxTACTICS","Border Raids","Obstacle: Issue","The Moonriders continue to attack us from the east.","2 xxDEFENSE","2 xxTRACKING","1 xxPSYCHE","xxACTIVATE Subtract 1 Mission Progress at this location and take 1 Discord."
 "Sunriders","xxTIMER","xxLORE","Depleted Mana","Obstacle: Issue","The lake has been too hungry to think about much else.","1 xxDEFENSE","2 xxTRACKING","1 xxPSYCHE","xxACTIVATE Lose 1 xxMANA die from the resource pool."
+"Sunriders","xxTIMER","xxTACTICS","Pelekhar's Shadow","Obstacle: Issue","The dragon is a constant source of worry.","0 xxDEFENSE","2 xxTRACKING","1 xxPSYCHE","xxACTIVATE One character at a mission location is Exhausted."
 "Sunriders","xxTIMER",,"Rumors of Smoke","Event",,,,,"It is madness to beseech the wyrm Pelakhar for aid. Take 1 Discord."
 "Sunriders","xxTIMER",,"Sunrider Aid","Event",,,,,"The Sunriders favor bold action. May reroll any Mission Progress dice at this location."
 "Sunriders","xxTIMER",,"Life on the Steppes","Event",,,,,"There is grain as far as the eye can see. Gain 1 Food die."

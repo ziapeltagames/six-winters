@@ -1,36 +1,36 @@
-category,value,consequence
+category,value,consequence,fdcost,hvalue
 
-"Security","1","-1 Resource"
-"Security","2","-1 Resource"
-"Security","3","-1 Resource"
-"Security","4","-1 Resource"
-"Security","5","-1 Resource"
-"Security","6","-1 Resource"
+"Domain","1","-1 Resource","Hidden Cost: 5",H
+"Domain","2","-1 Resource","Hidden Cost: 5",H
+"Domain","3","-1 Resource","Hidden Cost: 5",H
+"Domain","4","-1 Resource","Hidden Cost: 5",H
+"Domain","5","-1 Resource","Hidden Cost: 5",H
+"Domain","6","-1 Resource","Hidden Cost: 5",H
 
-"Espionage","1","-1 Technology"
-"Espionage","2","-1 Technology"
-"Espionage","3","-1 Technology"
-"Espionage","4","-1 Technology"
-"Espionage","5","-1 Technology"
-"Espionage","6","-1 Technology"
+"Espionage","1","-1 Technology","Hidden Cost: 5",H
+"Espionage","2","-1 Technology","Hidden Cost: 5",H
+"Espionage","3","-1 Technology","Hidden Cost: 5",H
+"Espionage","4","-1 Technology","Hidden Cost: 5",H
+"Espionage","5","-1 Technology","Hidden Cost: 5",H
+"Espionage","6","-1 Technology","Hidden Cost: 5",H
 
-"Diplomacy","1","-1 Influence"
-"Diplomacy","2","-1 Influence"
-"Diplomacy","3","-1 Influence"
-"Diplomacy","4","-1 Influence"
-"Diplomacy","5","-1 Influence"
-"Diplomacy","6","-1 Influence"
+"Diplomacy","1","-1 Influence","Hidden Cost: 5",H
+"Diplomacy","2","-1 Influence","Hidden Cost: 5",H
+"Diplomacy","3","-1 Influence","Hidden Cost: 5",H
+"Diplomacy","4","-1 Influence","Hidden Cost: 5",H
+"Diplomacy","5","-1 Influence","Hidden Cost: 5",H
+"Diplomacy","6","-1 Influence","Hidden Cost: 5",H
 
-"Community","1","-1 Stability"
-"Community","2","-1 Stability"
-"Community","3","-1 Stability"
-"Community","4","-1 Stability"
-"Community","5","-1 Stability"
-"Community","6","-1 Stability"
+"Community","1","-1 Stability","Hidden Cost: 5",H
+"Community","2","-1 Stability","Hidden Cost: 5",H
+"Community","3","-1 Stability","Hidden Cost: 5",H
+"Community","4","-1 Stability","Hidden Cost: 5",H
+"Community","5","-1 Stability","Hidden Cost: 5",H
+"Community","6","-1 Stability","Hidden Cost: 5",H
 
-"All Quiet",,
-"All Quiet",,
-"All Quiet",,
-"All Quiet",,
-"All Quiet",,
-"All Quiet",,
+"All Quiet",,,,
+"All Quiet",,,,
+"All Quiet",,,,
+"All Quiet",,,,
+"All Quiet",,,,
+"All Quiet",,,,

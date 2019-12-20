@@ -135,7 +135,7 @@ for e in range(epochs):
 
     # Reset the deck
     timer_deck = build_deck(burn_cards, timer_cards, total_cards)
-    threat_deck = build_threat_deck(6,6,6,6,15)
+    threat_deck = build_threat_deck(6,6,6,6,4)
     
     current_threat_card = 0
     mil_threats = 0
