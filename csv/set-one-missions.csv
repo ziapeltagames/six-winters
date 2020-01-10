@@ -21,7 +21,7 @@ mission,btrigger,ctriggers,title,tags,text,lsummary,csummary,rsummary,blocka,blo
 "The Necromancer of North Oaks","xxEARTH","","Dense Forest","Event",,,,,"The woods around North Oaks are dense and full of usable timber. Gain 1 Timber die."
 "The Necromancer of North Oaks","xxWATER","","Forest Boar","Event",,,,,"'Hey Keel, could you peek your head in there and see if it's empty (xxCOMBAT)?' If passed, gain 1 Mission Progress die at this location. Otherwise, one character taking the test is Weary."
 "The Necromancer of North Oaks","xxWATER","","Abandoned Mine","Event",,,,,"Scattered mines from old Amber Hand outposts can still be found in the forest. Gain 1 Ore die."
-"The Necromancer of North Oaks","xxWATER","","Sudden Storm","Event",,,,,"Stop whining and keep moving! You want to freeze to death? Take 2 Discord."
+"The Necromancer of North Oaks","xxWATER","","Sudden Storm","Event",,,,,"'Stop whining and keep moving! You want to freeze to death?' Take 2 Discord."
 "The Necromancer of North Oaks","xxAIR","","Radiant Fernbrake","Event",,,,,"The pale red plant has a vast number of uses. However, it is very difficult to harvest correctly (xxLORE). If passed, gain 1 Luxury die."
 "The Necromancer of North Oaks","xxAIR","","Eldritch Energy","Event",,,,,"Ripples of magic ebb out from some chaotic source deeper within the forest (xxLORE). If passed, gain 1 Mission Progress die at this location. Otherwise, take 1 Discord."
 "The Necromancer of North Oaks","xxFIRE","","A Failed Defense","Event",,,,,"The casualties of a long forgotten war echo their pain and anger into the forest. One character at this location is Exhausted."

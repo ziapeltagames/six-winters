@@ -101,9 +101,9 @@ There are five different types of cards in the game. Each type of card has sligh
 
 Tags appear on cards to give them more flavor and pair with character abilities. Tags are used for threats, obstacles, and locations. Generally only one or at most two tags are used on a card.
 
-* Obstacle Tags: Foe, Guard, Diplomat, Environment, Issue, Trap, Motivation, Discord
+* Obstacle Tags: Foe, Guard, Diplomat, Environment, Issue, Trap
 * Location Tags: Wilderness, Dungeon, Urban, Red Bank, Imperial, Faction
-* Threat Tags: Stability, Sorcery, Military, Espionage, Diplomacy, Technology
+* Threat Tags: Community, Domain, Espionage, Diplomacy
 
 ## Card Decks
 
@@ -254,7 +254,7 @@ It would also be good if the peak development in each track was fairly powerful.
    * Food
    * Ore
    * Exploration
-* Security
+* Domain
    * Combat
    * Tactics
    * Command
