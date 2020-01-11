@@ -1,9 +1,9 @@
 mission,ctriggers,title,tags,text,rsummary,blocka,blockb,blockc
 
-"Starting Location",,"xxSPOTLIGHT Undari's Tower","Sorcery","The vile mage left behind all manner of useful recipes. Provided you have the will to use them.",,"xxACTION Remove a minor condition by spending xxMANA dice equal to condition value."
+"Starting Location",,"xxSPOTLIGHT Undari's Tower","Sorcery","The vile mage left behind all manner of useful recipes. Provided you have the will to use them.",,"xxACTION Remove a minor condition by spending xxMANA dice equal to condition value.","xxACTION Place any active achievements on the bottom of the related achievement deck. Then refill active achievements."
 "Starting Location","11xxDEFENSE/xxFOOD","xxSPOTLIGHT Great Hall","Community","Fuscus has been known to entertain large groups in the Great Hall.","xxWATER","xxACTION Look at the top two cards in the campaign deck and place one on the bottom of the deck."
 "Starting Location","11xxDEFENSE/xxORE","xxSPOTLIGHT Amber Lodge","Espionage","The repurposed barracks of the Amber Hand has become Thea's personal offices.","xxFIRE","xxACTION Look at the top asset card on either draw pile. Draw into hand or place back on top of asset draw pile."
-"Starting Location","11xxDEFENSE/xxLUXURY","xxSPOTLIGHT Lavender Mill","Diplomacy","The great hub of Red Bank bustles with activity.","xxAIR","xxACTION Use the wheel of trade."
+"Starting Location","11xxDEFENSE/xxLUXURY","xxSPOTLIGHT Lavender Mill","Diplomacy","The great hub of Red Bank bustles with activity.","xxAIR","xxACTION Activate the wheel of trade."
 "Starting Location","11xxDEFENSE/xxTIMBER","xxSPOTLIGHT Sightrock Keep","Domain","At the edge of your vision, looking west, you can just make out Eastkeep wall... looking back.","xxEARTH","xxACTION Reroll all resource dice in one pool or at one location."
 
 "The Necromancer of North Oaks","xxSURVIVAL xxTIMBER","Gray River","Wilderness","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.","xxEARTH","Effect: Either player may spend xxTIMBER from this location in addition to the main pool."
