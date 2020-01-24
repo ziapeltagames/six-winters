@@ -1,6 +1,6 @@
 mission,btrigger,ctriggers,title,tags,text,lsummary,csummary,rsummary,blocka,blockb,blockc,blockd,blocke
 
-"The Necromancer of North Oaks","xxTIMER","xxLOCKED xxLORE","The Necromancer","Obstacle: Foe","A cloaked figure hangs above the ground, limp and lifeless, but the power exuding from it tells you that it is not all that it seems. ","1 xxDEFENSE","3 xxTRACKING","2 xxPSYCHE","Attach to Undari's Tomb.","xxCIRCLE When the Necromancer is burned, give a character on this mission the tag Deathtouched.","xxACTIVATE One character at a North Oaks location is Exhausted."
+"The Necromancer of North Oaks","xxTIMER","xxLOCKED xxLORE","The Necromancer","Obstacle: Foe","A cloaked figure hangs above the ground, limp and lifeless, but the power exuding from it tells you that it is not all that it seems. ","1 xxDEFENSE","3 xxTRACKING","2 xxPSYCHE","Attach to Undari's Tomb.","xxCIRCLE Characters entering this space must stop movement.","xxCIRCLE When the Necromancer is burned, give a character on this mission the tag Deathtouched.","xxACTIVATE One character at a North Oaks location is Exhausted."
 "The Necromancer of North Oaks","xxTIMER","xxSTARTING xxCOMBAT","Restless Dead","Obstacle: Foe","A mere shadow of a human, walking like a marionette yanked on strings.","0 xxDEFENSE","2 xxTRACKING","2 xxBODY","Attach to Undari's Tomb.","xxACTIVATE Subtract 1 Mission Progress at this location and take 1 Discord."
 "The Necromancer of North Oaks","xxTIMER","xxSTARTING xxCOMBAT","Restless Dead","Obstacle: Foe","A mere shadow of a human, walking like a marionette yanked on strings.","0 xxDEFENSE","2 xxTRACKING","2 xxBODY","Attach to Mirror Woods.","xxACTIVATE Subtract 1 Mission Progress at this location and take 1 Discord."
 
@@ -28,12 +28,12 @@ mission,btrigger,ctriggers,title,tags,text,lsummary,csummary,rsummary,blocka,blo
 
 "Sunriders","xxTIMER","xxSTARTING xxLORE","Ile","Obstacle: Diplomat","Ile is best equipped to see through the veil of sorcery. She harbors anger from being separated from her people, the Moonriders.","1 xxDEFENSE","2 xxTRACKING","2 xxPSYCHE","Attach to Horsethief Meadows.","xxACTIVATE Take 1 Discord and gain 1 xxMANA die."
 "Sunriders","xxTIMER","xxSTARTING xxCOMMAND","Past Deals","Obstacle: Issue","Ask yourself, aren't you also responsible for how bad things have become?","0 xxDEFENSE","3 xxTRACKING","1 xxPSYCHE","Attach to Hogel Manor.","xxACTIVATE Remove 1 Mission Progress die at this location."
-"Sunriders","xxTIMER","xxSTARTING xxRAPPORT","Family Honor","Obstacle: Issue","What is your great society if it doesn't value families?","1 xxDEFENSE","2 xxPROGRESS","3 xxPSYCHE","Attach to Hogel Manor.","xxACTIVATE Reroll all the Mission Progress dice at this location."
+"Sunriders","xxTIMER","xxSTARTING xxRAPPORT","Family Honor","Obstacle: Issue","What is your great society if it doesn't value families?","1 xxDEFENSE","2 xxTRACKING","3 xxPSYCHE","Attach to Song Bluff.","xxACTIVATE Reroll all the Mission Progress dice at this location."
 
 "Sunriders","xxTIMER","xxCOMMAND","Dashen","Obstacle: Diplomat","The young swordsman displays his worth to Arban by testing what the diplomats from Red Bank know of horse lore.","1 xxDEFENSE","2 xxTRACKING","2 xxBODY","xxACTIVATE Take 1 Discord."
 "Sunriders","xxTIMER","xxRAPPORT","Hogel","Obstacle: Diplomat","Hah! You think Arban rules the Sunriders? But who has the will of the people?","0 xxDEFENSE","3 xxTRACKING","2 xxPSYCHE","xxACTIVATE Subtract 2 Mission Progress at this location."
 "Sunriders","xxTIMER","xxTACTICS","Border Raids","Obstacle: Issue","The Moonriders continue to attack us from the east.","2 xxDEFENSE","2 xxTRACKING","1 xxPSYCHE","xxACTIVATE Subtract 1 Mission Progress at this location and take 1 Discord."
-"Sunriders","xxTIMER","xxLORE","Depleted Mana","Obstacle: Issue","The lake has been too hungry to think about much else.","1 xxDEFENSE","2 xxTRACKING","1 xxPSYCHE","xxACTIVATE Lose 1 xxMANA die from the resource pool."
+"Sunriders","xxTIMER","xxLORE","Depleted Mana","Obstacle: Issue","The lake has been too hungry to think about much else.","1 xxDEFENSE","2 xxTRACKING","1 xxPSYCHE","xxACTIVATE Lose 1 xxMANA die from Spirit Lake."
 "Sunriders","xxTIMER","xxTACTICS","Pelekhar's Shadow","Obstacle: Issue","The dragon is a constant source of worry.","0 xxDEFENSE","2 xxTRACKING","1 xxPSYCHE","xxACTIVATE One character at a mission location is Exhausted."
 "Sunriders","xxTIMER",,"Rumors of Smoke","Event",,,,,"It is madness to beseech the wyrm Pelakhar for aid. Take 1 Discord."
 "Sunriders","xxTIMER",,"Sunrider Aid","Event",,,,,"The Sunriders favor bold action. May reroll any Mission Progress dice at this location."
@@ -46,11 +46,35 @@ mission,btrigger,ctriggers,title,tags,text,lsummary,csummary,rsummary,blocka,blo
 "Sunriders","xxAIR",,"Shame To Anger","Event",,,,,"'Why can't you just trust my judgement?' If there is a Frustrated character at this location, they become Angry."
 "Sunriders","xxAIR",,"Looking West","Event",,,,,"At the far edge of the plains the Empire lies in wait (xxTACTICS). If passed, gain 1 Mission Progress die at this location. Otherwise, one character making this test becomes Angry."
 "Sunriders","xxFIRE",,"Favors Returned","Event",,,,,"You may spend 1 Mana to gain 2 Food dice."
-"Sunriders","xxFIRE",,"Arban's Sunset Ride","Event",,,,,"'Keep up! Keep up (xxCOMMAND)!' If passed, gain 1 Mission Progress die at this location. Otherwise, take 1 Discord."
+"Sunriders","xxFIRE",,"Arban's Sunset Ride","Event",,,,,"'Keep up! Keep up (xxCOMMAND)!' If passed, gain 1 Mission Progress die at this location. Otherwise, one character making this test becomes Weary."
 "Sunriders","xxFIRE",,"Taichu's Test","Event",,,,,"Taichu, the greatest of the Sunrider's military commanders, is the key to Arban's support (xxCOMMAND). If passed, gain 1 Mission Progress die at this location. Otherwise, take 1 Discord."
 "Sunriders","xxEARTH",,"Rousing Speech","Event",,,,,"'Let us not lose sight of the will of the Empire! They seek to divide us (xxRAPPORT)!' If passed, gain 1 Mission Progress die at this location. Otherwise, take 1 Discord."
 "Sunriders","xxEARTH",,"Moonrider Envoy","Event",,,,,"Take 2 Discord if Ile is in play."
 "Sunriders","xxWATER",,"Horse Games","Event",,,,,"'Well... here goes nothing... (xxCOMBAT)'. If passed, gain 1 Mission Progress die at this location. Otherwise, one character making this test becomes Exhausted."
+
+"Into the Cold","xxTIMER","xxSTARTING xxDISGUISE","Graycloak","Obstacle: Guard","Wait? Who did you say you were here to see?","0 xxDEFENSE","2 xxTRACKING","2 xxPSYCHE","Attach to Map Hall. Characters must stop moving when entering this location.","xxACTIVATE Take 2 Discord if any characters are at this location.","xxWATER Move left.","xxAIR Move left.","xxFIRE Move right."
+
+"Into the Cold","xxTIMER","xxDISGUISE","Graycloak","Obstacle: Guard","Did you hear that?","0 xxDEFENSE","2 xxTRACKING","2 xxPSYCHE","Characters must stop moving when entering this location.","xxACTIVATE Take 2 Discord if any characters are at this location.","xxWATER Move left.","xxAIR Move left.","xxFIRE Move right."
+"Into the Cold","xxTIMER","xxDISGUISE","Graycloak","Obstacle: Guard","I just don't like the way you look.","0 xxDEFENSE","2 xxTRACKING","2 xxPSYCHE","Characters must stop moving when entering this location.","xxACTIVATE Take 2 Discord if any characters are at this location.","xxWATER Move left.","xxAIR Move left.","xxFIRE Move right."
+"Into the Cold","xxTIMER","xxDISGUISE","Graycloak","Obstacle: Guard","Well, they provide three square meals.","0 xxDEFENSE","2 xxTRACKING","2 xxPSYCHE","Characters must stop moving when entering this location.","xxACTIVATE Take 2 Discord if any characters are at this location.","xxWATER Move left.","xxAIR Move left.","xxFIRE Move right."
+"Into the Cold","xxTIMER","xxDISGUISE","Graycloak","Obstacle: Guard","Cool sword, right?","0 xxDEFENSE","2 xxTRACKING","2 xxPSYCHE","Characters must stop moving when entering this location.","xxACTIVATE Take 2 Discord if any characters are at this location then move left."
+"Into the Cold","xxTIMER","xxDISGUISE","Graycloak","Obstacle: Guard","One more for the road. And then one more after that.","0 xxDEFENSE","2 xxTRACKING","2 xxPSYCHE","Characters must stop moving when entering this location.","xxACTIVATE Take 2 Discord if any characters are at this location then move left."
+"Into the Cold","xxTIMER","xxDISGUISE","Graycloak","Obstacle: Guard","I'm just here for the rest and relaxation.","0 xxDEFENSE","2 xxTRACKING","2 xxPSYCHE","Characters must stop moving when entering this location.","xxACTIVATE Take 2 Discord if any characters are at this location then move left."
+"Into the Cold","xxTIMER","xxDISGUISE","Graycloak Captain","Obstacle: Guard","I've stabbed people for far less. That's the reason I took this job. That and they threatened to kill my family.","1 xxDEFENSE","3 xxTRACKING","2 xxPSYCHE",,,"Characters must stop moving when entering this location.","xxACTIVATE Take 1 Discord if any characters are at this location then remove 1 Mission Progress die.","xxWATER Move left.","xxAIR Move left.","xxFIRE Move right."
+"Into the Cold","xxTIMER",,"A Cold Place","Event",,,,,"The streets of Eastkeep are punishing, but secrets are there for the taking - if you're willing to pay the price. You may make a character at this location weary to add three xxPROGRESS. Then burn card."
+"Into the Cold","xxTIMER",,"The Thea Dossier","Event",,,,,"You have discovered meticulous notes detailing a campaign to discredit and destroy everything Thea loves. ",,,,"Make Thea angry and burn this card."
+"Into the Cold","xxTIMER",,"The Resistance","Event",,,,,"There are whispers and rumors of discontent throughout the Empire. Fear keeps the populace from action, but perhaps there are allies to be gained?",,,,"Gain 2 xxPROGRESS and burn card."
+
+"Into the Cold","xxAIR",,"First Contact","Event",,,,,"xxRAPPORT If you pass, gain 1 xxFORTUNE. If you fail, one character taking the test is frustrated."
+"Into the Cold","xxAIR",,"Establishing Safehouses","Event",,,,,"xxDISGUISE If you pass, gaine 1 xxFORTUNE. If you fail, one character taking the test is weary."
+"Into the Cold","xxFIRE",,"Compromised Position","Event",,,,,"(xxTACTICS). If you pass, gain 1 xxFORTUNE. If you fail, gain two xxDISCORD."
+"Into the Cold","xxEARTH",,"Spies","Event",,,,,"(xxDISGUISE). If you pass, gain 1 xxFORTUNE. If you fail, gain two xxDISCORD."
+"Into the Cold","xxFIRE",,"Trapped Safe","Event",,,,,"(xxTHIEVERY). If you pass, gain 1 xxFORTUNE. If you fail, one character taking test is frustrated."
+"Into the Cold","xxAIR",,"Risky Gambit","Event",,,,,"Optional (xxTHIEVERY). If you pass, gain two xxFORTUNE. If you fail, gain three xxDISCORD."
+"Into the Cold","xxEARTH",,"Costume Ball","Event",,,,,"Optional (xxDISGUISE). If you pass, gain four progress. If you fail, gain three xxDISCORD."
+"Into the Cold","xxWATER",,"Hidden Passage","Event",,,,,"Optional (xxTHIEVERY). If you pass, gain two xxLUXURY dice. If you fail, gain three xxDISCORD."
+"Into the Cold","xxWATER",,"Safehouse","Event",,,,,"A chance to rest and regroup. Remove 1 Discord."
+"Into the Cold","xxAIR",,"Intercepted Plans","Event",,,,,"The Guild of Secrets has grown complacent and overconfident. Getting information is easier than expected. Discard one Espionage threat card."
 
 "Doom Under Sightrock","Initial","xxSTARTING","Paranoid Mob","Obstacle: Foe",,"2 xxPROGRESS / xxBODY",,,"Placement: Lush Fields","xxACTION Test (Combat 1). If passed, discard and take 2 Discord.","xxACTION Test (Command 2). If passed, discard."
 "Doom Under Sightrock","Initial","xxSTARTING","Paranoid Mob","Obstacle: Foe",,"2 xxPROGRESS / xxBODY",,,"Placement: Salmon Run","xxACTION Test (Combat 1). If passed, discard and take 2 Discord.","xxACTION Test (Command 2). If passed, discard."
@@ -102,30 +126,6 @@ mission,btrigger,ctriggers,title,tags,text,lsummary,csummary,rsummary,blocka,blo
 "Gravewood","xxWATER","Galya's Egalitarian Society","Event",,,,,"Test (Rapport 2). If you fail, one character making the test is frustrated"
 "Gravewood","xxWATER","Council with Lev and Sdila","Event",,,,,"Test (Rapport 1). If you fail, gain two xxDISCORD."
 "Gravewood","xxAIR","A Summit of the Five Havens","Event",,,,,"Test (Command 1). If you fail, gain two xxDISCORD."
-
-"Into the Cold","Initial","xxSTARTING","Graycloak","Obstacle: Guard","Wait? Who did you say you were here to see?","xxDEFENSE / 1 xxPSYCHE",,,"Placement: Map Hall","xxACTION Cover Story. Test (Disguise). For every two successes, burn one Guard at this location."
-
-"Into the Cold","xxTIMER xxAIR","Graycloak","Obstacle: Guard","Did you hear that?","xxDEFENSE / 1 xxPSYCHE",,,"xxACTION Cover Story. Test (Disguise). For every two successes, burn one Guard at this location."
-"Into the Cold","xxTIMER xxAIR","Graycloak","Obstacle: Guard","I just don't like the way you look.","xxDEFENSE / 1 xxPSYCHE",,,"xxACTION Cover Story. Test (Disguise). For every two successes, burn one Guard at this location."
-"Into the Cold","xxTIMER xxEARTH","Graycloak","Obstacle: Guard","Well, they provide three square meals.","xxDEFENSE / 1 xxPSYCHE",,,"xxACTION Cover Story. Test (Disguise). For every two successes, burn one Guard at this location."
-"Into the Cold","xxTIMER xxEARTH","Graycloak","Obstacle: Guard","Cool sword, right?","xxDEFENSE / 1 xxPSYCHE",,,"xxACTION Cover Story. Test (Disguise). For every two successes, burn one Guard at this location."
-"Into the Cold","xxTIMER xxEARTH","Graycloak","Obstacle: Guard","One more for the road. And then one more after that.","xxDEFENSE / 1 xxPSYCHE",,,"xxACTION Cover Story. Test (Disguise). For every two successes, burn one Guard at this location."
-"Into the Cold","xxTIMER xxEARTH","Graycloak","Obstacle: Guard","I'm just here for the rest and relaxation.","xxDEFENSE / 1 xxPSYCHE",,,"xxACTION Cover Story. Test (Disguise). For every two successes, burn one Guard at this location."
-"Into the Cold","xxTIMER xxFIRE","Graycloak","Obstacle: Guard","I've stabbed people for far less. That's the reason I took this job. That and they threatened to kill my family.","xxDEFENSE / 1 xxPSYCHE",,,"xxACTION Cover Story. Test (Disguise). For every two successes, burn one Guard at this location."
-"Into the Cold","xxTIMER xxFIRE","A Cold Place","Event",,,,,"The streets of Eastkeep are punishing, but secrets are there for the taking - if you're willing to pay the price. You may make a character at this location weary to add three xxPROGRESS. Then burn card."
-"Into the Cold","xxTIMER xxFIRE","The Thea Dossier","Event","You have discovered meticulous notes detailing a campaign to discredit and destroy everything Thea loves. ",,,,"Make Thea angry and burn this card."
-"Into the Cold","xxTIMER xxAIR","The Resistance","Event","There are whispers and rumors of discontent throughout the Empire. Fear keeps the populace from action, but perhaps there are allies to be gained?",,,,"Gain 2 xxPROGRESS and burn card."
-
-"Into the Cold","xxAIR","First Contact","Event",,,,,"(Test Rapport 2). If you pass, gain 1 xxFORTUNE. If you fail, one character taking the test is frustrated."
-"Into the Cold","xxAIR","Establishing Safehouses","Event",,,,,"(Test Disguise 1). If you pass, gaine 1 xxFORTUNE. If you fail, one character taking the test is weary."
-"Into the Cold","xxFIRE","Compromised Position","Event",,,,,"(Test Tactics 2). If you pass, gain 1 xxFORTUNE. If you fail, gain two xxDISCORD."
-"Into the Cold","xxEARTH","Spies","Event",,,,,"(Test Disguise 2). If you pass, gain 1 xxFORTUNE. If you fail, gain two xxDISCORD."
-"Into the Cold","xxFIRE","Trapped Safe","Event",,,,,"(Test Thievery 2). If you pass, gain 1 xxFORTUNE. If you fail, one character taking test is frustrated."
-"Into the Cold","xxAIR","Risky Gambit","Event",,,,,"Optional (Test Thievery 2). If you pass, gain two xxFORTUNE. If you fail, gain three xxDISCORD."
-"Into the Cold","xxEARTH","Costume Ball","Event",,,,,"Optional (Test Disguise 3). If you pass, gain four progress. If you fail, gain three xxDISCORD."
-"Into the Cold","xxWATER","Hidden Passage","Event",,,,,"Optional (Test Thievery 2). If you pass, gain two xxLUXURY dice. If you fail, gain three xxDISCORD."
-"Into the Cold","xxWATER","Safehouse","Event",,,,,"A chance to rest and regroup. Gain 1 xxFORTUNE."
-"Into the Cold","xxAIR","Intercepted Plans","Event",,,,,"The Guild of Secrets has grown complacent and overconfident. Getting information is easier than expected. Gain one xxSECRETS."
 
 "Ballad of Eight Ears","Initial","xxSTARTING","The First Form"
 
