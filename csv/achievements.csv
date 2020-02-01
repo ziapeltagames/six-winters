@@ -1,5 +1,10 @@
 mission,difficulty,title,task,active,requirements
 
+"Menas Motivation 1","1","The Dark Forest","Menas must add at least 1 progress to any Foe at a Wilderness location."
+"Thea Motivation 1","1","Stronger Together","Thea must cooperate on a test with Menas and get a 4 or higher."
+"Fuscus Motivation 1","1","Wine. And Women. And Men.","Fuscus must add at least 1 progress to any Diplomat."
+"Keel Motivation 1","1","The Finest Tools","Sum: 4 xxORE"
+
 "Espionage","1","Vault of Shadows","Overcome the Vault of Shadows","Active: Attach Vault of Shadows to a vault location.","Requires: Vault location."
 "Espionage","1","Drunken Revelry","All guards are at a tavern location.",,"Requires: Tavern location."
 "Espionage","1","Safehouse Repairs","Unique: xxFOOD xxLUXURY"
@@ -12,11 +17,6 @@ mission,difficulty,title,task,active,requirements
 "Espionage","2","Funding the Resistance","Unique: xxLUXURY xxMANA xxFOOD"
 "Espionage","2","Into the Cold","Sum: 4 xxORE"
 "Espionage","2","The Torturer","Overcome Minim",,"Active: Attach Minim to a xxFIRE location."
-
-"Menas Motivation 1","1","The Dark Forest","Menas must add at least 1 progress to any Foe at a Wilderness location."
-"Thea Motivation 1","1","Stronger Together","Thea must cooperate on a test with Menas and get a 4 or higher."
-"Fuscus Motivation 1","1","Wine. And Women. And Men.","Fuscus must add at least 1 progress to any Diplomat."
-"Keel Motivation 1","1","The Finest Tools","Sum: 4 xxORE"
 
 "Domain","1","An Outpost in the Dark Forest","Sum: 4 xxPROGRESS"
 "Domain","1","Gather Supplies","Sum: 3 xxPROGRESS"
