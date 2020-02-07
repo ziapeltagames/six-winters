@@ -5,8 +5,8 @@ mission,difficulty,title,task,active,requirements
 "Fuscus Motivation 1","1","Wine. And Women. And Men.","Fuscus must add at least 1 progress to any Diplomat."
 "Keel Motivation 1","1","The Finest Tools","Sum: 4 xxORE"
 
-"Espionage","1","Vault of Shadows","Overcome the Vault of Shadows","Active: Attach Vault of Shadows to a vault location.","Requires: Vault location."
-"Espionage","1","Drunken Revelry","All guards are at a tavern location.",,"Requires: Tavern location."
+"Espionage","1","Vault of Shadows","Overcome the Vault of Shadows","xxIMMEDIATE Attach Vault of Shadows to a vault location.","xxSTARTING Vault location."
+"Espionage","1","Drunken Revelry","All guards are at a tavern location.",,"xxSTARTING Tavern location."
 "Espionage","1","Safehouse Repairs","Unique: xxFOOD xxLUXURY"
 "Espionage","1","Traveling Minstrels","Sum: 4 xxPROGRESS"
 "Espionage","1","Right Tool for the Job","Sum: 3 xxORE"
@@ -16,7 +16,7 @@ mission,difficulty,title,task,active,requirements
 "Espionage","2","Scrying","Pair: xxMANA xxLUXURY"
 "Espionage","2","Funding the Resistance","Unique: xxLUXURY xxMANA xxFOOD"
 "Espionage","2","Into the Cold","Sum: 4 xxORE"
-"Espionage","2","The Torturer","Overcome Minim",,"Active: Attach Minim to a xxFIRE location."
+"Espionage","2","The Torturer","Overcome Minim",,"xxIMMEDIATE Attach Minim to a xxFIRE location."
 
 "Domain","1","An Outpost in the Dark Forest","Sum: 4 xxPROGRESS"
 "Domain","1","Gather Supplies","Sum: 3 xxPROGRESS"
@@ -24,10 +24,10 @@ mission,difficulty,title,task,active,requirements
 "Domain","1","Incant a Ward Against the Deathless","Sum: 2 xxMANA"
 "Domain","1","Diadem of Protection","Unique: xxORE xxMANA"
 "Domain","1","Minor Repairs","Sum: 2 xxTIMBER"
-"Domain","1","Moment of Peace","No Restless Dead in Play",,"Requires: Mirror Woods."
+"Domain","1","Moment of Peace","No Restless Dead in Play",,"xxSTARTING Mirror Woods."
 
 "Domain","2","Deathbane Swords","Sum: 5 xxORE"
-"Domain","2","A Kindness for the Captive Shadow","Overcome the Necromancer","Active: Attach the Necromancer to Undari's Tomb.","Requires: Undari's Tomb."
+"Domain","2","A Kindness for the Captive Shadow","Overcome the Necromancer","xxIMMEDIATE Attach the Necromancer to Undari's Tomb.","xxSTARTING Undari's Tomb."
 "Domain","2","Solace for the Victims","Sum: 5 xxPROGRESS"
 
 "Diplomacy","1","Pleas for Unity","Sum: 4 xPROGRESS"

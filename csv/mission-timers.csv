@@ -13,7 +13,7 @@ mission,trigger,skill,title,tags,text,defense,progress,damage,block1,block2,bloc
 "Espionage","xxTIMER","xxDISGUISE","Imperial Guard","Obstacle: Guard","One more for the road. And then one more after that.","0 xxDEFENSE","2 xxTRACKING","2 xxPSYCHE","xxACTIVATE Reroll all mission dice at this location.","xxACTIVATE Move left."
 "Espionage","xxTIMER","xxDISGUISE","Imperial Guard","Obstacle: Guard","I'm just here for the rest and relaxation.","0 xxDEFENSE","2 xxTRACKING","2 xxPSYCHE","xxACTIVATE Reroll all mission dice at this location.","xxACTIVATE Move left."
 
-"Espionage","xxTIMER","xxDISGUISE","Prismatic Lotus","Obstacle: Trap","The shimmering flutter gives a moments notice before turning into burning agony.","1 xxDEFENSE","4 xxTRACKING","3 xxBODY","Attach to vault location.","Characters entering this location become Exhausted.","xxACTIVATE Remove one resource die at this location."
+"Espionage","xxTIMER","xxDISGUISE","Prismatic Lotus","Obstacle: Trap","The shimmering flutter gives a moments notice before turning into burning agony.","1 xxDEFENSE","4 xxTRACKING","3 xxBODY","xxCIRCLE Attach to vault location.","xxCIRCLE Characters entering this location become Exhausted.","xxACTIVATE Remove one resource die at this location."
 
 "Espionage","xxTIMER",,"A Cold Place","Event",,,,,"The streets of Eastkeep are punishing, but secrets are there for the taking - if you're willing to pay the price. You may make a character at this location Weary to add a mission progress die at this location."
 "Espionage","xxTIMER",,"The Dossier","Event",,,,,"You have discovered meticulous notes detailing a campaign to discredit and destroy everything Thea loves. Make Thea angry."
