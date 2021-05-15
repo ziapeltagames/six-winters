@@ -1,30 +1,31 @@
-title,mission,reward1,reward2,required1,required2,special,resources,tags,text,trigger,block1,block2,block3
+title,mission,rewards,encounters,achievements,starting,special,resources,tags,text,trigger,block1,block2,block3
 
 "xxSPOTLIGHT Undari's Tower","Starting Location",,,,,,"5xxDEFENSE xxMANA","Sorcery","The vile mage left behind all manner of useful recipes. Provided you have the will to use them.",,"xxACTION Remove a minor condition by spending xxMANA dice equal to condition value.","xxACTION Place any active achievements on the bottom of the related achievement deck. Then refill active achievements."
 "xxSPOTLIGHT Great Hall","Starting Location",,,,,,"11xxDEFENSE xxFOOD","Community","Fuscus has been known to entertain large groups in the Great Hall.","xxWATER","xxACTION Look at the top two cards in the campaign deck and place one on the bottom of the deck."
 "xxSPOTLIGHT Amber Lodge","Starting Location",,,,,,"11xxDEFENSE xxORE","Espionage","The repurposed barracks of the Amber Hand has become Thea's personal offices.","xxFIRE","xxACTION Look at the top asset card on either draw pile. Draw into hand or place back on top of asset draw pile."
-"xxSPOTLIGHT Lavender Mill","Starting Location",,,,,,"11xxDEFENSE xxLUXURY","Diplomacy","The great hub of Red Bank bustles with activity.","xxAIR","xxACTION Activate the wheel of trade."
+"xxSPOTLIGHT Lavender Mill","Starting Location",,,,,,"11xxDEFENSE xxLUXURY","Diplomacy","The great hub of Red Bank bustles with activity.","xxAIR","xxACTION Trade or refine a banked resource."
 "xxSPOTLIGHT Sightrock Keep","Starting Location",,,,,,"11xxDEFENSE xxTIMBER","Domain","At the edge of your vision, looking west, you can just make out Eastkeep wall... looking back.","xxEARTH","xxACTION Reroll all resource dice in one pool or at one location."
 
 "xxLOCKED xxSPOTLIGHT Spirit Lake","Diplomacy Spotlight Location",,,,,,"12xxDEFENSE xxLUXURY","Diplomacy, Faction","The clear waters of Spirit Lake reflect back the wisdom of ancestors. Feeding the lake earns the Sunriders' respect.","xxAIR","xxACTION Reroll all resource dice in one pool or at one location.","xxAIR May trade a Mana die for a Food die."
 "xxLOCKED xxSPOTLIGHT Green Haven","Diplomacy Spotlight Location",,,,,,"12xxDEFENSE xxLUXURY","Domain, Faction","Galya, the leader of Green Haven, is a valuable and reliable ally.","xxFIRE","xxFIRE May trade a Luxury die for a Timber die."
 "xxLOCKED xxSPOTLIGHT House of Copper","Espionage Spotlight Location",,,,,,"12xxDEFENSE xxORE","Espionage, Imperial","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxFIRE","xxACTION Look at the top asset card on either draw pile. Draw into hand or place back on top of asset draw pile.","xxFIRE May reroll the Ore pool."
 
-"House of Copper","Espionage","xxREWARD Improve Lore",,"xxSTACK 2 Imperial Guards, The Resistance",,,"xxRAPPORT xxLUXURY","Dungeon","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxAIR","xxACTION Spend 3 Luxury from this location to set a Mission Progress die at an Imperial location to any value."
-"Ma Bonnie's Squidery","Espionage","xxREWARD Improve Disguise",,"xxSTACK 2 Imperial Guards, The Resistance",,,"xxRAPPORT xxFOOD","Imperial, Urban, Tavern","Not an ideal cover story - and it smells like low tide - but the property was cheap enough.","xxAIR"
+"House of Copper","Espionage Years 1-3","xxREWARD Improve Lore (3 xxACHIEVEMENT)","xxTIMER 2 Imperial Guards, The Resistance","xxACHIEVEMENT Funding the Resistance, Heavy Bribes",,,"xxRAPPORT xxLUXURY","Dungeon","Through rings of smoke move cloaked figures willing to provide all manner of things for the right price.","xxAIR","xxACTION Spend 3 Luxury from this location to set a Mission Progress die at an Imperial location to any value."
+"Ma Bonnie's Squidery","Espionage Years 2-4","xxREWARD Improve Disguise (5 xxACHIEVEMENT)","xxTIMER 2 Imperial Guards, The Resistance","xxACHIEVEMENT Into the Cold, Safehouse Repairs, Scrying",,,"xxRAPPORT xxFOOD","Imperial, Urban, Tavern","Not an ideal cover story - and it smells like low tide - but the property was cheap enough.","xxAIR"
+"The Rosy Freetrader","Espionage Years 1-2","xxREWARD Improve Disguise (3 xxACHIEVEMENT)","xxTIMER Guard Captain, The Dossier, A Cold Place","xxACHIEVEMENT Traveling Minstrels, Drunken Revelry","xxSTARTING Imperial Guard",,"xxDISGUISE xxFOOD","Imperial, Urban, Tavern","A popular meeting place for both the poor and wealthy of Eastkeep.","xxFIRE","xxACTION Move one Guard to the Rosy Freetrader."
+"Guild of Secrets","Espionage Years 1-4","xxREWARD Improve Thievery (3 xxACHIEVEMENT)","xxTIMER 2 Graycloaks, Mole Hunt","xxACHIEVEMENT The Torturer, Sleeping Draught",,,"xxDISGUISE xxMANA","Imperial, Urban","If there is a nexus of evil in Eastkeep, it is most certainly the guild of secrets.","xxEARTH"
+"Map Hall","Espionage Years 1-3","xxREWARD Burn Threats (4 xxACHIEVEMENT)","xxTIMER 2 Graycloaks, Prismatic Lotus","xxACHIEVEMENT Right Tool for the Job, Vault of Shadows","xxSTARTING Graycloak",,"xxNOMOVE xxTHIEVERY xxORE","Imperial, Vault","Somewhere amongst the piles of maps and ledgers are useful Imperial plans.","xxWATER"
 
-"The Rosy Freetrader","Espionage","xxREWARD Improve Disguise",,"xxSTACK Guard Captain, The Dossier, A Cold Place","xxSTARTING Imperial Guard",,"xxDISGUISE xxFOOD","Imperial, Urban, Tavern","A popular meeting place for both the poor and wealthy of Eastkeep.","xxFIRE","xxACTION Move one Graycloak to the Rosy Freetrader."
+"Outer Fernbrake","Community Years 1-2","xxREWARD Improve Stability (4 xxACHIEVEMENT)","xxTIMER Clove and Minx, The Forgotten, Remote Influence","xxACHIEVEMENT Wheels of Industry, Worker Support","xxSTARTING The Amber Hand, War's Burden",,"xxCOMMAND xxTIMBER","Red Bank","Poor folk band together in the shadow of darkness.","xxEARTH"
 
-"Guild of Secrets","Espionage","xxREWARD Improve Thievery",,"xxSTACK 2 Graycloaks, Mole Hunt",,,"xxDISGUISE xxMANA","Imperial, Urban","If there is a nexus of evil in Eastkeep, it is most certainly the guild of secrets.","xxEARTH"
+"The Cyclabrary","Community Years 1-3","xxREWARD Improve Stability (2 xxACHIEVEMENT)","xxTIMER The Palimpsest, Animalea","xxACHIEVEMENT Studious Works, Arcane Ritual",,,"xxLORE xxMANA","Red Bank, Urban","The words are washed clean so that new words may be written.","xxAIR"
 
-"Map Hall","Espionage","xxREWARD Burn 2 Threats",,"xxSTACK 2 Graycloaks, Prismatic Lotus","xxSTARTING Graycloak",,"xxNOMOVE xxTHIEVERY xxORE","Imperial, Vault","Somewhere amongst the piles of maps and ledgers are useful Imperial plans.","xxWATER"
+"Sparrow Falls","Community Years 1-2","xxREWARD Improve Command (3 xxACHIEVEMENT)","xxTIMER Bandits, Spy Ring, Ghosts of the Past","xxACHIEVEMENT Brute Squad, The Spider","xxSTARTING Bandits",,"xxDISGUISE xxORE","Wilderness","A loose collection of outposts, populated by bandits and worse.","xxFIRE"
+"House of Lavender","Community Years 1-4","xxREWARD Improve Rapport (3 xxACHIEVEMENT)","xxTIMER Den of Vice, Fuscus!, Hard Eight","xxACHIEVEMENT Ale and Pipeweed, Pules of the People",,,"xxRAPPORT xxFOOD","Red Bank, Urban","Swirls of intoxicating smoke tie together the deals and favors with an ephemeral bond.","xxWATER"
 
-"Undari's Tomb","Domain","xxREWARD Improve Combat",,"xxSTACK Undead",,,"xxLORE xxMANA","Dungeon","The mage's resting place has become a source of evil. The old wards were not strong enough.","xxAIR","xxACTION Source of the Undead. Take 2 xxDISCORD to move any number of Restless Dead to this location."
-
+"Undari's Tomb","Domain Years 1-3","xxREWARD Improve Combat (3 xxACHIEVEMENT)","xxTIMER Undead","xxACHIEVEMENT The Necromancer",,,"xxLORE xxMANA","Dungeon","The mage's resting place has become a source of evil. The old wards were not strong enough.","xxAIR","xxACTION Source of the Undead. Take 2 xxDISCORD to move any number of Restless Dead to this location."
 "Gray River","Domain","xxREWARD Improve Survival",,"xxSTACK Undead",,,"xxSURVIVAL xxTIMBER","Wilderness","The Gray River rolls through the shade of the dense elms, carrying dark earth from deeper within the forest.","xxEARTH","Effect: Either player may spend xxTIMBER from this location in addition to the main pool."
-
 "Outer Fernbrake","Domain","xxREWARD Increase Ore Track",,"xxSTACK Bandits",,,"xxCOMMAND xxORE","Red Bank, Urban","Simple folk band together in the shadow of darkness.","xxFIRE"
-
 "Mirror Woods","Domain","xxREWARD Increase Timber Track",,"xxSTACK Undead",,,"xxCOMBAT xxORE","Wilderness","The dense woods appear to shimmer and twist, a byproduct of the fallen soldiers rotting beneath the roots.","xxWATER"
 
 "Lush Fields","Domain","xxREWARD Increase Timber Track",,"xxSTACK Undead",,,"xxRAPPORT","Wilderness","Text","xxWATER","xxACTION Harvest. Gain 2 xxFOOD dice."
@@ -34,7 +35,7 @@ title,mission,reward1,reward2,required1,required2,special,resources,tags,text,tr
 
 "Pine Bluff","Domain","xxREWARD Increase Timber Track",,"xxSTACK Undead",,,"xxSURVIVAL","Red Bank","Text.","xxEARTH"
 "Rocky Outcrop","Domain","xxREWARD Increase Timber Track",,"xxSTACK Undead",,,"xxLORE","Wilderness","Text.",,"xxAIR"
-"Gray Fores","Domain","xxREWARD Increase Timber Track",,"xxSTACK Undead",,,"xxCOMBAT","Wilderness","Text.",,"xxFIRE"
+"Gray Forest","Domain","xxREWARD Increase Timber Track",,"xxSTACK Undead",,,"xxCOMBAT","Wilderness","Text.",,"xxFIRE"
 "Azure Peak","Domain","xxREWARD Increase Timber Track",,"xxSTACK Undead",,,"xxTACTICS","Wilderness","Text.",,"xxWATER"
 
 "Song Bluff","Diplomacy","xxREWARD Increase Timber Track",,"xxSTACK Undead",,,"xxTACTICS xxTIMBER","Faction, Wilderness","Amongst the Sunriders, nothing is more important than honor and family.","xxAIR"

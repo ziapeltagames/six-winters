@@ -1,20 +1,20 @@
-mission,trigger,title,tags,pass1,pass2,pass3,fail1,fail2,fail3
+mission,trigger,title,tags,movement,pass1,pass2,pass3,fail1,fail2,fail3
 
-"Espionage","xxFIRE","Help from the Resistance","Event","Add 1 progress die at this location.",,,"Move a guard to a location with a character."
-"Espionage","xxFIRE","Establishing Safehouses","Event","Move a character to any Imperial location.",,,"Take 1 Psyche damage."
-"Espionage","xxFIRE","Compromised Position","Event","Move a guard to an adjacent location.",,,"Take 1 Discord."
-"Espionage","xxFIRE","Risky Gambit","Event","Reroll all mission progress dice at this location.",,,"One character making this test is Shaken."
+"Espionage","xxFIRE","Help from the Resistance","Event","xxAIR xxRIGHT     xxFIRE xxRIGHT     xxEARTH xxLEFT     xxWATER xxLEFT","Add 1 progress die at this location.",,,"Move a guard to a location with a character."
+"Espionage","xxFIRE","Establishing Safehouses","Event","xxFIRE xxLEFT     xxEARTH xxLEFT     xxWATER xxLEFT","Move a character to any Imperial location.",,,"Take 1 Psyche damage."
+"Espionage","xxFIRE","Compromised Position","Event","xxFIRE xxLEFT     xxEARTH xxLEFT","Move a guard to an adjacent location.",,,"Take 1 Discord."
+"Espionage","xxFIRE","Risky Gambit","Event","xxAIR xxRIGHT     xxFIRE xxRIGHT     xxEARTH xxLEFT","Reroll all mission progress dice at this location.",,,"One character making this test is Shaken."
 
-"Espionage","xxEARTH","Simple Heist","Event","Add 1 luxury die to bank.",,,"Take 2 Psyche damage."
-"Espionage","xxEARTH","Costume Ball","Event","Remove Exhausted condition from one character at an Imperial location.",,,"Reroll all luxury dice in bank."
-"Espionage","xxEARTH","Careless Whispers","Event","Discard one domain threat card.",,,"Draw a threat card."
+"Espionage","xxEARTH","Simple Heist","Event","xxAIR xxRIGHT     xxFIRE xxRIGHT     xxEARTH xxRIGHT     xxWATER xxLEFT","Add 1 luxury die to bank.",,,"Take 2 Psyche damage."
+"Espionage","xxEARTH","Costume Ball","Event","xxAIR xxRIGHT     xxFIRE xxRIGHT     xxEARTH xxRIGHT     xxWATER xxLEFT","Remove Exhausted condition from one character at an Imperial location.",,,"Reroll all luxury dice in bank."
+"Espionage","xxEARTH","Careless Whispers","Event","xxFIRE xxRIGHT     xxEARTH xxLEFT     xxWATER xxLEFT","Discard one domain threat card.",,,"Draw a threat card."
 
-"Espionage","xxWATER","Hidden Passage","Event","Remove 1 Discord.",,,"Take 3 Psyche damage."
-"Espionage","xxWATER","Further Evidence","Event","Add or subtract 1 from a mission progress die at this location.",,,"Take 1 Discord."
-"Espionage","xxWATER","Needed Elsewhere","Event","Discard a guard at this location.",,,"Take 2 Discord."
+"Espionage","xxWATER","Hidden Passage","Event","xxFIRE xxLEFT     xxEARTH xxRIGHT     xxWATER xxLEFT","Remove 1 Discord.",,,"Take 3 Psyche damage."
+"Espionage","xxWATER","Further Evidence","Event","xxAIR xxRIGHT     xxFIRE xxLEFT     xxEARTH xxRIGHT     xxWATER xxLEFT","Add or subtract 1 from a mission progress die at this location.",,,"Take 1 Discord."
+"Espionage","xxWATER","Needed Elsewhere","Event","xxAIR xxRIGHT     xxFIRE xxLEFT     xxEARTH xxRIGHT","Discard a guard at this location.",,,"Take 2 Discord."
 
-"Espionage","xxAIR","Intercepted Plans","Event","Discard one community threat card.",,,"One character making this test is Angry."
-"Espionage","xxAIR","Hedge Magic","Event","Add 1 mana die to bank.",,,"Remove 1 mission progress die from this location."
+"Espionage","xxAIR","Intercepted Plans","Event","xxAIR xxRIGHT     xxFIRE xxRIGHT     xxEARTH xxRIGHT","Discard one community threat card.",,,"One character making this test is Angry."
+"Espionage","xxAIR","Hedge Magic","Event","xxAIR xxRIGHT     xxFIRE xxLEFT     xxEARTH xxLEFT     xxWATER xxLEFT","Add 1 mana die to bank.",,,"Remove 1 mission progress die from this location."
 
 "Domain","xxEARTH","Rocky Terrain","Event","'I know! But your footing doesn't look so good (xxSURVIVAL)!' If failed, one character making this test is Weary."
 "Domain","xxEARTH","Dense Forest","Event","The woods around North Oaks are dense and full of usable timber. Gain 1 Timber die."
