@@ -1,0 +1,33 @@
+id,mission,position,deck,type,tags,title,blocka,blockb,blockc,blockd
+
+EASTKE01,"Eastkeep",S,"Mission","Location","Imperial, Urban","The Rosy Freetrader","Action: Ongoing Espionage.","Action: Spend 9 progress for +1 Secret Track. Burn card.",,
+EASTKE02,"Eastkeep",S,"Mission","Location","Imperial, Urban, Spotlight","Map Hall","Action: Ongoing Espionage.","Immediate: Spend 6 progress to discard one Graycloak.",,
+EASTKE03,"Eastkeep",S,"Mission","Location","Imperial, Urban","House of Cloves","Effect: All characters at this location have +1 Disguise.","(DOOM) Test: Rapport 2. Failure: Angry",,
+
+EASTKE04,"Eastkeep",0,"A Possible Ally","Attachment","Challenge","Intercepted Plans","Placement: Map Hall","Action: Ongoing Disguise.","Immediate: Spend 5 progress. Gain +1 Fortune. Move to stage 1.",
+EASTKE05,"Eastkeep",1,"A Possible Ally","Attachment","Challenge","A New Lead","Placement: The Rosy Freetrader","Action: Ongoing Espionage.","Immediate: Spend 3 progress. One character at location gains +1 Thievery. Move to stage 2.",
+EASTKE06,"Eastkeep",1,"A Possible Ally","Obstacle","Guard","Graycloaks","Hindrance: SEE MISSION OVERVIEW","Action: Test Disguise. For every success, discard one Guard at this location.","(GANG) +1 Discord. Defense: Disguise. If in staging area, move to occupied mission location.",
+EASTKE07,"Eastkeep",2,"A Possible Ally","Attachment","Challenge","The Resistance","Placement: The Rosy Freetrader","Action: Ongoing Stability.","Immediate: Spend 3 progress. One character at location gains +1 Disguise. Complete Mission Path.",
+
+EASTKE08,"Eastkeep",0,"Rumors of a Frozen Hell","Attachment","Challenge","Costume Ball","Placement: House of Cloves","Action: Ongoing Disguise.","Immediate: Spend 4 progress. Increase Secrets track. Move to stage 1.",
+EASTKE09,"Eastkeep",0,"Rumors of a Frozen Hell","Obstacle","Guard","Graycloaks","Hindrance: SEE MISSION OVERVIEW","Action: Test Disguise. For every success, discard one Guard at this location.","(GANG) +1 Discord. Defense: Disguise. If in staging area, move to occupied mission location.",
+EASTKE10,"Eastkeep",1,"Rumors of a Frozen Hell","Location","Imperial, Urban, Spotlight","Root Cellar","Action: Move one Graycloak from any occupied location to the Root Cellar.",,,
+EASTKE11,"Eastkeep",1,"Rumors of a Frozen Hell","Attachment","Challenge","Hidden Passage","Placement: Root Cellar.","Action: Ongoing Thievery.","Immediate: Spend 4 progress. Increase Secrets track. Move to stage 2.",
+EASTKE12,"Eastkeep",1,"Rumors of a Frozen Hell","Obstacle","Guard","Graycloaks","Hindrance: SEE MISSION OVERVIEW","Action: Test Disguise. For every success, discard one Guard at this location.","(GANG) +1 Discord. Defense: Disguise. If in staging area, move to occupied mission location.",
+EASTKE13,"Eastkeep",2,"Rumors of a Frozen Hell","Attachment","Challenge","Trapped Safe","Placement: Root Cellar.","Action: Ongoing Thievery.","Immediate: Spend 6 progress. Increase Secrets track. Complete Mission Path.",
+
+EASTKE14,"Eastkeep",,"Encounter","Obstacle","Guard","Graycloaks","Hindrance: SEE MISSION OVERVIEW","Action: Test Disguise. For every success, discard one Guard at this location.","(GANG) +1 Discord. Defense: Disguise. If in staging area, move to occupied mission location.",
+EASTKE15,"Eastkeep",,"Encounter","Obstacle","Guard","Graycloaks","Hindrance: SEE MISSION OVERVIEW","Action: Test Disguise. For every success, discard one Guard at this location.","(GANG) +1 Discord. Defense: Disguise. If in staging area, move to occupied mission location.",
+EASTKE16,"Eastkeep",,"Encounter","Obstacle","Guard","Graycloaks","Hindrance: SEE MISSION OVERVIEW","Action: Test Disguise. For every success, discard one Guard at this location.","(GANG) +1 Discord. Defense: Disguise. If in staging area, move to occupied mission location.",
+EASTKE17,"Eastkeep",,"Encounter","Obstacle","Guard","Graycloaks","Hindrance: SEE MISSION OVERVIEW","Action: Test Disguise. For every success, discard one Guard at this location.","(GANG) +1 Discord. Defense: Disguise. If in staging area, move to occupied mission location.",
+EASTKE18,"Eastkeep",,"Encounter","Obstacle","Guard","Graycloaks","Hindrance: SEE MISSION OVERVIEW","Action: Test Disguise. For every success, discard one Guard at this location.","(GANG) +1 Discord. Defense: Disguise. If in staging area, move to occupied mission location.",
+EASTKE19,"Eastkeep",,"Encounter","Event","Stealth","First Contact","Immediate Test: Thievery 1. Success: +2 Fortune. Failure: +2 Discord.",,,
+EASTKE20,"Eastkeep",,"Encounter","Event","Stealth","Establishing Safehouses","Immediate Test: Disguise 1. Success: +1 Fortune. Failure: Weary.",,,
+EASTKE21,"Eastkeep",,"Encounter","Event","Stealth","Risky Gambit","Optional Test: Thievery 2. Success: +4 Fortune. Failure: +4 Discord.",,,
+EASTKE22,"Eastkeep",,"Encounter","Event","Stealth","Compromised Position","Immediate Test: Tactics 1. Success: +2 Fortune. Failure: +3 Discord.",,,
+EASTKE23,"Eastkeep",,"Encounter","Event","Rumor","The Weak Link","Immediate: +1 Fortune",,,
+EASTKE24,"Eastkeep",,"Encounter","Event","Rumor","The Resistance","Immediate: +1 Fortune",,,
+EASTKE25,"Eastkeep",,"Encounter","Event","Rumor","A Cold Place","Immediate: +1 Fortune",,,
+EASTKE26,"Eastkeep",,"Encounter","Event","Rumor","The Thea Dossier","Immediate: +1 Fortune",,,
+EASTKE27,"Eastkeep",,"Encounter","Event","Society","Spies","Immediate: Gain fortune equal to Espionage.",,,
+EASTKE28,"Eastkeep",,"Encounter","Event","Society","Spies","Immediate: Gain fortune equal to Espionage.",,,
