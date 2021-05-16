@@ -1,6 +1,6 @@
 # six-winters
 
-*Six Winters* is the current working title for the *Wrath of the Autarch* boardgame. It combines legacy kingdom building elements, a resource dice game, and a card driven quest system.
+*Six Winters* is the *Wrath of the Autarch* boardgame. It combines the kingdom building elements of the role-playing game with a resource dice game and a card driven quest system.
 
 Influences: *Incan Gold*, *Tales of the Arabian Nights*, *7th Continent*, *City of Kings*, *Arkham Horror Cardgame*, *Terraforming Mars*, and *Kingsburg*.
 
