@@ -174,5 +174,15 @@ Dice manipulation options:
 
 * Sets of dice types
 * Sets of dice values
-* 
 * getting specific values of resources
+=======
+* Specific dice values
+* Evens
+* Odds
+* Totals
+
+Card manipulation options:
+
+* Play cards from hands for numeric totals
+* Play cards that match certain symbols/tags
+* Use cards as "processing units" for dice types
