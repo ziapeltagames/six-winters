@@ -37,6 +37,20 @@ def populate_dicts():
     
     return loc_by_year, loc_by_region
 
+def md_print_dict(nd):
+    
+    print('')
+    
+    for key in nd.keys():
+        
+        if type(key) is int:
+            pk = key
+        else:
+            pk = key.replace('xx', '')
+            
+        print('* ', pk, ':', nd[key])
+    
+    
 def stats_by_region(loc_by_year, loc_by_region):
     
     total_fronts = {}
@@ -48,10 +62,20 @@ def stats_by_region(loc_by_year, loc_by_region):
         
         fronts, skills, years, achievements = front_and_skills_by_year(loc_by_region[region])
         
-        print(region, 'fronts', fronts)
-        print(region, 'skills', skills)
-        print(region, 'achievements', achievements)
-        print(region, 'years', years)
+        print('## ', region, 'Locations by Front')
+        md_print_dict(fronts)
+        
+        print('')
+        print('## ', region, 'Locations by Skill')
+        md_print_dict(skills)
+        
+        print('')
+        print('## ', region, 'Locations by Achievement')
+        md_print_dict(achievements)
+        
+        print('')
+        print('## ', region, 'Locations by Year')
+        md_print_dict(years)
         print('\n')
         
         for front in fronts:
@@ -82,10 +106,20 @@ def stats_by_region(loc_by_year, loc_by_region):
             else:
                 total_achievements[achievement] = achievements[achievement]
                 
-    print('Total fronts', total_fronts)
-    print('Total skills', total_skills)
-    print('Total achievements', total_achievements)
-    print('Total years', total_years)
+    print('## Total Locations by Front')
+    md_print_dict(total_fronts)
+    
+    print('')
+    print('## Total Locations by Skill')
+    md_print_dict(total_skills)
+    
+    print('')
+    print('## Total Locations by Achievement')
+    md_print_dict(total_achievements)
+    
+    print('')
+    print('## Total Locations by Year')
+    md_print_dict(total_years)
             
 
 def front_and_skills_by_year(loc_by_region):
@@ -127,5 +161,7 @@ def front_and_skills_by_year(loc_by_region):
             
     return fronts, skills, years, achievements
     
+print('# Location Analysis \n')
+
 loc_by_year, loc_by_region = populate_dicts()
 stats_by_region(loc_by_year, loc_by_region)

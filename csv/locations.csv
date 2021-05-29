@@ -1,33 +1,33 @@
 name,region,years,front,skill,achievement
 
-"Imperial Location 1","Empire","1",xxMILITARY,xxTACTICS,NONE
+"Imperial Location 1","Empire","1",xxMILITARY,xxTACTICS,TECHNOLOGY
 "Imperial Location 2","Empire","12",xxSORCERY,xxRAPPORT,NONE
 "Imperial Location 3","Empire","12",xxTECHNOLOGY,xxDISGUISE,ESPIONAGE
 "Imperial Location 4","Empire","12",xxESPIONAGE,xxTHIEVERY,NONE
 "Imperial Location 5","Empire","123",xxSTABILITY,xxLORE,NONE
 "Imperial Location 6","Empire","23",xxESPIONAGE,xxCOMBAT,NONE
-"Imperial Location 7","Empire","34",xxESPIONAGE,xxDISGUISE,NONE
-"Imperial Location 8","Empire","2345",xxTECHNOLOGY,xxTHIEVERY,NONE
-"Imperial Location 9","Empire","34",xxDIPLOMACY,xxCOMMAND,NONE
+"Imperial Location 7","Empire","34",xxESPIONAGE,xxDISGUISE,DIPLOMACY
+"Imperial Location 8","Empire","345",xxTECHNOLOGY,xxTHIEVERY,ESPIONAGE
+"Imperial Location 9","Empire","34",xxDIPLOMACY,xxCOMMAND,ESPIONAGE
 "Imperial Location 10","Empire","345",xxMILITARY,xxRAPPORT,NONE
-"Imperial Location 11","Empire","456",xxESPIONAGE,xxDISGUISE,NONE
+"Imperial Location 11","Empire","456",xxESPIONAGE,xxDISGUISE,TECHNOLOGY
 "Imperial Location 12","Empire","45",xxSORCERY,xxTHIEVERY,NONE
 "Imperial Location 13","Empire","456",xxTECHNOLOGY,xxDISGUISE,NONE
 "Imperial Location 14","Empire","56",xxESPIONAGE,xxSURVIVAL,NONE
-"Imperial Location 15","Empire","5",xxSORCERY,xxLORE,NONE
-"Imperial Location 16","Empire","6",xxESPIONAGE,xxTHIEVERY,NONE
-"Imperial Location 17","Empire","6",xxSTABILITY,xxDISGUISE,NONE
-"Imperial Location 18","Empire","6",xxTECHNOLOGY,xxCOMBAT,NONE
+"Imperial Location 15","Empire","5",xxSORCERY,xxLORE,SORCERY
+"Imperial Location 16","Empire","6",xxESPIONAGE,xxTHIEVERY,TECHNOLOGY
+"Imperial Location 17","Empire","6",xxSTABILITY,xxDISGUISE,ESPIONAGE
+"Imperial Location 18","Empire","6",xxTECHNOLOGY,xxCOMBAT,ESPIONAGE
 
 "Red Bank Location 1","Red Bank","1",xxMILITARY,xxTACTICS,STABILITY
-"Red Bank Location 2","Red Bank","1",xxTECHNOLOGY,xxCOMMAND,NONE
-"Red Bank Location 3","Red Bank","12",xxSORCERY,xxCOMBAT,NONE
-"Red Bank Location 4","Red Bank","12",xxESPIONAGE,xxLORE,NONE
-"Red Bank Location 5","Red Bank","123",xxTECHNOLOGY,xxSURVIVAL,NONE
-"Red Bank Location 6","Red Bank","1234",xxSTABILITY,xxCOMMAND,NONE
-"Red Bank Location 7","Red Bank","2",xxDIPLOMACY,xxRAPPORT,NONE
+"Red Bank Location 2","Red Bank","1",xxTECHNOLOGY,xxCOMMAND,ESPIONAGE
+"Red Bank Location 3","Red Bank","12",xxSORCERY,xxCOMBAT,STABILITY
+"Red Bank Location 4","Red Bank","12",xxESPIONAGE,xxLORE,TECHNOLOGY
+"Red Bank Location 5","Red Bank","123",xxTECHNOLOGY,xxSURVIVAL,SORCERY
+"Red Bank Location 6","Red Bank","1234",xxSTABILITY,xxCOMMAND,STABILITY
+"Red Bank Location 7","Red Bank","2",xxDIPLOMACY,xxRAPPORT,SORCERY
 "Red Bank Location 8","Red Bank","23",xxSORCERY,xxTHIEVERY,NONE
-"Red Bank Location 9","Red Bank","234",xxSTABILITY,xxCOMBAT,NONE
+"Red Bank Location 9","Red Bank","234",xxSTABILITY,xxCOMBAT,SORCERY
 "Red Bank Location 10","Red Bank","34",xxDIPLOMACY,xxTACTICS,NONE
 "Red Bank Location 11","Red Bank","34",xxSORCERY,xxSURVIVAL,NONE
 "Red Bank Location 12","Red Bank","34",xxSTABILITY,xxCOMMAND,NONE
@@ -35,28 +35,28 @@ name,region,years,front,skill,achievement
 "Red Bank Location 14","Red Bank","45",xxMILITARY,xxCOMBAT,STABILITY
 "Red Bank Location 15","Red Bank","456",xxTECHNOLOGY,xxLORE,NONE
 "Red Bank Location 16","Red Bank","5",xxSTABILITY,xxDISGUISE,NONE
-"Red Bank Location 17","Red Bank","56",xxESPIONAGE,xxCOMBAT,NONE
-"Red Bank Location 18","Red Bank","56",xxSORCERY,xxTACTICS,NONE
-"Red Bank Location 19","Red Bank","456",xxSTABILITY,xxCOMMAND,NONE
-"Red Bank Location 20","Red Bank","6",xxMILITARY,xxSURVIVAL,NONE
+"Red Bank Location 17","Red Bank","56",xxESPIONAGE,xxCOMBAT,SORCERY
+"Red Bank Location 18","Red Bank","56",xxSORCERY,xxTACTICS,STABILITY
+"Red Bank Location 19","Red Bank","456",xxSTABILITY,xxCOMMAND,MILITARY
+"Red Bank Location 20","Red Bank","6",xxMILITARY,xxSURVIVAL,STABILITY
 
-"Faction Location 1","Faction","1",xxTECHNOLOGY,xxTHIEVERY,NONE
-"Faction Location 2","Faction","1",xxESPIONAGE,xxTACTICS,NONE
-"Faction Location 3","Faction","12",xxDIPLOMACY,xxCOMMAND,NONE
+"Faction Location 1","Faction","1",xxTECHNOLOGY,xxTHIEVERY,DIPLOMACY
+"Faction Location 2","Faction","1",xxESPIONAGE,xxTACTICS,MILITARY
+"Faction Location 3","Faction","12",xxDIPLOMACY,xxCOMMAND,SORCERY
 "Faction Location 4","Faction","123",xxSORCERY,xxLORE,DIPLOMACY
-"Faction Location 5","Faction","123",xxTECHNOLOGY,xxTACTICS,NONE
-"Faction Location 6","Faction","123",xxMILITARY,xxSURVIVAL,NONE
+"Faction Location 5","Faction","123",xxTECHNOLOGY,xxTACTICS,MILITARY
+"Faction Location 6","Faction","123",xxMILITARY,xxSURVIVAL,TECHNOLOGY
 "Faction Location 7","Faction","123",xxDIPLOMACY,xxRAPPORT,NONE
-"Faction Location 8","Faction","23",xxESPIONAGE,xxRAPPORT,NONE
+"Faction Location 8","Faction","23",xxESPIONAGE,xxRAPPORT,TECHNOLOGY
 "Faction Location 9","Faction","23",xxSTABILITY,xxLORE,NONE
-"Faction Location 10","Faction","234",xxDIPLOMACY,xxCOMMAND,NONE
-"Faction Location 11","Faction","34",xxTECHNOLOGY,xxRAPPORT,NONE
-"Faction Location 12","Faction","45",xxESPIONAGE,xxLORE,NONE
+"Faction Location 10","Faction","234",xxDIPLOMACY,xxCOMMAND,DIPLOMACY
+"Faction Location 11","Faction","34",xxTECHNOLOGY,xxRAPPORT,ESPIONAGE
+"Faction Location 12","Faction","45",xxESPIONAGE,xxLORE,DIPLOMACY
 "Faction Location 13","Faction","45",xxMILITARY,xxTACTICS,NONE
-"Faction Location 14","Faction","45",xxSORCERY,xxCOMBAT,NONE
+"Faction Location 14","Faction","45",xxSORCERY,xxCOMBAT,MILITARY
 "Faction Location 15","Faction","456",xxDIPLOMACY,xxRAPPORT,NONE
-"Faction Location 16","Faction","5",xxSTABILITY,xxSURVIVAL,NONE
+"Faction Location 16","Faction","5",xxSTABILITY,xxSURVIVAL,MILITARY
 "Faction Location 17","Faction","56",xxMILITARY,xxCOMMAND,NONE
-"Faction Location 18","Faction","56",xxDIPLOMACY,xxTACTICS,NONE
-"Faction Location 19","Faction","6",xxSORCERY,xxRAPPORT,NONE
+"Faction Location 18","Faction","56",xxDIPLOMACY,xxTACTICS,MILITARY
+"Faction Location 19","Faction","6",xxSORCERY,xxRAPPORT,DIPLOMACY
 "Faction Location 20","Faction","6",xxDIPLOMACY,xxLORE,NONE
