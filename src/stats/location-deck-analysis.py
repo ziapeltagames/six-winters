@@ -37,9 +37,9 @@ def populate_dicts():
     
     return loc_by_year, loc_by_region
 
-def md_print_dict(nd):
+def md_print_dict(nd, loc_file):
     
-    print('')
+    loc_file.write('\n')
     
     for key in nd.keys():
         
@@ -48,35 +48,35 @@ def md_print_dict(nd):
         else:
             pk = key.replace('xx', '')
             
-        print('* ', pk, ':', nd[key])
+        loc_file.write('* '+str(pk)+': '+str(nd[key])+'\n')
     
     
 def stats_by_region(loc_by_year, loc_by_region):
+    
+    loc_file = open(os.path.join("..", "..", "docs", "design", "LOCATION_SUMMARY.md"), 'w')
     
     total_fronts = {}
     total_skills = {}
     total_years = {}
     total_achievements = {}
     
+    loc_file.write('# Location Analysis\n')
+    
     for region in loc_by_region.keys():
         
         fronts, skills, years, achievements = front_and_skills_by_year(loc_by_region[region])
         
-        print('## ', region, 'Locations by Front')
-        md_print_dict(fronts)
+        loc_file.write(str('\n## '+region+' Locations by Front\n'))
+        md_print_dict(fronts, loc_file)
         
-        print('')
-        print('## ', region, 'Locations by Skill')
-        md_print_dict(skills)
+        loc_file.write(str('\n## '+region+' Locations by Skill\n'))
+        md_print_dict(skills, loc_file)
         
-        print('')
-        print('## ', region, 'Locations by Achievement')
-        md_print_dict(achievements)
+        loc_file.write(str('\n## '+region+' Locations by Achievement\n'))
+        md_print_dict(achievements, loc_file)
         
-        print('')
-        print('## ', region, 'Locations by Year')
-        md_print_dict(years)
-        print('\n')
+        loc_file.write(str('\n## '+region+' Locations by Year\n'))
+        md_print_dict(years, loc_file)
         
         for front in fronts:
             
@@ -106,20 +106,19 @@ def stats_by_region(loc_by_year, loc_by_region):
             else:
                 total_achievements[achievement] = achievements[achievement]
                 
-    print('## Total Locations by Front')
-    md_print_dict(total_fronts)
+    loc_file.write('\n## Total Locations by Front\n')
+    md_print_dict(total_fronts, loc_file)
     
-    print('')
-    print('## Total Locations by Skill')
-    md_print_dict(total_skills)
+    loc_file.write('\n## Total Locations by Skill\n')
+    md_print_dict(total_skills, loc_file)
     
-    print('')
-    print('## Total Locations by Achievement')
-    md_print_dict(total_achievements)
+    loc_file.write('\n## Total Locations by Achievement\n')
+    md_print_dict(total_achievements, loc_file)
     
-    print('')
-    print('## Total Locations by Year')
-    md_print_dict(total_years)
+    loc_file.write('\n## Total Locations by Year\n')
+    md_print_dict(total_years, loc_file)
+    
+    loc_file.close()
             
 
 def front_and_skills_by_year(loc_by_region):
@@ -160,8 +159,6 @@ def front_and_skills_by_year(loc_by_region):
                 achievements[ach] = 1                  
             
     return fronts, skills, years, achievements
-    
-print('# Location Analysis \n')
 
 loc_by_year, loc_by_region = populate_dicts()
 stats_by_region(loc_by_year, loc_by_region)
