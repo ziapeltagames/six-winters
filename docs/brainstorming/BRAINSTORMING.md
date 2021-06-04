@@ -1,3 +1,66 @@
+# 05/30/21
+
+## Discord Options
+
+Had one idea of using the discord track as a temporary "heated" meter between two characters. Maybe if two characters gain discord, they can't go on the next mission together? A little fiddly, but could be an interesting way to force different combos of characters together. Rather than always teaming up.
+
+## Trait Options
+
+Watch a video on _Fog of Love_ boardgame. It leans really heavily into the character trait concept, which is cool. However, it's probably not a practical way to handle them for _Six Winters_. There are a number of opposing tracks, like Curiosity or Extroversion, and traits are goals in the game - you want the situation to match your trait. So you steer the game towards situations which reward that trait.
+
+Going along that route, traits would be more like achievements. They're a set of tasks that need to happen.
+
+## Dissonant Trait Mechanics
+
+Part of this process is thinking of what sorts of repercussions the disagreements between characters can have. What mechanical ramifications could there be? Is some new mechanical concept needed?
+
+* Discord increases - this one seems very intuitive and is probably the best reprecussion for dissonant traits
+* Characters can't work together - that's pretty heavy handed
+* Character takes stress - also a possibility
+* Discard cards from hand
+* Higher difficulty on tests
+* Lower resource track - that's pretty brutal
+
+## Compatible Trait Mechanics
+
+* Commitment increases
+* Characters work together better
+* Remove/lower stress
+
+## Option A: Simple Trait Cards from Mission Deck
+
+There are good and bad trait cards, which can increase commitment or increase discord. Each character has one of each kind of trait, so four trait cards go into the mission deck. When drawn, the cards remain in the player's hand, and apply toward the hand limit. The only way to get rid of them is to play them when in a scene with another character. The positive cards will add to commitment, and the negative ones will add to discord.
+
+### Pros
+
+Easy to understand and implement. They also have very simple to understand effects.
+
+### Cons
+
+There isn't much nuance here. It would be nice if sometimes a trait could be good in one context, but negative in a different one. Conditional traits seem more fun. There is also a pretty limited diversity of options.
+
+## Option B: Double Trait Cards from Mission Deck
+
+Similar to A, but each trait has two cards: one positive and one negative. Still played for discord/commitment.
+
+## Option C: Double Trait Cards with Conditional Play
+
+Have two trait cards for each trait, and each one is conditional on how its used. Some work for specific kinds of scenes. Some are played when a character is alone, etc. This may be the best idea yet, in the sense that all traits become dual natured.
+
+### Pros
+
+This provides much diversity - but could cause problems if the situation doesn't arise. This has been a problem with player cards. If going this route, it should probably be (Common Effect / Bonus Situational Effect), similar to character cards. Otherwise it's just too hard to play them.
+
+Effectively, then, these cards would be character cards, but get placed in the mission deck. Causing them to take up hand space is a great way to force players to play them, thought.
+
+### Cons
+
+Situational effects are very difficult to tune well. And require more reading/cognitive load.
+
+## Thoughts
+
+Don't want these to be super symmetric, though, because then they're just offsetting randomness.
+
 # 05/22/21
 
 What kind of stories should the scenes tell? Maybe that would help? Also, maybe listing how many scenes are in play would help? The pacing desired?

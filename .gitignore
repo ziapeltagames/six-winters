@@ -2,6 +2,8 @@
 .nrepl-port
 .spyproject/
 .idea/
+.ipynb_checkpoints/
+__pycache__/
 lib/
 target/
 images/
