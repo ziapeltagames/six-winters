@@ -1,39 +1,39 @@
 # -*- coding: utf-8 -*-
 """
-Deck of character cards.
+Deck of mission cards.
 """
 
 import csv
 
 from deck import Deck
 
-class CharacterCard:
+class MissionCard:
     
-    def __init__(self, cdict):
-        
-        self.name = cdict['name']
-        self.effect1 = cdict['effect1']
-        self.effect2 = cdict['effect2']
+    def __init__(self, mdict):
+
+        self.location = mdict['location']        
+        self.trigger = mdict['trigger']
+        self.title = mdict['title']
         
     def __str__(self):
-        cstring = self.name + ' ' + self.effect1 + ' ' + self.effect2
+        cstring = self.location + ' ' + self.title
         return cstring
     
-class CharacterDeck(Deck):
+class MissionDeck(Deck):
     
     def __init__(self, csv_file):
-        self.character_cards = []
+        self.mission_cards = []
         with open(csv_file) as csvfile:
             dreader = csv.DictReader(csvfile)
             for rowd in dreader:
-                self.character_cards.append(CharacterCard(rowd))
+                self.mission_cards.append(MissionCard(rowd))
                 
-        super().__init__(self.character_cards)
+        super().__init__(self.mission_cards)
         
         
 if __name__ == "__main__":
     
-    cdeck = CharacterDeck('../../csv/character-cards.csv')
+    cdeck = MissionDeck('../../csv/mission-cards.csv')
     
     cc = cdeck.draw()
     print('draw', cc)

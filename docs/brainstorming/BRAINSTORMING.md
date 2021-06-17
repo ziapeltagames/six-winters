@@ -1,3 +1,7 @@
+# 06/17/21
+
+Working on a pyqt version of the game for rapid prototyping. First step is to mockup the overall layout.
+
 # 05/30/21
 
 ## Discord Options

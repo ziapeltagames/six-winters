@@ -14,6 +14,7 @@ class Deck:
         self.cards = cards
         shuffle(self.cards)
     
+    # Returns size of the draw deck
     def draw_size(self):
         return len(self.cards)
     
