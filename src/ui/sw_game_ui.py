@@ -203,6 +203,8 @@ if __name__ == "__main__":
     
     row = 5    
     
+    # Will probably need to maintain a separate hand list, and
+    # use row selections to keep them in sync...
     cdeck_hand = QListWidget()
     grid.addWidget(cdeck_hand, row, 0, 1, 8)
     
