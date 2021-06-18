@@ -55,6 +55,13 @@ class MissionDeck(Deck):
         self.region_names = [r1]
         self.cards = trimmed_regions
         
+    def get_trigger(self):
+        
+        if len(self.cards) > 0:
+            return self.cards[0].trigger
+        else:
+            return "Empty"
+        
         
 if __name__ == "__main__":
     

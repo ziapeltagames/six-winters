@@ -106,6 +106,12 @@ class MissionDialog(QDialog):
                 self.ccb2.currentText(),
                 self.rcb.currentText())
         
+def update_character_card_labels():
+    
+    cd_draw_label.setText(str(cdeck.draw_size()))
+    cd_discard_label.setText(str(cdeck.discard_size()))
+    
+# Create a widget item, associate the card with it, and add it to list
 def draw_character_card():
     
     next_card = cdeck.draw()
@@ -117,12 +123,89 @@ def draw_character_card():
     if next_card is None:
         return
     
-    cdeck_hand.addItem(str(next_card))
-    cd_draw_label.setText(str(cdeck.draw_size()))
+    qlwi = QListWidgetItem(str(next_card), cdeck_hand)
+    qlwi.setData(Qt.UserRole, next_card)
+    cdeck_hand.addItem(qlwi)
+    
+    update_character_card_labels()
 
+# Remove the widget from the list, and add the card to the discard pile
 def play_character_card():
     
-    print(cdeck_hand.currentRow())
+    row = cdeck_hand.currentRow()
+    
+    if row < 0:
+        return
+    
+    played_card = cdeck_hand.takeItem(row)
+    
+    cdeck.discard(played_card)
+    
+    update_character_card_labels()
+    
+def shuffle_character_cards():
+    
+    cdeck.shuffle()
+    update_character_card_labels()
+
+def fill_character_cards():
+    
+    while cdeck_hand.count() < 3:    
+        draw_character_card()
+        
+def update_mission_card_labels():
+    
+    md_draw_label.setText(str(mdeck.draw_size()))
+    md_discard_label.setText(str(mdeck.discard_size()))
+
+def location_clicked_0():
+    location_clicked(0)
+
+def location_clicked_1():
+    location_clicked(1)
+
+def location_clicked_2():
+    location_clicked(2)
+    
+def location_clicked_3():
+    location_clicked(3)
+    
+def location_clicked(loc):
+    for i, nl in enumerate(locs): 
+        if i == loc:
+            continue
+        nl.clearSelection()
+        
+    
+def draw_mission_card_0():
+    draw_mission_card(0)
+
+def draw_mission_card_1():
+    draw_mission_card(1)
+    
+def draw_mission_card_2():
+    draw_mission_card(2)
+    
+def draw_mission_card_3():
+    draw_mission_card(3)
+    
+def draw_mission_card(loc):
+    
+    next_card = mdeck.draw()
+    
+    if next_card is None:
+        mdeck.shuffle()
+        next_card = mdeck.draw()
+        
+    if next_card is None:
+        return
+    
+    qlwi = QListWidgetItem(str(next_card), locs[loc])
+    qlwi.setData(Qt.UserRole, next_card)
+    locs[loc].addItem(qlwi)
+    
+    update_mission_card_labels()
+    
     
 if __name__ == "__main__":
     
@@ -130,7 +213,7 @@ if __name__ == "__main__":
     
     # Load decks
     cdeck = CharacterDeck('../../csv/character-cards.csv')
-    mdeck = MissionDeck('../../csv/mission-cards.csv')    
+    mdeck = MissionDeck('../../csv/mission-cards.csv')
     
     # Retrieve Mission Info
     md = MissionDialog(cdeck.characters(),
@@ -219,9 +302,11 @@ if __name__ == "__main__":
     grid.addWidget(cd_draw, row, 2, 1, 2)
     
     cd_shuffle = QPushButton("Shuffle")
+    cd_shuffle.clicked.connect(shuffle_character_cards)
     grid.addWidget(cd_shuffle, row, 4, 1, 2)
     
     cd_fill = QPushButton("Fill")
+    cd_fill.clicked.connect(fill_character_cards)
     grid.addWidget(cd_fill, row, 6, 1, 2)
 
     row = 7
@@ -241,7 +326,7 @@ if __name__ == "__main__":
 
     grid.addWidget(QLabel("Top"), row, 2) 
     
-    md_top_card_label = QLabel("Fire")
+    md_top_card_label = QLabel(mdeck.get_trigger())
     grid.addWidget(md_top_card_label, row, 3)
     
     grid.addWidget(QLabel("Draw"), row, 4) 
@@ -256,31 +341,40 @@ if __name__ == "__main__":
     
     row = 10
     
-    draw_loc_1 = QPushButton("Location 1 Draw")
-    grid.addWidget(draw_loc_1, row, 0, 1, 2)
+    draw_loc_0 = QPushButton("Location 1 Draw")
+    draw_loc_0.clicked.connect(draw_mission_card_0)
+    grid.addWidget(draw_loc_0, row, 0, 1, 2)
 
-    draw_loc_2 = QPushButton("Location 2 Draw")
-    grid.addWidget(draw_loc_2, row, 2, 1, 2)
+    draw_loc_1 = QPushButton("Location 2 Draw")
+    draw_loc_1.clicked.connect(draw_mission_card_1)
+    grid.addWidget(draw_loc_1, row, 2, 1, 2)
 
-    draw_loc_3 = QPushButton("Location 3 Draw")
-    grid.addWidget(draw_loc_3, row, 4, 1, 2)
+    draw_loc_2 = QPushButton("Location 3 Draw")
+    draw_loc_2.clicked.connect(draw_mission_card_2)
+    grid.addWidget(draw_loc_2, row, 4, 1, 2)
 
-    draw_loc_4 = QPushButton("Location 4 Draw")
-    grid.addWidget(draw_loc_4, row, 6, 1, 2)
+    draw_loc_3 = QPushButton("Location 4 Draw")
+    draw_loc_3.clicked.connect(draw_mission_card_3)    
+    grid.addWidget(draw_loc_3, row, 6, 1, 2)
         
     row = 11
     
-    loc1 = QListWidget()
-    grid.addWidget(loc1, row, 0, 1, 2)
+    locs = [QListWidget(), QListWidget(), QListWidget(), QListWidget()]
+    locs[0].itemClicked.connect(location_clicked_0)
+    locs[1].itemClicked.connect(location_clicked_1)
+    locs[2].itemClicked.connect(location_clicked_2)
+    locs[3].itemClicked.connect(location_clicked_3)
+            
+    grid.addWidget(locs[0], row, 0, 1, 2)
 
     loc2 = QListWidget()
-    grid.addWidget(loc2, row, 2, 1, 2)
+    grid.addWidget(locs[1], row, 2, 1, 2)
 
     loc3 = QListWidget()
-    grid.addWidget(loc3, row, 4, 1, 2)
+    grid.addWidget(locs[2], row, 4, 1, 2)
 
     loc4 = QListWidget()
-    grid.addWidget(loc4, row, 6, 1, 2)
+    grid.addWidget(locs[3], row, 6, 1, 2)
     
     row = 12
     
