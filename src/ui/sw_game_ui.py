@@ -9,15 +9,142 @@ The dice, locations, and character tokens are still handled physically.
 import sys
 
 from PyQt5.QtWidgets import QApplication, QGridLayout, QWidget, QListWidget, \
-    QPushButton, QLabel
+    QPushButton, QLabel, QDialog, QComboBox, QListWidgetItem
     
 from PyQt5.QtGui import QFont
 
 from PyQt5.QtCore import Qt
 
+from character_deck import CharacterDeck
+from mission_deck import MissionDeck
+
+# Retrieve choices for characters, region, and year
+class MissionDialog(QDialog):
+    
+    def __init__(self, cnames, rnames, parent = None):
+        
+        super().__init__(parent)
+        
+        grid = QGridLayout(self)
+        
+        scale = ["0", "1", "2", "3", "4", "5", "6"]
+        
+        row = 0
+        grid.addWidget(QLabel("Character"), row, 0)
+        grid.addWidget(QLabel("Trait"), row, 2)
+        grid.addWidget(QLabel("Trait"), row, 4)
+        grid.addWidget(QLabel("Commitment"), row, 6)
+        grid.addWidget(QLabel("Discord"), row, 8)
+        
+        self.ccb1 = QComboBox()
+        self.ccb1.addItems(cnames)
+        grid.addWidget(self.ccb1, row, 1)
+
+        self.tcb1 = QComboBox()
+        grid.addWidget(self.tcb1, row, 3)
+
+        self.tcb2 = QComboBox()
+        grid.addWidget(self.tcb2, row, 5)
+        
+        self.comcb1 = QComboBox()
+        self.comcb1.addItems(scale)        
+        grid.addWidget(self.comcb1, row, 7)
+
+        self.dcb1 = QComboBox()
+        self.dcb1.addItems(scale)          
+        grid.addWidget(self.dcb1, row, 9)        
+        
+        row = 1
+        grid.addWidget(QLabel("Character"), row, 0)
+        grid.addWidget(QLabel("Trait"), row, 2)
+        grid.addWidget(QLabel("Trait"), row, 4)
+        grid.addWidget(QLabel("Commitment"), row, 6)
+        grid.addWidget(QLabel("Discord"), row, 8)        
+
+        self.ccb2 = QComboBox()
+        self.ccb2.addItems(cnames)        
+        grid.addWidget(self.ccb2, row, 1)
+
+        self.tcb3 = QComboBox()
+        grid.addWidget(self.tcb3, row, 3)
+
+        self.tcb4 = QComboBox()
+        grid.addWidget(self.tcb4, row, 5)
+        
+        self.comcb2 = QComboBox()
+        self.comcb2.addItems(scale)          
+        grid.addWidget(self.comcb2, row, 7)
+
+        self.dcb2 = QComboBox()
+        self.dcb2.addItems(scale)          
+        grid.addWidget(self.dcb2, row, 9)       
+        
+        row = 2
+        grid.addWidget(QLabel("Region"), row, 0)     
+        grid.addWidget(QLabel("Year"), row, 2)
+
+        self.rcb = QComboBox()
+        self.rcb.addItems(rnames)        
+        grid.addWidget(self.rcb, row, 1)
+
+        self.ycb = QComboBox()
+        self.ycb.addItems(["1", "2", "3", "4", "5", "6"])
+        grid.addWidget(self.ycb, row, 3)
+        
+        row = 3
+        
+        self.button_ok = QPushButton("OK")
+        grid.addWidget(self.button_ok, row, 9)
+        self.button_ok.clicked.connect(self.ok_clicked)
+        
+    def ok_clicked(self):
+        self.close()
+        
+    def get_inputs(self):
+        
+        return (self.ccb1.currentText(),
+                self.ccb2.currentText(),
+                self.rcb.currentText())
+        
+def draw_character_card():
+    
+    next_card = cdeck.draw()
+    
+    if next_card is None:
+        cdeck.shuffle()
+        next_card = cdeck.draw()
+        
+    if next_card is None:
+        return
+    
+    cdeck_hand.addItem(str(next_card))
+    cd_draw_label.setText(str(cdeck.draw_size()))
+
+def play_character_card():
+    
+    print(cdeck_hand.currentRow())
+    
 if __name__ == "__main__":
     
     app = QApplication(sys.argv)
+    
+    # Load decks
+    cdeck = CharacterDeck('../../csv/character-cards.csv')
+    mdeck = MissionDeck('../../csv/mission-cards.csv')    
+    
+    # Retrieve Mission Info
+    md = MissionDialog(cdeck.characters(),
+                       mdeck.regions()) 
+    md.setWindowTitle("Load Mission")
+    md.show()
+    md.exec_()
+    
+    (c1, c2, region) = md.get_inputs()
+    cdeck.filter_characters(c1, 0, 0, c2, 0 ,0)
+    mdeck.filter_regions(region)
+    
+    # Retrieve Location Info
+    # TBD
     
     w = QWidget()
     w.setWindowTitle('Six Winters')
@@ -58,20 +185,20 @@ if __name__ == "__main__":
     
     row = 4
     
-    c1_label = QLabel("Thea")
+    c1_label = QLabel(c1)
     grid.addWidget(c1_label, row, 0)
     
-    c2_label = QLabel("Keel")
+    c2_label = QLabel(c2)
     grid.addWidget(c2_label, row, 1)     
     
     grid.addWidget(QLabel("Draw"), row, 4) 
     
-    cd_draw_label = QLabel("0")
+    cd_draw_label = QLabel(str(cdeck.draw_size()))
     grid.addWidget(cd_draw_label, row, 5)
 
     grid.addWidget(QLabel("Discard"), row, 6) 
     
-    cd_discard_label = QLabel("0")
+    cd_discard_label = QLabel(str(cdeck.discard_size()))
     grid.addWidget(cd_discard_label, row, 7)
     
     row = 5    
@@ -81,11 +208,13 @@ if __name__ == "__main__":
     
     row = 6
     
-    cd_draw = QPushButton("Play")
-    grid.addWidget(cd_draw, row, 0, 1, 2)
+    cd_play = QPushButton("Play")
+    cd_play.clicked.connect(play_character_card)
+    grid.addWidget(cd_play, row, 0, 1, 2)
     
-    cd_play = QPushButton("Draw")
-    grid.addWidget(cd_play, row, 2, 1, 2)
+    cd_draw = QPushButton("Draw")
+    cd_draw.clicked.connect(draw_character_card)
+    grid.addWidget(cd_draw, row, 2, 1, 2)
     
     cd_shuffle = QPushButton("Shuffle")
     grid.addWidget(cd_shuffle, row, 4, 1, 2)

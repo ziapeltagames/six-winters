@@ -1,6 +1,12 @@
+# 06/18/21
+
+Working on loading character cards into a character deck.
+
 # 06/17/21
 
 Working on a pyqt version of the game for rapid prototyping. First step is to mockup the overall layout.
+
+Finished a mockup of the layout.
 
 # 05/30/21
 

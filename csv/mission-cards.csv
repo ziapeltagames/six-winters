@@ -1,4 +1,4 @@
-location,trigger,title
+region,trigger,title
 
 "Empire","xxTIMER","Guard"
 "Empire","xxTIMER","Guard"
@@ -8,3 +8,21 @@ location,trigger,title
 "Empire","xxFIRE","Guard"
 "Empire","xxAIR","Guard"
 "Empire","xxWATER","Guard"
+
+"Faction","xxTIMER","Diplomat"
+"Faction","xxTIMER","Diplomat"
+"Faction","xxTIMER","Diplomat"
+"Faction","xxTIMER","Diplomat"
+"Faction","xxFIRE","Diplomat"
+"Faction","xxFIRE","Diplomat"
+"Faction","xxAIR","Diplomat"
+"Faction","xxWATER","Diplomat"
+
+"Amaranthia","xxTIMER","Mob"
+"Amaranthia","xxTIMER","Mob"
+"Amaranthia","xxTIMER","Mob"
+"Amaranthia","xxTIMER","Mob"
+"Amaranthia","xxFIRE","Mob"
+"Amaranthia","xxFIRE","Mob"
+"Amaranthia","xxAIR","Mob"
+"Amaranthia","xxWATER","Mob"
