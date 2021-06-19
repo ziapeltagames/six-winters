@@ -16,7 +16,7 @@ class MissionCard:
         self.title = mdict['title']
         
     def __str__(self):
-        cstring = self.region + ' ' + self.title
+        cstring = self.title
         return cstring
     
 class MissionDeck(Deck):
@@ -34,7 +34,7 @@ class MissionDeck(Deck):
                     self.region_names.append(next_card.region)
                     
                 mission_cards.append(MissionCard(rowd))
-                
+        
         super().__init__(mission_cards)
         
     # Retrieve all of the possible characters
@@ -55,14 +55,34 @@ class MissionDeck(Deck):
         self.region_names = [r1]
         self.cards = trimmed_regions
         
-    def get_trigger(self):
+    def top_trigger(self):
         
         if len(self.cards) > 0:
             return self.cards[0].trigger
         else:
             return "Empty"
         
+    # Draw a number of cards equal to stage, return list of triggers
+    def draw_triggers(self, stage):
+
+        triggers = ["None", "None", "None"]
+        timer = False
         
+        if len(self.cards) < stage:
+            return triggers, False
+    
+        for i in range(stage):   
+            next_card = self.draw()
+            next_trigger = next_card.trigger
+            if next_trigger == "xxTIMER":
+                timer = True
+                
+            triggers[i] = next_trigger
+            self.discard(next_card)
+            
+        return triggers, timer
+                  
+          
 if __name__ == "__main__":
     
     cdeck = MissionDeck('../../csv/mission-cards.csv')

@@ -17,7 +17,8 @@ from PyQt5.QtCore import Qt
 
 from character_deck import CharacterDeck
 from mission_deck import MissionDeck
-
+from sixwinters import SixWinters
+    
 # Retrieve choices for characters, region, and year
 class MissionDialog(QDialog):
     
@@ -106,6 +107,16 @@ class MissionDialog(QDialog):
                 self.ccb2.currentText(),
                 self.rcb.currentText())
         
+class LocationsDialog(QDialog):
+    
+    def __init__(self, locations, parent = None):
+        super().__init__(parent)        
+        grid = QGridLayout(self)
+        
+    def ok_clicked(self):
+        self.close()
+        
+        
 def update_character_card_labels():
     
     cd_draw_label.setText(str(cdeck.draw_size()))
@@ -132,13 +143,11 @@ def draw_character_card():
 # Remove the widget from the list, and add the card to the discard pile
 def play_character_card():
     
-    row = cdeck_hand.currentRow()
-    
-    if row < 0:
+    if len(cdeck_hand.selectedItems()) < 1:
         return
     
-    played_card = cdeck_hand.takeItem(row)
-    
+    row = cdeck_hand.currentRow()
+    played_card = cdeck_hand.takeItem(row).data(Qt.UserRole)
     cdeck.discard(played_card)
     
     update_character_card_labels()
@@ -157,6 +166,9 @@ def update_mission_card_labels():
     
     md_draw_label.setText(str(mdeck.draw_size()))
     md_discard_label.setText(str(mdeck.discard_size()))
+    md_top_card_label.setText(str(mdeck.top_trigger()))
+    timer_label.setText(str(sw.timers))
+    stage_label.setText(str(sw.stage))
 
 def location_clicked_0():
     location_clicked(0)
@@ -170,12 +182,21 @@ def location_clicked_2():
 def location_clicked_3():
     location_clicked(3)
     
+# Only one mission card should be selected at a time
 def location_clicked(loc):
+
+    selected_items = locs[loc].selectedItems()
+
+    if len(selected_items) > 0:
+        selected_card = selected_items[0].data(Qt.UserRole)
+        mission_selected_card_label.setText(str(selected_card))
+    
     for i, nl in enumerate(locs): 
+        
         if i == loc:
             continue
-        nl.clearSelection()
         
+        nl.clearSelection()
     
 def draw_mission_card_0():
     draw_mission_card(0)
@@ -206,9 +227,92 @@ def draw_mission_card(loc):
     
     update_mission_card_labels()
     
+def discard_mission_card():
+    
+    loc, card = get_selected_mission_card()
+    
+    if card is None:
+        return
+    
+    mdeck.discard(card)
+    update_mission_card_labels()
+    
+def burn_mission_card():
+    
+    get_selected_mission_card()
+    update_mission_card_labels()
+    
+def mission_card_left():
+    
+    loc, card = get_selected_mission_card()
+    if card is None:
+        return
+    
+    loc = loc-1
+    if loc<0:
+        loc = 3
+
+    qlwi = QListWidgetItem(str(card), locs[loc])
+    qlwi.setData(Qt.UserRole, card)
+    locs[loc].addItem(qlwi)    
+    
+def mission_card_right():
+    
+    loc, card = get_selected_mission_card()
+    if card is None:
+        return
+    
+    loc = loc+1
+    if loc>3:
+        loc = 0
+
+    qlwi = QListWidgetItem(str(card), locs[loc])
+    qlwi.setData(Qt.UserRole, card)
+    locs[loc].addItem(qlwi)  
+    
+def get_selected_mission_card():
+    
+    for i, loc in enumerate(locs):
+    
+        if len(loc.selectedItems()) < 1:
+            continue
+        
+        row = loc.currentRow()
+        
+        selected_card = loc.takeItem(row).data(Qt.UserRole)
+        return i, selected_card
+    
+    return -1, None
+    
+def shuffle_mission_cards():
+    
+    mdeck.shuffle()
+    update_mission_card_labels()
+    
+# Probably should be in mission deck?
+def draw_triggers():
+    
+    triggers, timer = mdeck.draw_triggers(sw.stage)
+    
+    if triggers[0] == "None":
+        sw.stage = sw.stage + 1
+        sw.timers = 0
+        
+    if timer:
+        sw.timers = sw.timers + 1
+        if sw.timers > 2:
+            sw.timers = 0
+            sw.stage = sw.stage + 1
+        
+    trigger_label_1.setText(triggers[0])
+    trigger_label_2.setText(triggers[1])
+    trigger_label_3.setText(triggers[2])
+    
+    update_mission_card_labels()
     
 if __name__ == "__main__":
     
+    sw = SixWinters()
     app = QApplication(sys.argv)
     
     # Load decks
@@ -247,12 +351,12 @@ if __name__ == "__main__":
            
     grid.addWidget(QLabel("Timers"), row, 2)
     
-    timer_label = QLabel("0")
+    timer_label = QLabel(str(sw.timers))
     grid.addWidget(timer_label, row, 3)
     
     grid.addWidget(QLabel("Stage"), row, 4)
     
-    stage_label = QLabel("0")
+    stage_label = QLabel(str(sw.stage))
     grid.addWidget(stage_label, row, 5)
     
     row = 2
@@ -286,8 +390,6 @@ if __name__ == "__main__":
     
     row = 5    
     
-    # Will probably need to maintain a separate hand list, and
-    # use row selections to keep them in sync...
     cdeck_hand = QListWidget()
     grid.addWidget(cdeck_hand, row, 0, 1, 8)
     
@@ -326,7 +428,7 @@ if __name__ == "__main__":
 
     grid.addWidget(QLabel("Top"), row, 2) 
     
-    md_top_card_label = QLabel(mdeck.get_trigger())
+    md_top_card_label = QLabel(mdeck.top_trigger())
     grid.addWidget(md_top_card_label, row, 3)
     
     grid.addWidget(QLabel("Draw"), row, 4) 
@@ -378,23 +480,29 @@ if __name__ == "__main__":
     
     row = 12
     
-    grid.addWidget(QLabel("None Selected"), row, 0, 1, 8)     
+    mission_selected_card_label = QLabel("None Selected")
+    grid.addWidget(mission_selected_card_label, row, 0, 1, 8)     
 
     row = 13
 
     lbutton = QPushButton("<--")
+    lbutton.clicked.connect(mission_card_left)
     grid.addWidget(lbutton, row, 0)
     
     rbutton = QPushButton("-->")
+    rbutton.clicked.connect(mission_card_right)
     grid.addWidget(rbutton, row, 1)
     
     loc_discard = QPushButton("Discard")
+    loc_discard.clicked.connect(discard_mission_card)    
     grid.addWidget(loc_discard, row, 2, 1, 2)
     
     loc_burn = QPushButton("Burn")
+    loc_burn.clicked.connect(burn_mission_card)    
     grid.addWidget(loc_burn, row, 4, 1, 2)
     
     md_shuffle = QPushButton("Shuffle")
+    md_shuffle.clicked.connect(shuffle_mission_cards)    
     grid.addWidget(md_shuffle, row, 6, 1, 2)
     
     row = 14
@@ -410,6 +518,7 @@ if __name__ == "__main__":
     row = 16
     
     trigger_button = QPushButton("Trigger")
+    trigger_button.clicked.connect(draw_triggers)
     grid.addWidget(trigger_button, row, 0, 1, 2)
     
     trigger_label_1 = QLabel("None")
