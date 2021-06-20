@@ -1,3 +1,21 @@
+# 06/20/21
+
+## Commitment Options
+
+Previously this was handled by having achievement cards for each character. This did allow quite a bit of customization, however, it's not as flexible.
+
+Maybe the cycles of commitment/discord going up and down are triggered by mission effects, as well as traits, but the result is specific character cards.
+
+So each character does have X discord cards and Y commitment cards. That would let the higher values of those cards really change things up.
+
+That would also restrict achievements to be only tied to mission locations. A little less setup time than if
+
+# 06/19/21
+
+Finished a basic mission deck. The next step is to create a location loader, and label the various locations. The location deck will also filter achievements and mission cards.
+
+It may be the case that the mission deck is created after the locations are chosen? That will probably be the case for the achievements as well?
+
 # 06/18/21
 
 Working on loading character cards into a character deck.

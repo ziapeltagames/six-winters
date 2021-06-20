@@ -18,6 +18,7 @@ from PyQt5.QtCore import Qt
 from character_deck import CharacterDeck
 from mission_deck import MissionDeck
 from sixwinters import SixWinters
+from location_deck import LocationDeck
     
 # Retrieve choices for characters, region, and year
 class MissionDialog(QDialog):
@@ -105,17 +106,56 @@ class MissionDialog(QDialog):
         
         return (self.ccb1.currentText(),
                 self.ccb2.currentText(),
-                self.rcb.currentText())
+                self.rcb.currentText(),
+                self.ycb.currentText())
         
-class LocationsDialog(QDialog):
+class LocationDialog(QDialog):
     
-    def __init__(self, locations, parent = None):
+    def __init__(self, lcards, parent = None):
         super().__init__(parent)        
         grid = QGridLayout(self)
+        
+        row = 0
+        self.l1 = QListWidget()
+        self.add_items(self.l1, lcards)
+        grid.addWidget(self.l1, row, 0, 1, 2)
+        
+        row = 1
+        self.l2 = QListWidget()
+        self.add_items(self.l2, lcards)        
+        grid.addWidget(self.l2, row, 0, 1, 2)
+        
+        row = 2
+        self.l3 = QListWidget()
+        self.add_items(self.l3, lcards)        
+        grid.addWidget(self.l3, row, 0, 1, 2)
+        
+        row = 3
+        self.l4 = QListWidget()
+        self.add_items(self.l4, lcards)        
+        grid.addWidget(self.l4, row, 0, 1, 2)
+        
+        row = 4
+        self.button_ok = QPushButton("OK")
+        grid.addWidget(self.button_ok, row, 1)
+        self.button_ok.clicked.connect(self.ok_clicked)        
+        
+    def add_items(self, lwidget, lcards):        
+        for card in lcards.cards:
+            qlwi = QListWidgetItem(str(card), lwidget)
+            qlwi.setData(Qt.UserRole, card)
+            lwidget.addItem(qlwi)
         
     def ok_clicked(self):
         self.close()
         
+    def get_locs(self):
+        lcard1 = self.l1.takeItem(self.l1.currentRow()).data(Qt.UserRole)
+        lcard2 = self.l2.takeItem(self.l2.currentRow()).data(Qt.UserRole)
+        lcard3 = self.l3.takeItem(self.l3.currentRow()).data(Qt.UserRole)
+        lcard4 = self.l4.takeItem(self.l4.currentRow()).data(Qt.UserRole)
+        
+        return (lcard1, lcard2, lcard3, lcard4)
         
 def update_character_card_labels():
     
@@ -313,6 +353,7 @@ def draw_triggers():
 if __name__ == "__main__":
     
     sw = SixWinters()
+    sw_font = QFont('sixwinters')
     app = QApplication(sys.argv)
     
     # Load decks
@@ -326,12 +367,24 @@ if __name__ == "__main__":
     md.show()
     md.exec_()
     
-    (c1, c2, region) = md.get_inputs()
+    (c1, c2, region, year) = md.get_inputs()
     cdeck.filter_characters(c1, 0, 0, c2, 0 ,0)
     mdeck.filter_regions(region)
     
     # Retrieve Location Info
-    # TBD
+    ldeck = LocationDeck('../../csv/location-cards.csv', region, year)
+    
+    ld = LocationDialog(ldeck)
+    ld.setWindowTitle("Choose Locations")
+    ld.show()
+    ld.exec_()
+    
+    (lcard1, lcard2, lcard3, lcard4) = ld.get_locs()
+
+    # Build Achievement Deck
+
+    # Build Mission Deck
+    # Have an alternate constructor for the mission deck
     
     w = QWidget()
     w.setWindowTitle('Six Winters')
@@ -429,6 +482,7 @@ if __name__ == "__main__":
     grid.addWidget(QLabel("Top"), row, 2) 
     
     md_top_card_label = QLabel(mdeck.top_trigger())
+    md_top_card_label.setFont(sw_font)
     grid.addWidget(md_top_card_label, row, 3)
     
     grid.addWidget(QLabel("Draw"), row, 4) 
@@ -443,19 +497,19 @@ if __name__ == "__main__":
     
     row = 10
     
-    draw_loc_0 = QPushButton("Location 1 Draw")
+    draw_loc_0 = QPushButton(lcard1.name + " Draw")
     draw_loc_0.clicked.connect(draw_mission_card_0)
     grid.addWidget(draw_loc_0, row, 0, 1, 2)
 
-    draw_loc_1 = QPushButton("Location 2 Draw")
+    draw_loc_1 = QPushButton(lcard2.name + " Draw")
     draw_loc_1.clicked.connect(draw_mission_card_1)
     grid.addWidget(draw_loc_1, row, 2, 1, 2)
 
-    draw_loc_2 = QPushButton("Location 3 Draw")
+    draw_loc_2 = QPushButton(lcard3.name + " Draw")
     draw_loc_2.clicked.connect(draw_mission_card_2)
     grid.addWidget(draw_loc_2, row, 4, 1, 2)
 
-    draw_loc_3 = QPushButton("Location 4 Draw")
+    draw_loc_3 = QPushButton(lcard4.name + " Draw")
     draw_loc_3.clicked.connect(draw_mission_card_3)    
     grid.addWidget(draw_loc_3, row, 6, 1, 2)
         
