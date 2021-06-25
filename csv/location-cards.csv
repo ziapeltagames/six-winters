@@ -1,62 +1,72 @@
-name,region,years,tags,front,skill,achievement1,achievement2,mcard1,mcard2,mcard3,mcard4
+name,region,years,tags,society,skill,trigger,achievements
 
-"Whitehold","Empire","1","Urban",xxMILITARY,xxTACTICS,TECHNOLOGY,NONE,NONE,NONE,NONE,NONE
-"House of Copper","Empire","12","Urban",xxSORCERY,xxRAPPORT,NONE,NONE,NONE,NONE,NONE,NONE
-"Map Hall","Empire","12","Urban",xxTECHNOLOGY,xxDISGUISE,ESPIONAGE,NONE,NONE,NONE,NONE,NONE
-"Guild of Secrets","Empire","12","Urban",xxESPIONAGE,xxTHIEVERY,NONE,NONE,NONE,NONE,NONE,NONE
-"Dowling Farm","Empire","123","Urban",xxSTABILITY,xxLORE,NONE,NONE,NONE,NONE,NONE,NONE
-"TBD","Empire","23","Urban",xxESPIONAGE,xxCOMBAT,NONE,NONE,NONE,NONE,NONE,NONE
-"Map Hall","Empire","34","Urban",xxESPIONAGE,xxDISGUISE,DIPLOMACY,NONE,NONE,NONE,NONE,NONE
-"TBD","Empire","345","Urban",xxTECHNOLOGY,xxTHIEVERY,ESPIONAGE,NONE,NONE,NONE,NONE,NONE
-"TBD","Empire","34","Urban",xxDIPLOMACY,xxCOMMAND,ESPIONAGE,NONE,NONE,NONE,NONE,NONE
-"TBD","Empire","345","Urban",xxMILITARY,xxRAPPORT,NONE,NONE,NONE,NONE,NONE,NONE
-"TBD","Empire","456","Urban",xxESPIONAGE,xxDISGUISE,TECHNOLOGY,NONE,NONE,NONE,NONE,NONE
-"TBD","Empire","45","Urban",xxSORCERY,xxTHIEVERY,NONE,NONE,NONE,NONE,NONE,NONE
-"TBD","Empire","456","Urban",xxTECHNOLOGY,xxDISGUISE,NONE,NONE,NONE,NONE,NONE,NONE
-"TBD","Empire","56","Urban",xxESPIONAGE,xxSURVIVAL,NONE,NONE,NONE,NONE,NONE,NONE
-"TBD","Empire","5","Urban",xxSORCERY,xxLORE,SORCERY,NONE,NONE,NONE,NONE,NONE
-"TBD","Empire","6","Urban",xxESPIONAGE,xxTHIEVERY,TECHNOLOGY,NONE,NONE,NONE,NONE,NONE
-"TBD","Empire","6","Urban",xxSTABILITY,xxDISGUISE,ESPIONAGE,NONE,NONE,NONE,NONE,NONE
-"TBD","Empire","6","Urban",xxTECHNOLOGY,xxCOMBAT,ESPIONAGE,NONE,NONE,NONE,NONE,NONE
+"Whitehold","Empire","12","Imperial, Vault",xxTECHNOLOGY,xxTHIEVERY,xxMAIDEN,Vault of Shadows: xxESPIONAGE Secret Doors: xxTHIEVERY
+"Ma Bonnie's Squidery","Empire","12","Amaranthia, Tavern",xxSTABILITY,xxDISGUISE,xxMAIDEN,Loose Lips: xxTECHNOLOGY Gift of Gab: xxRAPPORT
+"House of Copper","Empire","123","Urban",xxSORCERY,xxLORE,xxMOTHER,Astromancy: xxLORE Dark Pact: xxTHREATS
+"Guild of Secrets","Empire","1","Imperial, Dungeon",xxESPIONAGE,xxCOMBAT,xxMOTHER,Sleeping Draught: xxTHIEVERY The Torturer: xxTHREATS
+"Dowling Farm","Empire","12","Rural",xxSTABILITY,xxRAPPORT,xxCRONE,Traveling Minstres: xxDISGUISE Funding the Resistance: xxTHREATS
 
-"Red Bank Location 1","Red Bank","1","Wilderness",xxMILITARY,xxTACTICS,STABILITY,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 2","Red Bank","1","Wilderness",xxTECHNOLOGY,xxCOMMAND,ESPIONAGE,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 3","Red Bank","12","Wilderness",xxSORCERY,xxCOMBAT,STABILITY,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 4","Red Bank","12","Wilderness",xxESPIONAGE,xxLORE,TECHNOLOGY,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 5","Red Bank","123","Wilderness",xxTECHNOLOGY,xxSURVIVAL,SORCERY,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 6","Red Bank","1234","Wilderness",xxSTABILITY,xxCOMMAND,STABILITY,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 7","Red Bank","2","Wilderness",xxDIPLOMACY,xxRAPPORT,SORCERY,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 8","Red Bank","23","Wilderness",xxSORCERY,xxTHIEVERY,NONE,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 9","Red Bank","234","Wilderness",xxSTABILITY,xxCOMBAT,SORCERY,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 10","Red Bank","34","Wilderness",xxDIPLOMACY,xxTACTICS,NONE,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 11","Red Bank","34","Wilderness",xxSORCERY,xxSURVIVAL,NONE,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 12","Red Bank","34","Wilderness",xxSTABILITY,xxCOMMAND,NONE,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 13","Red Bank","4","Wilderness",xxSORCERY,xxLORE,NONE,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 14","Red Bank","45","Wilderness",xxMILITARY,xxCOMBAT,STABILITY,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 15","Red Bank","456","Wilderness",xxTECHNOLOGY,xxLORE,NONE,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 16","Red Bank","5","Wilderness",xxSTABILITY,xxDISGUISE,NONE,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 17","Red Bank","56","Wilderness",xxESPIONAGE,xxCOMBAT,SORCERY,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 18","Red Bank","56","Wilderness",xxSORCERY,xxTACTICS,STABILITY,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 19","Red Bank","456","Wilderness",xxSTABILITY,xxCOMMAND,MILITARY,NONE,NONE,NONE,NONE,NONE
-"Red Bank Location 20","Red Bank","6","Wilderness",xxMILITARY,xxSURVIVAL,STABILITY,NONE,NONE,NONE,NONE,NONE
+"Imperial Loc 6","Empire","23","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
 
-"Faction Location 1","Faction","1","Wilderness",xxTECHNOLOGY,xxTHIEVERY,DIPLOMACY,NONE,NONE,NONE,NONE,NONE
-"Faction Location 2","Faction","1","Wilderness",xxESPIONAGE,xxTACTICS,MILITARY,NONE,NONE,NONE,NONE,NONE
-"Faction Location 3","Faction","12","Wilderness",xxDIPLOMACY,xxCOMMAND,SORCERY,NONE,NONE,NONE,NONE,NONE
-"Faction Location 4","Faction","123","Wilderness",xxSORCERY,xxLORE,DIPLOMACY,NONE,NONE,NONE,NONE,NONE
-"Faction Location 5","Faction","123","Wilderness",xxTECHNOLOGY,xxTACTICS,MILITARY,NONE,NONE,NONE,NONE,NONE
-"Faction Location 6","Faction","123","Wilderness",xxMILITARY,xxSURVIVAL,TECHNOLOGY,NONE,NONE,NONE,NONE,NONE
-"Faction Location 7","Faction","123","Wilderness",xxDIPLOMACY,xxRAPPORT,NONE,NONE,NONE,NONE,NONE,NONE
-"Faction Location 8","Faction","23","Wilderness",xxESPIONAGE,xxRAPPORT,TECHNOLOGY,NONE,NONE,NONE,NONE,NONE
-"Faction Location 9","Faction","23","Wilderness",xxSTABILITY,xxLORE,NONE,NONE,NONE,NONE,NONE,NONE
-"Faction Location 10","Faction","234","Wilderness",xxDIPLOMACY,xxCOMMAND,DIPLOMACY,NONE,NONE,NONE,NONE,NONE
-"Faction Location 11","Faction","34","Wilderness",xxTECHNOLOGY,xxRAPPORT,ESPIONAGE,NONE,NONE,NONE,NONE,NONE
-"Faction Location 12","Faction","45","Wilderness",xxESPIONAGE,xxLORE,DIPLOMACY,NONE,NONE,NONE,NONE,NONE
-"Faction Location 13","Faction","45","Wilderness",xxMILITARY,xxTACTICS,NONE,NONE,NONE,NONE,NONE,NONE
-"Faction Location 14","Faction","45","Wilderness",xxSORCERY,xxCOMBAT,MILITARY,NONE,NONE,NONE,NONE,NONE
-"Faction Location 15","Faction","456","Wilderness",xxDIPLOMACY,xxRAPPORT,NONE,NONE,NONE,NONE,NONE,NONE
-"Faction Location 16","Faction","5","Wilderness",xxSTABILITY,xxSURVIVAL,MILITARY,NONE,NONE,NONE,NONE,NONE
-"Faction Location 17","Faction","56","Wilderness",xxMILITARY,xxCOMMAND,NONE,NONE,NONE,NONE,NONE,NONE
-"Faction Location 18","Faction","56","Wilderness",xxDIPLOMACY,xxTACTICS,MILITARY,NONE,NONE,NONE,NONE,NONE
-"Faction Location 19","Faction","6","Wilderness",xxSORCERY,xxRAPPORT,DIPLOMACY,NONE,NONE,NONE,NONE,NONE
-"Faction Location 20","Faction","6","Wilderness",xxDIPLOMACY,xxLORE,NONE,NONE,NONE,NONE,NONE,NONE
+"Imperial Location 9","Empire","23","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
+"Imperial Location 8","Empire","34","Urban",xxESPIONAGE,xxDISGUISE,xxFIRE,xxDIPLOMACY
+"Eastkeep","Empire","345","Urban",xxTECHNOLOGY,xxTHIEVERY,xxFIRE,xxESPIONAGE
+"Guilder Farms","Empire","34","Urban",xxDIPLOMACY,xxCOMMAND,xxFIRE,xxESPIONAGE
+"Imperial Location 11","Empire","345","Urban",xxMILITARY,xxRAPPORT,xxFIRE,xxSKILL
+"The Rosy Freetrader","Empire","456","Urban",xxESPIONAGE,xxDISGUISE,xxFIRE,xxTECHNOLOGY
+
+"The Dawncaves","Empire","45","Urban",xxSORCERY,xxTHIEVERY,xxFIRE,xxSKILL
+"Prominence","Empire","456","Urban",xxTECHNOLOGY,xxDISGUISE,xxFIRE,xxSKILL
+"Imperial Location 14","Empire","56","Urban",xxESPIONAGE,xxSURVIVAL,xxFIRE,xxSKILL
+"Firstborn Peak","Empire","5","Urban",xxSORCERY,xxLORE,xxFIRE,xxSORCERY
+"Imperial Location 16","Empire","6","Urban",xxESPIONAGE,xxTHIEVERY,xxFIRE,xxTECHNOLOGY
+"Freeguilder Inn","Empire","6","Urban",xxSTABILITY,xxDISGUISE,xxFIRE,xxESPIONAGE
+
+"Southkeep","Empire","6","Urban",xxTECHNOLOGY,xxCOMBAT,xxFIRE,xxESPIONAGE
+"Imperial Location 20","Empire","6","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
+"Imperial Location 21","Empire","6","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
+"Imperial Location 22","Empire","6","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
+"Imperial Location 23","Empire","6","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
+"Imperial Location 24","Empire","6","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
+
+"Amaranthia Location 1","Amaranthia","1","Wilderness",xxMILITARY,xxTACTICS,xxFIRE,xxSTABILITY
+"Amaranthia Location 2","Amaranthia","1","Wilderness",xxTECHNOLOGY,xxCOMMAND,xxFIRE,xxESPIONAGE xxDEVELOPMENT
+"Amaranthia Location 3","Amaranthia","12","Wilderness",xxSORCERY,xxCOMBAT,xxFIRE,xxSTABILITY
+"Amaranthia Location 4","Amaranthia","12","Wilderness",xxESPIONAGE,xxLORE,xxFIRE,xxTECHNOLOGY
+"Amaranthia Location 5","Amaranthia","123","Wilderness",xxTECHNOLOGY,xxSURVIVAL,xxFIRE,xxSORCERY
+"Amaranthia Location 6","Amaranthia","1234","Wilderness",xxSTABILITY,xxCOMMAND,xxFIRE,xxSTABILITY
+"Amaranthia Location 7","Amaranthia","2","Wilderness",xxDIPLOMACY,xxRAPPORT,xxFIRE,xxSORCERY
+"Amaranthia Location 8","Amaranthia","23","Wilderness",xxSORCERY,xxTHIEVERY,xxFIRE,xxSKILL
+"Amaranthia Location 9","Amaranthia","234","Wilderness",xxSTABILITY,xxCOMBAT,xxFIRE,xxSORCERY
+"Amaranthia Location 10","Amaranthia","34","Wilderness",xxDIPLOMACY,xxTACTICS,xxFIRE,xxSKILL
+"Amaranthia Location 11","Amaranthia","34","Wilderness",xxSORCERY,xxSURVIVAL,xxFIRE,xxSKILL
+"Amaranthia Location 12","Amaranthia","34","Wilderness",xxSTABILITY,xxCOMMAND,xxFIRE,xxSKILL
+"Amaranthia Location 13","Amaranthia","4","Wilderness",xxSORCERY,xxLORE,xxFIRE,xxSKILL
+"Amaranthia Location 14","Amaranthia","45","Wilderness",xxMILITARY,xxCOMBAT,xxFIRE,xxSTABILITY
+"Amaranthia Location 15","Amaranthia","456","Wilderness",xxTECHNOLOGY,xxLORE,xxFIRE,xxSKILL
+"Amaranthia Location 16","Amaranthia","5","Wilderness",xxSTABILITY,xxDISGUISE,xxFIRE,xxSKILL
+"Amaranthia Location 17","Amaranthia","56","Wilderness",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSORCERY
+"Amaranthia Location 18","Amaranthia","56","Wilderness",xxSORCERY,xxTACTICS,xxFIRE,xxSTABILITY
+"Amaranthia Location 19","Amaranthia","456","Wilderness",xxSTABILITY,xxCOMMAND,xxFIRE,xxMILITARY
+"Amaranthia Location 20","Amaranthia","6","Wilderness",xxMILITARY,xxSURVIVAL,xxFIRE,xxSTABILITY
+
+"Hinterlands Location 1","Hinterlands","1","Wilderness",xxTECHNOLOGY,xxTHIEVERY,xxFIRE,xxDIPLOMACY
+"Hinterlands Location 2","Hinterlands","1","Wilderness",xxESPIONAGE,xxTACTICS,xxFIRE,xxMILITARY
+"Hinterlands Location 3","Hinterlands","12","Wilderness",xxDIPLOMACY,xxCOMMAND,xxFIRE,xxSORCERY
+"Hinterlands Location 4","Hinterlands","123","Wilderness",xxSORCERY,xxLORE,xxFIRE,xxDIPLOMACY
+"Hinterlands Location 5","Hinterlands","123","Wilderness",xxTECHNOLOGY,xxTACTICS,xxFIRE,xxMILITARY
+"Hinterlands Location 6","Hinterlands","123","Wilderness",xxMILITARY,xxSURVIVAL,xxFIRE,xxTECHNOLOGY
+"Hinterlands Location 7","Hinterlands","123","Wilderness",xxDIPLOMACY,xxRAPPORT,xxFIRE,xxSKILL
+"Hinterlands Location 8","Hinterlands","23","Wilderness",xxESPIONAGE,xxRAPPORT,xxFIRE,xxTECHNOLOGY
+"Hinterlands Location 9","Hinterlands","23","Wilderness",xxSTABILITY,xxLORE,xxFIRE,xxSKILL
+"Hinterlands Location 10","Hinterlands","234","Wilderness",xxDIPLOMACY,xxCOMMAND,xxFIRE,xxDIPLOMACY
+"Hinterlands Location 11","Hinterlands","34","Wilderness",xxTECHNOLOGY,xxRAPPORT,xxFIRE,xxESPIONAGE
+"Hinterlands Location 12","Hinterlands","45","Wilderness",xxESPIONAGE,xxLORE,xxFIRE,xxDIPLOMACY
+"Hinterlands Location 13","Hinterlands","45","Wilderness",xxMILITARY,xxTACTICS,xxFIRE,xxSKILL
+"Hinterlands Location 14","Hinterlands","45","Wilderness",xxSORCERY,xxCOMBAT,xxFIRE,xxMILITARY
+"Hinterlands Location 15","Hinterlands","456","Wilderness",xxDIPLOMACY,xxRAPPORT,xxFIRE,xxSKILL
+"Hinterlands Location 16","Hinterlands","5","Wilderness",xxSTABILITY,xxSURVIVAL,xxFIRE,xxMILITARY
+"Hinterlands Location 17","Hinterlands","56","Wilderness",xxMILITARY,xxCOMMAND,xxFIRE,xxSKILL
+"Hinterlands Location 18","Hinterlands","56","Wilderness",xxDIPLOMACY,xxTACTICS,xxFIRE,xxMILITARY
+"The Animaelic Forest","Hinterlands","6","Wilderness",xxSORCERY,xxRAPPORT,xxFIRE,xxDIPLOMACY
+"Hinterlands Location 20","Hinterlands","6","Wilderness",xxDIPLOMACY,xxLORE,xxFIRE,xxSKILL

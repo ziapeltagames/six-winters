@@ -1,3 +1,169 @@
+# 06/25/21
+
+Is there a wheel of skill improvements, similar to the wheel of stronghold resources? Doesn't seem as likely. More like using a skill improves the skill.
+
+## Achievements
+
+Aside from improving resource tracks and skills, it could be interesting if each region has a third, more unique, sort of achievement. The Empire could let you burn threat cards, Amaranthia could give you improvements, and the Hinterlands could give you better trade or spotlight locations. Not totally sure about the Hinterlands. Trade adds some complexity that was already taken out. Also, trade doesn't really work the same way. Maybe for now it's spotlight locations? They could particularly be interesting if they have special triggers.
+
+It may also be interesting if achievements are immediately applied. For instance, if an achievement lets you burn a threat card in play - that could open up interesting timing issues. If an achievement burns a location, that would be a little fiddly, since it would take place after the mission and create an exception. But that's probably okay.
+
+## Resource Dice
+
+Still iterating over what to call the stronghold stat tracks. Stats, scales, resources. Stat is nice and short, but "stat dice" doesn't maybe sound as nice? Or "stat pool"? Feature. Trait. Rule. Command (already used). Society. Society isn't bad. It's a good word to reflect how the stronghold looks. Also, "society + skill" has a nice ring to it.
+
+The society dice in the pools are raw and unused. They're called pools. Society dice on location cards have been deployed, and are now called assets. The goal of the game is to create enough assets to overcome the current achievements and obstacles.
+
+# 06/24/21
+
+## Location Decks
+
+There are 24 locations in each deck. Location decks have the following resource distribution:
+
+* Resource Breakdowns by Region
+   * Each resource has 12 locations total
+   * Empire: 6 Espionage, 5 Technology, 4 Sorcery, 3 Military, 3 Stability, 3 Diplomacy
+   * Amaranthia: 6 Stability, 5 Sorcery, 4 Military, 3 Technology, 3 Espionage, 3 Diplomacy
+   * Hinterlands: 6 Diplomacy, 5 Military, 4 Technology, 3 Espionage, 3 Sorcery, 3 Stability
+* Skill Breakdowns by Region
+   * Empire
+      * 6 Disguise
+      * 5 Thievery
+      * 4 Combat
+      * 3 Lore
+      * 2 Tactics
+      * 2 Survival
+      * 1 Command
+      * 1 Rapport
+   * Amaranthia
+      * 5 Command
+      * 4 Lore
+      * 4 Survival
+      * 3 Combat
+      * 3 Rapport
+      * 2 Tactics
+      * 2 Disguise
+      * 1 Thievery
+   * Hinterlands
+      * 5 Rapport
+      * 5 Tactics
+      * 3 Command
+      * 3 Survival
+      * 3 Thievery
+      * 2 Lore
+      * 2 Combat
+      * 1 Disguise
+* Trigger Breakdown by Region
+   * Double these for trigger cards
+   * Empire
+      * Maiden 10
+      * Mother 8
+      * Crone 6
+   * Amaranthia
+      * Maiden 6
+      * Mother 8
+      * Crone 10
+   * Hinterlands
+      * Maiden 6
+      * Mother 10
+      * Crone 8
+* Tag Breakdown by Region
+   * Empire
+      * Urban
+      * Vault
+   * Amranthia
+      * Wilderness
+      * Dungeon
+      * Hall
+   * Hinterlands
+      * Hall
+      * Urban
+      * Wilderness
+
+### Skill Grid
+
+Disguise: 6/2/1
+Rapport: 1/3/5
+Lore: 3/4/2
+Tactics: 2/2/5
+Command: 1/5/3
+Thievery: 5/1/3
+Survival: 2/4/3
+Combat: 4/3/2
+
+6 1 3 2 1 5 2 4
+2 3 4 2 5 1 4 3
+1 5 2 5 3 3 3 2
+
+## Location Setup
+
+May setup as desired, but maiden triggers must be on the left, and crone triggers on the right.
+
+## Mission Construction Option: Campaign
+
+Choose 5 cards based on year, but must have 1 each of the core resources, as in freeform. The first year, there are no choices. That's more of a learning game.
+
+## Mission Construction Option: Sandbox
+
+Draw cards until there are 3 core resources based on region (Amaranthia: Stability, Sorcery, Technology; Empire: Espionage, Technology, Sorcery; Hinterlands: Diplomacy, Military, Technology). Then add in the next 2 cards in the location draw pile, bringing the total to 5.
+
+# 06/22/21
+
+As part of rethinking the mission deck construction, what would happen if locations and achievements were drawn separately? Or maybe achievements were completely isolated from locations? It would certainly make setup quicker. However, it would also make for less strategy. After all, if there was just a big deck of achievements and locations, the ones you were interested in might not come out or could be buried. Even with a way to dig through the deck, that could be frustrating. Also, it seems like some achievements would be much harder than others, and mixing them all together could make for a frustrating experience?
+
+Although, if some of the achievements require sets of dice: that could also be tricky, even with the location being spelled out. After all, there are any number of location types? So, if an achievement says "Stability / Military" - how can you be assured that was possible to fulfill?
+
+## Achievement Dice Combo Options
+
+* 1) Each region has four different fronts, for a total of 12
+   * That would guarantee that each front is represented, if you have to use one card for each front
+   * Faction: Diplomacy, Military, Espionage, Stability
+   * Empire: Espionage, Technology, Sorcery, Military
+   * Amaranthia: Stability, Sorcery, Technology, Diplomacy
+* 2) Could make it so that each year had a fixed set of four locations
+   * Then the achievements could be written with exactly what's present
+* 3) Don't refer to specific stronghold dice at all
+   * In that case, it's stuff like pairs, progress, full house, set, etc
+   * The issue is: that's pretty generic, so much so that it would be hard to even name the achievements
+* 4) It's okay if achievements are impossible
+   * If so, would have to make it easy to draw a new one
+
+Option 1 isn't very good. It's fun to have all of the possible stronghold dice pools available in different circumstances, and it would be better if these ever become standalone location card decks for an RPG. And 3 is really generic feeling.
+
+The best options are 2 or 4. 4 is okay as long as you don't have to dig forever. May be able to weight them. For example, for Amaranthia missions: mostly stability, then sorcery, then tech, and basically nothing else.
+
+## Mission Construction Option: Total Freeform
+
+In this option, shuffle the location and achievement decks. Draw 4 locations. During the game, may swap out locations as well as achievements.
+
+### Pros
+
+Very quick setup. Lots of uncertainty/possibilities for odd combos of things. (All tech starting deck, etc.)
+
+### Cons
+
+Could have a series of very hard achievements.
+
+## Mission Option: Very Rigid
+
+Each year there are a set of locations you must visit. Achievements are tuned to that.
+
+### Pros
+
+Also quick-ish. No decisions.
+
+### Cons
+
+Doesn't give much flexibility in strategy. For instance, if a location is the tomb where Oniri is trapped - would be nice to visit it later in the game/campaign or maybe not at all, depending.
+
+# 06/21/21
+
+## Mission Construction
+
+The current mission deck is built by taking 10 random mission trigger cards from the region, and adding in the timer cards specified on the chosen location cards. Trigger cards are mostly scenes, twists, and events. Timer cards are mostly obstacles.
+
+Organizing missions around one of three regions does change the trigger alignment some. It used to be pretty clean, with 4 mission types and 4 triggers. Now there are 3 mission types, so should there be 3 triggers? And following that logic, 3 locations? Having 4 locations has seemed like a pretty sweet spot so far. Going up or down from that doesn't seem like it would make things better.
+
 # 06/20/21
 
 ## Commitment Options
@@ -177,7 +343,7 @@ Obstacle Description
 * Trigger (optional)
   * What the obstacle will do if triggered
 * Weakness (optional)
-  * Special dice combos that will trigger more stress
+  * Special dice combos that will trigger more stress or fuel effects
 
 Working Together  
 
@@ -277,3 +443,83 @@ Card manipulation options:
 * Play cards from hands for numeric totals
 * Play cards that match certain symbols/tags
 * Use cards as "processing units" for dice types
+
+# 06/02/18
+
+## Threat Mechanics
+
+Threats are played as:
+
+* Locations (go in one of the threat locations)
+* Attachments to locations (must play the type of location if possible)
+* Attachments to characters
+* Obstacles (would need to go to one player's mission area, for general types of threats)
+
+Threat effects are either:
+
+* Effects that are ongoing
+* Effects that occur when a certain progress trigger happens
+* Effects that occur at the end of the season
+     * This option doesn't generate as much pressure as the others
+
+## Threat Triggers
+
+As it stands now, triggers occur only on locations you're actually at. For obstacles, they occur broadly. They also occur on attachments attached to characters. Do they occur on all attachments generally?
+
+Maybe they should just occur on all obstacles / attachments / locations? The "you have to be there" was to make it easier to scan over cards, but it makes threat design tough? Maybe all the locations / attachments / obstacles in the player's mission area as well as the spotlight area will activate.
+
+## Red Bank Tests
+
+It would be nice if the threats weren't necessarily a guaranteed occurrence. One way that could happen is via a trigger causing a dice roll. These might be special sorts of tests where things like mana couldn't be used (since mana requires a caster and backlash). Something like, "Rare: Red Bank Test: Espionage 3. Success: Blah. Failure: Blah." Might be worth having that as a generally available test type?
+
+On thinking about it more, this probably isn't necessary. The "not a guaranteed occurrence" can probably be handled by triggers. Although, the triggers are doubled, so need to take that into account.
+
+## Threat Effects
+
+* Lower resources
+* Lower resource tracks
+* Lower secrets
+* Increase discord
+* Increase apotheosis
+* Give conditions
+* Lower disposition
+* Broad effects (no mana for spells, etc)
+
+## Threat Ideas
+
+* Military threats
+   * Could "burn" Red Bank locations so that the location cards almost function as a hit points as such for badness
+* Bandits
+* Building a wonder to keep up with the Empire
+   * Gardens of the Pomegranates
+* Assassination
+* Werewolf infection
+* Pandemic
+* Magical Backlash
+
+## Old Threats
+
+Espionage,1,"False Maps","Immediately. Espionage 0-3: May not gain consequences to ignore timers during Exploration missions."
+Stability,1,"Food Shortages","Immediately. Stability 0-2: -1 food."
+Military,1,"Western Front","End of Season. Military 0-2: -1 stability."
+General,1,"Moonrider Raids","Immediately. Sunriders disposition 0-3: May not trade with Sunriders for remainder of season."
+Espionage,1,"Sunrider Grain Dispute","End of Season. Espionage 0: -2 disposition with Sunriders. Espionage 1-2: -1 disposition with Sunriders."
+Military,1,"Crescent Hold Calls for Aid","End of Season. Subtract 1 from military or drop disposition with Crescent Hold by 1. Subtract 3 from military to burn card."
+Espionage,1,"The Mole","Immediately. Espionage 0-2: -1 ore."
+Secrets,1,"Careless Whispers","Immediately. If all secrets have not been found in Eastkeep, -1 espionage."
+Sorcery,1,"A Growing Bond","End of Season. Subtract 1 from sorcery or +1 Apotheosis. Subtract 3 from sorcery to burn card."
+Secrets,1,"The Harrowing","End of Season. Secrets 0-4: +1 Apotheosis."
+Diplomacy,2,"Farmer Rebellion","End of Season. Diplomacy 0-2: Next season produce 2 fewer food."
+Conquest,2,"Materials Shortage","Immediately. Conquest 0-2: Effect. All survival tests are difficult for the remainder of the season."
+General,2,"Restless Spirits","Immediately. Spend one sorcery or character with highest Lore must return to Red Bank. Ignore if character with highest Lore already at Red Bank."
+Sorcery,2,"Darkness on the Steppes","End of Season. Sorcery 0-2: -1 disposition with Sunriders."
+Espionage,2,"Disgruntled Miners","End of Season. Espionage 0-4: -1 disposition with Crescent Hold."
+Stability,2,"Rites of the Blue Robe","End of Season. Stability 0-4: -1 disposition with Burgan Vale."
+Espionage,2,"Misinformation","Immediately. Subtract 1 from espionage or lose 1 secret from Eastkeep. Subtract 3 from espionage to burn card."
+Military,2,"Holding the Outer Reach","End of Season. Subtract 1 from military or North Oaks produces no resources next season. Subtract 3 from military to burn card."
+Secrets,2,"The Southkeep Gambit","End of Season. Subtract 1 from espionage or +1 Apotheosis. Subtract 3 from espionage to burn card."
+Apotheosis,Secrets,2,"Ritual of Law","End of Season. Secrets 0-8: +1 Apotheosis."
+Apotheosis,Secrets,3,"Connection Made","End of Season. Secrets 0-6: +2 Apotheosis. Secrets 7-12: +1 Apotheosis."
+Apotheosis,Secrets,4,"The Far Forest","End of Season. Secrets 0-8: +2 Apotheosis. Secrets 9-16: +1 Apotheosis."
+Espionage,5,"Assassination","Character is assassinated."
+Apotheosis,Secrets,5,"The Sundering","End of Season. Secrets 0-10: +2 Apotheosis. Secrets 10-20: +1 Apotheosis."

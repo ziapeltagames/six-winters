@@ -10,12 +10,14 @@ Created on Fri May 28 18:59:53 2021
 
 import os, csv
 
+import numpy as np
+
 def populate_dicts():
     
     loc_by_year = {1: [], 2: [], 3: [], 4: [], 5: [], 6: []}
     loc_by_region = {"Empire": [], "Red Bank": [], "Faction": []}
     
-    loc_file_name = os.path.join("..", "..", "csv", "locations.csv")
+    loc_file_name = os.path.join("..", "..", "csv", "location-cards.csv")
     
     loc_file = open(loc_file_name, newline='')
     
@@ -41,14 +43,21 @@ def md_print_dict(nd, loc_file):
     
     loc_file.write('\n')
     
-    for key in nd.keys():
+    key_list = list(nd.keys())
+    value_array = np.array(list(nd.values()))
+    sorted_indices = np.argsort(-value_array)
+    
+    for i in sorted_indices:
+        
+        key = key_list[i]
+        value = value_array[i]
         
         if type(key) is int:
             pk = key
         else:
             pk = key.replace('xx', '')
             
-        loc_file.write('* '+str(pk)+': '+str(nd[key])+'\n')
+        loc_file.write('* '+str(pk)+': '+str(value)+'\n') #nd[key])+'\n')
     
     
 def stats_by_region(loc_by_year, loc_by_region):
@@ -64,18 +73,23 @@ def stats_by_region(loc_by_year, loc_by_region):
     
     for region in loc_by_region.keys():
         
+        # print(region)
         fronts, skills, years, achievements = front_and_skills_by_year(loc_by_region[region])
         
         loc_file.write(str('\n## '+region+' Locations by Front\n'))
+        # print(fronts)
         md_print_dict(fronts, loc_file)
         
         loc_file.write(str('\n## '+region+' Locations by Skill\n'))
+        # print(skills)
         md_print_dict(skills, loc_file)
         
         loc_file.write(str('\n## '+region+' Locations by Achievement\n'))
+        # print(achievements)
         md_print_dict(achievements, loc_file)
         
         loc_file.write(str('\n## '+region+' Locations by Year\n'))
+        # print(years)
         md_print_dict(years, loc_file)
         
         for front in fronts:
@@ -151,7 +165,7 @@ def front_and_skills_by_year(loc_by_region):
             else:
                 skills[skill] = 1     
                 
-            ach = loc['achievement']
+            ach = loc['achievements']
             
             if ach in achievements:
                 achievements[ach] += 1

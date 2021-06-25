@@ -101,9 +101,19 @@ There are five different types of cards in the game. Each type of card has sligh
 
 Tags appear on cards to give them more flavor and pair with character abilities. Tags are used for threats, obstacles, and locations. Generally only one or at most two tags are used on a card.
 
-* Obstacle Tags: Foe, Guard, Diplomat, Environment, Issue, Trap, Mob, Folk
-* Location Tags: Wilderness, Dungeon, Urban, Red Bank, Imperial, Faction
-* Threat Tags: Community, Domain, Espionage, Diplomacy
+* Obstacle (and Scene) Tags: Foe, Guard, Diplomat, Environment, Issue, Trap, Mob, Folk
+
+* Location Tags
+   * Wilderness (Survival, Tactics, Combat)
+   * Dungeon (Survival, Combat, Thievery, Lore)
+   * Urban (Disguise, Rapport)
+   * Rural (Rapport)
+   * Vault (Disguise, Thievery)
+   * Hall (Command, Tactics)
+   * Tavern (Rapport)
+   * Faction Name (Sunriders, Gravewood, etc) - varies
+
+* Threat Tags: Same as Resource Tracks
 
 ## Card Decks
 

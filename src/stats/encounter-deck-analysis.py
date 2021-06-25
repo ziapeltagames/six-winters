@@ -29,16 +29,17 @@ def remove_bysubs(rlist, rsubstring):
     
 # Count up timers and burn cards
 def count_timers(rlist):
+    
     timers = 0
     burns = 0
+    
     for item in rlist:
         if 'TIMER' in item:
             timers = timers + 1
-        if 'BURN' in item:
-            burns = burns + 1
-    return timers, burns
+    
+    return timers
         
-def build_deck(burn, timer, total):
+def build_deck(burn, timer, trigger):
     timer_deck = []
 
     for i in range(timer):
@@ -46,9 +47,13 @@ def build_deck(burn, timer, total):
         
     for i in range(burn):
         timer_deck.append('TIMER, BURN')
-        
-    for i in range(total - (burn + timer)):
+
+    for i in range(trigger):
         timer_deck.append('ELEMENT')
+
+        
+    # for i in range(total - (burn + timer)):
+    #     timer_deck.append('ELEMENT')
 
     return timer_deck
 
@@ -91,18 +96,18 @@ encounter_distribution = [1, 1, 1, 1, 2, 2, 2, 2, 2, 3]
 add_burn_cards = 2
 add_timer_cards = 0
 
-burn_cards = 7
-timer_cards = 3
-total_cards = 20
+burn_cards = 5
+timer_cards = 5
+trigger_cards = 10
 
 # 4,3,2,1=10, 3,2,2,2=9
 
-sample_deck = build_deck(burn_cards, timer_cards, total_cards)
-tcards, bcards = count_timers(sample_deck)
-print('Timers', tcards, '/', len(sample_deck), '(', bcards, 'burn )', encounter_distribution)
+sample_deck = build_deck(burn_cards, timer_cards, trigger_cards)
+tcards = count_timers(sample_deck)
+print('Timers', tcards, '/', len(sample_deck), '(', burn_cards, 'burn )', encounter_distribution)
 
 # Number of trials to gather results    
-epochs = 10000
+epochs = 15000
 
 # Number of stages in the game
 stages = 3
@@ -119,6 +124,9 @@ num_timers = [3, 3, 3]
 # Holds the number of turns for each stage
 turns_dict = {}
 
+# Holds how many timers are in the deck after each stage
+timer_dict = {}
+
 # Holds whether the deck emptied out
 empty_deck_dict = {}
     
@@ -128,13 +136,14 @@ mil_val_list = []
 # See how each stage looks
 for stage in range(stages):
     turns_dict[stage] = []
+    timer_dict[stage] = []
     empty_deck_dict[stage] = []
 
 # Iterate a number of epochs
 for e in range(epochs):
 
     # Reset the deck
-    timer_deck = build_deck(burn_cards, timer_cards, total_cards)
+    timer_deck = build_deck(burn_cards, timer_cards, trigger_cards)
     threat_deck = build_threat_deck(6,6,6,6,4)
     
     current_threat_card = 0
@@ -157,13 +166,13 @@ for e in range(epochs):
             turns = turns + 1
             
             # Draw a threat card
-            for i in range(campaign_cards):
-                if current_threat_card < len(threat_deck):
-                    threat_card = threat_deck[current_threat_card]
-                    if 'MIL' in threat_card:
-                        mil_threats = mil_threats + 1
-                        mil_vals = mil_vals + int(threat_card[-1:])
-                    current_threat_card = current_threat_card + 1
+            # for i in range(campaign_cards):
+            #     if current_threat_card < len(threat_deck):
+            #         threat_card = threat_deck[current_threat_card]
+            #         if 'MIL' in threat_card:
+            #             mil_threats = mil_threats + 1
+            #             mil_vals = mil_vals + int(threat_card[-1:])
+            #         current_threat_card = current_threat_card + 1
             
             # If any triggers are a timer, add to the timer total
             timers = False
@@ -192,7 +201,7 @@ for e in range(epochs):
                     else:
                         current_card = current_card + 1
         
-        timer_deck = add_timers(add_burn_cards, add_timer_cards, timer_deck)
+        # timer_deck = add_timers(add_burn_cards, add_timer_cards, timer_deck)
                 
         if timer < num_timers[stage]:
             empty_deck_dict[stage].append(1)
@@ -200,17 +209,26 @@ for e in range(epochs):
             empty_deck_dict[stage].append(0)
             
         turns_dict[stage].append(turns)
+        
+        tl = count_timers(timer_deck)
+        timer_dict[stage].append(tl)
+        
         mil_threat_list.append(mil_threats)
         mil_val_list.append(mil_vals)
         
 prev_avg = 0
 
 for i in range(stages):
+    
     cur_avg = sum(turns_dict[i]) / len(turns_dict[i])
-    percent_empty = sum(empty_deck_dict[i]) / len(empty_deck_dict[i])
-    print('stage: ', i, ' turns: ', round(cur_avg, 3), ' diff: ', round(cur_avg - prev_avg, 3), ' stdev: ', round(statistics.stdev(turns_dict[i]), 3), 'empty: ', round(percent_empty, 4))
+    percent_empty = float(sum(empty_deck_dict[i])) / float(len(empty_deck_dict[i]))
+    avg_timers = sum(timer_dict[i]) / len(timer_dict[i])
+    
+    print('stage: ', i, ' turns: ', round(cur_avg, 3), ' diff: ', round(cur_avg - prev_avg, 3), ' stdev: ',
+          round(statistics.stdev(turns_dict[i]), 3), ' empty: ', round(percent_empty, 4),
+          ' timer:', round(avg_timers, 4))
     prev_avg = cur_avg
     
-mil_avg = sum(mil_threat_list) / len(mil_threat_list)
-mil_val_avg = sum(mil_val_list) / len(mil_val_list)
-print('Threat: ', round(mil_avg, 3), statistics.stdev(mil_threat_list), round(mil_val_avg, 3))
+# mil_avg = sum(mil_threat_list) / len(mil_threat_list)
+# mil_val_avg = sum(mil_val_list) / len(mil_val_list)
+# print('Threat: ', round(mil_avg, 3), statistics.stdev(mil_threat_list), round(mil_val_avg, 3))
