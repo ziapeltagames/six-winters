@@ -1,4 +1,4 @@
-Musings on _Six Winters_ design.
+_Six Winters_ design overview.
 
 * [Currencies](#currencies)
 * [Card Types](#card-types)
@@ -12,10 +12,9 @@ Musings on _Six Winters_ design.
 
 # Currencies
 
-These are all of the various currencies in the game. Ultimately, _Six Winters_ is intentionally episodic in nature. These currencies are roughly ordered from longer term to shorter term influence.
+These currencies are roughly ordered from longer term to shorter term influence.
 
-* Acts - There are three acts to the game, each of which lasts two years and ends with a showdown
-* Seasons - Seasons march towards a showdown at the end of an act
+* Years - Each game represents one year of a six year campaign.
 * Missions - Players are not able to undertake every mission, and must make choices based on long term strategy and changes in the campaign deck
 * Threats - Threats build and change over the course of the campaign
 * Stability - Stability is an important long term currency, since it restricts how many developments can be used during one mission and overall asset hand size per player
@@ -23,27 +22,12 @@ These are all of the various currencies in the game. Ultimately, _Six Winters_ i
 * Technology - A limit on the types of developments players can buy, ranked from 1-10, which matches tech level of developments
 * Spotlight Locations - These can be unlocked as specific mission rewards
 * Resource Tracks - Higher resource tracks make it easier to use that type of resoruce
-   * Timber
-   * Mana
-   * Ore
-   * Luxury
-   * Food
 * Developments - A way to improve asset decks long term
-   * Sorcery
-   * Security
-   * Diplomacy
-   * Community
-   * Espionage
 * Character Skills
 * Character Tags - Relate to special unlocked character cards
-* Motivation Cards / Track
+* Commitment Cards / Track
 * Discord Cards / Track
 * Resource Dice - Resource dice are the primary means of progress during a mission
-   * Timber
-   * Mana
-   * Ore
-   * Luxury
-   * Food
 * Conditions
 * Discord Pool
 * Progress - The main activity players are trying to do is gain various types of progress to achieve their goals
@@ -179,6 +163,21 @@ There are other types of advantages which are very situational. Frequently, doin
 
 * Draw Threat Card(s)
 * Search for Threat
+
+## Mission Card Effects
+
+* Draw character card
+* Draw threat card
+* Draw new achievement card
+* Trade resources
+* More difficult asset roll (lower skill by one)
+* Easier asset roll (increase skill by one)
+* Reroll asset dice
+* Remove asset dice
+* Stress
+* Discord (add/remove)
+* Commitment (add/remove)
+* Restricted movement
 
 ## Test Manipulation
 

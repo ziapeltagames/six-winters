@@ -96,9 +96,9 @@ encounter_distribution = [1, 1, 1, 1, 2, 2, 2, 2, 2, 3]
 add_burn_cards = 2
 add_timer_cards = 0
 
-burn_cards = 5
-timer_cards = 5
-trigger_cards = 10
+burn_cards = 12
+timer_cards = 8
+trigger_cards = 20
 
 # 4,3,2,1=10, 3,2,2,2=9
 

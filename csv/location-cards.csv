@@ -1,72 +1,26 @@
-name,region,years,tags,society,skill,trigger,achievements
+region,name,tags,skill,resource,trigger
 
-"Whitehold","Empire","12","Imperial, Vault",xxTECHNOLOGY,xxTHIEVERY,xxMAIDEN,Vault of Shadows: xxESPIONAGE Secret Doors: xxTHIEVERY
-"Ma Bonnie's Squidery","Empire","12","Amaranthia, Tavern",xxSTABILITY,xxDISGUISE,xxMAIDEN,Loose Lips: xxTECHNOLOGY Gift of Gab: xxRAPPORT
-"House of Copper","Empire","123","Urban",xxSORCERY,xxLORE,xxMOTHER,Astromancy: xxLORE Dark Pact: xxTHREATS
-"Guild of Secrets","Empire","1","Imperial, Dungeon",xxESPIONAGE,xxCOMBAT,xxMOTHER,Sleeping Draught: xxTHIEVERY The Torturer: xxTHREATS
-"Dowling Farm","Empire","12","Rural",xxSTABILITY,xxRAPPORT,xxCRONE,Traveling Minstres: xxDISGUISE Funding the Resistance: xxTHREATS
-
-"Imperial Loc 6","Empire","23","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
-
-"Imperial Location 9","Empire","23","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
-"Imperial Location 8","Empire","34","Urban",xxESPIONAGE,xxDISGUISE,xxFIRE,xxDIPLOMACY
-"Eastkeep","Empire","345","Urban",xxTECHNOLOGY,xxTHIEVERY,xxFIRE,xxESPIONAGE
-"Guilder Farms","Empire","34","Urban",xxDIPLOMACY,xxCOMMAND,xxFIRE,xxESPIONAGE
-"Imperial Location 11","Empire","345","Urban",xxMILITARY,xxRAPPORT,xxFIRE,xxSKILL
-"The Rosy Freetrader","Empire","456","Urban",xxESPIONAGE,xxDISGUISE,xxFIRE,xxTECHNOLOGY
-
-"The Dawncaves","Empire","45","Urban",xxSORCERY,xxTHIEVERY,xxFIRE,xxSKILL
-"Prominence","Empire","456","Urban",xxTECHNOLOGY,xxDISGUISE,xxFIRE,xxSKILL
-"Imperial Location 14","Empire","56","Urban",xxESPIONAGE,xxSURVIVAL,xxFIRE,xxSKILL
-"Firstborn Peak","Empire","5","Urban",xxSORCERY,xxLORE,xxFIRE,xxSORCERY
-"Imperial Location 16","Empire","6","Urban",xxESPIONAGE,xxTHIEVERY,xxFIRE,xxTECHNOLOGY
-"Freeguilder Inn","Empire","6","Urban",xxSTABILITY,xxDISGUISE,xxFIRE,xxESPIONAGE
-
-"Southkeep","Empire","6","Urban",xxTECHNOLOGY,xxCOMBAT,xxFIRE,xxESPIONAGE
-"Imperial Location 20","Empire","6","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
-"Imperial Location 21","Empire","6","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
-"Imperial Location 22","Empire","6","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
-"Imperial Location 23","Empire","6","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
-"Imperial Location 24","Empire","6","Urban",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSKILL
-
-"Amaranthia Location 1","Amaranthia","1","Wilderness",xxMILITARY,xxTACTICS,xxFIRE,xxSTABILITY
-"Amaranthia Location 2","Amaranthia","1","Wilderness",xxTECHNOLOGY,xxCOMMAND,xxFIRE,xxESPIONAGE xxDEVELOPMENT
-"Amaranthia Location 3","Amaranthia","12","Wilderness",xxSORCERY,xxCOMBAT,xxFIRE,xxSTABILITY
-"Amaranthia Location 4","Amaranthia","12","Wilderness",xxESPIONAGE,xxLORE,xxFIRE,xxTECHNOLOGY
-"Amaranthia Location 5","Amaranthia","123","Wilderness",xxTECHNOLOGY,xxSURVIVAL,xxFIRE,xxSORCERY
-"Amaranthia Location 6","Amaranthia","1234","Wilderness",xxSTABILITY,xxCOMMAND,xxFIRE,xxSTABILITY
-"Amaranthia Location 7","Amaranthia","2","Wilderness",xxDIPLOMACY,xxRAPPORT,xxFIRE,xxSORCERY
-"Amaranthia Location 8","Amaranthia","23","Wilderness",xxSORCERY,xxTHIEVERY,xxFIRE,xxSKILL
-"Amaranthia Location 9","Amaranthia","234","Wilderness",xxSTABILITY,xxCOMBAT,xxFIRE,xxSORCERY
-"Amaranthia Location 10","Amaranthia","34","Wilderness",xxDIPLOMACY,xxTACTICS,xxFIRE,xxSKILL
-"Amaranthia Location 11","Amaranthia","34","Wilderness",xxSORCERY,xxSURVIVAL,xxFIRE,xxSKILL
-"Amaranthia Location 12","Amaranthia","34","Wilderness",xxSTABILITY,xxCOMMAND,xxFIRE,xxSKILL
-"Amaranthia Location 13","Amaranthia","4","Wilderness",xxSORCERY,xxLORE,xxFIRE,xxSKILL
-"Amaranthia Location 14","Amaranthia","45","Wilderness",xxMILITARY,xxCOMBAT,xxFIRE,xxSTABILITY
-"Amaranthia Location 15","Amaranthia","456","Wilderness",xxTECHNOLOGY,xxLORE,xxFIRE,xxSKILL
-"Amaranthia Location 16","Amaranthia","5","Wilderness",xxSTABILITY,xxDISGUISE,xxFIRE,xxSKILL
-"Amaranthia Location 17","Amaranthia","56","Wilderness",xxESPIONAGE,xxCOMBAT,xxFIRE,xxSORCERY
-"Amaranthia Location 18","Amaranthia","56","Wilderness",xxSORCERY,xxTACTICS,xxFIRE,xxSTABILITY
-"Amaranthia Location 19","Amaranthia","456","Wilderness",xxSTABILITY,xxCOMMAND,xxFIRE,xxMILITARY
-"Amaranthia Location 20","Amaranthia","6","Wilderness",xxMILITARY,xxSURVIVAL,xxFIRE,xxSTABILITY
-
-"Hinterlands Location 1","Hinterlands","1","Wilderness",xxTECHNOLOGY,xxTHIEVERY,xxFIRE,xxDIPLOMACY
-"Hinterlands Location 2","Hinterlands","1","Wilderness",xxESPIONAGE,xxTACTICS,xxFIRE,xxMILITARY
-"Hinterlands Location 3","Hinterlands","12","Wilderness",xxDIPLOMACY,xxCOMMAND,xxFIRE,xxSORCERY
-"Hinterlands Location 4","Hinterlands","123","Wilderness",xxSORCERY,xxLORE,xxFIRE,xxDIPLOMACY
-"Hinterlands Location 5","Hinterlands","123","Wilderness",xxTECHNOLOGY,xxTACTICS,xxFIRE,xxMILITARY
-"Hinterlands Location 6","Hinterlands","123","Wilderness",xxMILITARY,xxSURVIVAL,xxFIRE,xxTECHNOLOGY
-"Hinterlands Location 7","Hinterlands","123","Wilderness",xxDIPLOMACY,xxRAPPORT,xxFIRE,xxSKILL
-"Hinterlands Location 8","Hinterlands","23","Wilderness",xxESPIONAGE,xxRAPPORT,xxFIRE,xxTECHNOLOGY
-"Hinterlands Location 9","Hinterlands","23","Wilderness",xxSTABILITY,xxLORE,xxFIRE,xxSKILL
-"Hinterlands Location 10","Hinterlands","234","Wilderness",xxDIPLOMACY,xxCOMMAND,xxFIRE,xxDIPLOMACY
-"Hinterlands Location 11","Hinterlands","34","Wilderness",xxTECHNOLOGY,xxRAPPORT,xxFIRE,xxESPIONAGE
-"Hinterlands Location 12","Hinterlands","45","Wilderness",xxESPIONAGE,xxLORE,xxFIRE,xxDIPLOMACY
-"Hinterlands Location 13","Hinterlands","45","Wilderness",xxMILITARY,xxTACTICS,xxFIRE,xxSKILL
-"Hinterlands Location 14","Hinterlands","45","Wilderness",xxSORCERY,xxCOMBAT,xxFIRE,xxMILITARY
-"Hinterlands Location 15","Hinterlands","456","Wilderness",xxDIPLOMACY,xxRAPPORT,xxFIRE,xxSKILL
-"Hinterlands Location 16","Hinterlands","5","Wilderness",xxSTABILITY,xxSURVIVAL,xxFIRE,xxMILITARY
-"Hinterlands Location 17","Hinterlands","56","Wilderness",xxMILITARY,xxCOMMAND,xxFIRE,xxSKILL
-"Hinterlands Location 18","Hinterlands","56","Wilderness",xxDIPLOMACY,xxTACTICS,xxFIRE,xxMILITARY
-"The Animaelic Forest","Hinterlands","6","Wilderness",xxSORCERY,xxRAPPORT,xxFIRE,xxDIPLOMACY
-"Hinterlands Location 20","Hinterlands","6","Wilderness",xxDIPLOMACY,xxLORE,xxFIRE,xxSKILL
+"Empire","Guild of Pleasure","Urban",xxDisguise,xxDiplomacy,xxMother
+"Empire","Guild of Security","Urban",xxDisguise,xxEspionage,xxMother
+"Empire","Guild of Scribes","Urban",xxDisguise,xxSorcery,xxCrone
+"Empire","The Rosy Freetrader","Tavern",xxDisguise,xxEspionage,xxMaiden
+"Empire","Ma Bonnie's Squidery","Tavern",xxDisguise,xxStability,xxCrone
+"Empire","Gray Vault","Vault",xxDisguise,xxTechnology,xxMaiden
+"Empire","Whitehold","Vault",xxThievery,xxTechnology,xxMaiden
+"Empire","The Dawncaves","Dungeon",xxThievery,xxSorcery,xxCrone
+"Empire","Graycloak Barracks","Vault",xxThievery,xxEspionage,xxMaiden
+"Empire","Prominence","Hall",xxThievery,xxDiplomacy,xxMother
+"Empire","Guild of Secrets","Vault",xxCombat,xxEspionage,xxMaiden
+"Empire","Firstborn Peak","Wilderness",xxCombat,xxSorcery,xxCrone
+"Empire","Nalah's Forge","Urban",xxCombat,xxTechnology,xxMaiden
+"Empire","Southkeep","Urban",xxCombat,xxMilitary,xxMother
+"Empire","The Wharf Quarter","Urban",xxLore,xxEspionage,xxMaiden
+"Empire","House of Silver","Hall",xxLore,xxTechnology,xxMaiden
+"Empire","House of Copper","Urban",xxLore,xxSorcery,xxCrone
+"Empire","Guild of Warfare","Hall",xxTactics,xxMilitary,xxMother
+"Empire","Eastkeep","Urban",xxTactics,xxStability,xxCrone
+"Empire","Yearly Field","Rural",xxSurvival,xxMilitary,xxMother
+"Empire","Gold River Bridge","Urban",xxSurvival,xxTechnology,xxMaiden
+"Empire","Guilder Farms","Rural",xxCommand,xxDiplomacy,xxMother
+"Empire","Dowling Manor","Rural",xxRapport,xxStability,xxMother
+"Empire","Dreadvault","Vault",xxThievery,xxEspionage,xxMaiden

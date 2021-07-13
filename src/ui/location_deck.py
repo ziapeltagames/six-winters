@@ -11,22 +11,23 @@ class LocationCard:
     
     def __init__(self, ldict):
 
+        print(ldict)
+        
         self.name = ldict['name']        
         self.skill = ldict['skill']
-        self.front = ldict['front']
+        self.society = ldict['society']
         self.region = ldict['region']
-        self.years = ldict['years']
-        self.achievement1 = ldict['achievement1']
-        self.achievement2 = ldict['achievement2']
+        self.trigger = ldict['trigger']
+        self.tags = ldict['tags']
         
     def __str__(self):
-        cstring = self.name + ' ' + self.skill + ' ' + self.front \
-            + ' ' + self.achievement1 + ' ' + self.achievement2
+        cstring = self.name + ' ' + self.skill + ' ' + self.society + \
+            ' ' +self.tags + ' ' + self.trigger
         return cstring
     
 class LocationDeck(Deck):
     
-    def __init__(self, csv_file, region, year):
+    def __init__(self, csv_file, region):
         location_cards = []       
         with open(csv_file) as csvfile:
             dreader = csv.DictReader(csvfile)
@@ -36,9 +37,6 @@ class LocationDeck(Deck):
                 
                 if region not in next_card.region:
                     continue
-                
-                if year not in next_card.years:
-                    continue
                     
                 location_cards.append(LocationCard(rowd))
         
@@ -47,7 +45,7 @@ class LocationDeck(Deck):
           
 if __name__ == "__main__":
     
-    ldeck = LocationDeck('../../csv/location-cards.csv', 'Empire', '1')
+    ldeck = LocationDeck('../../csv/location-cards.csv', 'Empire')
     
     cc = ldeck.draw()
     print('draw', cc)

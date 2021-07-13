@@ -171,3 +171,6 @@ type,name,effect1,effect2
 "Character","Menas","Explode",""
 "Character","Menas","Explode",""
 "Character","Menas","Explode",""
+
+"Trait","Cautious","-1","Do This: Add commitment"
+"Trait","Cautious","-1","If This: Add discord"

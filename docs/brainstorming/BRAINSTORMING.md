@@ -1,4 +1,182 @@
+# 07/07/21
+
+Brainstorming standard mission deck.
+
+## Differentiating Obstacles
+
+Should give some thought to differentiating obstacles. Particularly scenes vs. other kinds of obstacles. As it stands, they're all very similar, except that scenes don't move. But that doesn't feel like enough of a difference. Scenes could also be more variable - that is, some scenes give you benefits for overcoming them, while the other obstacles are primarily negative. In WotA, scenes are how you progress to the end of the mission. Here, though, that's driven by timers.
+
+Maybe scenes can focus more on number of characters? Solo scenes, group scenes, etc? That could be a tag - how many characters are allowed in the scene.
+
+There's also the question of whether these scenes are needed at all. In some sense, achievements are like scenes. Just longer scale scenes. In RPGs, scenes are the core unit of play - they highlight how characters grow and change over time. Perhaps scenes can focus more on discord, commitment, harmony - characters working together or growing apart? Does that make sense? And other kinds of obstacles can perhaps focus on stress or progress more.
+
+Although, trait cards were focusing more on discord and commitment.
+
+## Mission Deck: Brainstorming Twists
+
+In this version, there are obstacles, scenes, twists, and events. Scenes are basically obstacles. Could probably work them into that framework. The main difference is that scenes don't move around, and go away at various points in the game, while other obstacles only go away when they're overcome.
+
+Twists attach to locations, scenes, or obstacles. They typically add additional skills or resources to the base version. They could also increase/decrease difficulty, add tags, add conditions, add additional activations, or busts. This is a way to give obstacles more variety.
+
+Whether or not they're on separate cards is mainly a pacing issue. Will need to playtest to figure out if there are too many/too few obstacles. If twists are on separate cards, they'll probably be discarded frequently because there is nothing to attach them to. However, if obstacles cards have two sections, one for the scene and one for a twist, there would be many twists in play - perhaps too many. It also makes the cards busier.
+
+# 07/04/21
+
+Also need to revisit the achievement terminology. There are lots of potential options, but some of them may not be very interesting.
+
+* Total value of any number of dice
+* Total value of a specific type of dice
+* Total value across specific types of dice
+* Specific types of dice
+* Unique types of dice (Set?)
+* Specific values of dice
+* Matching values of dice (Pair? Triple? X-of-a-kind?)
+* Matching values across unique types of dice
+* Overcoming obstacles
+
+# 07/03/21
+
+Following the idea of using a flexible/decoupled achievement deck, next step is to create the set of standard achievement cards.
+
+## Achievement Brainstorming
+
+Can standard achievements be burned? Or does the standard imply that they're always the same. Kind of feels like the latter. It does seem nice to have a chance for weirder achievements, though, without special locations.
+
+Standard locations should probably be able to add special achievements, as well as special mission cards. And then those achievements may be burned, which could have consequences.
+
+Yet another option is a fairly deep well of achievements. But if they're related to difficulty - that's kind of a backwards pattern. They would basically get easier over time as they're filtered out - which isn't quite right.
+
+Better to add more difficult achievements in over time. Maybe that justifies the use of some standard achievements that my be burned? For now, standard achievements can't be burned and don't have larger impacts on the world.
+
+## Mission Deck Construction Brainstorming
+
+There are currently four types of mission cards. Standard/Special X Spotlight/Timer. Requirements: deck has a rough ratio of timer:trigger cards, locations will need starting obstacle cards on them occasionally, and achievements may need special obstacle cards.
+
+### Mission Deck: Option One (Fixed Standard Deck)
+
+In this option, the standard deck is always a fixed set of cards. Special cards could be added to the deck, but all the standard cards are always played. This makes for a very quick setup, if the standard cards are delineated in some way. In this case, the starting cards on locations would all be special.
+
+### Mission Deck: Option Two (Build Standard Deck)
+
+In this option, there are more standard cards than needed. The first step is to add cards to the various locations, and then add cards to the mission deck as described by locations. Finally, a certain number of mission cards are counted out. Clearly, much more fiddly. It does allow for more randomness in the standard deck, however. It also opens the door to have a bigger threat: a dragon, undead, The Autarch, etc. And an achievement could remove them from the deck. Or change it over time.
+
+### Pros/Cons
+
+It's easy enough to start using the first option, because it's quicker, and move to the second if something is too limiting. Really, one of the only patterns that's impossible is certain cards in the deck that go away because of mission results. That is, an adapative mission deck. It also _could_ be too predictable if the same cards keep coming out.
+
+Actually, could bring in weird creatures via achievements as well. For instance, there could be a zombie plague achievement. And if the Tomb is destroyed - it gets burned. That kind of "back doors" in the monsters. Also, the source of the undead could be hinted at on the location card.
+
+## Undari's Tomb Brainstorming
+
+Thinking of options for one particular location to help flesh out design patterns.
+
+### Undari's Tomb: Option One (Special Loc)
+
+Undari's Tomb is a special location. So it must be found via other achievements, and then adding it to the Amaranthia location deck. When chosen, it has a special achievement to kill the Necromancer there. If the Necromancer is killed, Oniri is unlocked. It also has some special mission cards - to add undead to the location and to the deck.
+
+### Undari's Tomb: Option Two (Common Loc)
+
+Undari's Tomb is already available. Same as above, but don't have to search for it. The nice thing about searching for it - it's nice to have a 1:1 between special locations, special achievements, and special mission cards.
+
+### Undari's Tomb: Option Three (No Special Mission Cards)
+
+In this option, there are no undead mission cards just for this location. They're already in the mission deck. However, this mission would have a way to burn all of the undead from the game. This is an interesting way to have the mission deck adapt over time.
+
+### Pros/Cons
+
+The special/not special location isn't that big of a deal. The real issue may be how the mission deck is constructed. It's important for each region mission deck to have a rough ratio of timer to non-timer cards.
+
+## Unlocking Characters 
+
+Unlocking new characters probably shouldn't involve spending these achievements. Rather, it may be a good use of special achievements. Need to flesh out how these special achievements work.
+
 # 06/25/21
+
+## Types of Cards
+
+* Mission Cards: Standard/Special, Spotlight/Timer, Event/Obstacle/Scene/Twist
+* Achievement Cards: Standard/Special
+* Location Cards: Standard/Special, Empire/Amaranthia/Hinterlands, Wilderness/Urban/Rural/Dungeon/Vault/Tavern
+* Character Cards: Standard/Discord/Commitment/Trait
+* Campaign Cards: Threat/Quiet/Development
+
+## Trade
+
+One big question: is trade a thing?
+
+## Achievement Breakdown
+
+Empire
+
+3 Espionage
+2 Espionage
+2 Sorcery
+4 Technology
+4 Disguise
+3 Lore
+4 Thievery
+3 Combat
+2 Threat
+3 Threat
+
+## Achievement Categories
+
+Besides resource tracks, skills, and manipulating the threat deck, what other points are there?
+
+Developments? Should there even be developments? It's a WotA thing - but there's also plenty already going on. How would they work? Would you add them to the campaign deck? Spotlight locations? Similar thing there - are those worthwhile? Would they have a cost? How does trade factor in?
+
+Unlocking characters may make sense. Maybe unlocking locations?
+
+Empire: Threats
+Amaranthia: Developments
+Hinterlands: Locations (Using this approach - the special locations would be locked, and would have costs?)
+
+## More Achievement Ideas
+
+Another achievement idea, besides 1 Achievement : 1 Reward, is some kind of set collection approach. Maybe they're currencies? Like, if you want to raise the Stronghold's Espionage track to 3, you have to spend 3 Espionage achievements. You would need a ton of achievements to make that work, though.
+
+Actually, if there are 10 early, 10 mid, and 10 late achievements, could put a specific mix of achievements into the deck.
+
+1 Espionage, 1 Technology, 1 Disguise, 1 Thievery, 1 Combat, 1 Lore, 3 Threats. + Special Achievements
+1 Stability, 1 Sorcery
+1 Diplomacy, 1 Military
+
+Problem with the 1:1 achievement approach and deckbuilding, is that it could become pretty easy to raise tracks. For example, 1 Stability and 1 Sorcery or something like that. There's also the situation that, in actual play, it's probably rarely the case that you would skip an achievement or make any kind of decision based on the reward. Kind of can't see that happening. Which is why rewards were decoupled in the first place. Although decoupled rewards have the downside that resource tracks are vastly more important than skill tracks. So having hard rewards gets around that.
+
+Could definitely have a bigger achievement deck, and you choose random achievements. However, 10 track increases seems like... a lot. What's the right number?
+
+It's around 1 resource track achievement, and maybe 2 or 3 skill achievements, along with a threat achievement. That's only 4 or 5 cards for the 1:1 achievements. Which sure isn't many. They'd need to be pretty tough to make the challenging. But having achievements out for a long time is also kind of boring and static.
+
+Could divide achievements into resource track, skill, and special rewards. Adding up points for each of those is kind of fiddly, but that would work, I suppose.
+
+Raising a resource track = X points
+Raising a skill track = X points
+Special rewards = X points
+
+Actually - that might be kind of cool? It's certainly fiddly, but it could be interesting. For instance, sorcery rewards could be spread out between regions? For instance, a 2 sorcery reward from the Empire, and a 3 sorcery reward from Amaranthia could be used to raise the sorcery track up once (provided it's <=5).
+
+## Mission Creation
+
+Yet another idea for mission creation - separate the locations and achievements in special/standard variants. Prior to playing special locations, some requirements may have to be met. If the requirements are met, up to two special locations may be chosen. Standard locations are drawn in the sandbox mode.
+
+Actually, maybe the following process could be used. (Example is for Imperial mission.)
+
+* Create location decks at the start of the campaign.
+* Initially, these consist of only standard locations.
+* Draw 6 cards.
+   * If you don't have 1 espionage, 1 technology, and 1 sorcery - keep drawing until you do.
+   * Could end up with more than 6 cards.
+* Choose 5 cards for mission - following requirements for mission region.
+   * Amaranthia: Stability, Sorcery, Technology; Empire: Espionage, Technology, Sorcery; Hinterlands: Diplomacy, Military, Technology
+* See if locations have any special achievements. If they do, set those aside now.
+* Shuffle standard achievement for region and year (early 2-3 difficulty, mid 3-4 difficulty, late 4-5 difficulty).
+   * Add standard achievements to special achievements - then shuffle achievement deck.
+* See if locations have any special mission cards. If they do, set those aside now.
+* Shuffle standard mission cards (20 timer + 20 standard).
+   * Add special mission cards to mission deck
+* After the mission, check to see if any special locations can be added to the location decks and add them if possible.
+
+## Skill Wheel
 
 Is there a wheel of skill improvements, similar to the wheel of stronghold resources? Doesn't seem as likely. More like using a skill improves the skill.
 
@@ -8,7 +186,7 @@ Aside from improving resource tracks and skills, it could be interesting if each
 
 It may also be interesting if achievements are immediately applied. For instance, if an achievement lets you burn a threat card in play - that could open up interesting timing issues. If an achievement burns a location, that would be a little fiddly, since it would take place after the mission and create an exception. But that's probably okay.
 
-## Resource Dice
+## Resource (Society? Kingdom? Council? Stronghold?) Dice
 
 Still iterating over what to call the stronghold stat tracks. Stats, scales, resources. Stat is nice and short, but "stat dice" doesn't maybe sound as nice? Or "stat pool"? Feature. Trait. Rule. Command (already used). Society. Society isn't bad. It's a good word to reflect how the stronghold looks. Also, "society + skill" has a nice ring to it.
 
