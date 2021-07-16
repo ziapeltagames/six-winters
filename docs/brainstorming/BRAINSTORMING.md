@@ -1,3 +1,162 @@
+# 07/16/21
+
+## Three Region Rules Option 2
+
+Might be able to have location cards and achievements come from one unified deck. Obstacles is quite a bit harder, though. Some sites could certainly be generic, while some could be tagged to regions. Achievements are also, in some sense, already broader than one region. They could span multiple regions.
+
+## Three Region Rules Option 1
+
+This option leans pretty heavily on there being different sites, obstacles (scenes, threats, foes, traps, issues, diplomats), and achievements for each region.
+
+* Start play
+   * There are 9 fixed locations, 3 in each region for each of the different triggers, at the start of the campaign
+   * There three decks of 10 achievements for each region
+   * There three decks of 20 mission cards for each region
+* During play
+   * Refill resource pools
+   * Refill hand to 3 cards
+   * Take actions
+      * Players take actions in order
+   * Triggers - each player activates one for each region in which they have a character
+      * Each region has its own timer track for the three phases - if the trigger matches the current phase, it advances
+      * If it moves off of the waning phase, the timers activate and the season advances
+      * When winter comes, the year is immediately over
+   * Encounters
+* After play
+   * Spend achievements to advance tracks as desired
+      * May spend spotligh achievements to draw spotlight locations
+      * May spend threat achievements remove threats from any single deck (starting with weakest threat)
+   * Each player draws a new location (10 new draws), a new achievement (10 new draws), and a new threat
+      * Discard down to 9 locations and 10 achievements per region
+      * The threats are added to the decks listed on the front of the card
+
+### Pros
+
+Little more intuitive to create content - can be more thematically tied to situation. There's also a little more prediction there, because certain regions will tend to have certain kinds of obstacles, scenes, and achievements.
+
+### Cons
+
+Going to be fiddly to maintain the different decks, for sure.
+
+## Three Region Achievemnt Cards Option 1
+
+The first choice is a single deck of achievements - that perhaps changes over time. Players don't have much control over this. This isn't great, though, because the players don't have a way to focus on going after certain tracks.
+
+## Three Region Site Cards Option 1
+
+One nice thing about a three region version: could probably enforce choosing sites such that every possible resource die is covered. So, achievements would be able to require anything.
+
+* Amaranthia: Stability, Sorcery
+* Empire: Espionage, Technology
+* Hinterlands: Diplomacy, Military
+
+Each region could start with a small set of cards to choose from - with players needing to choose at least one of each of those types. Maybe you can lay out the board somewhat randomly - but then be deliberate about choosing developments? That's a possibility.
+
+## Three Region Site Cards Option 2
+
+Could also be the case that site cards don't have resources tied to them at all. Instead, there could be slots on map for certain types of resources.
+
+## Three Region Verion
+
+Really thinking hard about switching from each player having one of two regions, to each player going to all the regions at once. Would this mean one giant deck of sites, obstacles, and achievements? It could. Although, they're so themed around regions - having separate decks may make more sense. At least for obstacles. It's possible sites could be generic enough to fit anywhere. Although, you would probably need certain sites based on their resource dice.
+
+### Pros
+
+It kind of solves the nagging feeling that movement doesn't matter as much. It also makes for a clean world map - no more weirdness from spotlight locations or other things like that. It _could_ mean more co-operation, not sure.
+
+### Cons
+
+Of course, the timers and achievements would require lots of thinking to tune correctly. There's also the chance one player dominates the game, because both players actions would be far more intertwined.
+
+## Event Card Rethink
+
+Have been thinking about event cards. Not sure they're all that interesting, compared to other cards. They're also very fortune-at-the-front, which I've been trying to avoid. One option is to make them more predictable, so that each mission type has a kind of event which happens more frequently.
+
+Another thought is to maybe swap them out with threats. It would be nice to not have one more deck of cards (the campaign deck), if possible. Although, the campaign deck is currently kind of cool. If they are threats - they'd need to be able to build in severity over time. And the way the campaign deck can form a strategy for the Empire is also cool. That's tough to duplicate in the mission deck without a decent amount of setup.
+
+## Mission Deck Threat Option 1
+
+One option is for each of the three regional mission decks to change over time. That would match the site and achievement decks. For that to work, though, some cards would need to come out somehow, and some cards would need to be added somehow. But it is interesting - in the sense that each region could have their own individualized and changing "threats" and "theme" over the campaign. For that to work, though, cards have to leave the deck somehow - and enter the deck somehow. That's particularly tricky to do while maintaining a rough balance of timers to triggers. One option is that only threat cards enter and leave that way.
+
+At the beginning of the campaign, each regional deck starts with certain cards in it - including the threats. At the end of each session, random threat cards are added to each deck. These grow in severity over time. Threat cards can be removed by spending achievements - some achievements let you tune your regional deck.
+
+### Pros
+
+Should be easier to set up / tear down, since each deck tracks its own state. So when you start play, can just shuffle and go. It also meets the criteria of threats which get harder over time, as well as having a different focus (for instance, Military, etc).
+
+### Cons
+
+Worried about dilution of other event types. Although, this could be fixed with rough number of timer/trigger cards for threats. The other issue is that threats could grow to dominate the deck. Of course, if they're bad enough - that would be motivation to use achievements to pull them out.
+
+It's also a little weird that going to a certain region changes where the threats are coming from.
+
+## Mission Deck Threat Option 2
+
+In this option, there is a pool of threat cards that changes over time. At the end of each session, new threats are added to this pool. Then, the threat cards are divided up into each deck for that mission.
+
+### Pros
+
+Has a more general "threat" agenda for the Empire - rather than the slightly weirder mix of threats from each region deck.
+
+### Cons
+
+Way more fiddly. Have to pull all of them out at the end of the game, add new ones, and shuffle them in again. Kind of a pain. There's also potentially strategy in having different regions have different kinds of threats.
+
+## Threat Rethink
+
+Thinking of getting rid of events (some of these events will get offloaded to character abilities - which makes more sense), and having threats go back to being mission cards, along with obstacles, scenes, and twists. How would a threat work, though? Is it more like a scene? More like an obstacle? Could you have multiple threats attacking the same resource track going at once?
+
+Threats feel more like obstacles than scenes, in the sense there probably should be multiple threats that can happen at once. The easiest is to give them all bust conditions that will lower a resource track. That way they can linger for a bit - but then activate if there's a bust. That does mean there's a conservative way to play, where you advance the stage yourself - and try not to bust. But, that could also mean the threat doesn't get discarded - so it'll be a dangerous way to play in the final phase. Also, if threats are shared, the bust could get triggered from either player?
+
+Players do get the opportunity to work against the threats, though - so it's somewhat workable. It's also less fiddly than trying to do a countdown with progress or something like that. Which is a pain.
+
+This means there wouldn't be defenses for spotlight locations anymore. And maybe there aren't even spotlight locations? This change would definitely ripple out. It does make sense, probably, to have threats be at a neutral location.
+
+# 07/14/21
+
+What's the structure of an obstacle card? Was thinking of having a defense section, which consists of various patterns of dice and progress numbers. Achievement cards are the means by which obstacles and scenes scale over time. However, they could add to the difficulty, the progress, or the defense. Progress may be the best of the three. It's nice because too high of a defense is boring, there would be too many failures. Somewhere around 3 or 4 is the sweet spot. Too much higher or lower isn't great.
+
+However, there's some weirdness going that route. If the obstacle progress changes between turns, a scene or obstacle could be completed when it isn't the players turn! Hmm. That's kind of strange. Attack or defense is cleaner in that sense.
+
+Should all scenes and obstacles have the same basic defense, then? Equal to the current difficulty? If they do, there's no reason to put that onto cards.
+
+## Obstacle/Scene Legend
+
+They all have a standard defense for one progress equal to the current mission difficulty. Then they have optional patterns for additional progress. Finally, they have optional patterns for stress, discord, and other effects. The progress amounts and stress effects do not vary. It could be nice to vary stress - but for now will try to use fixed amounts.
+
+## Splits, Merges, Even, Odd, Fixed
+
+Going forward with obstacles and scenes, it could be cool to match up attack, defense, and obstacle types with certain patterns of dice. That would allow characters to be better/worse at certain types of obstacles without making it explicit. For instance, high numbers (merge), could be more common for defense. While pairs (splits) could be better for attacking and making progress.
+
+Could even have low numbers be useful in some contexts.
+
+## Common Patterns
+
+There are generators and patterns. Patterns accept dice and generate either more dice or other effects.
+
+* Achievements
+   * Have a wide variety of patterns, don't usually generate anything else
+   * Always typed by one or more resource
+   * Total+: Adds up to the listed total
+   * Single+: The most common, matches a single die of the value or higher
+   * Single-: Matches a single die of the value or lower
+   * Single+ Type1, Single+ Type2, etc
+   * Pair: Pair of two different types
+   * Three of a kind: Three of a kind of three different types (hard!)
+   * Set: A set of any value of the listed types of dice
+* Obstacles
+* Scenes
+
+## Obstacle Movement
+
+Another wrinkle: there are now multiple locations with the same trigger type in play. That can wreak havoc for sequencing activations of obstacles. It used to be that only one location would activate during each trigger phase. Now there could be two or even three. This is mainly an issue for movement.
+
+You almost have to do: move all obstacles that can move. Then activate all spaces. Or do it the other way around: activate then move. But if it's by space, the sequencing is kind of a nightmare. Or you could have an entirely different movement phase.
+
+Were would a movement activation come from? Could put movement icons on the back of the trigger deck. Previously, experimented with an "acitve" scene that handled movement, based on icons. In some ways, it is nice to not clutter up cards with movement stuff. But there is no longer one active scene.
+
+Could always do the back of mission cards. Or could do achievement cards. Doing the back of mission cards would give played _a lot_ of info, so that's not ideal. When would obstacles move? Maybe at the start of each round.
+
 # 07/07/21
 
 Brainstorming standard mission deck.

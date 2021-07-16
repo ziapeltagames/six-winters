@@ -1,6 +1,5 @@
 region,trigger,type,name,skill,resource,block1,block2,block3
 
-"Empire","xxTIMER","Event","","","TBD","",""
 "Empire","xxTIMER","Twist","-1 Skill Die"
 "Empire","xxTIMER","Twist","+1 Skill Die"
 "Empire","xxMAIDEN","Twist","More Difficult"
@@ -18,5 +17,3 @@ region,trigger,type,name,skill,resource,block1,block2,block3
 "Empire","xxCRONE","Twist","Less Difficult"
 "Empire","xxCRONE","Twist","Reroll Assets"
 "Empire","xxCRONE","Twist","Higher Obstacle"
-"Empire","xxMAIDEN xxMOTHER xxCRONE","Event","","","TBD","",""
-"Empire","xxMAIDEN xxMOTHER xxCRONE","Event","","","TBD","",""
