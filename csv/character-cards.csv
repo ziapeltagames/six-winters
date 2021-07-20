@@ -1,4 +1,4 @@
-type,name,effect1,effect2
+category,name,effect1,effect2
 
 "Character","Thea","Bump: +1","Diplomacy: +1, +1"
 "Character","Thea","Bump: +1","Stability: +1, +1"

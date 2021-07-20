@@ -1,5 +1,11 @@
 # 07/16/21
 
+## Next Steps
+
+* Make a computer program that can represent one region - random locations, a draw deck, a timer discard, and an achievements deck.
+
+Things to look for: how many obstacles, scenes, and threats should be attached to a site? Is there a limit? Does there need to be? Are threats a kind of scene?
+
 ## Three Region Rules Option 2
 
 Might be able to have location cards and achievements come from one unified deck. Obstacles is quite a bit harder, though. Some sites could certainly be generic, while some could be tagged to regions. Achievements are also, in some sense, already broader than one region. They could span multiple regions.

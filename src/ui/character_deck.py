@@ -11,10 +11,10 @@ class CharacterCard:
     
     def __init__(self, cdict):
         
+        self.category = cdict['category']
         self.name = cdict['name']
         self.effect1 = cdict['effect1']
         self.effect2 = cdict['effect2']
-        self.type = cdict['type']
         
     def __str__(self):
         cstring = self.name + ' ' + self.effect1 + ' ' + self.effect2
@@ -24,15 +24,27 @@ class CharacterDeck(Deck):
     
     def __init__(self, csv_file):
         character_cards = []
+        
         self.character_names = []
+        self.trait_names = []
+        
         with open(csv_file) as csvfile:
             dreader = csv.DictReader(csvfile)
             for rowd in dreader:
+                
                 next_card = CharacterCard(rowd)
                 
-                if next_card.type == "Character" \
+                if next_card.category == "Character" \
                     and next_card.name not in self.character_names:
-                    self.character_names.append(next_card.name)
+                        self.character_names.append(next_card.name)
+                    
+                if next_card.category == 'Trait' \
+                    and next_card.name not in self.trait_names:
+                        self.trait_names.append(next_card.name)
+                        
+                # Ignoring traits for now
+                if next_card.category == 'Trait':
+                    continue
                 
                 character_cards.append(next_card)
                 
@@ -50,7 +62,7 @@ class CharacterDeck(Deck):
         
         for cc in self.cards:
             
-            if cc.type == "Character":
+            if cc.category == "Character":
                 if cc.name == ch1 or cc.name == ch2:
                     trimmed_characters.append(cc)
             else:

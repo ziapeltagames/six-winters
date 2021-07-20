@@ -1,5 +1,5 @@
-region,trigger,type,name,skill,resource,block1,block2,block3
+region,trigger
 
-"Empire","xxTIMER","Event","","","TBD","",""
-"Empire","xxMAIDEN xxMOTHER xxCRONE","Event","","","TBD","",""
-"Empire","xxMAIDEN xxMOTHER xxCRONE","Event","","","TBD","",""
+"Empire","xxMAIDEN","Event","","","TBD","",""
+"Empire","xxMOTHER",xxMOTHER xxCRONE","Event","","","TBD","",""
+"Empire","xxCRONE","Event","","","TBD","",""

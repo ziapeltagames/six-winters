@@ -9,52 +9,68 @@ from deck import Deck
 
 class MissionCard:
     
-    def __init__(self, mdict):
+    def __init__(self, cdict, category):
 
-        self.region = mdict['region']        
-        self.trigger = mdict['trigger']
-        self.title = mdict['title']
+        self.region = cdict['region'] 
+        self.trigger = cdict['trigger']
+        self.stage = cdict['stage']
+        self.name = cdict['name']
+        self.tags = cdict['tags']
+        self.skill = cdict['skill']
+        self.resource = cdict['resource']
+        self.defense = cdict['defense']
+        self.difficulty = cdict['difficulty']
+        self.attack = cdict['attack']
+        self.effect = cdict['effect']
+        self.activation = cdict['activation']
+        self.overcome = cdict['overcome']
+        self.bust = cdict['bust']
+        
+        self.category = category
         
     def __str__(self):
-        cstring = self.title
+        cstring = self.category + ' ' + self.name + ' ' + self.tags + ' ' + \
+            ' ' + self.skill + ' ' + self.resource + \
+            ' ' + self.defense + ' ' + self.difficulty + ' ' + self.attack + \
+            ' ' + self.effect + ' ' + self.activation + ' ' + self.bust
         return cstring
     
 class MissionDeck(Deck):
     
-    def __init__(self, csv_file):
+    def __init__(self, region, stage, obstacles, scenes, twists, threats):
+
         mission_cards = []
-        self.region_names = []        
+        
+        mission_cards.extend(self.read_deck(region, 
+                                            stage, 'Obstacle', obstacles))
+        mission_cards.extend(self.read_deck(region, 
+                                            stage, 'Scene', scenes))
+        mission_cards.extend(self.read_deck(region, 
+                                            stage, 'Twist', twists))
+        mission_cards.extend(self.read_deck(region, 
+                                            stage, 'Threat', threats))
+        
+        super().__init__(mission_cards)
+        
+    def read_deck(self, region, stage, category, csv_file):
+        
+        mission_cards = []
         with open(csv_file) as csvfile:
             dreader = csv.DictReader(csvfile)
             for rowd in dreader:
                 
-                next_card = MissionCard(rowd)
+                next_card = MissionCard(rowd, category)
                 
-                if next_card.region not in self.region_names:
-                    self.region_names.append(next_card.region)
-                    
-                mission_cards.append(MissionCard(rowd))
-        
-        super().__init__(mission_cards)
-        
-    # Retrieve all of the possible characters
-    def regions(self):
-        return self.region_names
+                if region not in next_card.region:
+                    continue
+                
+                if stage not in next_card.stage:
+                    continue
+                
+                mission_cards.append(next_card)
+
+        return mission_cards
     
-    # Use only the listed characters, with given commitment and discord
-    # levels, in the deck
-    def filter_regions(self, r1):
-        
-        trimmed_regions = []
-        
-        for mc in self.cards:
-            
-            if mc.region == r1:
-                trimmed_regions.append(mc)               
-        
-        self.region_names = [r1]
-        self.cards = trimmed_regions
-        
     def top_trigger(self):
         
         if len(self.cards) > 0:
@@ -66,7 +82,6 @@ class MissionDeck(Deck):
     def draw_triggers(self, stage):
 
         triggers = ["None", "None", "None"]
-        timer = False
         
         if len(self.cards) < stage:
             return triggers, False
@@ -74,18 +89,19 @@ class MissionDeck(Deck):
         for i in range(stage):   
             next_card = self.draw()
             next_trigger = next_card.trigger
-            if next_trigger == "xxTIMER":
-                timer = True
-                
             triggers[i] = next_trigger
             self.discard(next_card)
             
-        return triggers, timer
+        return triggers
                   
           
 if __name__ == "__main__":
     
-    cdeck = MissionDeck('../../csv/mission-cards.csv')
+    cdeck = MissionDeck('Empire', 'Starting', 
+                        '../../csv/mission-cards-obstacles.csv',
+                        '../../csv/mission-cards-scenes.csv',
+                        '../../csv/mission-cards-twists.csv',
+                        '../../csv/mission-cards-threats.csv')
     
     cc = cdeck.draw()
     print('draw', cc)
@@ -100,8 +116,6 @@ if __name__ == "__main__":
     cdeck.discard(cc)
     
     cdeck.shuffle()
-    
-    cdeck.filter_regions("Empire")
     
     cc = cdeck.draw()
     print('draw', cc)

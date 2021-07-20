@@ -1,14 +1,14 @@
-region,type,name,difficulty,task,bust,immediate,complete,reward
+region,stage,name,difficulty,task,immediate,reward
 
-"Empire","standard","Imperial Safe","xxACHIEVEMENT xxACHIEVEMENT","Overcome the Imperial Safe obstacle.","TBD","xxIMMEDIATE Play the Imperial Safe special mission card.","TBD","3 xxESPIONAGE"
-"Empire","standard","Scrying","xxACHIEVEMENT","4 xxPROGRESS","TBD","TBD","TBD","2 xxSORCERY"
-"Empire","standard","Safehouse Repairs","xxACHIEVEMENT","xxESPIONAGE xxTECHNOLOGY","TBD","TBD","TBD","2 xxESPIONAGE"
-"Empire","standard","Right Tool for the Job","xxACHIEVEMENT xxACHIEVEMENT","Matching: 2","TBD","TBD","TBD","4 xxTECHNOLOGY"
-"Empire","standard","Traveling Minstrels","xxACHIEVEMENT","3 xxPROGRESS","TBD","TBD","TBD","4 xxDISGUISE"
-"Empire","standard","Sleeping Draught","xxACHIEVEMENT","xxSORCERY","TBD","TBD","TBD","3 xxLORE"
-"Empire","standard","Heavy Bribes","xxACHIEVEMENT","4 xxESPIONAGE","TBD","TBD","TBD","4 xxTHIEVERY"
-"Empire","standard","Scrying","xxACHIEVEMENT","5 xxPROGRESS","TBD","TBD","TBD","3 xxTHREAT"
-"Empire","standard","Funding the Resistance","xxACHIEVEMENT","3 xxPROGRESS","TBD","TBD","TBD","2 xxTHREAT"
-"Empire","standard","Into the Cold","xxACHIEVEMENT xxACHIEVEMENT","Set: 3","TBD","TBD","TBD","3 xxCOMBAT"
+"Empire","Starting","Imperial Safe","xxACHIEVEMENT xxACHIEVEMENT xxACHIEVEMENT","Overcome the Imperial Safe obstacle.","xxIMMEDIATE Play the Imperial Safe special mission card.","3 xxESPIONAGE"
+"Empire","Starting","Scrying","xxACHIEVEMENT xxACHIEVEMENT","4 xxPROGRESS","TBD","2 xxSORCERY"
+"Empire","Starting","Safehouse Repairs","xxACHIEVEMENT xxACHIEVEMENT","xxESPIONAGE xxTECHNOLOGY","TBD","2 xxESPIONAGE"
+"Empire","Starting","Right Tool for the Job","xxACHIEVEMENT xxACHIEVEMENT xxACHIEVEMENT","Matching: 2","TBD","4 xxTECHNOLOGY"
+"Empire","Starting","Traveling Minstrels","xxACHIEVEMENT xxACHIEVEMENT","3 xxPROGRESS","TBD","4 xxDISGUISE"
+"Empire","Starting","Sleeping Draught","xxACHIEVEMENT xxACHIEVEMENT","xxSORCERY","TBD","3 xxLORE"
+"Empire","Starting","Heavy Bribes","xxACHIEVEMENT xxACHIEVEMENT","4 xxESPIONAGE","TBD","4 xxTHIEVERY"
+"Empire","Starting","Scrying","xxACHIEVEMENT xxACHIEVEMENT","5 xxPROGRESS","TBD","3 xxTHREAT"
+"Empire","Starting","Funding the Resistance","xxACHIEVEMENT xxACHIEVEMENT","3 xxPROGRESS","TBD","2 xxTHREAT"
+"Empire","Starting","Into the Cold","xxACHIEVEMENT xxACHIEVEMENT xxACHIEVEMENT","Set: 3","TBD","3 xxCOMBAT"
 
-"Empire","special","The Torturer","xxACHIEVEMENT","4 xxPROGRESS","TBD","TBD","TBD","3 xxTHREAT"
+"Empire","Special","The Torturer","xxACHIEVEMENT xxACHIEVEMENT","4 xxPROGRESS","TBD","3 xxTHREAT"

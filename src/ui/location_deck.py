@@ -9,25 +9,23 @@ from deck import Deck
 
 class LocationCard:
     
-    def __init__(self, ldict):
+    def __init__(self, cdict):
 
-        print(ldict)
-        
-        self.name = ldict['name']        
-        self.skill = ldict['skill']
-        self.society = ldict['society']
-        self.region = ldict['region']
-        self.trigger = ldict['trigger']
-        self.tags = ldict['tags']
+        self.region = cdict['region']
+        self.stage = cdict['stage']        
+        self.name = cdict['name']
+        self.tags = cdict['tags']
+        self.skill = cdict['skill']
+        self.resource = cdict['resource']
         
     def __str__(self):
-        cstring = self.name + ' ' + self.skill + ' ' + self.society + \
-            ' ' +self.tags + ' ' + self.trigger
+        cstring = self.name + ' ' + self.tags + \
+            ' ' +self.skill + ' ' + self.resource
         return cstring
     
 class LocationDeck(Deck):
     
-    def __init__(self, csv_file, region):
+    def __init__(self, csv_file, region, stage):
         location_cards = []       
         with open(csv_file) as csvfile:
             dreader = csv.DictReader(csvfile)
@@ -37,15 +35,19 @@ class LocationDeck(Deck):
                 
                 if region not in next_card.region:
                     continue
+                
+                if stage not in next_card.stage:
+                    continue
                     
-                location_cards.append(LocationCard(rowd))
+                location_cards.append(next_card)
         
         super().__init__(location_cards)
                   
           
 if __name__ == "__main__":
     
-    ldeck = LocationDeck('../../csv/location-cards.csv', 'Empire')
+    ldeck = LocationDeck('../../csv/location-cards.csv', 
+                         'Empire', 'Starting')
     
     cc = ldeck.draw()
     print('draw', cc)

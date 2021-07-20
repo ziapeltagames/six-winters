@@ -1,19 +1,19 @@
-region,trigger,type,name,skill,resource,block1,block2,block3
+region,trigger,stage,name,tags,skill,resource,defense,difficulty,attack,effect,activation,overcome,bust
 
-"Empire","xxTIMER","Twist","-1 Skill Die"
-"Empire","xxTIMER","Twist","+1 Skill Die"
-"Empire","xxMAIDEN","Twist","More Difficult"
-"Empire","xxMAIDEN","Twist","Less Difficult"
-"Empire","xxMAIDEN","Twist","Higher Obstacle"
-"Empire","xxMAIDEN","Twist","Lower Obstacle"
-"Empire","xxMAIDEN","Twist","Add Combat"
-"Empire","xxMAIDEN","Twist","Add Lore"
-"Empire","xxMAIDEN","Twist","Add Espionage"
-"Empire","xxMOTHER","Twist","Add Rapport"
-"Empire","xxMOTHER","Twist","Add Command"
-"Empire","xxMOTHER","Twist","Add Stability"
-"Empire","xxMOTHER","Twist","Faster Movement"
-"Empire","xxMOTHER","Twist","Remove Asset"
-"Empire","xxCRONE","Twist","Less Difficult"
-"Empire","xxCRONE","Twist","Reroll Assets"
-"Empire","xxCRONE","Twist","Higher Obstacle"
+"Empire","xxTIMER","Starting","Twist Name","Tags",,,,,,"-1 Skill Die",,,
+"Empire","xxTIMER","Starting","Twist Name","Tags",,,,,,"+1 Skill Die",,,
+"Empire","xxMAIDEN","Starting","Twist Name","Tags",,,,,,"More Difficult",,,
+"Empire","xxMAIDEN","Starting","Twist Name","Tags",,,,,,"Less Difficult",,,
+"Empire","xxMAIDEN","Starting","Twist Name","Tags",,,,,,"Higher Obstacle",,,
+"Empire","xxMAIDEN","Starting","Twist Name","Tags",,,,,,"Lower Obstacle",,,
+"Empire","xxMAIDEN","Starting","Twist Name","Tags",,,,,,"Add Combat",,,
+"Empire","xxMAIDEN","Starting","Twist Name","Tags",,,,,,"Add Lore",,,
+"Empire","xxMAIDEN","Starting","Twist Name","Tags",,,,,,"Add Espionage",,,
+"Empire","xxMOTHER","Starting","Twist Name","Tags",,,,,,"Add Rapport",,,
+"Empire","xxMOTHER","Starting","Twist Name","Tags",,,,,,"Add Command",,,
+"Empire","xxMOTHER","Starting","Twist Name","Tags",,,,,,"Add Stability",,,
+"Empire","xxMOTHER","Starting","Twist Name","Guard",,,,,,"Faster Movement",,,
+"Empire","xxMOTHER","Starting","Twist Name","Tags",,,,,,"Remove Asset",,,
+"Empire","xxCRONE","Starting","Twist Name","Tags",,,,,,"Less Difficult",,,
+"Empire","xxCRONE","Starting","Twist Name","Tags",,,,,,"Reroll Assets",,,
+"Empire","xxCRONE","Starting","Twist Name","Tags",,,,,,"Higher Obstacle",,,
