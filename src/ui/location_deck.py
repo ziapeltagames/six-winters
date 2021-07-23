@@ -74,3 +74,6 @@ if __name__ == "__main__":
     cc = ldeck.draw()
     print('draw', cc)
     ldeck.discard(cc)
+    
+    for i in range(30):
+        ldeck.draw()

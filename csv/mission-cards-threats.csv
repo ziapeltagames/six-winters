@@ -1,5 +1,5 @@
 region,trigger,stage,name,tags,skill,resource,defense,difficulty,attack,effect,activation,overcome,bust
 
-"Empire","xxMAIDEN","Starting","Threat Name","Tags","Skill","Resource","Defense","Difficulty","Attack","Effect","Activation","Overcome","xxBUST Lower stability track."
-"Empire","xxMOTHER","Starting","Threat Name","Tags","Skill","Resource","Defense","Difficulty","Attack","Effect","Activation","Overcome","xxBUST Lower military track."
-"Empire","xxCRONE","Starting","Threat Name","Tags","Skill","Resource","Defense","Difficulty","Attack","Effect","Activation","Overcome","xxBUST Lower diplomacy track."
+"Empire","xxMAIDEN","Starting","Name","Tags","Skill","Resource","Defense","Difficulty","Attack","Effect","Activation","Overcome","xxBUST Lower stability track."
+"Empire","xxMOTHER","Starting","Name","Tags","Skill","Resource","Defense","Difficulty","Attack","Effect","Activation","Overcome","xxBUST Lower military track."
+"Empire","xxCRONE","Starting","Name","Tags","Skill","Resource","Defense","Difficulty","Attack","Effect","Activation","Overcome","xxBUST Lower diplomacy track."

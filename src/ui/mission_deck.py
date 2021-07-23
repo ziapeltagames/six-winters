@@ -79,21 +79,25 @@ class MissionDeck(Deck):
             return "Empty"
         
     # Draw a number of cards equal to stage, return list of triggers
-    def draw_triggers(self, stage):
-
-        triggers = ["None", "None", "None"]
+    def draw_triggers(self, month):
         
-        if len(self.cards) < stage:
-            return triggers, False
+        if month > 3:
+            month = 3
+
+        triggers = ["", "", ""]
     
-        for i in range(stage):   
+        for i in range(month):   
             next_card = self.draw()
-            next_trigger = next_card.trigger
-            triggers[i] = next_trigger
-            self.discard(next_card)
+            
+            if next_card:
+                next_trigger = next_card.trigger
+                triggers[i] = next_trigger
+                self.discard(next_card)
+                
+            else:
+                return None
             
         return triggers
-                  
           
 if __name__ == "__main__":
     
