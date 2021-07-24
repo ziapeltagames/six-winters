@@ -7,6 +7,7 @@ import csv
 
 from deck import Deck
 
+
 class MissionCard:
     
     def __init__(self, cdict, category):
@@ -29,10 +30,7 @@ class MissionCard:
         self.category = category
         
     def __str__(self):
-        cstring = self.category + ' ' + self.name + ' ' + self.tags + ' ' + \
-            ' ' + self.skill + ' ' + self.resource + \
-            ' ' + self.defense + ' ' + self.difficulty + ' ' + self.attack + \
-            ' ' + self.effect + ' ' + self.activation + ' ' + self.bust
+        cstring = self.category + ' ' + self.name + ' ' + self.tags
         return cstring
     
 class MissionDeck(Deck):

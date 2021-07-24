@@ -8,7 +8,7 @@ A ui for modeling one region in Six Winters.
 import sys
 
 from PyQt5.QtWidgets import QApplication, QGridLayout, QWidget, QListWidget, \
-    QPushButton, QLabel, QDialog, QComboBox, QListWidgetItem
+    QPushButton, QLabel, QListWidgetItem, QDialog, QComboBox
     
 from PyQt5.QtGui import QFont
 
@@ -19,6 +19,42 @@ from sixwinters import SixWinters
 from location_deck import LocationDeck
 from achievement_deck import AchievementDeck
 
+# Retrieve choices for characters, region, and year
+class MissionDialog(QDialog):
+    
+    def __init__(self, rnames, parent = None):
+        
+        super().__init__(parent)
+        
+        grid = QGridLayout(self)
+        
+        row = 0
+        
+        grid.addWidget(QLabel("Region"), row, 0)     
+        grid.addWidget(QLabel("Year"), row, 2)
+
+        self.rcb = QComboBox()
+        self.rcb.addItems(rnames)        
+        grid.addWidget(self.rcb, row, 1)
+
+        self.ycb = QComboBox()
+        self.ycb.addItems(["1", "2", "3", "4", "5", "6"])
+        grid.addWidget(self.ycb, row, 3)
+        
+        row = 1
+        
+        self.button_ok = QPushButton("OK")
+        grid.addWidget(self.button_ok, row, 9)
+        self.button_ok.clicked.connect(self.ok_clicked)
+        
+    def ok_clicked(self):
+        self.close()
+        
+    def get_inputs(self):
+        
+        return (self.rcb.currentText(),
+                self.ycb.currentText())
+    
 def update_mission_card_labels():
     
     md_draw_label.setText(str(mdeck.draw_size()))
@@ -42,8 +78,16 @@ def location_clicked(loc):
 
     if len(selected_items) > 0:
         selected_card = selected_items[0].data(Qt.UserRole)
-        mission_selected_card_label.setText(str(selected_card))
-    
+        selected_effect.setText(selected_card.effect)
+        selected_activation.setText(selected_card.activation)
+        selected_overcome.setText(selected_card.overcome)
+        selected_bust.setText(selected_card.bust)
+        selected_sr.setText(selected_card.skill + ' ' + selected_card.resource)
+        selected_defense.setText(selected_card.defense)
+        selected_difficulty.setText(selected_card.difficulty)
+        selected_attack.setText(selected_card.attack)
+        selected_name.setText(selected_card.name + ' ' + selected_card.tags)
+        
     for i, nl in enumerate(locs): 
         
         if i == loc:
@@ -185,8 +229,15 @@ if __name__ == "__main__":
     custom_font.setWeight(12);
     app.setFont(custom_font, "QLabel")
     
+    # Retrieve Mission Info
+    md = MissionDialog(["Empire", "Red Bank", "Settled Lands"])
+    md.setWindowTitle("Load Mission")
+    md.show()
+    md.exec_()
+    
+    (region, year) = md.get_inputs()
+    
     # Transfer these to arguments at some point
-    region = 'Empire'
     stage = 'Starting'
     
     # Load decks    
@@ -214,7 +265,7 @@ if __name__ == "__main__":
 
     row = 0
     
-    title_label = QLabel("Six Winters Region Tableau")
+    title_label = QLabel("Six Winters " + region + " Tableau")
     header_font = title_label.font()
     header_font.setPointSize(12)
     title_label.setFont(header_font)
@@ -333,11 +384,50 @@ if __name__ == "__main__":
     grid.addWidget(locs[0], row, 0, 1, 2)
     grid.addWidget(locs[1], row, 2, 1, 2)
     grid.addWidget(locs[2], row, 4, 1, 2)
+
+    row = row + 1
+
+    selected_name = QLabel("")
+    grid.addWidget(selected_name, row, 0, 1, 6, alignment=Qt.AlignCenter)
+    
+    row = row + 1
+
+    selected_effect = QLabel("")
+    grid.addWidget(selected_effect, row, 0, 1, 3)    
+    selected_activation = QLabel("")
+    grid.addWidget(selected_activation, row, 3, 1, 3)
+    
+    row = row + 1
+    
+    selected_overcome = QLabel("")
+    grid.addWidget(selected_overcome, row, 0, 1, 3)  
+    selected_bust = QLabel("")
+    grid.addWidget(selected_bust, row, 3, 1, 3)  
+    
+    row = row + 1
+    
+    grid.addWidget(QLabel("Skill / Resource"), row, 0)
+    grid.addWidget(QLabel("Defense"), row, 1, 1, 2)
+    grid.addWidget(QLabel("Difficulty"), row, 3)
+    grid.addWidget(QLabel("Attack"), row, 4, 1, 2)
     
     row = row + 1 
     
-    mission_selected_card_label = QLabel("None Selected")
-    grid.addWidget(mission_selected_card_label, row, 0, 1, 6)
+    selected_sr = QLabel("")
+    selected_sr.setFont(sw_font)
+    grid.addWidget(selected_sr, row, 0)
+    
+    selected_defense = QLabel("")
+    selected_defense.setFont(sw_font)
+    grid.addWidget(selected_defense, row, 1, 1, 2)
+    
+    selected_difficulty = QLabel("")
+    selected_difficulty.setFont(sw_font)
+    grid.addWidget(selected_difficulty, row, 3)
+    
+    selected_attack = QLabel("")
+    selected_attack.setFont(sw_font)
+    grid.addWidget(selected_attack, row, 4, 1, 2)
 
     row = row + 1 
 
