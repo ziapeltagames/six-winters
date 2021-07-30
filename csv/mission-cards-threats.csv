@@ -1,5 +1,43 @@
-region,trigger,stage,name,tags,skill,resource,defense,difficulty,attack,effect,activation,overcome,bust
+trigger,stage,defense,resource
 
-"Empire","xxMAIDEN","Starting","Name","Tags","Skill","Resource","Defense","Difficulty","Attack","Effect","Activation","Overcome","xxBUST Lower stability track."
-"Empire","xxMOTHER","Starting","Name","Tags","Skill","Resource","Defense","Difficulty","Attack","Effect","Activation","Overcome","xxBUST Lower military track."
-"Empire","xxCRONE","Starting","Name","Tags","Skill","Resource","Defense","Difficulty","Attack","Effect","Activation","Overcome","xxBUST Lower diplomacy track."
+"xxMOTHER","Starting","xxTWOxxPLUS","xxSTABILITY"
+"xxMAIDEN","Starting","xxTWOxxPLUS","xxSTABILITY"
+"xxCRONE","Starting","xxTHREExxPLUS","xxSTABILITY"
+"xxMOTHER","Starting","xxTHREExxPLUS","xxSTABILITY"
+"xxMAIDEN","Starting","xxFOURxxPLUS","xxSTABILITY"
+"xxCRONE","Starting","xxFOURxxPLUS","xxSTABILITY"
+
+"xxMOTHER","Starting","xxTWOxxPLUS","xxESPIONAGE"
+"xxMAIDEN","Starting","xxTWOxxPLUS","xxESPIONAGE"
+"xxCRONE","Starting","xxTHREExxPLUS","xxESPIONAGE"
+"xxMOTHER","Starting","xxTHREExxPLUS","xxESPIONAGE"
+"xxMAIDEN","Starting","xxFOURxxPLUS","xxESPIONAGE"
+"xxCRONE","Starting","xxFOURxxPLUS","xxESPIONAGE"
+
+"xxMOTHER","Starting","xxTWOxxPLUS","xxSORCERY"
+"xxMAIDEN","Starting","xxTWOxxPLUS","xxSORCERY"
+"xxCRONE","Starting","xxTHREExxPLUS","xxSORCERY"
+"xxMOTHER","Starting","xxTHREExxPLUS","xxSORCERY"
+"xxMAIDEN","Starting","xxFOURxxPLUS","xxSORCERY"
+"xxCRONE","Starting","xxFOURxxPLUS","xxSORCERY"
+
+"xxMOTHER","Starting","xxTWOxxPLUS","xxDIPLOMACY"
+"xxMAIDEN","Starting","xxTHREExxPLUS","xxDIPLOMACY"
+"xxCRONE","Starting","xxFOURxxPLUS","xxDIPLOMACY"
+"xxMOTHER","Starting","xxTWOxxPLUS","xxDIPLOMACY"
+"xxMAIDEN","Starting","xxTHREExxPLUS","xxDIPLOMACY"
+"xxCRONE","Starting","xxFOURxxPLUS","xxDIPLOMACY"
+
+"xxMOTHER","Starting","xxTWOxxPLUS","xxTECHNOLOGY"
+"xxMAIDEN","Starting","xxTHREExxPLUS","xxTECHNOLOGY"
+"xxCRONE","Starting","xxFOURxxPLUS","xxTECHNOLOGY"
+"xxMOTHER","Starting","xxTWOxxPLUS","xxTECHNOLOGY"
+"xxMAIDEN","Starting","xxTHREExxPLUS","xxTECHNOLOGY"
+"xxCRONE","Starting","xxFOURxxPLUS","xxTECHNOLOGY"
+
+"xxMOTHER","Starting","xxTWOxxPLUS","xxMILITARY"
+"xxMAIDEN","Starting","xxTHREExxPLUS","xxMILITARY"
+"xxCRONE","Starting","xxFOURxxPLUS","xxMILITARY"
+"xxMOTHER","Starting","xxTWOxxPLUS","xxMILITARY"
+"xxMAIDEN","Starting","xxTHREExxPLUS","xxMILITARY"
+"xxCRONE","Starting","xxFOURxxPLUS","xxMILITARY"

@@ -1,26 +1,26 @@
 region,stage,name,tags,skill,resource
 
-"Empire","Starting","Guild of Pleasure","Urban",xxDISGUISE,xxDIPLOMACY
-"Empire","Starting","Guild of Security","Urban",xxDISGUISE,xxESPIONAGE
-"Empire","Starting","Guild of Scribes","Urban",xxDISGUISE,xxSORCERY
+"Empire","Standard","Guild of Pleasure","Urban",xxDISGUISE,xxDIPLOMACY
+"Empire","Standard","Guild of Security","Urban",xxDISGUISE,xxESPIONAGE
+"Empire","Standard","Guild of Scribes","Urban",xxDISGUISE,xxSORCERY
 "Empire","Starting","The Rosy Freetrader","Tavern",xxDISGUISE,xxESPIONAGE
-"Empire","Starting","Ma Bonnie's Squidery","Tavern",xxDISGUISE,xxSTABILITY
-"Empire","Starting","Gray Vault","Vault",xxDISGUISE,xxTECHNOLOGY
+"Empire","Standard","Ma Bonnie's Squidery","Tavern",xxDISGUISE,xxSTABILITY
+"Empire","Standard","Gray Vault","Vault",xxDISGUISE,xxTECHNOLOGY
 "Empire","Starting","Whitehold","Vault",xxTHIEVERY,xxTECHNOLOGY
-"Empire","Starting","The Dawncaves","Dungeon",xxTHIEVERY,xxSORCERY
-"Empire","Starting","Graycloak Barracks","Vault",xxTHIEVERY,xxESPIONAGE
-"Empire","Starting","Prominence","Hall",xxTHIEVERY,xxDIPLOMACY
-"Empire","Starting","Guild of Secrets","Vault",xxCOMBAT,xxESPIONAGE
-"Empire","Starting","Firstborn Peak","Wilderness",xxCOMBAT,xxSORCERY
-"Empire","Starting","Nalah's Forge","Urban",xxCOMBAT,xxTECHNOLOGY
+"Empire","Standard","The Dawncaves","Dungeon",xxTHIEVERY,xxSORCERY
+"Empire","Standard","Graycloak Barracks","Vault",xxTHIEVERY,xxESPIONAGE
+"Empire","Standard","Prominence","Hall",xxTHIEVERY,xxDIPLOMACY
+"Empire","Standard","Guild of Secrets","Vault",xxCOMBAT,xxESPIONAGE
+"Empire","Standard","Firstborn Peak","Wilderness",xxCOMBAT,xxSORCERY
+"Empire","Standard","Nalah's Forge","Urban",xxCOMBAT,xxTECHNOLOGY
 "Empire","Starting","Southkeep","Urban",xxCOMBAT,xxMILITARY
-"Empire","Starting","The Wharf Quarter","Urban",xxLORE,xxESPIONAGE
-"Empire","Starting","House of Silver","Hall",xxLORE,xxTECHNOLOGY
-"Empire","Starting","House of Copper","Urban",xxLORE,xxSORCERY
-"Empire","Starting","Guild of Warfare","Hall",xxTACTICS,xxMILITARY
-"Empire","Starting","Eastkeep","Urban",xxTACTICS,xxSTABILITY
-"Empire","Starting","Yearly Field","Rural",xxSURVIVAL,xxMILITARY
-"Empire","Starting","Gold River Bridge","Urban",xxSURVIVAL,xxTECHNOLOGY
-"Empire","Starting","Guilder Farms","Rural",xxCOMMAND,xxDIPLOMACY
-"Empire","Starting","Dowling Manor","Rural",xxRAPPORT,xxSTABILITY
-"Empire","Starting","Dreadvault","Vault",xxTHIEVERY,xxESPIONAGE
+"Empire","Standard","The Wharf Quarter","Urban",xxLORE,xxESPIONAGE
+"Empire","Standard","House of Silver","Hall",xxLORE,xxTECHNOLOGY
+"Empire","Standard","House of Copper","Urban",xxLORE,xxSORCERY
+"Empire","Standard","Guild of Warfare","Hall",xxTACTICS,xxMILITARY
+"Empire","Standard","Eastkeep","Urban",xxTACTICS,xxSTABILITY
+"Empire","Standard","Yearly Field","Rural",xxSURVIVAL,xxMILITARY
+"Empire","Standard","Gold River Bridge","Urban",xxSURVIVAL,xxTECHNOLOGY
+"Empire","Standard","Guilder Farms","Rural",xxCOMMAND,xxDIPLOMACY
+"Empire","Standard","Dowling Manor","Rural",xxRAPPORT,xxSTABILITY
+"Empire","Standard","Dreadvault","Vault",xxTHIEVERY,xxESPIONAGE

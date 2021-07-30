@@ -10,11 +10,24 @@ from deck import Deck
 
 class MissionCard:
     
-    def __init__(self, cdict, category):
-
+    def __init__(self, cdict, category, region = None):
+        
+        # Threats don't have most of the usual mission card data
+        if category == 'Threat':
+            cdict['region'] = region
+            cdict['name'] = ""
+            cdict['tags'] = ""
+            cdict['skill'] = ""
+            cdict['difficulty'] = ""
+            cdict['attack'] = ""
+            cdict['effect'] = ""
+            cdict['activation'] = ""
+            cdict['overcome'] = ""
+            cdict['bust'] = ""
+        
         self.region = cdict['region'] 
         self.trigger = cdict['trigger']
-        self.stage = cdict['stage']
+        self.stage = cdict['stage']        
         self.name = cdict['name']
         self.tags = cdict['tags']
         self.skill = cdict['skill']
@@ -30,12 +43,12 @@ class MissionCard:
         self.category = category
         
     def __str__(self):
-        cstring = self.category + ' ' + self.name + ' ' + self.tags
+        cstring = self.category + ' ' + self.name
         return cstring
     
 class MissionDeck(Deck):
     
-    def __init__(self, region, stage, obstacles, scenes, twists, threats):
+    def __init__(self, region, stage, obstacles, scenes, threats):
 
         mission_cards = []
         
@@ -43,8 +56,6 @@ class MissionDeck(Deck):
                                             stage, 'Obstacle', obstacles))
         mission_cards.extend(self.read_deck(region, 
                                             stage, 'Scene', scenes))
-        mission_cards.extend(self.read_deck(region, 
-                                            stage, 'Twist', twists))
         mission_cards.extend(self.read_deck(region, 
                                             stage, 'Threat', threats))
         
@@ -57,7 +68,10 @@ class MissionDeck(Deck):
             dreader = csv.DictReader(csvfile)
             for rowd in dreader:
                 
-                next_card = MissionCard(rowd, category)
+                if category == 'Threat':
+                    next_card = MissionCard(rowd, category, region)
+                else:
+                    next_card = MissionCard(rowd, category)
                 
                 if region not in next_card.region:
                     continue
@@ -102,7 +116,6 @@ if __name__ == "__main__":
     cdeck = MissionDeck('Empire', 'Starting', 
                         '../../csv/mission-cards-obstacles.csv',
                         '../../csv/mission-cards-scenes.csv',
-                        '../../csv/mission-cards-twists.csv',
                         '../../csv/mission-cards-threats.csv')
     
     cc = cdeck.draw()

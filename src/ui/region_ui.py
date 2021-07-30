@@ -78,15 +78,15 @@ def location_clicked(loc):
 
     if len(selected_items) > 0:
         selected_card = selected_items[0].data(Qt.UserRole)
-        selected_effect.setText(selected_card.effect)
-        selected_activation.setText(selected_card.activation)
-        selected_overcome.setText(selected_card.overcome)
-        selected_bust.setText(selected_card.bust)
+        selected_effect.setText('Effect: '+selected_card.effect)
+        selected_activation.setText('Activation: '+selected_card.activation)
+        selected_overcome.setText('Overcome: '+selected_card.overcome)
+        selected_bust.setText('Bust: '+selected_card.bust)
         selected_sr.setText(selected_card.skill + ' ' + selected_card.resource)
         selected_defense.setText(selected_card.defense)
         selected_difficulty.setText(selected_card.difficulty)
         selected_attack.setText(selected_card.attack)
-        selected_name.setText(selected_card.name + ' ' + selected_card.tags)
+        selected_name.setText(selected_card.name + '     ' + selected_card.tags)
         
     for i, nl in enumerate(locs): 
         
@@ -186,19 +186,31 @@ def shuffle_mission_cards():
 def ach_completed_1():
     na = adeck.draw()
     if na:
-        a_label_1.setText(na.name + " " + na.task)
+        a_name_1.setText(na.name)
+        a_task_1.setText('Task: '+na.task)
+        a_immediate_1.setText(na.immediate)
+        a_reward_1.setText('Reward: '+na.reward)
         diff1.setText(na.difficulty)
     else:
-        a_label_1.setText("")
+        a_name_1.setText("")
+        a_task_1.setText("")
+        a_immediate_1.setText("")
+        a_reward_1.setText("")
         diff1.setText("")
     
 def ach_completed_2():
     na = adeck.draw()
     if na:
-        a_label_2.setText(na.name + " " + na.task)
+        a_name_2.setText(na.name)
+        a_task_2.setText('Task: '+na.task)
+        a_immediate_2.setText(na.immediate)
+        a_reward_2.setText('Reward: '+na.reward)
         diff2.setText(na.difficulty)
     else:
-        a_label_2.setText("")
+        a_name_2.setText("")
+        a_task_2.setText("")
+        a_immediate_2.setText("")
+        a_reward_2.setText("")
         diff2.setText("")
     
 # Probably should be in mission deck?
@@ -244,7 +256,6 @@ if __name__ == "__main__":
     mdeck = MissionDeck(region, stage, 
                         '../../csv/mission-cards-obstacles.csv',
                         '../../csv/mission-cards-scenes.csv',
-                        '../../csv/mission-cards-twists.csv',
                         '../../csv/mission-cards-threats.csv')
     
     ldeck = LocationDeck('../../csv/location-cards.csv', region, stage)
@@ -392,16 +403,16 @@ if __name__ == "__main__":
     
     row = row + 1
 
-    selected_effect = QLabel("")
+    selected_effect = QLabel("Effect: ")
     grid.addWidget(selected_effect, row, 0, 1, 3)    
-    selected_activation = QLabel("")
+    selected_activation = QLabel("Activation: ")
     grid.addWidget(selected_activation, row, 3, 1, 3)
     
     row = row + 1
     
-    selected_overcome = QLabel("")
+    selected_overcome = QLabel("Overcome: ")
     grid.addWidget(selected_overcome, row, 0, 1, 3)  
-    selected_bust = QLabel("")
+    selected_bust = QLabel("Bust: ")
     grid.addWidget(selected_bust, row, 3, 1, 3)  
     
     row = row + 1
@@ -490,26 +501,44 @@ if __name__ == "__main__":
     a_complete_1 = QPushButton("Complete")
     grid.addWidget(a_complete_1, row, 0)
     a_complete_1.clicked.connect(ach_completed_1)
-    
-    a_label_1 = QLabel(acard1.name + " " + acard1.task)
-    grid.addWidget(a_label_1, row, 1, 1, 2)
 
-    a_complete_2 = QPushButton("Complete")
-    grid.addWidget(a_complete_2, row, 3)    
-    a_complete_2.clicked.connect(ach_completed_2)
-    
-    a_label_2 = QLabel(acard2.name + " " + acard2.task)
-    grid.addWidget(a_label_2, row, 4, 1, 2)
-    
-    row = row + 1
-    
     diff1 = QLabel(acard1.difficulty)
     diff1.setFont(sw_font)
     grid.addWidget(diff1, row, 1)
     
+    a_name_1 = QLabel(acard1.name)
+    grid.addWidget(a_name_1, row, 2)
+
+    a_complete_2 = QPushButton("Complete")
+    grid.addWidget(a_complete_2, row, 3)    
+    a_complete_2.clicked.connect(ach_completed_2)
+
     diff2 = QLabel(acard2.difficulty)
     diff2.setFont(sw_font)
-    grid.addWidget(diff2, row, 4)    
+    grid.addWidget(diff2, row, 4) 
+    
+    a_name_2 = QLabel(acard2.name)
+    grid.addWidget(a_name_2, row, 5)
+    
+    row = row + 1
+    
+    a_task_1 = QLabel('Task: '+acard1.task)
+    grid.addWidget(a_task_1, row, 0)
+
+    a_reward_1 = QLabel('Reward: '+acard1.reward)
+    grid.addWidget(a_reward_1, row, 1)  
+    
+    a_immediate_1 = QLabel(acard1.immediate)
+    grid.addWidget(a_immediate_1, row, 2) 
+    
+    a_task_2 = QLabel('Task: '+acard2.task)
+    grid.addWidget(a_task_2, row, 3)
+    
+    a_reward_2 = QLabel('Reward: '+acard2.reward)
+    grid.addWidget(a_reward_2, row, 4)   
+
+    a_immediate_2 = QLabel(acard2.immediate)
+    grid.addWidget(a_immediate_2, row, 5)
     
     w.show()
     sys.exit(app.exec_())

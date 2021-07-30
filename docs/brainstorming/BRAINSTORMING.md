@@ -1,3 +1,92 @@
+# 07/28/21
+
+## Character Card Abilities
+
+* Split a die
+* Merge two dice
+* Reroll a di(c)e
+* Duplicate a di(c)e
+* Gain a di(c)e of a certain type
+* Cause stress directly (Attack)
+* Exchange di(c)e in resource pools
+* Swap out 1 die for other dice (6 --> 2 ones)
+* Defense
+* +1
+* -1
+* Flip die
+* Exploding dice
+* Exploding dice by type (sorcery)
+* Immediate effects: sorcery backlash, discord, etc, based on traits
+
+## Spotlight Locations
+
+Maybe some locations have special actions (trade, recover stress, etc) that take some amount of action points. It would make it a little cleaner - cards wouldn't have to be split up so much.
+
+## Trade
+
+Probably needs to be driven by cards. Could also be a location action. It could also be an option all the time - but that gets a little cumbersome, and it seems like it would distract from the game. How would it work if it's from a card? Is it limited by a resource type? As in, Thea can exchange into or out of Stability? Or is it open ended trading from any resource to any resource. The problem with using cards is that it will be fairly limited, and limited it even more by not allowing trading from anywhere could be an issue.
+
+Or maybe you can trade as an action while on a related resource location? Or from a Red Bank location?
+
+## Card Play
+
+Most cards modify dice. They may be played during a test. Even this is tricky - for example, if you have a +1 card, can you play it on a resource die, and then not take the resource die? Essentially modifying what's in the pool? That's one step away from just letting players play cards whenever.
+
+You may only play cards during a test: can play them on either skill dice or resource dice. Seems cleaner at that point to allow cards to modify skill dice or resource dice matching the location type. Maybe obstacles don't have resource dice types? Was already headed that way - and that would make this rule much cleaner. Would that get wonky? Maybe not. Some obstacles might be fixed at a location, so the resource die would be fixed. Cards that move could change what's useful - guards could be Disguise + Stability or Disguise + Espionage. This changes the fiction, how the guard is overcome in the narrative. But it would probably make sense still. And then card play is very clean: test dice or resource dice either invested at the location or from the pool matching the location type. That lets players modify invested dice and resource pool dice. The key point: you do have to be at the location, so movement would matter.
+
+## Tests (Overcome)
+
+* Roll skill dice
+* Allocate resources from related pool
+   * Each skill die may take one resource die if skill die >= resource die
+* Allocate invested resource
+   * Resources at site character is located at may be invested freely
+* Cards may be played as desired
+
+## Tests (Invest)
+
+* Roll skill dice
+* Allocate resources from related pool
+   * Each skill die may take on resource die if skill die >= resource die
+* Cards played as desired
+
+## Invested Resources
+
+Can players modify invested resources? How? One valid option is to make it impossible, although that could be somewhat frustrating and limit options.
+
+* Can't change invested resources
+   * Easiest to remember via rules, but it could result in resources not getting used
+* Any card can be used to change invested resources
+   * High cognitive load
+   * Makes the spatial game matter much less
+* May only play cards at dice at character's location
+   * This isn't a bad option, a little fiddly on the rules front
+* Cards are explicitly for invested resources
+   * Really limited ability - not going to be used very often
+* Can change invested resources during a test
+   * Also okay, but becomes more about the test?
+
+# 07/25/21
+
+* Finished the region and character deck programs
+* Need to come up with some initial rules for card limits
+
+## Threat Brainstorming
+
+Unifying the threat deck makes sense in the 9 location version of SW. But it would be nice if threats had their own flavor - beyond just the ability to lower resource tracks. The one nice thing about the earlier threat pattern: threats weren't tied to the same cycle of timers, and it was somewhat unclear when they would trigger. Getting rid of twists, and using threats in their place could be interesting. What if threats are just placed at locations, like they were before for spotlight locations? Since each location is tied to a resource, the threat could attack the resource of the attached location.
+
+### Threat Option 1
+
+Get rid of twists, and there are 13 or 14 threat cards in the mission deck. They have different backs, making it easier to distinguish them. They enter play face down at the site. Getting rid of them is based on current difficulty. But you need a number of successes equal to the number of threats, you can't do partial successes. If the location triggers, you flip over the threat cards. If the total is higher than the defense of the location, your resource track goes down.
+
+### Pros
+
+Threats don't all happen during the same bust phase. Any track is susceptible to a threat.
+
+### Cons
+
+Seems like they could trigger pretty frequently, if a timer causes them to flip. So, perhaps counterintuitively, if stages advance and more triggers are drawn, will make it less likely threats reach a higher value. Also makes threats a little less thematic. No variety in how to overcome threats.
+
 # 07/16/21
 
 ## Next Steps
