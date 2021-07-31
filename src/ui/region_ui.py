@@ -187,9 +187,9 @@ def ach_completed_1():
     na = adeck.draw()
     if na:
         a_name_1.setText(na.name)
-        a_task_1.setText('Task: '+na.task)
+        a_task_1.setText(na.task)
         a_immediate_1.setText(na.immediate)
-        a_reward_1.setText('Reward: '+na.reward)
+        a_reward_1.setText(na.reward)
         diff1.setText(na.difficulty)
     else:
         a_name_1.setText("")
@@ -202,9 +202,9 @@ def ach_completed_2():
     na = adeck.draw()
     if na:
         a_name_2.setText(na.name)
-        a_task_2.setText('Task: '+na.task)
+        a_task_2.setText(na.task)
         a_immediate_2.setText(na.immediate)
-        a_reward_2.setText('Reward: '+na.reward)
+        a_reward_2.setText(na.reward)
         diff2.setText(na.difficulty)
     else:
         a_name_2.setText("")
@@ -505,9 +505,6 @@ if __name__ == "__main__":
     diff1 = QLabel(acard1.difficulty)
     diff1.setFont(sw_font)
     grid.addWidget(diff1, row, 1)
-    
-    a_name_1 = QLabel(acard1.name)
-    grid.addWidget(a_name_1, row, 2)
 
     a_complete_2 = QPushButton("Complete")
     grid.addWidget(a_complete_2, row, 3)    
@@ -516,29 +513,52 @@ if __name__ == "__main__":
     diff2 = QLabel(acard2.difficulty)
     diff2.setFont(sw_font)
     grid.addWidget(diff2, row, 4) 
+        
+    row = row + 1
+    
+    a_name_1 = QLabel(acard1.name)
+    grid.addWidget(a_name_1, row, 0)    
+
+    a_immediate_1 = QLabel(acard1.immediate)
+    grid.addWidget(a_immediate_1, row, 1, 1, 2) 
     
     a_name_2 = QLabel(acard2.name)
-    grid.addWidget(a_name_2, row, 5)
+    grid.addWidget(a_name_2, row, 3)
+    
+    a_immediate_2 = QLabel(acard2.immediate)
+    grid.addWidget(a_immediate_2, row, 4, 1, 2)
     
     row = row + 1
     
-    a_task_1 = QLabel('Task: '+acard1.task)
+    at_label_1 = QLabel('Task')
+    grid.addWidget(at_label_1, row, 0)
+    
+    ar_label_1 = QLabel('Reward')
+    grid.addWidget(ar_label_1, row, 1)
+
+    at_label_2 = QLabel('Task')    
+    grid.addWidget(at_label_2, row, 3)
+
+    ar_label_2 = QLabel('Reward')    
+    grid.addWidget(ar_label_2, row, 4)
+    
+    row = row + 1
+    
+    a_task_1 = QLabel(acard1.task)
+    a_task_1.setFont(sw_font)
     grid.addWidget(a_task_1, row, 0)
 
-    a_reward_1 = QLabel('Reward: '+acard1.reward)
+    a_reward_1 = QLabel(acard1.reward)
+    a_reward_1.setFont(sw_font)
     grid.addWidget(a_reward_1, row, 1)  
     
-    a_immediate_1 = QLabel(acard1.immediate)
-    grid.addWidget(a_immediate_1, row, 2) 
-    
-    a_task_2 = QLabel('Task: '+acard2.task)
+    a_task_2 = QLabel(acard2.task)
+    a_task_2.setFont(sw_font)
     grid.addWidget(a_task_2, row, 3)
     
-    a_reward_2 = QLabel('Reward: '+acard2.reward)
-    grid.addWidget(a_reward_2, row, 4)   
-
-    a_immediate_2 = QLabel(acard2.immediate)
-    grid.addWidget(a_immediate_2, row, 5)
+    a_reward_2 = QLabel(acard2.reward)
+    a_reward_2.setFont(sw_font)
+    grid.addWidget(a_reward_2, row, 4)
     
     w.show()
     sys.exit(app.exec_())
