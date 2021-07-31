@@ -1,19 +1,20 @@
 region,stage,name,tags,skill,resource
 
+"Empire","Starting","The Rosy Freetrader","Tavern",xxDISGUISE,xxESPIONAGE
+"Empire","Starting","Whitehold","Vault",xxTHIEVERY,xxTECHNOLOGY
+"Empire","Starting","Southkeep","Urban",xxCOMBAT,xxMILITARY
+
 "Empire","Standard","Guild of Pleasure","Urban",xxDISGUISE,xxDIPLOMACY
 "Empire","Standard","Guild of Security","Urban",xxDISGUISE,xxESPIONAGE
 "Empire","Standard","Guild of Scribes","Urban",xxDISGUISE,xxSORCERY
-"Empire","Starting","The Rosy Freetrader","Tavern",xxDISGUISE,xxESPIONAGE
 "Empire","Standard","Ma Bonnie's Squidery","Tavern",xxDISGUISE,xxSTABILITY
 "Empire","Standard","Gray Vault","Vault",xxDISGUISE,xxTECHNOLOGY
-"Empire","Starting","Whitehold","Vault",xxTHIEVERY,xxTECHNOLOGY
 "Empire","Standard","The Dawncaves","Dungeon",xxTHIEVERY,xxSORCERY
 "Empire","Standard","Graycloak Barracks","Vault",xxTHIEVERY,xxESPIONAGE
 "Empire","Standard","Prominence","Hall",xxTHIEVERY,xxDIPLOMACY
 "Empire","Standard","Guild of Secrets","Vault",xxCOMBAT,xxESPIONAGE
 "Empire","Standard","Firstborn Peak","Wilderness",xxCOMBAT,xxSORCERY
 "Empire","Standard","Nalah's Forge","Urban",xxCOMBAT,xxTECHNOLOGY
-"Empire","Starting","Southkeep","Urban",xxCOMBAT,xxMILITARY
 "Empire","Standard","The Wharf Quarter","Urban",xxLORE,xxESPIONAGE
 "Empire","Standard","House of Silver","Hall",xxLORE,xxTECHNOLOGY
 "Empire","Standard","House of Copper","Urban",xxLORE,xxSORCERY
