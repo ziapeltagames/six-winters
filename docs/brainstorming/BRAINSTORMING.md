@@ -1,3 +1,103 @@
+# 08/13/21
+
+## Playtest Prep
+
+* Iterated once on the character cards, added some variety.
+* Will have resource pools of 3.
+* Will add 1 to all the character skills.
+* Going to iterate once on the achievements as well.
+
+# 08/12/21
+
+## Next Playtest
+
+Event though it's not ideal to play only one region - may give it another go with some tweaks to the achievements, character cards, skills, and dice pools.
+
+### Skills and Pools
+
+For now, going to add 1 to all the skills and starting resource pools. That will give characters more dice to work with.
+
+### Character Cards
+
+Going to ignore the conditional character cards for now. That may honestly end up being too high of a cognitive load, anyway.
+
+## Patterns and Obstacles
+
+There are different potential patterns in the game, both for obstacles and achievements. Might be worth really streamlining these. Achievement patterns are kind of all over the map. But obstacles might be narrower.
+
+* Defense/progress consists of many lower valued dice.
+* Attacks consist of fewer high valued dice.
+
+So, strikers should be good at splitting dice, while attackers are better at merging dice/+1. Rerolls are pretty universal, as are exploding dice and flips.
+
+Could also have explicit defense and strike cards, based on type of defense or type of obstacle. A little less elegant, though.
+
+### Achievements
+
+* Sets of Colors
+   * Any X colors
+   * Specific colors: red green blue or blue blue red, etc
+   * For now, specific colors would be better
+   * Low numbers would be preferred, as they're easier to get
+   * Cards: -1, reroll, flip
+* Sets of Numbers
+   * Any set of X matching numbers
+   * Specific numbers: 2 2 2 or 3 3 or even 2 2 3 3
+   * Cards would be useful either way, depends on the range of numbers, although split seems particularly useful
+* Set of Specific Dice (Color + Number)
+* Total Value
+   * Better to have high numbers
+   * Cards: +1, merge, flip
+* Total Value of Multiple Colors
+* Sequence of Numbers
+
+Could probably get pretty far with: lists of colors, lists of numbers, and total. The number of dice, types of dice, and values would all contribute to difficulty.
+
+Considering how much of the game is a pattern matching exercise, it'd kind of be cool if there was a way to overlap achievements. As in, maybe when you spend dice, you pool them up - and you can cash in as many achievements as are applicable? That could be really interesting. Probably doesn't work very well with "totals", but definitely could work if there are numbers and colors.
+
+That would incentivize players to invest tons of dice for big spends. Not sure if that's good or bad. If there's a way to mess with invested dice with obstacles... could be pretty interesting.
+
+# 08/11/21
+
+## Playtest Notes
+
+* For this session, going to have two achievements, because there's only one region
+   * Base difficulty is all the stars added together
+   * In the future, may only have one achievement per region (so three achievements going at the same time)
+* Having only one die in a resource pool is very constraining
+   * Particularly if a card operates on more than one die of a resource type, won't help if there aren't multiple dice
+* Similarly, having a skill of 0 is constraining, because there's no "beginner's luck"
+* Both Fuscus and Keel have similar cards so far
+
+## Exchange and Achievements
+
+Wondering if there's a way to simultaneously bring exchange into the game, and make for more flexible achievements. Achievements need certain resources (this is good), and locations have different resources (also fine), but, it's possible for there to be a mismatch between locations and achievements. It'd be nice if there was a way to exchange resources out. Maybe an exchange action can switch out a raw resource *or* an invested one. That would let players, say, get a resource die they need for an achievement even if they don't have a location with that resource. Not a bad idea. However, it could encourage stagnation. After all, if investing is 1 - you could just invest, exchange, invest, exchange, etc. Why move locations?
+
+Would make sorcery interesting - because it goes to everything, but nothing goes to it. So would really want at least one sorcery location in the game, or wouldn't be able to fill those achievements.
+
+## Discord/Commitment Economy
+
+The other tricky part - in moving toward an open movement environment, is that each player doesn't really own their discord pool. Perhaps when the pool overflows it raises one character's discord, rather than all of their discord? Or, could go the other extreme - each character has their own pools. That's even more fiddly, though. Having global pools is interesting. Will go with that for now, and see how it goes.
+
+## Action Economy
+
+Using action points is interesting - and makes movement more impactful, but not sure what a good system is. Maybe 1 to overcome and 1 to invest, and 2 to move?
+
+* Move - Varies (see card)
+* Invest - 1
+* Overcome - 1
+* Exchange - 1/die (related resource for location, or any invested die)
+   * Swap out the die for the next one on the exchange track
+   * If sorcery, swap out for any die
+* Cooperation - Add highest discord
+* Location Action - Varies
+
+## Threat Option 2
+
+Like the idea of threats happening if 3 or more symbols match. Any threats with those three matching symbols hit one of the resource tracks.
+
+Really not sure about the all or nothing overcome approach for threats. It would be pretty frustrating to not be able to do anything - that's one of the red flags. So leaning towards having each threat able to be overcome independently. Players will tend to get rid of any that have 2 matching, but that's part of the strategy!
+
 # 07/28/21
 
 ## Character Card Abilities
@@ -18,6 +118,8 @@
 * Exploding dice by type (sorcery)
 * Immediate effects: sorcery backlash, discord, etc, based on traits
 
+Most of these seem pretty straightforward, although gaining a die seems tricky? Where would it go? Can you just drop it on a location? Doesn't seem quite right. Will probably skip that for now.
+
 ## Spotlight Locations
 
 Maybe some locations have special actions (trade, recover stress, etc) that take some amount of action points. It would make it a little cleaner - cards wouldn't have to be split up so much.
@@ -32,7 +134,9 @@ Or maybe you can trade as an action while on a related resource location? Or fro
 
 Most cards modify dice. They may be played during a test. Even this is tricky - for example, if you have a +1 card, can you play it on a resource die, and then not take the resource die? Essentially modifying what's in the pool? That's one step away from just letting players play cards whenever.
 
-You may only play cards during a test: can play them on either skill dice or resource dice. Seems cleaner at that point to allow cards to modify skill dice or resource dice matching the location type. Maybe obstacles don't have resource dice types? Was already headed that way - and that would make this rule much cleaner. Would that get wonky? Maybe not. Some obstacles might be fixed at a location, so the resource die would be fixed. Cards that move could change what's useful - guards could be Disguise + Stability or Disguise + Espionage. This changes the fiction, how the guard is overcome in the narrative. But it would probably make sense still. And then card play is very clean: test dice or resource dice either invested at the location or from the pool matching the location type. That lets players modify invested dice and resource pool dice. The key point: you do have to be at the location, so movement would matter.
+You may only play cards during a test: can play them on either skill dice or resource dice. Seems cleaner at that point to allow cards to modify skill dice or resource dice matching the location type.
+
+Maybe obstacles don't have resource dice types? Was already headed that way - and that would make this rule much cleaner. Would that get wonky? Maybe not. Some obstacles might be fixed at a location, so the resource die would be fixed. Cards that move could change what's useful - guards could be Disguise + Stability or Disguise + Espionage. This changes the fiction, how the guard is overcome in the narrative. But it would probably make sense still. And then card play is very clean: test dice or resource dice either invested at the location or from the pool matching the location type. That lets players modify invested dice and resource pool dice. The key point: you do have to be at the location, so movement would matter.
 
 ## Tests (Overcome)
 
