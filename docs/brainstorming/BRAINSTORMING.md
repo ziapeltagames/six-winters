@@ -1,11 +1,33 @@
 # 08/13/21
 
+## Playtest Notes
+
+* Already vastly better with increased pools and skills as well as achievement difficulties.
+   * The main thing: number of dice for an achievement and pool size need to be fairly closely aligned.
+* The "combo achievement" option is also pretty cool.
+   * Although, it may require some careful sequencing - probably should collect all achievements prior to refilling the achievement deck.
+* May need dice limits on locations as well.
+* Achievements still feel a little too easy.
+   * Also, should they cost actions to complete?
+   * They're still a little weird, given they aren't attached to a location.
+
 ## Playtest Prep
 
+* One more time doing restricted region playtest - although not going to get too much info from this.
 * Iterated once on the character cards, added some variety.
 * Will have resource pools of 3.
 * Will add 1 to all the character skills.
 * Going to iterate once on the achievements as well.
+
+## More Achievement Notes
+
+One of the things about fixed numbers is the difficulty in adjusting dice. Cards can do it, but there's no action that does it. Maybe if enough cards can do it, it may not be a big deal. But that could be a vote more in favor of totals or patterns like "pair", which are both far more flexible.
+
+## Card Movement Costs
+
+One option is to put movement costs on each site card for the cost to move _to_ the site.
+
+So, like, Empire: 2, Red Bank: 3, Settled Lands: 4. Or Empire: 1, Red Bank: 3, Settled: 3, etc. You could even have a "can't move" there icon, or a special tag for port locations, etc.
 
 # 08/12/21
 
