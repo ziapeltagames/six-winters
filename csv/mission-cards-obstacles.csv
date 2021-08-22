@@ -13,13 +13,6 @@ region,trigger,stage,name,tags,skill,resource,defense,difficulty,attack,effect,a
 
 "Empire","xxMOTHER","Special","Imperial Safe","Vault, Stationary","xxTHIEVERY","xxTECHNOLOGY","","","","xxCIRCLE Roll 3 dice and place them on this card.","","xxCIRCLE Discard matching numbered dice from location to overcome.",""
 
-"Empire","xxMAIDEN","Starting","Imperial Guard","Guard","xxDISGUISE","xxESPIONAGE","xxTWOxxTWOxxCOLON xxCUBExxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxPSYCHExxPSYCHE","","Take 2 discord if any characters are at this location.","",""
-"Empire","xxMAIDEN","Starting","Imperial Guard","Guard","xxDISGUISE","xxESPIONAGE","xxTWOxxTWOxxCOLON xxCUBExxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxPSYCHExxPSYCHE","","Take 2 discord if any characters are at this location.","",""
-"Empire","xxMAIDEN","Starting","Imperial Guard","Guard","xxDISGUISE","xxESPIONAGE","xxTWOxxTWOxxCOLON xxCUBExxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxPSYCHExxPSYCHE","","Take 2 discord if any characters are at this location.","",""
-"Empire","xxMOTHER","Starting","Imperial Guard","Guard","xxDISGUISE","xxESPIONAGE","xxTWOxxTWOxxCOLON xxCUBExxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxPSYCHExxPSYCHE","","Take 2 discord if any characters are at this location.","",""
-"Empire","xxMOTHER","Starting","Imperial Guard","Guard","xxDISGUISE","xxESPIONAGE","xxTWOxxTWOxxCOLON xxCUBExxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxPSYCHExxPSYCHE","","Take 2 discord if any characters are at this location.","",""
-"Empire","xxCRONE","Starting","Imperial Guard","Guard","xxDISGUISE","xxESPIONAGE","xxTWOxxTWOxxCOLON xxCUBExxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxPSYCHExxPSYCHE","","Take 2 discord if any characters are at this location.","",""
-"Empire","xxCRONE","Starting","Imperial Guard Captain","Guard, Quick","xxDISGUISE","xxESPIONAGE","xxTHREExxTHREExxCOLON xxCUBExxCUBExxCUBE","xxCUBExxCUBExxCUBExxCUBExxCUBE","xxFOURxxPLUSxxCOLON xxPSYCHExxPSYCHExxPSYCHExxPSYCHE","","Take 2 discord if any characters are at this location.","",""
-"Empire","xxCRONE","Starting","Prismatic Lotus","Trap","xxTHIEVERY","xxSORCERY","","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxBODYxxBODY","","Each character at this location takes 4 xxBODY.","",""
-"Empire","xxCRONE","Starting","Orb of Seeing","Trap","xxLORE","xxESPIONAGE","","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxBODYxxBODY","","Each character at this location takes 4 xxBODY.","",""
-"Empire","xxCRONE","Starting","Tripwire","Trap","xxTHIEVERY","xxESPIONAGE","","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxBODYxxBODY","",Each character at this location takes 4 xxBODY.,"",""
+"Red Bank","xxMAIDEN","Starting","","Issue","xxCOMMAND","","","xxCUBE xxCUBE xxCUBE","","Effect","Activation","Overcome","Bust"
+"Red Bank","xxMAIDEN","Starting","","Issue","xxCOMMAND","","","xxCUBE xxCUBE xxCUBE","","Effect","Activation","Overcome","Bust"
+"Red Bank","xxMAIDEN","Starting","","Issue","xxCOMMAND","","","xxCUBE xxCUBE xxCUBE","","Effect","Activation","Overcome","Bust"

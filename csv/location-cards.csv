@@ -25,3 +25,11 @@ region,stage,name,tags,skill,resource
 "Empire","Standard","Guilder Farms","Rural",xxCOMMAND,xxDIPLOMACY
 "Empire","Standard","Dowling Manor","Rural",xxRAPPORT,xxSTABILITY
 "Empire","Standard","Dreadvault","Vault",xxTHIEVERY,xxESPIONAGE
+
+"Red Bank","Starting","TBD","",xxCOMMAND,xxSTABILITY
+"Red Bank","Starting","TBD","",xxLORE,xxMILITARY
+"Red Bank","Starting","TBD","",xxLORE,xxSORCERY
+
+"Settled Lands","Starting","TBD","",xxRAPPORT,xxDIPLOMACY
+"Settled Lands","Starting","TBD","",xxTACTICS,xxTECHNOLOGY
+"Settled Lands","Starting","TBD","",xxLORE,xxSORCERY

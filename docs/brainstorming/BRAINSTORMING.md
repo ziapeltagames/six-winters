@@ -1,3 +1,7 @@
+# 08/16/21
+
+Need to move toward a full playtest. Too many unknowns in the streamlined playtest version. Will do quick versions of achievements, locations, and obstacles.
+
 # 08/13/21
 
 ## Playtest Notes
