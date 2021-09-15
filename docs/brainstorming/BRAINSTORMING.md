@@ -1,3 +1,66 @@
+# 09/15/21
+
+## Discord and Commitment
+
+Having pools for both players feels the easiest to manage, in terms of how fiddly they are and making it easy to decide where/how to add/remove. It also lets different cards add/subtract to them, which could create pressure for players to move around more.
+
+## Discord Overflow
+
+Each player draws a character card, and adds one discord to the character drawn.
+
+## Commitment Overflow
+
+Each player gets to choose one character, and add one commitment.
+
+## Achievement Combos
+
+Having multiple achievements that can be earned at once is interesting, but it requires some handling of the sequencing. At the moment, will allow it, with the current sequencing:
+
+* Spend all resources
+* Apply matching achievements
+* Draw new achievements
+
+## Rough Action Sketch
+
+* Fill action dice pool up to 6 at start of turn
+* Move - spend 1-3 action dice of any value to move
+   * Eventually this will be listed on the card (cost will be to leave, not to enter)
+   * For now, it's 1 to move along Empire, and 2 to move along RB/SL, and 3 to move between SL and Empire
+* Invest - spend 1 action die of any value to start investing
+   * Then spend up to skill number of dice, pulling in resource dice <= value of dice spent
+* Overcome - spend 1 action die of any value to overcome obstacle
+   * Then, lock action dice equal to skill value, and reroll the rest
+   * Finally, spend dice up to skill number on obstacle
+   * Threats are always a sum of action dice and resource dice to overcome
+* Trade - spend 2 action dice to trade invested die, or 1 to trade resource
+
+* Unskilled: as a skill of 1, but must use lowest remaining die for any cost
+* Achievements: may be purchased using any invested dice and may combo them
+* Timers: Each time one region goes through a cycle, a season advances
+   * After three seasons, the game is over
+   * When a region has gone through each stage, draw 2 triggers instead of 1
+
+# 08/28/21
+
+## Discord and Commitment
+
+These are probably going to be offloaded into one pool. Or, they may need to be per character. Another option is to keep the pools as per-player pools, but only assign to them by giving discord to characters. Having something in the game that can add to a pool without any characters being there is pretty handy, though. It makes players want to track that source down and deal with it. Otherwise, characters can get by with avoiding anything on the table. Having one pool for discord and commitment is tricky, in terms of using them. Do they overflow? If so, what happens? Doesn't totally feel right to only have one pool for each, but may go with it for now.
+
+* Players could choose.
+* Character with highest/lowest skill of a certain type (death spiral, though).
+* Everyone (ouch).
+   * Also feels really uniform, kind of boring.
+* Spotlight player.
+* Spotlight character.
+* All characters in region.
+   * This one seems close-ish to what was there before. It would encourage players to keep characters together, though. Since it would limit double discord.
+
+Another option is to get rid of those as pools, and make them direct character tracks. That's much higher granularity, though.
+
+## Obstacle Movement
+
+Movement could be placed on obstacle cards, or could be on achievement cards. Seems easiest to put it on obstacle cards - and then if the location is activated, the card moves. Given the small number of spaces, it also makes it easy to have movement based on criteria like "nearest character" or "most resource dice".
+
 # 08/16/21
 
 Need to move toward a full playtest. Too many unknowns in the streamlined playtest version. Will do quick versions of achievements, locations, and obstacles.

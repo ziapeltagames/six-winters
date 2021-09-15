@@ -281,32 +281,9 @@ if __name__ == "__main__":
     header_font.setPointSize(12)
     title_label.setFont(header_font)
     
-    grid.addWidget(title_label, row, 0, 1, 6, alignment=Qt.AlignCenter)
+    grid.addWidget(title_label, row, 0, 1, 6, alignment=Qt.AlignCenter) 
     
-    row = row + 1 
-           
-    grid.addWidget(QLabel("Phase"), row, 0)
-    
-    timer_label = QLabel()
-    timer_label.setFont(sw_font)
-    grid.addWidget(timer_label, row, 1)
-    
-    grid.addWidget(QLabel("Month"), row, 4)
-    
-    stage_label = QLabel()
-    grid.addWidget(stage_label, row, 5)
-    
-    row = row + 1 
-    
-    grid.addWidget(QLabel(""), row, 0) 
-    
-    row = row + 1 
-    
-    mlabel = QLabel("Mission Deck")
-    mlabel.setFont(header_font)
-    grid.addWidget(mlabel, row, 0, 1, 6, alignment=Qt.AlignCenter)
-    
-    row = row + 1 
+    row = row + 1
 
     grid.addWidget(QLabel("Top"), row, 0) 
     
@@ -323,8 +300,6 @@ if __name__ == "__main__":
     
     md_discard_label = QLabel()
     grid.addWidget(md_discard_label, row, 5)
-    
-    update_mission_card_labels()
     
     row = row + 1 
     
@@ -469,26 +444,36 @@ if __name__ == "__main__":
     row = row + 1 
     
     tlabel = QLabel("Triggers")
-    tlabel.setFont(header_font)
-    grid.addWidget(tlabel, row, 0, 1, 6, alignment=Qt.AlignCenter)
-
+    grid.addWidget(tlabel, row, 0)
+    
+    grid.addWidget(QLabel("Phase"), row, 3)
+    
+    timer_label = QLabel()
+    timer_label.setFont(sw_font)
+    grid.addWidget(timer_label, row, 4)
+    
+    grid.addWidget(QLabel("Stage"), row, 5)
+    
+    stage_label = QLabel()
+    grid.addWidget(stage_label, row, 6)
+    
     row = row + 1 
-
+    
     trigger_button = QPushButton("Draw Trigger")
     trigger_button.clicked.connect(draw_triggers)
     grid.addWidget(trigger_button, row, 0, 1, 2)
     
     trigger_label_1 = QLabel()
     trigger_label_1.setFont(sw_font)
-    grid.addWidget(trigger_label_1, row, 2)
+    grid.addWidget(trigger_label_1, row, 3)
 
     trigger_label_2 = QLabel()
     trigger_label_2.setFont(sw_font)
-    grid.addWidget(trigger_label_2, row, 3)
+    grid.addWidget(trigger_label_2, row, 4)
 
     trigger_label_3 = QLabel()
     trigger_label_3.setFont(sw_font)
-    grid.addWidget(trigger_label_3, row, 4)   
+    grid.addWidget(trigger_label_3, row, 5)   
 
     row = row + 1 
 
@@ -560,5 +545,8 @@ if __name__ == "__main__":
     a_reward_2.setFont(sw_font)
     grid.addWidget(a_reward_2, row, 4)
     
+    # Initialize board
+    update_mission_card_labels()
+        
     w.show()
     sys.exit(app.exec_())
