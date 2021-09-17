@@ -1,35 +1,32 @@
-region,stage,name,tags,skill,resource
+region,stage,name,tags,skill,resource,starting
 
-"Empire","Starting","The Rosy Freetrader","Tavern",xxDISGUISE,xxESPIONAGE
-"Empire","Starting","Whitehold","Vault",xxTHIEVERY,xxTECHNOLOGY
-"Empire","Starting","Southkeep","Urban",xxCOMBAT,xxMILITARY
-
-"Empire","Standard","Guild of Pleasure","Urban",xxDISGUISE,xxDIPLOMACY
-"Empire","Standard","Guild of Security","Urban",xxDISGUISE,xxESPIONAGE
-"Empire","Standard","Guild of Scribes","Urban",xxDISGUISE,xxSORCERY
-"Empire","Standard","Ma Bonnie's Squidery","Tavern",xxDISGUISE,xxSTABILITY
-"Empire","Standard","Gray Vault","Vault",xxDISGUISE,xxTECHNOLOGY
-"Empire","Standard","The Dawncaves","Dungeon",xxTHIEVERY,xxSORCERY
-"Empire","Standard","Graycloak Barracks","Vault",xxTHIEVERY,xxESPIONAGE
-"Empire","Standard","Prominence","Hall",xxTHIEVERY,xxDIPLOMACY
-"Empire","Standard","Guild of Secrets","Vault",xxCOMBAT,xxESPIONAGE
-"Empire","Standard","Firstborn Peak","Wilderness",xxCOMBAT,xxSORCERY
-"Empire","Standard","Nalah's Forge","Urban",xxCOMBAT,xxTECHNOLOGY
-"Empire","Standard","The Wharf Quarter","Urban",xxLORE,xxESPIONAGE
-"Empire","Standard","House of Silver","Hall",xxLORE,xxTECHNOLOGY
-"Empire","Standard","House of Copper","Urban",xxLORE,xxSORCERY
-"Empire","Standard","Guild of Warfare","Hall",xxTACTICS,xxMILITARY
-"Empire","Standard","Eastkeep","Urban",xxTACTICS,xxSTABILITY
-"Empire","Standard","Yearly Field","Rural",xxSURVIVAL,xxMILITARY
-"Empire","Standard","Gold River Bridge","Urban",xxSURVIVAL,xxTECHNOLOGY
-"Empire","Standard","Guilder Farms","Rural",xxCOMMAND,xxDIPLOMACY
-"Empire","Standard","Dowling Manor","Rural",xxRAPPORT,xxSTABILITY
-"Empire","Standard","Dreadvault","Vault",xxTHIEVERY,xxESPIONAGE
-
-"Red Bank","Starting","TBD","",xxCOMMAND,xxSTABILITY
-"Red Bank","Starting","TBD","",xxLORE,xxMILITARY
-"Red Bank","Starting","TBD","",xxLORE,xxSORCERY
-
-"Settled Lands","Starting","TBD","",xxRAPPORT,xxDIPLOMACY
-"Settled Lands","Starting","TBD","",xxTACTICS,xxTECHNOLOGY
-"Settled Lands","Starting","TBD","",xxLORE,xxSORCERY
+"Empire","Starting","The Rosy Freetrader","Tavern",xxDISGUISE,xxESPIONAGE,
+"Empire","Starting","Southkeep","Urban",xxCOMBAT,xxMILITARY,
+"Empire","Starting","Whitehold","Vault",xxTHIEVERY,xxTECHNOLOGY,"2 x Guards"
+"Empire","Standard","Guild of Pleasure","Urban",xxDISGUISE,xxDIPLOMACY,
+"Empire","Standard","Guild of Security","Urban",xxDISGUISE,xxESPIONAGE,
+"Empire","Standard","Guild of Scribes","Urban",xxDISGUISE,xxSORCERY,
+"Empire","Standard","Ma Bonnie's Squidery","Tavern",xxDISGUISE,xxSTABILITY,
+"Empire","Standard","Gray Vault","Vault",xxDISGUISE,xxTECHNOLOGY,
+"Empire","Standard","The Dawncaves","Dungeon",xxTHIEVERY,xxSORCERY,
+"Empire","Standard","Graycloak Barracks","Vault",xxTHIEVERY,xxESPIONAGE,
+"Empire","Standard","Prominence","Hall",xxTHIEVERY,xxDIPLOMACY,
+"Empire","Standard","Guild of Secrets","Vault",xxCOMBAT,xxESPIONAGE,
+"Empire","Standard","Firstborn Peak","Wilderness",xxCOMBAT,xxSORCERY,
+"Empire","Standard","Nalah's Forge","Urban",xxCOMBAT,xxTECHNOLOGY,
+"Empire","Standard","The Wharf Quarter","Urban",xxLORE,xxESPIONAGE,
+"Empire","Standard","House of Silver","Hall",xxLORE,xxTECHNOLOGY,
+"Empire","Standard","House of Copper","Urban",xxLORE,xxSORCERY,
+"Empire","Standard","Guild of Warfare","Hall",xxTACTICS,xxMILITARY,
+"Empire","Standard","Eastkeep","Urban",xxTACTICS,xxSTABILITY,
+"Empire","Standard","Yearly Field","Rural",xxSURVIVAL,xxMILITARY,
+"Empire","Standard","Gold River Bridge","Urban",xxSURVIVAL,xxTECHNOLOGY,
+"Empire","Standard","Guilder Farms","Rural",xxCOMMAND,xxDIPLOMACY,
+"Empire","Standard","Dowling Manor","Rural",xxRAPPORT,xxSTABILITY,
+"Empire","Standard","Dreadvault","Vault",xxTHIEVERY,xxESPIONAGE,
+"Red Bank","Starting","Undari's Tower","",xxLORE,xxMILITARY,
+"Red Bank","Starting","Amber Lodge","",xxCOMMAND,xxSTABILITY,
+"Red Bank","Starting","Mirror Woods","",xxSURVIVAL,xxSORCERY,"Zombie"
+"Settled Lands","Starting","Hogel Manor","",xxRAPPORT,xxDIPLOMACY,"Hogel"
+"Settled Lands","Starting","Shimmerhall","",xxTACTICS,xxTECHNOLOGY,
+"Settled Lands","Starting","Arankh","",xxLORE,xxSORCERY,"Elisa"

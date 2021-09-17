@@ -1,3 +1,41 @@
+# 09/17/21
+
+## Achievement Decks
+
+Current idea: have three decks, near each region. The back of the card has the current region difficulty (if deck is empty, use year, otherwise 2-6). Players can draw from any deck with choosing achievements, and each player gets two. Players spend the achievements they get on their characters.
+
+Need to make an achievement UI. Can draw from any region.
+
+If going to cut out cards, the two really good candidates are achievements and locations. These will change less, and there are fewer of them. Also very tactile and will interact with them. May be worth cutting out achievement and location cards for now?
+
+Is there a way to playtest without this? Maybe just divide them by location.
+
+## Playtest Notes - Achievements
+
+Really not sure about how achievements should match with region. It feels like achievements should only be purchased with invested resources from that region, although that's super constraining. But if that isn't the case, achievements should probably be in their own area. Having an achievement deck for a region when you don't have to spend from that region is a mismatch for sure.
+
+However, having the achievements match to the regions gives a ton more control. For instance, if Empire achievements let you deal with threats, and there are lots of threats, may want to focus on the Empire. That control and predictability would be lost in a giant deck of threats. Maybe it can be solved as simply as having achievement decks in their own space on the board, not next to the regions.
+
+There's also the "how many" achievements question. Six is a chunk. That may be pretty tough to plan around. Three or four feels more tractable. Maybe there are three achievement decks, based on regions, but players can populate the active achievements from any deck they want.
+
+Or maybe there's a way to give players control over their achievements. Each player having 2 achievements felt pretty good in playtest. This could also fold into another thought: it felt cleaner to pull resource dice directly onto achievements, without the "middle man" of the location cards. Combos kind of go out the window, though. Also, can a different player invest?
+
+Maybe invest is a free action if there's a die at a location. Or it still costs one, but any uninvested dice can be left at a location, making them easier to use in the future? Perhaps you can grab dice at a location without spending an action die. What terminology should this use? Resource Pool, Location Resource Die, Invested Resource (Achievement)?
+
+This feels much cleaner. The main thing that's given up is potential number+color combos. But... that's about it. And in exchange, it divides the state between players a bit, sharing the cognitive load, and placing dice directly on achievements is much easier to track. There still can be a number/color breakdown on individual achievements.
+
+Could even have one achievement deck, but maybe draw X at the start of the game, and players can either choose any of those, or draw blind. Maybe draw 7 and place them face up, each player takes 2, and the remaining 3 are left face up.
+
+## Mission Cards
+
+How does the mission deck change over time? How should different sorts of mission cards be labeled? At the moment, threats, achievements, and locations evolve - but the mission deck doesn't.
+
+Locations probably need starting obstacle or scene cards. This "seeds" the situation to some extent. But if that's an option, it immediately begs the question: what kind of obstacles are there? Starting deck obstacles, obstacles tied to achievements (a la the Necromancer, a Vault, etc), and obstacles tied to locations (guards).
+
+Can use Base and Special for now. May expand into Base, Advanced, and Special. Could have this pattern for locations, threats, achievements, and mission cards.
+
+For now, will keep the obstacles and scenes fixed. It's easy enough to have those decks change over time as well, maybe in response to different events: add zombies, remove zombies, do XYZ. Etc.
+
 # 09/15/21
 
 ## Discord and Commitment
@@ -312,9 +350,9 @@ This option leans pretty heavily on there being different sites, obstacles (scen
    * Encounters
 * After play
    * Spend achievements to advance tracks as desired
-      * May spend spotligh achievements to draw spotlight locations
-      * May spend threat achievements remove threats from any single deck (starting with weakest threat)
-   * Each player draws a new location (10 new draws), a new achievement (10 new draws), and a new threat
+      * May spend spotlight achievements to draw spotlight locations
+      * May spend threat achievements to remove threats from any single deck (starting with weakest threat)
+   * Each player draws a new location, a new achievement, and a new threat
       * Discard down to 9 locations and 10 achievements per region
       * The threats are added to the decks listed on the front of the card
 
@@ -358,7 +396,7 @@ Of course, the timers and achievements would require lots of thinking to tune co
 
 ## Event Card Rethink
 
-Have been thinking about event cards. Not sure they're all that interesting, compared to other cards. They're also very fortune-at-the-front, which I've been trying to avoid. One option is to make them more predictable, so that each mission type has a kind of event which happens more frequently.
+Have been thinking about event cards. Not sure they're all that interesting, compared to other cards. They're also very fortune-at-the-end, which I've been trying to avoid. One option is to make them more predictable, so that each mission type has a kind of event which happens more frequently.
 
 Another thought is to maybe swap them out with threats. It would be nice to not have one more deck of cards (the campaign deck), if possible. Although, the campaign deck is currently kind of cool. If they are threats - they'd need to be able to build in severity over time. And the way the campaign deck can form a strategy for the Empire is also cool. That's tough to duplicate in the mission deck without a decent amount of setup.
 
