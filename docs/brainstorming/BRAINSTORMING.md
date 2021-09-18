@@ -1,3 +1,11 @@
+# 09/18/21
+
+## Resource Dice, Asset Dice, and Progress Dice
+
+It would be helpful to have some clear terminology for where dice can be location: in the resource pools, on location cards, and on achievement cards. Currently thinking about using the terms "resource dice", "asset dice", and "progress dice".
+
+Maybe only the asset dice can help overcome an obstacle? Might be nice for cognitive load, and there are so many ways to mess with dice, it's unlikely they'll remain on cards for long. Although, pulling down dice helps get dice numbers higher for obstacles. The "invest" action should maybe be called "craft" or something like that?
+
 # 09/17/21
 
 ## Achievement Decks

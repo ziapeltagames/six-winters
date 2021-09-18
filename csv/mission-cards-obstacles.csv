@@ -1,6 +1,6 @@
 region,trigger,stage,name,tags,skill,defense,difficulty,attack,effect,activation,overcome,bust
 
-"Empire","xxMAIDEN","Starting","Imperial Guard","Guard",xxDISGUISE,"xxTWOxxTWOxxCOLON xxCUBExxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxPSYCHExxPSYCHE","","Take 2 discord if any characters are at this location.","Overcome","Bust"
+"Empire","xxMAIDEN","Starting","Imperial Guard","Guard",xxDISGUISE,"xxTWOxxTWOxxCOLON xxNTHREExxCUBE","xxNTHREExxCUBE","xxTHREExxPLUSxxCOLON xxNTWOxxPSYCHE","","Take 2 discord if any characters are at this location.","Overcome","Bust"
 "Empire","xxMAIDEN","Starting","Imperial Guard","Guard",xxDISGUISE,"xxTWOxxTWOxxCOLON xxCUBExxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxPSYCHExxPSYCHE","","Take 2 discord if any characters are at this location.","Overcome","Bust"
 "Empire","xxMAIDEN","Starting","Imperial Guard","Guard",xxDISGUISE,"xxTWOxxTWOxxCOLON xxCUBExxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxPSYCHExxPSYCHE","","Take 2 discord if any characters are at this location.","Overcome","Bust"
 "Empire","xxMOTHER","Starting","Imperial Guard","Guard",xxDISGUISE,"xxTWOxxTWOxxCOLON xxCUBExxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxPSYCHExxPSYCHE","","Take 2 discord if any characters are at this location.","Overcome","Bust"
@@ -24,9 +24,10 @@ region,trigger,stage,name,tags,skill,defense,difficulty,attack,effect,activation
 "Red Bank","xxMOTHER","Starting","","Mob",xxCOMMAND,"","xxCUBExxCUBExxCUBE","","Effect","Activation","Overcome","Bust"
 "Red Bank","xxCRONE","Starting","","Issue",xxCOMMAND,"","xxCUBExxCUBExxCUBE","","Effect","Activation","Overcome","Bust"
 "Red Bank","xxCRONE","Starting","","Issue",xxCOMMAND,"","xxCUBExxCUBExxCUBE","","Effect","Activation","Overcome","Bust"
-"Red Bank","xxCRONE","Starting","","Issue",xxCOMMAND,"","xxCUBExxCUBExxCUBE","","Effect","Activation","Overcome","Bust"
+"Red Bank","xxCRONE","Starting","Restless Dead","Foe",xxCOMBAT,"xxSIXxxCOLON xxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxFOURxxCOLON xxBODYxxBODY","","Remove all resource dice at this location and take 1 Discord.","",""
 
-"Red Bank","xxMAIDEN","Special","Restless Dead","Foe",xxCOMBAT,xxSORCERY,"xxSIXxxCOLON xxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxFOURxxCOLON xxBODYxxBODY","","Remove invested resource die at this location and take 1 Discord.","",""
+"Red Bank","xxMAIDEN","Special","Restless Dead","Foe",xxCOMBAT,"xxSIXxxCOLON xxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxFOURxxCOLON xxBODYxxBODY","","Remove all resource dice at this location and take 1 Discord.","",""
+"Red Bank","xxMAIDEN","Special","Restless Dead","Foe",xxCOMBAT,"xxSIXxxCOLON xxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxFOURxxCOLON xxBODYxxBODY","","Remove all resource dice at this location and take 1 Discord.","",""
 
 "Settled Lands","xxMAIDEN","Starting","","Issue",xxCOMMAND,"","xxCUBExxCUBExxCUBE","","Effect","Activation","Overcome","Bust"
 "Settled Lands","xxMAIDEN","Starting","","Issue",xxCOMMAND,"","xxCUBExxCUBExxCUBE","","Effect","Activation","Overcome","Bust"
@@ -38,5 +39,5 @@ region,trigger,stage,name,tags,skill,defense,difficulty,attack,effect,activation
 "Settled Lands","xxCRONE","Starting","","Issue",xxCOMMAND,"","xxCUBExxCUBExxCUBE","","Effect","Activation","Overcome","Bust"
 "Settled Lands","xxCRONE","Starting","","Issue",xxCOMMAND,"","xxCUBExxCUBExxCUBE","","Effect","Activation","Overcome","Bust"
 
-"Settled Lands","xxMOTHER","Special","Hogel","Diplomat",xxRAPPORT,"","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxPSYCHExxPSYCHE","Reroll all invested resources at this location.","Overcome","Bust"
-"Settled Lands","xxCRONE","Special","Elisa","Diplomat",xxLORE,"xxONExxONExxCOLON xxCUBExxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxFOURxxPLUSxxCOLON xxPSYCHExxPSYCHE","One character at this location is frustrated.","Overcome","Bust"
+"Settled Lands","xxMOTHER","Special","Hogel","Diplomat",xxRAPPORT,"","xxCUBExxCUBExxCUBE","xxTHREExxPLUSxxCOLON xxPSYCHExxPSYCHE","Discard all invested stability dice.","Overcome","Bust"
+"Settled Lands","xxCRONE","Special","Elisa","Diplomat",xxLORE,"xxONExxONExxCOLON xxCUBExxCUBExxCUBE","xxCUBExxCUBExxCUBE","xxFOURxxPLUSxxCOLON xxPSYCHExxPSYCHE","One character in this region is frustrated.","Overcome","Bust"
