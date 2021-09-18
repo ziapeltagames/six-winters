@@ -6,6 +6,7 @@ A ui for modeling one region in Six Winters.
 """
 
 import sys
+import argparse
 
 from PyQt5.QtWidgets import QApplication, QGridLayout, QWidget, QListWidget, \
     QPushButton, QLabel, QListWidgetItem, QDialog, QComboBox
@@ -17,7 +18,6 @@ from PyQt5.QtCore import Qt
 from mission_deck import MissionDeck
 from sixwinters import SixWinters
 from location_deck import LocationDeck
-from achievement_deck import AchievementDeck
 
 # Retrieve choices for characters, region, and year
 class MissionDialog(QDialog):
@@ -82,7 +82,7 @@ def location_clicked(loc):
         selected_activation.setText('Activation: '+selected_card.activation)
         selected_overcome.setText('Overcome: '+selected_card.overcome)
         selected_bust.setText('Bust: '+selected_card.bust)
-        selected_sr.setText(selected_card.skill + ' ' + selected_card.resource)
+        selected_sr.setText(selected_card.skill)
         selected_defense.setText(selected_card.defense)
         selected_difficulty.setText(selected_card.difficulty)
         selected_attack.setText(selected_card.attack)
@@ -202,6 +202,11 @@ def draw_triggers():
     
 if __name__ == "__main__":
     
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--region")
+    parser.add_argument("--year")
+    args = parser.parse_args()
+    
     sw = SixWinters()
     sw_font = QFont('sixwinters')
     sw_font.setPointSize(12)
@@ -211,13 +216,27 @@ if __name__ == "__main__":
     custom_font.setWeight(12);
     app.setFont(custom_font, "QLabel")
     
-    # Retrieve Mission Info
-    md = MissionDialog(["Empire", "Red Bank", "Settled Lands"])
-    md.setWindowTitle("Load Mission")
-    md.show()
-    md.exec_()
+    region = "Empire"
+    year = 1
     
-    (region, year) = md.get_inputs()
+    if args.region:
+        
+        if args.region == 'redbank':
+            region = 'Red Bank'
+        elif args.region == 'settled':
+            region = 'Settled Lands'
+        elif args.region == 'empire':
+            region = 'Empire'
+        
+    else:
+        
+        # Retrieve Mission Info
+        md = MissionDialog(["Empire", "Red Bank", "Settled Lands"])
+        md.setWindowTitle("Load Mission")
+        md.show()
+        md.exec_()
+        
+        (region, year) = md.get_inputs()
     
     # Transfer these to arguments at some point
     stage = 'Starting'
@@ -357,7 +376,7 @@ if __name__ == "__main__":
     
     row = row + 1
     
-    grid.addWidget(QLabel("Skill / Resource"), row, 0)
+    grid.addWidget(QLabel("Skill"), row, 0)
     grid.addWidget(QLabel("Defense"), row, 1, 1, 2)
     grid.addWidget(QLabel("Difficulty"), row, 3)
     grid.addWidget(QLabel("Attack"), row, 4, 1, 2)
@@ -411,16 +430,16 @@ if __name__ == "__main__":
     tlabel = QLabel("Triggers")
     grid.addWidget(tlabel, row, 0)
     
-    grid.addWidget(QLabel("Phase"), row, 3)
+    grid.addWidget(QLabel("Phase"), row, 2)
     
     timer_label = QLabel()
     timer_label.setFont(sw_font)
-    grid.addWidget(timer_label, row, 4)
+    grid.addWidget(timer_label, row, 3)
     
-    grid.addWidget(QLabel("Stage"), row, 5)
+    grid.addWidget(QLabel("Stage"), row, 4)
     
     stage_label = QLabel()
-    grid.addWidget(stage_label, row, 6)
+    grid.addWidget(stage_label, row, 5)
     
     row = row + 1 
     

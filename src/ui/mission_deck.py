@@ -19,7 +19,6 @@ class MissionCard:
             cdict['tags'] = ""
             cdict['skill'] = ""
             cdict['difficulty'] = ""
-            cdict['attack'] = ""
             cdict['effect'] = ""
             cdict['activation'] = ""
             cdict['overcome'] = ""
@@ -31,7 +30,6 @@ class MissionCard:
         self.name = cdict['name']
         self.tags = cdict['tags']
         self.skill = cdict['skill']
-        self.resource = cdict['resource']
         self.defense = cdict['defense']
         self.difficulty = cdict['difficulty']
         self.attack = cdict['attack']

@@ -1,11 +1,11 @@
-trigger,stage,defense,resource
+trigger,stage,defense,attack
 
 "xxMOTHER","Starting","xxTWOxxPLUS","xxSTABILITY"
 "xxMAIDEN","Starting","xxTWOxxPLUS","xxSTABILITY"
-"xxCRONE","Starting","xxTHREExxPLUS","xxSTABILITY"
-"xxMOTHER","Starting","xxTHREExxPLUS","xxSTABILITY"
-"xxMAIDEN","Starting","xxFOURxxPLUS","xxSTABILITY"
-"xxCRONE","Starting","xxFOURxxPLUS","xxSTABILITY"
+"xxCRONE","Starting","xxTHREExxPLUS","xxSTABILITY xxMILITARY"
+"xxMOTHER","Starting","xxTHREExxPLUS","xxSTABILITY xxDIPLOMACY"
+"xxMAIDEN","Starting","xxFOURxxPLUS","xxSTABILITY xxSORCERY"
+"xxCRONE","Starting","xxFOURxxPLUS","xxSTABILITY xxTECHNOLOGY xxDIPLOMACY"
 
 "xxMOTHER","Starting","xxTWOxxPLUS","xxESPIONAGE"
 "xxMAIDEN","Starting","xxTWOxxPLUS","xxESPIONAGE"

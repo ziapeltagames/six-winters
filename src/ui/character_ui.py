@@ -5,7 +5,7 @@ A ui for modeling character deck in Six Winters.
 @author: phill
 """
 
-import sys
+import sys, argparse
 
 from PyQt5.QtWidgets import QApplication, QGridLayout, QWidget, QListWidget, \
     QPushButton, QLabel, QListWidgetItem, QDialog, QComboBox
@@ -142,6 +142,11 @@ def fill_character_cards():
     
 if __name__ == "__main__":
     
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--c1")
+    parser.add_argument("--c2")
+    args = parser.parse_args()
+    
     sw_font = QFont('sixwinters')
     sw_font.setPointSize(12)
     app = QApplication(sys.argv)
@@ -152,12 +157,21 @@ if __name__ == "__main__":
     
     cdeck = CharacterDeck('../../csv/character-cards.csv')
     
-    cd = CharacterDialog(cdeck.characters())
-    cd.setWindowTitle("Load Characters")
-    cd.show()
-    cd.exec_()
-    
-    (c1, t1, t2, c2, t3, t4) = cd.get_inputs()
+    c1 = ""
+    c2 = ""
+    if args.c1:
+        
+        c1 = args.c1
+        c2 = args.c2
+        
+    else:
+            
+        cd = CharacterDialog(cdeck.characters())
+        cd.setWindowTitle("Load Characters")
+        cd.show()
+        cd.exec_()
+        
+        (c1, t1, t2, c2, t3, t4) = cd.get_inputs()
     
     cdeck.filter_characters(c1, 0, 0, c2, 0, 0)
     
