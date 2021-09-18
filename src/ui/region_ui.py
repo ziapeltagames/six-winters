@@ -182,36 +182,6 @@ def shuffle_mission_cards():
     
     mdeck.shuffle()
     update_mission_card_labels()
-
-def ach_completed_1():
-    na = adeck.draw()
-    if na:
-        a_name_1.setText(na.name)
-        a_task_1.setText(na.task)
-        a_immediate_1.setText(na.immediate)
-        a_reward_1.setText(na.reward)
-        diff1.setText(na.difficulty)
-    else:
-        a_name_1.setText("")
-        a_task_1.setText("")
-        a_immediate_1.setText("")
-        a_reward_1.setText("")
-        diff1.setText("")
-    
-def ach_completed_2():
-    na = adeck.draw()
-    if na:
-        a_name_2.setText(na.name)
-        a_task_2.setText(na.task)
-        a_immediate_2.setText(na.immediate)
-        a_reward_2.setText(na.reward)
-        diff2.setText(na.difficulty)
-    else:
-        a_name_2.setText("")
-        a_task_2.setText("")
-        a_immediate_2.setText("")
-        a_reward_2.setText("")
-        diff2.setText("")
     
 # Probably should be in mission deck?
 def draw_triggers():
@@ -263,11 +233,6 @@ if __name__ == "__main__":
     lcard1 = ldeck.draw()
     lcard2 = ldeck.draw()
     lcard3 = ldeck.draw()
-    
-    adeck = AchievementDeck('../../csv/achievement-cards.csv', region, stage)
-    
-    acard1 = adeck.draw()
-    acard2 = adeck.draw()
     
     w = QWidget()
     w.setWindowTitle('Six Winters')
@@ -474,76 +439,6 @@ if __name__ == "__main__":
     trigger_label_3 = QLabel()
     trigger_label_3.setFont(sw_font)
     grid.addWidget(trigger_label_3, row, 5)   
-
-    row = row + 1 
-
-    alabel = QLabel("Achievements")
-    alabel.setFont(header_font)
-    grid.addWidget(alabel, row, 0, 1, 6, alignment=Qt.AlignCenter)     
-
-    row = row + 1 
-
-    a_complete_1 = QPushButton("Complete")
-    grid.addWidget(a_complete_1, row, 0)
-    a_complete_1.clicked.connect(ach_completed_1)
-
-    diff1 = QLabel(acard1.difficulty)
-    diff1.setFont(sw_font)
-    grid.addWidget(diff1, row, 1)
-
-    a_complete_2 = QPushButton("Complete")
-    grid.addWidget(a_complete_2, row, 3)    
-    a_complete_2.clicked.connect(ach_completed_2)
-
-    diff2 = QLabel(acard2.difficulty)
-    diff2.setFont(sw_font)
-    grid.addWidget(diff2, row, 4) 
-        
-    row = row + 1
-    
-    a_name_1 = QLabel(acard1.name)
-    grid.addWidget(a_name_1, row, 0)    
-
-    a_immediate_1 = QLabel(acard1.immediate)
-    grid.addWidget(a_immediate_1, row, 1, 1, 2) 
-    
-    a_name_2 = QLabel(acard2.name)
-    grid.addWidget(a_name_2, row, 3)
-    
-    a_immediate_2 = QLabel(acard2.immediate)
-    grid.addWidget(a_immediate_2, row, 4, 1, 2)
-    
-    row = row + 1
-    
-    at_label_1 = QLabel('Task')
-    grid.addWidget(at_label_1, row, 0)
-    
-    ar_label_1 = QLabel('Reward')
-    grid.addWidget(ar_label_1, row, 1)
-
-    at_label_2 = QLabel('Task')    
-    grid.addWidget(at_label_2, row, 3)
-
-    ar_label_2 = QLabel('Reward')    
-    grid.addWidget(ar_label_2, row, 4)
-    
-    row = row + 1
-    
-    a_task_1 = QLabel(acard1.task)
-    a_task_1.setFont(sw_font)
-    grid.addWidget(a_task_1, row, 0)
-
-    a_reward_1 = QLabel(acard1.reward)
-    a_reward_1.setFont(sw_font)
-    grid.addWidget(a_reward_1, row, 1)  
-    
-    a_task_2 = QLabel(acard2.task)
-    a_task_2.setFont(sw_font)
-    grid.addWidget(a_task_2, row, 3)
-    
-    a_reward_2 = QLabel(acard2.reward)
-    a_reward_2.setFont(sw_font)
-    grid.addWidget(a_reward_2, row, 4)
     
     # Initialize board
     update_mission_card_labels()

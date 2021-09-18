@@ -26,14 +26,25 @@ class LocationCard:
 class LocationDeck(Deck):
     
     def __init__(self, csv_file, region, stage):
+        
         location_cards = []       
+        
+        rtag = "xxSETTLED"
+        
+        if region.lower() == "empire":
+            rtag = "xxEMPIRE"
+        elif region.lower() == "red bank":
+            rtag = "xxREDBANK"
+        
         with open(csv_file) as csvfile:
             dreader = csv.DictReader(csvfile)
             for rowd in dreader:
                 
                 next_card = LocationCard(rowd)
                 
-                if region not in next_card.region:
+                # print(region.lower(), rtag, next_card.region)
+                
+                if rtag not in next_card.region:
                     continue
                 
                 if stage not in next_card.stage:
