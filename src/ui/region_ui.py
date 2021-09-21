@@ -78,10 +78,10 @@ def location_clicked(loc):
 
     if len(selected_items) > 0:
         selected_card = selected_items[0].data(Qt.UserRole)
-        selected_effect.setText('Effect: '+selected_card.effect)
-        selected_activation.setText('Activation: '+selected_card.activation)
-        selected_overcome.setText('Overcome: '+selected_card.overcome)
-        selected_bust.setText('Bust: '+selected_card.bust)
+        selected_effect.setText(selected_card.effect)
+        selected_activation.setText(selected_card.activation)
+        selected_overcome.setText(selected_card.overcome)
+        # selected_bust.setText('Bust: '+selected_card.bust)
         selected_sr.setText(selected_card.skill)
         selected_defense.setText(selected_card.defense)
         selected_difficulty.setText(selected_card.difficulty)
@@ -362,17 +362,19 @@ if __name__ == "__main__":
     
     row = row + 1
 
-    selected_effect = QLabel("Effect: ")
+    selected_effect = QLabel("")
     grid.addWidget(selected_effect, row, 0, 1, 3)    
-    selected_activation = QLabel("Activation: ")
-    grid.addWidget(selected_activation, row, 3, 1, 3)
+    
+    selected_overcome = QLabel("")
+    grid.addWidget(selected_overcome, row, 3, 1, 3)  
     
     row = row + 1
-    
-    selected_overcome = QLabel("Overcome: ")
-    grid.addWidget(selected_overcome, row, 0, 1, 3)  
-    selected_bust = QLabel("Bust: ")
-    grid.addWidget(selected_bust, row, 3, 1, 3)  
+
+    selected_activation = QLabel("")
+    grid.addWidget(selected_activation, row, 0, 1, 6)    
+
+    # selected_bust = QLabel("Bust: ")
+    # grid.addWidget(selected_bust, row, 3, 1, 3)  
     
     row = row + 1
     

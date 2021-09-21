@@ -22,7 +22,7 @@ class MissionCard:
             cdict['effect'] = ""
             cdict['activation'] = ""
             cdict['overcome'] = ""
-            cdict['bust'] = ""
+            # cdict['bust'] = ""
         
         self.region = cdict['region'] 
         self.trigger = cdict['trigger']
@@ -36,7 +36,6 @@ class MissionCard:
         self.effect = cdict['effect']
         self.activation = cdict['activation']
         self.overcome = cdict['overcome']
-        self.bust = cdict['bust']
         
         self.category = category
         
@@ -46,8 +45,11 @@ class MissionCard:
     
 class MissionDeck(Deck):
     
-    def __init__(self, region, stage, obstacles, scenes, threats):
+    def __init__(self, region, stage, obstacles, scenes, 
+                 threats, num_threats = 12):
 
+        self.num_threats = num_threats
+        
         mission_cards = []
         
         mission_cards.extend(self.read_deck(region, 
@@ -60,6 +62,8 @@ class MissionDeck(Deck):
         super().__init__(mission_cards)
         
     def read_deck(self, region, stage, category, csv_file):
+        
+        total_threats = 0
         
         mission_cards = []
         with open(csv_file) as csvfile:
@@ -77,6 +81,12 @@ class MissionDeck(Deck):
                 if stage not in next_card.stage:
                     continue
                 
+                if category == 'Threat' and total_threats >= self.num_threats:
+                    continue
+                
+                if category == 'Threat':
+                    total_threats = total_threats + 1
+
                 mission_cards.append(next_card)
 
         return mission_cards

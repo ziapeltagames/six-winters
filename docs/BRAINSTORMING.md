@@ -1,3 +1,75 @@
+# 09/21/21
+
+## Threats
+
+Most likely, threats drawn as triggers will still need to come out, otherwise the threat build up may be too slow.
+
+## On Timers
+
+Did some experiments with times. If only one of the three regions has to match the stage, the game is pretty short - averaging 4 turns.
+
+If players can draw mission cards, the can extend the game a ton, as long as they're willing to draw lots of mission cards:
+
+1 Draw: 7 turns
+2 Draws: 13 turns
+3 Draws: 29 turns
+
+Not sure the pros/cons of this approach yet. Giving players some control seems good, but it's less good if the option doesn't seem so optional. Additional turns are very important, so it's unlikely players would pass up that opportunity. Also, 29 turns feels too long. Even with quick turns (5 minutes or so), that's multiple hours.
+
+Players can draw 1 card by going to the location and having an encounter there. They can also extend the game by avoiding locations that don't have a matching counter. Most likely, players SHOULDN'T be allowed to draw mission cards by spending action points.
+
+Need to try an additional experiment where each region has a separate timer. Should make the game much longer. Also an experiment where only the top match is drawn (this would reflect the counter method). If that results in 8-10 turns, that's feels close to perfect.
+
+## On Stress
+
+Also wondering about the conditions system. Having a really high stress condition value isn't going to matter much, because most stress will be less than that. Could do something like put dice on each condition, and they tick down until you take the condition? With the caveat that you can't divide up stress between conditions. That would solve the problem, but it's pretty fiddly. It also caps out a conditon's stress at 6 (from the die). Or could start the die at the lowest condition, and tick up the track. If a player takes a major condition, they start with that as their current condition. That feels less fiddly - at least there's only one body die and one stress die for each character.
+
+## On Trade
+
+Trading raw resources around should probably be much easier, or it won't happen much. Maybe it costs 1 or 2 AP to initiate trade, and then you can trade any dice of value 6 or maybe 7 or higher for another die of the appropriate type, rolling it and placing it. That way of doing the wheel of trade is pretty fun, and would encourage much more trading, particularly at the start of each turn.
+
+## Currencies and Regions
+
+Are there certain currencies/effects/tags more common in each region? There are skills and resources more common to a region.
+
+* Empire
+   * Psyche
+   * Disguise, Thievery
+   * Espionage, Technology
+   * Guards, Traps, Rebels, Vaults
+   * Urban
+   * Crone
+* Red Bank
+   * Body
+   * Command, Combat, Survival
+   * Stability, Sorcery
+   * Commitment
+   * Mobs, Undead, Creatures, Spells, Spies
+   * Wilderness, Dungeon
+   * Maiden
+* Settled Lands
+   * Discord
+   * Rapport, Tactics, Lore
+   * Diplomacy, Military
+   * Diplomats, Issues
+   * Rural
+   * Mother
+
+## Scene Brainstorming
+
+Wondering about some kind of "rounds" mechanism for obstacles, where players spend an AP to start overcoming the obstacle, but then can add more skill dice each round. That may make skills not matter as much, though, because you can keep spending over rounds - although, if obstacles have attacks, that could hit the character repeatedly. Using asset dice to overcome obstacles is also very useful. For now, will keep scenes as a one round pass/fail. Also wondering about simplifying scenes and removing the condition on a 'bust'. A bust is no different than an attack, so that's redundant. Busts are also going to be rare - players are only going to engage with scenes when they have a decent chance of overcoming them. Better to focus all the negative parts of scenes as effects for the location or as activation effects, or even as attacks.
+
+## Scene Card Effects
+
+* Increase/decrease movement cost
+* Move obstacle to location
+* Draw obstacle type
+* Increase/decrease difficulty of attached obstacles
+* Increase/decrease difficulty of attached threats
+* Add/subtract discord
+* Add/subtract commitment
+* Add/remove conditions
+
 # 09/18/21
 
 ## Resource Dice, Asset Dice, and Progress Dice
