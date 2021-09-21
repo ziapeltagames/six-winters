@@ -6,6 +6,18 @@ It would be helpful to have some clear terminology for where dice can be locatio
 
 Maybe only the asset dice can help overcome an obstacle? Might be nice for cognitive load, and there are so many ways to mess with dice, it's unlikely they'll remain on cards for long. Although, pulling down dice helps get dice numbers higher for obstacles. The "invest" action should maybe be called "craft" or something like that?
 
+## Scenes
+
+If fortune-at-the-front dice are used, it becomes much less likely that a player will fail to complete a scene. Thus, the "bust" result is probably no longer needed? Is there anything special for a scene, though? Maybe obstacles can be engaged over rounds of time, but scenes are just one shot? Potential unique things scenes can do:
+
+* Focus on number of characters (solo, pair, team, group)
+* Only one "round" is possible - scenes never have progress? all or nothing?
+* Can affect attached obstacles (tougher, etc)
+* Will always go away when activated, potentially after doing something
+* Can only have one scene at a location, if another is drawn, discard it instead
+
+If scenes don't have progress, it's _possible_ for a bust to happen, depending on how risky a player is. But it's going to be fairly unlikely, and the worse the bust result is, the less likely it is to happen. Maybe on a failure the scene just activates? Which would normally cause a discard?
+
 # 09/17/21
 
 ## Achievement Decks
