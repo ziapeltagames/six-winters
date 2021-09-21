@@ -20,6 +20,8 @@ Players can draw 1 card by going to the location and having an encounter there. 
 
 Need to try an additional experiment where each region has a separate timer. Should make the game much longer. Also an experiment where only the top match is drawn (this would reflect the counter method). If that results in 8-10 turns, that's feels close to perfect.
 
+Having a fourth trigger (winter) would also increase the duration, if needed. Winter could be some kind of wild card, like all locations in the region activate. For triggers, having Settled Lands = Summer, Red Bank = Fall, and Empire = Winter is maybe a good pattern. Then the locations would migrate from right to left and top to bottom as the game goes along.
+
 ## On Stress
 
 Also wondering about the conditions system. Having a really high stress condition value isn't going to matter much, because most stress will be less than that. Could do something like put dice on each condition, and they tick down until you take the condition? With the caveat that you can't divide up stress between conditions. That would solve the problem, but it's pretty fiddly. It also caps out a conditon's stress at 6 (from the die). Or could start the die at the lowest condition, and tick up the track. If a player takes a major condition, they start with that as their current condition. That feels less fiddly - at least there's only one body die and one stress die for each character.
