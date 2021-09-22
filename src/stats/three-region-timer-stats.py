@@ -65,13 +65,13 @@ sdeck = MissionDeck('Settled Lands', 'Starting',
                     '../../csv/mission-cards-threats.csv')
 
 decks = [edeck, rdeck, sdeck]
-stages=['xxMAIDEN', 'xxMOTHER', 'xxCRONE']
+stages=['xxSUMMER', 'xxSUMMER', 'xxFALL', 'xxFALL', 'xxFALL', 'xxWINTER', 'xxWINTER']
 total_stages = len(stages)
 
 # How many times will players try to remove matching symbols on a turn?
-total_player_draws = 3
+total_player_draws = 0 # 3
 
-trials = 20000
+trials = 2000
 turn_list = []
 for trial in range(trials):
     

@@ -16,7 +16,6 @@ from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt
 
 from mission_deck import MissionDeck
-from sixwinters import SixWinters
 from location_deck import LocationDeck
 
 # Retrieve choices for characters, region, and year
@@ -60,8 +59,6 @@ def update_mission_card_labels():
     md_draw_label.setText(str(mdeck.draw_size()))
     md_discard_label.setText(str(mdeck.discard_size()))
     md_top_card_label.setText(str(mdeck.top_trigger()))
-    timer_label.setText(sw.get_phase())
-    stage_label.setText(str(sw.month))
     
 def location_clicked_0():
     location_clicked(0)
@@ -186,13 +183,7 @@ def shuffle_mission_cards():
 # Probably should be in mission deck?
 def draw_triggers():
     
-    triggers = mdeck.draw_triggers(sw.month)
-    
-    if triggers:
-        sw.apply_triggers(triggers)
-    else:
-        triggers = ["", "", ""]
-        sw.next_phase()
+    triggers = mdeck.draw_triggers(1)
     
     trigger_label_1.setText(triggers[0])
     trigger_label_2.setText(triggers[1])
@@ -207,7 +198,6 @@ if __name__ == "__main__":
     parser.add_argument("--year")
     args = parser.parse_args()
     
-    sw = SixWinters()
     sw_font = QFont('sixwinters')
     sw_font.setPointSize(12)
     app = QApplication(sys.argv)
@@ -319,7 +309,7 @@ if __name__ == "__main__":
     
     row = row + 1
         
-    loc_1_sr = QLabel("xxMAIDEN " + lcard1.skill + " " + lcard1.resource)
+    loc_1_sr = QLabel(lcard1.skill + " " + lcard1.resource)
     loc_1_sr.setFont(sw_font)
     grid.addWidget(loc_1_sr, row, 0)    
 
@@ -327,7 +317,7 @@ if __name__ == "__main__":
     draw_loc_0.clicked.connect(draw_mission_card_0)
     grid.addWidget(draw_loc_0, row, 1)
 
-    loc_2_sr = QLabel("xxMOTHER " + lcard2.skill + " " + lcard2.resource)
+    loc_2_sr = QLabel(lcard2.skill + " " + lcard2.resource)
     loc_2_sr.setFont(sw_font)
     grid.addWidget(loc_2_sr, row, 2)  
     
@@ -335,7 +325,7 @@ if __name__ == "__main__":
     draw_loc_1.clicked.connect(draw_mission_card_1)
     grid.addWidget(draw_loc_1, row, 3)
 
-    loc_3_sr = QLabel("xxCRONE " + lcard3.skill + " " + lcard3.resource)
+    loc_3_sr = QLabel(lcard3.skill + " " + lcard3.resource)
     loc_3_sr.setFont(sw_font)
     grid.addWidget(loc_3_sr, row, 4)  
     
@@ -429,23 +419,7 @@ if __name__ == "__main__":
     
     row = row + 1 
     
-    tlabel = QLabel("Triggers")
-    grid.addWidget(tlabel, row, 0)
-    
-    grid.addWidget(QLabel("Phase"), row, 2)
-    
-    timer_label = QLabel()
-    timer_label.setFont(sw_font)
-    grid.addWidget(timer_label, row, 3)
-    
-    grid.addWidget(QLabel("Stage"), row, 4)
-    
-    stage_label = QLabel()
-    grid.addWidget(stage_label, row, 5)
-    
-    row = row + 1 
-    
-    trigger_button = QPushButton("Draw Trigger")
+    trigger_button = QPushButton("Apply Trigger")
     trigger_button.clicked.connect(draw_triggers)
     grid.addWidget(trigger_button, row, 0, 1, 2)
     

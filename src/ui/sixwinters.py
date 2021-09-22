@@ -4,7 +4,7 @@ class SixWinters():
     
     def __init__(self):
     
-        self.phases  = ["xxMAIDEN", "xxMOTHER", "xxCRONE"]
+        self.phases  = ["xxSUMMER", "xxFALL", "xxWINTER"]
         self.phase = 0
         self.month = 1
         
