@@ -1,3 +1,26 @@
+# 09/22/21
+
+## Starting, Special, and Standard Mission Cards
+
+Where should attached cards for locations come from? Is it okay to pull them out of the mission deck? Or should they come from a different set of cards? It seems kind of fiddly to have, say, guards in the mission deck, but then use an entirely different set of cards for a location card. Particularly if it also means that special cards get discarded to a different place, an don't go back into the mission deck. It's possible that some location cards attach standard cards and some attach special cards. That's probably okay.
+
+That means special cards need some particular notation.
+
+## Overcoming Obstacles
+
+When obstacles are overcome, should they go into the mission discard pile? This could even be trickier for cards that start attached to locations. If you overcome them, do they go back into the mission deck? Maybe special cards are burned, and standard cards go back into the deck. The "starting" decks are just a list of standard cards for the game, they aren't designated at all.
+
+What's the use case for getting, say, Oniri?
+
+* Get Search achievements to find lost lands
+* Pay the cost to add the location into the mix
+* Swap out some current Red Bank location for Undari's Tomb
+* Undari's Tomb indicates what achievement to add to the achievement deck
+* The achievement places the Necromancer into play
+* If the necromancer is overcome, it is burned, as indicated on the achievement - and Oniri is unlocked
+
+Could even have two options for obstacles: one which overcomes them, but puts them back into circulation, and one which burns them? That could be interesting for certain characters attached to locations, like diplomats.
+
 # 09/21/21
 
 ## Threats

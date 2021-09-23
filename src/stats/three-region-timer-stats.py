@@ -13,6 +13,10 @@ cards. Players will draw up to two matching cards before giving up.
 1 Draw: 7 turns
 2 Draws: 13 turns
 3 Draws: 29 turns
+
+Experiment 3: Vary timers and lookahead.
+
+5 Timers, 1 Lookahead: 12 turns
     
 """
 
@@ -65,7 +69,7 @@ sdeck = MissionDeck('Settled Lands', 'Starting',
                     '../../csv/mission-cards-threats.csv')
 
 decks = [edeck, rdeck, sdeck]
-stages=['xxSUMMER', 'xxSUMMER', 'xxFALL', 'xxFALL', 'xxFALL', 'xxWINTER', 'xxWINTER']
+stages=['xxSPRING', 'xxSPRING', 'xxSUMMER', 'xxSUMMER', 'xxFALL', 'xxFALL', 'xxWINTER']
 total_stages = len(stages)
 
 # How many times will players try to remove matching symbols on a turn?
@@ -73,11 +77,13 @@ total_player_draws = 0 # 3
 
 trials = 2000
 turn_list = []
+winter_list = []
 for trial in range(trials):
     
     
     # Reset state each trial
     turns = 0
+    winter_turns = 0
     stage = 0
     for next_deck in decks:
         next_deck.shuffle()
@@ -88,6 +94,9 @@ for trial in range(trials):
         turns = turns + 1
         match = False
         
+        if stages[stage] == 'xxWINTER':
+            winter_turns = winter_turns + 1
+        
         # Draw one card from each deck
         for next_deck in decks:
             nmatch, player_draws = draw_trigger(next_deck, stages[stage], player_draws, total_player_draws)
@@ -97,8 +106,11 @@ for trial in range(trials):
         if match == True:
             stage = stage + 1
     
+    winter_list.append(winter_turns)
     turn_list.append(turns)
     
+print(statistics.mean(winter_list))
+print(statistics.stdev(winter_list))
 print(statistics.mean(turn_list))
 print(statistics.median(turn_list))
 print(statistics.stdev(turn_list))
