@@ -36,17 +36,17 @@ def draw_trigger(mdeck, trigger, player_draws, total_player_draws):
         
     mdeck.discard(card)
     
-    # while card.trigger == trigger and player_draws < total_player_draws:
+    while card.trigger == trigger and player_draws < total_player_draws:
         
-    #     player_draws = player_draws + 1
+        player_draws = player_draws + 1
         
-    #     card = mdeck.draw()
+        card = mdeck.draw()
         
-    #     if card == None:
-    #         mdeck.shuffle()
-    #         card = mdeck.draw()
+        if card == None:
+            mdeck.shuffle()
+            card = mdeck.draw()
             
-    #     mdeck.discard(card)
+        mdeck.discard(card)
         
     threat = 0
     if card.tags == "Threat":
@@ -74,7 +74,7 @@ stages=['xxSPRING', 'xxSPRING', 'xxSUMMER', 'xxSUMMER', 'xxFALL', 'xxFALL', 'xxW
 total_stages = len(stages)
 
 # How many times will players try to remove matching symbols on a turn?
-total_player_draws = 0 # 3
+total_player_draws = 1 # 3
 
 trials = 2000
 turn_list = []
