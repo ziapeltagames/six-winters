@@ -34,20 +34,20 @@ region,trigger,stage,name,tags,skill,defense1,defense2,difficulty,attack1,attack
 "Red Bank","xxSPECIAL","Special","The Necromancer","Foe",xxLORE,"##NBSP##xxSIXxxCOLON xxNTWOxxCUBE##NBSP##","##NBSP##xxSORCERYxxCOLON xxNTWOxxCUBE##NBSP##","xxNFIVExxCUBE","##NBSP##xxFOURxxCOLON xxNTHREExxBODY##NBSP##","##NBSP##xxTHREExxPLUSxxCOLON xxNTWOxxBODY##NBSP##","xxRIGHT Take 1 xxDISCORD for every resource die in the xxSORCERY pool.","..\images\obstacles\necromancer_jester.jpg"
 
 
-"Settled Lands","xxWINTER","Starting","The Blue Robes","Issue",xxLORE,"##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT","..\images\obstacles\shadow_walker.tif"
-"Settled Lands","xxSPRING","Starting","Tradition, or Reform?","Issue",xxCOMMAND,"##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT","..\images\obstacles\pleas_support.tif"
-"Settled Lands","xxSPRING","Starting","Inadequate Defenses","Issue",xxTACTICS,"##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT","..\images\obstacles\flee.tif"
-"Settled Lands","xxSPRING","Starting","Wine and Roses","Issue, Urban",xxRAPPORT,"##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT","..\images\obstacles\friends_at_court.tif"
-"Settled Lands","xxSPRING","Starting","Animaelic Forest","Issue, Rural",xxLORE,"##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT","..\images\obstacles\animaelic.tif"
-"Settled Lands","xxFALL","Starting","Northern Patrol","Issue, Wilderness, Rural",xxTACTICS,"##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT","..\images\obstacles\northern_patrol.tif"
-"Settled Lands","xxFALL","Starting","Finer Things","Issue, Urban",xxRAPPORT,"##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT","..\images\obstacles\finer_things.jpg"
+"Settled Lands","xxWINTER","Starting","Order of the Blue Robes","Issue, Quick",xxLORE,"##NBSP##xxTHREExxPLUSxxCOLON xxOVERCOME##NBSP##",,"xxNTHREExxCUBE","##NBSP##xxTWOxxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##","##NBSP##xxTHREExxPLUSxxCOLON xxNONExxPSYCHE##NBSP##","xxRIGHT Remove all xxSORCERY assets.","..\images\obstacles\shadow_walker.tif"
+"Settled Lands","xxSPRING","Starting","Tradition, or Reform?","Issue",xxCOMMAND,"##NBSP##xxTHREExxPLUSxxCOLON xxOVERCOME##NBSP##",,"xxNTWOxxCUBE","##NBSP##xxTWOxxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##",,"xxRIGHT One character in this region takes 1 xxPSYCHE.","..\images\obstacles\pleas_support.tif"
+"Settled Lands","xxSPRING","Starting","Inadequate Defenses","Issue",xxTACTICS,"##NBSP##xxTHREExxPLUSxxCOLON xxOVERCOME##NBSP##",,"xxNFOURxxCUBE","##NBSP##xxTWOxxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##",,"xxRIGHT One character at a mission location is Exhausted.","..\images\obstacles\flee.tif"
+"Settled Lands","xxSPRING","Starting","Lost in Translation","Issue, Urban, Quick",xxRAPPORT,"##NBSP##xxTHREExxPLUSxxCOLON xxOVERCOME##NBSP##",,"xxNTHREExxCUBE","##NBSP##xxTWOxxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##",,"xxRIGHT Reroll all asset dice in this location. Any character in this location takes 1 xxPSYCHE.",
+"Settled Lands","xxSPRING","Starting","Animaelic Forest","Issue, Rural",xxLORE,"##NBSP##xxTHREExxPLUSxxCOLON xxOVERCOME##NBSP##",,"xxNTWOxxCUBE","##NBSP##xxTWOxxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##",,"xxRIGHT Reroll all dice in the xxSORCERY pool.","..\images\obstacles\animaelic.tif"
+"Settled Lands","xxFALL","Starting","Northern Patrol","Issue, Wilderness, Rural",xxTACTICS,"##NBSP##xxTHREExxPLUSxxCOLON xxOVERCOME##NBSP##",,"xxNTHREExxCUBE","##NBSP##xxTWOxxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##",,"xxRIGHT If no characters are at this location, take 2 xxDISCORD.","..\images\obstacles\northern_patrol.tif"
+"Settled Lands","xxFALL","Starting","Finer Things","Issue, Urban",xxRAPPORT,"##NBSP##xxTHREExxPLUSxxCOLON xxOVERCOME##NBSP##",,"xxNTHREExxCUBE","##NBSP##xxTWOxxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##",,"xxRIGHT Remove 1 xxSTABILITY asset die from any location.","..\images\obstacles\finer_things.jpg"
 
-"Settled Lands","xxSUMMER","Starting","Samo","Diplomat",xxTACTICS,"##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT","..\images\obstacles\scholar.jpg"
-"Settled Lands","xxSUMMER","Starting","Taichu","Diplomat",xxCOMBAT,"##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT","..\images\obstacles\mongol_steppe_character.jpg"
-"Settled Lands","xxSUMMER","Starting","Zarrah","Diplomat",xxRAPPORT,"##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT","..\images\obstacles\mongol_female.jpg"
+"Settled Lands","xxSUMMER","Starting","Samo","Diplomat",xxTACTICS,"##NBSP##xxTHREExxPLUSxxCOLON xxOVERCOME##NBSP##",,"xxNTHREExxCUBE","##NBSP##xxTWOxxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##","##NBSP##xxTHREExxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##","xxRIGHT Remove 1 asset die from this region.","..\images\obstacles\scholar.jpg"
+"Settled Lands","xxSUMMER","Starting","Taichu","Diplomat",xxCOMBAT,"##NBSP##xxTHREExxPLUSxxCOLON xxOVERCOME##NBSP##",,"xxNTHREExxCUBE","##NBSP##xxTWOxxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##",,"xxRIGHT One character at this location is Frustrated.","..\images\obstacles\mongol_steppe_character.jpg"
+"Settled Lands","xxSUMMER","Starting","Zarrah","Diplomat, Quick",xxRAPPORT,"##NBSP##xxTHREExxPLUSxxCOLON xxOVERCOME##NBSP##",,"xxNTHREExxCUBE","##NBSP##xxTWOxxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##",,"xxRIGHT Take 1 xxDISCORD and may move one character at this location to any other location.","..\images\obstacles\mongol_female.jpg"
 
 "Settled Lands","xxSPECIAL","Special","xxSPECIAL Hogel","Diplomat",xxRAPPORT,"##NBSP##xxSIXxxCOLON xxOVERCOME##NBSP##","##NBSP##xxTHREExxTHREExxTHREExxCOLON xxFIRE##NBSP##","xxNFOURxxCUBE","##NBSP##xxTHREExxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##",,"xxRIGHT Remove 1 asset die from this region.","..\images\obstacles\hermit.jpg"
-"Settled Lands","xxSPECIAL","Special","xxSPECIAL Elisa","Diplomat",xxLORE,"##NBSP##xxSIXxxCOLON xxOVERCOME##NBSP##","##NBSP##xxSTABILITYxxSTABILITYxxCOLON xxFIRE##NBSP##","xxNFOURxxCUBE","##NBSP##xxTHREExxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##",,"xxRIGHT One character in this region is frustrated.","..\images\obstacles\Elizabeth-of-Kiev.jpg"
+"Settled Lands","xxSPECIAL","Special","xxSPECIAL Elisa","Diplomat",xxLORE,"##NBSP##xxSIXxxCOLON xxOVERCOME##NBSP##","##NBSP##xxSTABILITYxxSTABILITYxxCOLON xxFIRE##NBSP##","xxNFOURxxCUBE","##NBSP##xxTHREExxPLUSxxCOLON xxNTWOxxPSYCHE##NBSP##",,"xxRIGHT Take 1 Discord. Roll 1 xxSORCERY die and place it on this location.","..\images\obstacles\Elizabeth-of-Kiev.jpg"
 
 
 "Empire","xxFALL","Starting","Background Checks","Scene","xxDISGUISE","##NBSP##Defense##NBSP##",,"xxNFOURxxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT Search discard for an Imperial Guard. If found, put into play.",
@@ -62,25 +62,25 @@ region,trigger,stage,name,tags,skill,defense1,defense2,difficulty,attack1,attack
 "Empire","xxWINTER","Starting","Guard Cell","Scene","xxCOMBAT","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT Draw 1 threat card.",
 
 
-"Red Bank","xxSUMMER","Starting","Spy Unmasked","Scene","xxTHIEVERY","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Red Bank","xxSUMMER","Starting","Following Ley Lines","Scene","xxLORE","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Red Bank","xxSUMMER","Starting","Radiant Fernbrake","Scene","xxSURVIVAL","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Red Bank","xxSUMMER","Starting","Makeshift Shelter","Wilderness","xxSURVIVAL","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Red Bank","xxFALL","Starting","Red Bank Command Scene 3","Scene","xxCOMMAND","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Red Bank","xxFALL","Starting","Red Bank Combat Scene 4","Scene","xxCOMBAT","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Red Bank","xxFALL","Starting","Red Bank Rapport Scene 1","Scene","xxRAPPORT","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Red Bank","xxSPRING","Starting","Rousing Speech","Solo","xxCOMMAND","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"Attach to Wilderness location.","xxRIGHT All characters at this location take 1 stress and discard.",
-"Red Bank","xxSPRING","Starting","Paranoid Mob","Scene","xxCOMMAND","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Red Bank","xxWINTER","Starting","Red Bank Combat Scene 1","Scene","xxCOMBAT","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
+"Red Bank","xxSUMMER","Starting","Spy Unmasked","Scene","xxTHIEVERY","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Red Bank","xxSUMMER","Starting","Following Ley Lines","Scene","xxLORE","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Red Bank","xxSUMMER","Starting","Radiant Fernbrake","Scene","xxSURVIVAL","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Red Bank","xxSUMMER","Starting","Makeshift Shelter","Wilderness","xxSURVIVAL","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Red Bank","xxFALL","Starting","Culture Clash","Scene","xxCOMMAND","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Red Bank","xxFALL","Starting","Ambush!","Scene","xxCOMBAT","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Red Bank","xxFALL","Starting","Throwing Bones","Scene","xxRAPPORT","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Red Bank","xxSPRING","Starting","Rousing Speech","Solo","xxCOMMAND","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"Attach to Wilderness location.",
+"Red Bank","xxSPRING","Starting","Territorial Dispute","Scene","xxCOMMAND","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Red Bank","xxWINTER","Starting","Bandit Camp","Scene","xxCOMBAT","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
 
 
-"Settled Lands","xxSPRING","Starting","Battle Plans","Scene","xxRAPPORT","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Settled Lands","xxSPRING","Starting","Shame to Anger","Scene","xxRAPPORT","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Settled Lands","xxSPRING","Starting","Settled Lands Lore Scene 1","Scene","xxLORE","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Settled Lands","xxSPRING","Starting","Settled Disguise Scene","Scene","xxDISGUISE","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Settled Lands","xxSUMMER","Starting","Settled Lands Survival Scene","Scene","xxSURVIVAL","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Settled Lands","xxSUMMER","Starting","Galy's Egalitarian Society","Scene","xxCOMMAND","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Settled Lands","xxSUMMER","Starting","Settled Lands Rapport Scene","Scene","xxRAPPORT","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Settled Lands","xxFALL","Starting","Looking West","Scene","xxTACTICS","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Settled Lands","xxFALL","Starting","Settled Lands Tactics Scene","Scene","xxTACTICS","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
-"Settled Lands","xxWINTER","Starting","Settled Lands Thievery Scene","Scene","xxTHIEVERY","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT All characters at this location take 1 stress and discard.",
+"Settled Lands","xxSPRING","Starting","Battle Plans","Scene","xxRAPPORT","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Settled Lands","xxSPRING","Starting","Wine and Roses","Scene","xxRAPPORT","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT","..\images\obstacles\friends_at_court.tif"
+"Settled Lands","xxSPRING","Starting","Unearthed Arcana","Scene","xxLORE","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Settled Lands","xxSPRING","Starting","Costume Ball","Scene","xxDISGUISE","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Settled Lands","xxSUMMER","Starting","Securing the Perimeter","Scene","xxSURVIVAL","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Settled Lands","xxSUMMER","Starting","Egalitarian Society","Scene","xxCOMMAND","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Settled Lands","xxSUMMER","Starting","Sales Pitch","Scene","xxRAPPORT","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Settled Lands","xxFALL","Starting","Looking West","Scene","xxTACTICS","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",
+"Settled Lands","xxFALL","Starting","Battle Plans","Scene","xxTACTICS","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"All issues at this location have +1 xxCUBE.",
+"Settled Lands","xxWINTER","Starting","Secrets and Lies","Scene","xxTHIEVERY","##NBSP##Defense##NBSP##",,"xxNTHREExxCUBE","##NBSP##Attack##NBSP##",,"xxRIGHT",

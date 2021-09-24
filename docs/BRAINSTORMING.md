@@ -1,3 +1,25 @@
+# 09/23/21
+
+## Threat Deck
+
+The threats are most likely going to need to be put back into a separate deck. It's just too unlikely that enough threats will be drawn otherwise. After all, there are only 12 or so turns currently. Given that, only about 4 threats will be drawn. Even if threats are distinct and put into play as triggers, it's still unlikely that more than 4 or so will be drawn. This means the pattern matching XYZ probably can't work. It's maybe possible to go back to a "bust" kind of threat, checking if the total is over XYZ. That would probably mean untyped threats, purely numeric values. It... could work. Although, even there, players will most likely try to get rid of threats as soon as possible. And if they're interspersed with other sorts of cards - that will be much more likely. There's also no "build up" to the pacing anymore, and the build up was fun. A separate threat deck would put that back on the table.
+
+Maybe it could work as follows:
+
+* Spring (Rds 1 & 2)
+  * No threats
+  * Normal mission card draws
+* Summer
+  * 1 threat/region
+  * Normal mission card draws
+* Fall
+  * 2 threats/region
+  * No mission card draws
+* Winter
+  * Game ends
+
+The main thing that was kind of cool is having typed threats in the different mission decks. This would allow players to tune those decks better, and make for "local" Empire strategies. In one threat deck, the Empire strategy is far more global.
+
 # 09/22/21
 
 ## Starting, Special, and Standard Mission Cards

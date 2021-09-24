@@ -16,13 +16,13 @@ class MissionCard:
         if category == 'Threat':
             cdict['region'] = region
             cdict['name'] = ""
-            cdict['tags'] = ""
             cdict['skill'] = ""
             cdict['difficulty'] = ""
-            cdict['effect'] = ""
-            cdict['activation'] = ""
-            cdict['overcome'] = ""
-            # cdict['bust'] = ""
+            cdict['bodytext'] = ""
+            cdict['defense1'] = ""
+            cdict['defense2'] = ""
+            cdict['attack1'] = ""
+            cdict['attack2'] = ""
         
         self.region = cdict['region'] 
         self.trigger = cdict['trigger']
@@ -30,12 +30,14 @@ class MissionCard:
         self.name = cdict['name']
         self.tags = cdict['tags']
         self.skill = cdict['skill']
-        self.defense = cdict['defense']
+        
+        self.defense = cdict['defense1']
+        self.defense2 = cdict['defense2']        
         self.difficulty = cdict['difficulty']
-        self.attack = cdict['attack']
-        self.effect = cdict['effect']
-        self.activation = cdict['activation']
-        self.overcome = cdict['overcome']
+        self.attack = cdict['attack1']
+        self.attack2 = cdict['attack2']
+        
+        self.bodytext = cdict['bodytext']
         
         self.category = category
         
@@ -45,7 +47,7 @@ class MissionCard:
     
 class MissionDeck(Deck):
     
-    def __init__(self, region, stage, obstacles, scenes, 
+    def __init__(self, region, stage, obstacles, 
                  threats, num_threats = 12):
 
         self.num_threats = num_threats
@@ -54,8 +56,6 @@ class MissionDeck(Deck):
         
         mission_cards.extend(self.read_deck(region, 
                                             stage, 'Obstacle', obstacles))
-        mission_cards.extend(self.read_deck(region, 
-                                            stage, 'Scene', scenes))
         mission_cards.extend(self.read_deck(region, 
                                             stage, 'Threat', threats))
         
@@ -123,7 +123,6 @@ if __name__ == "__main__":
     
     cdeck = MissionDeck('Empire', 'Starting', 
                         '../../csv/mission-cards-obstacles.csv',
-                        '../../csv/mission-cards-scenes.csv',
                         '../../csv/mission-cards-threats.csv')
     
     cc = cdeck.draw()
