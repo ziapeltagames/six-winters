@@ -70,7 +70,7 @@ stages=['xxSPRING', 'xxSUMMER', 'xxSUMMER', 'xxFALL', 'xxFALL', 'xxWINTER']
 total_stages = len(stages)
 
 # How many times will players try to remove matching symbols on a turn?
-total_player_draws = 1 # 3
+total_player_draws = 0 # 3
 
 trials = 1000
 turn_list = []
@@ -112,14 +112,20 @@ for trial in range(trials):
             if nmatch == True:
                 match = True
             season_cards.append(card)
+            
+            # if card.tags == 'Threat':
+            #     sb_threats = sb_threats + 1
+            
+        if card.tags == 'Threat':
+            sb_threats = sb_threats + 1
         
-        if stages[stage] == 'xxSPRING' or stages[stage] == 'xxSUMMER':
-            if season_cards[0].tags == 'Threat':
-                sb_threats = sb_threats + 1
+        # if stages[stage] == 'xxSPRING' or stages[stage] == 'xxSUMMER':
+        #     if season_cards[0].tags == 'Threat':
+        #         sb_threats = sb_threats + 1
                 
-        if stages[stage] == 'xxFALL' or stages[stage] == 'xxWINTER':
-            if season_cards[1].tags == 'Threat':
-                sb_threats = sb_threats + 1
+        # if stages[stage] == 'xxFALL' or stages[stage] == 'xxWINTER':
+        #     if season_cards[1].tags == 'Threat':
+        #         sb_threats = sb_threats + 1
         
         if match == True:
             stage = stage + 1

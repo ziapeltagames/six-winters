@@ -48,7 +48,7 @@ class MissionCard:
 class MissionDeck(Deck):
     
     def __init__(self, region, stage, obstacles, 
-                 threats, num_threats = 12):
+                 threats, num_threats = 10):
 
         self.num_threats = num_threats
         
@@ -56,8 +56,8 @@ class MissionDeck(Deck):
         
         mission_cards.extend(self.read_deck(region, 
                                             stage, 'Obstacle', obstacles))
-        # mission_cards.extend(self.read_deck(region, 
-        #                                     stage, 'Threat', threats))
+        mission_cards.extend(self.read_deck(region, 
+                                            stage, 'Threat', threats))
         
         super().__init__(mission_cards)
         
