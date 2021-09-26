@@ -1,3 +1,18 @@
+# 09/24/21
+
+## Threats and Mission Cards
+
+Having trouble getting threats to work - why not just add threat tags to mission cards? That's overloaded, but maybe less overloaded than anything else you could do? It gives another vector of info to the cards, and makes for even more choices. Some cards don't need weird triggers or anything, they can just be a pain for the tag(s) they have.
+
+## Achievement Spends
+
+The one thing that will need to change is burning threats, though. Maybe:
+
+* Raise skills
+* Raise resource tracks
+* Find special locations (Mostly Settled Lands)
+* Burn mission cards (with the related tag)
+
 # 09/23/21
 
 ## Threat Deck
