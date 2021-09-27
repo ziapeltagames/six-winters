@@ -1,3 +1,48 @@
+# 09/27/21
+
+## Areas to Work On
+
+* Trade - particularly trading assets, this probably needs more thought
+   * Should this be possible at all?
+   * Maybe you can create assets of another type, but it's more expensive?
+   * It should be difficult, though, otherwise location tags don't matter, and movement stagnates
+* Graphic design
+   * Maybe think about breaking up skill/resource tags on locations, put one in the lower left?
+   * Hard to distinguish two icons right next to each other
+* Mission decks
+   * How do they evolve over time?
+   * Can cards move between them, or are there three mission decks, each typed appropriately
+   * Separate is probably better - almost all the cards are going to be themed for region
+   * Adding cards is fairly easy - just some number get added to the deck each season
+   * Burning cards is harder - going to be related to achievements
+* Achievements
+   * Raise skills
+   * Raise resource tracks
+   * Burn mission cards (typed or not?, for now - not typed)
+   * Search for locations (typed or not?, for now - not typed)
+* Mission cards
+   * What happens if you don't overcome a mission card?
+   * Are there rounds?
+   * Do you just spend more turns?
+   * Is there something special for scenes?
+   * For now, will probably have them work the same: with the common scene trait being they get discarded on activation
+
+## Threat and Skill Tags
+
+Skills
+Empire Counter({'DISGUISE': 8, 'THIEVERY': 6, 'LORE': 2, 'RAPPORT': 2, 'SURVIVAL': 1, 'TACTICS': 1, 'COMBAT': 1})
+Red Bank Counter({'COMMAND': 8, 'COMBAT': 5, 'SURVIVAL': 4, 'LORE': 2, 'THIEVERY': 1, 'RAPPORT': 1})
+Settled Lands Counter({'RAPPORT': 7, 'TACTICS': 5, 'LORE': 4, 'COMMAND': 2, 'DISGUISE': 1, 'COMBAT': 1, 'SURVIVAL': 1, 'THIEVERY': 1})
+Total {'DISGUISE': 9, 'LORE': 8, 'RAPPORT': 10, 'SURVIVAL': 6, 'THIEVERY': 8, 'TACTICS': 6, 'COMBAT': 7, 'COMMAND': 10}
+
+Threats
+Empire Counter({'ESPIONAGE': 8, 'MILITARY': 3, 'SORCERY': 2, 'TECHNOLOGY': 1, 'STABILITY': 1, 'DIPLOMACY': 1})
+Red Bank Counter({'STABILITY': 7, 'DIPLOMACY': 1, 'SORCERY': 1, 'ESPIONAGE': 1, 'TECHNOLOGY': 1, 'SORCERYSORCERY': 1})
+Settled Lands Counter({'DIPLOMACY': 5, 'MILITARY': 4, 'SORCERY': 3, 'TECHNOLOGY': 2})
+Total {'ESPIONAGE': 9, 'SORCERY': 6, 'TECHNOLOGY': 4, 'MILITARY': 7, 'STABILITY': 8, 'DIPLOMACY': 7, 'SORCERYSORCERY': 1}
+
+Tech, Sorcery, and Diplomacy are on the light side. Probably fine if the threat tags are not evenly distributed - they'll become less distributed as the game goes along. Probably need at least three of each tag, otherwise it's pretty predictable. Tech could use a few more.
+
 # 09/24/21
 
 ## Threats and Mission Cards
