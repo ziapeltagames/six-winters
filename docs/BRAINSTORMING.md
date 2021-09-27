@@ -43,6 +43,26 @@ Total {'ESPIONAGE': 9, 'SORCERY': 6, 'TECHNOLOGY': 4, 'MILITARY': 7, 'STABILITY'
 
 Tech, Sorcery, and Diplomacy are on the light side. Probably fine if the threat tags are not evenly distributed - they'll become less distributed as the game goes along. Probably need at least three of each tag, otherwise it's pretty predictable. Tech could use a few more.
 
+## Character Card Abilities
+
+* Menas
+   * Merge
+   * Reroll / Defend (body)
+   * Reroll / Attack (foe)
+* Thea
+   * +1
+   * Flip
+   * Reroll / Attack (diplomats)
+   * Reroll / Move (Red Bank)
+* Keel
+   * Split
+   * Reroll / Move (Empire)
+   * Reroll / Attack (guards)
+* Fuscus
+   * -1
+   * 6s explode
+   * Reroll / Defend (psyche)
+
 # 09/24/21
 
 ## Threats and Mission Cards
