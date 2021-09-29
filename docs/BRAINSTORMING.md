@@ -1,3 +1,71 @@
+# 09/28/21
+
+## End of Game
+
+* Players add two mission cards to each mission deck
+* Each player draws one location and one achievement
+   * Instead of drawing a location, may spend exploration achievements for purchasing special location
+   * Players may swap out current location for drawn or purchased location
+   * Players may swap out current achievement for drawn achievement
+
+## Mission Cards Leaving Play Options
+
+* Randomly
+   * Low cognitive load
+* Via Achievements
+* Specified on Mission Card
+  * This option may actually be the best
+  * More control (can maintain rough timer relationships)
+  * Can tie effects to burning a card (Necromancer --> Oniri)
+  * Happens more "in real time", rather than as an end of game stage
+  * Can have special mission cards that burn other ones (get rid of Undead via spell, etc)
+
+## Location Cards
+
+If locations are how you unlock certain characters, players are really going to want to find certain locations. An achievement could be a good way to do that. It also may be best to have some locations be special - and they have a value needed to unlock them. That way players can spend those achievements without looking at a mountain of locations. 
+
+* Cards Entering Play
+   * Each player draws one location at the end of every game, and players may spend to add in special locations from achievement cards.
+   * Locations specify if other achievements or mission cards are needed.
+* Cards Leavning Play
+   * Achievement cards and location cards get swapped out on a 1:1 basis
+
+## Necromancer Use Case Option 1
+
+* Players get achievements to search for a special location
+* They spend exploration points to unlock 'Undari's Tomb'
+* Undari's Tomb says to add The Last Necromancer to the achievement deck
+* When that achievement is played, it says to put The Necromancer into play
+* On the achievement, it says if the necromancer is defeated, Oniri is unlocked
+
+## Necromancer Use Case Option 2
+
+* Players get achievements to search for a special location
+* They spend exploration points to unlock 'Undari's Tomb'
+* Undari's Tomb says to add The Necromancer to the mission deck
+* If the Necromancer is burned (not overcome), Oniri is unlocked
+* In other words, Necromancer is not an achievement
+
+## Vault Use Case
+
+* Similarly, the vault could just be an achievement, with random dice on it
+* And then you match those dice
+
+## Legacy Aspects
+
+Lots of open questions about how the decks and locations grow and change.
+
+* How are the initial mission decks constructed?
+   * There are a set of starting mission cards, listed out, and the mission decks are constructed from those.
+   * Some of the starting locations have cards as well.
+* How are new locations found and played?
+   * Do players have to spend certain achievements looking for them? If so, how would that work?
+   * Is it part of the game, where X are drawn at the end of each season?
+   * Are there regular/special locations? Some are drawn, some must be found?
+* How are new achievements found and played?
+* How are new mission cards found and played?
+* How are mission cards removed from decks?
+
 # 09/27/21
 
 ## Areas to Work On
