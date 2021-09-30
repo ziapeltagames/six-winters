@@ -88,7 +88,7 @@ class MissionDeck(Deck):
           
 if __name__ == "__main__":
     
-    cdeck = MissionDeck('Empire', 'Starting', 
+    cdeck = MissionDeck('Empire', 'Starting',
                         '../../csv/mission-cards.csv')
     
     cc = cdeck.draw()
