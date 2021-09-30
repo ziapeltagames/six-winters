@@ -1,3 +1,41 @@
+# 09/30/21
+
+## Achievements
+
+Resource achievements must be >= the current dice pool to raise. Skill achievements must be >= the current skill to raise. Search achievements unlock special locations >= search difficulty.
+
+### Empire:
+
+Espionage: 1, 2 (4)
+Technology: 2 (3)
+Military: 1
+Sorcery: 1
+
+Disguise: 1, 2 (3)
+Thievery: 1, 2 (3)
+Lore: 1
+
+### Red Bank:
+
+Stability: 1, 2 (4)
+Sorcery: 2 (3)
+Technology: 1
+
+Command: 1, 2 (3)
+Survival: 1, 2
+Combat: 1, 2 (3)
+
+### Settled Lands:
+
+Diplomacy: 1, 2 (4)
+Military: 2 (3)
+Sorcery: 1
+
+Rapport: 1, 2 (3)
+Tactics: 1, 2
+Lore: 2 (3)
+Search: 1
+
 # 09/29/21
 
 ## Trade
