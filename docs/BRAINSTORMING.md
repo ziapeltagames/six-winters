@@ -1,3 +1,202 @@
+# 09/29/21
+
+## Trade
+
+Trading assets from one type to another seems like it should be impossible. May be enough to have a "must have one of each of the resources" requirement. Trading assets from one type to another really undermines a big part of the game.
+
+# 09/28/21
+
+## End of Game
+
+* Players add two mission cards to each mission deck
+* Each player draws one location and one achievement
+   * Instead of drawing a location, may spend exploration achievements for purchasing special location
+   * Players may swap out current location for drawn or purchased location
+   * Players may swap out current achievement for drawn achievement
+
+## Mission Cards Leaving Play Options
+
+* Randomly
+   * Low cognitive load
+* Via Achievements
+* Specified on Mission Card
+  * This option may actually be the best
+  * More control (can maintain rough timer relationships)
+  * Can tie effects to burning a card (Necromancer --> Oniri)
+  * Happens more "in real time", rather than as an end of game stage
+  * Can have special mission cards that burn other ones (get rid of Undead via spell, etc)
+
+## Location Cards
+
+If locations are how you unlock certain characters, players are really going to want to find certain locations. An achievement could be a good way to do that. It also may be best to have some locations be special - and they have a value needed to unlock them. That way players can spend those achievements without looking at a mountain of locations. 
+
+* Cards Entering Play
+   * Each player draws one location at the end of every game, and players may spend to add in special locations from achievement cards.
+   * Locations specify if other achievements or mission cards are needed.
+* Cards Leavning Play
+   * Achievement cards and location cards get swapped out on a 1:1 basis
+
+## Necromancer Use Case Option 1
+
+* Players get achievements to search for a special location
+* They spend exploration points to unlock 'Undari's Tomb'
+* Undari's Tomb says to add The Last Necromancer to the achievement deck
+* When that achievement is played, it says to put The Necromancer into play
+* On the achievement, it says if the necromancer is defeated, Oniri is unlocked
+
+## Necromancer Use Case Option 2
+
+* Players get achievements to search for a special location
+* They spend exploration points to unlock 'Undari's Tomb'
+* Undari's Tomb says to add The Necromancer to the mission deck
+* If the Necromancer is burned (not overcome), Oniri is unlocked
+* In other words, Necromancer is not an achievement
+
+## Vault Use Case
+
+* Similarly, the vault could just be an achievement, with random dice on it
+* And then you match those dice
+
+## Legacy Aspects
+
+Lots of open questions about how the decks and locations grow and change.
+
+* How are the initial mission decks constructed?
+   * There are a set of starting mission cards, listed out, and the mission decks are constructed from those.
+   * Some of the starting locations have cards as well.
+* How are new locations found and played?
+   * Do players have to spend certain achievements looking for them? If so, how would that work?
+   * Is it part of the game, where X are drawn at the end of each season?
+   * Are there regular/special locations? Some are drawn, some must be found?
+* How are new achievements found and played?
+* How are new mission cards found and played?
+* How are mission cards removed from decks?
+
+# 09/27/21
+
+## Areas to Work On
+
+* Trade - particularly trading assets, this probably needs more thought
+   * Should this be possible at all?
+   * Maybe you can create assets of another type, but it's more expensive?
+   * It should be difficult, though, otherwise location tags don't matter, and movement stagnates
+* Graphic design
+   * Maybe think about breaking up skill/resource tags on locations, put one in the lower left?
+   * Hard to distinguish two icons right next to each other
+* Mission decks
+   * How do they evolve over time?
+   * Can cards move between them, or are there three mission decks, each typed appropriately
+   * Separate is probably better - almost all the cards are going to be themed for region
+   * Adding cards is fairly easy - just some number get added to the deck each season
+   * Burning cards is harder - going to be related to achievements
+* Achievements
+   * Raise skills
+   * Raise resource tracks
+   * Burn mission cards (typed or not?, for now - not typed)
+   * Search for locations (typed or not?, for now - not typed)
+* Mission cards
+   * What happens if you don't overcome a mission card?
+   * Are there rounds?
+   * Do you just spend more turns?
+   * Is there something special for scenes?
+   * For now, will probably have them work the same: with the common scene trait being they get discarded on activation
+
+## Threat and Skill Tags
+
+Skills
+Empire Counter({'DISGUISE': 8, 'THIEVERY': 6, 'LORE': 2, 'RAPPORT': 2, 'SURVIVAL': 1, 'TACTICS': 1, 'COMBAT': 1})
+Red Bank Counter({'COMMAND': 8, 'COMBAT': 5, 'SURVIVAL': 4, 'LORE': 2, 'THIEVERY': 1, 'RAPPORT': 1})
+Settled Lands Counter({'RAPPORT': 7, 'TACTICS': 5, 'LORE': 4, 'COMMAND': 2, 'DISGUISE': 1, 'COMBAT': 1, 'SURVIVAL': 1, 'THIEVERY': 1})
+Total {'DISGUISE': 9, 'LORE': 8, 'RAPPORT': 10, 'SURVIVAL': 6, 'THIEVERY': 8, 'TACTICS': 6, 'COMBAT': 7, 'COMMAND': 10}
+
+Threats
+Empire Counter({'ESPIONAGE': 8, 'MILITARY': 3, 'SORCERY': 2, 'TECHNOLOGY': 1, 'STABILITY': 1, 'DIPLOMACY': 1})
+Red Bank Counter({'STABILITY': 7, 'DIPLOMACY': 1, 'SORCERY': 1, 'ESPIONAGE': 1, 'TECHNOLOGY': 1, 'SORCERYSORCERY': 1})
+Settled Lands Counter({'DIPLOMACY': 5, 'MILITARY': 4, 'SORCERY': 3, 'TECHNOLOGY': 2})
+Total {'ESPIONAGE': 9, 'SORCERY': 6, 'TECHNOLOGY': 4, 'MILITARY': 7, 'STABILITY': 8, 'DIPLOMACY': 7, 'SORCERYSORCERY': 1}
+
+Tech, Sorcery, and Diplomacy are on the light side. Probably fine if the threat tags are not evenly distributed - they'll become less distributed as the game goes along. Probably need at least three of each tag, otherwise it's pretty predictable. Tech could use a few more.
+
+## Character Card Abilities
+
+* Menas
+   * Merge
+   * Reroll / Defend (body)
+   * Reroll / Attack (foe)
+* Thea
+   * +1
+   * Flip
+   * Reroll / Attack (diplomats)
+   * Reroll / Move (Red Bank)
+* Keel
+   * Split
+   * Reroll / Move (Empire)
+   * Reroll / Attack (guards)
+* Fuscus
+   * -1
+   * 6s explode
+   * Reroll / Defend (psyche)
+
+# 09/24/21
+
+## Threats and Mission Cards
+
+Having trouble getting threats to work - why not just add threat tags to mission cards? That's overloaded, but maybe less overloaded than anything else you could do? It gives another vector of info to the cards, and makes for even more choices. Some cards don't need weird triggers or anything, they can just be a pain for the tag(s) they have.
+
+## Achievement Spends
+
+The one thing that will need to change is burning threats, though. Maybe:
+
+* Raise skills
+* Raise resource tracks
+* Find special locations (Mostly Settled Lands)
+* Burn mission cards (with the related tag)
+
+# 09/23/21
+
+## Threat Deck
+
+The threats are most likely going to need to be put back into a separate deck. It's just too unlikely that enough threats will be drawn otherwise. After all, there are only 12 or so turns currently. Given that, only about 4 threats will be drawn. Even if threats are distinct and put into play as triggers, it's still unlikely that more than 4 or so will be drawn. This means the pattern matching XYZ probably can't work. It's maybe possible to go back to a "bust" kind of threat, checking if the total is over XYZ. That would probably mean untyped threats, purely numeric values. It... could work. Although, even there, players will most likely try to get rid of threats as soon as possible. And if they're interspersed with other sorts of cards - that will be much more likely. There's also no "build up" to the pacing anymore, and the build up was fun. A separate threat deck would put that back on the table.
+
+Maybe it could work as follows:
+
+* Spring (Rds 1 & 2)
+  * No threats
+  * Normal mission card draws
+* Summer
+  * 1 threat/region
+  * Normal mission card draws
+* Fall
+  * 2 threats/region
+  * No mission card draws
+* Winter
+  * Game ends
+
+The main thing that was kind of cool is having typed threats in the different mission decks. This would allow players to tune those decks better, and make for "local" Empire strategies. In one threat deck, the Empire strategy is far more global.
+
+# 09/22/21
+
+## Starting, Special, and Standard Mission Cards
+
+Where should attached cards for locations come from? Is it okay to pull them out of the mission deck? Or should they come from a different set of cards? It seems kind of fiddly to have, say, guards in the mission deck, but then use an entirely different set of cards for a location card. Particularly if it also means that special cards get discarded to a different place, an don't go back into the mission deck. It's possible that some location cards attach standard cards and some attach special cards. That's probably okay.
+
+That means special cards need some particular notation.
+
+## Overcoming Obstacles
+
+When obstacles are overcome, should they go into the mission discard pile? This could even be trickier for cards that start attached to locations. If you overcome them, do they go back into the mission deck? Maybe special cards are burned, and standard cards go back into the deck. The "starting" decks are just a list of standard cards for the game, they aren't designated at all.
+
+What's the use case for getting, say, Oniri?
+
+* Get Search achievements to find lost lands
+* Pay the cost to add the location into the mix
+* Swap out some current Red Bank location for Undari's Tomb
+* Undari's Tomb indicates what achievement to add to the achievement deck
+* The achievement places the Necromancer into play
+* If the necromancer is overcome, it is burned, as indicated on the achievement - and Oniri is unlocked
+
+Could even have two options for obstacles: one which overcomes them, but puts them back into circulation, and one which burns them? That could be interesting for certain characters attached to locations, like diplomats.
+
 # 09/21/21
 
 ## Threats

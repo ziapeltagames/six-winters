@@ -2,15 +2,15 @@ region,stage,name,tags,skill,resource,emove,rmove,smove,@location_image,texta
 
 xxEMPIRE,"Starting","The Rosy Freetrader","Tavern",xxDISGUISE,xxESPIONAGE,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\tavern.jpg",
 xxEMPIRE,"Starting","Southkeep","Urban",xxCOMBAT,xxMILITARY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\dense_city.jpg",
-xxEMPIRE,"Starting","Whitehold","Vault",xxTHIEVERY,xxTECHNOLOGY,"1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\vault.jpg","Attach: Imperial Guard x 2"
+xxEMPIRE,"Starting","Whitehold","Vault",xxTHIEVERY,xxTECHNOLOGY,"1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\vault.jpg","xxSTARTING Imperial Guard x 2"
 
 xxREDBANK,"Starting","Undari's Tower","Eldritch",xxLORE,xxMILITARY,"2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\undari_tower.jpg",
 xxREDBANK,"Starting","Amber Trade Fair","Rural",xxCOMMAND,xxSTABILITY,"2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\LandsSpot5.tif",
-xxREDBANK,"Starting","Mirror Woods","Wilderness",xxSURVIVAL,xxSORCERY,"3 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\LandsSpot3.tif","Attach: Restless Dead"
+xxREDBANK,"Starting","Mirror Woods","Wilderness",xxSURVIVAL,xxSORCERY,"3 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\LandsSpot3.tif","xxSTARTING Restless Dead"
 
-xxSETTLED,"Starting","Hogel Manor","Rural",xxRAPPORT,xxDIPLOMACY,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\LandsSpot6.tif","Attach: Hogel"
+xxSETTLED,"Starting","Hogel Manor","Rural",xxRAPPORT,xxDIPLOMACY,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\LandsSpot6.tif","xxSTARTING Hogel"
 xxSETTLED,"Starting","Shimmerhall","Urban",xxTACTICS,xxTECHNOLOGY,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\BearerOfGifts.tif",
-xxSETTLED,"Starting","Arankh","Eldritch",xxLORE,xxSORCERY,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\BurganVale.tif","Attach: Elisa"
+xxSETTLED,"Starting","Arankh","Eldritch",xxLORE,xxSORCERY,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\arankh.tif","xxSTARTING Elisa"
 
 xxEMPIRE,"Standard","Guild of Pleasure","Urban",xxDISGUISE,xxDIPLOMACY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
 xxEMPIRE,"Standard","Guild of Security","Urban",xxDISGUISE,xxESPIONAGE,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
