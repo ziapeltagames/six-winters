@@ -1,3 +1,94 @@
+# 10/04/21
+
+## To-Do
+
+* Analyze game length both with/without drawing cards, trying for 9 turns (hopefully 90 minutes)
+* Update mission card triggers as needed
+* Remove discord and commitment, discord will be replaced by stress cards for characters, commitment by feats
+* Replace discord effects w/stress effects, make sure most cards have stress or fail effects (no cost / no limit skill version)
+* Update achievements: add back burn achievements, character card achievements - feats, maybe recovery achievements?
+* Update character cards with better iconography, more streamlined effects, minimal rerolls
+* Create better game state tracker
+* Add back in location triggers, to guarantee certain slots?
+* Color icon refactor:
+   * Espionage: black (#000000)
+   * Sorcery: orange (#f58231)
+   * Technology: maroon (#800000)
+   * Diplomacy: lavender (#dcbeff)
+   * Military: grey (#4363d8)
+   * Stability: blue (#4363d8)
+   * Other possible colors: navy(#000075), yellow(#ffe119)
+
+## Dice Patterns
+
+* High dice: investing resources, defending against many obstacles
+* 1s: traps
+* 2s: guards (keel)
+* 3s: diplomats (fuscus)
+* 4s: issues (thea)
+* 5s: mobs
+* 6s: powerful foes (means)
+* Specific dice: achievements
+* Any dice: move, location effects, wheel of trade
+
+## Playtest Retrospective
+
+Finished the first playtest of the new dice based game. Lots to think about.
+
+### Discord and Commitment Weren't Engaged With Much
+
+Almost no cards give commitment bonuses, and they're very erratic and difficult to control: making this feel disconnected. Discord was used, but there's also not much of a way to manipulate it. No way to lower the pool, making players very risk averse. The best solution may be to get rid of both of these, at least as pools of currency to track. There's also already a high cognitive load, and adding two pools to the mix may just be distracting.
+
+### Stress Wasn't a Factor
+
+Character stress tracks barely budged. A few stress hits were missed, which contributed - but it still wasn't a big factor in the game. Some of the card effects devoted to discord maybe should target stress, which could serve as a proxy for discord. Perhaps more severe conditions are what add discord cards to a character's deck. That would still open the door to decks which change over time, but it would get rid of two pieces in the game and push more to utilize and under served one. A few obstacles should probably do more damage as well.
+
+### Game Length
+
+Was about right, but should do more simulations to add triggers of different kinds until the standard deviations are low. Also need to lock down what a good expected game length looks like to tune card effects. Currently thinking 8 turns.
+
+### Trigger Mixture
+
+Currently different regions have different mixtures of triggers. This could be a feature or a bug, not sure at the moment. One result of this: you can place a location where it won't receive many triggers. Again, this could be part of the strategy. The trigger mixture at the moment is heavily tilted. May want to leave it irregular, but not *too* irregular.
+
+Do locations need position triggers after all? One thing you could do: make sure the top 6 always cover all 6 resources. Then the bottom 3 could be variable.
+
+### Location Triggers
+
+Locations could leverage the trigger asymmetry if they were back.
+
+### Overcome Obstacle
+
+Need to be very careful about the number of dice needed to take out obstacles. It should be around 2-3 for most obstacles, up to 4-5 for very difficult obstacles. Skill values should be about uncertainty/certainty of information. Instead of difficulty for obstacles being "this much progress is needed" - which also means "this much of your action economy is needed" - it will be "you have more uncertainty about your dice".
+
+If every obstacle can do some sort of stress, even 1+dice may not be needed. Could just spend dice, but need to reroll all dice over skill - difficulty. Thus, if you're willing to take damage, you can keep trying to take out an obstacle without even spending dice.
+
+Also could sometimes have an entry for failing the obstacle, so there is some risk involved.
+
+Using difficulty this way would allow for scaling of skills from 0 to 5.
+
+### Burn Obstacle
+
+Not sure about having burn obstacle options on the card. Rather, it may be better to have them on achievements?
+
+### Invest
+
+Can invest get away from the 1+skill pattern as well? Obstacles have stress - which means rerolling can't really be spammed, but invest doesn't have that. The current invest strategy favors higher dice, which is okay. It might be nice to also decouple invest from the action economy, but then it would need to be something like "spend X dice to grab dice == skill".
+
+Another option is to have the same reroll as overcome obstacle, but you can grab any number of resource dice which match the action dice. Going to leave invest alone for now.
+
+### Reroll Character Cards
+
+There are probably too many reroll character effects. And may not want -or- effects at all, high cognitive load. Some are okay, but should lower them a touch.
+
+### Character Card Iconography
+
+Some of the icons are very confusing, particularly dice that are showing specific values.
+
+### Achievement Difficulty
+
+Is this very useful anymore? Could use it for obstacle stress. Or maybe even overcoming an obstacle? If the mission decks grow and change and become more difficult, then may not need it.
+
 # 09/30/21
 
 ## Achievements
