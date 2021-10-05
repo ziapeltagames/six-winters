@@ -28,7 +28,7 @@ class MissionCard:
         self.bodytext = cdict['bodytext']
         
     def __str__(self):
-        cstring = self.name
+        cstring = self.name + ' ' + self.trigger
         return cstring
     
 class MissionDeck(Deck):
