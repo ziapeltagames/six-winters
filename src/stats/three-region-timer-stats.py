@@ -8,43 +8,31 @@ import sys, statistics
 
 from trigger_deck import TriggerDeck
 
+def draw_card(mdeck):
+    
+    card = mdeck.draw()
+    if card == None:
+        mdeck.shuffle()
+        card = mdeck.draw()
+    mdeck.discard(card)
+        
+    return card
+
 def draw_trigger(mdeck, trigger, player_draws, total_player_draws,
                  winter = False):
     
     match = False
     
-    card = mdeck.draw()
-    
-    if card == None:
-        match = True
-        mdeck.shuffle()
-        card = mdeck.draw()
-    
-    mdeck.discard(card)
+    card = draw_card(mdeck)
         
     if winter:
-        
         while trigger not in card.trigger and player_draws < total_player_draws:
-            
             player_draws = player_draws + 1
-            card = mdeck.draw()
-            if card == None:
-                match = True
-                mdeck.shuffle()
-                card = mdeck.draw()
-            mdeck.discard(card)
-            
+            card = draw_card(mdeck)            
     else:
-        
         while trigger in card.trigger and player_draws < total_player_draws:
-            
             player_draws = player_draws + 1
-            card = mdeck.draw()
-            if card == None:
-                match = True
-                mdeck.shuffle()
-                card = mdeck.draw()    
-            mdeck.discard(card)
+            card = draw_card(mdeck)
         
     if trigger in card.trigger:
         match = True
@@ -52,21 +40,15 @@ def draw_trigger(mdeck, trigger, player_draws, total_player_draws,
     return match, player_draws
 
 edeck = TriggerDeck('Empire', 'trigger-cards.csv')
-
 rdeck = TriggerDeck('Red Bank', 'trigger-cards.csv')
-
 sdeck = TriggerDeck('Settled Lands', 'trigger-cards.csv')
 
-
 decks = [edeck, rdeck, sdeck]
-stages=['xxSPRING', 'xxSUMMER', 'xxSUMMER', 'xxFALL', 'xxFALL', 'xxWINTER']
+stages=['xxSPRING', 'xxSPRING', 'xxSUMMER', 'xxSUMMER', 'xxFALL', 'xxFALL']
 
-print('Player Control')
-total_player_draws = [0, 1, 1, 2, 2, 3]
+total_player_draws = [1, 1, 2, 2, 0, 0]
 
-#print('No Player Control')
-#total_player_draws = [0, 0, 0, 0, 0, 0]
-
+# total_player_draws = [0, 0, 0, 0, 0, 0]
 total_stages = len(stages)
 
 # How many times will players try to remove matching symbols on a turn?
@@ -89,9 +71,6 @@ for trial in range(trials):
     
     stage = 0
     
-    for next_deck in decks:
-        next_deck.shuffle()
-    
     while stage < total_stages:
         
         player_draws = 0
@@ -111,14 +90,18 @@ for trial in range(trials):
         
         season_cards = []
         
+        season_match = False
+        
         # Draw one card from each deck
         for next_deck in decks:
             
             match, player_draws = draw_trigger(next_deck, stages[stage], 
                                                player_draws, total_player_draws[stage],
                                                winter)
+            if match == True:
+                season_match = True
         
-        if match == True:
+        if season_match == True:
             stage = stage + 1
     
     spring_turns_l.append(spring_turns)
@@ -135,8 +118,8 @@ print('Summer', statistics.mean(summer_turns_l), statistics.median(summer_turns_
       statistics.stdev(summer_turns_l))
 print('Fall', statistics.mean(fall_turns_l), statistics.median(fall_turns_l), 
       statistics.stdev(fall_turns_l))
-print('Winter', statistics.mean(winter_turns_l), statistics.median(winter_turns_l), 
-      statistics.stdev(winter_turns_l))
+# print('Winter', statistics.mean(winter_turns_l), statistics.median(winter_turns_l), 
+#       statistics.stdev(winter_turns_l))
 
 
 
