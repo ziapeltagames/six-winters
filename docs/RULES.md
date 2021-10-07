@@ -1,22 +1,20 @@
 # Six Winters
 
-**Six Winters** is a two player cooperative fantasy campaign game based on the **Wrath of the Autarch** tabletop role-playing game.
+**Six Winters** is a two-player cooperative fantasy campaign game based on the **Wrath of the Autarch** tabletop role-playing game.
 
-Both players control **Amaranthia**, a diasporic society that is under constant threat from the **Empire of the Autarch**. The Autarch is working to achieve a sorcerous **apotheosis**, rendering her unstoppable and spelling certain doom for Amaranthia. The players have six winters to stop this from happening.
-
-## Status Tracks
-
-**Technology**, **Sorcery**, **Stability**, and **Diplomacy** levels within Amaranthia, along with the current **Imperial Rebellion** status are recorded using status tracks from 0-10.
+Both players control **Red Bank**, a diasporic society under constant threat from the **Empire of the Autarch**. The Autarch is working to achieve a sorcerous apotheosis, rendering The Empire unstoppable and spelling certain doom for Red Bank. The players have six winters to stop this from happening. Each game of Six Winters lasts approximately 90 minutes and represents one year in the life of Red Bank. During a session of the game, players control a revolving cast of characters from Red Bank, each with their own unique capabilities and limitations.
 
 ## Resource Tracks
 
-Resource tracks from 1-5 for **Food**, **Ore**, **Luxuries**, **Timber**, and **Mana**
+Players manage Red Bank's **resources**: broad capabilities and areas of strategic focus. Each resource has a track of length 12 showing the relative capability in that area. These resource tracks raise and lower over the course of the campaign. There are six resource tracks: **Stability**, **Technology**, **Espionage**, **Diplomacy**, **Military**, and **Sorcery**.
+
+The position on this track further determines the size of resource dice pools. 
 
 ## Victory
 
 The players achieve victory in one of three ways:
 
-* **Grand Unification**: Unite the scattered factions of the realm while also maintaining peace at home. This is achieved if the Stability and Diplomacy tracks are both at 10 during any winter.
+* **Grand Unification**: The diplomacy track i the scattered factions of the realm while also maintaining peace at home. This is achieved if the Stability and Diplomacy tracks are both at 10 during any winter.
 * **Imperial Rebellion**: Overthrow the leadership within the Empire by inciting unrest and fomenting rebellion. This is achieved if the Imperial Rebellion track is at 10 during any winter.
 * **Sorcerous Knowledge**: Learn the sorcerous secrets necessary to stop the Autarch directly. This is achieved if the Sorcery track is at 10 during any winter.
 
@@ -24,29 +22,13 @@ The players achieve victory in one of three ways:
 
 The players lose the game if either of the following occur:
 
-* **Collapse**: If the Stability track ever drops down to 0, Amaranthia collapses into anarchy.
-* **Six Winters**: If the players have not won by the sixth winter, the Autarch achieves apotheosis and overthrows Amaranthia.
+* **Collapse**: If the Stability track ever drops down to 0, Red Bank collapses into anarchy.
+* **Six Winters**: If the players have not won by the sixth winter, the Autarch achieves apotheosis and overthrows Red Bank.
 
 
 Each session, players choose missions to undertake, which are represented by different decks of cards. Players select characters for the mission from a growing character pool, taking into consideration the strengths and weaknesses of each character. A mission takes about ninety minutes to play. The design goal is to make a game for nerdy couples who enjoy a game with a strong narrative that can be played on a weeknight. 
 
 Along the way, seasons will pass, the characters will grow and change, and players will make choices about the strategic direction for Red Bank.
-
-
-
-# Missions
-
-Regions: Amaranthia, Hinterlands, Factions, and The Empire
-
-## Mission Types
-
-### Exploration
-
-### Alliance
-
-### Infiltration
-
-### Quest
 
 # Cards
 

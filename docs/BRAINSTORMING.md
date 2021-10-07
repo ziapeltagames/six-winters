@@ -1,3 +1,123 @@
+# 10/07/21
+
+## Campaign Flow
+
+* Six starting locations are put in play
+* After the game, add 2 mission cards to each discard deck, and recreate mission decks
+   * These mission cards are more challenging, and have worse threats
+* Each player may draw 2 achievements
+   * May replace an achievement from related deck
+* Each player draws one location - replacing one in play
+   * Or instead, may spend a search achievement to pick location from locked set
+   * Special locations may unlock special mission cards
+
+If locations unlocked rather than replaced achievements, players could still do the bundling thing.
+
+## Achievements
+
+* Types of Achievements
+   * 8 Skills
+   * 6 Resource Tracks
+   * Search
+   * Commitment
+   * Burn
+
+The search achievement sticks out a bit as an outlier: it's used after the game, where the others are used during the game. Maybe players can randomly pick a location, and then optionally choose a location? Burning cards is also a bit of an outlier - it would probably happen after the game, rather than during. The other issue is that there are quite a few skill and resource achievements, so having many burn or commitment achievements would be tricky.
+
+## Mission Deck Setup
+
+Might be interesting to have a wider variety of cards in the initial setup deck.
+
+## Search Achievements
+
+If locations, achievements, and mission cards are random, maybe the search achievement lets players choose a card from one deck, if they don't get what they're looking for?
+
+## Location Option 1 - Fixed Starting, Per Session Random Draw, Player Choice
+
+* The game starts with the same 9 locations each time
+* At the end of a session players draw 2 random locations
+* Players must swap out 1, but may swap out 2
+* The locations swapped out are burned
+
+Pros: Not too much overhead. The locations would be assured of changing at least some.
+
+Cons: Players are somewhat at the whims of fate.
+
+## Unlocking Characters
+
+One of the other sticking points is that unlocking characters is tied to locations via mission cards. Unlocking characters could be handled via achievements. That's not as compelling sounding as overcoming some particular obstacle to unlock them, though.
+
+If unlocking characters is handled via mission cards, then maybe it's possible the mission card comes out on its own? Or it could perhaps be applied to a location?
+
+## Location Cards and Achievements
+
+If location cards determine achievements, what sort of implications does that have? If a location is burned, that seems like it could have a big impact on the ability to create a strategy. Even if it's not burned, it could be tricky to build a strategy. You would need espionage locations to help build up diplomacy. If one got burned, what would that mean if achievements were tied to it?
+
+It would be easiest if locations could just be thrown out randomly, and then replaced as desired. The big sticking point is that locations have resources associated with them, and there is an expectation that you can get all of the resources somewhere.
+
+One option is to have slots for resources, somewhat like slots for triggers. For instance, the empire has espionage, military, and technology. That fixes strategies to some degree as well, though.
+
+## Random Locations
+
+A random starting situation and random additional locations makes the game more unique each time it is played.
+
+## Fixed Starting Locations
+
+Provides potentially more balance in the beginning. Can have other later locations start with really difficult mission cards attached or unlocked.
+
+# 10/06/21
+
+## To-Do
+
+Sketch out location cards at a high level, looking at different resource track levels as well as potential achievement options.
+
+## Achievement Cards - Campaign
+
+Should achievement cards be tied to locations? Or is it better if they're independent? It would be a potentially easy way to bundle them up. If there are 2-4 locations for each region, could have 4-8 achievements for each region.
+
+## Mission Cards - Campaign
+
+Mission cards shouldn't be tied to location cards.  Instead some number should be added to each mission deck every season. These will typically be much more challenging cards, or more complex cards, than the baseline.
+
+## Resource Driven Location Option - Campaign
+
+* Locations have a resource number.
+* If locations are in play, and the resource track drops below this number, the location is burned.
+* After the game, each player may add 1 location to the game, provided resource track requirements are met.
+   * Locations could also add mission cards or achievements to the game?
+
+## Strategic Elements
+
+Need to also shift gears and explore what the late game may look like. How might the world change? What sorts of changes can be represented via the pieces so far?
+
+Most campaign games are mission based, where an unfolding narrative is fixed, and players step through each stage. This game is closer to sandbox games - where it's more about how the world changes in random ways.
+
+## Location Options
+
+Locations feel like one of the main knobs to make the world change and grow over time. Currently starting locations are fixed, some new locations are added each season, and special locations may be purchased using achievements. Could need to remove fixed resource dice from locations, as that may restrict just how much locations can change. But fixed resource tracks also makes locations much more useful, otherwise it's just down to skill.
+
+### Starting Locations
+
+* Fixed
+* Random (some)
+* Random (all)
+
+### Burning Locations
+
+* Player choice
+* Random
+* Achievements
+* Character cards - Maybe accidentally? Oniri?
+* Mission cards - Inidividual cards could burn locations.
+* Resource dice/tracks - This is an interesting option. Locations already have resources, maybe they are burned/discarded if the resource track goes below a certain point?
+
+Was thinking random cards come in, and players choose cards to go out. But it could be more interesting/strategic if something during the game told players what locations could be going away.
+
+### Adding Locations
+
+* Random
+* Player Choice
+
 # 10/04/21
 
 ## To-Do

@@ -48,7 +48,18 @@ stages=['xxSPRING', 'xxSPRING', 'xxSUMMER', 'xxSUMMER', 'xxFALL', 'xxFALL']
 
 total_player_draws = [1, 1, 2, 2, 0, 0]
 
-# total_player_draws = [0, 0, 0, 0, 0, 0]
+# Total Turns 8.981 9.0 1.8857876856091715
+# Spring 3.007 3.0 1.0430910981496482
+# Summer 3.781 4.0 1.4138734165539848
+# Fall 2.193 2.0 0.4335192486371729
+
+# total_player_draws = [1, 1, 2, 2, 3, 3]
+
+# Total Turns 10.956 11.0 2.4322787628024836
+# Spring 3.033 3.0 1.0319767322842004
+# Summer 3.789 4.0 1.3958608195043758
+# Fall 4.134 4.0 1.5173484591043502
+
 total_stages = len(stages)
 
 # How many times will players try to remove matching symbols on a turn?
