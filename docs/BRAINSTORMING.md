@@ -1,28 +1,116 @@
 # 10/07/21
 
+## To-Do
+
+* Update achievements: add back burn achievements, character card achievements - feats, maybe recovery achievements?
+* Make achievements for resources and skills numberless
+* Update mission card triggers after recent analysis
+* Remove discord and commitment, discord will be replaced by stress cards for characters
+   * Can have commitment sometimes - as a positive from scenes
+* Replace discord effects w/stress effects, make sure most cards have stress or fail effects (no cost / no limit skill version)
+* Update character cards with better iconography, more streamlined effects, minimal rerolls
+* Create better game state tracker
+   * Make sure pool sizes are visible
+* Color icon refactor:
+   * Espionage: black (#000000)
+   * Sorcery: orange (#f58231)
+   * Technology: maroon (#800000)
+   * Diplomacy: lavender (#dcbeff)
+   * Military: grey (#4363d8)
+   * Stability: blue (#4363d8)
+   * Other possible colors: navy(#000075), yellow(#ffe119)
+
+## Dice Patterns
+
+* High dice: investing resources, defending against many obstacles
+* 1s: traps
+* 2s: guards (keel)
+* 3s: diplomats (fuscus)
+* 4s: issues (thea)
+* 5s: mobs
+* 6s: powerful foes (means)
+* Specific dice: achievements
+* Any dice: move, location effects, wheel of trade
+
+## 1:1 Achievement Progression
+
+In this version, an achievement card raises a track no matter where it's at. Starting achievements could look like:
+
+* Settled Lands: Diplomacy, Military, Rapport, Tactics, Lore, Search
+* Red Bank: Stability, Sorcery, Command, Survival, Combat, Commitment
+* Empire: Technology, Espionage, Disguise, Thievery, Burn, Commitment
+
+Advanced achievements would have the same breakdown, but be more difficult:
+
+* Settled Lands: Diplomacy, Military, Rapport, Tactics, Lore
+* Red Bank: Stability, Sorcery, Command, Survival, Commitment
+* Empire: Technology, Espionage, Disguise, Thievery, Combat
+
+Maybe at the end of each season, players must add 1 resource achievement and 1 skill achievement to the decks?
+
 ## Campaign Flow
 
 * Six starting locations are put in play
 * After the game, add 2 mission cards to each discard deck, and recreate mission decks
    * These mission cards are more challenging, and have worse threats
-* Each player may draw 2 achievements
-   * May replace an achievement from related deck
-* Each player draws one location - replacing one in play
-   * Or instead, may spend a search achievement to pick location from locked set
-   * Special locations may unlock special mission cards
+* Each player draws one location - and must replace at least one in play
+   * Instead of drawing, may choose a special location that has been unlocked
 
-If locations unlocked rather than replaced achievements, players could still do the bundling thing.
-
-## Achievements
+## Achievement Progression
 
 * Types of Achievements
    * 8 Skills
    * 6 Resource Tracks
-   * Search
-   * Commitment
-   * Burn
 
 The search achievement sticks out a bit as an outlier: it's used after the game, where the others are used during the game. Maybe players can randomly pick a location, and then optionally choose a location? Burning cards is also a bit of an outlier - it would probably happen after the game, rather than during. The other issue is that there are quite a few skill and resource achievements, so having many burn or commitment achievements would be tricky.
+
+Another option is to unlock locations from cards as well. Maybe burning cards, unlocking special mission cards or locations, and advancing characters are all effects from mission cards or character cards? Leaving achievements to only advance resource tracks and skills.
+
+For resource achievements, not sure the utility of adding 1 achievements to the deck.
+
+* Espionage Starting: 2
+   * Advanced: 2, 2, 2
+* Diplomacy Starting: 1, 2
+   * Advanced: 2, 3, 4
+* Military Starting: 1, 2
+   * Advanced: 2, 2
+* Stability Starting: 1, 2
+   * Advanced: 2, 3
+* Technology Starting: 2
+   * Advanced: 2, 2, 3
+* Sorcery Starting: 2
+   * Advanced: 2, 3, 4
+
+* 9 starting resource achievements
+   * 16 advanced resource achievements
+* 9 starting skill achievements (skills in the 2-3 range?)
+   * 8 advanced skill achievements (for skills of level 5?)
+* 6 per region at start
+   * 8 in each advanced region deck
+   * drawing 4 total per turn - may look at roughly half of each deck on every turn
+
+### Sorcery Path
+
+* Victory: Sorcery = 10
+* Starting: Sorcery = 3
+* Year 1 (2):
+   * 2: Sorcery = 4
+* Year 2 (2, 3, 4):
+   * 2: Sorcery = 5
+   * 3: Sorcery = 6
+   * 4: Sorcery = 7
+* Year 3 (2, 2, 3, 4):
+   * 4: Sorcery = 8
+   * 2 + 2: Sorcery = 9
+* Year 4: (2, 2, 3, 4):
+   * 2 + 3: Sorcery = 10
+   * 2 + 4: Sorcery = 11
+* Year 5: (2, 2, 3, 4):
+   * 4 + 3: Sorcery = 12
+
+## Fixed Achievement Decks
+
+Is there a way to have achievement decks that are flat throughout the campaign? That is, a mix of different achievement values and types? The problem is that they'd probably be fairly deep decks, making it hard to find what you're looking for? It also wouldn't scale very well as the campaign went on.
 
 ## Mission Deck Setup
 
@@ -119,37 +207,6 @@ Was thinking random cards come in, and players choose cards to go out. But it co
 * Player Choice
 
 # 10/04/21
-
-## To-Do
-
-* Analyze game length both with/without drawing cards, trying for 9 turns (hopefully 90 minutes)
-* Update mission card triggers as needed
-* Remove discord and commitment, discord will be replaced by stress cards for characters, commitment by feats
-* Replace discord effects w/stress effects, make sure most cards have stress or fail effects (no cost / no limit skill version)
-* Update achievements: add back burn achievements, character card achievements - feats, maybe recovery achievements?
-* Update character cards with better iconography, more streamlined effects, minimal rerolls
-* Create better game state tracker
-* Add back in location triggers, to guarantee certain slots?
-* Color icon refactor:
-   * Espionage: black (#000000)
-   * Sorcery: orange (#f58231)
-   * Technology: maroon (#800000)
-   * Diplomacy: lavender (#dcbeff)
-   * Military: grey (#4363d8)
-   * Stability: blue (#4363d8)
-   * Other possible colors: navy(#000075), yellow(#ffe119)
-
-## Dice Patterns
-
-* High dice: investing resources, defending against many obstacles
-* 1s: traps
-* 2s: guards (keel)
-* 3s: diplomats (fuscus)
-* 4s: issues (thea)
-* 5s: mobs
-* 6s: powerful foes (means)
-* Specific dice: achievements
-* Any dice: move, location effects, wheel of trade
 
 ## Playtest Retrospective
 
