@@ -1,8 +1,7 @@
 # 10/07/21
 
-## To-Do
+## To-Do Playtest v2
 
-* Update achievements: add back burn achievements, character card achievements - feats, maybe recovery achievements?
 * Make achievements for resources and skills numberless
 * Update mission card triggers after recent analysis
 * Remove discord and commitment, discord will be replaced by stress cards for characters
@@ -20,6 +19,10 @@
    * Stability: blue (#4363d8)
    * Other possible colors: navy(#000075), yellow(#ffe119)
 
+### Finished
+
+* Update achievements: add back burn achievements, character card achievements - feats, maybe recovery achievements?
+
 ## Dice Patterns
 
 * High dice: investing resources, defending against many obstacles
@@ -36,17 +39,14 @@
 
 In this version, an achievement card raises a track no matter where it's at. Starting achievements could look like:
 
-* Settled Lands: Diplomacy, Military, Rapport, Tactics, Lore, Search
-* Red Bank: Stability, Sorcery, Command, Survival, Combat, Commitment
-* Empire: Technology, Espionage, Disguise, Thievery, Burn, Commitment
+* Empire: Technology 3, Espionage 4, Disguise 4, Thievery 2, Burn 2, Commitment 3
+   * 2, 2, 3, 3, 4, 4
+* Red Bank: Stability 4, Sorcery 3, Command 4, Survival 2, Combat 3, Commitment 2
+   * 2, 2, 3, 3, 4, 4
+* Settled Lands: Diplomacy 4, Military 3, Rapport 3, Tactics 2, Lore 4, Search 2
+   * 2, 2, 3, 3, 4, 4
 
-Advanced achievements would have the same breakdown, but be more difficult:
-
-* Settled Lands: Diplomacy, Military, Rapport, Tactics, Lore
-* Red Bank: Stability, Sorcery, Command, Survival, Commitment
-* Empire: Technology, Espionage, Disguise, Thievery, Combat
-
-Maybe at the end of each season, players must add 1 resource achievement and 1 skill achievement to the decks?
+Advanced achievements would have the same breakdown, but be more difficult, as well as having different requirements. Maybe at the end of each season, players must add 1 resource achievement and 1 skill achievement to the decks?
 
 ## Campaign Flow
 
