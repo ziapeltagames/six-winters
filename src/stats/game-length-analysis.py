@@ -46,7 +46,7 @@ sdeck = TriggerDeck('Settled Lands', 'trigger-cards.csv')
 decks = [edeck, rdeck, sdeck]
 stages=['xxSPRING', 'xxSPRING', 'xxSUMMER', 'xxSUMMER', 'xxFALL', 'xxFALL']
 
-total_player_draws = [1, 1, 2, 2, 0, 0]
+total_player_draws = [1, 1, 1, 2, 2, 2]
 
 # Total Turns 8.981 9.0 1.8857876856091715
 # Spring 3.007 3.0 1.0430910981496482
