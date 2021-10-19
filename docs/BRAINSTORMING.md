@@ -1,15 +1,52 @@
+# 10/14/21
+
+## Achievement Evolution
+
+Character card advances are a good choice for achievements, since they're lower overhead. Unlocking locations are higher overhead - but should probably also be done using achievements. Burning cards is probably best served with icons on the cards themselves. That would give more flexibility and allow for more strategy. It's also hard to associate burning cards with a region.
+
+One thing: not sure if achievement cards should be per region at all.
+
+* Empire: Technology, Espionage, Disguise, Thievery, Combat
+* Red Bank: Stability, Sorcery, Lore, Command, Survival
+* Settled Lands: Diplomacy, Military, Rapport, Tactics, Search
+
+## Campaign Play
+
+Thinking more about long term play. Some questions:
+
+* What should be on achievement cards?
+* How should characters evolve?
+* How should achievements evolve?
+
+Right now, the following can be improved:
+
+* Skills
+* Resource Tracks (win conditions)
+* Character Decks (both good and bad)
+* Mission Decks (can be tuned)
+
+## Non-Achievement Card Option
+
+Been also thinking about what a version would be like that doesn't use achievement cards. Achievement cards are pretty nice, because they can constrain what sorts of dice are needed. There isn't as much freedom, though - which may not be totally a bad thing. However, it's probably possible to do some sort of tech tree map, which is always in play, which players add dice to. As certain patterns are made, resource tracks could be improved, or maybe cards could be burned.
+
+It may be easier to scale a non-achievement card approach over time, making it slightly harder to get better on a particular resource track.
+
+### Pros
+
+* Achievement cards are arbitrarily tied to regions, but there aren't restrictions on drawing them, so this serves little more than a grouping mechanism
+* Could give much more flexibility on pursuing strategies
+
+### Cons
+
+* Players may have a singular minded focuse on one resource track - which could get boring
+   * There would have to be a mechanism that works against this, perhaps just threats taking down other tracks
+   * Or the necessity that other types of resource dice are need to bring one track up
+* Probably a higher cognitive load
+
 # 10/07/21
 
 ## To-Do Playtest v2
 
-* Make achievements for resources and skills numberless
-* Update mission card triggers after recent analysis
-* Remove discord and commitment, discord will be replaced by stress cards for characters
-   * Can have commitment sometimes - as a positive from scenes
-* Replace discord effects w/stress effects, make sure most cards have stress or fail effects (no cost / no limit skill version)
-* Update character cards with better iconography, more streamlined effects, minimal rerolls
-* Create better game state tracker
-   * Make sure pool sizes are visible
 * Color icon refactor:
    * Espionage: black (#000000)
    * Sorcery: orange (#f58231)

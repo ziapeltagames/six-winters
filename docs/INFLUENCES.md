@@ -1,10 +1,10 @@
-# Pathfinder CG
+Influences and deep dive analysis into related and similar games.
 
-Looking at similar games for inspiration, Pathfinder CG has a few similarities: locations are abstract, leans into decks of cards to represent opponents and obstacles.
+# Pathfinder CG (Deck Based Missions)
 
-The character decks are built from specific gear, spells, etc. That's not a bad way of building up characters from more atomic elements, although having preset decks is faster to get started.
+Locations are abstract, leans into decks of cards to represent opponents and obstacles.
 
-Inspiration could be gained from some of the card effects, however.
+The character decks are built from specific gear, spells, etc. That's not a bad way of building up characters from more atomic elements, although having preset decks is faster to get started. Inspiration could be gained from some of the card effects, however.
 
 # Dicey Dungeons
 
@@ -18,8 +18,18 @@ TBD
 
 TBD
 
+# Noctiluca
+
+TBD
+
 # Look Into
 
+* Terminator Genisys
+* Too Many Bones Undertow
+* Proving Grounds
+* Roll Player
+* Space Base
+* Fantastic Factories
 * Set a Watch
 * Under a Falling Sky
 * Reckoners
