@@ -1,3 +1,113 @@
+# 10/21/21
+
+## Achievements and Catch-up
+
+Currently, there are 8 or 9 steps on resource tracks to win the game. That means 2 advances a game is easily enough to win. However, should probably be possible to get more, in order to possibly catch up. It's pretty easy to lengthen/shorten tracks, but harder to tune the achievement deck.
+
+If it's possible to "cycle" the achievement decks, then the number of advances is probably on the order of 2-3. Players could start with the advance they want in play, and probably cycle through 2 more times.
+
+One option is to layer the easier achievements on top of the harder ones. Thus making 1-2 advances not too bad, but getting 3-4, at least early on, would be tough and require a singular focus.
+
+Could do 10 easy (dif 2-3) + 10 hard, or 5 easy + 5 hard (dif 4-5), not sure which mixture would work better.
+
+# 10/20/21
+
+## Current Campaign Evolution Choices
+
+* Locations
+   * There are a set of 6 starting locations
+   * At the end of the game, players each draw one new location
+      * Must swap at least one of them out for locations in play
+   * Some cards/effects can burn a location
+      * That location should be replaced instead of swapping
+* Mission cards
+   * Two mission cards are added to each regional mission deck at the end of each session
+   * Later mission cards are more difficult than starting mission cards
+* Achievements
+   * There are two stages of achievements per region: 10 easier / 10 harder
+   * In the first 3 years, the easier ones are stacked on top of the harder
+   * In the final 3 years, only the harder achievements are used
+   * The deck can be cycled through
+   * Players draw 2 / keep 1 when getting a new achievement
+* Burning Mission Cards
+   * An option on some mission cards
+   * Removes them from campaign
+* New Characters
+   * Unlocked via mission cards
+   * All cards to unlock characters are in starting mission decks
+   * Some locations have starting mission cards - if one of these is drawn, that card is attached
+   * Necromancer (Oniri) starts in play
+   * An issue from Burgan Vale (Yasmina) is in the deck
+      * One non-starting location attaches that issue
+   * Lucia starts in the deck
+      * One non-starting location attaches the Lucia card
+* Discord
+   * Primary way to get discord is via conditions
+   * Also on some mission card effects
+   * Can remove discord by sitting out
+* Commitment / Card Advances
+   * Driven by achievements
+   * Also on some mission card effects (rare)
+* Skills
+   * Advanced by achievements
+   * Never lowered
+* Conditions
+   * If the highest body/psyche condition is ever taken, it is checked off
+   * This locks it for the rest of the game
+   * Can be unlocked by sitting out
+
+## Achievement Analysis
+
+* Players should have some control over what achievements to work on
+* Players shouldn't have to make progress on tracks they don't wish to
+* Searching for content is probably gone for now
+   * It's more fiddly than other achievements for sure
+* Burning content also isn't a great use of achievements
+* Improving experience for characters is a better use for achievements
+
+There are 6 resource tracks and 8 skills = 14. And perhaps one more for experience. Each achievement deck could have 5 or 10 cards in it.
+
+* Empire: Technology, Espionage, Disguise, Thievery, Combat
+* Red Bank: Stability, Sorcery, Command, Survival, Commitment
+* Settled Lands: Diplomacy, Military, Rapport, Tactics, Lore
+
+How are achievements tied to regions? Although the decks are separate, they really aren't tied to regions. The main advantage is having the difficulties on the backs, as well as having an idea of what's in each deck. The latter is indeed very useful. You could set out all 15 achievements in a big tech tree kind of map, but that would be a much higher cognitive load, and not all that different.
+
+### 10 Card Achievement Decks
+
+Each achievement type shows up twice in each deck. Players can go through each deck once during the game, and then a timer triggers. That would give the possibility of 1-2 advances on each resource track per game.
+
+## New Characters
+
+How should new characters be unlocked?
+
+* Always available - the pool of characters is available from the beginning.
+* Time - certain characters are unlocked at certain times.
+* Mission cards - overcoming certain mission cards unlocks characters.
+* Achievements - certain achievements unlock characters.
+* Locations - unlocking some locations unlocks characters.
+
+Players should be able to unlock a character they're interested in, so it probably shouldn't be up to the whims of chance.
+
+### Analysis
+
+Out of these options, the "always available" option is certainly the easiest to implement, followed by unlocking certain characters at certain times. If characters are always available, they would need to be of roughly similar power levels. If one character is better than another in every way, they wouldn't be chosen unless forced to by taking damage or becoming out of action.
+
+It would be interesting to have certain characters become unlocked as the game goes along, and perhaps those characters are stronger. Burning a particularly challenging mission card is an interesting way to unlock characters, although that makes it less obvious how to unlock them.
+
+### Mission/Location Card Option
+
+If overcoming mission cards unlocks characters, those mission cards should probably be attached to Location cards. In which case, the "mission card" option is really a location option, as the locations drive mission card content.
+
+One option: the mission cards for unlocking characters are all starting in play? Or are at least in the initial decks?
+
+## New Locations
+
+* Completely random
+* Player choose from set
+* Multiple types of locations (random / special)
+* Achievements unlock (general / specific)
+
 # 10/14/21
 
 ## Achievement Evolution
@@ -8,7 +118,7 @@ One thing: not sure if achievement cards should be per region at all.
 
 * Empire: Technology, Espionage, Disguise, Thievery, Combat
 * Red Bank: Stability, Sorcery, Lore, Command, Survival
-* Settled Lands: Diplomacy, Military, Rapport, Tactics, Search
+* Settled Lands: Diplomacy, Military, Rapport, Tactics, Commitment
 
 ## Campaign Play
 
@@ -17,6 +127,7 @@ Thinking more about long term play. Some questions:
 * What should be on achievement cards?
 * How should characters evolve?
 * How should achievements evolve?
+* How should locations evolve?
 
 Right now, the following can be improved:
 
