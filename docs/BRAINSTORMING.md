@@ -1,3 +1,43 @@
+# 10/28/21
+
+## Achievement Brainstorming
+
+If diagonals are allowed on the "path" achievements, then the corners will never be used.
+
+# 10/22/21
+
+## Achievement Brainstorming
+
+Should the same set of five achievements be in each deck? Also, should achievements be in the deck matching locations where they're used, or locations on the wheel of trade?
+
+Red Bank has the most stability locations, does that mean technology advancements should be in the Red Bank deck?
+
+Settled Lands: Military?
+
+* Empire: Technology, Espionage, Disguise, Thievery, Combat
+* Red Bank: Stability, Sorcery, Lore, Command, Survival
+* Settled Lands: Diplomacy, Military, Rapport, Tactics, Commitment
+
+OR
+
+* Settled Lands: Stability,
+* Red Bank: Technology,
+* Empire: Military, Espionage
+
+## Achievements and Regions
+
+The big issue is that achievements just aren't all that coupled to regions. It's a handy organizational device - but it's also misleading, because location resources don't equate to region decks. Should brainstorm non-regional achievements.
+
+## One Achievement Deck
+
+One achievement deck, where players may draw 2 and choose 1, discarding the other one, is a possibility. There are 15 things in the achievement deck. If players draw 6 at the start of the game, that's nearly half of the achievements. Maybe there's a pool of face up achievements? Shared achievements aren't a good idea - those achievements are much better handled individually.
+
+The achievement deck needs to be cycled at some amount? Maybe there are two face up achievements, and when an achievement is finished, players can either take one of the face up achievements, or draw? Or, perhaps at the end of every turn, a new achievement is drawn - and one of the two face down achievements must be replaced. That's slow.
+
+When an achievement is finished, players can either: take a face up achievement, or, take a face down achievement and reset both face up achievements (dig for new ones). How many starting achievements? Six, and players each take two? Leaving two for the face up pile?
+
+Or, maybe before a player chooses, they may clear out any of the face up achievements? That might be cleaner - it's essentially a "choose from X" approach, but there's some insight beforehand. It would let players clear out achievements they aren't interested in.
+
 # 10/21/21
 
 ## Achievements and Catch-up
