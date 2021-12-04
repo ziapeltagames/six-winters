@@ -1,3 +1,120 @@
+# 12/03/21
+
+## Character Card Brainstorming
+
+Character card abilities are by their very nature closely tied to obstacles, location abilities, and achivements.
+
+* movement
+* investing
+* trading
+* resource dice (add, manipulate, use)
+* obstacles (overcome, discard, add progress, defend against, move)
+* triggers (discard, manipulate)
+* add dice
+* manipulate dice: flip, reroll, split, merge, explode, exchange (6->3 dice)
+* working together
+* resource track
+* achievement: ignore constraint, add, manipulate
+
+Discord ideas.
+
+* action dice: remove, reroll (this is fairly punative, unless relegated to rerolls or something)
+* resource dice: remove, shift
+* stress
+* obstacles are more powerful
+* draw obstacles
+* movement is expensive
+* can't work together
+* achievements are harder
+
+## Keel Discord
+
+* Keel wants to work alone
+* Keel's gadgets fail him?
+
+## Thea Discord
+
+* Thea is filled with doubt and excessive caution
+* Issues cause her more stress
+* Difficult to leave Red Bank
+* Stability could suffer
+* Wants other characters in Red Bank (protect the homefront first)
+
+## Menas Discord
+
+* Angry at Fuscus
+
+## Fuscus Discord
+
+* Angry at Menas
+* Stability impact (theft)
+* Alcohol abuse (stress)
+
+## Old Character Card Ideas
+
+* https://github.com/ziapeltagames/six-winters/blob/0efb1979fbfff7ec9ba65b6343407ef1e602738c/csv/set-one-character-cards.csv
+* character takes a condition (brutal)
+* character loses an action (also brutal)
+* mess with resource dice
+* add discord
+* +1 skill temporarily
+* remove condition
+* gain back stress
+* discard foes
+* +1 when at a type of location
+* reroall resource dice
+* move an obstacle
+
+## Action Dice Uses
+
+* 1s: traps (lucia)
+* 2s: guards (keel)
+* 3s: issues (thea)
+* 4s: diplomats (fuscus)
+* 5s: foes (menas)
+* 6s: powerful foes, conspiracies, investing resources
+* Any dice: move, location effects, wheel of trade
+
+Lucia and Oniri don't generate action dice directly.
+
+# 12/02/21
+
+## Trait / Commitment Brainstorming
+
+Wasn't sure commitment/advancement really fit on achievements, because those are more of a "party" reward. Although... so are skills. Hmm. Perhaps commitment should be wired in to them? The other place was to use it on traits.
+
+How could trait character cards work? Do XYZ to get commitment? Do XYZ to avoid discord?
+
+Honestly, maybe traits aren't needed at all? They might not be adding much. Discord comes from damage and obstacles, and commitment could come from achievements or from obstacles. If there are interesting ideas for traits that can't be encapsulated in character cards, that could be interesting - but really, the same ideas can probably be baked into character decks.
+
+For instance, if discord cards have avoid XYZ for the turn or take a discord, that could easily be a discord card.
+
+### Careful
+
+What would a careful character do? Avoid dangerous obstacles?
+
+### Commitment
+
+* Work with another character on a skill test
+* Invest a certain resource
+* Overcome a type of obstacle
+* Avoid somthing - this is harder, avoid how? Avoid when?
+
+### Discord
+
+* Discord could do avoid easier, using immediate effects
+* Immediate: if moving to a space where XYZ, then ABC happens
+* You can discard cards at the start of your turn, not whenever you want
+* So you'll have to hold a discord card for at least a turn
+
+## Oniri Character Abilities
+
+Should maybe add backlash to different cards than the spendy ones? Or are those Oniri's discord cards?
+
+Spend XYZ discord to discard this card.
+
+Immediate: If doubles backlash.
+
 # 10/28/21
 
 ## Achievement Brainstorming
