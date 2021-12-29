@@ -29,6 +29,7 @@ category,title,type,name,effects,detail_effects,@char_image
 
 "Character","Be Prepared","xxCOMMITMENT","Thea","xxTHREE","","..\images\characters\THEA.png"
 "Character","Change Course","xxCOMMITMENT","Thea","Flip","","..\images\characters\THEA.png"
+"Character","The Conciliator","xxCOMMITMENT","Thea","","Spend action die to invest all resource dice in pool matching action die value.","..\images\characters\THEA.png"
 "Character","Defend the Homeland","xxDISCORD","Thea","","If there are no other characters in xxREDBANK, Thea takes 2 xxPSYCHE.","..\images\characters\THEA.png"
 "Character","Defend the Homeland","xxDISCORD","Thea","","If there are no other characters in xxREDBANK, Thea takes 2 xxPSYCHE.","..\images\characters\THEA.png"
 

@@ -1,35 +1,62 @@
-region,stage,name,tags,skill,resource,emove,rmove,smove,@location_image,texta
+region,name,tags,skill,emove,rmove,smove,@location_image,texta
 
-xxEMPIRE,"Starting","The Rosy Freetrader","Tavern",xxDISGUISE,xxESPIONAGE,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\tavern.jpg",
-xxEMPIRE,"Starting","Southkeep","Urban",xxCOMBAT,xxMILITARY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\dense_city.jpg",
-xxEMPIRE,"Starting","Whitehold","Vault",xxTHIEVERY,xxTECHNOLOGY,"1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\vault.jpg","xxSTARTING Imperial Guard"
+xxEMPIRE,"The Rosy Freetrader","Tavern",xxDISGUISE,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\tavern.jpg","All guards at this location are -1 difficulty."
+xxEMPIRE,"Southkeep","Urban, Port",xxCOMBAT,"1 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\dense_city.jpg",
+xxEMPIRE,"Whitehold","Vault",xxTHIEVERY,"1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\vault.jpg","Imperial Guard"
+xxEMPIRE,"Prominence","Vault",xxDISGUISE,
+xxEMPIRE,"Guild of Secrets","Urban",xxTHIEVERY
 
-xxREDBANK,"Starting","Undari's Tower","Eldritch",xxLORE,xxMILITARY,"2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\undari_tower.jpg",
-xxREDBANK,"Starting","Amber Trade Fair","Rural",xxCOMMAND,xxSTABILITY,"2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\LandsSpot5.tif",
-xxREDBANK,"Starting","Mirror Woods","Wilderness",xxSURVIVAL,xxSORCERY,"3 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\LandsSpot3.tif","xxSTARTING Restless Dead"
+xxREDBANK,"Undari's Tower","Eldritch",xxLORE,"2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\undari_tower.jpg",
+xxREDBANK,"Amber Trade Fair","Rural",xxCOMMAND,"2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\LandsSpot5.tif",
+xxREDBANK,"Mirror Woods","Wilderness",xxSURVIVAL,"3 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\LandsSpot3.tif","Restless Dead"
+xxREDBANK,"Sightrock Keep","Rural",xxTACTICS,
+xxREDBANK,"The Obfuscated Bribe","Urban",xxRAPPORT,
 
-xxSETTLED,"Starting","Hogel Manor","Rural",xxRAPPORT,xxDIPLOMACY,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\LandsSpot6.tif","xxSTARTING Hogel"
-xxSETTLED,"Starting","Shimmerhall","Urban",xxTACTICS,xxTECHNOLOGY,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\BearerOfGifts.tif",
-xxSETTLED,"Starting","Arankh","Eldritch",xxLORE,xxSORCERY,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\arankh.tif","xxSTARTING Elisa"
+xxSETTLED,"Hogel Manor","Rural",xxRAPPORT,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\LandsSpot6.tif","Hogel"
+xxSETTLED,"Shimmerhall","Urban",xxTACTICS,"3 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\BearerOfGifts.tif",
+xxSETTLED,"Arankh","Eldritch",xxLORE,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\arankh.tif","xxSTARTING Elisa"
+xxSETTLED,"The Long Wastes",xxSURVIVAL,
+xxSETTLED,"Spirit Lake",xxTACTICS,
 
-xxEMPIRE,"Standard","Guild of Pleasure","Urban",xxDISGUISE,xxDIPLOMACY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Guild of Security","Urban",xxDISGUISE,xxESPIONAGE,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Guild of Scribes","Urban",xxDISGUISE,xxSORCERY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Ma Bonnie's Squidery","Tavern",xxDISGUISE,xxSTABILITY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Gray Vault","Vault",xxDISGUISE,xxTECHNOLOGY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","The Dawncaves","Dungeon",xxTHIEVERY,xxSORCERY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Graycloak Barracks","Vault",xxTHIEVERY,xxESPIONAGE,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Prominence","Hall",xxTHIEVERY,xxDIPLOMACY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Guild of Secrets","Vault",xxCOMBAT,xxESPIONAGE,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Firstborn Peak","Wilderness",xxCOMBAT,xxSORCERY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Nalah's Forge","Urban",xxCOMBAT,xxTECHNOLOGY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","The Wharf Quarter","Urban",xxLORE,xxESPIONAGE,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","House of Silver","Hall",xxLORE,xxTECHNOLOGY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","House of Copper","Urban",xxLORE,xxSORCERY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Guild of Warfare","Hall",xxTACTICS,xxMILITARY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Eastkeep","Urban",xxTACTICS,xxSTABILITY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Yearly Field","Rural",xxSURVIVAL,xxMILITARY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Gold River Bridge","Urban",xxSURVIVAL,xxTECHNOLOGY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Guilder Farms","Rural",xxCOMMAND,xxDIPLOMACY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Dowling Manor","Rural",xxRAPPORT,xxSTABILITY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
-xxEMPIRE,"Standard","Dreadvault","Vault",xxTHIEVERY,xxESPIONAGE,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED",,
+
+
+xxEMPIRE,"Guild of Pleasure","Urban",xxDISGUISE,
+xxEMPIRE,"Guild of Security","Urban",xxDISGUISE,
+xxEMPIRE,"Guild of Scribes","Urban",xxDISGUISE,
+xxEMPIRE,"Ma Bonnie's Squidery","Tavern",xxDISGUISE,
+xxEMPIRE,"The Dawncaves","Dungeon",xxTHIEVERY,
+xxEMPIRE,"Graycloak Barracks","Vault",xxTHIEVERY,
+xxEMPIRE,"Firstborn Peak","Wilderness",xxCOMBAT,
+xxEMPIRE,"Nalah's Forge","Urban",xxCOMBAT,
+xxEMPIRE,"The Wharf Quarter","Urban",xxLORE,
+xxEMPIRE,"House of Silver","Hall",xxLORE,
+xxEMPIRE,"House of Copper","Urban",xxLORE,
+xxEMPIRE,"Guild of Warfare","Hall",xxTACTICS,
+xxEMPIRE,"Eastkeep","Urban",xxTACTICS,
+xxEMPIRE,"Yearly Field","Rural",xxSURVIVAL,
+xxEMPIRE,"Gold River Bridge","Urban",xxSURVIVAL,
+xxEMPIRE,"Guilder Farms","Rural",xxCOMMAND,
+xxEMPIRE,"Dowling Manor","Rural",xxRAPPORT,
+
+xxREDBANK,"Great Hall"
+xxREDBANK,"Outer Fernbrake"
+xxREDBANK,"Cyclabrary"
+xxREDBANK,"Sparrow Falls"
+xxREDBANK,"House of Lavender"
+xxREDBANK,"Undari's Tomb"
+xxREDBANK,"Amaranth Bourne"
+xxREDBANK,"Salmon Run"
+xxREDBANK,"The Weird Rock"
+xxREDBANK,"Lush Fields"
+xxREDBANK,"Gray Forest"
+
+xxSETTLED,"Spinner Lake"
+xxSETTLED,"Maplewood"
+xxSETTLED,"Shimmerhall"
+xxSETTLED,"Blue Rock"
+xxSETTLED,"Lower Wash"
+xxSETTLED,"Wrenhouse"
+xxSETTLED,"Hall of Brass"
+xxSETTLED,"Goldspike"
+xxSETTLED,"Beetle Burrough"
+xxSETTLED,"Ovoo of the Long Wastes"
