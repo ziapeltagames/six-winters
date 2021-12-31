@@ -1,3 +1,9 @@
+# 12/30/21
+
+## Mission Card Tags and Triggers
+
+Could have an arc to the game - where there are fairly even threats early, but as cards are added, more military and sorcery threats come into play.
+
 # 12/03/21
 
 ## Character Card Brainstorming

@@ -1,24 +1,23 @@
 region,name,tags,skill,emove,rmove,smove,@location_image,texta
 
 xxEMPIRE,"The Rosy Freetrader","Tavern",xxDISGUISE,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\tavern.jpg","All guards at this location are -1 difficulty."
-xxEMPIRE,"Southkeep","Urban, Port",xxCOMBAT,"1 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\dense_city.jpg",
-xxEMPIRE,"Whitehold","Vault",xxTHIEVERY,"1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\vault.jpg","Imperial Guard"
-xxEMPIRE,"Prominence","Vault",xxDISGUISE,
-xxEMPIRE,"Guild of Secrets","Urban",xxTHIEVERY
+xxEMPIRE,"Southkeep","Urban, Port",xxCOMBAT,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\byzantine_town.png","Moving to another port costs 1."
+xxEMPIRE,"Whitehold","Vault",xxTHIEVERY,"1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\vault.jpg","xxSTARTING Imperial Guard"
+xxEMPIRE,"Prominence","Urban",xxDISGUISE,"2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\dense_city.jpg","xxSTARTING Imperial Guard"
+xxEMPIRE,"Guild of Secrets","Urban, Vault",xxTHIEVERY,"1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\underground_dungeon.png","xxSTARTING Tripwire"
 
-xxREDBANK,"Undari's Tower","Eldritch",xxLORE,"2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\undari_tower.jpg",
-xxREDBANK,"Amber Trade Fair","Rural",xxCOMMAND,"2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\LandsSpot5.tif",
-xxREDBANK,"Mirror Woods","Wilderness",xxSURVIVAL,"3 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\LandsSpot3.tif","Restless Dead"
-xxREDBANK,"Sightrock Keep","Rural",xxTACTICS,
-xxREDBANK,"The Obfuscated Bribe","Urban",xxRAPPORT,
+xxREDBANK,"Undari's Tower","Eldritch",xxLORE,"2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\undari_tower.jpg","All sorcery obstacles at this location are -1 difficulty."
+xxREDBANK,"Amber Trade Fair","Rural",xxCOMMAND,"2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\LandsSpot5.tif","May trade xxTECHNOLOGY for xxSTABILITY at this location."
+xxREDBANK,"Mirror Woods","Wilderness",xxSURVIVAL,"3 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\LandsSpot3.tif","xxSTARTING Restless Dead"
+xxREDBANK,"Sightrock Keep","Rural",xxTACTICS,"2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\castle_wall.png","All military obstacles at this location are -1 difficulty."
+xxREDBANK,"The Obfuscated Bribe","Urban",xxRAPPORT,"2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\fantasy_tavern.png","xxSTARTING Clove and Minx"
+xxREDBANK,"Undari's Tomb","Eldritch",xxLORE,"2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\fancy_crypt.png","xxSTARTING The Necromancer"
 
-xxSETTLED,"Hogel Manor","Rural",xxRAPPORT,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\LandsSpot6.tif","Hogel"
-xxSETTLED,"Shimmerhall","Urban",xxTACTICS,"3 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\BearerOfGifts.tif",
+xxSETTLED,"Hogel Manor","Rural",xxRAPPORT,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\LandsSpot6.tif","xxSTARTING Hogel"
+xxSETTLED,"Shimmerhall","Urban",xxTACTICS,"3 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\BearerOfGifts.tif","May trade xxTECHNOLOGY for xxDIPLOMACY at this location."
 xxSETTLED,"Arankh","Eldritch",xxLORE,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\arankh.tif","xxSTARTING Elisa"
-xxSETTLED,"The Long Wastes",xxSURVIVAL,
-xxSETTLED,"Spirit Lake",xxTACTICS,
-
-
+xxSETTLED,"The Long Wastes","Wilderness",xxSURVIVAL,"3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\ovoo.tif","xxRIGHT Add 1 xxSORCERY die."
+xxSETTLED,"Brassport","Rural, Port",xxTACTICS,"3 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\port_of_brass.jpg","Moving to another port costs 1."
 
 xxEMPIRE,"Guild of Pleasure","Urban",xxDISGUISE,
 xxEMPIRE,"Guild of Security","Urban",xxDISGUISE,
