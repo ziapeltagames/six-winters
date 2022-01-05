@@ -4,6 +4,20 @@
 
 Could have an arc to the game - where there are fairly even threats early, but as cards are added, more military and sorcery threats come into play.
 
+## New Locations
+
+One potential option: players discard a location in each region. The other regions, along with obstacles attached to them, stay in play.
+
+As a variant: the region with the most obstacles is discarded, players only choose if some are tied. That may even be better.
+
+## Timer
+
+Kind of feels like the game timer should just be fixed. Just a flat seven or eight turns.
+
+## Season Effects
+
+Maybe seasons impact movement? Summer locations are easier to move out of in the summer, etc. Or it could be location text.
+
 # 12/03/21
 
 ## Character Card Brainstorming
