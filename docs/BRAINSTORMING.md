@@ -1,3 +1,9 @@
+# 01/06/22
+
+## Weather and Triggers
+
+Could have weather or seasonal effects based on the number of triggers for that season. The more triggers, the worse the weather is.
+
 # 12/30/21
 
 ## Mission Card Tags and Triggers
@@ -35,6 +41,7 @@ Character card abilities are by their very nature closely tied to obstacles, loc
 * working together
 * resource track
 * achievement: ignore constraint, add, manipulate
+* discard a mission card
 
 Discord ideas.
 
