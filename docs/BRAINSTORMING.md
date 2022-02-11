@@ -1,3 +1,91 @@
+# 01/29/22
+
+## Character Card Brainstorming
+
+* Movement - Empire (Keel)
+* Movement - Wilderness/Rural (Menas)
+* Movement - Red Bank (Thea)
+* Achievement wild stability (Thea)
+* Achievement wild sorcery (Yasmina)
+* Die 1 (Lucia)
+* Die 2 (Keel)
+* Die 3 (Thea)
+* Die 4 (Fuscus)
+* Die 5 (Menas)
+* Die 6 (Yasmina)
+* Invest on match (Thea)
+* Defend Psyche (Fuscus)
+* Heal Psyche (Thea)
+* Defend Body (Menas)
+* Heal Body (Oniri)
+* Reroll (Everyone)
+* Flip (Thea)
+* Split (Keel)
+* Merge (Menas)
+* Poison die (Lucia)
+* Living weapon (Oniri)
+* +1 (Yasmina)
+* -1 (Fuscus)
+* Explode (Keel)
+* Exchange (Fuscus)
+* +1 Sorcery (Yasmina)
+* +1 Diplomacy (Fuscus)
+* +1 Stability (Thea)
+* +1 Military (Menas)
+* +1 Technology (Keel)
+* +1 Espionage (Lucia)
+* Discard mission card (Yasmina)
+* Discard achievement card (Thea)
+* Draw character cards
+
+* Trading - maybe location ability?
+
+May lean into achievement deck manipulation for some character cards.
+
+## Core Abilities
+
+Every character has rerolls (4).
+
+Then there are primary dice abilities (4).
+
+* Flip (Thea)
+* Split (Keel)
+* Merge (Menas)
+* +1 (Yasmina)
+* -1 (Fuscus)
+* Exploding 6s (Oniri)
+* Poison die (Lucia)
+
+And primary misc abilities (2).
+
+* Achievement deck manipulation (Thea)
+* Sorcery die pull for attack (Oniri)
+* Defend body (Menas)
+* Defend psyche (Fuscus)
+* Movement empire (Keel)
+* Weather witch (Yasmina)
+* Wild card espionage achievement (Lucia)
+
+Secondary dice abilities (2, at 3 and 6).
+
+* 1 - Lucia
+* 2 - Keel
+* 3 - Thea
+* 4 - Fuscus
+* 5 - Menas
+* +1 Sorcery - Yasmina
+* Exchange 6 -> XXX - Oniri
+
+Secondary misc abilities (4).
+
+* Invest on match - Thea
+* Wild card tech achievement - Keel
+* Movement non-urban - Menas
+* Discard any non-lore or non-sorcery achievements - Yasmina
+* Draw top achievement and swap - Lucia
+* Sorcery die pull for any action - Oniri
+* Wild card rapport achievement - Fuscus
+
 # 01/06/22
 
 ## Weather and Triggers
@@ -42,6 +130,7 @@ Character card abilities are by their very nature closely tied to obstacles, loc
 * resource track
 * achievement: ignore constraint, add, manipulate
 * discard a mission card
+* look at or manipulate deck (mission, char, ach)
 
 Discord ideas.
 
@@ -83,6 +172,11 @@ Discord ideas.
 * character takes a condition (brutal)
 * character loses an action (also brutal)
 * mess with resource dice
+   * split
+   * merge
+   * flip
+   * bump +1
+   * nudge -1
 * add discord
 * +1 skill temporarily
 * remove condition
@@ -94,15 +188,15 @@ Discord ideas.
 
 ## Action Dice Uses
 
-* 1s: traps (lucia)
-* 2s: guards (keel)
+* 1s: traps (keel)
+* 2s: guards (lucia)
 * 3s: issues (thea)
 * 4s: diplomats (fuscus)
 * 5s: foes (menas)
 * 6s: powerful foes, conspiracies, investing resources
 * Any dice: move, location effects, wheel of trade
 
-Lucia and Oniri don't generate action dice directly.
+Yasmina and Oniri don't generate action dice directly.
 
 # 12/02/21
 
