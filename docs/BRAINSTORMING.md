@@ -1,3 +1,50 @@
+# 02/24/22
+
+Done:
+
+* Redo the stability track as "support"
+* Add a stage track to the main board
+* Put threat determination after the encounter draw
+   * Make it 3+, which means it's not sudden
+   * Get rid of the 3+ max at a location issue (shouldn't be as big of a problem now)
+* Make all tracks races
+   * RB starts on 1-3
+   * Empire starts on 4-6
+* RB auto-win: Diplo or Espionage
+* Empire auto-win: Military or Sorcery
+* Year 6: RB win if 4+ tracks are higher
+
+# 02/22/22
+
+To-do:
+
+* Add back in wide variety of threat tags
+   * Check out how they look on git
+* Make the advanced obstacles region neutral
+* Add region tags for the starting mission decks
+* Unify Yasmina cards (character/mission)
+
+## Issues with multi-track victory conditions
+
+What percentage of the cards need to have a certain threat for the threat to go up? If, say, half the game is at 1 draw/turn, and half is at 2, that's 12 cards total. Getting 3 of a kind there isn't too likely. Maybe advanced cards or some obstacles can have more than one threat tag.
+
+## Advanced Mission Cards
+
+How should you rebuild the mission decks? Maybe for now, you shuffle the new expansion cards into the discard, and place the whole thing back on top.
+
+## Endgame Brainstorming
+
+* Not sure if the Stability track should be represented as a tug-of-war.
+* What are the victory condition options?
+
+### N+ Red Bank Tracks are Higher
+
+This is a six-game version, with no sudden death. At the end, the players win if some number of tracks are higher than the Empire's tracks. Perhaps even scoring appropriately based on the number.
+
+### Sudden Death Variant
+
+In this version, if a track reaches X, the game ends immediately.
+
 # 01/29/22
 
 ## Character Card Brainstorming

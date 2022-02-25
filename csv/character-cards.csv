@@ -169,10 +169,10 @@ name,title,type,effects,detail_effects,@char_image
 
 "Yasmina","Forager's Tome","1xxCOMMITMENT","","Swap a staged achievement with any discarded xxLORE or xxSORCERY achievement.","..\images\characters\basic_yasmina.jpg"
 "Yasmina","Forager's Tome","2xxCOMMITMENT","","Swap a staged achievement with any discarded xxLORE or xxSORCERY achievement.","..\images\characters\basic_yasmina.jpg"
-"Yasmina","Forager's Frog","3xxCOMMITMENT","+1 xxSORCERY","","..\images\characters\basic_yasmina.jpg"
+"Yasmina","Forager's Toad","3xxCOMMITMENT","+1 xxSORCERY","","..\images\characters\basic_yasmina.jpg"
 "Yasmina","Forager's Tome","4xxCOMMITMENT","","Swap a staged achievement with any discarded xxLORE or xxSORCERY achievement.","..\images\characters\basic_yasmina.jpg"
 "Yasmina","Forager's Tome","5xxCOMMITMENT","","Swap a staged achievement with any discarded xxLORE or xxSORCERY achievement.","..\images\characters\basic_yasmina.jpg"
-"Yasmina","Forager's Frog","6xxCOMMITMENT","+1 xxSORCERY","","..\images\characters\basic_yasmina.jpg"
+"Yasmina","Forager's Toad","6xxCOMMITMENT","+1 xxSORCERY","","..\images\characters\basic_yasmina.jpg"
 
 "Yasmina","Flagrant Disregard for Safety","1xxDISCORD","","xxIMMEDIATE Draw another character card. YYY All characters in region (including Yasmina) take 3 xxBODY.","..\images\characters\basic_yasmina.jpg"
 "Yasmina","Flagrant Disregard for Safety","2xxDISCORD","","xxIMMEDIATE Draw another character card. YYY All characters in region (including Yasmina) take 3 xxBODY.","..\images\characters\basic_yasmina.jpg"
