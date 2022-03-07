@@ -1,3 +1,90 @@
+# 03/06/22
+
+## Sandbox Mode Playtest
+
+* Start all Empire tracks at 4
+* Start all RB tracks at 3
+* Victory is determined at end of year 6
+* Victory: Get Espionage or Diplomacy to 6, and 2 other tracks higher
+  * Points: total up difference between RB and Empire tracks, multiply by difficulty
+* Auto fail: any Empire track is maxed out
+
+### Sandbox Setup
+
+* Start with locations: draw 5 randomly for each region
+   * These are unlocked
+   * Choose 1/each
+   * Dig through decks to find any starting attachments
+* Shuffle mission decks
+
+### Per Session Setup
+
+* Place locs and obs out from before
+* Shuffle diffculty 1 achievements
+   * Draw 6, each player chooses 2
+   * Place other 2 in lowest achievement stage slots
+   * Fill out other staged achievement slots
+* Choose characters
+
+### End of Session Teardown
+
+* Burn 1 loc in each region
+   * Region must have the most obs / tied for most obs
+   * Place any attached obs at bottom of region mission draw deck
+* Unlock 3 locs in year 2 and 3 locs in year 3
+   * Choose new locs to go into empty slots
+   * If they have starting obs , look in discard piles first, then main decks from bottom up
+* Shuffle mission discards
+   * Place under top 3 cards from mission draw pile
+* Put away cards, keeping locs and obs straight
+
+## Open Questions
+
+* How do obs move around? Should they? Is it difficult for activation? Movement phase?
+* How is the distribution of threats, skills, and effects for mission cards?
+* How useful/interesting are the weather effects?
+* How much achievement deck manipulation should character cards have? 
+* What about moving obs via character cards? Or having bonus actions on reroll character cards?
+
+## Location Attachments
+
+What happens if an attachment isn't in the listed deck? How do you find it? Do you search everywhere? Do you search all decks until you find one?
+# 02/28/22
+
+## Weather Tables
+
+Winter
+
+* 0 - Clear Weather
+* 1 - Brutal Cold
+* 2 - Flurries
+* 3 - Blizzard
+
+Spring
+
+* 0 - Mild and Pleasant
+* 1 - Clear Weather
+* 2 - Heavy Rains
+* 3 - Flooding
+
+Summer
+
+* 0 - Mild and Pleasant
+* 1 - Clear Weather
+* 2 - Heat Wave
+* 3 - Drought
+
+Fall
+
+* 0 - Bountiful Harvest
+* 1 - Clear Weather
+* 2 - Heavy Rains
+* 3 - Flurries
+
+## Achievements Idea
+
+Could have motivation as a box on existing achievements. Would promote building into corners. Could also have things like discard, draw, or other effects as part of an achievement. Have to be careful with discard, though, because don't want to subvert the obstacle game. But motivation could easily work as a build out on cards rather than its own card.
+
 # 02/24/22
 
 Done:
