@@ -12,7 +12,7 @@ xxSPRING,3,"Flooding","All movement costs are +1.","..\images\weather\spring_lig
 
 xxSUMMER,0,"Late Sun","Moving out of wilderness or rural locations costs -1, to a minimum of 1.","..\images\weather\summer_landscape.jpg"
 xxSUMMER,1,"High Sun","No effect.","..\images\weather\summer_field.jpg"
-xxSUMMER,2,"Heat Wave","Take 1xxBODY when moving into wilderness locations.","..\images\weather\summer_red_sun.jpg"
+xxSUMMER,2,"Heat Wave","Take 1xxBODY when moving into urban locations.","..\images\weather\summer_red_sun.jpg"
 xxSUMMER,3,"Drought","Do not refresh the xxSTABILITY pool this turn.","..\images\weather\summer_drought_red.jpg"
 
 xxFALL,0,"Bountiful Harvest","Add xxSTABILITY die to each location in xxREDBANK.","..\images\weather\fall_farm_harvest.jpg"
