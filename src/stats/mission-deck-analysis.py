@@ -39,13 +39,14 @@ def tally_defense_dice(dict_ref, dice_text):
         dice_text = dice_text.replace(num, '')
     tally_dice(dict_ref, dice_text)
     
+    
 def tally_dice(dict_ref, dice_text):
     
     dice_text = dice_text.replace('##NBSP##', '')
     dice_text = dice_text.replace(' xxOVERCOME', '')
     dice_text = dice_text.replace(' xxFIRE', '')
-    dice_text = dice_text.replace('xxBODY', '')
-    dice_text = dice_text.replace('xxPSYCHE', '')
+    # dice_text = dice_text.replace('xxBODY', '')
+    # dice_text = dice_text.replace('xxPSYCHE', '')
     dice_text = dice_text.replace('FLAKE', '')
     dice = dice_text.split('xx')
     for die in dice:

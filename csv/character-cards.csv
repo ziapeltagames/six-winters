@@ -1,8 +1,8 @@
 name,title,type,effects,detail_effects,@char_image
 
-"Thea","Speaker for Red Bank","","xxDICE","","..\images\characters\thea_1.png"
-"Thea","Speaker for Red Bank","","xxDICE","","..\images\characters\thea_1.png"
-"Thea","Speaker for Red Bank","","xxDICE","","..\images\characters\thea_1.png"
+"Thea","Speaker for Red Bank","","xxFOUR xxRIGHT xxFIVE","","..\images\characters\thea_1.png"
+"Thea","Speaker for Red Bank","","xxFOUR xxRIGHT xxFIVE","","..\images\characters\thea_1.png"
+"Thea","Speaker for Red Bank","","xxFOUR xxRIGHT xxFIVE","","..\images\characters\thea_1.png"
 "Thea","Change Course","","Flip","","..\images\characters\thea_2.png"
 "Thea","Change Course","","Flip","","..\images\characters\thea_2.png"
 "Thea","Change Course","","Flip","","..\images\characters\thea_2.png"
@@ -13,10 +13,10 @@ name,title,type,effects,detail_effects,@char_image
 
 "Thea","The Conciliator","1xxCOMMITMENT","","Spend action die to invest as normal. Invest all resources in pool matching value of spent die.","..\images\characters\thea_1.png"
 "Thea","The Conciliator","2xxCOMMITMENT","","Spend action die to invest as normal. Invest all resources in pool matching value of spent die.","..\images\characters\thea_1.png"
-"Thea","Inspiring Words","3xxCOMMITMENT","xxTHREE","","..\images\characters\thea_1.png"
+"Thea","Inspiring Words","3xxCOMMITMENT","xxFIVE","","..\images\characters\thea_1.png"
 "Thea","The Conciliator","4xxCOMMITMENT","","Spend action die to invest as normal. Invest all resources in pool matching value of spent die.","..\images\characters\thea_1.png"
 "Thea","The Conciliator","5xxCOMMITMENT","","Spend action die to invest as normal. Invest all resources in pool matching value of spent die.","..\images\characters\thea_1.png"
-"Thea","Inspiring Words","6xxCOMMITMENT","xxTHREE","","..\images\characters\thea_1.png"
+"Thea","Inspiring Words","6xxCOMMITMENT","xxFIVE","","..\images\characters\thea_1.png"
 
 "Thea","Defend the Homeland!","1xxDISCORD","","xxIMMEDIATE Draw again. If there are no characters other than Thea in xxREDBANK, Thea takes 3 xxPSYCHE.","..\images\characters\thea_1.png"
 "Thea","Defend the Homeland!","2xxDISCORD","","xxIMMEDIATE Draw again. If there are no characters other than Thea in xxREDBANK, Thea takes 3 xxPSYCHE.","..\images\characters\thea_1.png"
@@ -26,23 +26,23 @@ name,title,type,effects,detail_effects,@char_image
 "Thea","Plagued by Doubt","6xxDISCORD","","xxIMMEDIATE Draw again. Counts as xxSTABILITY threat during threat phase this turn. Discard after threat phase.","..\images\characters\thea_1.png"
 
 
-"Menas","Gruff Veteran","","xxDICE","","..\images\characters\menas_horse.tif"
-"Menas","Gruff Veteran","","xxDICE","","..\images\characters\menas_horse.tif"
-"Menas","Gruff Veteran","","xxDICE","","..\images\characters\menas_horse.tif"
-"Menas","Hawkleader of the Ghost Legion","","Exploding xxFIVE","","..\images\characters\menas_horse.tif"
-"Menas","Hawkleader of the Ghost Legion","","Exploding xxFIVE","","..\images\characters\menas_horse.tif"
-"Menas","Hawkleader of the Ghost Legion","","Exploding xxFIVE","","..\images\characters\menas_horse.tif"
-"Menas","Hawkleader of the Ghost Legion","","Exploding xxFIVE","","..\images\characters\menas_horse.tif"
+"Menas","Gruff Veteran","","xxTWO xxRIGHT xxTHREE","","..\images\characters\menas_horse.tif"
+"Menas","Gruff Veteran","","xxTWO xxRIGHT xxTHREE","","..\images\characters\menas_horse.tif"
+"Menas","Gruff Veteran","","xxTWO xxRIGHT xxTHREE","","..\images\characters\menas_horse.tif"
+"Menas","Hawkleader of the Ghost Legion","","Exploding xxTHREE","","..\images\characters\menas_horse.tif"
+"Menas","Hawkleader of the Ghost Legion","","Exploding xxTHREE","","..\images\characters\menas_horse.tif"
+"Menas","Hawkleader of the Ghost Legion","","Exploding xxTHREE","","..\images\characters\menas_horse.tif"
+"Menas","Hawkleader of the Ghost Legion","","Exploding xxTHREE","","..\images\characters\menas_horse.tif"
 "Menas","Battle Worn Armor","","xxDEFENSE xxRIGHT 2xxBODY","","..\images\characters\menas_horse.tif"
 "Menas","Battle Worn Armor","","xxDEFENSE xxRIGHT 2xxBODY","","..\images\characters\menas_horse.tif"
 "Menas","Battle Worn Armor","","xxDEFENSE xxRIGHT 2xxBODY","","..\images\characters\menas_horse.tif"
 
 "Menas","Ride Swiftly, Stallion!","1xxCOMMITMENT","","Move Menas and any characters at this location to any rural or wilderness location.","..\images\characters\menas_horse.tif"
 "Menas","Ride Swiftly, Stallion!","2xxCOMMITMENT","","Move Menas and any characters at this location to any rural or wilderness location.","..\images\characters\menas_horse.tif"
-"Menas","Fury of the Horselord","3xxCOMMITMENT","xxFIVE","","..\images\characters\menas_horse.tif"
+"Menas","Fury of the Horselord","3xxCOMMITMENT","xxTHREE","","..\images\characters\menas_horse.tif"
 "Menas","Ride Swiftly, Stallion!","4xxCOMMITMENT","","Move Menas and any characters at this location to any rural or wilderness location.","..\images\characters\menas_horse.tif"
 "Menas","Ride Swiftly, Stallion!","5xxCOMMITMENT","","Move Menas and any characters at this location to any rural or wilderness location.","..\images\characters\menas_horse.tif"
-"Menas","Fury of the Horselord","6xxCOMMITMENT","xxFIVE","","..\images\characters\menas_horse.tif"
+"Menas","Fury of the Horselord","6xxCOMMITMENT","xxTHREE","","..\images\characters\menas_horse.tif"
 
 "Menas","Anger Rising","1xxDISCORD","","xxIMMEDIATE Draw again. All other characters in region take 2 xxPSYCHE.","..\images\characters\fuscus_4.png"
 "Menas","Anger Rising","2xxDISCORD","","xxIMMEDIATE Draw again. All other characters in region take 2 xxPSYCHE.","..\images\characters\fuscus_4.png"
@@ -52,9 +52,9 @@ name,title,type,effects,detail_effects,@char_image
 "Menas","Failed Campaign","6xxDISCORD","","xxIMMEDIATE Draw again. Counts as xxMILITARY threat during threat phase this turn. Discard after threat phase.","..\images\characters\menas_horse.tif"
 
 
-"Fuscus","Silver Tongued Ruffian","","xxDICE","","..\images\characters\fuscus_1.png"
-"Fuscus","Silver Tongued Ruffian","","xxDICE","","..\images\characters\fuscus_1.png"
-"Fuscus","Silver Tongued Ruffian","","xxDICE","","..\images\characters\fuscus_1.png"
+"Fuscus","Silver Tongued Ruffian","","xxTHREE xxRIGHT xxFOUR","","..\images\characters\fuscus_1.png"
+"Fuscus","Silver Tongued Ruffian","","xxTHREE xxRIGHT xxFOUR","","..\images\characters\fuscus_1.png"
+"Fuscus","Silver Tongued Ruffian","","xxTHREE xxRIGHT xxFOUR","","..\images\characters\fuscus_1.png"
 "Fuscus","I Need Some Me Time!","","-1","","..\images\characters\fuscus_3.png"
 "Fuscus","I Need Some Me Time!","","-1","","..\images\characters\fuscus_3.png"
 "Fuscus","I Need Some Me Time!","","-1","","..\images\characters\fuscus_3.png"
@@ -78,9 +78,9 @@ name,title,type,effects,detail_effects,@char_image
 "Fuscus","Party Monster","6xxDISCORD","","xxIMMEDIATE Draw again. Discard lowest xxSTABILITY die in pool.","..\images\characters\fuscus_3.png"
 
 
-"Keel","Youthful Artificer","","xxDICE","","..\images\characters\keel_stylin.tif"
-"Keel","Youthful Artificer","","xxDICE","","..\images\characters\keel_stylin.tif"
-"Keel","Youthful Artificer","","xxDICE","","..\images\characters\keel_stylin.tif"
+"Keel","Youthful Artificer","","xxFIVE xxRIGHT xxONE","","..\images\characters\keel_stylin.tif"
+"Keel","Youthful Artificer","","xxFIVE xxRIGHT xxONE","","..\images\characters\keel_stylin.tif"
+"Keel","Youthful Artificer","","xxFIVE xxRIGHT xxONE","","..\images\characters\keel_stylin.tif"
 "Keel","Late Nights in the Workshop","","xxCUBE xxRIGHT xxCUBE+xxCUBE","","..\images\characters\keel_study.tif"
 "Keel","Late Nights in the Workshop","","xxCUBE xxRIGHT xxCUBE+xxCUBE","","..\images\characters\keel_study.tif"
 "Keel","Late Nights in the Workshop","","xxCUBE xxRIGHT xxCUBE+xxCUBE","","..\images\characters\keel_study.tif"
@@ -104,9 +104,9 @@ name,title,type,effects,detail_effects,@char_image
 "Keel","Broken Gear","6xxDISCORD","","xxIMMEDIATE Draw again. Discard lowest xxTECHNOLOGY die in pool.","..\images\characters\keel_stylin.tif"
 
 
-"Lucia","Master of Secrets","","xxDICE","","..\images\characters\lucia_2.png"
-"Lucia","Master of Secrets","","xxDICE","","..\images\characters\lucia_2.png"
-"Lucia","Master of Secrets","","xxDICE","","..\images\characters\lucia_2.png"
+"Lucia","Master of Secrets","","xxONE xxRIGHT xxTWO","","..\images\characters\lucia_2.png"
+"Lucia","Master of Secrets","","xxONE xxRIGHT xxTWO","","..\images\characters\lucia_2.png"
+"Lucia","Master of Secrets","","xxONE xxRIGHT xxTWO","","..\images\characters\lucia_2.png"
 "Lucia","The Old Poisons","","","Gain poison die for turn. Spend on any xxBODY obstacles and retrieve if overcome.","..\images\characters\lucia_1.png"
 "Lucia","The Old Poisons","","","Gain poison die for turn. Spend on any xxBODY obstacles and retrieve if overcome.","..\images\characters\lucia_1.png"
 "Lucia","The Old Poisons","","","Gain poison die for turn. Spend on any xxBODY obstacles and retrieve if overcome.","..\images\characters\lucia_1.png"
@@ -130,9 +130,9 @@ name,title,type,effects,detail_effects,@char_image
 "Lucia","Careless Whispers","6xxDISCORD","","xxIMMEDIATE Draw again. Counts as xxMILITARY threat during threat phase this turn. Discard after threat phase.","..\images\characters\lucia_2.png"
 
 
-"Oniri","The Last Necromancer","","xxDICE","","..\images\characters\oniri_spell.tif"
-"Oniri","The Last Necromancer","","xxDICE","","..\images\characters\oniri_spell.tif"
-"Oniri","The Last Necromancer","","xxDICE","","..\images\characters\oniri_spell.tif"
+"Oniri","The Last Necromancer","","xxSIX xxRIGHT 3xxDICE","","..\images\characters\oniri_spell.tif"
+"Oniri","The Last Necromancer","","xxSIX xxRIGHT 3xxDICE","","..\images\characters\oniri_spell.tif"
+"Oniri","The Last Necromancer","","xxSIX xxRIGHT 3xxDICE","","..\images\characters\oniri_spell.tif"
 "Oniri","Dweomercraft","","xxSORCERY+xxCUBE xxRIGHT xxCUBE","","..\images\characters\oniri_spell.tif"
 "Oniri","Dweomercraft","","xxSORCERY+xxCUBE xxRIGHT xxCUBE","","..\images\characters\oniri_spell.tif"
 "Oniri","Dweomercraft","","xxSORCERY+xxCUBE xxRIGHT xxCUBE","","..\images\characters\oniri_spell.tif"
@@ -143,10 +143,10 @@ name,title,type,effects,detail_effects,@char_image
 
 "Oniri","Beyond the Veil","1xxCOMMITMENT","","Move any dice from xxSORCERY pool into action dice pool.","..\images\characters\oniri_spell.tif"
 "Oniri","Beyond the Veil","2xxCOMMITMENT","","Move any dice from xxSORCERY pool into action dice pool.","..\images\characters\oniri_spell.tif"
-"Oniri","Channeling","3xxCOMMITMENT","xxSIX xxRIGHT 3xxDICE","","..\images\characters\oniri_spell.tif"
+"Oniri","Channeling","3xxCOMMITMENT","xxSIX xxRIGHT xxCUBE","","..\images\characters\oniri_spell.tif"
 "Oniri","Beyond the Veil","4xxCOMMITMENT","","Move any dice from xxSORCERY pool into action dice pool.","..\images\characters\oniri_spell.tif"
 "Oniri","Beyond the Veil","5xxCOMMITMENT","","Move any dice from xxSORCERY pool into action dice pool.","..\images\characters\oniri_spell.tif"
-"Oniri","Channeling","6xxCOMMITMENT","xxSIX xxRIGHT 3xxDICE","","..\images\characters\oniri_spell.tif"
+"Oniri","Channeling","6xxCOMMITMENT","xxSIX xxRIGHT xxCUBE","","..\images\characters\oniri_spell.tif"
 
 "Oniri","Sorcerous Corruption","1xxDISCORD","","xxIMMEDIATE Draw again. Place at Oniri's location. Characters moving here take 1xxPSYCHE. Counts as obstacle during year end phase, then return to character deck.","..\images\characters\oniri_spell.tif"
 "Oniri","Sorcerous Corruption","2xxDISCORD","","xxIMMEDIATE Draw again. Place at Oniri's location. Characters moving here take 1xxPSYCHE. Counts as obstacle during year end phase, then return to character deck.","..\images\characters\oniri_spell.tif"
@@ -156,9 +156,9 @@ name,title,type,effects,detail_effects,@char_image
 "Oniri","The Veil is Rent","6xxDISCORD","","xxIMMEDIATE Draw again. Burn Oniri and all obstacles in the region. Any characters in region take 6 xxBODY.","..\images\characters\oniri_spell.tif"
 
 
-"Yasmina","Keeper of Natural Lore","","xxDICE","","..\images\characters\alternate_yasmina.jpg"
-"Yasmina","Keeper of Natural Lore","","xxDICE","","..\images\characters\alternate_yasmina.jpg"
-"Yasmina","Keeper of Natural Lore","","xxDICE","","..\images\characters\alternate_yasmina.jpg"
+"Yasmina","Keeper of Natural Lore","","xxONE xxRIGHT xxSIX","","..\images\characters\alternate_yasmina.jpg"
+"Yasmina","Keeper of Natural Lore","","xxONE xxRIGHT xxSIX","","..\images\characters\alternate_yasmina.jpg"
+"Yasmina","Keeper of Natural Lore","","xxONE xxRIGHT xxSIX","","..\images\characters\alternate_yasmina.jpg"
 "Yasmina","Forager's Cloak","","+1","","..\images\characters\alternate_yasmina.jpg"
 "Yasmina","Forager's Cloak","","+1","","..\images\characters\alternate_yasmina.jpg"
 "Yasmina","Forager's Cloak","","+1","","..\images\characters\alternate_yasmina.jpg"

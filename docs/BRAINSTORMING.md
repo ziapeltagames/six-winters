@@ -1,3 +1,18 @@
+# 03/10/22
+
+## Mission Card Difficulties
+
+May map the numbers to characters and types of obstacles.
+
+* 1 - Tech/traps
+* 2 - Espionage/guards
+* 3 - Military/units
+* 4 - Diplomacy/diplomats
+* 5 - Support/stability/issues
+* 6 - Sorcery/magic
+
+That will inform what die types the characters get. Right now there's a mismatch for Thea and Menas if this schema is used, but otherwise it maps pretty close. Also, maybe there's a trade-in/trade-out for characters instead of reroll cards? For instance, Thea could have 4->5.
+
 # 03/06/22
 
 ## Sandbox Mode Playtest
