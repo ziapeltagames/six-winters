@@ -1,3 +1,108 @@
+# 03/15/22
+
+## Mission Card/Location Card Ideas
+
+* Move stability card
+* Move cards of XYZ type
+* Move to port
+
+# 03/14/22
+
+## Mission Deck Analysis
+
+* How should cards be burned?
+* No choices
+   * In this version, some cards are burned, and some aren't
+   * There's not as much choice here
+   * Most of the burned cards are probably "misc" sorts of cards, and more special events
+   * Burned cards: necromancer, one off events, etc
+* Some choices
+   * Really, this is only relevant for a few cards, like The Necromancer
+* All choices
+   * Are these choices interesting?
+   * Early on these choices will be pretty opaque
+   * What should be burned?
+   * What should be kept?
+   * This seems like a lot of overhead for not much interest
+
+## Character Deck Analysis
+
+* Should Thea and Menas have "sacrifice" cards?
+   * Take conditions to discard some kind of obstacle?
+   * Menas could take conditions to burn an obstacle?
+* Menas - murder card is a discord 5
+   * Menas burns military for body conditions
+* Fuscus takes out diplomacy threats for stability track bumps
+* Lucia maybe dies, but takes out Master of Secrets
+* Keel maybe doesn't have that bad of 5s
+
+## To-do
+
+* Achievement overhaul
+   * Tweak locations slightly, focusing on diplo/esp early
+   * Take a look at frequency of locations, diplo seems a little high overall
+* Mission card overhaul
+   * Make sure dice align with cards / characters
+   * Adapt season and burn/discard to long term frequencies
+   * Empire: Grow Fall and Espionage, moving out Spring and Military to RB, burning others
+   * Settled: Grow Spring and Diplomacy, moving out Fall and Sorcery to RB, burning others
+   * Red Bank: Flat - burning good cards slowly over time
+   * All: Grow winter
+* Location overhaul
+   * Should probably lower move requirements on some cards
+* Character card overhaul
+   * Think about discord 5 cards - should have some benefits / lots of characterization
+
+# 03/12/22
+
+# Card Placement
+
+Starts along main resource axis, then coalesces around Red Bank during the late game.
+
+Empire: Military cards are mostly Spring, moving out into Red Bank. Spring cards can get burned or move (Drift into Summer/Fall)
+Red Bank: Fall cards can get burned or move. (Drift into Spring/Summer)
+Settled: Summer cards can get burned or move. (Drift into Spring/Fall)
+
+Stage 1 (17 cards, 3 commitment)
+
+2 1 3
+2 1 2
+3 1 2
+
+Stage 2 (16 cards, 2 commitment)
+
+2 2 2
+2 1 2
+2 1 2
+
+Stage 3 (15 cards, 1 commitment, multi-cards)
+
+2 3 2
+1 2 1
+1 2 1
+
+Stage 4 (12 cards, No Skills or Commitment, double resources)
+
+1 2 1
+1 2 1
+1 2 1
+
+## Mission Card Ideas
+
+* Attack ports (administerial)
+* Attack resource dice
+* Burn some cards (no choice)
+   * Late game has more winter?
+* Should winter cards be harder, and unable to be burned?
+   * Then they could wind up on top of the deck after destroying a location
+* Units should be spring cards?
+   * Help targeting Red Bank's military center?
+* Probably want Red Bank: Spring, Settled: Summer, and Empire: Fall
+* Cards to burn/move
+   * Empire: Military cards are mostly Spring, moving out into Red Bank. Spring cards can get burned or move (Drift into Summer/Fall)
+   * Red Bank: Fall cards can get burned or move. (Drift into Spring/Summer)
+   * Settled: Summer cards can get burned or move. (Drift into Spring/Fall)
+
 # 03/10/22
 
 ## Mission Card Difficulties

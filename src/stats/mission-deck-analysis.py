@@ -8,7 +8,6 @@ Created on Fri May 28 18:59:53 2021
 """
 
 import os, csv
-from collections import Counter
 
 
 def tally(dict_ref, value):
@@ -43,8 +42,8 @@ def tally_defense_dice(dict_ref, dice_text):
 def tally_dice(dict_ref, dice_text):
     
     dice_text = dice_text.replace('##NBSP##', '')
-    dice_text = dice_text.replace(' xxOVERCOME', '')
-    dice_text = dice_text.replace(' xxFIRE', '')
+    dice_text = dice_text.replace('xxOVERCOME', '')
+    dice_text = dice_text.replace('xxFIRE', '')
     # dice_text = dice_text.replace('xxBODY', '')
     # dice_text = dice_text.replace('xxPSYCHE', '')
     dice_text = dice_text.replace('FLAKE', '')
@@ -54,7 +53,7 @@ def tally_dice(dict_ref, dice_text):
             continue
         die = die.replace(' ', '')
         tally(dict_ref, die)
-
+        
 
 def populate_dicts():
     
@@ -63,6 +62,8 @@ def populate_dicts():
     
     total_skills = {}
     skills_by_region = {"EMPIRE": {}, "REDBANK": {}, "SETTLED": {}}
+    
+    diffs_by_region = {"EMPIRE": {}, "REDBANK": {}, "SETTLED": {}}
     
     total_defense = {}
     total_offense = {}
@@ -84,15 +85,14 @@ def populate_dicts():
         tally_tag(skills_by_region[region], skill)
         tally_tag(total_skills, skill)
         
-        def1 = mc['defense1']
+        def1 = mc['defense']
         tally_dice(total_defense, def1)
-        def2 = mc['defense2']
-        tally_dice(total_defense, def2)
         
-        att1 = mc['attack1']
+        att1 = mc['attack']
         tally_defense_dice(total_offense, att1)
-        att2 = mc['attack2']
-        tally_defense_dice(total_offense, att2)
+        
+        diff = mc['difficulty']
+        tally(diffs_by_region[region], diff)
     
     mission_file.close()
     
@@ -100,39 +100,29 @@ def populate_dicts():
     # print(threats_by_region, '\n')
     print(total_threats, '\n')
     
-    print('SKILLS', '\n')
+    print('THREATS BY REGION', '\n')
+
+    for region in threats_by_region.keys():
+        print(region, threats_by_region[region])
+        
+    print('\nSKILLS', '\n')
     # print(skills_by_region, '\n')
     print(total_skills, '\n')
     
-    print('OVERCOME', '\n')
+    print('SKILLS BY REGION', '\n')
+    
+    for region in skills_by_region.keys():
+        print(region, skills_by_region[region])
+
+    
+    print('\nOvercome', '\n')
     print(total_defense, '\n')
     
-    print('DAMAGE', '\n')
+    print('Attack', '\n')
     print(total_offense, '\n')
     
-
-def tally_dict(dict_name, sw_dict):
+    print('DIFFICULTY', '\n')
+    print(diffs_by_region, '\n')
     
-    print(dict_name)
-    
-    ec = Counter(sw_dict['Empire'])
-    rbc = Counter(sw_dict['Red Bank'])
-    sbc = Counter(sw_dict['Settled Lands'])
-
-    print('Empire', ec)
-    print('Red Bank', rbc)
-    print('Settled Lands', sbc)
-    
-    total_dict = {}
-    for ds in [ec, rbc, sbc]:
-        for ni in ds.items():
-            nkey, nval = ni[0], ni[1]
-        
-            if nkey in total_dict:
-                total_dict[nkey] = total_dict[nkey] + nval
-            else:
-                total_dict[nkey] = nval
-                
-    print('Total', total_dict)
     
 populate_dicts()

@@ -15,7 +15,7 @@ name,title,type,effects,detail_effects,@char_image,@border
 "Thea","Defend the Homeland!","2xxDISCORD","","xxIMMEDIATE If there are no characters other than Thea in xxREDBANK, Thea takes 3xxPSYCHE. Draw again.","..\images\characters\thea_1.png","..\images\borders\thea_border.png"
 "Thea","Plagued by Doubt","3xxDISCORD","","xxIMMEDIATE Counts as xxSTABILITY threat during threat phase this turn. Discard after threat phase. Draw again.","..\images\characters\thea_1.png","..\images\borders\thea_border.png"
 "Thea","Plagued by Doubt","4xxDISCORD","","xxIMMEDIATE Counts as xxSTABILITY threat during threat phase this turn. Discard after threat phase. Draw again.","..\images\characters\thea_1.png","..\images\borders\thea_border.png"
-"Thea","My Best Isn't Enough","5xxDISCORD","","xxIMMEDIATE Draw xxREDBANK obstacle and place in xxREDBANKxxSTABILITY location. Draw again.","..\images\characters\thea_1.png","..\images\borders\thea_border.png"
+"Thea","My Best Isn't Enough","5xxDISCORD","","xxIMMEDIATE Move Thea to location with most issues and burn all issues there. For each issue burned, Thea takes a xxPSYCHE condition. Draw again.","..\images\characters\thea_1.png","..\images\borders\thea_border.png"
 
 "Menas","Gruff Veteran","xxDICE","xxTWO xxRIGHT xxTHREE","","..\images\characters\menas_horse.tif","..\images\borders\menas_border.png"
 "Menas","Gruff Veteran","xxDICE","xxTWO xxRIGHT xxTHREE","","..\images\characters\menas_horse.tif","..\images\borders\menas_border.png"
@@ -28,11 +28,11 @@ name,title,type,effects,detail_effects,@char_image,@border
 "Menas","Ride Swiftly, Stallion!","3xxCOMMITMENT","","Move Menas and any characters at this location to any rural or wilderness location.","..\images\characters\menas_horse.tif","..\images\borders\menas_border.png"
 "Menas","Fury of the Horselord","4xxCOMMITMENT","xxTHREE","","..\images\characters\menas_horse.tif","..\images\borders\menas_border.png"
 "Menas","Grand Tactician","5xxCOMMITMENT","xxTHREE xxTHREE","","..\images\characters\menas_horse.tif","..\images\borders\menas_border.png"
-"Menas","Anger Rising","1xxDISCORD","","xxIMMEDIATE All other characters in Menas's region take 2xxPSYCHE. Draw again.","..\images\characters\fuscus_4.png","..\images\borders\menas_border.png"
-"Menas","Anger Rising","2xxDISCORD","","xxIMMEDIATE All other characters in Menas's region take 2xxPSYCHE. Draw again.","..\images\characters\fuscus_4.png","..\images\borders\menas_border.png"
+"Menas","Shut up! I'm in charge!","1xxDISCORD","","xxIMMEDIATE All other characters in Menas's region take 2xxPSYCHE. Draw again.","..\images\characters\fuscus_4.png","..\images\borders\menas_border.png"
+"Menas","Shut up! I'm in charge!","2xxDISCORD","","xxIMMEDIATE All other characters in Menas's region take 2xxPSYCHE. Draw again.","..\images\characters\fuscus_4.png","..\images\borders\menas_border.png"
 "Menas","Failed Campaign","3xxDISCORD","","xxIMMEDIATE Counts as xxMILITARY threat during threat phase this turn. Discard after threat phase. Draw again.","..\images\characters\menas_horse.tif","..\images\borders\menas_border.png"
 "Menas","Failed Campaign","4xxDISCORD","","xxIMMEDIATE Counts as xxMILITARY threat during threat phase this turn. Discard after threat phase. Draw again.","..\images\characters\menas_horse.tif","..\images\borders\menas_border.png"
-"Menas","Looming Shadows","5xxDISCORD","","xxIMMEDIATE Draw xxREDBANK obstacle and place in xxREDBANKxxMILITARY location. Drag again.","..\images\characters\menas_horse.tif","..\images\borders\menas_border.png"
+"Menas","Reckless Charge","5xxDISCORD","","xxIMMEDIATE Move Menas to location with most units and burn all units there. For each unit burned, Menas takes a xxBODY condition. Draw again.","..\images\characters\menas_horse.tif","..\images\borders\menas_border.png"
 
 "Fuscus","Silver Tongued Ruffian","xxDICE","xxTHREE xxRIGHT xxFOUR","","..\images\characters\fuscus_1.png","..\images\borders\fuscus_border.png"
 "Fuscus","Silver Tongued Ruffian","xxDICE","xxTHREE xxRIGHT xxFOUR","","..\images\characters\fuscus_1.png","..\images\borders\fuscus_border.png"
@@ -49,7 +49,7 @@ name,title,type,effects,detail_effects,@char_image,@border
 "Fuscus","More! More! More!","2xxDISCORD","","xxIMMEDIATE Any characters at this location (including Fuscus) take 2xxBODY. Draw again.","..\images\characters\fuscus_5.png","..\images\borders\fuscus_border.png"
 "Fuscus","Eyes Off the Prize","3xxDISCORD","","xxIMMEDIATE Discard two staged achievements of your choice. Draw again.","..\images\characters\fuscus_5.png","..\images\borders\fuscus_border.png"
 "Fuscus","Eyes Off the Prize","4xxDISCORD","","xxIMMEDIATE Discard two staged achievements of your choice. Draw again.","..\images\characters\fuscus_5.png","..\images\borders\fuscus_border.png"
-"Fuscus","Angry Ex-Lovers","5xxDISCORD","","xxIMMEDIATE Draw xxSETTLED obstacle and place in xxSETTLEDxxDIPLOMACY location. Draw again.","..\images\characters\fuscus_5.png","..\images\borders\fuscus_border.png"
+"Fuscus","Burned Friendships","5xxDISCORD","","xxIMMEDIATE Burn all diplomats in play and increase the xxEMPIRE xxDIPLOMACY track by one. Draw again.","..\images\characters\fuscus_5.png","..\images\borders\fuscus_border.png"
 
 "Keel","Youthful Artificer","xxDICE","xxFIVE xxRIGHT xxONE","","..\images\characters\keel_stylin.tif","..\images\borders\keel_border.png"
 "Keel","Youthful Artificer","xxDICE","xxFIVE xxRIGHT xxONE","","..\images\characters\keel_stylin.tif","..\images\borders\keel_border.png"
@@ -66,7 +66,7 @@ name,title,type,effects,detail_effects,@char_image,@border
 "Keel","Work Better Alone","2xxDISCORD","","xxIMMEDIATE If any characters are in the same region as Keel, Keel takes 2xxPSYCHE. Draw again.","..\images\characters\keel_stylin.tif","..\images\borders\keel_border.png"
 "Keel","Broken Gear","3xxDISCORD","","xxIMMEDIATE Discard two lowest xxTECHNOLOGY dice in pool. Draw again.","..\images\characters\keel_stylin.tif","..\images\borders\keel_border.png"
 "Keel","Broken Gear","4xxDISCORD","","xxIMMEDIATE Discard two lowest xxTECHNOLOGY dice in pool. Draw again.","..\images\characters\keel_stylin.tif","..\images\borders\keel_border.png"
-"Keel","Overestimated Abilities","4xxDISCORD","","xxIMMEDIATE Draw xxEMPIRE obstacle and place in xxEMPIRExxTECHNOLOGY location. Draw again.","..\images\characters\keel_stylin.tif","..\images\borders\keel_border.png"
+"Keel","Overestimated Abilities","5xxDISCORD","","xxIMMEDIATE Draw xxEMPIRE obstacle and place in xxEMPIRExxTECHNOLOGY location. Draw again.","..\images\characters\keel_stylin.tif","..\images\borders\keel_border.png"
 
 "Lucia","Master of Secrets","xxDICE","xxONE xxRIGHT xxTWO","","..\images\characters\lucia_2.png","..\images\borders\lucia_border.png"
 "Lucia","Master of Secrets","xxDICE","xxONE xxRIGHT xxTWO","","..\images\characters\lucia_2.png","..\images\borders\lucia_border.png"
