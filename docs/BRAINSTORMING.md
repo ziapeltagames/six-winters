@@ -1,3 +1,18 @@
+# 03/29/22
+
+## Streamlining and Shortening Time
+
+* Six skills, matching resources
+* No more obstacle difficulties (just use skills)
+
+These two options would streamline the game quite a bit. Not sure if it would lose its charm or not. But it would lower the handling time. At that point, location cards could probably be drawn blind if desired. The only tricky part is unlocking a new character, which is pointless in year six.
+
+* Fewer turns
+* Fewer dice
+* Fewer characters
+
+Out of these options, fewer turns will have the biggest impact on game length. However, the pacing gets tricky with fewer turns. Drawing obstacles at the end of each turn is fun - and with six turns, there isn't much time for mounting tension. There wouldn't be as much "build up". Just a few turns, and then it would need to ramp up.
+
 # 03/15/22
 
 ## Mission Card/Location Card Ideas
