@@ -1,3 +1,49 @@
+# 04/13/22
+
+## Next Single Player Playtest
+
+* Try six skill version
+* Obstacles are placed as normal
+* Seven action dice
+* Use matching investments variant
+
+## One Player Playtest Notes
+
+* Having obstacles come out every other turn is closer to the right pacing, but it's also more erratic. Having one come out every turn is a brutal pace, though. One option is to have more dice available.
+* Still unsure of 8 vs. 6 skills, so many pros and cons
+* The discord cards probably shouldn't cause stress
+   * There's already a mechanism for causing stress, and discord cards result from that
+   * It's nice if discord cards also have an immediate effect, and stress+stress is not fun
+* Not sure about multiple paths for achievements
+   * There are already two achievements in play, so there are multiple paths
+   * Lots of cognitive overhead in an already complex game
+* Still not sure about trade
+   * Probably should work the same as invest, but should it be out only?
+   * If it's out only, that's extremely limiting
+
+## Six Skills
+
+* More streamlined
+* Fewer skill achievement cards
+* Some confusing symbology to sort out - skill vs. resource
+* Using assets could be confusing, as assets are also typed
+* Some obstacles would have to be rethought
+* Potential looking forward to WotA 2.0
+
+Probably the biggest limitation is the effect on obstacles. All diplomats would threaten diplomacy, all units would threaten military, etc. Couldn't have diplomats who threaten military. Technology is a tough one to come up with threats for. What's a tech threat that's overcome using tech? Traps, devices, war machines?
+
+And creatures aren't really possible threats anymore, because they don't fit on the Empire vs. Red Bank axis. They probably threaten support, but why would they be overcome with support?
+
+* Technology: traps, devices, war machines
+* Support: mobs, creatures, issues - creatures are extremely tenuous, they'd probably fall into sorcery
+* Sorcery: creatures, magical effects
+
+Another option is to remove some skills, such as maybe survival and disguise. Would still have a tighter set of skills.
+
+## Obstacle Options
+
+
+
 # 03/29/22
 
 ## Streamlining and Shortening Time
