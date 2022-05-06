@@ -5,31 +5,43 @@ card_sets = [
     ['Red Bank Backs', 62, 121],
     ['Settled Lands Fronts', 121, 183],
     ['Settled Lands Backs', 122, 183],
+    ['Single Player Fronts', 1, 69],
+    ['Single Player Backs', 2, 69],
     ['Two Player Fronts', 69, 175],
-    ['Two Player Backs', 70, 175]
+    ['Two Player Backs', 70, 175],
+    ['Locations Fronts', 1, 67],
+    ['Locations Backs', 2, 67],
+    ['Weather Fronts', 1, 33],
+    ['Weather Backs', 2, 33],
+    ['Thea Front', 1, 33],
+    ['Thea Back', 2, 33],
+    ['Menas Front', 33, 65],
+    ['Menas Back', 34, 65],
+    ['Fuscus Front', 65, 97],
+    ['Fuscus Back', 66, 97],
+    ['Keel Front', 97, 129],
+    ['Keel Back', 98, 129],
+    ['Lucia Front', 129, 161],
+    ['Lucia Back', 130, 161],
+    ['Oniri Front', 161, 193],
+    ['Oniri Back', 162, 193],
+    ['Yasmina Front', 193, 225],
+    ['Yasmina Back', 194, 225]
 ]
 
-for cards in card_sets:
-    print('\n')
-    print(cards[0])
-    for i in range(cards[1], cards[2], 2):
-        if i == cards[1]:
-            print(i, end='', sep='')
-        else:
-            print(',', i, end='', sep='')
+import sys
 
-print('\n')
-print('Thea')
-print('1-6')
+with open('D:\\\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\Cards\\tts_card_indices.txt', 'w') as f:
 
-print('')
-print('Menas')
-print('17-22')
+    sys.stdout = f
 
-print('')
-print('Fuscus')
-print('33-38')
+    print('Card Indices')
 
-print('')
-print('Keel')
-print('49-54')
+    for cards in card_sets:
+        print('\n')
+        print(cards[0])
+        for i in range(cards[1], cards[2], 2):
+            if i == cards[1]:
+                print(i, end='', sep='')
+            else:
+                print(',', i, end='', sep='')

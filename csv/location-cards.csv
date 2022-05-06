@@ -1,37 +1,37 @@
-region,name,tags,skill,amove,bmove,@location_image,texta,textb,textc
+region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,textb,textc
 
-"1 xxEMPIRE","Prominence","Urban, Port",xxDISGUISE,"2 xxREDBANK","2 xxSETTLED","..\images\lands\byzantine_square.jpg","##NSBP##xxSTARTING Imperial Guard","##NSBP##xxCUBE Move to a port"
-"1 xxEMPIRE","The Rosy Freetrader","Urban, Tavern",xxDISGUISE,"3 xxREDBANK","3 xxSETTLED","..\images\lands\tavern.jpg","##NSBP##xxCUBE Move a guard to this location"
-"1 xxEMPIRE","Ma Bonnie's Squidery","Urban, Tavern",xxDISGUISE,"2 xxREDBANK","3 xxSETTLED","..\images\lands\squidery.jpg","##NSBP##Guards are -1 difficulty here"
-"1 xxEMPIRE","Whitehold","Urban, Vault",xxTHIEVERY,"xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\vault.jpg","##NSBP##xxSTARTING Imperial Guard"
-"1 xxEMPIRE","Guild of Secrets","Urban, Vault",xxTHIEVERY,"xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\underground_dungeon.png","##NSBP##Unlock Lucia if no obstacles present","##NSBP##xxSTARTING 2 X Master of Secrets"
-"2 xxEMPIRE","Southkeep","Urban, Port",xxTHIEVERY,"3 xxREDBANK","3 xxSETTLED","..\images\lands\byzantine_town.png","##NSBP##xxCUBE Move to a port"
-"2 xxEMPIRE","Dawncaves","Dungeon",xxCOMBAT,"2 xxREDBANK","2 xxSETTLED","..\images\lands\fungal_farm_ferdinandladera.jpg","##NSBP##xxRIGHT Add 1 xxESPIONAGE die to this location"
-"2 xxEMPIRE","Firstborn Peak","Wilderness",xxCOMBAT,"3 xxREDBANK","2 xxSETTLED","..\images\lands\river_valley.jpg","##NSBP##xxSTARTING Hidden Outpost"
-"1 xxEMPIRE","Eastkeep","Rural",xxTACTICS,"1 xxREDBANK","2 xxSETTLED","..\images\lands\castle_wall.png","##NSBP##Units are +1 difficulty here","##NSBP##xxSTARTING Praetorians"
-"2 xxEMPIRE","Guilder Farms","Rural",xxCOMMAND,"2 xxREDBANK","3 xxSETTLED","..\images\lands\hillside_village_eriktaberman.jpg","##NSBP##xxSTARTING Military Sabotage"
-"1 xxEMPIRE","House of Copper","Urban, Eldritch",xxLORE,"2 xxREDBANK","3 xxSETTLED","..\images\lands\drug_den.jpg","##NSBP##May take 2 xxPSYCHE to move to any location"
+"xxEMPIRE","Prominence","Urban, Port, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\square_zzytudou.tif","xxBOAT","##NSBP##xxSTARTING Imperial Guard",
+"xxEMPIRE","The Rosy Freetrader","Urban, Tavern, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\sarah_kate_forstner_tavern.tif",,"##NSBP##xxCUBE Move a guard to this location"
+"xxEMPIRE","Ma Bonnie's Squidery","Urban, Tavern, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\fish_market_by_dustinpanzino.tif",,
+"xxEMPIRE","Whitehold","Urban, Vault, xxEMPIRE",xxTHIEVERY,"1","1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\keep_armando_savoia.tif",,"##NSBP##xxSTARTING Imperial Guard"
+"xxEMPIRE","Guild of Secrets","Urban, Vault, xxEMPIRE",xxTHIEVERY,"1","1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\underground_dungeon_byung_ju_bong.tif",,"##NSBP##Unlock Lucia if no obstacles present","##NSBP##xxSTARTING 2 X Master of Secrets"
+"xxEMPIRE","Southkeep","Urban, Port, xxEMPIRE",xxTHIEVERY,"2","2 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\byzantine_town.tif","xxBOAT",
+"xxEMPIRE","Dawncaves","Dungeon, xxEMPIRE",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\fungal_farm_ferdinandladera.tif","xxSORCERY"
+"xxEMPIRE","Firstborn Peak","Wilderness, xxEMPIRE",xxCOMBAT,"2","2 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\peak_jorge_jacinto.tif",,"##NSBP##xxSTARTING Hidden Outpost"
+"xxEMPIRE","Eastkeep","Rural, xxEMPIRE",xxTACTICS,"1","1 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\castle_wall_andrew_ryan.tif",,"##NSBP##xxSTARTING Praetorians"
+"xxEMPIRE","Guilder Farms","Rural, xxEMPIRE",xxCOMMAND,"2","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\hillside_village_eriktaberman.tif","xxSTABILITY","##NSBP##xxSTARTING Military Sabotage"
+"xxEMPIRE","House of Copper","Urban, Eldritch, xxEMPIRE",xxLORE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\drug_den.tif","xxSHATTER"
 
-"1 xxREDBANK","Amaranth Square","Urban, Port",xxCOMMAND,"2 xxEMPIRE","2 xxSETTLED","..\images\lands\corinth_seacoast.jpg","##NSBP##xxCUBE Move to a port"
-"1 xxREDBANK","Amber Trade Fair","Rural",xxCOMMAND,"2 xxEMPIRE","1 xxSETTLED","..\images\lands\LandsSpot5.tif","##NSBP##Issues are -1 difficulty here"
-"2 xxREDBANK","Undari's Tower","Urban, Eldritch",xxLORE,"2 xxEMPIRE","3 xxSETTLED","..\images\lands\undari_tower.jpg","##NSBP##xxSORCERY obstacles are -1 difficulty here"
-"2 xxREDBANK","Cyclabrary","Urban",xxLORE,"3 xxEMPIRE","2 xxSETTLED","..\images\lands\library_suomar_ddfgeia.jpg","##NSBP##xxSTARTING Tome of Forking Paths"
-"2 xxREDBANK","Mirror Woods","Wilderness",xxSURVIVAL,"3 xxEMPIRE","2 xxSETTLED","..\images\lands\LandsSpot3.tif","##NSBP##xxSTARTING Restless Dead"
-"1 xxREDBANK","Amaranth Bourne","Wilderness",xxSURVIVAL,"2 xxEMPIRE","1 xxSETTLED","..\images\lands\shuang-hao-creekside-reflection.jpg","##NSBP##xxCUBE Move a foe to this location"
-"2 xxREDBANK","Undari's Tomb","Dungeon, Eldritch",xxCOMBAT,"2 xxEMPIRE","3 xxSETTLED","..\images\lands\fancy_crypt.png","##NSBP##xxSTARTING The Necromancer"
-"2 xxREDBANK","The Weird Rock","Wilderness",xxCOMBAT,"2 xxEMPIRE","2 xxSETTLED","..\images\lands\Spring.tif","##NSBP##May take 1xxBODY to refill xxSORCERY pool"
-"2 xxREDBANK","Sightrock Keep","Rural",xxTACTICS,"1 xxEMPIRE","3 xxSETTLED","..\images\lands\mountain_farm_village_chris_karbach.png","##NSBP##xxCUBE Move a unit to this location","##NSBP##xxTACTICS obstacles are -1 difficulty here"
-"1 xxREDBANK","The Obfuscated Bribe","Urban",xxRAPPORT,"2 xxEMPIRE","2 xxSETTLED","..\images\lands\fantasy_tavern.png","##NSBP##xxSTARTING Clove and Minx"
-"2 xxREDBANK","House Lavender","Rural",xxDISGUISE,"2 xxEMPIRE","2 xxSETTLED","..\images\lands\finnian-macmanus-cl3.jpg","##NSBP##xxRIGHT Add 1 xxDIPLOMACY die to this location"
+"xxREDBANK","Amaranth Square","Urban, Port, xxREDBANK",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\corinth_seacoast.tif","xxBOAT",
+"xxREDBANK","Amber Trade Fair","Rural, xxREDBANK",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","1 xxSETTLED","..\images\lands\deedema_bazar.tif","xxTECHNOLOGY",
+"xxREDBANK","Undari's Tower","Urban, Eldritch, xxREDBANK",xxLORE,"2","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\hao_ding_tower.tif","xxSHATTER",
+"xxREDBANK","Cyclabrary","Urban, xxREDBANK",xxLORE,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\library_suomar_ddfgeia.tif",,"##NSBP##xxSTARTING Tome of Forking Paths"
+"xxREDBANK","Mirror Woods","Wilderness, xxREDBANK",xxSURVIVAL,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\mirror_saterina_minola.tif",,"##NSBP##xxSTARTING Restless Dead"
+"xxREDBANK","Amaranth Bourne","Wilderness, xxREDBANK",xxSURVIVAL,"1","2 xxEMPIRE","1 xxREDBANK","1 xxSETTLED","..\images\lands\shuang_hao_creekside_reflection.tif",,"##NSBP##xxCUBE Move a foe to this location"
+"xxREDBANK","Undari's Tomb","Dungeon, Eldritch, xxREDBANK",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\andreas_roch_forgottencrypt.tif","xxSHATTER","##NSBP##xxSTARTING The Necromancer"
+"xxREDBANK","The Weird Rock","Wilderness, xxREDBANK",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\johannes_roots_rock.tif",,"##NSBP##Take 1xxBODY to refill xxSORCERY pool"
+"xxREDBANK","Sightrock Keep","Rural, xxREDBANK",xxTACTICS,"2","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\chris_karbach_mountain_farm.tif",,"##NSBP##xxCUBE Move a unit to this location"
+"xxREDBANK","The Obfuscated Bribe","Urban, xxREDBANK",xxRAPPORT,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\fantasy_tavern_ayndre.tif",,"##NSBP##xxSTARTING Clove and Minx"
+"xxREDBANK","House Lavender","Rural, xxREDBANK",xxDISGUISE,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\ryan_groskamp_rotsan.tif","xxDIPLOMACY"
 
-"1 xxSETTLED","Hogel Manor","Rural",xxRAPPORT,"2 xxEMPIRE","2 xxREDBANK","..\images\lands\LandsSpot6.tif","##NSBP##xxCUBE Move an issue to any location","##NSBP##xxSTARTING Hogel"
-"2 xxSETTLED","Wrenhouse","Wilderness, Hall",xxRAPPORT,"2 xxEMPIRE","2 xxREDBANK","..\images\lands\houses_by_a_creek_by_eriktaberman_del8xj9-fullview.jpg","##NSBP##xxCUBE Move a xxRAPPORT obstacle to this location"
-"2 xxSETTLED","Lower Wash","Urban",xxRAPPORT,"3 xxEMPIRE","1 xxREDBANK","..\images\lands\flooded_street.jpg","##NSBP##xxSTARTING Friends in Low Places"
-"1 xxSETTLED","Shimmerhall","Urban",xxTACTICS,"3 xxEMPIRE","2 xxREDBANK","..\images\lands\BearerOfGifts.tif","##NSBP##xxCUBE Move a xxSORCERY obstacle to any location"
-"2 xxSETTLED","Brassport","Rural, Port",xxTACTICS,"2 xxEMPIRE","2 xxREDBANK","..\images\lands\port_of_brass.jpg","##NSBP##xxCUBE Move to a port"
-"1 xxSETTLED","Goldspike","Urban, Port",xxCOMMAND,"3 xxEMPIRE","1 xxREDBANK","..\images\lands\italy_inspired_town.jpg","##NSBP##xxCUBE Move to a port"
-"1 xxSETTLED","Hall of Brass","Urban, Hall",xxCOMMAND,"2 xxEMPIRE","1 xxREDBANK","..\images\lands\the_ballroom_by_oma_i_deyhds.jpg","##NSBP##xxCUBE Move a diplomat to this location"
-"2 xxSETTLED","The Long Wastes","Wilderness",xxSURVIVAL,"3 xxEMPIRE","3 xxREDBANK","..\images\lands\ovoo.tif","##NSBP##xxRIGHT Add 1 xxSORCERY die to this location"
-"2 xxSETTLED","Pearlescent Marsh","Rural, Eldritch",xxSURVIVAL,"2 xxEMPIRE","2 xxREDBANK","..\images\lands\mystic_valley_by_lepyoshka.jpg","##NSBP##xxSTARTING Forager's Toad xxREDBANKxxSORCERY","##NSBP##xxSTARTING Forager's Cloak xxEMPIRExxESPIONAGE","##NSBP##xxSTARTING Forager's Tome"
-"1 xxSETTLED","Beetle Burrough","Rural",xxTHIEVERY,"2 xxEMPIRE","2 xxREDBANK","..\images\lands\russ_nicholson_empire.jpeg","##NSBP##xxRIGHT Add 1 xxTECHNOLOGY die to this location"
-"2 xxSETTLED","Arankh","Rural, Eldritch",xxLORE,"3 xxEMPIRE","2 xxREDBANK","..\images\lands\arankh.tif","##NSBP##xxSTARTING Elisa"
+"xxSETTLED","Hogel Manor","Rural, xxSETTLED",xxRAPPORT,"1","2 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\grady_frederick_manor.tif",,"##NSBP##xxCUBE Move an issue to any location","##NSBP##xxSTARTING Hogel"
+"xxSETTLED","Wrenhouse","Wilderness, Hall, xxSETTLED",xxRAPPORT,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\houses_creek_eriktaberman.tif",,"##NSBP##xxCUBE Move xxRAPPORT obstacle to this location"
+"xxSETTLED","Lower Wash","Urban, xxSETTLED",xxRAPPORT,"2","3 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\freshcan_streets.tif",,"##NSBP##xxSTARTING Friends in Low Places"
+"xxSETTLED","Shimmerhall","Urban, xxSETTLED",xxTACTICS,"1","3 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\eddie_mendoza_witch.tif",,"##NSBP##xxCUBE Move xxSORCERY obstacle to any location"
+"xxSETTLED","Brassport","Rural, Port, xxSETTLED",xxTACTICS,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\port_of_brass.tif","xxBOAT",
+"xxSETTLED","Goldspike","Urban, Port, xxSETTLED",xxCOMMAND,"1","3 xxEMPIRE","1 xxREDBANK","1 xxSETTLED","..\images\lands\borisut_chamnan.tif","xxBOAT",
+"xxSETTLED","Hall of Brass","Urban, Hall, xxSETTLED",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","1 xxSETTLED","..\images\lands\borisut_chamnan_hall_brass.tif",,"##NSBP##xxCUBE Move a diplomat to this location"
+"xxSETTLED","The Long Wastes","Wilderness, xxSETTLED",xxSURVIVAL,"2","3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\river_ardoric.tif","xxMILITARY"
+"xxSETTLED","Pearlescent Marsh","Rural, Eldritch, xxSETTLED",xxSURVIVAL,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\mystic_valley_by_lepyoshka.tif","xxSHATTER","##NSBP##xxSTARTING Place 3 Forager cards at different locations"
+"xxSETTLED","Beetle Burrough","Rural, xxSETTLED",xxTHIEVERY,"1","2 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\vladimir_manyukhin.tif","xxESPIONAGE"
+"xxSETTLED","Arankh","Rural, Eldritch, xxSETTLED",xxLORE,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\javier_charro_environment.tif","xxSHATTER","##NSBP##xxSTARTING Elisa"

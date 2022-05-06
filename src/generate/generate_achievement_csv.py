@@ -15,7 +15,7 @@ columns = ["players","stage","star","locregion","locresource","name","g11","g12"
             "f13","f14","f21","f22","f23","f24","f31","f32","f33","f34","f41","f42","f43","f44","reward"]
     
 card_dict_1p = {
-    '1': {
+    'xxSTAR': {
         'Metals and Guilds': {
             'locregion': 'xxREDBANK',
             'locresource': 'xxMILITARY',
@@ -227,7 +227,7 @@ card_dict_1p = {
             'f31': '=',
             'reward': 'xxCOMMITMENT'},
         },
-    '2': {
+    'xxSTAR xxSTAR': {
         'Local Investments': {
             'locregion': 'xxEMPIRE', 
             'locresource': 'xxMILITARY',
@@ -359,7 +359,7 @@ card_dict_1p = {
             'f11': 'xxWONE',
             'reward': 'xxCOMMITMENT xxTHIEVERY'}
         },
-    '3': {
+    'xxSTAR xxSTAR xxSTAR': {
         'Keeper of Natural Lore': {
             'locregion': 'xxREDBANK',
             'locresource': 'xxSORCERY',
@@ -424,7 +424,7 @@ card_dict_1p = {
     }
 
 card_dict_2p = {
-    '1': {
+    'xxSTAR': {
         'Right Tool for the Job': {
             'locregion': 'xxSETTLED',
             'locresource': 'xxTECHNOLOGY',
@@ -736,7 +736,7 @@ card_dict_2p = {
             'f33': 'xxSETTLED',
             'reward': 'xxCOMMITMENT'}
         },
-    '2': {
+    'xxSTAR xxSTAR': {
         'Metals and Guilds': {
             'locregion': 'xxEMPIRE',
             'locresource': 'xxMILITARY',
@@ -934,7 +934,7 @@ card_dict_2p = {
             'f33': '>',
             'reward': 'xxCOMMITMENT'}
         },
-    '3': {
+    'xxSTAR xxSTAR xxSTAR': {
         'Local Investments': {
             'locregion': 'xxREDBANK', 
             'locresource': 'xxMILITARY',
@@ -1106,7 +1106,7 @@ card_dict_2p = {
             'f31': 'xxSETTLED',
             'reward': 'OOxxTECHNOLOGYOO BLxxSORCERYBL'},
         },
-    '4': {
+    'xxSTAR xxSTAR xxSTAR xxSTAR': {
         'Keeper of Natural Lore': {
             'locregion': 'xxSETTLED',
             'locresource': 'xxSORCERY',
@@ -1219,7 +1219,7 @@ with open ("D:\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\six-winters\\csv\\a
     
     print()
     
-    for players, card_dict in zip([1,2], [card_dict_1p, card_dict_2p]):
+    for players, card_dict in zip(["xxPLAYER","xxPLAYERxxPLAYER"], [card_dict_1p, card_dict_2p]):
 
         # Print rows
         for next_stage in card_dict.keys():
