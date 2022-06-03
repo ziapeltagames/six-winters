@@ -1,3 +1,84 @@
+# 05/27/22
+
+## Solo Campaign
+
+Solo playtest notes. Going through a campaign mode for full solo.
+
+Optional choices:
+
+* Going with standard starting locations
+* Using full mission decks
+   * Not bound by location cards
+* Not going to burn mission cards
+* Using standard starting positions on tracks
+   * Could use random starting, or special rapid Year 1
+
+## Year One
+
+* Draw four achievements (two extra)
+
+# 05/24/22
+
+## Campaign Options - Locations and Mission Cards
+
+* Could create regional mission decks based on locations coming into play. It makes the decks more predictable and gives the locations more influence.
+
+# 05/07/22
+
+## Playtest Notes
+
+* Tome of Forking Paths - needs to be changed, not as good / dig X cards
+
+## Seasonal Events
+
+The seasonal events cards are okay, but aren't maybe useful enough to strive toward. Some things with events:
+
+* Ideally, should be "one and done", it's easy to forget things like +/- movement, etc
+* Could operate on stress, resources, action dice
+* Maybe +1 / -1 action dice is a better way to handle things
+
+* Place resource dice on urban, rural, wilderness, eldritch
+* +1 action die
+* -1 action die
+* +1 character card
+* -1 character card
+* Discard unit, foe, diplomat, issue
+* Draw card
+* Take stress if in urban, rural, wilderness, eldritch
+3
+## Seasonal Event Effects
+
+* Do not refresh resource pool
+
+### Winter
+
+* Each player has -1 action die during refresh step.
+* All characters in wilderness locations take 1xxBODY.
+* All characters in rural or wilderness locations take 2xxBODY.
+* Discard one unit.
+
+### Spring
+
+* Each player has +1 action die during refresh step.
+* All characters in eldritch locations take 2xxPSYCHE.
+* Add xxSORCERY die to each eldritch location.
+
+### Summer
+
+* Each player may immediately move one of their characters to a different location.
+* All characters in urban locations take 1xxBODY.
+* Discard one diplomat or issue.
+* Add xxTECHNOLOGY die to each urban location.
+
+### Fall
+
+* Add xxSTABILITY die to each location in xxREDBANK.
+* Do not refresh the xxSTABILITY pool this turn.
+
+## Playtest Results
+
+Most of the streamlined versions, from one achievement to not using skills, didn't work very well. They sacrificed too many interesting choices and didn't make the game all that much quicker in practice. One option for streamlining is to only have one path on each achievement, but still work on two at once. The widely varying paths are a huge cognitive lift for maybe not much gain.
+
 # 04/13/22
 
 ## Next Single Player Playtest
@@ -39,10 +120,6 @@ And creatures aren't really possible threats anymore, because they don't fit on 
 * Sorcery: creatures, magical effects
 
 Another option is to remove some skills, such as maybe survival and disguise. Would still have a tighter set of skills.
-
-## Obstacle Options
-
-
 
 # 03/29/22
 
