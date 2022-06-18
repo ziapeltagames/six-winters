@@ -1,22 +1,22 @@
 region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,textb,textc
 
-"xxEMPIRE","Prominence","Urban, Port, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\square_zzytudou.tif","xxBOAT","##NSBP##xxSTARTING Imperial Guard",
+"xxEMPIRE","Prominence","Urban, Port, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\square_zzytudou.tif","xxBOAT",,
 "xxEMPIRE","The Rosy Freetrader","Urban, Tavern, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\sarah_kate_forstner_tavern.tif",,"##NSBP##xxCUBE Move a guard to this location"
-"xxEMPIRE","Ma Bonnie's Squidery","Urban, Tavern, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\fish_market_by_dustinpanzino.tif",,
-"xxEMPIRE","Whitehold","Urban, Vault, xxEMPIRE",xxTHIEVERY,"1","1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\keep_armando_savoia.tif",,"##NSBP##xxSTARTING Imperial Guard"
+"xxEMPIRE","Ma Bonnie's Squidery","Urban, Tavern, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\fish_market_by_dustinpanzino.tif",,"##NSBP##xxSTARTING Egalitarian Society"
+"xxEMPIRE","Whitehold","Urban, Vault, xxEMPIRE",xxTHIEVERY,"1","1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\keep_armando_savoia.tif",,
 "xxEMPIRE","Guild of Secrets","Urban, Vault, xxEMPIRE",xxTHIEVERY,"1","1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\underground_dungeon_byung_ju_bong.tif",,"##NSBP##Unlock Lucia if no obstacles present","##NSBP##xxSTARTING 2 X Master of Secrets"
 "xxEMPIRE","Southkeep","Urban, Port, xxEMPIRE",xxTHIEVERY,"2","2 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\byzantine_town.tif","xxBOAT",
 "xxEMPIRE","Dawncaves","Dungeon, xxEMPIRE",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\fungal_farm_ferdinandladera.tif","xxSORCERY"
 "xxEMPIRE","Firstborn Peak","Wilderness, xxEMPIRE",xxCOMBAT,"2","2 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\peak_jorge_jacinto.tif",,"##NSBP##xxSTARTING Hidden Outpost"
-"xxEMPIRE","Eastkeep","Rural, xxEMPIRE",xxTACTICS,"1","1 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\castle_wall_andrew_ryan.tif",,"##NSBP##xxSTARTING Praetorians"
+"xxEMPIRE","Eastkeep","Rural, xxEMPIRE",xxTACTICS,"1","1 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\castle_wall_andrew_ryan.tif",,
 "xxEMPIRE","Guilder Farms","Rural, xxEMPIRE",xxCOMMAND,"2","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\hillside_village_eriktaberman.tif","xxSTABILITY","##NSBP##xxSTARTING Military Sabotage"
 "xxEMPIRE","House of Copper","Urban, Eldritch, xxEMPIRE",xxLORE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\drug_den.tif","xxSHATTER"
 
 "xxREDBANK","Amaranth Square","Urban, Port, xxREDBANK",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\corinth_seacoast.tif","xxBOAT",
 "xxREDBANK","Amber Trade Fair","Rural, xxREDBANK",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","1 xxSETTLED","..\images\lands\deedema_bazar.tif","xxTECHNOLOGY",
-"xxREDBANK","Undari's Tower","Urban, Eldritch, xxREDBANK",xxLORE,"2","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\hao_ding_tower.tif","xxSHATTER",
+"xxREDBANK","Undari's Tower","Urban, Eldritch, xxREDBANK",xxLORE,"2","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\hao_ding_tower.tif","xxSHATTER","##NSBP##xxSTARTING Mana Forge"
 "xxREDBANK","Cyclabrary","Urban, xxREDBANK",xxLORE,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\library_suomar_ddfgeia.tif",,"##NSBP##xxSTARTING Tome of Forking Paths"
-"xxREDBANK","Mirror Woods","Wilderness, xxREDBANK",xxSURVIVAL,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\mirror_saterina_minola.tif",,"##NSBP##xxSTARTING Restless Dead"
+"xxREDBANK","Mirror Woods","Wilderness, xxREDBANK",xxSURVIVAL,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\mirror_saterina_minola.tif",,"##NSBP##xxSTARTING Restless Dead X 2"
 "xxREDBANK","Amaranth Bourne","Wilderness, xxREDBANK",xxSURVIVAL,"1","2 xxEMPIRE","1 xxREDBANK","1 xxSETTLED","..\images\lands\shuang_hao_creekside_reflection.tif",,"##NSBP##xxCUBE Move a foe to this location"
 "xxREDBANK","Undari's Tomb","Dungeon, Eldritch, xxREDBANK",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\andreas_roch_forgottencrypt.tif","xxSHATTER","##NSBP##xxSTARTING The Necromancer"
 "xxREDBANK","The Weird Rock","Wilderness, xxREDBANK",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\johannes_roots_rock.tif",,"##NSBP##Take 1xxBODY to refill xxSORCERY pool"
@@ -35,3 +35,8 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 "xxSETTLED","Pearlescent Marsh","Rural, Eldritch, xxSETTLED",xxSURVIVAL,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\mystic_valley_by_lepyoshka.tif","xxSHATTER","##NSBP##xxSTARTING Place 3 Forager cards at different locations"
 "xxSETTLED","Beetle Burrough","Rural, xxSETTLED",xxTHIEVERY,"1","2 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\vladimir_manyukhin.tif","xxESPIONAGE"
 "xxSETTLED","Arankh","Rural, Eldritch, xxSETTLED",xxLORE,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\javier_charro_environment.tif","xxSHATTER","##NSBP##xxSTARTING Elisa"
+
+"xxSORCERY","Animaelic Forest","Wilderness, Eldritch, xxSORCERY",xxLORE,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\animaelic_forest.jpg","xxSHATTER","##NSBP##xxSTARTING The Severing"
+"xxMILITARY","Sundered Crag","Wilderness, Eldritch, xxMILITARY",xxTACTICS,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\polina-hristova-world.jpg","xxMILITARY","##NSBP##xxSTARTING Stone and Blood"
+"xxTECHNOLOGY","Aren's Forge","Wilderness, Eldritch, xxTECHNOLOGY",xxTHIEVERY,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\bradley-siegert-forge.jpg","xxTECHNOLOGY","##NSBP##xxSTARTING Sapphire Djinn"
+"xxSORCERY","Desolation","Wilderness, Eldritch, xxSORCERY",xxLORE,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\shattered_docks.jpg",,"##NSBP##Take 1xxPSYCHE when moving to this location"

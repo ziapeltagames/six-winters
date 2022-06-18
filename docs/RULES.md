@@ -1,14 +1,14 @@
 # Six Winters
 
-**Six Winters** is a two-player cooperative fantasy campaign game based on the **Wrath of the Autarch** tabletop role-playing game.
+**Six Winters** is a cooperative fantasy campaign game for 1-4 players based on the **Wrath of the Autarch** tabletop role-playing game.
 
-Both players control **Red Bank**, a diasporic society under constant threat from the **Empire of the Autarch**. The Autarch is working to achieve a sorcerous apotheosis, rendering The Empire unstoppable and spelling certain doom for Red Bank. The players have six winters to stop this from happening. Each game of Six Winters lasts approximately 90 minutes and represents one year in the life of Red Bank. During a session of the game, players control a revolving cast of characters from Red Bank, each with their own unique capabilities and limitations.
+Players control **Red Bank**, a diasporic society under constant threat from the **Empire of the Autarch**. The Autarch is working to achieve a sorcerous apotheosis, rendering The Empire unstoppable and spelling certain doom for Red Bank. The players have six winters to stop this from happening. Each game of Six Winters lasts approximately 180 minutes and represents one year in the life of Red Bank. During a session of the game, players control a rotating cast of characters from Red Bank, each with their own unique capabilities and limitations.
 
 ## Resource Tracks
 
-Players manage Red Bank's **resources**: broad capabilities and areas of strategic focus. Each resource has a track of length 12 showing the relative capability in that area. These resource tracks raise and lower over the course of the campaign. There are six resource tracks: **Stability**, **Technology**, **Espionage**, **Diplomacy**, **Military**, and **Sorcery**.
+Players manage Red Bank's **resources**: broad capabilities and areas of strategic focus. Each resource has a track of length 12 showing the relative capability in that area. These resource tracks raise over the course of the campaign. There are six **resource tracks**: **Stability**, **Technology**, **Espionage**, **Diplomacy**, **Military**, and **Sorcery**.
 
-The position on this track further determines the size of resource dice pools. 
+Each resource track The position on this track further determines the size of resource dice pools. 
 
 ## Victory
 

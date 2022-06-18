@@ -14,8 +14,10 @@ columns = ["players","stage","star","locregion","locresource","name","g11","g12"
             "g22","g23","g24","g31","g32","g33","g34","g41","g42","g43","g44","f11","f12",
             "f13","f14","f21","f22","f23","f24","f31","f32","f33","f34","f41","f42","f43","f44","reward"]
     
+stars_per_stage = {'0': 'xxSTAR xxSTAR', '1': 'xxSTAR', '2': 'xxSTAR xxSTAR', '3': 'xxSTAR xxSTAR xxSTAR', '4': 'xxSTAR xxSTAR xxSTAR xxSTAR'}
+
 card_dict_1p = {
-    'xxSTAR': {
+    '1': {
         'Metals and Guilds': {
             'locregion': 'xxREDBANK',
             'locresource': 'xxMILITARY',
@@ -227,7 +229,7 @@ card_dict_1p = {
             'f31': '=',
             'reward': 'xxCOMMITMENT'},
         },
-    'xxSTAR xxSTAR': {
+    '2': {
         'Local Investments': {
             'locregion': 'xxEMPIRE', 
             'locresource': 'xxMILITARY',
@@ -359,7 +361,7 @@ card_dict_1p = {
             'f11': 'xxWONE',
             'reward': 'xxCOMMITMENT xxTHIEVERY'}
         },
-    'xxSTAR xxSTAR xxSTAR': {
+    '3': {
         'Keeper of Natural Lore': {
             'locregion': 'xxREDBANK',
             'locresource': 'xxSORCERY',
@@ -424,7 +426,137 @@ card_dict_1p = {
     }
 
 card_dict_2p = {
-    'xxSTAR': {
+    '0': {
+        'Tinkering': {
+            'locregion': 'xxEMPIRE',
+            'locresource': 'xxESPIONAGE',
+            'g11': 'YSxxFSQUAREYS',
+            'g12': 'WWxxFSQUAREWW',
+            'g22': 'WWxxFSQUAREWW',
+            'g13': 'WExxFSQUAREWE',
+            'f12': 'xxEMPIRE',
+            'f22': 'xxSETTLED',
+            'reward': 'OOxxTECHNOLOGYOO'},
+        'Thieves Tools': {
+            'locregion': 'xxEMPIRE',
+            'locresource': 'xxESPIONAGE',
+            'g11': 'WSxxFSQUAREWS',
+            'g12': 'WWxxFSQUAREWW',
+            'g22': 'WWxxFSQUAREWW',
+            'g23': 'WWxxFSQUAREWW',
+            'g33': 'OExxFSQUAREOE',
+            'f12': 'xxEMPIRE',
+            'f22': 'xxREDBANK',
+            'f23': 'xxEMPIRE',
+            'reward': 'MMxxESPIONAGEMM'},
+        'Cantrips': {
+            'locregion': 'xxSETTLED',
+            'locresource': 'xxDIPLOMACY',
+            'g11': 'WSxxFSQUAREWS',
+            'g12': 'WWxxFSQUAREWW',
+            'g22': 'WWxxFSQUAREWW',
+            'g23': 'WWxxFSQUAREWW',
+            'g33': 'WExxFSQUAREWE',
+            'f11': 'xxREDBANK',
+            'f22': 'xxSETTLED',
+            'f33': 'xxREDBANK',
+            'reward': 'BLxxSORCERYBL'},
+        'Grand Tour': {
+            'locregion': 'xxSETTLED',
+            'locresource': 'xxDIPLOMACY',
+            'g11': 'GSxxFSQUAREGS',
+            'g12': 'WWxxFSQUAREWW',
+            'g22': 'BBxxFSQUAREBB',
+            'g23': 'WWxxFSQUAREWW',
+            'g33': 'WExxFSQUAREWE',
+            'reward': 'LLxxDIPLOMACYLL'},
+        'Warmachine': {
+            'locregion': 'xxREDBANK',
+            'locresource': 'xxSTABILITY',
+            'g11': 'MSxxFSQUAREMS',
+            'g21': 'WWxxFSQUAREWW',
+            'g22': 'WWxxFSQUAREWW',
+            'g31': 'WExxFSQUAREWE',
+            'f21': 'xxEMPIRE',
+            'f22': 'xxREDBANK',
+            'reward': 'GGxxMILITARYGG'},
+        'Friends at Home and Abroad': {
+            'locregion': 'xxREDBANK',
+            'locresource': 'xxSTABILITY',
+            'g11': 'LSxxFSQUARELS',
+            'g12': 'WWxxFSQUAREWW',
+            'g22': 'BBxxFSQUAREBB',
+            'g23': 'WWxxFSQUAREWW',
+            'g33': 'WExxFSQUAREWE',
+            'f12': 'xxREDBANK',
+            'f23': 'xxREDBANK',
+            'reward': 'YYxxSTABILITYYY'},
+        'Western Promises': {
+            'locregion': 'xxEMPIRE',
+            'locresource': 'xxTECHNOLOGY',
+            'g11': 'WSxxFSQUAREWS',
+            'g22': 'MExxFSQUAREME',
+            'reward': 'xxTHIEVERY'},
+        'Uplifting Words': {
+            'locregion': 'xxREDBANK',
+            'locresource': 'xxSTABILITY',
+            'g11': 'YSxxFSQUAREYS',
+            'g22': 'WExxFSQUAREWE',
+            'reward': 'xxCOMMAND'},
+        'Streets of Blood': {
+            'locregion': 'xxREDBANK',
+            'locresource': 'xxMILITARY',
+            'g11': 'WSxxFSQUAREWS',
+            'g22': 'WExxFSQUAREWE',
+            'f22': 'xxEMPIRE',
+            'reward': 'xxCOMBAT'},
+        'Palimpsest': {
+            'locregion': 'xxREDBANK',
+            'locresource': 'xxSORCERY',
+            'g11': 'BSxxFSQUAREBS',
+            'g22': 'WExxFSQUAREWE',
+            'reward': 'xxLORE'},
+        'Rapid Riposte': {
+            'locregion': 'xxSETTLED',
+            'locresource': 'xxDIPLOMACY',
+            'g11': 'WSxxFSQUAREWS',
+            'g22': 'LExxFSQUARELE',
+            'reward': 'xxRAPPORT'},
+        'Flora, Fauna, and Fiends': {
+            'locregion': 'xxSETTLED',
+            'locresource': 'xxSORCERY',
+            'g11': 'OSxxFSQUAREOS',
+            'g22': 'WExxFSQUAREWE',
+            'reward': 'xxSURVIVAL'},
+        'Out in the Cold': {
+            'locregion': 'xxEMPIRE',
+            'locresource': 'xxESPIONAGE',
+            'g11': 'WSxxFSQUAREWS',
+            'g22': 'WExxFSQUAREWE',
+            'f11': 'xxEMPIRE',
+            'reward': 'xxDISGUISE'},
+        'Tactical Plans': {
+            'locregion': 'xxEMPIRE',
+            'locresource': 'xxMILITARY',
+            'g11': 'WSxxFSQUAREWS',
+            'g22': 'GExxFSQUAREGE',
+            'reward': 'xxTACTICS'},
+        'Small Steps': {
+            'locregion': 'xxSETTLED',
+            'locresource': 'xxTECHNOLOGY',
+            'g11': 'WSxxFSQUAREWS',
+            'g22': 'WExxFSQUAREWE',
+            'f22': '=',
+            'reward': 'xxCOMMITMENT'},
+        'Early Progress': {
+            'locregion': 'xxREDBANK',
+            'locresource': 'xxSTABILITY',
+            'g11': 'WSxxFSQUAREWS',
+            'g22': 'WExxFSQUAREWE',
+            'f22': '+1',
+            'reward': 'xxCOMMITMENT'}
+        },
+    '1': {
         'Right Tool for the Job': {
             'locregion': 'xxSETTLED',
             'locresource': 'xxTECHNOLOGY',
@@ -736,7 +868,7 @@ card_dict_2p = {
             'f33': 'xxSETTLED',
             'reward': 'xxCOMMITMENT'}
         },
-    'xxSTAR xxSTAR': {
+    '2': {
         'Metals and Guilds': {
             'locregion': 'xxEMPIRE',
             'locresource': 'xxMILITARY',
@@ -934,7 +1066,7 @@ card_dict_2p = {
             'f33': '>',
             'reward': 'xxCOMMITMENT'}
         },
-    'xxSTAR xxSTAR xxSTAR': {
+    '3': {
         'Local Investments': {
             'locregion': 'xxREDBANK', 
             'locresource': 'xxMILITARY',
@@ -1106,7 +1238,7 @@ card_dict_2p = {
             'f31': 'xxSETTLED',
             'reward': 'OOxxTECHNOLOGYOO BLxxSORCERYBL'},
         },
-    'xxSTAR xxSTAR xxSTAR xxSTAR': {
+    '4': {
         'Keeper of Natural Lore': {
             'locregion': 'xxSETTLED',
             'locresource': 'xxSORCERY',
@@ -1232,7 +1364,7 @@ with open ("D:\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\six-winters\\csv\\a
                     elif next_col =='name':
                         print('"', next_name, '",', end='', sep='')
                     elif next_col == 'star':
-                        print('"xxSTAR",', end='', sep='')
+                        print('"', stars_per_stage[next_stage], '",', end='', sep='')
                     else:
                         if next_col in card_dict[next_stage][next_name].keys():
                             print('"', card_dict[next_stage][next_name][next_col], '",', end='', sep='')
@@ -1242,3 +1374,27 @@ with open ("D:\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\six-winters\\csv\\a
             print()
         
     sys.stdout = original_stdout
+
+locs_by_stage = {}
+
+for next_stage in card_dict_2p.keys():
+    locs_by_stage[next_stage] = {}
+    for next_name in card_dict[next_stage].keys():
+        locs_by_stage[next_stage][card_dict_2p[next_stage][next_name]['locregion'] + card_dict_2p[next_stage][next_name]['locresource']] = 0
+
+for next_stage in card_dict_2p.keys():
+    for next_name in card_dict[next_stage].keys():
+        loc_key = card_dict_2p[next_stage][next_name]['locregion'] + card_dict_2p[next_stage][next_name]['locresource']
+        locs_by_stage[next_stage][loc_key] = locs_by_stage[next_stage][loc_key] + 1
+
+loc_keys = ['xxEMPIRExxMILITARY', 'xxEMPIRExxTECHNOLOGY', 'xxEMPIRExxESPIONAGE', 'xxREDBANKxxMILITARY', 'xxREDBANKxxSTABILITY', 
+            'xxREDBANKxxSORCERY', 'xxSETTLEDxxDIPLOMACY', 'xxSETTLEDxxTECHNOLOGY', 'xxSETTLEDxxSORCERY']
+
+for next_stage in locs_by_stage.keys():
+    print()
+    print(next_stage)
+    for count, next_loc in enumerate(loc_keys):
+        if next_loc in locs_by_stage[next_stage].keys():
+            if count % 3 == 0:
+                print()
+            print(next_loc, locs_by_stage[next_stage][next_loc])

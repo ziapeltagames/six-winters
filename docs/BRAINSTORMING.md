@@ -1,3 +1,587 @@
+# To-Do
+
+* Add location or obstacle effects for burning or discarding obstacles
+* Create obstacles for different threat levels (around 25 cards)
+* Early game basic locations, very simple choices and effects
+
+# Options
+
+* Advantage system
+   * Diplomacy: explore +1 new locations
+   * Military: burn achievement of +1 difficulty at year end
+   * Espionage: look ahead at next imperial obstacle
+   * Support: trade or invest all matching dice of a resource type
+   * Technology: +1 action die
+   * Sorcery: use sorcery dice as achievement wild card
+* Deck tuning system
+   * Burn 6 achievements at end of year (lowest stage first)
+   * Burn 2 mission cards from each region at end of year (difficult <= year)
+* Locations that get scorched by obstacles, leaving a special location card
+   * Maybe units get played there, no matter what?
+   * Or foes, etc. Kind of a magnet for certain units?
+   * And those units are harder there, but the location can be burned?
+* Searching for locations via advantage
+* No cost obstacle defense via saving throw system
+   * Approach: place matching dice on card up to skill
+   * Defend: reroll rest of dice, check for stress
+      * If skill >= difficulty, avoid stress on 1-3, otherwise avoid on 1
+   * Overcome: place any remaining matching dice on obstacle
+
+# 06/18/22
+
+## Game End
+
+The idea of a special location that comes out when the sorcery threats are maxed is interesting, but it begs the question: should all threat tracks do something along those lines? This kind of gets at what scoring/endgame should be like.
+
+There are three tracks for winning.
+
+* Pyrrhic victory: one track is maxed out, with advantage
+* Major victory: two tracks maxed out, with advantage
+* Total victory: all tracks maxed out, with advantage
+
+Maybe each track has a few fictional endings, with certain questions to ask, based on disadvantage, advantage, or victory. And then you can score points totals:
+
+* For each victory track: +3
+* For each track maxed out: +2
+* For each track with advantage: +1
+
+For a points total of 0 (loss) - 15 (dominant victory).
+
+Given that, should probably have a way to lower threats if they do get maxed out? Otherwise a kind of pointless end game could shape up.
+
+## Peak Threats
+
+* Sorcery: Animaelic Forest Location + Mind of the Autarch
+* Military: Sundered Crag Location + Demons of Rock and Blood
+* Technology: Aren's Forge + Stealer of Hope
+* Diplomcy: Sapphire Djinn
+* Espionage: Wrath of the Autarch
+* Support: Tatiala's Gambit
+
+## Starting Locs
+
+* Empire
+   * Eastkeep (Tactics)
+   * Rosy Freetrader (Disguise)
+   * Whitehold (Thievery)
+   * Other Options: Guild of Security, Guild of Pleasure, Yearly Field
+* RB
+  * Undari's Tower (Lore)
+  * Amber Trade Fair (Command)
+  * Weird Rock (Combat)
+  * Other options: Gray Forest
+* Settled
+   * Wrenhouse (Rapport)
+   * Shimmerhall (Tactics)
+   * Long Wastes (Survival)
+   * Other options: Blue rock, Spinner Lake
+
+# 06/17/22
+
+## Obstacle and Threat Track Effects
+
+If a card burns a location, what should cause that to happen? Probably military or maybe sorcery. Another option is an Oniri discord effect.
+
+Or maybe the peak threat tracks aren't obstacles at all, but rather special locations that come into play? After all, they would probably be fairly difficult to draw normally at the very end of the campaign.
+
+### Peak Threat Locations
+
+* Sorcery: Animaelic Forest
+* Military: Some Kind of Apocalyptic Battlefield
+* Espionage: Autarch's Throne?
+
+What would those do? If XYZ, you lose? Such as:
+
+Animaelic Forest: "Move xxSORCERY obstacle to this location", "If there are 2+ xxSORCERY obstacles, auto lose?"
+
+Or is it a way to win?
+
+Such as, "Spend XYZ to advance xxSORCERY track?"
+
+Something like that shouldn't undermine the campaign to that point. If it suddenly becomes an "auto win/lose", that's kind of tricky. Maybe it provides a way to lower the threat track? That might be okay. So players still need to raise the sorcery track, but it lets them reclaim the advantage.
+
+Perhaps there's an obstacle card attached to the location, and overcoming it lets you lower the threat track by some amount? That's not a bad pattern. Maybe it lowers it by XYZ and then is burned. It allows players a method to "catch up" if a track gets pegged.
+
+## Mission Card Brainstorming
+
+* Try taking 2 cards per season, that's 10 cards in each deck for the entire game
+* Would need more starting cards, perhaps 15 or more
+
+* Base cards: 45
+* Advance cards: 25
+* Location cards: 10
+* Total mission cards: 80
+
+An initial goal of 9 symbols per threat seems close to correct, 6x9 = 54 total threat tags (9 cards would have double or more symbols). That gives about a 20% probability of drawing any given symbol, and about 1% of drawing three in a row.
+
+* Starting Difficulties
+   * 1 1 1 1 1
+   * 2 2 2 2
+   * 3 3 3
+   * 4 4
+   * 5
+
+### Threats
+
+* Empire (Espionage, Technology)
+   * Espionage: 5
+   * Technology: 4
+   * Military: 4
+   * Sorcery: 3
+   * Diplomacy: 1
+   * Support: 1
+* Red Bank (Support, Technology)
+   * Support: 6
+   * Technology: 4
+   * Sorcery: 3
+   * Military: 2
+   * Diplomacy: 2
+   * Espionage: 1
+* Settled (Diplomacy, )
+   * Diplomacy: 6
+   * Espionage: 3
+   * Military: 3
+   * Sorcery: 3
+   * Support: 2
+   * Technology: 1
+
+### Seasons
+
+* Empire
+   * Winter: 3
+   * Spring: 3
+   * Summer: 4
+   * Fall: 5
+* Red Bank
+   * Winter: 2
+   * Spring: 4
+   * Summer: 5
+   * Fall: 4
+* Settled
+   * Winter: 3
+   * Spring: 3
+   * Summer: 4
+   * Fall: 5
+
+# 06/14/22
+
+## Mission Card Brainstorming
+
+* At the end of each year, burn X cards in each region, less than or equal to current year
+* Maybe just one card per region, since only about 1 will be added, maybe even less
+
+Y1: 1111222334 (10 starting, 2/year = 0 at the end)
+Y2: 11222334
+Y3: 112334
+Y4: 1124
+Y5: 11
+Y6: -
+
+Need at least 3 of each threat type for the entire campaign. 12 per region means 36 starting mission cards. With that, could have 6 or so of each threat, with some multi-threat tags.
+
+12 cards per region:
+
+111
+222
+333
+44
+5
+
+If you have those 12 cards per region, taking the highest available each year would leave:
+
+111
+22
+3
+4
+
+Could incentivize taking lower cards, though, by having winter tags, or more common threat tags.
+
+The other implication: maybe shouldn't have locations with starting cards that are more "generic", such as guards, units, etc. All location cards should maybe be special an unlocked later?
+
+# 06/11/22
+
+## New Achievement Structure
+
+Need to refactor the two player achievements again.
+
+* Stage 0 (15 cards) - draw 2 cards
+* Stage 1 (17 cards) - draw 1 card
+* Stage 2 (15 cards) - draw 2 cards
+* Stage 3 (15 cards) - draw 3 cards
+* Stage 4 (6 cards) - draw 4 cards
+
+How many achievements are desired at the end of the campaign? Should players immediately start in stage 2? Maybe there are 7 or so stage 1 achievements left? Then you can work backwards? Need to burn 25 cards, so 5 each mission. Which means there will be 3 years of stage 0 cards. Thus, a number of tracks will have 3 advances or so.
+
+Stage 1 achievements are 5 dice for resources and 4 dice for skills. Maybe stage 0 are 3 dice for resources and 2 dice for skills? Perhaps easy ones at that?
+
+## No Cost Defense
+
+Another option is to have a fixed target number (say <= 3) for skilled defense and a different target number (1) for unskilled defense.
+
+# 06/09/22
+
+
+### Possible Advantage Mechanics
+
+Other options:
+
+* Explore for new locations (look at 3 instead of 2), diplomacy?
+* Some kind of special action slot
+* Burn 1 fewer achievement at end of year (burn 5 instead of 6), military?
+
+Probably not:
+
+* Movement benefits (this overlaps w/locations and character cards, probably not great)
+
+## Unlocking Mission Cards
+
+Should the mission cards be 1:1 based on the different threat tracks? That's probably the easiest. It's also probably nice if the threats don't match exactly, although... that would make it easier to track. Could have numbers on the cards, matching the threat tracks.
+
+That's a death spiral, though. Although, players will know the disposition of those cards works that way. Should probably have a core of base cards of each threat type.
+
+### Starting Obstacles
+
+4 x 6 Threats = 18
+
+### Advanced Obstacles
+
+3 x 6 Threats = 18 obstacles
+
+Technology: 2, 3, 4
+Espionage: 2, 3, 4, 5
+Military: 2, 3, 4
+Diplomacy: 2, 3, 4, 5
+Support: 3, 4, 5
+Sorcery: 2, 3, 4, 5
+
+## Win Conditions
+
+As it stands, the game is really one long game, not a game you play six times. You progress to and end point.
+
+Is there enough tension in this approach? Even though adding a per point win condition doesn't change much in terms of the campaign arc, it can make each game feel like it has a focus.
+
+Still thinking of tabling this for now.
+
+## Early Game
+
+It would probably be good to have a quicker and simplified early game. Make it possible to grab achievements fairly quickly. And have fairly spare starting locations in terms of location effects. Let those come later.
+
+* Achievements are simple: perhaps just different resource dice of any type
+* Minimal location effects/triggers
+* Minimal obstacle exposure (minimal chance of threats)
+
+How do you transition from these more simplistic achievements to more complex achievements?
+
+Is there a reimagining of achievements that can solve this? Maybe the difficulty of improving a resource is based on how far along it is? That doesn't really work with pacing.
+
+* Stage S (Years 1-2)
+* Stage 1
+* Stage 2
+* Stage 3
+* Stage 4
+
+Can you mix the more simplistic achievements with the more complex ones? On one card?
+
+### Special Year One Deck
+
+This is a simple path forward. But not having stages goes against some parts of the game.
+
+### Special Stage Zero
+
+This could be a set of cards that are particularly easy. Similar to stage 1 cards, they could get burned. This feels a little better in some ways? Although the big question: how do these stages get burned over time. Don't want them hanging around too long.
+
+* Stage 0
+* Stage 1
+* Stage 2
+* Stage 3
+* Stage 4
+
+How could those be burned?
+
+* Resource level
+   * This seems like the best option overall
+   * Maybe if it's used to reach a certain level, you burn it
+* Threat level
+   * This seems pretty bad: couldn't catch up, and is very much a death spiral
+* Game turn
+   * Fine, but somewhat lacking in strategy
+   * Actually, players can choose which to burn - that would preserve strategy
+* Something with characters
+* Something with locations
+   * That probably gives locations too much influence
+
+It probably makes more sense for it to be resource level, otherwise you just can't catch up. Maybe there's something that burns the card if it's used for XYZ. Like 2+: Burn. Or like 3+.
+
+Should Stage 0 cards have obstacle draws on them? Probably should at least have one, or that's really, really slow. May need to have the stage number separate from the stars?
+
+## World Growth
+
+There are a few possibilities to make imperial advancement impact the growth of the world: mission deck construction, encoded effects on obstacles, location choices, encoded effects on locations, achievement deck construction, achievement difficulties.
+
+### Mission Deck Construction
+
+This approach is more fiddly than what's there, but it's fiddly during end of game teardown, so it's not super difficult. It's also fairly intuitive. The one thing needed, though, is the ability to burn obstacles. Otherwise the deck would get more and more diluted.
+
+One idea is to burn discards that match the resource of the burned location in that region. However, that doesn't make a ton of sense thematically. If anything, there should be more obstacles matching the burned location, since it's overrun.
+
+It also could be the case that no discards are burned some games. After all, it may not match any of them. Another option is to allow players to burn any of the cards.
+
+### Obstacle Effects
+
+There's not much space on obstacles for things like "If advantage, XYZ". And it's difficult to conceive of lots of advantage effects, when there are already lots of effects on obstacles. First reaction is this is perhaps an even more fiddly approach, even though the deck manipulation is easier.
+
+The one way this is perhaps easier is if obstacles all have a standard advantage effect, such as stress. For instance, if Red Bank is at a disadvantage, stress does XYZ. Or difficulty does XYZ. This is a bit of a death spiral - although, character skills overcome cards, so that's a bit easier. Difficulty frequently means more dice, though, which can mess up an action economy. Stress is probably the best option.
+
+Maybe advantage doubles stress. That's a somewhat easy option.
+
+### Location Card Effects
+
+Location cards are easier to encode advantage effects on, since they frequently don't have as much going on. Although this is more flavor than a unified approach.
+
+### Location Card Choices
+
+A stronger approach is to unlock or place certain location cards when the tracks reach certain points. Forcing players to take certain locations is a little clunky, though. There would be tension between cool locations that get unlocked and "bad" locations players are forced to take. It's also kind of nice to have some randomness from locations, which reinforces a sandbox approach.
+
+It could be that locations get unlocked as players move up tracks. That's certainly possible, and reinforces stuff happening. Although, some number of locations need to be in the base options.
+
+### Analysis
+
+The two best options for increasing the importance of threat tracks are Obstacle Stress or Obstacle Deck Construction.
+
+Obstacle stress is certainly easier, but it's not exactly a rich set of options. It also introduces a lookup step during overcome obstacles, which is clunky. Mission deck construction is probably the best approach. It's fiddly, but it's during a fiddly deck construction process. And once the decks are built, it's forgotten about. It also includes the option to introduce some really gnarly cards. The big issue with it, is deck dilution. Is that a concern? Do you need to burn cards somehow?
+
+## Burning Obstacles
+
+If cards get added to decks, some cards should probably be burned, so the deck dilution isn't too bad. But how?
+
+* Some cards get burned when overcome. This has the benefit of higher control. It also is already in the game, via character unlocks. But some particularly bad stuff could be one time. This may be the best option.
+* End of game burns. Probably focusing on discards, since they are already in play.
+* Location effects could target cards in the discard.
+
+Thinking about it more, encoding burn results on obstacles is probably the best path forward. Additionally, location effects could burn cards in discard piles, giving players a little ability to tune different decks.
+
+## More Obstacle Stress Musing
+
+Another option for overcoming obstacles:
+
+* Defend
+   * If any dice in the pool are <= character skill or 1, no stress
+* Attack
+   * Set aside dice <= skill and reroll the rest
+   * Place any matching dice on obstacle
+
+Blah. Actually, this is no good. Players can just hold a defense die. A no spend defense is possible, but you _have_ to roll the defense dice.
+
+* Split attack/defense dice
+* Reroll defense, check for stress
+* Apply any matching attack dice to card
+
+What's there may actually be cleaner in many ways. You'd really need the following:
+
+* Approach: place matching dice on card up to skill
+* Defend: reroll rest of dice, check for stress (<= skill or 1)
+* Overcome: place any remaining matching dice on obstacle
+
+# 06/08/22
+
+## Playtest Notes
+
+* Achievements are hard
+  * Be very careful about starting and ending places
+* Mission cards have a single stage of insight to them
+  * Manipulating mission card deck
+  * Locations can manipulate deck
+* Permanent changes to a deck are probably at fixed points
+
+## Resource Advantage Effects
+
+* Diplomacy: look ahead at next settled lands obstacle
+* Military: look ahead at next red bank obstacle
+* Espionage: look ahead at next imperial obstacle
+* Support: invest all matching dice of a resource type
+* Technology: +1 action die
+* Sorcery: use sorcery dice as achievement wild card
+
+Other options:
+
+* Digging for certain locations (exploration)
+* Movement benefits
+   * Although, these are also on locations, so that's a doubled up effect, and kind of hard to remember
+* Some kind of special action slot?
+* Something with achievements?
+
+## Empire Advantage Effects
+
+* Some obstacles could have additional
+
+## Empire Fixed Track Effects
+
+* Unlock different obstacles, add them to the deck
+* Unlock different locations, put into play (maybe even easier than obstacles)
+
+## Campaign Thoughts
+
+Single games have interesting choices, but the overall campaign framework feels thin.
+
+In particular, the threat difficulties and the resource levels don't feel super well integrated into the evolving narrative. It seems like, as those tracks change, they should really
+
+* Resource tracks: The Empire tracks are all very binary win/loss signifiers
+   * Would perhaps be more interesting if the track state was reflected in other cards: locations, obstacles, achievements, characters
+* Locations: what sort of thematic impact should swapping out locations have?
+* Obstacles: These are also fairly static
+
+## Advantage and Disadvantage
+
+Could introduce advantage (RB > Empire) and disadvantage (Empire > RB) for resource tracks. That could impact locations, obstacles, and even achievements.
+
+What are some examples of advantage and disadvantage?
+
+* May only play a certain location if RB has advantage
+* If RB has disadvantage, obstacle does more stress
+
+## Obstacle Decks
+
+Another alternative to modifying cards in play, is to construct the decks based on current tracks. This is similar to possibilities for locations.
+
+Or, perhaps, locations determine obstacle cards, and tracks determine locations.
+
+But how do cards get removed from decks?
+
+## Achievements
+
+Could have achievements increase in difficulty as empire tracks improve?
+
+## Locations
+
+Having locations change over time is interesting, but they should perhaps be closer tied to a growing framework.
+
+* Can burned locations impact the game somehow?
+
+The easiest way is for burned locations to increase imperial tracks, although that's a little dangerous, since obstacles do that.
+
+## Unlocking Locations
+
+Another option is to have locations become unlocked based on resource levels. This is much less of a sandbox, but it would make the resource tracks matter quite a bit more. Perhaps very low resource tracks unlock fairly garbage locations.
+
+For instance, tech improvement could unlock certain tech locations?
+
+## Obstacle Difficulties
+
+It would be nice if the obstacles scaled along the same tracks as the resources. Currently, it's really not worth having a skill of more than about 2 for obstacles. However, 3 or even 4 can be useful for resources.
+
+Is there a way to tie obstacle difficulties back into advantage or disadvantage?
+
+Could somehow tie it back to stress?
+
+* Stress = Empire Difficulty - Character Skill
+   * Would have to have a "minimum of 1" for this approach, obstacle method doesn't work with 0 stress
+* Stress = Double if Empire Difficulty > Character Skill
+   * This is a little bit easier to calculate, since there's only a comparison
+   * For this approach, would need to lower stress amounts, most likely, into the 1-3 range
+
+## Obstacle Stress
+
+Another option for skill vs. difficulty is the number of dice needed to avoid stress. If skill > difficulty, you only need to spend 1 die. Otherwise you need to spend 2 dice. Although, it'd be a little better if you don't spend any dice for stress, rather, it's a function of attack or skill somehow.
+
+Honestly, may be interesting and easiest to just have every obstacle be either 1 or 2 stress to engage no matter what? That's probably too clamped down, not enough uncertainty.
+
+What if the pattern for obstacles is a little different:
+
+* Lock dice
+* Reroll others
+* Attack with as many as possible
+* Check for damage/stress
+* Discard obstacle
+
+That doesn't really change anything. The issue with this pattern is that players can lock down certain defense dice. What if attack and defend are different pools, and you always reroll defend?
+
+Maybe you roll < skill, and that's a successful defend? That could make skills all the way up to 6 matter.
+
+* Set aside action dice up to skill
+* Make defense test with remaining dice
+   * If any dice <= character skill in pool, take no stress
+* Place any dice onto obstacle, check if overcome
+
+Not spending to defend is kind of nice. It would certainly showcase skill improvement. By not spending to defend, could have 2 or 3 dice on obstacles more frequently.
+
+# 06/03/22
+
+## Solo Campaign Year One Write-Up
+
+Playing through a solo campaign of _Six Winters_: a mix of _Oath_, _Dicey Dungeons_, _Wrath of the Autarch_, and _Noctiluca_.
+
+Recently I got the game into _Tabletop Simulator_, which took some effort, but there have been benefits: quicker iteration cycles, remote play, and easier save/load. I haven't done any scripting yet.
+
+The goal of the game is to stop the Empire from dismantling your society (Red Bank), which you do via a combination of Diplomacy, Espionage, and local Support. You play the game up to six times, where each session lasts a year of game time (and a little less than 3 hours of real time).
+
+There are a rotating cast of characters you can select from each game, each with unique abilities (that mostly manifest mechanically as dice manipulation chains). You can have variable numbers of players for each session.
+
+If any of this looks interesting, and you own TTS, I'd love some more experienced eyes on it and I'm more than happy to facilitate a game. At some point I'm hoping to finish the official rules and get it into the TTS workshop.
+
+The last time I attempted a solo game, the characters got in bad shape fairly quickly, and it looked so bad by year three that I abandoned the attempt. Anyway, I made some tweaks to cards, so hopefully this time goes a little better!
+
+*Setup*
+
+In solo mode, you select two characters, although you only have one pool of action dice from which to spend to do things. I chose Thea (Speaker for the East) and Fuscus (Master of Coin), who can play off of each other fairly well, and will handle rapport and command obstacles, although I'll be very weak in combat.
+
+I decided to go with the standard starting locations instead of drawing randomly. It's a bit easier and there are a diverse set of options.
+
+The opening achievements draw was okay, not great, not terrible. Completing achievements is how you win as well as how you can improve your characters over the campaign. I selected a diplomacy (a win condition) and thievery (a character skill) achievement. I'm going to need a little luck to make good progress on the diplomacy achievement right away.
+
+*Winter (Year Start)*
+
+Would like to get rid of the Hogel obstacle card. He's an asshole, and will mess up any asset dice I create. Also would like to make progress on the diplomacy achievement. And I'm nervous about really bad weather coming in the spring (two spring symbols showing on the mission decks). Thankfully I drew a card that lets Thea manipulate the staged achievements, which affects those symbols.
+
+Got very lucky playing some cards for rerolls, as well as dealing with Hogel. One dice away from completing both achievements. Also managed to dodge really bad spring weather thanks to Thea.
+
+*Spring*
+
+Managed to knock out the diplomacy and thievery achievements, as well as a military achievement. The obstacle situation is starting to look bad - unfortunately drew some military units, which neither Thea or Fuscus are very strong at. Started work on a tactics achievement to shore that up some.
+
+Still, things are looking pretty good for year one. A little nervous about the pacing for achievements. The better achievements are deeper in the deck, but more obstacles will come out as well. May need to slow play the summer a bit, and knock out some obstacles, instead of blaze through achievements.
+
+However, I'd really like that tactics achievement to deal with the obstacles!
+
+*Summer*
+
+Summer brought with it a heat wave. Haven't done very well with seasonal events. Still, stress is pretty good (so far), but when I engage with these military units, some characters are going to get beat up.
+
+Somewhat amazingly, none of the bad obstacles have activated, but my luck is going to run out at some point.
+
+The prolonged heat wave ate into Fuscus's weak constitution. His psyche and body tracks already have condition checks - will probably need some R&R during Year Two.
+
+Bumped up the support track in late summer, but also did push into the stage two achievements, narrowly missing military threats. Thea got beat up leading a battle against some imperial praetorians, but it was certainly worth it.
+
+*Fall*
+
+Going to be tight down the home stretch. Would love to snag maybe one of the better achievements, but that will be tough given how many obstacles are going to be coming out now. Could also sacrifice strategic positioning for longer term gain. Maybe worth just pushing my luck and hoping there aren't any threats.
+
+Went after achievements instead of dealing with obstacles - and got very unlucky. Lots of support threats came out, which the Empire exploited to progress towards victory. Need to attack these obstacles, even if it means ignoring achievements.
+
+*Winter (Year End)*
+
+Thea got extremely taxed dealing with support threats - and still unfortunately had another support threat due to very unlikely imperial obstacle draw. Gathering support at home is going to be a huge hurdle the rest of the campaign, going to have to be very sensitive to those threats going forward.
+
+*Year End*
+
+Managed to snag a final boost on resource tracks - but at a pretty significant cost. The Empire is really far along the support track. Only five advances the rest of the way, or our society collapses from within. Boo.
+
+Also, Thea and Fuscus both got fairly beat up for not a ton of advances. The positives were multiple bumps on the sorcery and diplomacy tracks. Looking like maybe a race to rally support from allies before Red Bank collapses.
+
+The praetorians also moved into Undari's Tower, and it fell. Having imperial military in the Red Bank deck is very much not ideal going forward. And they'll go right on top. Blah. Hogel Manor is off limits because of a spider wizard. Also not great.
+
+New locations: Undari's Tomb, Prominence, and Goldspike. That will open up a port between The Empire and the Settled Lands, which is very useful! Undari's Tomb is rough, the necromancer is particularly difficult. However, defeating the necromancer unlocks a new character: Oniri, a fairly powerful mage.
+
+Things don't look great, but they're also not hopeless just yet.
+
+## Solo Campaign Playtest Thoughts
+
+What should character skill max be? Somewhere between four and six? Anything above a four is kind of a waste when it comes to obstacles.
+
+## Obstacles and Skill Tests
+
+It would be nice if higher skills mattered more for obstacles. They do some, but not much. Keeping dice is useful, because it allows for more flexibility. Difficulties are okay for that, but it's kind of fiddly for not much benefit. 
+
 # 05/27/22
 
 ## Solo Campaign

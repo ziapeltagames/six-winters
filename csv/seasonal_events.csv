@@ -6,16 +6,16 @@ xxWINTER,2,"Brutal Cold","All characters in wilderness or rural locations take 2
 xxWINTER,3,"Blizzard","Discard all units in xxREDBANK. All characters in wilderness or rural locations take 3xxBODY.","..\images\events\winter_blizzard.jpg"
 
 xxSPRING,0,"Trade Fair","Add xxTECHNOLOGY die to each urban location.","..\images\events\market_mood_painting_by_arcipello.jpg"
-xxSPRING,1,"River Run","Add +2 dice to xxSTABILITY pool.","..\images\events\spring_flowing_stream.png"
-xxSPRING,2,"Heavy Rains","Each player -1 action die.","..\images\events\spring_mountains.jpg"
+xxSPRING,1,"Sunny and Mild","Add +2 dice to xxSTABILITY pool.","..\images\events\spring_flowing_stream.png"
+xxSPRING,2,"Heavy Rains","Each player discards their lowest valued action die.","..\images\events\spring_mountains.jpg"
 xxSPRING,3,"Flooding","Do no refresh the xxDIPLOMACY pool this turn.","..\images\events\spring_lightning_storm.jpg"
 
 xxSUMMER,0,"Traveling Weather","Each player may immediately move one of their characters to a different location.","..\images\events\summer_landscape.jpg"
-xxSUMMER,1,"Long Days","Each player +1 action die.","..\images\events\summer_field.jpg"
+xxSUMMER,1,"Long Days","Each player gains +1 action die.","..\images\events\summer_field.jpg"
 xxSUMMER,2,"Heat Wave","All characters in urban locations take 2xxBODY.","..\images\events\summer_red_sun.jpg"
 xxSUMMER,3,"Drought","Do not refresh the xxSTABILITY pool this turn.","..\images\events\summer_drought_red.jpg"
 
 xxFALL,0,"Bountiful Harvest","Add xxSTABILITY die to each location in xxREDBANK.","..\images\events\fall_farm_harvest.jpg"
 xxFALL,1,"Harvest Festival","Each character recovers 1xxPSYCHE.","..\images\events\trade_fair_mideast.jpg"
-xxFALL,2,"Heavy Rains","Each player -1 action die.","..\images\events\fall_wheat.jpg"
+xxFALL,2,"Heavy Rains","Each player discards their lowest valued action die.","..\images\events\fall_wheat.jpg"
 xxFALL,3,"Mana Backlash","Discard all foes in xxREDBANK. All characters in eldritch locations take 3xxPSYCHE.","..\images\events\david_ceballos_lopez_forest_daughter_birth.jpg"
