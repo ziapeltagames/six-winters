@@ -1,18 +1,12 @@
 # To-Do
 
 * Add location or obstacle effects for burning or discarding obstacles
-* Create obstacles for different threat levels (around 25 cards)
-* Early game basic locations, very simple choices and effects
 
 # Options
 
 * Advantage system
    * Diplomacy: explore +1 new locations
    * Military: burn achievement of +1 difficulty at year end
-   * Espionage: look ahead at next imperial obstacle
-   * Support: trade or invest all matching dice of a resource type
-   * Technology: +1 action die
-   * Sorcery: use sorcery dice as achievement wild card
 * Deck tuning system
    * Burn 6 achievements at end of year (lowest stage first)
    * Burn 2 mission cards from each region at end of year (difficult <= year)
@@ -20,12 +14,146 @@
    * Maybe units get played there, no matter what?
    * Or foes, etc. Kind of a magnet for certain units?
    * And those units are harder there, but the location can be burned?
-* Searching for locations via advantage
 * No cost obstacle defense via saving throw system
    * Approach: place matching dice on card up to skill
    * Defend: reroll rest of dice, check for stress
       * If skill >= difficulty, avoid stress on 1-3, otherwise avoid on 1
    * Overcome: place any remaining matching dice on obstacle
+
+# 07/01/22
+
+Overall, the playtest went pretty well. It seemed to tick some of the boxes: easier start, quicker play, easier initial achievements. Without the dice for starting/ending, it's much easier to finish achievements. Hardly any cards should have specific dice for begin/end, and really be careful about dice of a certain resource type. That made it possible to have only one progress card at a time.
+
+The big next question, what if each player only runs one character? How does that feel in play? That would mean solo is probably 2 characters, and the rest of the configurations are one character per player.
+
+# 06/27/22
+
+## Streamlined Playtest Notes
+
+* Darkness Unmasked didn't work with dimplomats
+   * Not sure if it's a big deal, but maybe it should move a diplomat if there isn't one?
+* Still not sold on insight for each region, diplomacy and military should maybe do other things
+* May want to just have 12 cards per stage, or 15 for the last one
+   * Having eight cards is going to favor some tracks, although wild cards are possibilities
+* Maybe call achievements progress cards instead?
+* Should praetorians do 2 body damage?
+   * Activations should maybe do more damage - you see it coming
+* Character card idea: move asset dice from one location to another
+   * Could also be a location ability, move asset dice, that's really handy!
+* How does teamwork go in this new world?
+   * Each character probably needs to defend individually
+   * Each character should improve skills if its overcome
+   * The advances are taken when it's actually overcome, not per hit
+* You should be able to use commitment cards as rerolls if desired
+
+### Steamlined Playtest Year One
+
+* Turn 1: Winter, Stage 0
+   * 2 progress
+   * 2 obstacles
+* Turn 2: Spring, Stage 0
+   * 3 progress (thanks to some lucky rolling and cards)
+   * Keel took out an obstacle and leveled Thievery
+   * 2 obstacles
+* Turn 3: Spring, Stage 1
+   * Had heavy rains this turn, but got to keep the extra turn
+   * 2 progress
+   * 3 obstacles
+* Turn 4: Summer, Stage 1
+   * 2 obstacles
+* Turn 5: Fall, Stage 1
+   * 2 progress
+* Turn 6: Fall, Stage 2
+   * Mostly about defending obstacles
+
+Summary: Finished 9 total achievements, including 3 on espionage, but none on diplomacy. This feels about right. That's 9/6 overall progress, or about 1.5 for every track. Counterintuitively, may want it slightly _harder_ for military, sorcery, and tech.
+
+Additionally, there were quite a few character advancements, maybe 3 or 4, which is also good. And six turns is probably about right. Felt quite a bit faster moving.
+
+Threat track advancements are maybe a little low. But that's also the flow of the game: slower early, then quite a few obstacles coming out later.
+
+Not sure about the "look ahead" advancements. They reveal an awful lot, given that's how threats work! Could be okay for one region, but maybe not for all three. Digging for locations may be a good diplomacy approach.
+
+Maybe leave military with look ahead, but error on lots of military threats. That kind of fits thematically as well, and would lead to interesting end game states.
+
+# 06/26/22
+
+## Streamlined Achievement Trial Run
+
+* Skills increase via difficult obs
+* Commitment increases via stress (first two conditions?)
+* Stages have
+   * 0: 12 cards, draw 2
+   * 1: 8 cards, draw 1
+   * 2: 10 cards, draw 2
+   * 3: 15 cards, draw 3
+   * 4: 18 cards, draw 4
+* Between 4 and 8 turns
+   * If 1+ season icons, advance once
+   * Otherwise advance to next season
+* Five action dice
+* One achievement at a time
+   * Easier achievements on start/finish for stages 0 and 1
+   * Burn 2 X Year random lowest stage achievements at end of year
+   * 3 staged achievements
+   * Ignoring dice on stage 1 achievements for begin/end of paths
+* Burn most recent mission discard in each discard pile
+   * Add new mission cards based on threats and shuffle
+   * Throw burned mission cards on top
+* Burn location
+   * Draw 2 random locations at each region to replace
+
+## Skill and Commitment Musing
+
+Maybe character skills should relate to overcoming difficult obstacles? And commitment taking the first tier of stress? Then achievements are no longer achievements per se, but rather developments or production. Completely focused on resource tracks. That orients play towards obstacles even more. It probably quickens the pace of the game, as well, because character improvement is more of a side effect rather than a goal.
+
+And because no dice are spent improving characters, that lowers the number of dice needed to make progress, most likely lowering the total number of dice needed per year. Potentially fewer turns are needed. Maybe five or six instead of eight?
+
+There could be roughly 50 (five turns) to 80 (eight turns) dice in the two player game per year. Stage 0 take 3 dice, and Stage 1 take 5 dice, Stage 2 take 4, and Stages 3 and 4 are back to 3 dice. What if there are 12 achievements per stage? Two for each? You can do 1 at a time, and at game start you draw 3.
+
+### Slow Play Scenario
+
+* 4 staged achievements
+* 1 at a time
+* No discards during initial draw
+
+Turn 1: Stage 0, Completed: 2, Draw: 6
+Turn 2: Stage 1, Completed: 4, Draw: 3
+
+You would need 14 cards to remain in stage 3 for 2 turns if you complete the max achievements. However, 2 of the stage 0 achievements would be in the draw pile, which could be useful.
+
+What if there were 8 cards in the deck? If you burned 4 of them? In that case, basically no matter how slow you play it, you're out of stage 0 after turn 1. Also with 12 cards, you have to stay in stage 0 for at least a turn if there are only 3 discards. If there are 4 discards, you can get out immediately.
+
+About 12 cards per stage isn't bad if there are three staged achievements.
+
+## Achievements Revisited
+
+The one active achievement per player is more feasible if the first and last slots aren't very restrictive (they aren't fixed numbers of a certain resource type). Colors are significantly easier, as are regional. Next is numbers, which can be tricky earlier, and finally is fixed, which are very hard. Fixed numbers should probably be shortcuts.
+
+Number of Dice: 3 / 4 / 5 / 4 / 3
+Number of Draws: 2 / 1 / 2 / 3 / 2
+Number of Cards: 12 / 9 / 12 / 15 / 6
+
+# 06/22/22
+
+## Starting Locs
+
+* Empire
+   * Eastkeep (Tactics)
+   * Rosy Freetrader (Disguise)
+      * Move guards... not too complex of an effect
+   * Whitehold (Thievery)
+* RB
+  * Weird 
+  * Undari's Tower (Lore)
+  * Amber Trade Fair (Command)
+  * Weird Rock (Combat)
+  * Other options: Gray Forest
+* Settled
+   * Wrenhouse (Rapport)
+   * Shimmerhall (Tactics)
+   * Long Wastes (Survival)
+   * Other options: Blue rock, Spinner Lake
 
 # 06/18/22
 
