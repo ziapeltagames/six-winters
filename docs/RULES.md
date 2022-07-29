@@ -120,12 +120,12 @@ The upper left of each location card may contain optional icons indicating vario
 
 * **Port**: A character may spend one action die to move from this location to another port location
 * **Gate**: A character may take on psyche stress (see below) to move from this location to another gate location
-* **Support Source**: Roll and place a support die at this location when activated
-* **Technology Source**: Roll and place a technology die at this location when activated
-* **Espionage Source**: Roll and place an espionage die at this location when activated
-* **Military Source**: Roll and place a military die at this location when activated
-* **Diplomacy Source**: Roll and place a diplomacy die at this location when activated
-* **Sorcery Source**: Roll and place a sorcery die at this location when activated
+* **Support Source**: Roll and place a support die at this location when location is activated
+* **Technology Source**: Roll and place a technology die at this location when location is activated
+* **Espionage Source**: Roll and place an espionage die at this location when location is activated
+* **Military Source**: Roll and place a military die at this location when location is activated
+* **Diplomacy Source**: Roll and place a diplomacy die at this location when location is activated
+* **Sorcery Source**: Roll and place a sorcery die at this location when location is activated
 
 ### Location Text (Optional)
 
@@ -140,7 +140,7 @@ Locations may have a variety of effect text as well. This text applies to any ch
 
 ## Progress
 
-TBD
+Progress cards are the main path to victory. Completing progress cards allows players to improve the progress tracks for Red Bank.
 
 <img src="rules_images/sample_progress.png"/>
 
