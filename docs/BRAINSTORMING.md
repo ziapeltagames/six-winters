@@ -1,24 +1,192 @@
-# To-Do
+# Ideas To-Do
 
 * Add location or obstacle effects for burning or discarding obstacles
+* Combos on left side of character cards
+   * 3 3 3 3 --> improve any resource track
+   * 3 4 5 --> 5 dice
+   * 3 3 --> 1 2 3
+* Customizable character abilities
+   * Write in resources you can create?
+   * May move to the location where XYZ is located
+* Make sure mission cards have a base effect that always triggers
+   * And is modified, if necessary, by situations
+   * Otherwise they loose their teeth
 
-# Options
+# 07/24/22
 
-* Advantage system
-   * Diplomacy: explore +1 new locations
-   * Military: burn achievement of +1 difficulty at year end
-* Deck tuning system
-   * Burn 6 achievements at end of year (lowest stage first)
-   * Burn 2 mission cards from each region at end of year (difficult <= year)
-* Locations that get scorched by obstacles, leaving a special location card
-   * Maybe units get played there, no matter what?
-   * Or foes, etc. Kind of a magnet for certain units?
-   * And those units are harder there, but the location can be burned?
-* No cost obstacle defense via saving throw system
-   * Approach: place matching dice on card up to skill
-   * Defend: reroll rest of dice, check for stress
-      * If skill >= difficulty, avoid stress on 1-3, otherwise avoid on 1
-   * Overcome: place any remaining matching dice on obstacle
+## Multi-player Brainstorming
+
+The tricky part about scaling to 3 or 4 players is that a 3 card draw essentially means instant threats, regardless of playing defense. Having much of the game operate in that mode kind of means the players could get hammered without any recourse. But having too few action points isn't desirable for other reasons. The 2/1/2/3/2 really makes sense for threats. Where stage 4 is pretty arbitrary, but that's okay for short periods of time. If you play two characters in the solo game, it's also fine to probably keep that distribution of obstacles.
+
+It's the three player game that gets tricky. Going below 5 action dice also doesn't seem super fun.
+
+Maybe the 3 threats thing isn't as good. Perhaps it's Threat vs. Location. Had that initially, where locations had defense numbers. Threats have difficulty numbers as well. Then the numbers of threats wouldn't change, but what would change? The chance of a threat occuring? That also doesn't feel quite right. After all, the number of cards are fixed.
+
+Some arbitrary threats is probably desired! Could split the difference at higher numbers of players: more cards come out, but after threats are determined.
+
+# 07/21/22
+
+## No Deck Experiment
+
+Going to do a short sanity check on the no deck approach. Going to try 2p with one character each. Is it still plausible?
+
+Having extra dice at the end of a turn is going to happen quite a bit more with one character. Maybe they're not wasted at the end of a turn? That would effectively solve the problem, correct? If you just got 5 dice no matter what?
+
+The other really tricky thing is balancing draws vs. threats. Draws and threats may need to be based on the number of players? Or at least draws potentially do. The issue is that "draw three" effectively means there could be a threat regardless of how good the players reactions are.
+
+Going to try a "keep action dice" between turns approach. There would have to be a max, though. Maybe 3? That's the max cost to move.
+
+## Notes
+
+* Gain +5 action dice, don't refill
+   * Keep a max of 3 action dice at turn end
+* Remove "character cards" section of turn sequence card
+* Agents of chaos should do 1 stress + 1 stress per issue
+* In general, cards should always have a trigger effect, but that effect can be conditionally worse/better
+   * Otherwise, have cards where nothing happens
+   * And counting number of things probably isn't useful (there aren't that many cards in play at once)
+   * Instead, checking for existence of things is better
+
+# 07/15/22
+
+## Obstacle and Location Brainstorming
+
+How should you guarantee characters can be unlocked with enough time to advance them? Maybe this is where some kind of narrative can come in? Like, you read things and make choices? Perhaps locations can be unlocked also by tracks?
+
+The best option may be to just have the three locations unlocked right from the start. And then 2X locations per region each year afterward. Maybe keep one and burn one, so there's always just two choices in each region.
+
+What about burning obstacles? There are 16 starting - and definitely some will come in via locations and threats. Is 2/season too many? That's borderline burning everything.
+
+### Year End Procedure
+
+1) Burn top two discarded obstacles in each region
+2) Unlock any new obstacles from advanced threats
+3) Place any remained discards with new obstacles and shuffle deck
+4) Burn location with the most obstacles, placing attached obstacles on top of the draw deck
+5) Draw 2 new locations per region and pick one, finding any needed attached cards
+
+## Threat Tracks
+
+Three threats may also be too many. Will have to see - but two could be better, with a max of 1 step per turn. The 2+ approach may also work if there are enough multi tags.
+
+## Character Advancement
+
+The commitment for conditions is pretty cool. But if you only get the cards for checking off conditions, then it's going to be hard to get many of them. Maybe you erase the lowest valued condition at the end of each year, no matter what?
+
+# 07/13/22
+
+## Playtest Year One
+
+* Going to start w/one ob per player in play
+   * Based on kept progress card
+* Burn 2Xyear progress cards at random
+* Burn top ob discard at year end
+* Skilled defend on 1-3
+* How does teamwork go in this new world?
+   * Each character defends individually
+   * Skill advances are taken when it's actually overcome, not per hit
+
+### Turns
+
+* Turn 1: Late Winter
+   * Progress: Stability, Military
+   * Obstacles: Culture Clash, Forager's Toad
+   * End Stage: 1
+* Turn 2: Early Spring
+   * Progress: Technology
+   * End Stage: 1
+* Turn 3: Late Spring
+   * Progress: Sorcery, Diplomacy, Diplomacy
+   * Obstacles: Agents of Chaos
+   * End Stage: 2
+* Turn 4: Early Summer
+   * Progress: Military, Espionage
+   * Obstacles: Imperial Secrets
+   * End Stage: 2
+* Turn 5: Early Fall
+   * Obstacles: Lost in Translation, Pleas for Aid
+   * End Stage: 2
+* Turn 6: Late Fall
+   * Progress: Support, Diplomacy
+   * End Stage: 3
+* Turn 7: Late Winter
+   * Progress: Diplomacy (Star), Support
+   * Obstacles: Inadequate Defenses
+   * Threats: Tech 1
+   * End Stage: 3
+
+### Game End Thoughts
+
+There was 12 total progress, which is pretty high. Certainly the pace there is good - which was the goal for the initial years. Stress is a little low. Should really look at defense cards and seasonal effects that heal stress.
+
+Still not sure about the burn/retrieve process. Burning cards from discard feels pretty good. The advantage effects need work. Finding locations with diplomacy is a little off, as is burning any discard using military. That one is particularly not fun.
+
+Opposition tracks also didn't move up much. Really peg the military tags on cards. Should stage 1 maybe have draw 3 cards? That'd be pretty intense, though. Also really not sure about per game win conditions. That really does help players focus attention for the moment.
+
+Other potential advantage effects:
+
+* Diplomacy: Trade 2:1 for free
+* Military: Cheaper movement?
+* Espionage: Dice chain? Dice swap?
+
+The funnest portions are chains/combos to solve the puzzle of progress cards. Advantage should _probably_ enable that kind of thing. For instance, diplomacy trade at 2:1. Maybe military lets you move assets from military locations to any other location? Also, probably need four staged progress cards. It won't work very well for the four player game otherwise.
+
+Getting characters is a little tricky now. If the Diplomacy dev doesn't let you search (which does actually seem okay). There are currently 11 locations in each region. At 2 per year, you'd get to year 5. But still wouldn't necessarily see them all. At 3 per, you'd get them all at year 4. Giving expansion characters for years 5 and 6.
+
+I think I'd like the ability to gain characters in year one. And then increasing chances in later years. Is there a different pattern than BURN XYZ? That's the easiest way to do it. Could also have discard, but some kind of conditional on it. Like "overcome, but also have advantage" or something like that. Or overcome and spend XYZ resources.
+
+Should there be some benefit for characters who increase their skill to 6? Maybe they can use any dice to take out an obstacle? And don't have to match anymore? Like a mastery bonus?
+
+### Skill Mastery
+
+Options for skill mastery.
+
+* May use any die on obstacle (don't have to match number patterns)
+
+Sixes
+
+* Thievery - Imperial Secrets
+* Disguise - Master of Secrets
+* Combat - Doom Under Sightrock, Stealer of Hope
+* Tactics - Inadequate Defenses, Stone and Blood
+* Command - The Resistance
+* Rapport - Hogel
+* Lore - Elisa, The Severing
+* Survival - Hidden Outpost
+
+### Notes
+
+* Need lots of military threat tags?
+* One option is to have the character unlock cards starting in the deck
+   * If they're burn-able, they *will* come out at some point
+   * Provided you don't reshuffle between games
+* A free trade 2:1 on diplomacy would be pretty cool
+* Not really sure about the "stop stress" character cards, either
+   * Something like movement would be better
+* Obstacles really don't activate very often
+   * Does that mean more permanent effects?
+   * Or are activations really bad?
+   * Maybe they should move to activation locations?
+* "Harvest Festival" (Fall 1) isn't so great
+   * Want more stress, not less
+   * It's also fiddly, and tricky (the old "go above max" question)
+   * Trade?
+* Probably shouldn't have a 5 on the character cards for action pool
+   * May not always be five (single player, etc)
+* Why don't the character sheets have the commitment?
+* The "Field Work" card is really cool
+   * Could brainstorm more location/pool interaction effects
+   * Maybe clarify how it works: tech dice as-is into resource pool
+* The "Pleas for Aid" obstacle card has weird art for the title
+* Should the necromancer be in the deck?
+* Should all character unlocks be in decks?
+* Should empire cubes start at zeroes across the board?
+* Could move overcome section above action dice section on player aid card
+* Is fractional damage possible?
+   * Probably should be - it's always nice to have
+   * Would open up "kill stealing for XP", but that's not a big deal
+   * Fractional damage would mean there are more actions
+   * Otherwise, would be very hesitant to act at the end of a turn
 
 # 07/01/22
 

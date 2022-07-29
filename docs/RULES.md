@@ -2,33 +2,43 @@
 
 **Six Winters** is a cooperative fantasy campaign game for 1-4 players based on the **Wrath of the Autarch** tabletop role-playing game.
 
-Players control **Red Bank**, a diasporic society under constant threat from the **Empire of the Autarch**. The Autarch is working to achieve a sorcerous apotheosis, rendering The Empire unstoppable and spelling certain doom for Red Bank. The players have six winters to stop this from happening. Each game of Six Winters lasts approximately 180 minutes and represents one year in the life of Red Bank. During a session of the game, players control a rotating cast of characters from Red Bank, each with their own unique capabilities and limitations.
+Players control **Red Bank**, a diasporic society under threat from the **Empire of the Autarch**. The Autarch is working to achieve a sorcerous apotheosis, rendering The Empire unstoppable and spelling certain doom for Red Bank. The players have six winters to stop this from happening. Each game of Six Winters is 2 to 3 hours long and plays out one year in the life of Red Bank.
 
-## Resource Tracks
+During a session of the game, players select from a rotating cast of characters to make progress against the Empire. Each character has their own unique capabilities and limitations. Effectively managing these characters over the six winters is critical to successfully stopping the Empire!
 
-Players manage Red Bank's **resources**: broad capabilities and areas of strategic focus. Each resource has a track of length 12 showing the relative capability in that area. These resource tracks raise over the course of the campaign. There are six **resource tracks**: **Stability**, **Technology**, **Espionage**, **Diplomacy**, **Military**, and **Sorcery**.
+`As this document is very much changing and in progress, designer thoughts and notes are captured using this highlighted formatting. They help provide context and insights, but are not essential to understanding the game. For now, I'm capturing rules in markdown, which is not a very rich textual format, but is quick to edit, and ideal for the state the game is in. The number of helpful images and diagrams is going be minimal, because they are difficult and time consuming to create for a game that is in such a fluid state. In other words: it isn't going to be super easy to understand the game from the given rules doc, but hopefully it's at least possible.`
 
-Each resource track The position on this track further determines the size of resource dice pools. 
+## Resources
+
+Characters leverage six **resources** to make progress against the Empire:
+
+| Stability | Technology | Espionage | Military | Diplomacy | Sorcery |
+| --- | --- | --- | --- | --- | --- |
+| <img src="rules_images/capitol.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/cowled.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | <img src="rules_images/stone-throne.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> |
+ 
+ Red Bank's **progress** in those areas is marked using a red cube on each associated **resource track**.
+
+## Threats
+
+**Threat levels** against Red Bank in each resource area are tracked using a gray cube on each resource track. If Red Bank's progress is higher than the associated threat marker, the players have **advantage** in that resource, which confers mechanical advantages during play. There are ways to slow the rate of threats and even lower threat levels during play.
+
+`Lowering threat levels after they have advanced is much more difficult than trying to slow the rate of advancement in the first place. Completely stopping threat advancements requires some luck.`
 
 ## Victory
 
-The players achieve victory in one of three ways:
+If the Red Bank progress marker is _alone_ on the last space of a resource track, that resource track is **complete**. After the sixth game, check for victory as follows:
 
-* **Grand Unification**: The diplomacy track i the scattered factions of the realm while also maintaining peace at home. This is achieved if the Stability and Diplomacy tracks are both at 10 during any winter.
-* **Imperial Rebellion**: Overthrow the leadership within the Empire by inciting unrest and fomenting rebellion. This is achieved if the Imperial Rebellion track is at 10 during any winter.
-* **Sorcerous Knowledge**: Learn the sorcerous secrets necessary to stop the Autarch directly. This is achieved if the Sorcery track is at 10 during any winter.
+* **Pyrrhic Victory**: Red Bank has completed one of Diplomacy, Support, or Espionage.
+* **Major Victory**: Red Bank has completed any two of Diplomacy, Support, or Espionage.
+* **Total Victory**: Red Bank has completed all of Diplomacy, Support, and Espionage.
 
-## Defeat
+Additionally, the players get bonus points for every track they have advantage in and for the level of difficulty chosen at the start of the campaign.
 
-The players lose the game if either of the following occur:
+Any other state of the game after six sessions results in defeat for Red Bank.
 
-* **Collapse**: If the Stability track ever drops down to 0, Red Bank collapses into anarchy.
-* **Six Winters**: If the players have not won by the sixth winter, the Autarch achieves apotheosis and overthrows Red Bank.
+# Trade Board
 
-
-Each session, players choose missions to undertake, which are represented by different decks of cards. Players select characters for the mission from a growing character pool, taking into consideration the strengths and weaknesses of each character. A mission takes about ninety minutes to play. The design goal is to make a game for nerdy couples who enjoy a game with a strong narrative that can be played on a weeknight. 
-
-Along the way, seasons will pass, the characters will grow and change, and players will make choices about the strategic direction for Red Bank.
+TBD
 
 # Cards
 
@@ -66,6 +76,10 @@ Finally, the different types of cards get placed into different decks depending 
 * Threats - Threat cards can come into play in the spotlight area during the mission
 * Asset - Character cards, purchased developments, and artifacts acquired during the campaign.
 
+# Location Board
+
+TBD
+
 # Characters
 
 ## Skills
@@ -76,9 +90,11 @@ Finally, the different types of cards get placed into different decks depending 
 
 ## Discord
 
-## Tags
+# Campaign Setup
 
-# Setting Up a Session
+TBD
+
+# Session Setup
 
 TBD
 
@@ -96,6 +112,29 @@ TBD
 * Place Starting Mission Cards
 * Place Characters at Locations
      * At least one character in group must be in mission location
+
+# Season Setup
+
+* Choose Spotlight Player
+* Spotlight Player Rolls Starting Resources
+* Draw Starting Threat
+* Choose Missions
+* Choose Spotlight Locations
+     * Type of locations may be dictated by threat card
+     * Six total spotlight locations
+* Divide Up Characters
+     * Each player needs at least one character
+* Divide Up Assets
+     * Must place character cards (lifepath and discord) with appropriate group
+* Place Starting Mission Cards
+* Place Characters at Locations
+     * At least one character in group must be in mission location* Refresh
+* Move Characters
+* Move Obstacles
+* Resolve
+* Event
+* Encounter
+* Actions
 
 # Turns
 
@@ -166,29 +205,6 @@ TBD
 # Tasks
 
 TBD
-
-# Season Setup
-
-* Choose Spotlight Player
-* Spotlight Player Rolls Starting Resources
-* Draw Starting Threat
-* Choose Missions
-* Choose Spotlight Locations
-     * Type of locations may be dictated by threat card
-     * Six total spotlight locations
-* Divide Up Characters
-     * Each player needs at least one character
-* Divide Up Assets
-     * Must place character cards (lifepath and discord) with appropriate group
-* Place Starting Mission Cards
-* Place Characters at Locations
-     * At least one character in group must be in mission location* Refresh
-* Move Characters
-* Move Obstacles
-* Resolve
-* Event
-* Encounter
-* Actions
 
 # Turn
 
