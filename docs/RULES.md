@@ -44,12 +44,12 @@ Each resource has an associated pool of resource dice used by characters to over
 
 Resource dice are colored as follows:
 
-* Support: Yellow
-* Technology: Orange
-* Espionage: Red
-* Military: Gray
-* Diplomacy: Lavender
-* Sorcery: Blue
+* **Support**: Yellow
+* **Technology**: Orange
+* **Espionage**: Red
+* **Military**: Gray
+* **Diplomacy**: Lavender
+* **Sorcery**: Blue
 
 `The dice in resource pools represent the raw capability of Red Bank in that area.`
 
@@ -85,19 +85,34 @@ Each location card has a unique name listed at the top.
 
 ### Tags
 
-TBD
+Location cards have a variety of tags, mostly used by other card effects. All locations have one of the following tags: urban, rural, or wilderness. Additional tags include: eldritch, vault, tavern, port, and hall.
+
+Along with the tags are one or more icons, as follows:
+
+| Empire | Red Bank | Settled Lands | Starting | Sorcery Threat | Military Threat | Technology Threat | Discord |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="rules_images/defensive-wall.png" width="100" height="100" /> | <img src="rules_images/holy-oak.png" width="100" height="100" /> | <img src="rules_images/water-mill.png" width="100" height="100" /> | <img src="rules_images/stack.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/backstab.png" width="100" height="100" /> |
+
+* **Empire** - Imperial location, in the Empire locations deck and playable to the Empire region
+* **Red Bank** - Red Bank location, in the Red Bank locations deck and playable to the Red Bank region
+* **Settled Lands** - Settled Lands location, in the Settled Lands location deck and playable to the Settled Lands region
+* **Starting Location** - In the default campaign mode, this is one of the nine starting location cards
+* **Sorcery Threat** - Location comes into play if the sorcery threat track reaches the final space
+* **Military Threat** - Location comes into play if the military threat track reaches the final space
+* **Technology Threat** - Location comes into play if the technology threat track reaches the final space
+* **Discord** - This location comes into play if one of the characters, Oniri, sustains too much stress (see below)
 
 ### Invest Skill
 
-TBD
+The upper right of each location card shows the skill icon used for the invest action.
 
 ### Movement Costs
 
-TBD
+Along the bottom of each card are movement costs for each region. A player spends the listed number of action dice (the value of the dice do not matter) to move their character to any location in that region.
 
 ### Effect Icon (Optional)
 
-TBD
+The upper left of each location card contain optional icons.
 
 ### Location Text (Optional)
 

@@ -1,8 +1,8 @@
 region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,textb,textc
 
-"xxEMPIRE","Eastkeep","Rural, xxEMPIRE, xxSTARTING",xxTACTICS,"1","1 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\castle_wall_andrew_ryan.tif",,
-"xxEMPIRE","Guild of Strategy","Urban, Hall, xxEMPIRE, xxSTARTING",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\andreas-rocha-scholarshall02.jpg",,
-"xxEMPIRE","Whitehold","Urban, Vault, xxEMPIRE, xxSTARTING",xxTHIEVERY,"1","1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\keep_armando_savoia.tif",,
+"xxEMPIRE","Eastkeep","Rural, xxEMPIRE, xxSTACK",xxTACTICS,"1","1 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\castle_wall_andrew_ryan.tif",,
+"xxEMPIRE","Guild of Strategy","Urban, Hall, xxEMPIRE, xxSTACK",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\andreas-rocha-scholarshall02.jpg",,
+"xxEMPIRE","Whitehold","Urban, Vault, xxEMPIRE, xxSTACK",xxTHIEVERY,"1","1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\keep_armando_savoia.tif",,
 
 "xxEMPIRE","Guild of Secrets","Urban, Vault, xxEMPIRE",xxTHIEVERY,"1","1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\underground_dungeon_byung_ju_bong.tif",,"##NSBP##Unlock Lucia if no obstacles present","##NSBP##xxSTARTING 2 X Master of Secrets"
 
@@ -17,9 +17,9 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 "xxEMPIRE","Guild of Scribes","Urban, Hall, xxEMPIRE",xxLORE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\andreas-rocha-occultknowledge01.jpg",,"##NSBP##xxCUBE Discard the top xxEMPIRE mission card"
 "xxEMPIRE","House of Copper","Urban, Eldritch, xxEMPIRE",xxLORE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\drug_den.tif","xxSHATTER","##NSBP##xxSTARTING Darkness Unmasked"
 
-"xxREDBANK","Dusk's Ayrie","Rural, Eldritch, xxREDBANK, xxSTARTING",xxLORE,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\ballai-unseenfinalgasss.jpg",,
-"xxREDBANK","Ferry's Glenn","Rural, xxREDBANK, xxSTARTING",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\philipp-a-urlich-land.jpg",,
-"xxREDBANK","Gray Forest","Wilderness, xxREDBANK, xxSTARTING",xxCOMBAT,"1","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\astridhwa-bosque.jpg",,
+"xxREDBANK","Dusk's Ayrie","Rural, Eldritch, xxREDBANK, xxSTACK",xxLORE,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\ballai-unseenfinalgasss.jpg",,
+"xxREDBANK","Ferry's Glenn","Rural, xxREDBANK, xxSTACK",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\philipp-a-urlich-land.jpg",,
+"xxREDBANK","Gray Forest","Wilderness, xxREDBANK, xxSTACK",xxCOMBAT,"1","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\astridhwa-bosque.jpg",,
 
 "xxREDBANK","Undari's Tomb","Dungeon, Eldritch, xxREDBANK",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\andreas_roch_forgottencrypt.tif","xxSHATTER","##NSBP##xxSTARTING The Necromancer"
 
@@ -34,9 +34,9 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 "xxREDBANK","The Obfuscated Bribe","Urban, Tavern, xxREDBANK",xxRAPPORT,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\fantasy_tavern_ayndre.tif",,"##NSBP##xxSTARTING Clove and Minx"
 "xxREDBANK","House Lavender","Rural, xxREDBANK",xxDISGUISE,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\ryan_groskamp_rotsan.tif","xxDIPLOMACY","##NSBP##xxSTARTING Following Ley Lines"
 
-"xxSETTLED","Lily Manor","Urban, Hall, xxSETTLED, xxSTARTING",xxRAPPORT,"2","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\christian-reiske-ciudx.jpg",,
-"xxSETTLED","Boar's Peak","Rural, xxSETTLED, xxSTARTING",xxTACTICS,"1","3 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\andrew-gubin-watch-at-the-pick.jpg",,
-"xxSETTLED","Gravewood","Wilderness, Eldritch, xxSETTLED, xxSTARTING",xxSURVIVAL,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\rhonda-chan-haunted-forest.jpg",,
+"xxSETTLED","Lily Manor","Urban, Hall, xxSETTLED, xxSTACK",xxRAPPORT,"2","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\christian-reiske-ciudx.jpg",,
+"xxSETTLED","Boar's Peak","Rural, xxSETTLED, xxSTACK",xxTACTICS,"1","3 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\andrew-gubin-watch-at-the-pick.jpg",,
+"xxSETTLED","Gravewood","Wilderness, Eldritch, xxSETTLED, xxSTACK",xxSURVIVAL,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\rhonda-chan-haunted-forest.jpg",,
 
 "xxSETTLED","Pearlescent Marsh","Rural, Eldritch, xxSETTLED",xxSURVIVAL,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\mystic_valley_by_lepyoshka.tif","xxSHATTER","##NSBP##xxSTARTING Place 3 Forager cards at different locations"
 
@@ -54,4 +54,4 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 "xxSORCERY","Animaelic Forest","Wilderness, Eldritch, xxSORCERY",xxLORE,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\animaelic_forest.jpg","xxSHATTER","##NSBP##xxSTARTING The Severing"
 "xxMILITARY","Sundered Crag","Wilderness, Eldritch, xxMILITARY",xxTACTICS,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\polina-hristova-world.jpg","xxMILITARY","##NSBP##xxSTARTING Stone and Blood"
 "xxTECHNOLOGY","Aren's Forge","Wilderness, Eldritch, xxTECHNOLOGY",xxTHIEVERY,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\bradley-siegert-forge.jpg","xxTECHNOLOGY","##NSBP##xxSTARTING Sapphire Djinn"
-"xxSORCERY","Desolation","Wilderness, Eldritch, xxSORCERY",xxLORE,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\shattered_docks.jpg",,"##NSBP##Take 1xxPSYCHE when moving to this location"
+"xxSORCERY","Desolation","Wilderness, Eldritch, xxDISCORD",xxLORE,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\shattered_docks.jpg",,"##NSBP##Take 1xxPSYCHE when moving to this location"
