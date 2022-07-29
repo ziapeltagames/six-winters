@@ -97,14 +97,14 @@ Along with the tags are one or more icons, as follows:
 * **Red Bank** - Red Bank location, in the Red Bank locations deck and playable to the Red Bank region
 * **Settled Lands** - Settled Lands location, in the Settled Lands location deck and playable to the Settled Lands region
 * **Starting Location** - In the default campaign mode, this is one of the nine starting location cards
-* **Sorcery Threat** - Location comes into play if the sorcery threat track reaches the final space
-* **Military Threat** - Location comes into play if the military threat track reaches the final space
-* **Technology Threat** - Location comes into play if the technology threat track reaches the final space
-* **Discord** - This location comes into play if one of the characters, Oniri, sustains too much stress (see below)
+* **Sorcery Threat** - Comes into play if the sorcery threat track reaches the final space
+* **Military Threat** - Comes into play if the military threat track reaches the final space
+* **Technology Threat** - Comes into play if the technology threat track reaches the final space
+* **Discord** - Comes into play if one of the characters, Oniri, sustains too much stress (see below)
 
 ### Invest Skill
 
-The upper right of each location card shows the skill icon used for the invest action.
+The upper right of each location card shows the skill icon used for the **invest** action. Investing is how resource dice are moved from resource pools into a location card.
 
 ### Movement Costs
 
@@ -112,11 +112,31 @@ Along the bottom of each card are movement costs for each region. A player spend
 
 ### Effect Icon (Optional)
 
-The upper left of each location card contain optional icons.
+The upper left of each location card may contain optional icons indicating various effects.
+
+| Port | Gate | Support Source | Technology Source | Espionage Source | Military Source | Diplomacy Source | Sorcery Source |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="rules_images/caravel.png" width="100" height="100" /> | <img src="rules_images/shatter.png" width="100" height="100" /> | <img src="rules_images/capitol.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/cowled.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | <img src="rules_images/stone-throne.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> |
+
+* **Port**: A character may spend one action die to move from this location to another port location
+* **Gate**: A character may take on psyche stress (see below) to move from this location to another gate location
+* **Support Source**: Roll and place a support die at this location when activated
+* **Technology Source**: Roll and place a technology die at this location when activated
+* **Espionage Source**: Roll and place an espionage die at this location when activated
+* **Military Source**: Roll and place a military die at this location when activated
+* **Diplomacy Source**: Roll and place a diplomacy die at this location when activated
+* **Sorcery Source**: Roll and place a sorcery die at this location when activated
 
 ### Location Text (Optional)
 
-TBD
+Locations may have a variety of effect text as well. This text applies to any character at the location, or in some cases moving to the location. Most location text includes one of the following icons:
+
+| Starting Obstacle | Action |
+| :---: | :---: |
+| <img src="rules_images/up-card.png" width="100" height="100" /> | <img src="rules_images/cube.png" width="100" height="100" /> |
+
+* **Starting Obstacle**: A character may spend one action die to move from this location to another port location
+* **Action**: A character may take on psyche stress (see below) to move from this location to another gate location
 
 ## Progress
 
@@ -227,7 +247,7 @@ TBD
 
 TBD
 
-## Trigger
+## Activation
 
 TBD
 

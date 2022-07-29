@@ -54,4 +54,4 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 "xxSORCERY","Animaelic Forest","Wilderness, Eldritch, xxSORCERY",xxLORE,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\animaelic_forest.jpg","xxSHATTER","##NSBP##xxSTARTING The Severing"
 "xxMILITARY","Sundered Crag","Wilderness, Eldritch, xxMILITARY",xxTACTICS,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\polina-hristova-world.jpg","xxMILITARY","##NSBP##xxSTARTING Stone and Blood"
 "xxTECHNOLOGY","Aren's Forge","Wilderness, Eldritch, xxTECHNOLOGY",xxTHIEVERY,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\bradley-siegert-forge.jpg","xxTECHNOLOGY","##NSBP##xxSTARTING Sapphire Djinn"
-"xxSORCERY","Desolation","Wilderness, Eldritch, xxDISCORD",xxLORE,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\shattered_docks.jpg",,"##NSBP##Take 1xxPSYCHE when moving to this location"
+"xxDISCORD","Desolation","Wilderness, Eldritch, xxDISCORD",xxLORE,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\shattered_docks.jpg",,"##NSBP##Take 1xxPSYCHE when moving to this location"
