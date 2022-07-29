@@ -1,22 +1,22 @@
-# Six Winters
+# Six Winters v19.3
 
-**Six Winters** is a cooperative fantasy campaign game for 1-4 players based on the **Wrath of the Autarch** tabletop role-playing game.
+*Six Winters* is a cooperative fantasy campaign game for 1-4 players based on the *Wrath of the Autarch* tabletop role-playing game.
 
 Players control **Red Bank**, a diasporic society under threat from the **Empire of the Autarch**. The Autarch is working to achieve a sorcerous apotheosis, rendering The Empire unstoppable and spelling certain doom for Red Bank. The players have six winters to stop this from happening. Each game of Six Winters is 2 to 3 hours long and plays out one year in the life of Red Bank.
 
 During a session of the game, players select from a rotating cast of characters to make progress against the Empire. Each character has their own unique capabilities and limitations. Effectively managing these characters over the six winters is critical to successfully stopping the Empire!
 
-`As this document is very much changing and in progress, designer thoughts and notes are captured using this highlighted formatting. They help provide context and insights, but are not essential to understanding the game. For now, I'm capturing rules in markdown, which is not a very rich textual format, but is quick to edit, and ideal for the state the game is in. The number of helpful images and diagrams is going be minimal, because they are difficult and time consuming to create for a game that is in such a fluid state. In other words: it isn't going to be super easy to understand the game from the given rules doc, but hopefully it's at least possible.`
+`As this document is very much in progress, designer thoughts and notes are captured using this highlighted formatting. They help provide context and insights, but are not essential to understanding the game. For now, I'm capturing rules in markdown, which is not a very rich textual format, but is quick to edit, and ideal for the state the game is in. The number of helpful images and diagrams is going be minimal, because they are difficult and time consuming to create for a game that is in such a fluid state. In other words: it isn't going to be easy to understand the game from the given rules doc, but hopefully it's at least possible. More than anything, I'm interested in capturing a specific version of the rules to help weight playtesting decisions. The version number matches that used in Tabletop Simulator. Along with that, all of the graphic design and layout is only for prototype purposes and will certainly change at production time.`
 
 ## Resources
 
 Characters leverage six **resources** to make progress against the Empire:
 
-| Stability | Technology | Espionage | Military | Diplomacy | Sorcery |
-| --- | --- | --- | --- | --- | --- |
+| Support | Technology | Espionage | Military | Diplomacy | Sorcery |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | <img src="rules_images/capitol.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/cowled.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | <img src="rules_images/stone-throne.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> |
  
- Red Bank's **progress** in those areas is marked using a red cube on each associated **resource track**.
+Red Bank's **progress** in those areas is marked using a red cube on each associated twelve space **resource track**.
 
 ## Threats
 
@@ -36,28 +36,90 @@ Additionally, the players get bonus points for every track they have advantage i
 
 Any other state of the game after six sessions results in defeat for Red Bank.
 
-# Trade Board
+# Components
+
+## Resource Dice
+
+Each resource has an associated pool of resource dice used by characters to overcome **obstacles**, fuel character abilities, and complete mission **progress cards**. At the end of each turn, players refill these pools to a number of dice equal to the value shown on the progress marker (1-6 dice).
+
+Resource dice are colored as follows:
+
+* Support: Yellow
+* Technology: Orange
+* Espionage: Red
+* Military: Gray
+* Diplomacy: Lavender
+* Sorcery: Blue
+
+`The dice in resource pools represent the raw capability of Red Bank in that area.`
+
+## Assets
+
+Resource dice are not very useful in resource pools, so players will frequently move them on to **location cards** first. Resource dice placed on location cards are referred to as **assets**. Assets are freely available for characters at that location to use.
+
+`If resource pools are raw capabilities, assets are able to be utilized. Their form in the narrative is flexible. An espionage asset could represent anything from a helpful spy or contact to thieves tools or gear.`
+
+## Action Dice
+
+Each player has a pool of red action dice available each turn. These dice are spent to perform actions in the game. For some actions, the value on the action dice doesn't matter (such as moving from one location to another), but for most actions the value is important.
+
+`Think of these like the action points in a game like Oath. Although the action points have values which can impact the abilitiy to take certain actions.`
+
+## Character Tokens
+
+There are tokens (miniatures in *Tabletop Simulator*) for each character in the campaign. These are moved around the nine different **location cards** during play.
+
+## Locations
+
+There are nine different location cards in play, three in each of the following regions:
+
+| The Empire | Red Bank | The Settled Lands |
+| :---: | :---: | :---: |
+| <img src="rules_images/defensive-wall.png" width="100" height="100" /> | <img src="rules_images/holy-oak.png" width="100" height="100" /> | <img src="rules_images/water-mill.png" width="100" height="100" /> |
+
+<img src="rules_images/sample_location.png"/>
+
+### Name
+
+Each location card has a unique name listed at the top.
+
+### Tags
 
 TBD
 
-# Cards
+### Invest Skill
 
 TBD
 
-## Card Types
+### Movement Costs
 
-* Hand - Cards that are held in a player's hand.
-   * They are usually played as interrupts, whenever the player wants.
-      * Occasionally they must be played during a specific phase, usually the refresh phase.   
-   * Sometimes there are restrictions on how or when they can be played, for example, only on a character at a wilderness location, only by spending certain resources, only during the refresh phase, etc.
-* Location - These are places that characters can be, they typically have actions on them that characters can do.
-   * Spotlight locations are places the player's have found that they put into play at the start of a mission.
-* Attachment - Cards that attach to a location or a character and affect it somehow.
-   * Conditions, environments, challenges.
-* Event - These cards do something immediately and then are usually discarded.
-* Obstacle - These cards go into the obstacle area for the given mission and might be triggered by progress cards.
-* Lifepath - Character lifepath cards are placed into the progress deck at the start of the mission.
-* Discord - Character discord cards are placed into the progress deck at the start of the mission.
+TBD
+
+### Effect Icon (Optional)
+
+TBD
+
+### Location Text (Optional)
+
+TBD
+
+## Progress
+
+TBD
+
+<img src="rules_images/sample_progress.png"/>
+
+## Obstacles
+
+TBD
+
+<img src="rules_images/sample_obstacle.png"/>
+
+## Events
+
+TBD
+
+<img src="rules_images/sample_event.png"/>
 
 ## Tags
 
@@ -65,24 +127,45 @@ Tags might appear on cards to give them more flavor and pair with character abil
 
 Common tags: Wilderness, Urban, Red Bank, Sorcery, Guard, Undead, Beast, Diplomat, Trap, Challenge, Environment, Condition, Asset, Resource, Secret, Favor
 
-## Decks
+# Trade Board
 
-Finally, the different types of cards get placed into different decks depending on how they're used.
+<img src="rules_images/trade_board.png"/>
 
-* Progress - Each player uses a progress deck that triggers locations and obstacles
-* Development - These cards are available for purchase during the game, later they are placed in the progress deck at the start of the mission
-* Mission - There are mission decks for the current mission that feature locations and various cards that may be retrieved as specified on the mission
-* Encounter - The encounter deck for the mission has random events characters encounter via progress deck triggers
-* Threats - Threat cards can come into play in the spotlight area during the mission
-* Asset - Character cards, purchased developments, and artifacts acquired during the campaign.
+## Resource Pools
+
+ At the end of each turn, players refill these pools to a number of dice equal to the value shown on the progress marker (1-6 dice).
+
+## Investment Slots
+
+On each resource pool are numbered **investment slots** from 0 to 6. These are used by characters to retrieve resource dice from each pool.
+
+## Wheel of Seasons
+
+Each session starts in the winter. There are one or two turns per season. Game turns are tracked on the wheel of seasons, starting with the second winter space marked in green.
+
+## Wheel of Years
+
+Years may be tracked on the trade board, starting at year one and ending at year six. Each game advances time by one year.
+
+## Progress
+
+In order to win, players must complete **progress cards**. Each progress card allows the players to make progress on one or more resource tracks. During play, there are four progress cards displayed face up on the trade board. When players complete one progress card, they select the next one from the four available cards. This is described in more detail below.
 
 # Location Board
+
+<img src="rules_images/location_board.png"/>
 
 TBD
 
 # Characters
 
+<img src="rules_images/sample_character.png"/>
+
 ## Skills
+
+## Abilities
+
+## Stress
 
 ## Conditions
 
@@ -113,153 +196,75 @@ TBD
 * Place Characters at Locations
      * At least one character in group must be in mission location
 
-# Season Setup
-
-* Choose Spotlight Player
-* Spotlight Player Rolls Starting Resources
-* Draw Starting Threat
-* Choose Missions
-* Choose Spotlight Locations
-     * Type of locations may be dictated by threat card
-     * Six total spotlight locations
-* Divide Up Characters
-     * Each player needs at least one character
-* Divide Up Assets
-     * Must place character cards (lifepath and discord) with appropriate group
-* Place Starting Mission Cards
-* Place Characters at Locations
-     * At least one character in group must be in mission location* Refresh
-* Move Characters
-* Move Obstacles
-* Resolve
-* Event
-* Encounter
-* Actions
-
 # Turns
 
 A turn in _Six Winters_ is composed of the following phases.
 
-# Refresh
+## Seasonal Event
 
-* Any exhausted cards are refreshed
-* Player may end mission during any refresh phase
-     * Players who voluntarily end their mission may still take actions with characters in spotlight and threat locations until the other player ends their mission
-          * Event cards are still drawn for any obstacle and location triggers in spotlight locations
-     * When both players end their missions, the season is over
+TBD
 
-# Movement
+## Actions
 
-* Move to any location in the same mission area or to/from a spotlight location
-     * Must leave at least one character in current mission area
+TBD
 
-# Move Obstacles
+## Refill
 
-* Any obstacles at mission locations with no characters are moved to the mission staging area
-* Players may move any obstacles from the staging area to any location with characters
+TBD
 
-# Resolve
+## Trigger
 
-* Each player may choose one location occupied by a character in the party
-     * Players may lower discord pool by total resolve of all characters in chosen location
-     * Player gives one character in chosen location a condition
+TBD
 
-# Event
+## Obstacles
 
-* Draw event card
-     * If a discord card is drawn, resolve card and draw again
-* If event card has asset icon, draw one card from asset deck
-* Resolve timer trigger
-* Resolve location triggers
-* Resolve obstacle triggers     
-     * Players may take a condition to defend against obstacles using the listed skill if the obstacles are at the same location
-     * Most obstacles in mission staging area move to an occupied location after they are triggered
+TBD
 
-# Encounter
+## Threats
 
-* Draw an encounter card
-     * Event: resolve immediately
-          * Any skill tests must be taken by characters in a mission area
-          * Characters in the same area may combine skills
-     * Hand: place in hand
-     * Location / Attachment / Obstacle: place as directed
-          * Unless otherwise specified, obstacles are placed in the mission staging area
+TBD
 
-# Action
+## Surge
 
-* Each character may perform one action
-* Test: Characters may add skills together for test if they are at the same location
-     * Any rerolls apply to all skill dice used
-     * Owning player makes rolls
-* Task: Player places progress tokens equal to listed skill or track
-     * Subtract the hindrance of all obstacles at the location
+TBD
+
+## Time
+
+TBD
 
 # Actions
 
-TBD 
-
-# Tests
-
 TBD
 
-# Tasks
-
-TBD
-
-# Turn
-
-A turn in _Six Winters_ is composed of the following phases.
-
-# Refresh
-
-* Any exhausted cards are refreshed
-* Player may end mission during any refresh phase
-     * Players who voluntarily end their mission may still take actions with characters in spotlight and threat locations until the other player ends their mission
-          * Event cards are still drawn for any obstacle and location triggers in spotlight locations
-     * When both players end their missions, the season is over
-
-# Move Characters
+## Movement
 
 * Move to any location in the same mission area or to/from a spotlight location
      * Must leave at least one character in current mission area
 
-# Move Obstacles
+## Invest
 
-* Any obstacles at mission locations with no characters are moved to the mission staging area
-* Players may move any obstacles from the staging area to any location with characters
+TBD 
 
-# Resolve
+## Trade
 
-* Each player may choose one location occupied by a character in the party
-     * Players may lower discord pool by total resolve of all characters in chosen location
-     * Player gives one character in chosen location a condition
+TBD
 
-# Event
+## Overcome
 
-* Draw event card
-     * If a discord card is drawn, resolve card and draw again
-* If event card has asset icon, draw one card from asset deck
-* Resolve timer trigger
-* Resolve location triggers
-* Resolve obstacle triggers     
-     * Players may take a condition to defend against obstacles using the listed skill if the obstacles are at the same location
-     * Most obstacles in mission staging area move to an occupied location after they are triggered
+TBD
 
-# Encounter
+## Location Action
 
-* Draw an encounter card
-     * Event: resolve immediately
-          * Any skill tests must be taken by characters in a mission area
-          * Characters in the same area may combine skills
-     * Hand: place in hand
-     * Location / Attachment / Obstacle: place as directed
-          * Unless otherwise specified, obstacles are placed in the mission staging area
+TBD
 
-# Action
+# Overcome
 
-* Each character may perform one action
-* Test: Characters may add skills together for test if they are at the same location
-     * Any rerolls apply to all skill dice used
-     * Owning player makes rolls
-* Task: Player places progress tokens equal to listed skill or track
-     * Subtract the hindrance of all obstacles at the location
+TBD
+
+# Session End
+
+TBD
+
+# Campaign End
+
+TBD
