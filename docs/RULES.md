@@ -305,15 +305,13 @@ Obstacles, locations, and characters are put into play on the location board.
 
 <img src="rules_images/location_board.png"/>
 
-TBD
-
 ### Regions
 
-TBD
+The location board is broken up into three regions, from left to right: *The Empire*, *Red Bank*, and *The Settled Lands*.
 
 ### Locations and Resource Icons
 
-TBD
+Each region has a space to place three locations.
 
 ### Obstacle Draw Decks
 
@@ -337,21 +335,80 @@ TBD
 
 ### Skills
 
+TBD
+
 ### Abilities
+
+TBD
 
 ### Stress
 
+TBD
+
 ### Conditions
+
+TBD
 
 ### Motivation
 
+TBD
+
 ### Discord
+
+TBD
 
 # Campaign Setup
 
-* Starting Locations
-* Starting obstacle decks
-* Starting obstacles
+When starting a new campaign, undertake the following steps. The campaign may be played more than once, although it is not possible to play multiple campaigns at the same time.
+
+1. Set Initial Progress
+2. Set Initial Threat Levels
+3. Choose Starting Locations
+4. Assemble Starting Obstacle Decks
+5. Assemble New Character Sheets
+
+## Initial Progress
+
+The red cubes are used to track *Red Bank's* progress on each resource track. At the start of the campaign, the red cubes are placed on the first space of each track (the space in the upper left surrouding each resource pool). All resource pools start at size 1 except support, which is at size 2.
+
+## Initial Threat Levels
+
+The first step is to determine the difficulty of the campaign. Initial threat levels are based on difficulty. Place gray cubes at the appropriate position of each resource track:
+
+* **Cakewalk**: First space, on same space as red progress cubes
+* **Standard**: Third space
+* **Difficult**: Sixth space
+* **Impossible**: Ninth space, only three away from the last space of the track, when particularly bad effects kick in
+
+At the standard and cakewalk difficulties, there's a very high chance of at least a pyrrhic victory. The game at those levels is more about what happens to characters along the way and the degree of success. At the difficult and impossible levels, there's a chance the players will not succeed at all.
+
+## Starting Locations
+
+The first time playing the campaign, it is suggested players use the standard starting locations. These are basic locations with no special effects text or symbols. They also cover a wide range of character skills, thus allowing any of the starting characters to have success. Use the following table to set up standard starting locations, placing one location in each slot on the location board:
+
+| Region | Resource | Location Name |
+| :---: | :---: | :---: |
+| <img src="rules_images/defensive-wall.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | Eastkeep |
+| <img src="rules_images/defensive-wall.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | Guild of Strategy |
+| <img src="rules_images/defensive-wall.png" width="100" height="100" /> | <img src="rules_images/cowled.png" width="100" height="100" /> | Whitehold |
+| <img src="rules_images/holy-oak.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | Dusk's Ayrie |
+| <img src="rules_images/holy-oak.png" width="100" height="100" /> | <img src="rules_images/capitol.png" width="100" height="100" /> | Ferry's Glenn |
+| <img src="rules_images/holy-oak.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> | Gray Forest |
+| <img src="rules_images/water-mill.png" width="100" height="100" /> | <img src="rules_images/stone-throne.png" width="100" height="100" /> | Lily Manor |
+| <img src="rules_images/water-mill.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | Boar's Peak |
+| <img src="rules_images/water-mill.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> | Gravewood |
+
+### Random Starting Locations
+
+TBD
+
+## Starting Obstacle Decks
+
+TBD
+
+## Starting Characters
+
+TBD
 
 # Session Setup
 
