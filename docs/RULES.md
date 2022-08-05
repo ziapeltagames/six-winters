@@ -243,74 +243,119 @@ Each obstacle may inflict psyche stress, body stress, or both. Each symbol in th
 
 To remove an obstacle from play (overcome the obstacle), players need to spend specific action dice matching the listed dice in the lower right of the obstacle during the **Overcome Obstacle** action.
 
+### Season Sybmol
+
+The back of each obstacle card shows one of four season symbols, as follows:
+
+| Spring | Summer | Fall | Winter |
+| :---: | :---: | :---: | :---: |
+| <img src="rules_images/sprout-disc.png" width="100" height="100" /> | <img src="rules_images/sunrise.png" width="100" height="100" /> | <img src="rules_images/oat.png" width="100" height="100" /> | <img src="rules_images/frozen-orb.png" width="100" height="100" /> |
+
+Since there are three obstacle decks, one for each region, there are 0 to 3 symbols of a particular type showing at any time. This affects which locations get activated during the **Activation** phase, which seasonal event card comes into play during the **Seasonal Events** phase, as well as how many turns players get each season.
+
+<img src="rules_images/sample_obstacle_back.png"/>
+
 ## Seasonal Event Cards
 
-TBD
+At the beginning of each turn a seasonal event card comes into play, based on the number of season symbols showing on the obstacle decks. There is one seasonal event card for each possible number of symbols between 0 and 4. Typically the seasonal events with lower numbers have more desirable effects for players.
 
 <img src="rules_images/sample_event.png"/>
 
-## Tags
+### Season Symbol
 
-Tags might appear on cards to give them more flavor and pair with character abilities. Cards don't have to have tags.
+The upper right of each seasonal event shows which season it belongs to. There are four seasonal events for each season.
 
-Common tags: Wilderness, Urban, Red Bank, Sorcery, Guard, Undead, Beast, Diplomat, Trap, Challenge, Environment, Condition, Asset, Resource, Secret, Favor
+### Matching Number of Symbols
 
-# Trade Board
+The number in the upper left matches the number of season symbols of that type in play. For instance, if it is the fall season, and there is one fall symbol showing among the three obstacle decks, the *Harvest Festivals* seasonal event comes into play at the beginning of the turn.
+
+## Trade Board
+
+The trade board tracks time, progress tracks, threat tracks, holds resource dice, and contains spots for progress cards and seasonal events.
 
 <img src="rules_images/trade_board.png"/>
 
-## Resource Pools
+### Resource Pools
 
- At the end of each turn, players refill these pools to a number of dice equal to the value shown on the progress marker (1-6 dice).
+There are six resource pools on the trade board. At the end of each turn, players refill these pools to a number of dice equal to the value shown on the progress marker (1-6 dice). When refilling resource pools, dice already in the pool are *not* rerolled.
 
-## Investment Slots
+### Progress and Threat Tracks
 
-On each resource pool are numbered **investment slots** from 0 to 6. These are used by characters to retrieve resource dice from each pool.
+Both progress and threats are tracked on each resource track. Red cubes are used to track Red Bank's progress and gray cubes are used to track the current threat level in that area.
 
-## Wheel of Seasons
+### Investment Slots
+
+On each resource pool are numbered **investment slots** from 0 to 6. These are used by characters to retrieve resource dice from each pool using the **Invest** action.
+
+### Wheel of Seasons
 
 Each session starts in the winter. There are one or two turns per season. Game turns are tracked on the wheel of seasons, starting with the second winter space marked in green.
 
-## Wheel of Years
+### Wheel of Years
 
 Years may be tracked on the trade board, starting at year one and ending at year six. Each game advances time by one year.
 
-## Progress
+### Progress
 
 In order to win, players must complete **progress cards**. Each progress card allows the players to make progress on one or more resource tracks. During play, there are four progress cards displayed face up on the trade board. When players complete one progress card, they select the next one from the four available cards. This is described in more detail below.
 
-# Location Board
+## Location Board
+
+Obstacles, locations, and characters are put into play on the location board.
 
 <img src="rules_images/location_board.png"/>
 
 TBD
 
-# Characters
+### Regions
+
+TBD
+
+### Locations and Resource Icons
+
+TBD
+
+### Obstacle Draw Decks
+
+TBD
+
+### Obstacle Discard
+
+TBD
+
+### In Play Obstacles
+
+TBD
+
+### Activation Icons
+
+TBD
+
+## Character Sheet
 
 <img src="rules_images/sample_character.png"/>
 
-## Skills
+### Skills
 
-## Abilities
+### Abilities
 
-## Stress
+### Stress
 
-## Conditions
+### Conditions
 
-## Motivation
+### Motivation
 
-## Discord
+### Discord
 
 # Campaign Setup
 
-TBD
+* Starting Locations
+* Starting obstacle decks
+* Starting obstacles
 
 # Session Setup
 
-TBD
-
-* Choose Spotlight Player
-* Spotlight Player Rolls Starting Resources
+* Rolls Starting Resources
 * Draw Starting Threat
 * Choose Missions
 * Choose Spotlight Locations
@@ -326,7 +371,7 @@ TBD
 
 # Turns
 
-A turn in _Six Winters_ is composed of the following phases.
+A turn in *Six Winters* is composed of the following phases.
 
 ## Seasonal Event
 
@@ -356,7 +401,7 @@ TBD
 
 TBD
 
-## Time
+## Advance Time
 
 TBD
 
@@ -385,7 +430,7 @@ TBD
 
 TBD
 
-# Overcome
+# Overcome Obstacle
 
 TBD
 
