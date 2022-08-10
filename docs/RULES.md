@@ -71,7 +71,7 @@ There are tokens (miniatures in *Tabletop Simulator*) for each character in the 
 
 ## Location Cards
 
-There are nine different location cards in play, three in each of the following regions:
+There are nine different location cards in play during a game, three in each of the following regions:
 
 | The Empire | Red Bank | The Settled Lands |
 | :---: | :---: | :---: |
@@ -102,9 +102,9 @@ Along with the tags are one or more icons, as follows:
 * **Technology Threat** - Comes into play if the technology threat track reaches the final space
 * **Discord** - Comes into play if one of the characters, Oniri, sustains too much stress (see below)
 
-### Invest Skill
+### Create Asset Skill
 
-The upper right of each location card shows the skill icon used for the **invest** action. Investing is how resource dice are moved from resource pools into a location card.
+The upper right of each location card shows the skill icon used for the **Create Asset** action. Creating assets moves resource dice from resource pools onto a location card.
 
 ### Movement Costs
 
@@ -171,7 +171,7 @@ Assuming the player places a five die, the next choice is continuing along the d
 
 Upon placing the die in the ending square, the progress card is completed. All of the resource dice are discarded and the military progress track is increased by one.
 
-### Stages
+### Stages and Difficulty
 
 The back of each progress card show the current stage and a difficulty for the stage, shown by a number of stars. These stars come into play when drawing obstacles in the **Obstacles** phase.
 
@@ -283,9 +283,9 @@ There are six resource pools on the trade board. At the end of each turn, player
 
 Both progress and threats are tracked on each resource track. Red cubes are used to track Red Bank's progress and gray cubes are used to track the current threat level in that area.
 
-### Investment Slots
+### Create Asset Slots
 
-On each resource pool are numbered **investment slots** from 0 to 6. These are used by characters to retrieve resource dice from each pool using the **Invest** action.
+On each resource pool are numbered **Create Asset Slots** from 0 to 6. These are used by characters to retrieve resource dice from each pool using the **Create Asset** action.
 
 ### Wheel of Seasons
 
@@ -309,9 +309,11 @@ Obstacles, locations, and characters are put into play on the location board.
 
 The location board is broken up into three regions, from left to right: *The Empire*, *Red Bank*, and *The Settled Lands*.
 
-### Locations and Resource Icons
+### Locations and Resource Slots
 
-Each region has a space to place three locations.
+Each region has a space to place three locations. Each space has a matching **location resource slot**. When placing locations on the location board, cover the region symbol and leave the resource slot symbol showing. The resource slot is used during the **create asset** action.
+
+`There is one location resource slot for each resource track with a victory condition, and two for the other three resources.`
 
 ### Obstacle Draw Decks
 
@@ -367,11 +369,11 @@ When starting a new campaign, undertake the following steps. The campaign may be
 4. Assemble Starting Obstacle Decks
 5. Assemble New Character Sheets
 
-## Initial Progress
+## Set Initial Progress
 
 The red cubes are used to track *Red Bank's* progress on each resource track. At the start of the campaign, the red cubes are placed on the first space of each track (the space in the upper left surrouding each resource pool). All resource pools start at size 1 except support, which is at size 2.
 
-## Initial Threat Levels
+## Set Initial Threat Levels
 
 The first step is to determine the difficulty of the campaign. Initial threat levels are based on difficulty. Place gray cubes at the appropriate position of each resource track:
 
@@ -382,7 +384,7 @@ The first step is to determine the difficulty of the campaign. Initial threat le
 
 At the standard and cakewalk difficulties, there's a very high chance of at least a pyrrhic victory. The game at those levels is more about what happens to characters along the way and the degree of success. At the difficult and impossible levels, there's a chance the players will not succeed at all.
 
-## Starting Locations
+## Choose Starting Locations
 
 The first time playing the campaign, it is suggested players use the standard starting locations. These are basic locations with no special effects text or symbols. They also cover a wide range of character skills, thus allowing any of the starting characters to have success. Use the following table to set up standard starting locations, placing one location in each slot on the location board:
 
@@ -400,100 +402,187 @@ The first time playing the campaign, it is suggested players use the standard st
 
 ### Random Starting Locations
 
-TBD
+Alternatively, shuffle the location cards by region. Then draw four cards from each region, and choose three to put into play as desired. If any locations have attached obstacles, find and put those into play now.
 
-## Starting Obstacle Decks
+`This is suggested for experienced players who don't mind having lots of location effects in play, and potentially more restrictive combinations of skills for creating assets.`
 
-TBD
+## Assemble Starting Obstacle Decks
 
-## Starting Characters
+Divide up the starting obstacles by region, and shuffle each of these decks to form one draw pile in each region. Set aside the threat obstacles and location obstacles.
 
-TBD
+## Assemble New Character Sheets
+
+Get new character sheets for the seven characters in the game. At the start of a new campaign Oniri, Yasmnia, and Lucia are locked.
 
 # Session Setup
 
-* Rolls Starting Resources
-* Draw Starting Threat
-* Choose Missions
-* Choose Spotlight Locations
-     * Type of locations may be dictated by threat card
-     * Six total spotlight locations
-* Divide Up Characters
-     * Each player needs at least one character
-* Divide Up Assets
-     * Must place character cards (lifepath and discord) with appropriate group
-* Place Starting Mission Cards
-* Place Characters at Locations
-     * At least one character in group must be in mission location
+Perform the following steps at the start of each session.
+
+1. Fill Starting Resource and Action Dice Pools
+2. Choose Characters
+3. Place Obstacle Decks and Locations
+4. Build Progress Deck
+5. Select Starting Progress Cards
+6. Place Characters at Locations
+7. Place Season Time Marker
+
+## Fill Starting Resource and Action Dice Pools
+
+Roll and place a number of resource dice for each pool equal to the current pool size under progress marker.
+
+Additionally, each player rolls red dice for their starting action dice pool. For the 2-4 player game, each player rolls 5 action dice. For the solo game, roll 7 action dice.
+
+## Choose Characters
+
+Each player should choose one unlocked character. If playing solo, choose two characters.
+
+## Place Obstacle Decks and Locations
+
+Shuffle and place each obstacle deck in the draw pile for that region. Retrieve locations and attached obstacles from the previous game and put them into play.
+
+## Build Progress Deck
+
+Gather all progress cards in play, and group them by stage. Shuffle each stage separately, then place them into one draw pile, organized by stage with lowest stage at the top and the highest stage at the bottom.
+
+## Select Starting Progress Cards
+
+Each player draws two progress cards and chooses one to start with. The cards not selected are placed in the progress staging area in any order desired.
+
+If this is the first game of a new campaign, draw and place one obstacle at the obstacle location for each progress card. This is the location indicated in the lower right of the progress card.
+
+## Place Characters at Locations
+
+Finally, each player may place a token for their character at any desired location.
+
+## Place Season Time Marker
+
+Turns are tracked using the season time marker. The game starts in winter. Place the season time marker on the solid winter box.
 
 # Turns
 
 A turn in *Six Winters* is composed of the following phases.
 
+1. Seasonal Event
+2. Actions
+3. Refill
+4. Activation
+5. New Obstacles
+6. Threats
+7. Obstacle Surge
+8. Advance Time
+
 ## Seasonal Event
 
-TBD
+Gather the four seasonal event cards for the current season. Put the seasonal event card into play which matches the number of currently showing season symbols (between 0 and 3) on the back of the three obstacle decks. Follow instructions on seasonal event card.
+
+`Typically the higher number seasonal event cards are more difficult for players.`
 
 ## Actions
 
-TBD
+The action phase is the main part of each turn. During the actions phase, players spend their action dice to perform actions. Actions may be taken in any order by any player. When no players have any more action dice, the actions phase is complete. See **Actions** below for a detailed explanation of all possible actions.
+
+Character abilities are normally used during this phase as well.
 
 ## Refill
 
-TBD
+Dice are rolled and added to each resource pool until there are a number of dice matching the progress number for that pool. Do not reroll any resource dice already in the pool, and do not remove any dice if there are more dice in the pool than the progress number indicates.
 
 ## Activation
 
-TBD
+Starting with the Empire region, and ending with the Settled Lands, activate locations and obstacles based on the season symbol showing for that region. The spring symbol activates the top location card and any attached obstacles are activated, the summer symbol activates the middle location and obstacles, the fall symbol activates the bottom location and obstacles, and the winter symbol activates *all* locations and obstacles in the region.
 
-## Obstacles
+Follow any activated effect text on activated locations and obstacles.
 
-TBD
+## New Obstacles
+
+Draw and place new obstacles equal to the current stage difficulty (the number of stars on the back of the top card in the progress deck).
+
+To place an obstacle:
+
+* Look at the lowest card in the progress staging area
+* Place an obstacle at the obstacle location on this progress card (in the lower right of progress card)
+* Discard the progress card
+
+There will now be a number of open positions in the progress staging area equal to the current stage difficulty. After placing obstacles, slide down any remaining progress cards so they fill the lowest staging area positions, and refill any open progress staging card positions at the top by drawing from the progress deck.
 
 ## Threats
 
-TBD
+Raise each threat track by one for every matching threat symbol on obstacle cards beyond two. For instance, if there are 4 military thret icons on the obstacle cards, the military threat track will increase by 2. If there are 3 diplomacy threat icons on obstacles, the diplomacy threat track will increase by 1, etc.
 
-## Surge
+If a threat track is already at the highest position (step 12 on the track), increase the next threat track in trade order. For instance, if the support track is maxed out, increase technology instead. If sorcery is maxed out, players may choose which track to increase.
 
-TBD
+`Unless playing at a very hard difficulty, maxing out a threat track is fairly rare, and typically only happens near the end of the campaign.`
+
+## Obstacle Surge
+
+In a three player game, place one more obstacle in play, following the **New Obstacles** steps above. In a four player game, place two new obstacles following the **New Obstacles** steps.
+
+`Three and four player games have more obstacles, but they come out after determining threats.`
 
 ## Advance Time
 
-TBD
+The final step of the turn is to advance the seasonal time marker. Only advance to the second turn of a season, as indicated by a dotted box around the season symbol, if one or more matching symbols are on the obstacle cards. If the time marker advances back to the first winter symbol, the game is over. If this was the sixth game, the campaign is over.
+
+`There are between 4 and 8 turns in a game.`
 
 # Actions
 
-TBD
+Spending action dice to take actions makes up the core of *Six Winters*. Most character abilities are used during this phase, by manipulating action dice, assets, or resource pool dice.
+
+* Movement
+* Create Asset
+* Trade
+* Overcome
+* Location Action
 
 ## Movement
 
-* Move to any location in the same mission area or to/from a spotlight location
-     * Must leave at least one character in current mission area
+Every location card lists action dice costs for traveling to each region in the game. To move to a different location, spend a number of action dice equal to the amount indicated for the destination location's region. The value of the action dice don't matter.
 
-## Invest
+Some locations have restrictions on what regions can be moved to directly. For instance, characters can only move from *Whitehold* to other Imperial locations.
 
-TBD 
+## Create Asset
+
+This action moves resource pool dice matching the location's resource slot to the location where the character is at. Asset dice are free to use by any character at the location, usually for filling in progress cards, so this is a very common action. The steps to create an asset are:
+
+1. Place an action die on an open create asset slot for the pool matching the location's resource
+    * The action die must be placed in an open slot less than or equal to the character's skill for creating assets at this location
+2. Move a resource die from pool that is **less than or equal to** the value of the placed action die
+
+Note that the support progress bonus allows players to move **all** resource dice matching the value of the action die. This allows players to potentially create multiple assets with one action die.
 
 ## Trade
 
-TBD
+Trade works similarly to creating assets, although it allows players to move resource dice between pools. The steps to trade are:
+
+1. Place an action die on an open action slot for the pool matching the location's resource
+    * The action die must be placed in an open slot less than or equal to the character's skill for resource actions at this location
+2. Move a resource die into or out of this pool that is **less than or equal to** the value of the placed die
+    * The dice are moved along the wheel of trade (support -> technology, technology -> espionage, etc.)
+    * When a die is moved from one resource pool to another, it changes type
+    * Dice from the sorcery pool may move into any other resource pool, but no resource may by converted to sorcery dice
 
 ## Overcome
 
-TBD
+Overcome allows players to discard obstacles from the location board. It is detailed below.
+
+1. Approach
+2. Defend
+3. Overcome
 
 ## Location Action
 
-TBD
-
-# Overcome Obstacle
-
-TBD
+Some locations allow characters there to spend an action die to perform the listed effect. The value of this action die doesn't matter.
 
 # Session End
 
-TBD
+1. Burn Obstacles
+2. Unlock New Obstacles
+3. Shuffle Obstacle Decks
+4. Burn Locations
+5. Unlock New Locations
+6. Recover Unlocked Characters
+7. Advance Year
 
 # Campaign End
 
