@@ -10,29 +10,31 @@ During a session of the game, players select from a rotating cast of characters 
 
 ## Resources
 
-Characters leverage six **resources** to make progress against the Empire:
+The conflict with the Empire is over six **resources**:
 
 | Support | Technology | Espionage | Military | Diplomacy | Sorcery |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | <img src="rules_images/capitol.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/cowled.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | <img src="rules_images/stone-throne.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> |
  
-Red Bank's **progress** in those areas is marked using a red cube on each associated twelve space **resource track**.
+## Progress
+
+Red Bank's **progress** in those areas is marked using a red cube on each associated twelve space [**resource track**](#progress-and-threat-tracks) on the [**trade board**](#trade-board).
 
 ## Threats
 
-**Threat levels** against Red Bank in each resource area are tracked using a gray cube on each resource track. If Red Bank's progress is higher than the associated threat marker, the players have **advantage** in that resource, which confers mechanical advantages during play. There are ways to slow the rate of threats and even lower threat levels during play.
+**Threats** against Red Bank in each resource area are tracked using a gray cube on each resource track. There are ways to slow the escalation of threats and even lower threats during play.
 
-`Lowering threat levels after they have advanced is much more difficult than trying to slow the rate of advancement in the first place. Completely stopping threat advancements requires some luck.`
+`Lowering threat levels after they have advanced is much more difficult than trying to slow the rate of advancement in the first place. Completely stopping threats requires some luck.`
 
 ## Victory
 
-If the Red Bank progress marker is _alone_ on the last space of a resource track, that resource track is **complete**. After the sixth game, check for victory as follows:
+If the Red Bank progress marker is _alone_ on the last space of a resource track (the 12th space), that resource track is **complete**. After the sixth game, check for victory as follows:
 
 * **Pyrrhic Victory**: Red Bank has completed one of Diplomacy, Support, or Espionage.
 * **Major Victory**: Red Bank has completed any two of Diplomacy, Support, or Espionage.
 * **Total Victory**: Red Bank has completed all of Diplomacy, Support, and Espionage.
 
-Additionally, the players get bonus points for every track they have advantage in and for the level of difficulty chosen at the start of the campaign.
+Additionally, the players get bonus points for every resource track where the progress marker is higher than the threat marker.
 
 Any other state of the game after six sessions results in defeat for Red Bank.
 
@@ -40,7 +42,7 @@ Any other state of the game after six sessions results in defeat for Red Bank.
 
 ## Resource Dice
 
-Each resource has an associated pool of resource dice used by characters to overcome **obstacles**, fuel character abilities, and complete mission **progress cards**. At the end of each turn, players refill these pools to a number of dice equal to the value shown on the progress marker (1-6 dice).
+Each resource has a [**pool**](#resource-pools) of resource dice. At the end of each turn, players refill these pools to a number of dice equal to the value shown on the progress marker (1-6 dice).
 
 Resource dice are colored as follows:
 
@@ -55,9 +57,9 @@ Resource dice are colored as follows:
 
 ## Assets
 
-Resource dice are not very useful in resource pools, so players will frequently move them on to **location cards** first. Resource dice placed on location cards are referred to as **assets**. Assets are freely available for characters at that location to use.
+Resource dice are not very useful in resource pools, so players will frequently move them on to [**location cards**](#location-cards) first. Resource dice placed on location cards are referred to as **assets**. Assets are freely available for characters at that location to use, most commonly to complete mission [**progress cards**](#progress-cards), although they can also be used to [**overcome obstacles**](#overcome) or fuel character [**abilities**](#abilities).
 
-`If resource pools are raw capabilities, assets are able to be utilized. Their form in the narrative is flexible. An espionage asset could represent anything from a helpful spy or contact to thieves tools or gear.`
+`If resource pools are raw capabilities, assets are specific uses and creations. Their form in the narrative is flexible. An espionage asset could represent anything from a helpful spy or contact to thieves tools or gear.`
 
 ## Action Dice
 
@@ -75,15 +77,15 @@ There are nine different location cards in play during a game, three in each of 
 
 | The Empire | Red Bank | The Settled Lands |
 | :---: | :---: | :---: |
-| <img src="rules_images/defensive-wall.png" width="100" height="100" /> | <img src="rules_images/holy-oak.png" width="100" height="100" /> | <img src="rules_images/water-mill.png" width="100" height="100" /> |
+| <img src="rules_images/defensive-wall.png" width="100" height="100" /> | <img src="rules_images/holy-oak.png" width="100" height="100" /> | <img src="rules_images/water-mill.png" width="100" height="100"/> |
 
-<img src="rules_images/sample_location.png"/>
+<img src="rules_images/sample_location.png" width="605" height="432"/>
 
-### Name
+### Location Name
 
 Each location card has a unique name listed at the top.
 
-### Tags
+### Location Tags
 
 Location cards have a variety of tags, mostly used by other card effects. All locations have one of the following tags: urban, rural, or wilderness. Additional tags include: eldritch, vault, tavern, port, and hall.
 
@@ -91,7 +93,7 @@ Along with the tags are one or more icons, as follows:
 
 | Empire | Red Bank | Settled Lands | Starting | Sorcery Threat | Military Threat | Technology Threat | Discord |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="rules_images/defensive-wall.png" width="100" height="100" /> | <img src="rules_images/holy-oak.png" width="100" height="100" /> | <img src="rules_images/water-mill.png" width="100" height="100" /> | <img src="rules_images/stack.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/backstab.png" width="100" height="100" /> |
+| <img src="rules_images/defensive-wall.png" width="100" height="100"/> | <img src="rules_images/holy-oak.png" width="100" height="100" /> | <img src="rules_images/water-mill.png" width="100" height="100" /> | <img src="rules_images/stack.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100"/> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/backstab.png" width="100" height="100" /> |
 
 * **Empire** - Imperial location, in the Empire locations deck and playable to the Empire region
 * **Red Bank** - Red Bank location, in the Red Bank locations deck and playable to the Red Bank region
@@ -104,13 +106,13 @@ Along with the tags are one or more icons, as follows:
 
 ### Create Asset Skill
 
-The upper right of each location card shows the skill icon used for the **Create Asset** action. Creating assets moves resource dice from resource pools onto a location card.
+The upper right of each location card shows the character [**skill**](#skills) used for the [**create asset**](#create-asset) action. Creating assets moves resource dice from resource pools onto location cards.
 
 ### Movement Costs
 
-Along the bottom of each card are movement costs for each region. A player spends the listed number of action dice (the value of the dice do not matter) to move their character to any location in that region.
+Along the bottom of each card are [**movement**](#move) costs for each region. A player spends the listed number of action dice, the value of the dice do not matter, to move their character to any location in that region.
 
-### Effect Icon (Optional)
+### Location Effect Icon (Optional)
 
 The upper left of each location card may contain optional icons indicating various effects.
 
@@ -131,23 +133,26 @@ The upper left of each location card may contain optional icons indicating vario
 
 Locations may have a variety of effect text as well. This text applies to any character at the location, or in some cases moving to the location. Most location text includes one of the following icons:
 
-| Starting Obstacle | Action |
-| :---: | :---: |
-| <img src="rules_images/up-card.png" width="100" height="100" /> | <img src="rules_images/cube.png" width="100" height="100" /> |
+| Starting Obstacle | Action | Activation |
+| :---: | :---: | :---: |
+| <img src="rules_images/up-card.png" width="100" height="100"/> | <img src="rules_images/cube.png" width="100" height="100"/> | <img src="rules_images/arrow-right.png" width="100" height="100" /> |
 
 * **Starting Obstacle**: When this location is put into play, attach the listed obstacle(s) to it
-* **Action**: By spending an action die (value doesn't matter), players may take the listed action
+* **Action**: By spending an action die (value doesn't matter), players may take the listed [**location action**](#location-action)
+* **Activation**: This text takes effect if this location is activated during the [**activation**](#activation) phase
 
 ## Progress Cards
 
 Progress cards are the main path to victory. Completing progress cards allows players to improve the progress tracks for Red Bank. Progress cards are completed by placing asset dice on them, creating an unbroken path from the starting position (the square with the diamonds on top) to the ending position (the square with diamonds on the bottom). From the starting position, dice are placed either orthogonally or diagonally in a chain towards the ending position. Typically there are many such paths from beginning to end which may be taken.
 
-Asset dice may be moved from the character's location onto the progress card. This does not require an action. Most progress card squares have restrictions on dice that may be placed there. These restrictions are depicted by colors and symbols on each square. Symbols include:
+Asset dice may be moved from the character's location onto the controlling player's progress card. This does not require an action. Most progress card squares have restrictions on dice that may be placed there. These restrictions are depicted by colors and symbols on each square. Symbols include:
 
 * **Solid Colors**: Dice of the corresponding resource color must be placed there. Solid white squares are wildcards, and dice of any resource type and value may be placed there 
 * **Dice Faces**: Dice matching the value must be placed there. If the die has a color, the color *and* value of the die must match. White dice must match the value, but may be of any resource type
 * **Region Symbol**: Players may place assets of any resource type and value there, provided the character is in the region depicted. If the region symbol has a color, the character must be in a location matching the region and resource type
 * **+1, -1, =**: The die placed must match the given relation to the previous die in the chain. The +1 die must be one higher in value than the previous die in the chain, the -1 die must be one lower, and the = die must be equal
+
+<img src="rules_images/sample_progress.png"  width="432" height="605"/> <img src="rules_images/sample_progress_back.png"  width="432" height="605"/>
 
 ### Reward
 
@@ -157,12 +162,6 @@ When a progress card is completed, the resource progress track listed on the bot
 | :---: |
 | <img src="rules_images/swap-bag.png" width="100" height="100" /> |
 
-### Obstacle Location
-
-The lower right section of each progress card shows a location position, used during the **Obstacles** phase.
-
-<img src="rules_images/sample_progress.png"/>
-
 ### On Two Fronts Example
 
 The first square shows an icon for *Red Bank*. In order to put an asset die in this square, it must come from one of the three *Red Bank* locations. After the first die is place, the player has a choice: may go along the diagonal by placing a value five die of any resource type (white dice can be of any resource type), or place an espionage die (espionage dice are red) of any value below the starting position. The shortest path to the end is along the diagonal, but it is usually more difficult to match a particular die value.
@@ -171,25 +170,27 @@ Assuming the player places a five die, the next choice is continuing along the d
 
 Upon placing the die in the ending square, the progress card is completed. All of the resource dice are discarded and the military progress track is increased by one.
 
+### Obstacle Location
+
+The lower right section of each progress card shows a location position, used during the [**new obstacles**](#new-obstacles) and [**obstacle surge**](#obstacle-surge) phases.
+
 ### Stages and Difficulty
 
-The back of each progress card show the current stage and a difficulty for the stage, shown by a number of stars. These stars come into play when drawing obstacles in the **Obstacles** phase.
+The back of each progress card show the current stage and a **difficulty** for the stage, shown by a number of stars. These stars come into play when drawing obstacles in the [**new obstacles**](#new-obstacles) phase.
 
 Progress cards are separated and grouped by stage. All the stage one cards are shuffled together, the stage two cards are shuffled together, etc. Players progress through stages as the game goes on. Over the course of the campaign, the lower stage cards are burned (removed from the campaign) such that later games in the campaign begin with the progress deck in later stages.
 
-<img src="rules_images/sample_progress_back.png"/>
-
 ## Obstacle Cards
 
-There is one deck of obstacle cards for each region (*The Empire*, *Red Bank*, and the *Settled Lands*). Over the course of the campaign, obstacle cards may move between decks, and decks may grow or shrink based on campaign events. Obstacle cards come into play during the **Obstacles** phase, causing effects which are usually negative for the characters and *Red Bank*.
+There is one deck of obstacle cards for each region (*Empire*, *Red Bank*, and the *Settled Lands*). Over the course of the campaign, obstacle cards may move between decks, and decks may grow or shrink based on campaign events. Obstacle cards come into play during the [**new obstacles**](#new-obstacles) and [**obstacle surge**](#obstacle-surge) phases, causing effects which are usually negative for the characters and *Red Bank*.
 
-<img src="rules_images/sample_obstacle.png"/>
+<img src="rules_images/sample_obstacle.png" width="432" height="605"/> <img src="rules_images/sample_obstacle_back.png" width="432" height="605"/>
 
-### Name
+### Obstacle Name
 
 Every obstacle card has a name, although they are not all unique. There are multiple copies of some obstacles.
 
-### Tags
+### Obstacle Tags
 
 Below the name, as for location cards, are a set of text tags and icons for each obstacle. Similarly to locations, these text tags may interact with other obstacle cards, location effects, and character abilities.
 
@@ -214,34 +215,34 @@ The upper left of the obstacle shows its difficulty from 1 to 6. This comes into
 
 ### Region
 
-Below the difficulty is a region symbol. This shows which region deck the obstacle starts in. However, it is possible for obstacles to move to a different region deck.
+Below the difficulty is a region symbol. This shows which region deck the obstacle starts in. It is possible for obstacles to move to a different region deck.
 
 ### Threats
 
-Along the right side of the obstacle are one or more threat icons, showing one of the six resources in the game. If there are *three* or more obstacles in play with the same obstacle symbol during the **Threats** phase, the threat track will increase.
+Along the right side of the obstacle are one or more threat icons, showing one of the six resources in the game. If there are *three* or more obstacles in play with the same obstacle symbol during the [**threats**](#threats) phase, the related threat track will increase.
 
 ### Effect
 
 Many obstacles have text that details game effects while the obstacle is in play. Text may be preceded by the following symbols:
 
-| Activated | Overcome |
+| Activation | Overcome |
 | :---: | :---: |
 | <img src="rules_images/arrow-right.png" width="100" height="100" /> | <img src="rules_images/wide-arrow-dunk.png" width="100" height="100" /> |
 
-* **Activated**: This text takes effect if this obstacle is activated during the **Activation** phase
-* **Overcome**: This text takes effect if the obstacle is overcome using the **Overcome Obstacle** action
+* **Activation**: This text takes effect if this obstacle is activated during the [**activation**](#activation) phase
+* **Overcome**: This text takes effect if the obstacle is overcome using the [**overcome obstacle**](#overcome-obstacle) action
 
-### Skill
+### Overcome Skill
 
-This character skill is used during the **Overcome Obstacle** action.
+This character skill is used during the [**overcome obstacle**](#overcome-obstacle) action.
 
 ### Attack
 
-Each obstacle may inflict psyche stress, body stress, or both. Each symbol in the lower left of the obstacle indicates one stress of the particular type. This may occur as part of the **Overcome Obstacle** action.
+Each obstacle may inflict psyche stress, body stress, or both. Each symbol in the lower left of the obstacle indicates one stress of the particular type. This may occur as part of the [**overcome obstacle**](#overcome-obstacle) action.
 
 ### Defense
 
-To remove an obstacle from play (overcome the obstacle), players need to spend specific action dice matching the listed dice in the lower right of the obstacle during the **Overcome Obstacle** action.
+To remove an obstacle from play (overcome the obstacle), players need to spend specific action dice matching the listed dice in the lower right of the obstacle during the [**overcome obstacle**](#overcome-obstacle) action.
 
 ### Season Sybmol
 
@@ -251,15 +252,13 @@ The back of each obstacle card shows one of four season symbols, as follows:
 | :---: | :---: | :---: | :---: |
 | <img src="rules_images/sprout-disc.png" width="100" height="100" /> | <img src="rules_images/sunrise.png" width="100" height="100" /> | <img src="rules_images/oat.png" width="100" height="100" /> | <img src="rules_images/frozen-orb.png" width="100" height="100" /> |
 
-Since there are three obstacle decks, one for each region, there are 0 to 3 symbols of a particular type showing at any time. This affects which locations get activated during the **Activation** phase, which seasonal event card comes into play during the **Seasonal Events** phase, as well as how many turns players get each season.
-
-<img src="rules_images/sample_obstacle_back.png"/>
+Since there are three obstacle decks, one for each region, there are 0 to 3 symbols of a particular type showing at any time. This affects which locations get activated during the [**activation**](#activation) phase, which seasonal event card comes into play during the [**seasonal event**](#seasonal-event) phase, as well as how many turns players get each season.
 
 ## Seasonal Event Cards
 
 At the beginning of each turn a seasonal event card comes into play, based on the number of season symbols showing on the obstacle decks. There is one seasonal event card for each possible number of symbols between 0 and 4. Typically the seasonal events with lower numbers have more desirable effects for players.
 
-<img src="rules_images/sample_event.png"/>
+<img src="rules_images/sample_event.png" width="605" height="432"/>
 
 ### Season Symbol
 
@@ -273,19 +272,23 @@ The number in the upper left matches the number of season symbols of that type i
 
 The trade board tracks time, progress tracks, threat tracks, holds resource dice, and contains spots for progress cards and seasonal events.
 
-<img src="rules_images/trade_board.png"/>
+<img src="rules_images/trade_board.png" width="879" height="670"/>
 
 ### Resource Pools
 
 There are six resource pools on the trade board. At the end of each turn, players refill these pools to a number of dice equal to the value shown on the progress marker (1-6 dice). When refilling resource pools, dice already in the pool are *not* rerolled.
 
-### Progress and Threat Tracks
+### Progress and Threat Tracking
 
-Both progress and threats are tracked on each resource track. Red cubes are used to track Red Bank's progress and gray cubes are used to track the current threat level in that area.
+Both progress and threats are tracked on the resource tracks. Red cubes are used to track Red Bank's progress and gray cubes are used to track the current threat level for that resource.
 
-### Create Asset Slots
+### Resource Action Slots
 
-On each resource pool are numbered **Create Asset Slots** from 0 to 6. These are used by characters to retrieve resource dice from each pool using the **Create Asset** action.
+On each resource pool are numbered **resource action slots** from 0 to 6. These are used by characters to retrieve resource dice from each pool using the [**create asset**](#create-asset) action as well as to trade resources using the [**trade**](#trade) action.
+
+### Resource Bonus
+
+When Red Bank's progress track for a resource is at or beyond the '+' symbol on the resource track, players gain the mechanical benefit for described in the resource box. These are further clarified in the [**resource bonuses**](#resource-bonuses) section.
 
 ### Wheel of Seasons
 
@@ -297,67 +300,111 @@ Years may be tracked on the trade board, starting at year one and ending at year
 
 ### Progress
 
-In order to win, players must complete **progress cards**. Each progress card allows the players to make progress on one or more resource tracks. During play, there are four progress cards displayed face up on the trade board. When players complete one progress card, they select the next one from the four available cards. This is described in more detail below.
+In order to win, players must complete [**progress cards**](#progress-cards). Each progress card allows the players to make progress on one or more resource tracks. During play, there are four progress cards displayed face up on the trade board. When players complete one progress card, they select the next one from the four available cards. This is described in more detail below.
 
 ## Location Board
 
 Obstacles, locations, and characters are put into play on the location board.
 
-<img src="rules_images/location_board.png"/>
+<img src="rules_images/location_board.png" width="721" height="363"/>
 
 ### Regions
 
 The location board is broken up into three regions, from left to right: *The Empire*, *Red Bank*, and *The Settled Lands*.
 
-### Locations and Resource Slots
+### Location Resources
 
-Each region has a space to place three locations. Each space has a matching **location resource slot**. When placing locations on the location board, cover the region symbol and leave the resource slot symbol showing. The resource slot is used during the **create asset** action.
+Each region has a space to place three locations. Each location space has an associated **location resource**. When placing locations on the location board, cover the region symbol and leave the resource symbol showing. The location resource is used during the [**create asset**](#create-asset) action.
 
-`There is one location resource slot for each resource track with a victory condition, and two for the other three resources.`
+`There is one location resource slot for each resource with a victory condition, and two for the other three resources.`
 
-### Obstacle Draw Decks
+### Obstacle Draw and Discard Decks
 
-TBD
-
-### Obstacle Discard
-
-TBD
+At the top of each region are spots to place the obstacle draw deck and obstacle discard piles.
 
 ### In Play Obstacles
 
-TBD
+To the right of each location is space to place any obstacles in play at that location. Locations may have any number of obstacles in play.
+
+`Although any number of obstacles may be in play, the more obstacles there are, the more chance for threats, so typically players are incentivized to not let obstacles get out of hand.`
 
 ### Activation Icons
 
-TBD
+In the space where obstacles are played are season icons used during the [**activation**](#activation) phase. Obstacles and locations with activation icons on them are activated if the symbols here match the top obstacle draw card in the region.
 
 ## Character Sheet
 
-<img src="rules_images/sample_character.png"/>
+There are separate character sheets for the seven characters in the game. At the start of the campaign, *Fuscus*, *Thea*, *Menas*, and *Keel* are unlocked. The other characters may be unlocked by overcoming specific obstacles.
+
+<img src="rules_images/sample_character.png" width="636" height="411"/>
 
 ### Skills
 
-TBD
+The upper left of the character sheet describes how proficient the character is at a set of six skills:
 
-### Abilities
+| Command | Disguise | Lore | Rapport | Combat | Tactics | Thievery | Survival |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="rules_images/crown.png" width="100" height="100" /> | <img src="rules_images/domino-mask.png" width="100" height="100" /> | <img src="rules_images/enlightenment.png" width="100" height="100" /> | <img src="rules_images/shaking-hands.png" width="100" height="100" /> | <img src="rules_images/diamond-hilt.png" width="100" height="100" /> | <img src="rules_images/axe-sword.png" width="100" height="100" /> | <img src="rules_images/skeleton-key.png" width="100" height="100" /> | <img src="rules_images/camping-tent.png" width="100" height="100" /> |
 
-TBD
+Skills are ranked from 0 (no bubbles filled in) to 6. Skills are used in many actions: [**overcoming obstacles**](#overcome-obstacle), [**creating assets**](#create-asset), and [**trade**](#trade). They are raised by overcoming obstacles that have a difficulty higher than the character's skill.
 
 ### Stress
 
-TBD
+There are two stress tracks: one for psyche and one for body. Psyche is tracked with a blue die, and body is tracked with a red die. At the start of a game, each die is set at the top of each track, to the face shown on the stress track. These dice function as counters. As a character takes stress, the die is lowered in value.
+
+If a character takes stress such that the tracking die would go to zero, it is set back to the maximum for that track, but moved down to the **first unmarked** box on the stress track.
+
+`For instance, Lucia starts the game with her psyche stress tracking die set to 3. She takes 1 psyche stress trying to overcome an obstacle. Now it is set to 2. After that, she takes 4 psyche stress when a particularly bad obstacle activates. The player moves the stress die one position down (to the *Distracted* space) and resets it to 3. Typically you can't move more than one position down on the track!`
 
 ### Conditions
 
-TBD
+The stress track boxes below the starting position are called **conditions**. When the stress die moves on to one of these, cross it off. The first stress box below the starting position unlocks a [**commitment**](#commitment) ability when it is checked off. The remaining two unlock [**discord**](#discord) effects.
 
-### Motivation
+Conditions are recovered at the end of each game, during the [**recover conditions**](#recover-conditions) step.
 
-TBD
+If a condition box is already checked off when the stress die is moved down, **it is skipped**! Move the die down to the next open box. Characters only recover one condition on each track at the end of the game, so conditions could accumulate. Unlocking more characters and swapping them out between games is one way to minimize this.
 
-### Discord
+### Knocked Out
 
-TBD
+If either stress track moves off the bottom (the die goes to zero while at *Shaken* or *Wounded*), the character is **knocked out**. They are no longer in the game for the remainder of the session. Take their token off the board.
+
+`This is pretty rare, and to some extent players have control over this happening. Still, not sure if knocking out a character completely is the right approach here.`
+
+### Abilities
+
+Abilities are available to use at any time. Typically abilities are fueled by using dice. Players are free to use action dice, asset dice at the character's location, or resource dice from the location's associated resource pool. Some abilities are used by taking a point of psyche or body stress.
+
+Like progress cards, abilities with a specific die value require using a die of that value. Abilities with a white box may be used with any die.
+
+Most abilities generate or modify dice. The generated die has the same type as the die used to activate the ability. For instance, Lucia has the ability to turn a 1 die into a 2 die. If a 1 action die is used for this ability, a 2 action die is generated. If a 1 die from the location's resource pool where Lucia is at is used, then a 2 is put back into that resource pool.
+
+Leave any dice on character abilities until the [**refresh**](#refresh) phase. Essentially, character abilities that take dice may only be used once per turn. Abilities that take stress may be used many times.
+
+### Sample Abilities
+
+<img src="rules_images/hearts.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/cubes.png" width="75" height="75" />
+
+Take one body stress to reroll any dice in one target pool. This can be any action dice, any asset dice where the character is located, or any dice in the location's resource pool where the character is located. Players do not have to reroll all the dice, they can choose which dice to reroll.
+
+<img src="rules_images/dice-six-faces-one.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/dice-six-faces-two.png" width="75" height="75" />
+
+Turn a value 1 die into a value 2 die. Most characters have a "turn die X into die Y" ability. As usual, the die can come from the player's action dice, from an asset die where the character is located, or from the location's resource pool where the character is located. The new die is of the same type as the die placed on the ability.
+
+<img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" />
+
+These abilities are activated by placing an action die, an asset from where the character is at, or a resource die from the location's resource pool where the character is located. There are a wide variety of possible character effects.
+
+See the [**character appendix**](#character-appendix) for a more detailed breakdown of character abilities.
+
+### Commitment Abilities
+
+When a character marks off the first condition box, they gain a commitment ability. Some stress is a good thing! Commitment abilities work just like other character abilities. These are unlocked in order, from top to bottom.
+
+`Since there are only two conditions with commitment, it's usually not possible for a character to gain more than two commitment abilities in one session.`
+
+### Discord Effects
+
+Too much stress, though, is terrible.
 
 # Campaign Setup
 
@@ -467,7 +514,7 @@ A turn in *Six Winters* is composed of the following phases.
 3. Refill
 4. Activation
 5. New Obstacles
-6. Threats
+6. Threat Tracks
 7. Obstacle Surge
 8. Advance Time
 
@@ -483,9 +530,11 @@ The action phase is the main part of each turn. During the actions phase, player
 
 Character abilities are normally used during this phase as well.
 
-## Refill
+## Refresh
 
 Dice are rolled and added to each resource pool until there are a number of dice matching the progress number for that pool. Do not reroll any resource dice already in the pool, and do not remove any dice if there are more dice in the pool than the progress number indicates.
+
+Remove any dice on character, commitment, or discord effects.
 
 ## Activation
 
@@ -505,7 +554,7 @@ To place an obstacle:
 
 There will now be a number of open positions in the progress staging area equal to the current stage difficulty. After placing obstacles, slide down any remaining progress cards so they fill the lowest staging area positions, and refill any open progress staging card positions at the top by drawing from the progress deck.
 
-## Threats
+## Threat Tracks
 
 Raise each threat track by one for every matching threat symbol on obstacle cards beyond two. For instance, if there are 4 military thret icons on the obstacle cards, the military threat track will increase by 2. If there are 3 diplomacy threat icons on obstacles, the diplomacy threat track will increase by 1, etc.
 
@@ -564,7 +613,7 @@ Trade works similarly to creating assets, although it allows players to move res
     * When a die is moved from one resource pool to another, it changes type
     * Dice from the sorcery pool may move into any other resource pool, but no resource may by converted to sorcery dice
 
-## Overcome
+## Overcome Obstacle
 
 Overcome allows players to discard obstacles from the location board where their character is located. To overcome an obstacle, dice must be placed on the obstacle matching the dice values in the defense pattern. This is done by:
 
@@ -604,6 +653,8 @@ Some locations allow characters there to spend an action die to perform the list
 
 # Session End
 
+At the end of each session, complete the following steps:
+
 1. Burn Obstacles
 2. Unlock New Obstacles
 3. Shuffle Obstacle Decks
@@ -614,21 +665,27 @@ Some locations allow characters there to spend an action die to perform the list
 
 ## Burn Obstacles
 
-TBD
+In each region's obstacle discard pile, burn the obstacle card on the bottom the discard deck. That is, the first obstacle discarded.
 
 ## Unlock New Obstacles
 
-TBD
+For each threat track, unlock obstacle cards with the given threat icon of a difficulty less than or equal to the threat level. Place the unlocked obstacled cards in the region discard pile matching the region symbol of each obstacle.
 
 ## Shuffle Obstacle Decks
 
-TBD
+For each region, shuffle the obstacle discards with the draw decks and form new draw decks.
+
+## Burn Locations
+
+In each region, burn the location card with the most attached obstacles. If there is a tie, choose the location card.
+
+Place any attached obstacles from the burned location **on top** of the associated region draw deck in any order desired.
 
 ## Unlock New Locations
 
-TBD
+Shuffle each region's location deck and draw two locations from each. Choose one to put into play in e 
 
-## Recover Unlocked Characters
+## Recover Conditions
 
 TBD
 
@@ -641,6 +698,34 @@ TBD
 1. Calculate Victory Points
 
 # Sample Turn
+
+TBD
+
+# Resource Bonuses
+
+TBD
+
+## Support
+
+TBD
+
+## Technology
+
+TBD
+
+## Espionage
+
+TBD
+
+## Military
+
+TBD
+
+## Diplomacy
+
+TBD
+
+## Sorcery
 
 TBD
 
