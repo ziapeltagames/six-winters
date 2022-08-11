@@ -528,15 +528,27 @@ Gather the four seasonal event cards for the current season. Put the seasonal ev
 
 ## Actions
 
-The action phase is the main part of each turn. During the actions phase, players spend their action dice to perform actions. Actions may be taken in any order by any player. When no players have any more action dice, the actions phase is complete. See **Actions** below for a detailed explanation of all possible actions.
+The action phase is the main part of each turn. During the actions phase, players spend their action dice to perform actions. Actions may be taken in any order by any player. When all players are done spending action dice, the actions phase is complete. See **Actions** below for a detailed explanation of all possible actions.
+
+Up to **three** action dice may be kept for next turn. The rest are discarded. It's generally wise to use as many action dice as possible.
 
 Character abilities are normally used during this phase as well.
 
+### Solo Actions
+
+When playing solo, action dice may be used for *either* character's actions, as desired.
+
 ## Refresh
 
-Dice are rolled and added to each resource pool until there are a number of dice matching the progress number for that pool. Do not reroll any resource dice already in the pool, and do not remove any dice if there are more dice in the pool than the progress number indicates.
+Resource dice are rolled and added to each resource pool until there are a number of dice matching the progress number for that pool. Do not reroll any resource dice already in the pool, and do not remove any dice if there are more dice in the pool than the progress number indicates.
 
-Remove any dice on character, commitment, or discord effects.
+Next, each player gets **five** new action dice, rolling them and adding them to any action dice kept from the previous phase (up to three may be kept).
+
+Finally, remove any dice on character or commitment abilities.
+
+### Solo Refresh
+
+If playing solo, take **seven** action dice instead. May only save up to three action dice from the previous phase, as normal.
 
 ## Activation
 
@@ -566,7 +578,7 @@ If a threat track is already at the highest position (step 12 on the track), inc
 
 ## Obstacle Surge
 
-In a three player game, place one more obstacle in play, following the **New Obstacles** steps above. In a four player game, place two new obstacles following the **New Obstacles** steps.
+In a three player game, place one more obstacle in play, following the **new obstacles** steps above. In a four player game, place two new obstacles following the **new obstacles** steps.
 
 `Three and four player games have more obstacles, but they come out after determining threats.`
 
