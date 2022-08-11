@@ -404,7 +404,9 @@ When a character marks off the first condition box, they gain a commitment abili
 
 ### Discord Effects
 
-Too much stress, though, is terrible.
+Too much stress, though, is terrible. When either of the bottom two condition boxes are marked on the stress boxes, characters take a discord effect. The discord effects are also unlocked from top to bottom. Most discord effects require the player to write in something, such as a character name, a resource, or some other detail. These choices will make some characters unwilling to work as closely with certain characters. Choose carefully!
+
+See the [**character appendix**](#character-appendix) for a more detailed breakdown of discord effects.
 
 # Campaign Setup
 
@@ -540,7 +542,7 @@ Remove any dice on character, commitment, or discord effects.
 
 Starting with the Empire region, and ending with the Settled Lands, activate locations and obstacles based on the season symbol showing for that region. The spring symbol activates the top location card and any attached obstacles are activated, the summer symbol activates the middle location and obstacles, the fall symbol activates the bottom location and obstacles, and the winter symbol activates *all* locations and obstacles in the region.
 
-Follow any activated effect text on activated locations and obstacles.
+Follow any activation effect text on activated locations and obstacles. Make sure to check for resource effect icons on location cards, which create an asset at the location.
 
 ## New Obstacles
 
@@ -683,19 +685,52 @@ Place any attached obstacles from the burned location **on top** of the associat
 
 ## Unlock New Locations
 
-Shuffle each region's location deck and draw two locations from each. Choose one to put into play in e 
+For each region, shuffle the region's location deck and draw two locations. Choose one card from each region deck to put into play, placing the location in the appropriate region. Players may look at all six cards before making decisions on what locations to use for next session.
 
 ## Recover Conditions
 
-TBD
+Each unlocked character recovers the first (the one closest to the starting stress position) marked condition box on each track. Erase the mark on this condition. More severe conditions, like *Wounded*, could be difficult to clear if character's are frequently marking multiple conditions!
+
+Note that **all** unlocked characters recover one condition on each stress track, even if they weren't active for this session. This is a way to let badly stressed characters have some extra recovery.
 
 ## Advance Year
 
-TBD
+The year advances by one. If this is year six, the campaign is over, move on to [**campaign end**](#campaign-end).
+
+## Store Game
+
+For *Tabletop Simulator*, this is probably straightforward. In the real game, decks will have to be stacked in such a way that they are easy to recover again.
 
 # Campaign End
 
-1. Calculate Victory Points
+As described in [**victory**](#victory), check for victory as follows:
+
+* **Pyrrhic Victory**: Red Bank has completed one of Diplomacy, Support, or Espionage.
+* **Major Victory**: Red Bank has completed any two of Diplomacy, Support, or Espionage.
+* **Total Victory**: Red Bank has completed all of Diplomacy, Support, and Espionage.
+
+Players get 1 point for a pyrrhic victory, 3 points for a major victory, and 6 points for a total victory. Additionally, players get 1 points for every non-victory (Technology, Military, and Sorcery) resource track in which Red Bank's progress is higher than the threat marker.
+
+Finally, multiply the total points by the difficulty to find your score:
+
+* **Cakewalk**: x1
+* **Standard**: x2
+* **Difficult**: x3
+* **Impossible**: x4
+
+| Score | Result |
+| :-- | :-- |
+| 1 | Achievement: Acolyte of Six Winters |
+| 2-5 | Achievement: Novice of Six Winters |
+| 6-10 | Achievement: Adept of Six Winters |
+| 11-15 | Achievement: Initiate of Six Winters |
+| 16-20 | Achievement: Disciple of Six Winters |
+| 21-25 | Achievement: Master of Six Winters |
+| 26-30 | Achievement: Superior Master of Six Winters |
+| 30-35 | Achievement: Grand Master of Six Winters |
+| 36 | Achievement: Autarch of Six Winters |
+
+`My plan is to eventually have some fiction and character epilogues around these different win conditions. That could be a fun thing to do per session as well, but there's already a lot going on.`
 
 # Sample Turn
 
@@ -738,5 +773,9 @@ TBD
 TBD
 
 # Location Appendix
+
+TBD
+
+# FAQ
 
 TBD
