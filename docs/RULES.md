@@ -239,7 +239,7 @@ This character skill is used during the **Overcome Obstacle** action.
 
 Each obstacle may inflict psyche stress, body stress, or both. Each symbol in the lower left of the obstacle indicates one stress of the particular type. This may occur as part of the **Overcome Obstacle** action.
 
-### Defend
+### Defense
 
 To remove an obstacle from play (overcome the obstacle), players need to spend specific action dice matching the listed dice in the lower right of the obstacle during the **Overcome Obstacle** action.
 
@@ -527,15 +527,17 @@ The final step of the turn is to advance the seasonal time marker. Only advance 
 
 # Actions
 
-Spending action dice to take actions makes up the core of *Six Winters*. Most character abilities are used during this phase, by manipulating action dice, assets, or resource pool dice.
+Spending action dice to take actions makes up the core of *Six Winters*. Most character abilities are used during this phase, by manipulating action dice, assets, or resource pool dice. Players may only take actions at the location where their character is currently at.
 
-* Movement
+* Move
 * Create Asset
 * Trade
 * Overcome
 * Location Action
 
-## Movement
+`If playing solo, may take actions at either character location.`
+
+## Move
 
 Every location card lists action dice costs for traveling to each region in the game. To move to a different location, spend a number of action dice equal to the amount indicated for the destination location's region. The value of the action dice don't matter.
 
@@ -564,11 +566,37 @@ Trade works similarly to creating assets, although it allows players to move res
 
 ## Overcome
 
-Overcome allows players to discard obstacles from the location board. It is detailed below.
+Overcome allows players to discard obstacles from the location board where their character is located. To overcome an obstacle, dice must be placed on the obstacle matching the dice values in the defense pattern. This is done by:
 
 1. Approach
 2. Defend
 3. Overcome
+
+### Approach
+
+May place a number of action dice on the obstacle, up to the character's skill value for the obstacle. If the character has a skill of 0 for the obstacle, no dice may be placed on approach.
+
+If, after this step, the obstacle has dice on it matching the defense pattern, it is immediately overcome. Skip the defend step and move on to overcome.
+
+### Defend
+
+All remaining action dice for the character are rerolled. If the character's skill is equal to or higher than the obstacle's difficulty, the character successfully defends if any rerolled action dice are 3 or less. Otherwise, the character successfully defends if any rerolled action dice are 1.
+
+If the character doesn't successfully defend, they take the amount of stress listed for the obstacle's attack.
+
+### Overcome
+
+Any of the action dice used to defend may be placed on the obstacle to help overcome it. If, after this stage, the obstacle has dice on it matching its defense, it is overcome. When an obstacle is overcome, it is discarded to the current region's discard deck. Some obstacles have other effects when they are overcome, as indicated with an overcome icon.
+
+Finally, if the character's skill for the obstacle is less than the difficulty, **they may increase their skill by one**. Characters improve their skills by overcoming difficult obstacles.
+
+If the obstacle doesn't have dice on it matching the pattern, leave any dice on it. Further dice may be added with more overcome actions on the same or future turns.
+
+### Teamwork
+
+Multiple characters may work together to overcome an obstacle, provided of course they are at the same location where the obstacle is. In this case, both players may add dice and check for success during the approach. Both characters will defend if *either* player successfully defends, and both players may overcome the obstacle. 
+
+Either or both characters may increase their skills, as long as the character's skill is less than the obstacle's difficulty as normal.
 
 ## Location Action
 
@@ -584,6 +612,46 @@ Some locations allow characters there to spend an action die to perform the list
 6. Recover Unlocked Characters
 7. Advance Year
 
+## Burn Obstacles
+
+TBD
+
+## Unlock New Obstacles
+
+TBD
+
+## Shuffle Obstacle Decks
+
+TBD
+
+## Unlock New Locations
+
+TBD
+
+## Recover Unlocked Characters
+
+TBD
+
+## Advance Year
+
+TBD
+
 # Campaign End
+
+1. Calculate Victory Points
+
+# Sample Turn
+
+TBD
+
+# Character Appendix
+
+TBD
+
+# Obstacle Appendix
+
+TBD
+
+# Location Appendix
 
 TBD
