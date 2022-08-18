@@ -3,14 +3,27 @@
 * Add location or obstacle effects for burning or discarding obstacles
 * Combos on left side of character cards
    * 3 3 3 3 --> improve any resource track
+      * This isn't a good idea, it subverts progress cards, effects should be distinct
    * 3 4 5 --> 5 dice
+      * Straight to big combo could be fun
    * 3 3 --> 1 2 3
+      * Set to Straight combos could feature in progress cards
 * Customizable character abilities
-   * Write in resources you can create?
+   * Write in resources you can create or trade into?
    * May move to the location where XYZ is located
 * Make sure mission cards have a base effect that always triggers
    * And is modified, if necessary, by situations
    * Otherwise they loose their teeth
+
+# 08/16/22
+
+## Resource Bonus Effects
+
+Going to have resource bonuses occur at fixed places on the tracks. Advantage has the same issue that the tug-of-war had for resource tracks: it really sucks to have an effect and then lose it. The "insight" sorts of effects were a cool idea, but really not desirable, because they add to decision paralysis and slow threat tracks. At the moment, threat tracks need to move quicker, not slower.
+
+Espionage bonus could be more location cards to draw from? That could really be beneficial if the default is 1 location card draw in each region. Although that's pretty brutal in terms of combos, etc. Could also do something with the espionage location, or imperial locations. Or maybe it's a full on choose location? As in, choose a location card from a region? Choose from imperial region?
+
+Feels like something with dice combos is a little more exciting, but not sure what. Chains of x -> y are better served as character abilities. Maybe something like "1" assets explode? That is, every time you create an espionage asset from a 1, you can roll another die and create another asset? That would be more fun than location digging.
 
 # 07/24/22
 

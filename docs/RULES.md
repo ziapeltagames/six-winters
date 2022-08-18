@@ -2,47 +2,51 @@
 
 *Six Winters* is a cooperative fantasy campaign game for 1-4 players based on the *Wrath of the Autarch* tabletop role-playing game.
 
-Players control **Red Bank**, a diasporic society under threat from the **Empire of the Autarch**. The Autarch is working to achieve a sorcerous apotheosis, rendering The Empire unstoppable and spelling certain doom for Red Bank. The players have six winters to stop this from happening. Each game of Six Winters is 2 to 3 hours long and plays out one year in the life of Red Bank.
+Players control **Red Bank**, a diasporic society under threat from the **Empire of the Autarch**. The Autarch is working to achieve a sorcerous apotheosis, rendering The Empire unstoppable and spelling certain doom for Red Bank. The players have six winters to stop this from happening. Each game of *Six Winters* is 2 to 3 hours long and plays out one year in the life of Red Bank.
 
 During a session of the game, players select from a rotating cast of characters to make progress against the Empire. Each character has their own unique capabilities and limitations. Effectively managing these characters over the six winters is critical to successfully stopping the Empire!
 
-`As this document is very much in progress, designer thoughts and notes are captured using this highlighted formatting. They help provide context and insights, but are not essential to understanding the game. For now, I'm capturing rules in markdown, which is not a very rich textual format, but is quick to edit, and ideal for the state the game is in. The number of helpful images and diagrams is going be minimal, because they are difficult and time consuming to create for a game that is in such a fluid state. In other words: it isn't going to be easy to understand the game from the given rules doc, but hopefully it's at least possible. More than anything, I'm interested in capturing a specific version of the rules to help weight playtesting decisions. The version number matches that used in Tabletop Simulator. Along with that, all of the graphic design and layout is only for prototype purposes and will certainly change at production time.`
+`As this document is very much in progress, designer thoughts and notes are captured using this highlighted formatting. They help provide context and insights, but are not essential to understanding the game. For now, I'm capturing rules in markdown, which is not a very rich textual format, but is quick to edit, and ideal for the state the game is in. The number of helpful images and diagrams is going be minimal, because they are difficult and time consuming to create for a game that is in such a fluid state. In other words: it isn't going to be easy to understand the game from this rules doc, but hopefully it's at least possible. More than anything, I'm interested in capturing a specific version of the rules to help with playtesting decisions. The version number matches that used in Tabletop Simulator. Along with those caveats, all of the graphic design and layout is only for prototype purposes and will certainly change at production time.`
 
 ## Resources
 
-The conflict with the Empire is over six **resources**:
+The conflict with the Empire is over six **resources**.
 
 | Support | Technology | Espionage | Military | Diplomacy | Sorcery |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | <img src="rules_images/capitol.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/cowled.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | <img src="rules_images/stone-throne.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> |
  
+`These resources are fairly abstract, compared to something like ore or timber. Not totally sure if resources is the right word here, but it's the best I've come up with so far.`
+
 ## Progress
 
-Red Bank's **progress** in those areas is marked using a red cube on each associated twelve space [**resource track**](#progress-and-threat-tracks) on the [**trade board**](#trade-board).
+Red Bank's **progress** in each resource is marked using a red cube on an associated twelve space [**resource track**](#progress-and-threat-tracks) on the [**trade board**](#trade-board).
 
 ## Threats
 
-**Threats** against Red Bank in each resource area are tracked using a gray cube on each resource track. There are ways to slow the escalation of threats and even lower threats during play.
+**Threats** against Red Bank in each resource are tracked using a gray cube on each resource track. There are ways to slow the escalation of threats and even lower threat tracks during play.
 
 `Lowering threat levels after they have advanced is much more difficult than trying to slow the rate of advancement in the first place. Completely stopping threats requires some luck.`
 
 ## Victory
 
-If the Red Bank progress marker is _alone_ on the last space of a resource track (the 12th space), that resource track is **complete**. After the sixth game, check for victory as follows:
+If a Red Bank progress marker is _alone_ on the last space of the resource track (the 12th space), that resource track is **complete**. After the sixth game, check for victory as follows:
 
 * **Pyrrhic Victory**: Red Bank has completed one of Diplomacy, Support, or Espionage.
 * **Major Victory**: Red Bank has completed any two of Diplomacy, Support, or Espionage.
 * **Total Victory**: Red Bank has completed all of Diplomacy, Support, and Espionage.
 
-Additionally, the players get bonus points for every resource track where the progress marker is higher than the threat marker.
-
 Any other state of the game after six sessions results in defeat for Red Bank.
+
+Additionally, a score is calculated at the end, with players getting points for every resource track where the progress marker is higher than the threat marker.
+
+`There are thematic reasons that Military, Technology, and Sorcery tracks don't translate to victory. It is impossible to keep pace with the Empire on the Military and Technology fronts. Sorcery is too chaotic to form a strategy around, but it's a very useful resource for some characters, and it's possible to craft and transmute sorcery into other resources. All of the resources have value and mechanical impact during the game.`
 
 # Components
 
 ## Resource Dice
 
-Each resource has a [**pool**](#resource-pools) of resource dice. At the end of each turn, players refill these pools to a number of dice equal to the value shown on the progress marker (1-6 dice).
+Red Bank's raw capability in a resource is represented by a [**pool**](#resource-pools) of resource dice. This pool of resource dice fluctates in size and value over the course of a game, as capabilities are used for different effects. At the end of each turn, players [**refresh**](#refresh) these pools with a number of dice equal to the value shown on the progress marker. This is normally 1 to 6 dice, depending on the resource.
 
 Resource dice are colored as follows:
 
@@ -53,27 +57,25 @@ Resource dice are colored as follows:
 * **Diplomacy**: Lavender
 * **Sorcery**: Blue
 
-`The dice in resource pools represent the raw capability of Red Bank in that area.`
-
 ## Assets
 
-Resource dice are not very useful in resource pools, so players will frequently move them on to [**location cards**](#location-cards) first. Resource dice placed on location cards are referred to as **assets**. Assets are freely available for characters at that location to use, most commonly to complete mission [**progress cards**](#progress-cards), although they can also be used to [**overcome obstacles**](#overcome) or fuel character [**abilities**](#abilities).
+Resource pools are not as useful as **assets**: specific creations of each resource type. These are flexible concepts in the narrative. For instance, an espionage asset could represent anything from a helpful spy or contact to thieves tools or gear.
 
-`If resource pools are raw capabilities, assets are specific uses and creations. Their form in the narrative is flexible. An espionage asset could represent anything from a helpful spy or contact to thieves tools or gear.`
+Assets are created by moving dice from resource pools onto [**location cards**](#location-cards) with the [**create asset**](#create-asset) action. Other game effects may create assets directly. Characters at the location with assets may use them to complete mission [**progress cards**](#progress-cards), as well as help [**overcome obstacles**](#overcome) or fuel character [**abilities**](#abilities).
 
 ## Action Dice
 
-Each player has a pool of red action dice available each turn. These dice are spent to perform actions in the game. For some actions, the value on the action dice doesn't matter (such as moving from one location to another), but for most actions the value is important.
+Each player has a pool of red action dice available each turn. These dice are spent to perform actions in the game. For some actions like movement, the value on the action dice doesn't matter, but for most actions the values are important.
 
-`Think of these like the action points in a game like Oath. Although the action points have values which can impact the abilitiy to take certain actions.`
+`Think of these like the action points. Although the action points have values which can impact the abilitiy to take certain actions.`
 
 ## Character Tokens
 
-There are tokens (miniatures in *Tabletop Simulator*) for each character in the campaign. These are moved around the nine different **location cards** during play.
+There are tokens, or miniatures in *Tabletop Simulator*, for each character in the campaign. These are moved around the nine different **location cards** during play.
 
 ## Location Cards
 
-There are nine different location cards in play during a game, three in each of the following regions:
+Characters move around nine different locations, represented by a grid of cards. There are three locations in each of the following regions:
 
 | The Empire | Red Bank | The Settled Lands |
 | :---: | :---: | :---: |
@@ -110,11 +112,11 @@ The upper right of each location card shows the character [**skill**](#skills) u
 
 ### Movement Costs
 
-Along the bottom of each card are [**movement**](#move) costs for each region. A player spends the listed number of action dice, the value of the dice do not matter, to move their character to any location in that region.
+Along the bottom of each card are [**movement**](#move) costs for each region. A player spends the listed number of action dice to move their character to any location in that region. The value of the action dice don't matter for movement.
 
 ### Location Effect Icon (Optional)
 
-The upper left of each location card may contain optional icons indicating various effects.
+The upper left of each location card contain optional icons indicating various effects.
 
 | Port | Magic Gate | Support Source | Technology Source | Espionage Source | Military Source | Diplomacy Source | Sorcery Source |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -182,7 +184,7 @@ Progress cards are separated and grouped by stage. All the stage one cards are s
 
 ## Obstacle Cards
 
-There is one deck of obstacle cards for each region (*Empire*, *Red Bank*, and the *Settled Lands*). Over the course of the campaign, obstacle cards may move between decks, and decks may grow or shrink based on campaign events. Obstacle cards come into play during the [**new obstacles**](#new-obstacles) and [**obstacle surge**](#obstacle-surge) phases, causing effects which are usually negative for the characters and *Red Bank*.
+Obstacle cards represent adversaries, challenges, but also opportunities for Red Bank. There is one deck of obstacle cards for each region: *The Empire*, *Red Bank*, and the *Settled Lands*. Over the course of the campaign, obstacle cards may move between decks, and decks may grow or shrink based on campaign events. Obstacle cards come into play during the [**new obstacles**](#new-obstacles) and [**obstacle surge**](#obstacle-surge) phases, causing effects which are usually negative for the characters and *Red Bank*.
 
 <img src="rules_images/sample_obstacle.png" width="432" height="605"/> <img src="rules_images/sample_obstacle_back.png" width="432" height="605"/>
 
@@ -286,9 +288,9 @@ Both progress and threats are tracked on the resource tracks. Red cubes are used
 
 On each resource pool are numbered **resource action slots** from 0 to 6. These are used by characters to retrieve resource dice from each pool using the [**create asset**](#create-asset) action as well as to trade resources using the [**trade**](#trade) action.
 
-### Resource Bonus
+### Resource Mastery Bonus
 
-When Red Bank's progress track for a resource is at or beyond the '+' symbol on the resource track, players gain the mechanical benefit for described in the resource box. These are further clarified in the [**resource bonuses**](#resource-bonuses) section.
+When Red Bank's progress track for a resource is at or beyond the **+** symbol on the resource track, Red Bank has mastery in that resource, and players gain the mechanical benefit described in the resource box. These bonuses are further clarified in the [**resource bonuses**](#resource-bonuses) section.
 
 ### Wheel of Seasons
 
@@ -426,12 +428,12 @@ The red cubes are used to track *Red Bank's* progress on each resource track. At
 
 The first step is to determine the difficulty of the campaign. Initial threat levels are based on difficulty. Place gray cubes at the appropriate position of each resource track:
 
-* **Cakewalk**: First space, on same space as red progress cubes
+* **Cakewalk**: First space, on same space as red threat progress cubes
 * **Standard**: Third space
 * **Difficult**: Sixth space
-* **Impossible**: Ninth space, only three away from the last space of the track, when particularly bad effects kick in
+* **Tragedy Incarnate**: Ninth space, only three away from the last space of the track, when particularly bad effects kick in
 
-At the standard and cakewalk difficulties, there's a very high chance of at least a pyrrhic victory. The game at those levels is more about what happens to characters along the way and the degree of success. At the difficult and impossible levels, there's a chance the players will not succeed at all.
+At the standard and cakewalk difficulties, there's a very high chance of at least a pyrrhic victory. The game at those levels is more about what happens to characters along the way and the degree of success. At the difficult and tragedy levels, there's a chance the players will not succeed at all.
 
 ## Choose Starting Locations
 
@@ -728,7 +730,7 @@ Finally, multiply the total points by the difficulty to find your score:
 * **Cakewalk**: x1
 * **Standard**: x2
 * **Difficult**: x3
-* **Impossible**: x4
+* **Tragedy Incarnate**: x4
 
 | Score | Result |
 | :-- | :-- |
@@ -748,35 +750,61 @@ Finally, multiply the total points by the difficulty to find your score:
 
 TBD
 
-# Resource Bonuses
-
-TBD
+# Resource Mastery Bonuses
 
 ## Support
 
-TBD
+May create assets from or trade using *all* the resource dice matching the value of the action die used. This makes sets of the same value in resource pools particularly easy to move around.
 
 ## Technology
 
-TBD
+All players get one additional action die at the start of each turn.
 
 ## Espionage
 
-TBD
+Whenever an espionage asset of value 2 is created, roll an additional espionage asset. Continue creating additional espionage assets until a number other than 2 is rolled.
 
 ## Military
 
-TBD
+May move any assets *from* a military location to any other location.
 
 ## Diplomacy
 
-TBD
+May trade 2 resource dice for any 1 resource die along the wheel of [**trade**](#trade). That is, 2 technology resource dice may be spent to roll a new espionage resource die, 2 espionage resource dice for a military resource die, 2 sorcery resource dice for any other resource die, etc. This may be done by any player freely at any time.
 
 ## Sorcery
 
-TBD
+Sorcery assets may be treated as any resource type or die value when playing onto progress cards. Note that the sorcery asset die value may not be changed, but rather the resource type and value restrictions are ignored.
 
 # Character Appendix
+
+## Fuscus
+
+TBD
+
+## Keel
+
+<img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/plus.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" />
+
+Choose a die and split it into two. The two dice must sum to the chosen die.
+
+## Lucia
+
+TBD
+
+## Menas
+
+TBD
+
+## Oniri
+
+TBD
+
+## Thea
+
+TBD
+
+## Yasmina
 
 TBD
 
