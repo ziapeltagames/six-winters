@@ -1,3 +1,18 @@
+# Table of Contents
+
+1. [**Components**](#components)
+2. [**Campaign Setup**](#campaign-setup)
+3. [**Session Setup**](#session-setup)
+4. [**Turns**](#turns)
+5. [**Actions**](#actions)
+6. [**Sample Turn**](#sample-turn)
+7. [**Session End**](#session-end)
+8. [**Resource Mastery Bonuses**](#resource-mastery-bonuses)
+9. [**Character Appendix**](#character-appendix)
+10. [**Obstacle Appendix**](#obstacle-appendix)
+11. [**Location Appendix**](#location-appendix)
+12. [**FAQ**](#faq)
+
 # Six Winters v19.3
 
 *Six Winters* is a cooperative fantasy campaign game for 1-4 players based on the *Wrath of the Autarch* tabletop role-playing game.
@@ -667,6 +682,10 @@ Either or both characters may increase their skills, as long as the character's 
 
 Some locations allow characters there to spend an action die to perform the listed effect. The value of this action die doesn't matter.
 
+# Sample Turn
+
+TBD
+
 # Session End
 
 At the end of each session, complete the following steps:
@@ -745,10 +764,6 @@ Finally, multiply the total points by the difficulty to find your score:
 | 36 | Achievement: Autarch of Six Winters |
 
 `My plan is to eventually have some fiction and character epilogues around these different win conditions. That could be a fun thing to do per session as well, but there's already a lot going on.`
-
-# Sample Turn
-
-TBD
 
 # Resource Mastery Bonuses
 
