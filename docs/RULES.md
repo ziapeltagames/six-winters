@@ -709,16 +709,25 @@ TBD
 At the end of each session, complete the following steps:
 
 1. Burn Obstacles
-2. Unlock New Obstacles
-3. Shuffle Obstacle Decks
-4. Burn Locations
-5. Unlock New Locations
-6. Recover Unlocked Characters
-7. Advance Year
+2. Burn Progress Cards
+3. Unlock New Obstacles
+4. Shuffle Obstacle Decks
+5. Burn Locations
+6. Unlock New Locations
+7. Recover Unlocked Characters
+8. Advance Year
+
+Instructions to **burn** cards refer to placing them out of play for the remainder of the campaign. There is no effect that brings a burned card back into play.
 
 ## Burn Obstacles
 
 In each region's obstacle discard pile, burn the obstacle card on the bottom the discard deck. That is, the first obstacle discarded.
+
+## Burn Progress Cards
+
+Gather and shuffle all of the progress cards for the lowest stage, then randomly burn twice as many as the current year. For instance, after the first game, when it is year one, 2 random stage 1 progress cards are burned. After the second game, in year two, 4 random stage 1 cards are burned. After the third game, there will be no more stage 1 progress cards, and the fourth game will start in stage 2.
+
+`This makes the campaign more difficult as the years advance. Although there are different strategies in play depending on what stage players start in. There is some advantage to going quicker through certain stages compared to others.`
 
 ## Unlock New Threat Obstacles
 
