@@ -12,6 +12,7 @@
 10. [**Obstacle Appendix**](#obstacle-appendix)
 11. [**Location Appendix**](#location-appendix)
 12. [**FAQ**](#faq)
+13. [**Playtest Focus Areas**](#playtest-focus-areas)
 
 # Six Winters v19.3
 
@@ -801,7 +802,7 @@ TBD
 
 <img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/plus.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" />
 
-Choose a die and split it into two. The two dice must sum to the chosen die.
+Choose a die and split it into two. The two dice must sum to the selected die.
 
 ## Lucia
 
@@ -834,3 +835,48 @@ TBD
 # FAQ
 
 TBD
+
+# Playtest Focus Areas
+
+Since this is a game in active development, there are some places in particular that could probably use more work.
+
+## Obstacle Campaign Arc
+
+The biggest area to watch surrounds how new obstacles are unlocked and put into the game and how (or if) obstacles are burned and taken out of the game. Having obstacles be tied to threat tracks is probably a good way to do it. Currently the starting obstacle decks have a wide variety of cards.
+
+### Obstacles Entering Play
+
+It's probably more intuitive if the starting cards have difficulties based on those threat tracks. That is, there are no higher difficulty obstacles in play until a threat track reaches the particular difficulty number.
+
+Another avenue for obstacles to enter play is via location cards. This seems okay, even though it means two modes for obstacles to enter play. This could be the main way more beneficial obstacle cards enter play.
+
+### Burning Obstacles
+
+Obstacles leaving play is also up for debate. Some options:
+
+1. No obstacles are burned
+2. Certain obstacles specify if they are burned when they're overcome
+3. Character abilities burn obstacles
+4. Some number are burned at the end of every game
+
+Initially I thought the obstacle decks would cycle quite a bit, so there was almost a deck builder aspect to the game. That hasn't really happened for a variety of reasons (mainly because of how obstacles are tied to threats). But! It still seems fun, if, like locations, they obstacle decks start one way, and slowly change over time.
+
+I'm currently leaning towards 3 or 4.
+
+## Overcoming Obstacles Options
+
+There are tons of possibilities with overcoming obstacles, and I've gone back and forth on them quite a few times. I like the idea that improving skills is tied to overcoming difficult obstacles (that used to be via progress cards), but I wonder if the difficulties of obstacles are felt enough.
+
+At some point, I had the max number of dice that could be placed during approach equal to skill - difficulty instead of just skill. This certainly made difficulty matter more, but it's fiddly. It also may make difficulty matter *too* much, because higher difficulty obstacles basically aren't able to have dice placed on them during approach, which means you're just rolling a lot, or maybe using character abilities.
+
+Could also have approach dice work a little like defense, where a skilled character (the skill is >= difficulty) can place 1 or 2 dice on approach, and an unskilled character can place 1 die on approach.
+
+The central theme of these options is the interplay between obstacle difficulty, character skill, and potential uncertainty of success.
+
+## Character Abilities
+
+There's lots of room to tune character abilities, particularly around writing customizing characters over the campaign.
+
+## Feedback
+
+If you're comfortable using github, you can also submit issues there for ideas and feedback: https://github.com/ziapeltagames/six-winters/issues
