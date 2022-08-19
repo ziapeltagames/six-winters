@@ -390,7 +390,7 @@ If either stress track moves off the bottom (the die goes to zero while at *Shak
 
 ### Abilities
 
-Abilities are available to use at any time. Typically abilities are fueled by using dice. Players are free to use action dice, asset dice at the character's location, or resource dice from the location's associated resource pool. Some abilities are used by taking a point of psyche or body stress.
+Abilities are available to use at any time during the [**actions**](#actions) phase. Typically abilities are fueled by using dice. Players are free to use action dice, asset dice at the character's location, or resource dice from the location's associated resource pool. Some abilities are used by taking a point of psyche or body stress.
 
 Like progress cards, abilities with a specific die value require using a die of that value. Abilities with a white box may be used with any die.
 
@@ -546,7 +546,7 @@ Gather the four seasonal event cards for the current season. Put the seasonal ev
 
 ## Actions
 
-The action phase is the main part of each turn. During the actions phase, players spend their action dice to perform actions. Actions may be taken in any order by any player. When all players are done spending action dice, the actions phase is complete. See **Actions** below for a detailed explanation of all possible actions.
+The action phase is the main part of each turn. During the actions phase, players spend their action dice to perform actions. Actions may be taken in any order by any player. When all players are done spending action dice and using character abilities, the actions phase is complete. See **Actions** below for a detailed explanation of all possible actions.
 
 Up to **three** action dice may be kept for next turn. The rest are discarded. It's generally wise to use as many action dice as possible.
 
@@ -796,33 +796,37 @@ Sorcery assets may be treated as any resource type or die value when playing ont
 
 ## Fuscus
 
-TBD
+### Subtract One
+
+Spend a die and gain a die of one value lower.
 
 ## Keel
 
+### Die Split Effect
+
 <img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/plus.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" />
 
-Choose a die and split it into two. The two dice must sum to the selected die.
-
-## Lucia
-
-TBD
+Spend a die and gain two dice of the same type. The two dice must sum to the spent die.
 
 ## Menas
 
-TBD
+### Exploding Threes
 
-## Oniri
+<img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/dice-fire.png" width="75" height="75" />
 
-TBD
+Spend a die to explode all value 3 dice in a chosen pool. The pools that may be selected are: your action dice, assets where Menas is located, or the location's resource dice pool where Menas is located. Take an extra die of the appropriate type for each 3 in the pool and roll them. If any of those dice roll a 3, take additional dice and roll those. Continue gaining new dice every time a 3 is rolled.
 
 ## Thea
 
-TBD
+### Rearrange Staged Achievements
 
-## Yasmina
+Spend a die to rearrange the four staged achievements in any order desired. As normal for character abilities, this may be done at any time during the actions phase. Commonly this is done when a player completes a progress card and is about to draw a new one or at the end of the actions phase to set up for future obstacle draws.
 
-TBD
+### Change Asset Type
+
+<img src="rules_images/sword-smithing.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" />
+
+Take an asset die at Thea's location, place it on the asset icon and change the resource type to something else. Keep the value the same.
 
 # Obstacle Appendix
 
@@ -838,7 +842,7 @@ TBD
 
 # Playtest Focus Areas
 
-Since this is a game in active development, there are some places in particular that could probably use more work.
+Since this is a game in active development, there are some areas in particular that could use more work.
 
 ## Obstacle Campaign Arc
 
