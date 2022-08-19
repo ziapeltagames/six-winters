@@ -14,7 +14,7 @@
 12. [**FAQ**](#faq)
 13. [**Playtest Focus Areas**](#playtest-focus-areas)
 
-# Six Winters v19.3
+# Six Winters v19.4
 
 *Six Winters* is a cooperative fantasy campaign game for 1-4 players based on the *Wrath of the Autarch* tabletop role-playing game.
 
@@ -200,7 +200,9 @@ Progress cards are separated and grouped by stage. All the stage one cards are s
 
 ## Obstacle Cards
 
-Obstacle cards represent adversaries, challenges, but also opportunities for Red Bank. There is one deck of obstacle cards for each region: *The Empire*, *Red Bank*, and the *Settled Lands*. Over the course of the campaign, obstacle cards may move between decks, and decks may grow or shrink based on campaign events. Obstacle cards come into play during the [**new obstacles**](#new-obstacles) and [**obstacle surge**](#obstacle-surge) phases, causing effects which are usually negative for the characters and *Red Bank*.
+Obstacle cards represent adversaries, challenges, but also opportunities for Red Bank. There is one deck of obstacle cards for each region: *The Empire*, *Red Bank*, and the *Settled Lands*. Over the course of the campaign, obstacle cards may move between decks, and decks may grow or shrink based on campaign events. Obstacle cards come into play at locations during the [**new obstacles**](#new-obstacles) and [**obstacle surge**](#obstacle-surge) phases, causing effects which are usually negative for the characters and *Red Bank*.
+
+Obstacle cards are unlocked at the start of the campaign and during the [**unlock new locations**](#unlock-new-locations) and [**unlock new obstacles**](#unlock-new-obstacles) game end steps.
 
 <img src="rules_images/sample_obstacle.png" width="432" height="605"/> <img src="rules_images/sample_obstacle_back.png" width="432" height="605"/>
 
@@ -212,20 +214,21 @@ Every obstacle card has a name, although they are not all unique. There are mult
 
 Below the name, as for location cards, are a set of text tags and icons for each obstacle. Similarly to locations, these text tags may interact with other obstacle cards, location effects, and character abilities.
 
-Along with the tags each obstacle has one icon, which shows how it comes into play::
+### Obstacle Unlock Icon
 
-| Starting Obstacle | Location | Support Threat | Technology Threat | Espionage Threat | Military Threat | Diplomacy Threat | Sorcery Threat |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="rules_images/stack.png" width="100" height="100" /> | <img src="rules_images/up-card.png" width="100" height="100" /> | <img src="rules_images/capitol.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/cowled.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | <img src="rules_images/stone-throne.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> |
+Along with the tags each obstacle has one icon, which shows how it becomes unlocked::
 
-* **Starting Obstacle** - This obstacle starts the campaign in one of the three regional obstacle decks, based on its region symbol
+| Location | Support Threat | Technology Threat | Espionage Threat | Military Threat | Diplomacy Threat | Sorcery Threat |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="rules_images/up-card.png" width="100" height="100" /> | <img src="rules_images/capitol.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/cowled.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | <img src="rules_images/stone-throne.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> |
+
 * **Location** - This obstacle comes into play attached to the location with the obstacle's name in its text box
-* **Support Threat** - This obstacle comes into play at the end of a session if the support threat track is increased at or above the obstacle difficult
-* **Technology Threat** - This obstacle comes into play at the end of a session if the technology threat track is increased at or above the obstacle difficult
-* **Espionage Threat** - This obstacle comes into play at the end of a session if the espionage threat track is increased at or above the obstacle difficult
-* **Military Threat** - This obstacle comes into play at the end of a session if the military threat track is increased at or above the obstacle difficult
-* **Diplomacy Threat** - This obstacle comes into play at the end of a session if the diplomacy threat track is increased at or above the obstacle difficult
-* **Sorcery Threat** - This obstacle comes into play at the end of a session if the sorcery threat track is increased at or above the obstacle difficult
+* **Support Threat** - This obstacle comes into play at the end of a session if the support threat track is increased at or above the obstacle difficulty
+* **Technology Threat** - This obstacle comes into play at the end of a session if the technology threat track is increased at or above the obstacle difficulty
+* **Espionage Threat** - This obstacle comes into play at the end of a session if the espionage threat track is increased at or above the obstacle difficulty
+* **Military Threat** - This obstacle comes into play at the end of a session if the military threat track is increased at or above the obstacle difficulty
+* **Diplomacy Threat** - This obstacle comes into play at the end of a session if the diplomacy threat track is increased at or above the obstacle difficulty
+* **Sorcery Threat** - This obstacle comes into play at the end of a session if the sorcery threat track is increased at or above the obstacle difficulty
 
 ### Difficulty
 
@@ -475,7 +478,11 @@ Alternatively, shuffle the location cards by region. Then draw four cards from e
 
 ## Assemble Starting Obstacle Decks
 
-Divide up the starting obstacles by region, and shuffle each of these decks to form one draw pile in each region. Set aside the threat obstacles and location obstacles.
+Unlock all of the obstacles with difficulties less than or equal to the initial threat levels for that resource. The [**unlock icon**](#obstacle-unlock-icon) of the obstacle is determined by finding the small black and white icon under the title.
+
+For instance, in the standard difficulty, the initial diplomacy threat level starts at 2. This is because the third space on the diplomacy track has a 2 on it. So gather up all of the obstacles with small black and white diplomacy unlock icons under their title of difficulty 1 and 2.
+
+After gathering up all of the initial obstacles based on starting threat tracks, divide them into decks by region icon in the upper left, and shuffle each of these decks to form one draw pile in each region. Set aside the remaining locked obstacles.
 
 ## Assemble New Character Sheets
 
@@ -505,7 +512,7 @@ Each player should choose one unlocked character. If playing solo, choose two ch
 
 ## Place Obstacle Decks and Locations
 
-Shuffle and place each obstacle deck in the draw pile for that region. Retrieve locations and attached obstacles from the previous game and put them into play.
+Place each obstacle deck in the appropriate region. Aside from the first session of a new campaign, obstacle decks are not shuffled at game start. Retrieve locations and attached obstacles from the previous game and put them into play.
 
 ## Build Progress Deck
 
@@ -514,6 +521,8 @@ Gather all progress cards in play, and group them by stage. Shuffle each stage s
 ## Select Starting Progress Cards
 
 Each player draws two progress cards and chooses one to start with. The cards not selected are placed in the progress staging area in any order desired.
+
+### New Campaign Starting Obstacles
 
 If this is the first game of a new campaign, draw and place one obstacle at the obstacle location for each progress card. This is the location indicated in the lower right of the progress card.
 
@@ -653,31 +662,39 @@ Overcome allows players to discard obstacles from the location board where their
 2. Defend
 3. Overcome
 
+Before starting the overcome process, determine if any of the characters attempting to overcome the obstacle are **skilled**. A character is skilled against an obstacle if the character's skill is *greater than or equal to* the matching overcome skill for the obstacle. It's much easier to overcome obstacles when skilled.
+
 ### Approach
 
-May place a number of action dice on the obstacle, up to the character's skill value for the obstacle. If the character has a skill of 0 for the obstacle, no dice may be placed on approach.
+This step is only available to skilled characters. A skilled character may place any number of action dice on the obstacle.
 
-If, after this step, the obstacle has dice on it matching the defense pattern, it is immediately overcome. Skip the defend step and move on to overcome.
+If, after this step, the obstacle has dice on it matching the defense pattern, it is immediately overcome! Skip the defend step and move on to overcome. If only some dice match the pattern, continue on to the defend step, leaving the dice on the obstacle.
+
+`Being skilled has huge benefits in terms of planning out turns.`
 
 ### Defend
 
-All remaining action dice for the character are rerolled. If the character's skill is equal to or higher than the obstacle's difficulty, the character successfully defends if any rerolled action dice are 3 or less. Otherwise, the character successfully defends if any rerolled action dice are 1.
+All remaining action dice for the character are rerolled. If the character is skilled, the character successfully defends if any of these rerolled action dice are 3 or less. Otherwise, the character successfully defends if any rerolled action dice are 1.
 
 If the character doesn't successfully defend, they take the amount of stress listed for the obstacle's attack.
 
 ### Overcome
 
-Any of the action dice used to defend may be placed on the obstacle to help overcome it. If, after this stage, the obstacle has dice on it matching its defense, it is overcome. When an obstacle is overcome, it is discarded to the current region's discard deck. Some obstacles have other effects when they are overcome, as indicated with an overcome icon.
+Any of the action dice used to defend may be placed on the obstacle to help overcome it, provided of course they match the value of the defense dice on the obstacle card. If, after this step, the obstacle has dice on it matching all of its defense dice, it is overcome. When an obstacle is overcome, it is discarded to the current region's discard deck. Some obstacles have other effects when they are overcome, as indicated with an overcome icon in the effect text section.
 
-Finally, if the character's skill for the obstacle is less than the difficulty, **they may increase their skill by one**. Characters improve their skills by overcoming difficult obstacles.
+Finally, if the character is unskilled, **they may increase their skill by one**. Characters improve their skills by overcoming difficult obstacles.
 
 If the obstacle doesn't have dice on it matching the pattern, leave any dice on it. Further dice may be added with more overcome actions on the same or future turns.
 
 ### Teamwork
 
-Multiple characters may work together to overcome an obstacle, provided of course they are at the same location where the obstacle is. In this case, both players may add dice and check for success during the approach. Both characters will defend if *either* player successfully defends, and both players may overcome the obstacle. 
+Multiple characters may work together to overcome an obstacle, provided of course they are at the same location with the obstacle. In this case, any skilled characters may add dice and check for success during the approach. All characters will defend if *any* character successfully defends, and all players may check to overcome the obstacle. 
 
-Either or both characters may increase their skills, as long as the character's skill is less than the obstacle's difficulty as normal.
+Any characters may increase their skills, as long as the character's skill is less than the obstacle's difficulty as normal.
+
+### Assets and Obstacles
+
+Assets at the location with the obstacle may be placed on the obstacle during the overcome step.
 
 ## Location Action
 
@@ -703,9 +720,9 @@ At the end of each session, complete the following steps:
 
 In each region's obstacle discard pile, burn the obstacle card on the bottom the discard deck. That is, the first obstacle discarded.
 
-## Unlock New Obstacles
+## Unlock New Threat Obstacles
 
-For each threat track, unlock obstacle cards with the given threat icon of a difficulty less than or equal to the threat level. Place the unlocked obstacled cards in the region discard pile matching the region symbol of each obstacle.
+For each threat track, unlock obstacle cards with the given threat unlock icon of a difficulty less than or equal to the threat level. Place the unlocked obstacled cards in the region discard pile matching the region symbol of each obstacle.
 
 ## Shuffle Obstacle Decks
 
@@ -720,6 +737,8 @@ Place any attached obstacles from the burned location **on top** of the associat
 ## Unlock New Locations
 
 For each region, shuffle the region's location deck and draw two locations. Choose one card from each region deck to put into play, placing the location in the appropriate region. Players may look at all six cards before making decisions on what locations to use for next session.
+
+Some location cards will unlock new location obstacles at this time. If the location has a starting obstacle icon, look through the locked obstacle cards and put any matching named obstacles into play with the location. 
 
 ## Recover Conditions
 
@@ -830,15 +849,15 @@ Take an asset die at Thea's location, place it on the asset icon and change the 
 
 # Obstacle Appendix
 
-TBD
+TBD - Will add clarifications for obstacle cards as needed.
 
 # Location Appendix
 
-TBD
+TBD - Will add clarifications for location cards as needed.
 
 # FAQ
 
-TBD
+TBD - Will add rules clarifications as needed.
 
 # Playtest Focus Areas
 
@@ -847,12 +866,6 @@ Since this is a game in active development, there are some areas in particular t
 ## Obstacle Campaign Arc
 
 The biggest area to watch surrounds how new obstacles are unlocked and put into the game and how (or if) obstacles are burned and taken out of the game. Having obstacles be tied to threat tracks is probably a good way to do it. Currently the starting obstacle decks have a wide variety of cards.
-
-### Obstacles Entering Play
-
-It's probably more intuitive if the starting cards have difficulties based on those threat tracks. That is, there are no higher difficulty obstacles in play until a threat track reaches the particular difficulty number.
-
-Another avenue for obstacles to enter play is via location cards. This seems okay, even though it means two modes for obstacles to enter play. This could be the main way more beneficial obstacle cards enter play.
 
 ### Burning Obstacles
 
@@ -867,19 +880,15 @@ Initially I thought the obstacle decks would cycle quite a bit, so there was alm
 
 I'm currently leaning towards 3 or 4.
 
-## Overcoming Obstacles Options
-
-There are tons of possibilities with overcoming obstacles, and I've gone back and forth on them quite a few times. I like the idea that improving skills is tied to overcoming difficult obstacles (that used to be via progress cards), but I wonder if the difficulties of obstacles are felt enough.
-
-At some point, I had the max number of dice that could be placed during approach equal to skill - difficulty instead of just skill. This certainly made difficulty matter more, but it's fiddly. It also may make difficulty matter *too* much, because higher difficulty obstacles basically aren't able to have dice placed on them during approach, which means you're just rolling a lot, or maybe using character abilities.
-
-Could also have approach dice work a little like defense, where a skilled character (the skill is >= difficulty) can place 1 or 2 dice on approach, and an unskilled character can place 1 die on approach.
-
-The central theme of these options is the interplay between obstacle difficulty, character skill, and potential uncertainty of success.
-
 ## Character Abilities
 
 There's lots of room to tune character abilities, particularly around writing customizing characters over the campaign.
+
+Dice combos and chains are probably the funnest part of the game. Not surprising given it's a dice game. So character effects that are like "spend a pair" to get XYZ or "a straight of size X" gives you some powerful effect, etc, would be fun advanced abilities.
+
+## Obstacle and Location Effects
+
+As with characters, there are tons of options for obstacle and location effects. That kind of tuning can go on forever, but it's good to find the cards that really aren't working, and brainstorm new options.
 
 ## Feedback
 

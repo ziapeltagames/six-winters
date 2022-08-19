@@ -15,6 +15,49 @@
    * And is modified, if necessary, by situations
    * Otherwise they loose their teeth
 
+# 08/19/22
+
+## Obstacle Arc
+
+Having obstacle difficulty match the threat tracks in general is cleaner than what's there now. 
+
+At the standard difficulty, you'd have:
+
+Diplo: 2
+Support: 3
+Tech: 1
+Esp: 2
+Mil: 2
+Sorcery: 2
+
+At cakewalk, you'd have:
+
+Support: 2
+Everything Else: 1
+
+Having the higher difficult obstacles come with more threat icons makes some sense, as the game should progress to a more difficult state later. To make this work, the cakewalk would have to have enough cards to populate all the decks. Is 5 cards in each deck enough? Maybe have quite a few 2s from support?
+
+The one issue with really low obstacle difficulties like that, is that characters wouldn't advance much early on? Which means getting through progress cards could be trickier.
+
+What's a good difficulty spread by region? About 20 cards per region?
+
+1, 1, 1, 1, 1
+2, 2, 2, 2
+3, 3, 3, 3
+4, 4, 4, 4
+5, 5
+6
+
+## Obstacles, Difficulties, and Skills
+
+There's already a concept of skilled (skill>=diff) and unskilled. Could probably leverage that more?
+
+Skilled: May Approach
+Skilled Defense: 1-2
+
+Unskilled: No Approach
+Unskilled Defense: 1
+
 # 08/16/22
 
 ## Resource Bonus Effects
