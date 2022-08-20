@@ -1,5 +1,8 @@
 # Ideas To-Do
 
+* Should obstacles move if nothing activates in a region?
+   * The problem is the same card can be there for a while - and nothing activates
+   * Maybe if nothing activates, a card moves into that position?
 * Add location or obstacle effects for burning or discarding obstacles
 * Combos on left side of character cards
    * 3 3 3 3 --> improve any resource track
@@ -14,6 +17,22 @@
 * Make sure mission cards have a base effect that always triggers
    * And is modified, if necessary, by situations
    * Otherwise they loose their teeth
+
+# 08/20/22
+
+Playtested a solo game using the tweaked obstacles. It was okay, but none of the obstacles actually activated, and it was pretty easy to stay ahead of the curve and not have many obstacles in play. It's the first game, so maybe this isn't an issue! However, one rule that could be good:
+
+* If an empty space activates, move the highest difficulty obstacle there?
+
+It's not uncommon for the same season symbol to occur multiple turns in a row, if it's not drawn. Having obstacles move there, and then making sure lots of obstacles have trigger effects is probably good.
+
+Another option:
+
+* If it's empty, and there are no obstacles to move there, draw one
+
+That option basically means players need to keep one obstacle in each region going. That takes some decision making and strategy out of the game, even if it does push the tension. It feels too heavy-handed and self-defeating.
+
+The first option feels a little better, particularly if most obstacles at least do something on activation. That could function as a timer of sorts.
 
 # 08/19/22
 

@@ -9,12 +9,9 @@
 7. [**Session End**](#session-end)
 8. [**Resource Mastery Bonuses**](#resource-mastery-bonuses)
 9. [**Character Appendix**](#character-appendix)
-10. [**Obstacle Appendix**](#obstacle-appendix)
-11. [**Location Appendix**](#location-appendix)
-12. [**FAQ**](#faq)
-13. [**Playtest Focus Areas**](#playtest-focus-areas)
+10. [**Playtest Issues**](#playtest-issues)
 
-# Six Winters v19.4
+# Six Winters v19.5
 
 *Six Winters* is a cooperative fantasy campaign game for 1-4 players based on the *Wrath of the Autarch* tabletop role-playing game.
 
@@ -157,7 +154,7 @@ Locations may have a variety of effect text as well. This text applies to any ch
 
 * **Starting Obstacle**: When this location is put into play, attach the listed obstacle(s) to it
 * **Action**: By spending an action die (value doesn't matter), players may take the listed [**location action**](#location-action)
-* **Activation**: This text takes effect if this location is activated during the [**activation**](#activation) phase
+* **Activation**: This text takes effect if this location is activated during the [**activation**](#activate-or-move-obstacles) phase
 
 ## Progress Cards
 
@@ -250,7 +247,7 @@ Many obstacles have text that details game effects while the obstacle is in play
 | :---: | :---: |
 | <img src="rules_images/arrow-right.png" width="100" height="100" /> | <img src="rules_images/wide-arrow-dunk.png" width="100" height="100" /> |
 
-* **Activation**: This text takes effect if this obstacle is activated during the [**activation**](#activation) phase
+* **Activation**: This text takes effect if this obstacle is activated during the [**activation**](#activate-or-move-obstacles) phase
 * **Overcome**: This text takes effect if the obstacle is overcome using the [**overcome obstacle**](#overcome-obstacle) action
 
 ### Overcome Skill
@@ -273,7 +270,7 @@ The back of each obstacle card shows one of four season symbols, as follows:
 | :---: | :---: | :---: | :---: |
 | <img src="rules_images/sprout-disc.png" width="100" height="100" /> | <img src="rules_images/sunrise.png" width="100" height="100" /> | <img src="rules_images/oat.png" width="100" height="100" /> | <img src="rules_images/frozen-orb.png" width="100" height="100" /> |
 
-Since there are three obstacle decks, one for each region, there are 0 to 3 symbols of a particular type showing at any time. This affects which locations get activated during the [**activation**](#activation) phase, which seasonal event card comes into play during the [**seasonal event**](#seasonal-event) phase, as well as how many turns players get each season.
+Since there are three obstacle decks, one for each region, there are 0 to 3 symbols of a particular type showing at any time. This affects which locations get activated during the [**activation**](#activate-or-move-obstacles) phase, which seasonal event card comes into play during the [**seasonal event**](#seasonal-event) phase, as well as how many turns players get each season.
 
 ## Seasonal Event Cards
 
@@ -351,7 +348,7 @@ To the right of each location is space to place any obstacles in play at that lo
 
 ### Activation Icons
 
-In the space where obstacles are played are season icons used during the [**activation**](#activation) phase. Obstacles and locations with activation icons on them are activated if the symbols here match the top obstacle draw card in the region.
+In the space where obstacles are played are season icons used during the [**activation**](#activate-or-move-obstacles) phase. Obstacles and locations with activation icons on them are activated if the symbols here match the top obstacle draw card in the region.
 
 ## Character Sheet
 
@@ -577,11 +574,17 @@ Finally, remove any dice on character or commitment abilities.
 
 If playing solo, take **seven** action dice instead. May only save up to three action dice from the previous phase, as normal.
 
-## Activation
+## Activate or Move Obstacles
 
 Starting with the Empire region, and ending with the Settled Lands, activate locations and obstacles based on the season symbol showing for that region. The spring symbol activates the top location card and any attached obstacles are activated, the summer symbol activates the middle location and obstacles, the fall symbol activates the bottom location and obstacles, and the winter symbol activates *all* locations and obstacles in the region.
 
 Follow any activation effect text on activated locations and obstacles. Make sure to check for resource effect icons on location cards, which create an asset at the location.
+
+### Moving Obstacles to Empty Activated Location
+
+If the activated location has no obstacles in it, move the highest difficulty obstacle in the region to this location. If there are multiple obstacles with the highest difficulty, players may choose which to move. This obstacle is not activated, it is only moved.
+
+Ignore this step if the winter symbol activates this region or if there are no obstacles in the region.
 
 ## New Obstacles
 
@@ -856,38 +859,24 @@ Spend a die to rearrange the four staged achievements in any order desired. As n
 
 Take an asset die at Thea's location, place it on the asset icon and change the resource type to something else. Keep the value the same.
 
-# Obstacle Appendix
-
-TBD - Will add clarifications for obstacle cards as needed.
-
-# Location Appendix
-
-TBD - Will add clarifications for location cards as needed.
-
-# FAQ
-
-TBD - Will add rules clarifications as needed.
-
-# Playtest Focus Areas
+# Playtest Issues
 
 Since this is a game in active development, there are some areas in particular that could use more work.
 
 ## Obstacle Campaign Arc
 
-The biggest area to watch surrounds how new obstacles are unlocked and put into the game and how (or if) obstacles are burned and taken out of the game. Having obstacles be tied to threat tracks is probably a good way to do it. Currently the starting obstacle decks have a wide variety of cards.
-
-### Burning Obstacles
-
-Obstacles leaving play is also up for debate. Some options:
+The biggest area to watch surrounds how new obstacles are unlocked and put into the game and how (or if) obstacles are burned and taken out of the game. I've experimented with many patterns here. Having the threat tracks and locations inject new obstacles into the game seems pretty good, but not sure if obstacles should leave play. Some options:
 
 1. No obstacles are burned
 2. Certain obstacles specify if they are burned when they're overcome
 3. Character abilities burn obstacles
 4. Some number are burned at the end of every game
 
-Initially I thought the obstacle decks would cycle quite a bit, so there was almost a deck builder aspect to the game. That hasn't really happened for a variety of reasons (mainly because of how obstacles are tied to threats). But! It still seems fun, if, like locations, they obstacle decks start one way, and slowly change over time.
+Initially I thought the obstacle decks would cycle quite a bit, so there was almost a deck builder aspect to the game. That hasn't really happened for a variety of reasons (mainly because of how obstacles are tied to threats). But! It still seems fun, if, like locations, obstacle decks start one way, and slowly change over time. Either 3 or 4 seem good.
 
-I'm currently leaning towards 3 or 4.
+## Obstacle Pacing
+
+This is tied to the previous subject. But obstacles function in many ways: effects, adversaries, threats. Getting that pacing right is important to feeling time pressure. Right now they start somewhat easier, but ramp up in difficulty. There are a lot of possible knobs to turn here, but if it's _too_ easy at any point, it may create a sense of boredom, unless perhaps progress cards have a level of difficulty/puzzle element that's engaging.
 
 ## Character Abilities
 
