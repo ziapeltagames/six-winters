@@ -9,7 +9,8 @@
 7. [**Session End**](#session-end)
 8. [**Resource Mastery Bonuses**](#resource-mastery-bonuses)
 9. [**Character Appendix**](#character-appendix)
-10. [**Playtest Issues**](#playtest-issues)
+10. [**FAQ**](#faq)
+11. [**Playtest Issues**](#playtest-issues)
 
 # Six Winters v19.5
 
@@ -862,6 +863,12 @@ Spend a die to rearrange the four staged achievements in any order desired. As n
 <img src="rules_images/sword-smithing.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" />
 
 Take an asset die at Thea's location, place it on the asset icon and change the resource type to something else. Keep the value the same.
+
+# FAQ
+
+## Multiple Options and Player Choice
+
+There could be situations where the rules present multiple potential options. For instance, two characters in the Empire are tied for the lowest thievery skill, so an Imperial Guard could move to either character. In any of these cases, the players decide what happens. If a consensus can't be formed, roll a die and choose randomly.
 
 # Playtest Issues
 
