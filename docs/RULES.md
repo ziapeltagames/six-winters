@@ -688,9 +688,11 @@ If the character doesn't successfully defend, they take the amount of stress lis
 
 ### Overcome
 
-Any of the action dice used to defend may be placed on the obstacle to help overcome it, provided of course they match the value of the defense dice on the obstacle card. If, after this step, the obstacle has dice on it matching all of its defense dice, it is overcome. When an obstacle is overcome, it is discarded to the current region's discard deck. Some obstacles have other effects when they are overcome, as indicated with an overcome icon in the effect text section.
+Any of the action dice used to defend may be placed on the obstacle to help overcome it, provided of course they match the value of the defense dice on the obstacle card. If, after this step, the obstacle has dice on it matching all of its defense dice, it is overcome. When an obstacle is overcome, it is discarded to the current location's obstacle discard deck. This could be in a different region's obstacle deck than where the obstacle card started! Many obstacles move around the map outside of their starting region.
 
-Finally, if the character is unskilled, **they may increase their skill by one**. Characters improve their skills by overcoming difficult obstacles.
+Some obstacles have other effects when they are overcome, as indicated with an overcome icon in the effect text section.
+
+Finally, if the character is unskilled and the obstacle is overcome, **they may increase their skill by one**. Characters improve their skills by overcoming difficult obstacles.
 
 If the obstacle doesn't have dice on it matching the pattern, leave any dice on it. Further dice may be added with more overcome actions on the same or future turns.
 
