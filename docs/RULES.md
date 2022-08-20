@@ -33,13 +33,17 @@ The conflict with the Empire is over six **resources**.
 
 ## Progress
 
-Red Bank's **progress** in each resource is marked using a red cube on an associated twelve space [**resource track**](#progress-and-threat-tracks) on the [**trade board**](#trade-board).
+Red Bank's **progress** in each resource is marked using a red cube **progress marker** on an associated twelve space [**resource track**](#progress-and-threat-tracks) on the [**trade board**](#trade-board).
 
 ## Threats
 
-**Threats** against Red Bank in each resource are tracked using a gray cube on each resource track. There are ways to slow the escalation of threats and even lower threat tracks during play.
+**Threats** against Red Bank in each resource are tracked using a gray cube **threat marker** on each resource track. There are ways to slow the escalation of threats and even lower threat tracks during play.
 
 `Lowering threat levels after they have advanced is much more difficult than trying to slow the rate of advancement in the first place. Completely stopping threats requires some luck.`
+
+## Progress and Threat Levels
+
+Each resource track has numbers on it from 1 to 5, or 6 in the case of the sorcery resrouce track. The number under the progress marker's position is called the **progress level** for that resource, and the number under the threat marker is called the **threat level** for that resource.
 
 ## Victory
 
@@ -59,7 +63,7 @@ Additionally, a score is calculated at the end, with players getting points for 
 
 ## Resource Dice
 
-Red Bank's raw capability in a resource is represented by a [**pool**](#resource-pools) of resource dice. This pool of resource dice fluctates in size and value over the course of a game, as capabilities are used for different effects. At the end of each turn, players [**refresh**](#refresh) these pools with a number of dice equal to the value shown on the progress marker. This is normally 1 to 6 dice, depending on the resource.
+Red Bank's raw capability in a resource is represented by a [**pool**](#resource-pools) of resource dice. This pool of resource dice fluctates in size and value over the course of a game, as capabilities are used for different effects. At the end of each turn, players [**refresh**](#refresh) these pools with a number of dice equal to the current progress level. This is normally 1 to 6 dice, depending on the resource.
 
 Resource dice are colored as follows:
 
@@ -72,7 +76,7 @@ Resource dice are colored as follows:
 
 ## Assets
 
-Resource pools are not as useful as **assets**: specific creations of each resource type. These are flexible concepts in the narrative. For instance, an espionage asset could represent anything from a helpful spy or contact to thieves tools or gear.
+Resource pools are not as useful as **assets**: specific creations from each resource type. Assets are flexible concepts in the narrative. For instance, an espionage asset could represent anything from a helpful spy or contact to thieves tools or gear.
 
 Assets are created by moving dice from resource pools onto [**location cards**](#location-cards) with the [**create asset**](#create-asset) action. Other game effects may create assets directly. Characters at the location with assets may use them to complete mission [**progress cards**](#progress-cards), as well as help [**overcome obstacles**](#overcome) or fuel character [**abilities**](#abilities).
 
@@ -220,20 +224,20 @@ Along with the tags each obstacle has one icon, which shows how it becomes unloc
 | <img src="rules_images/up-card.png" width="100" height="100" /> | <img src="rules_images/capitol.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/cowled.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | <img src="rules_images/stone-throne.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> |
 
 * **Location** - This obstacle comes into play attached to the location with the obstacle's name in its text box
-* **Support Threat** - This obstacle comes into play at the end of a session if the support threat track is increased at or above the obstacle difficulty
-* **Technology Threat** - This obstacle comes into play at the end of a session if the technology threat track is increased at or above the obstacle difficulty
-* **Espionage Threat** - This obstacle comes into play at the end of a session if the espionage threat track is increased at or above the obstacle difficulty
-* **Military Threat** - This obstacle comes into play at the end of a session if the military threat track is increased at or above the obstacle difficulty
-* **Diplomacy Threat** - This obstacle comes into play at the end of a session if the diplomacy threat track is increased at or above the obstacle difficulty
-* **Sorcery Threat** - This obstacle comes into play at the end of a session if the sorcery threat track is increased at or above the obstacle difficulty
+* **Support Threat** - This obstacle comes into play at the end of a session if the support threat level is at or above the obstacle difficulty
+* **Technology Threat** - This obstacle comes into play at the end of a session if the technology threat level is at or above the obstacle difficulty
+* **Espionage Threat** - This obstacle comes into play at the end of a session if the espionage threat level is at or above the obstacle difficulty
+* **Military Threat** - This obstacle comes into play at the end of a session if the military threat level is at or above the obstacle difficulty
+* **Diplomacy Threat** - This obstacle comes into play at the end of a session if the diplomacy threat level is at or above the obstacle difficulty
+* **Sorcery Threat** - This obstacle comes into play at the end of a session if the sorcery threat level is at or above the obstacle difficulty
 
 ### Difficulty
 
-The upper left of the obstacle shows its difficulty from 1 to 6. This comes into play when taking the **Overcome Obstalce* action.
+The upper left of the obstacle shows its difficulty from 1 to 6. This comes into play mainly during the [**overcome obstacle**](#overcome-obstacle) action, but can also impact when threat obstacles are unlocked.
 
 ### Region
 
-Below the difficulty is a region symbol. This shows which region deck the obstacle starts in. It is possible for obstacles to move to a different region deck.
+Below the difficulty is a region symbol. This shows which region's obstacle deck the obstacle starts in. It is possible for obstacles to move to a different region deck over the course of the campaign.
 
 ### Threats
 
@@ -294,7 +298,7 @@ The trade board tracks time, progress tracks, threat tracks, holds resource dice
 
 ### Resource Pools
 
-There are six resource pools on the trade board. At the end of each turn, players refill these pools to a number of dice equal to the value shown on the progress marker (1-6 dice). When refilling resource pools, dice already in the pool are *not* rerolled.
+There are six resource pools on the trade board. At the end of each turn, players refill these pools to a number of dice equal to the progress level for that resource (1-6 dice). When refilling resource pools, dice already in the pool are *not* rerolled.
 
 ### Progress and Threat Tracking
 
@@ -446,7 +450,7 @@ The first step is to determine the difficulty of the campaign. Initial threat le
 
 * **Cakewalk**: First space, on same space as red threat progress cubes
 * **Standard**: Third space
-* **Difficult**: Sixth space
+* **Difficult**: Sixth space, the last space on the top row
 * **Tragedy Incarnate**: Ninth space, only three away from the last space of the track, when particularly bad effects kick in
 
 At the standard and cakewalk difficulties, there's a very high chance of at least a pyrrhic victory. The game at those levels is more about what happens to characters along the way and the degree of success. At the difficult and tragedy levels, there's a chance the players will not succeed at all.
@@ -564,11 +568,11 @@ When playing solo, action dice may be used for *either* character's actions, as 
 
 ## Refresh
 
-Resource dice are rolled and added to each resource pool until there are a number of dice matching the progress number for that pool. Do not reroll any resource dice already in the pool, and do not remove any dice if there are more dice in the pool than the progress number indicates.
+Remove any action dice on character or commitment abilities and resource action slots.
+
+Resource dice are rolled and added to each resource pool until there are a number of dice matching the progress level for that pool. Do not reroll any resource dice already in the pool, and do not remove any dice if there are more dice in the pool than the progress level indicates.
 
 Next, each player gets **five** new action dice, rolling them and adding them to any action dice kept from the previous phase (up to three may be kept).
-
-Finally, remove any dice on character or commitment abilities.
 
 ### Solo Refresh
 
