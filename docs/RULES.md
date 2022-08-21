@@ -874,11 +874,21 @@ There could be situations where the rules present multiple potential options. Fo
 
 # Playtest Issues
 
-Since this is a game in active development, there are some areas in particular that could use more work.
+Since this is a game in active development, there are many areas in that could use more work and thought. This section highlights those areas. If you're comfortable using github, you can also submit issues here for ideas and feedback: https://github.com/ziapeltagames/six-winters/issues
 
-## Obstacle Campaign Arc
+At some point soon I need to create a BGG entry as well, to have a place to capture these thoughts. That will probably coincide with making the TTS mod public.
 
-The biggest area to watch surrounds how new obstacles are unlocked and put into the game and how (or if) obstacles are burned and taken out of the game. I've experimented with many patterns here. Having the threat tracks and locations inject new obstacles into the game seems pretty good, but not sure if obstacles should leave play. Some options:
+## Location Skills
+
+The skills on locations are used to: differentiate locations and make skills matter more. However! I have played "intro" games where the skills for invest and trade on locations were ignored. And I don't think it changed the feel of the game all that much. This could be one of those things that isn't worth how fiddly it is.
+
+Skills would still be useful for overcoming obstacles, locations are differentiated by movement rates and various effects, while resources are limited by progress levels.
+
+It could just be one step in the cognitive load that's not returning enough interesting choices to really matter all that much. Not sure. But if it needs more streamlining, this could be something to watch.
+
+## Obstacle Unlocking and Burning
+
+One area to watch surrounds how new obstacles are unlocked and put into the game and how (or if) obstacles are burned and taken out of the game. I've experimented with many patterns here. Having the threat tracks and locations inject new obstacles into the game seems pretty good, but not sure if obstacles should leave play. Some options:
 
 1. No obstacles are burned
 2. Certain obstacles specify if they are burned when they're overcome
@@ -887,9 +897,11 @@ The biggest area to watch surrounds how new obstacles are unlocked and put into 
 
 Initially I thought the obstacle decks would cycle quite a bit, so there was almost a deck builder aspect to the game. That hasn't really happened for a variety of reasons (mainly because of how obstacles are tied to threats). But! It still seems fun, if, like locations, obstacle decks start one way, and slowly change over time. Either 3 or 4 seem good.
 
-## Obstacle Pacing
+## Obstacle and Threat Pacing
 
 This is tied to the previous subject. But obstacles function in many ways: effects, adversaries, threats. Getting that pacing right is important to feeling time pressure. Right now they start somewhat easier, but ramp up in difficulty. There are a lot of possible knobs to turn here, but if it's _too_ easy at any point, it may create a sense of boredom, unless perhaps progress cards have a level of difficulty/puzzle element that's engaging.
+
+Does the game lock up if threat levels aren't increasing? More difficult obstacles won't come out at that point. Really need to make sure that it's hard to totally stay in front of threats.
 
 ## Character Abilities
 
@@ -897,10 +909,18 @@ There's lots of room to tune character abilities, particularly around writing cu
 
 Dice combos and chains are probably the funnest part of the game. Not surprising given it's a dice game. So character effects that are like "spend a pair" to get XYZ or "a straight of size X" gives you some powerful effect, etc, would be fun advanced abilities.
 
+### Keel's Split and Menas's Exploding Threes
+
+Both of these are amazing starting abilities. They should probably either be advanced abilities or limited somehow. Because players can save 3 dice at the end of turns, Menas could save three 3 dice, and explode three extra dice basically every turn. Something like that could probably be done with assets as well to create some kind of amazing engine. Stuff like that is also fun, though! But it could also get a little repetitive.
+
+The actions to really be careful about involve creating *new* dice of perhaps any value. Because this can mess with the action economy. Oniri has something like this, but it's very random, so harder to exploit.
+
+Chaging the "max save 3 action dice" at the end of a turn to a "max save 2 action dice" may help a little re: Menas's ability, but could still have a pile of asset dice out. Dunno. Need some more playtesting to see.
+
+Keel's could be nerfed by limiting it to something like tech dice, rather than any dice. So he can split and mess with tech assets. Still super handy, but not maybe broken good.
+
+One thing newer players don't appreciate is how powerful leaving assets around can be. Need to also have a chunk of obstacles that can mess that up.
+
 ## Obstacle and Location Effects
 
 As with characters, there are tons of options for obstacle and location effects. That kind of tuning can go on forever, but it's good to find the cards that really aren't working, and brainstorm new options.
-
-## Feedback
-
-If you're comfortable using github, you can also submit issues there for ideas and feedback: https://github.com/ziapeltagames/six-winters/issues

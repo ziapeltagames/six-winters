@@ -1,6 +1,6 @@
-# Ideas To-Do
+# Pinned Issues and Ideas
 
-* Add location or obstacle effects for burning or discarding obstacles
+* Add location or obstacle effects for burning or discarding obstacles?
 * Combos on left side of character cards
    * 3 4 5 --> 5 dice
       * Straight to big combo or some effect could be fun
@@ -9,6 +9,30 @@
 * Customizable character abilities
    * Write in resources you can create or trade into?
    * Move to the location where XYZ is located
+* Keel's split ability is bonkers good, maybe should have something like 2->1 1
+   * Fuscus has a -1, which is already built into Keel's ability
+   * Maybe Keel's split should be on a tech die?
+* Also, Keel's 5->1 is basically a defend at will, making Keel better at defense than Menas or Fuscus
+* The Hidden Outpost doesn't make a ton of narrative sense
+* The stress for rerolls is a little hinky - should probably be a die cost
+   * Otherwise can kind of lower stress at will
+   * which shouldn't be so fine grained with conditions giving commitment
+
+# 08/21/22
+
+## Three Player Playtest Notes
+
+Did a three player game today. It mostly seemed to work:
+
+* Menas and the exploding 3s are really good with the combo of using actions each turn and holding dice
+   * It effectively creates an engine that can be exploited between turns by holding dice as 3s
+   * Could also be possible by piling a lot of 3 assets on a location, and blowing them up each turn
+* Played the beginning of the game without mentioning the rules for investing re: location skills
+   * Not sure the game suffered all that much
+   * Is it even worth having skills for investing an trade?
+   * You are, to some extent, limited by the wheel of trade as well
+   * Locations are still differentiated by icons, text effects, and movement rates
+   * Something to think about
 
 # 08/20/22
 
@@ -31,6 +55,21 @@ The first option feels a little better, particularly if most obstacles at least 
 ## Advantage or Not
 
 Should cards have the concept of advantage? Probably not. It's sort of fiddly, and won't come up very often. Having a threat level could be good, though.
+
+## Y2 Playtest Notes
+
+It definitely kicked up a notch in Y2. Some of the obstacles definitely don't make sense / should be tweaked, but it's certainly harder on the threat front if you hit Stage 3 or Stage 4.
+
+## Y1 Playtest Notes
+
+* Had lots of progress and not much in the way of threats: 7 to 1
+* Also no major conditions
+* Really not sure burning obstacles at the end of a session is the right call
+   * One obstacle just won't make much difference
+   * Probably should have some obstacles get burned, and then maybe give some characters burn abilities
+
+
+In some ways there are two big timers in the game: stress for characters at the shorter time scale, and threats at the longer time scale. Right now those timers are intertwined. Because the thing that causes the first also causes the second. Not sure if that's a problem or not. It's nice to not have a separate system for threats.
 
 # 08/19/22
 
