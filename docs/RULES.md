@@ -12,7 +12,7 @@
 10. [**FAQ**](#faq)
 11. [**Playtest Issues**](#playtest-issues)
 
-# Six Winters v19.5
+# Six Winters v19.6
 
 *Six Winters* is a cooperative fantasy campaign game for 1-4 players based on the *Wrath of the Autarch* tabletop role-playing game.
 
@@ -259,13 +259,13 @@ Many obstacles have text that details game effects while the obstacle is in play
 
 This character skill is used during the [**overcome obstacle**](#overcome-obstacle) action.
 
-### Attack
+### Obstacle Damage
 
-Each obstacle may inflict psyche stress, body stress, or both. Each symbol in the lower left of the obstacle indicates one stress of the particular type. This may occur as part of the [**overcome obstacle**](#overcome-obstacle) action.
+Each obstacle may inflict psyche stress, body stress, or both. Each symbol in the lower left of the obstacle indicates one stress of the particular type. This occurs when a character fails to defend during the [**overcome obstacle**](#overcome-obstacle) action.
 
-### Defense
+### Obstacle Dice
 
-To remove an obstacle from play (overcome the obstacle), players need to spend specific action dice matching the listed dice in the lower right of the obstacle during the [**overcome obstacle**](#overcome-obstacle) action.
+To remove an obstacle from play (overcome the obstacle), players need to spend specific dice matching the listed dice in the lower right of the obstacle during the [**overcome obstacle**](#overcome-obstacle) action.
 
 ### Season Sybmol
 
@@ -387,6 +387,10 @@ Conditions are recovered at the end of each game, during the [**recover conditio
 
 If a condition box is already checked off when the stress die is moved down, **it is skipped**! Move the die down to the next open box. Characters only recover one condition on each track at the end of the game, so conditions could accumulate. Unlocking more characters and swapping them out between games is one way to minimize this.
 
+### Recovering Stress and Conditions
+
+There are many ways to recover stress, such as the [**rest**](#rest) action. In these cases, the chosen stress die is increased by the indicated amount. Unless otherwise indicated, this can be done to increase the stress die above its starting value. However! It is not possible to recover conditions or move the stress die back up the condition track during a session. If a die is at the 6 value, no improvement is possible for that stress track. Once the die has moved down the track, it is at that level or below for the rest of the game. Recovering conditions takes place during the [**recover conditions**](#recover-conditions) year end step.
+
 ### Knocked Out
 
 If either stress track moves off the bottom (the die goes to zero while at *Shaken* or *Wounded*), the character is **knocked out**. They are no longer in the game for the remainder of the session. Take their token off the board.
@@ -395,7 +399,7 @@ If either stress track moves off the bottom (the die goes to zero while at *Shak
 
 ### Abilities
 
-Abilities are available to use at any time during the [**actions**](#actions) phase. Typically abilities are fueled by using dice. Players are free to use action dice, asset dice at the character's location, or resource dice from the location's associated resource pool. Some abilities are used by taking a point of psyche or body stress.
+Abilities are available to use at any time during the [**actions**](#actions) phase. Typically abilities are fueled by using dice. Players are free to use action dice, asset dice at the character's location, or resource dice from the location's associated resource pool.
 
 Like progress cards, abilities with a specific die value require using a die of that value. Abilities with a white box may be used with any die.
 
@@ -405,9 +409,9 @@ Leave any dice on character abilities until the [**refresh**](#refresh) phase. E
 
 ### Sample Abilities
 
-<img src="rules_images/hearts.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/cubes.png" width="75" height="75" />
+<img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/cubes.png" width="75" height="75" />
 
-Take one body stress to reroll any dice in one target pool. This can be any action dice, any asset dice where the character is located, or any dice in the location's resource pool where the character is located. Players do not have to reroll all the dice, they can choose which dice to reroll.
+Spend a die to reroll any dice in the same target pool. As usual, an action die may be spent to roll any of the character's action dice, an asset where the character is located may be spent to reroll any other assets where the character is located, or any dice in the location's resource pool where the character is located may be spent to roll any other dice in that resource pool. Players do not have to reroll all the dice, they can choose which dice to reroll.
 
 <img src="rules_images/dice-six-faces-one.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/dice-six-faces-two.png" width="75" height="75" />
 
@@ -573,11 +577,11 @@ Remove any action dice on character or commitment abilities and resource action 
 
 Resource dice are rolled and added to each resource pool until there are a number of dice matching the progress level for that pool. Do not reroll any resource dice already in the pool, and do not remove any dice if there are more dice in the pool than the progress level indicates.
 
-Next, each player gets **five** new action dice, rolling them and adding them to any action dice kept from the previous phase (up to three may be kept).
+Next, action dice are rolled and added to each player's action dice pool to bring their total to **five action dice**. Dice may be kept between turns. As with refilling resource dice pools, these are not rerolled. It is sometimes better to guarantee a particular value action die than use it to take actions during the turn.
 
 ### Solo Refresh
 
-If playing solo, take **seven** action dice instead. May only save up to three action dice from the previous phase, as normal.
+If playing solo, refill to **seven** action dice instead.
 
 ## Activate or Move Obstacles
 
@@ -632,6 +636,7 @@ Spending action dice to take actions makes up the core of *Six Winters*. Most ch
 * Trade
 * Overcome
 * Location Action
+* Rest
 
 `If playing solo, may take actions at either character location.`
 
@@ -664,43 +669,53 @@ Trade works similarly to creating assets, although it allows players to move res
 
 ## Overcome Obstacle
 
-Overcome allows players to discard obstacles from the location board where their character is located. To overcome an obstacle, dice must be placed on the obstacle matching the dice values in the defense pattern. This is done by:
+Overcome allows players to discard obstacles from the location board where their character is located. To overcome an obstacle, dice must be placed on the obstacle matching the obstacle dice. This is done by:
 
 1. Approach
 2. Defend
 3. Overcome
 
-Before starting the overcome process, determine if any of the characters attempting to overcome the obstacle are **skilled**. A character is skilled against an obstacle if the character's skill is *greater than or equal to* the matching overcome skill for the obstacle. It's much easier to overcome obstacles when skilled.
+Before starting the overcome process, determine if any of the characters attempting to overcome the obstacle are **skilled**. A character is skilled against an obstacle if the character's skill is *greater than or equal to* the matching overcome skill for the obstacle. It's easier to overcome obstacles when skilled.
 
 ### Approach
 
-This step is only available to skilled characters. A skilled character may place any number of action dice on the obstacle.
+During this step, a skilled character may place any number of action dice on the obstacle.
 
-If, after this step, the obstacle has dice on it matching the defense pattern, it is immediately overcome! Skip the defend step and move on to overcome. If only some dice match the pattern, continue on to the defend step, leaving the dice on the obstacle.
+If, after this step, the obstacle has dice on it matching its obstacle dice pattern, it is immediately overcome! Skip the defend step and move on to overcome. If the pattern is incomplete, continue on to the defend step, leaving the dice on the obstacle.
 
-`Being skilled has huge benefits in terms of planning out turns.`
+Assets at the skilled character's location may be used for approach as well. Assets are super handy!
+
+`Being skilled has huge benefits in terms of planning out turns. To use game designer lingo: the fortune is at the front.`
 
 ### Defend
 
-All remaining action dice for the character are rerolled. If the character is skilled, the character successfully defends if any of these rerolled action dice are 3 or less. Otherwise, the character successfully defends if any rerolled action dice are 1.
+All remaining action dice not used on the approach are rerolled. To successfully defend, at least one of each unique number of obstacle dice must be rolled. It's much easier to defend against an obstacle with only one value of obstacle dice. Note that none of the rerolled dice are *spent* to defend!
 
-If the character doesn't successfully defend, they take the amount of stress listed for the obstacle's attack.
+For instance, if an obstacle has four dice of value six for obstacle dice, only one six must be in the rerolled action dice to defend. However, if an obstacle has two dice of value one, one of value two, and one of value three, then one or more one, two, and three need to be rolled.
+
+If the character doesn't successfully defend, they take the amount of stress listed for the obstacle's damage.
+
+`Assets may not be used for defense.`
 
 ### Overcome
 
-Any of the action dice used to defend may be placed on the obstacle to help overcome it, provided of course they match the value of the defense dice on the obstacle card. If, after this step, the obstacle has dice on it matching all of its defense dice, it is overcome. When an obstacle is overcome, it is discarded to the current location's obstacle discard deck. This could be in a different region's obstacle deck than where the obstacle card started! Many obstacles move around the map outside of their starting region.
+Any action dice may be placed on the obstacle to overcome it, provided they match the value of an obstacle die. If, after this step, the obstacle has dice on it matching the total number and values of its obstacle dice, it is overcome. When an obstacle is overcome, it is discarded to the current location's obstacle discard deck. This could be in a different region's obstacle deck than where the obstacle card started! Many obstacles move around the map outside of their starting region when activated or by other means.
 
 Some obstacles have other effects when they are overcome, as indicated with an overcome icon in the effect text section.
 
-Finally, if the character is unskilled and the obstacle is overcome, **they may increase their skill by one**. Characters improve their skills by overcoming difficult obstacles.
+Finally, if the character is unskilled and the obstacle is overcome, **they increase their skill by one**. Characters improve their skills by overcoming difficult obstacles.
 
-If the obstacle doesn't have dice on it matching the pattern, leave any dice on it. Further dice may be added with more overcome actions on the same or future turns.
+If the obstacle doesn't have enough dice on it to complete the pattern, leave any dice on it. Further dice may be added with more overcome actions on the same or future turns.
+
+Assets at the character's location may be placed on the obstacle during the overcome step.
 
 ### Teamwork
 
-Multiple characters may work together to overcome an obstacle, provided of course they are at the same location with the obstacle. In this case, any skilled characters may add dice and check for success during the approach. All characters will defend if *any* character successfully defends, and all players may check to overcome the obstacle. 
+Multiple characters may work together to overcome an obstacle, provided of course they are at the same location with the obstacle. In this case, all skilled characters may add dice and check for success during the approach. All characters successfully defend if *between all of them* they have the right set of dice values, and all players may check to overcome the obstacle.
 
-Any characters may increase their skills, as long as the character's skill is less than the obstacle's difficulty as normal.
+If the team fails to defend, the stress may be split between all of the characters overcoming the obstacle.
+
+Any unskilled characters increase their skills.
 
 ### Assets and Obstacles
 
@@ -709,6 +724,10 @@ Assets at the location with the obstacle may be placed on the obstacle during th
 ## Location Action
 
 Some locations allow characters there to spend an action die to perform the listed effect. The value of this action die doesn't matter.
+
+## Rest
+
+Spend one action die to add one to either of the character's stress tracks. As described in [**stress**](#stress), no stress die may be increased beyond six and it is impossible to recover conditions via rest. Once a stress die moves down the condition track, it is impossible to recover those conditions until the end of the year during the [**recover conditions**](#recover-conditions) step.
 
 # Sample Turn
 
@@ -840,11 +859,17 @@ Spend a die and gain a die of one value lower.
 
 ## Keel
 
-### Die Split Effect
+### Tech Split
+
+<img src="rules_images/spyglass.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/plus.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" />
+
+Spend a technology die, either an asset or resource pool die, and gain two dice of the same type. The two dice must sum to the spent die.
+
+### Die Split
 
 <img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/plus.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" />
 
-Spend a die and gain two dice of the same type. The two dice must sum to the spent die.
+Spend any type of die and gain two dice of the same type. The two dice must sum to the spent die.
 
 ## Menas
 
@@ -852,7 +877,7 @@ Spend a die and gain two dice of the same type. The two dice must sum to the spe
 
 <img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/dice-fire.png" width="75" height="75" />
 
-Spend a die to explode all value 3 dice in a chosen pool. The pools that may be selected are: your action dice, assets where Menas is located, or the location's resource dice pool where Menas is located. Take an extra die of the appropriate type for each 3 in the pool and roll them. If any of those dice roll a 3, take additional dice and roll those. Continue gaining new dice every time a 3 is rolled.
+Spend a die to explode all value 3 dice in a chosen pool. The standard three dice pools may be selected: Menas's action dice, assets where Menas is located, or the location's resource dice pool where Menas is located. Gain an extra die of the appropriate type for each 3 in the pool and roll them. If any of those dice roll a 3, take additional dice and roll those. Continue gaining new dice every time a 3 is rolled.
 
 ## Thea
 
@@ -909,18 +934,30 @@ There's lots of room to tune character abilities, particularly around writing cu
 
 Dice combos and chains are probably the funnest part of the game. Not surprising given it's a dice game. So character effects that are like "spend a pair" to get XYZ or "a straight of size X" gives you some powerful effect, etc, would be fun advanced abilities.
 
-### Keel's Split and Menas's Exploding Threes
-
-Both of these are amazing starting abilities. They should probably either be advanced abilities or limited somehow. Because players can save 3 dice at the end of turns, Menas could save three 3 dice, and explode three extra dice basically every turn. Something like that could probably be done with assets as well to create some kind of amazing engine. Stuff like that is also fun, though! But it could also get a little repetitive.
-
-The actions to really be careful about involve creating *new* dice of perhaps any value. Because this can mess with the action economy. Oniri has something like this, but it's very random, so harder to exploit.
-
-Chaging the "max save 3 action dice" at the end of a turn to a "max save 2 action dice" may help a little re: Menas's ability, but could still have a pile of asset dice out. Dunno. Need some more playtesting to see.
-
-Keel's could be nerfed by limiting it to something like tech dice, rather than any dice. So he can split and mess with tech assets. Still super handy, but not maybe broken good.
-
-One thing newer players don't appreciate is how powerful leaving assets around can be. Need to also have a chunk of obstacles that can mess that up.
-
 ## Obstacle and Location Effects
 
 As with characters, there are tons of options for obstacle and location effects. That kind of tuning can go on forever, but it's good to find the cards that really aren't working, and brainstorm new options.
+
+## Pinned Mechanics Options and TO-DOs
+
+Action items from playtests and potential variants or ideas.
+
+* Does Hidden Outpost need a "stationary" tag?
+   * Certain obstacles probably wouldn't move around, even for activation reasons
+   * Could also change the theme to have it make sense for moving around
+* Add location, obstacle, or character effects for burning obstacles in discard piles
+   * Instead of auto-burning obstacle cards
+* Possible combos on left side of character cards
+   * 3 4 5 --> 5 dice
+      * Or some sort of straight to big combo or some effect could be fun
+   * 3 3 3 --> 1 2 3
+      * Set to straight combos could be useful on +1/-1 sorts of progress cards
+* Customizable character abilities
+   * Write in resources you can create or trade into?
+   * Move to the location where XYZ is located
+   * Write in some sort of location type where character can benefit
+* Wondering if the complexity of skill types for locations (for create asset and trade) is worth it
+   * Maybe more fiddly than it's worth for the tactical interest
+* Random threat increase amount, based on highest difficulty of obstacle in set?
+* Should players be able to choose which location to burn?
+   * How many locations per region to draw?

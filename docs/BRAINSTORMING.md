@@ -1,38 +1,13 @@
-# Pinned Issues and Ideas
+# 08/22/22
 
-* Add location or obstacle effects for burning or discarding obstacles?
-* Combos on left side of character cards
-   * 3 4 5 --> 5 dice
-      * Straight to big combo or some effect could be fun
-   * 3 3 --> 1 2 3
-      * Set to Straight combos could feature in progress cards
-* Customizable character abilities
-   * Write in resources you can create or trade into?
-   * Move to the location where XYZ is located
-* Keel's split ability is bonkers good, maybe should have something like 2->1 1
-   * Fuscus has a -1, which is already built into Keel's ability
-   * Maybe Keel's split should be on a tech die?
-* Also, Keel's 5->1 is basically a defend at will, making Keel better at defense than Menas or Fuscus
-* The Hidden Outpost doesn't make a ton of narrative sense
-* The stress for rerolls is a little hinky - should probably be a die cost
-   * Otherwise can kind of lower stress at will
-   * which shouldn't be so fine grained with conditions giving commitment
+## Two Player Playtest
 
-# 08/21/22
+Going to try a two player playtest with the following changes:
 
-## Three Player Playtest Notes
-
-Did a three player game today. It mostly seemed to work:
-
-* Menas and the exploding 3s are really good with the combo of using actions each turn and holding dice
-   * It effectively creates an engine that can be exploited between turns by holding dice as 3s
-   * Could also be possible by piling a lot of 3 assets on a location, and blowing them up each turn
-* Played the beginning of the game without mentioning the rules for investing re: location skills
-   * Not sure the game suffered all that much
-   * Is it even worth having skills for investing an trade?
-   * You are, to some extent, limited by the wheel of trade as well
-   * Locations are still differentiated by icons, text effects, and movement rates
-   * Something to think about
+* Refill to 5 dice, as with resource pools
+* "Rest" action to improve 1 stress
+* Ob defend on unique matching dice
+* Need dice for rerolls (no character stress effects)
 
 # 08/20/22
 
