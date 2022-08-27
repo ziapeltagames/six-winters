@@ -1,12 +1,12 @@
 card_sets = [
-    ['Threat Mission Cards Fronts', 1, 129],
-    ['Threat Mission Cards Backs', 2, 129],
-    ['Attached Location Mission Cards Fronts', 129, 181],
-    ['Attached Location Mission Cards Backs', 130, 181],
+    ['Threat Obstcle Cards Fronts', 1, 123],
+    ['Threat Obstcle Cards Backs', 2, 123],
+    ['Attached Location Obstcle Cards Fronts', 123, 181],
+    ['Attached Location Obstcle Cards Backs', 124, 181],
     ['Progress Fronts', 1, 103],
     ['Progress Backs', 2, 103],
-    ['Locations Fronts', 1, 93],
-    ['Locations Backs', 2, 93],
+    ['Locations Fronts', 1, 99],
+    ['Locations Backs', 2, 99],
     ['Seasonal Events Fronts', 1, 33],
     ['Seasonal Events Backs', 2, 33]
 ]

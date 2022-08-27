@@ -12,7 +12,7 @@
 10. [**FAQ**](#faq)
 11. [**Playtest Issues**](#playtest-issues)
 
-# Six Winters v19.6
+# Six Winters v19.7
 
 *Six Winters* is a cooperative fantasy campaign game for 1-4 players based on the *Wrath of the Autarch* tabletop role-playing game.
 
@@ -56,7 +56,7 @@ If a Red Bank progress marker is _alone_ on the last space of the resource track
 
 Any other state of the game after six sessions results in defeat for Red Bank.
 
-Additionally, a score is calculated at the end, with players getting points for every resource track where the progress marker is higher than the threat marker.
+Additionally, a score is calculated at the end, with players getting points for every resource track where the progress level is higher than the threat level.
 
 `There are thematic reasons that Military, Technology, and Sorcery tracks don't translate to victory. It is impossible to keep pace with the Empire on the Military and Technology fronts. Sorcery is too chaotic to form a strategy around, but it's a very useful resource for some characters, and it's possible to craft and transmute sorcery into other resources. All of the resources have value and mechanical impact during the game.`
 
@@ -111,18 +111,19 @@ Location cards have a variety of tags, mostly used by other card effects. All lo
 
 Along with the tags are one or more icons, as follows:
 
-| Empire | Red Bank | Settled Lands | Starting | Sorcery Threat | Military Threat | Technology Threat | Discord |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="rules_images/defensive-wall.png" width="100" height="100"/> | <img src="rules_images/holy-oak.png" width="100" height="100" /> | <img src="rules_images/water-mill.png" width="100" height="100" /> | <img src="rules_images/stack.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100"/> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/backstab.png" width="100" height="100" /> |
+| Empire | Red Bank | Settled Lands | Starting | Discord |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="rules_images/defensive-wall.png" width="100" height="100"/> | <img src="rules_images/holy-oak.png" width="100" height="100" /> | <img src="rules_images/water-mill.png" width="100" height="100" /> | <img src="rules_images/stack.png" width="100" height="100" /> | <img src="rules_images/backstab.png" width="100" height="100" /> |
 
 * **Empire** - Imperial location, in the Empire locations deck and playable to the Empire region
 * **Red Bank** - Red Bank location, in the Red Bank locations deck and playable to the Red Bank region
 * **Settled Lands** - Settled Lands location, in the Settled Lands location deck and playable to the Settled Lands region
 * **Starting Location** - In the default campaign mode, this is one of the nine starting location cards
-* **Sorcery Threat** - Comes into play if the sorcery threat track reaches the final space
-* **Military Threat** - Comes into play if the military threat track reaches the final space
-* **Technology Threat** - Comes into play if the technology threat track reaches the final space
 * **Discord** - Comes into play if one of the characters, Oniri, sustains too much stress (see below)
+
+### Threat Locations
+
+If a threat level ever reaches the last box on a resource track, it immediately unlocks and puts into play a **threat location**. These present difficulties for Red Bank, but also offer an opportunity to lower the threat track. The threat locations have icons for resources under their title.
 
 ### Create Asset Skill
 
@@ -216,21 +217,11 @@ Every obstacle card has a name, although they are not all unique. There are mult
 
 Below the name, as for location cards, are a set of text tags and icons for each obstacle. Similarly to locations, these text tags may interact with other obstacle cards, location effects, and character abilities.
 
-### Obstacle Unlock Icon
+Additionally, some obstacles feature a location icon, indicating they come into play when the associated location comes into play.
 
-Along with the tags each obstacle has one icon, which shows how it becomes unlocked::
-
-| Location | Support Threat | Technology Threat | Espionage Threat | Military Threat | Diplomacy Threat | Sorcery Threat |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="rules_images/up-card.png" width="100" height="100" /> | <img src="rules_images/capitol.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/cowled.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | <img src="rules_images/stone-throne.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> |
-
-* **Location** - This obstacle comes into play attached to the location with the obstacle's name in its text box
-* **Support Threat** - This obstacle comes into play at the end of a session if the support threat level is at or above the obstacle difficulty
-* **Technology Threat** - This obstacle comes into play at the end of a session if the technology threat level is at or above the obstacle difficulty
-* **Espionage Threat** - This obstacle comes into play at the end of a session if the espionage threat level is at or above the obstacle difficulty
-* **Military Threat** - This obstacle comes into play at the end of a session if the military threat level is at or above the obstacle difficulty
-* **Diplomacy Threat** - This obstacle comes into play at the end of a session if the diplomacy threat level is at or above the obstacle difficulty
-* **Sorcery Threat** - This obstacle comes into play at the end of a session if the sorcery threat level is at or above the obstacle difficulty
+| Unlocked with Location |
+| :---: |
+| <img src="rules_images/up-card.png" width="100" height="100" /> |
 
 ### Difficulty
 
@@ -243,6 +234,10 @@ Below the difficulty is a region symbol. This shows which region's obstacle deck
 ### Threats
 
 Along the right side of the obstacle are one or more threat icons, showing one of the six resources in the game. If there are *three* or more obstacles in play with the same obstacle symbol during the [**threats**](#threats) phase, the related threat track will increase.
+
+These threat icons are also important for unlocking obstacle cards and putting them into play. As the threat levels increase, more difficult obstacles with matching icons are unlocked as part of the [**unlock new threat obstacles**](#unlock-new-threat-obstacles) step.
+
+Occasionally, game effects will refer to an obstacle by the threat icons. For instance, "a military obstacle" or "a sorcery obstacle". An obstacle qualifies if *any* of its threat icons match the description.
 
 ### Effect
 
@@ -311,7 +306,11 @@ On each resource pool are numbered **resource action slots** from 0 to 6. These 
 
 ### Resource Mastery Bonus
 
-When Red Bank's progress track for a resource is at or beyond the **+** symbol on the resource track, Red Bank has mastery in that resource, and players gain the mechanical benefit described in the resource box. These bonuses are further clarified in the [**resource bonuses**](#resource-bonuses) section.
+When Red Bank's progress track for a resource is at or beyond the red **+** symbol on the resource track, Red Bank has mastery in that resource, and players gain the mechanical benefit described in the resource box. These bonuses are further clarified in the [**resource bonuses**](#resource-bonuses) section.
+
+### Threat Location Unlock
+
+If a threat level reaches the end of a track, where the gray **+** symbol is located, it immediately unlocks and puts into play a threat location. These present unique challenges for Red Bank to deal with, but also offer an opportunity to lower the related threat track.
 
 ### Wheel of Seasons
 
@@ -363,7 +362,7 @@ There are separate character sheets for the seven characters in the game. At the
 
 ### Skills
 
-The upper left of the character sheet describes how proficient the character is at a set of six skills:
+The upper left of the character sheet describes how proficient the character is at a set of eight skills:
 
 | Command | Disguise | Lore | Rapport | Combat | Tactics | Thievery | Survival |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -381,7 +380,7 @@ If a character takes stress such that the tracking die would go to zero, it is s
 
 ### Conditions
 
-The stress track boxes below the starting position are called **conditions**. When the stress die moves on to one of these, cross it off. The first stress box below the starting position unlocks a [**commitment**](#commitment) ability when it is checked off. The remaining two unlock [**discord**](#discord) effects.
+The stress track boxes below the starting position are called **conditions**. When the stress die moves on to one of these, cross it off. The bottom two conditions on each track unlock [**discord**](#discord) effects.
 
 Conditions are recovered at the end of each game, during the [**recover conditions**](#recover-conditions) step.
 
@@ -389,7 +388,7 @@ If a condition box is already checked off when the stress die is moved down, **i
 
 ### Recovering Stress and Conditions
 
-There are many ways to recover stress, such as the [**rest**](#rest) action. In these cases, the chosen stress die is increased by the indicated amount. Unless otherwise indicated, this can be done to increase the stress die above its starting value. However! It is not possible to recover conditions or move the stress die back up the condition track during a session. If a die is at the 6 value, no improvement is possible for that stress track. Once the die has moved down the track, it is at that level or below for the rest of the game. Recovering conditions takes place during the [**recover conditions**](#recover-conditions) year end step.
+There are many ways to recover stress, such as the [**rest**](#rest) action. When stress is recovered, the chosen stress die is increased by the indicated amount. Unless otherwise indicated, this can increase the stress die above its starting value. However! It is not possible to recover conditions or move the stress die back up the condition track during a session. If a die is at the 6 value, no further improvement is possible for that stress track. Once the die has moved down the track, it is at that level or below for the rest of the game. Recovering conditions takes place during the [**recover conditions**](#recover-conditions) year end step.
 
 ### Knocked Out
 
@@ -403,35 +402,35 @@ Abilities are available to use at any time during the [**actions**](#actions) ph
 
 Like progress cards, abilities with a specific die value require using a die of that value. Abilities with a white box may be used with any die.
 
-Most abilities generate or modify dice. The generated die has the same type as the die used to activate the ability. For instance, Lucia has the ability to turn a 1 die into a 2 die. If a 1 action die is used for this ability, a 2 action die is generated. If a 1 die from the location's resource pool where Lucia is at is used, then a 2 is put back into that resource pool.
+Most abilities generate or modify dice. Unless otherwise noted, the generated die has the same type as the die used to activate the ability. For instance, Lucia has the ability to turn a 1 die into a 2 die. If a 1 action die is used for this ability, a 2 action die is generated. If a 1 die from the location's resource pool where Lucia is at is used, then a 2 is put back into that resource pool.
 
 Leave any dice on character abilities until the [**refresh**](#refresh) phase. Essentially, character abilities that take dice may only be used once per turn. Abilities that take stress may be used many times.
 
 ### Sample Abilities
 
-<img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/cubes.png" width="75" height="75" />
+<img src="rules_images/brain.png" width="75" height="75" /> <img src="rules_images/brain.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/cubes.png" width="75" height="75" />
 
-Spend a die to reroll any dice in the same target pool. As usual, an action die may be spent to roll any of the character's action dice, an asset where the character is located may be spent to reroll any other assets where the character is located, or any dice in the location's resource pool where the character is located may be spent to roll any other dice in that resource pool. Players do not have to reroll all the dice, they can choose which dice to reroll.
+Take two psyche stress to reroll any dice in the chosen target pool. May target the action dice pool for the character, the assets where the character is located, or the location's resource pool where the character is located. Players do not have to reroll all the dice, they can choose which dice to reroll.
 
 <img src="rules_images/dice-six-faces-one.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/dice-six-faces-two.png" width="75" height="75" />
 
-Turn a value 1 die into a value 2 die. Most characters have a "turn die X into die Y" ability. As usual, the die can come from the player's action dice, from an asset die where the character is located, or from the location's resource pool where the character is located. The new die is of the same type as the die placed on the ability.
+Turn a value 1 die into a value 2 die. Most characters have a "turn die X into die Y" ability. The die can come from the player's action dice, from an asset die where the character is located, or from the location's resource pool where the character is located. The new die is of the same type as the die placed on the ability.
 
 <img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" />
 
-These abilities are activated by placing an action die, an asset from where the character is at, or a resource die from the location's resource pool where the character is located. There are a wide variety of possible character effects.
+These abilities are activated either by placing an action die, an asset from where the character is at, or a resource die from the location's resource pool where the character is located. There are a wide variety of possible character effects.
 
 See the [**character appendix**](#character-appendix) for a more detailed breakdown of character abilities.
 
-### Commitment Abilities
+### Achievements
 
-When a character marks off the first condition box, they gain a commitment ability. Some stress is a good thing! Commitment abilities work just like other character abilities. These are unlocked in order, from top to bottom.
+Characters have additional abilities that are unlocked by undertaking different tasks during a game. These are listed under the achievements section of the character sheet. When a character takes the indicated action, they mark off the associated achievement and gain the related ability. These achievements may be gained in any order.
 
-`Since there are only two conditions with commitment, it's usually not possible for a character to gain more than two commitment abilities in one session.`
+See the [**character appendix**](#character-appendix) for a more detailed breakdown of achievements.
 
 ### Discord Effects
 
-Too much stress, though, is terrible. When either of the bottom two condition boxes are marked on the stress boxes, characters take a discord effect. The discord effects are also unlocked from top to bottom. Most discord effects require the player to write in something, such as a character name, a resource, or some other detail. These choices will make some characters unwilling to work as closely with certain characters. Choose carefully!
+Too much stress can bring out the worst in a character. When any discord condition box is marked on the stress track, characters take a discord effect. The discord effects are unlocked from top to bottom.
 
 See the [**character appendix**](#character-appendix) for a more detailed breakdown of discord effects.
 
@@ -484,11 +483,7 @@ Alternatively, shuffle the location cards by region. Then draw four cards from e
 
 ## Assemble Starting Obstacle Decks
 
-Unlock all of the obstacles with difficulties less than or equal to the initial threat levels for that resource. The [**unlock icon**](#obstacle-unlock-icon) of the obstacle is determined by finding the small black and white icon under the title.
-
-For instance, in the standard difficulty, the initial diplomacy threat level starts at 2. This is because the third space on the diplomacy track has a 2 on it. So gather up all of the obstacles with small black and white diplomacy unlock icons under their title of difficulty 1 and 2.
-
-After gathering up all of the initial obstacles based on starting threat tracks, divide them into decks by region icon in the upper left, and shuffle each of these decks to form one draw pile in each region. Set aside the remaining locked obstacles.
+Unlock all of the obstacles with difficulties of **two** or less and divide them into decks by region icon in the upper left. Shuffle each of these decks to form one draw pile in each region. Set aside the remaining locked obstacles.
 
 ## Assemble New Character Sheets
 
@@ -612,6 +607,10 @@ There will now be a number of open positions in the progress staging area equal 
 Raise each threat track by one for every matching threat symbol on obstacle cards beyond two. For instance, if there are 4 military thret icons on the obstacle cards, the military threat track will increase by 2. If there are 3 diplomacy threat icons on obstacles, the diplomacy threat track will increase by 1, etc.
 
 If a threat track is already at the highest position (step 12 on the track), increase the next threat track in trade order. For instance, if the support track is maxed out, increase technology instead. If sorcery is maxed out, players may choose which track to increase.
+
+### Unlocking Threat Locations
+
+Additionally, when a threat track reaches the final space, immediately unlock and put into play the related [**threat location**](#threat-locations). Burn one location in the region where the threat location should go, and put the threat location into play at that space. Unlock and attach any obstacles as indicated on the threat location card.
 
 `Unless playing at a very hard difficulty, maxing out a threat track is fairly rare, and typically only happens near the end of the campaign.`
 
@@ -737,7 +736,7 @@ TBD
 
 At the end of each session, complete the following steps:
 
-1. Burn Obstacles
+1. Clear Unfinished Progress and Asset Dice
 2. Burn Progress Cards
 3. Unlock New Obstacles
 4. Shuffle Obstacle Decks
@@ -748,9 +747,9 @@ At the end of each session, complete the following steps:
 
 Instructions to **burn** cards refer to placing them out of play for the remainder of the campaign. There is no effect that brings a burned card back into play.
 
-## Burn Obstacles
+## Clear Unfinished Progress and Asset Dice
 
-In each region's obstacle discard pile, burn the obstacle card on the bottom the discard deck. That is, the first obstacle discarded.
+Remove and discard any asset dice currently on location cards. Discard any dice on currently unfinshed progress cards and discard the progress cards to the appropriate stage deck.
 
 ## Burn Progress Cards
 
@@ -760,7 +759,9 @@ Gather and shuffle all of the progress cards for the lowest stage, then randomly
 
 ## Unlock New Threat Obstacles
 
-For each threat track, unlock obstacle cards with the given threat unlock icon of a difficulty less than or equal to the threat level. Place the unlocked obstacled cards in the region discard pile matching the region symbol of each obstacle.
+For each threat track, unlock obstacle cards with at least one of the related threat icons that have a difficulty less than or equal to the threat level. Place the unlocked obstacled cards in the region discard pile matching the region symbol of each obstacle.
+
+`As the threat levels increase, more difficult obstacles related to that resource are unlocked.`
 
 ## Shuffle Obstacle Decks
 
@@ -778,11 +779,17 @@ For each region, shuffle the region's location deck and draw two locations. Choo
 
 Some location cards will unlock new location obstacles at this time. If the location has a starting obstacle icon, look through the locked obstacle cards and put any matching named obstacles into play with the location. 
 
+### Locations to Unlock New Characters
+
+There is one location in each region that allows players to unlock a new character: *Undari's Tomb* (Red Bank / Oniri), *Pearlescent Marsh* (Settled Lands / Yasmina), and *Guild of Secrets* (Empire / Lucia). **Instead of** drawing locations randomly for the given region, players may choose an unlock location instead. Any number of character unlock locations may be chosen for the end of the year, although there could be quite a few obstacles in play at the start of the next game.
+
 ## Recover Conditions
 
 Each unlocked character recovers the first (the one closest to the starting stress position) marked condition box on each track. Erase the mark on this condition. More severe conditions, like *Wounded*, could be difficult to clear if character's are frequently marking multiple conditions!
 
 Note that **all** unlocked characters recover one condition on each stress track, even if they weren't active for this session. This is a way to let badly stressed characters have some extra recovery.
+
+`For instance, if a character is both weary and bruised, the weary condition is erased. Bruised remains.`
 
 ## Advance Year
 
@@ -790,7 +797,7 @@ The year advances by one. If this is year six, the campaign is over, move on to 
 
 ## Store Game
 
-For *Tabletop Simulator*, this is probably straightforward. In the real game, decks will have to be stacked in such a way that they are easy to recover again.
+For *Tabletop Simulator*, this is probably straightforward. In the real game, locations and obstacle decks will have to be stacked in such a way that they are easy to recover again.
 
 # Campaign End
 
@@ -861,25 +868,23 @@ Spend a die and gain a die of one value lower.
 
 ### Tech Split
 
-<img src="rules_images/spyglass.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/plus.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" />
+<img src="rules_images/spyglass.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/spyglass.png" width="75" height="75" /> <img src="rules_images/plus.png" width="75" height="75" /> <img src="rules_images/spyglass.png" width="75" height="75" />
 
-Spend a technology die, either an asset or resource pool die, and gain two dice of the same type. The two dice must sum to the spent die.
+Spend a technology die, either an asset or resource pool die, and gain two dice of the same type (asset or resource). The two dice must sum to the spent die.
 
 ### Die Split
 
 <img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/plus.png" width="75" height="75" /> <img src="rules_images/square.png" width="75" height="75" />
 
-Spend any type of die and gain two dice of the same type. The two dice must sum to the spent die.
-
-## Menas
-
-### Exploding Threes
-
-<img src="rules_images/square.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/dice-fire.png" width="75" height="75" />
-
-Spend a die to explode all value 3 dice in a chosen pool. The standard three dice pools may be selected: Menas's action dice, assets where Menas is located, or the location's resource dice pool where Menas is located. Gain an extra die of the appropriate type for each 3 in the pool and roll them. If any of those dice roll a 3, take additional dice and roll those. Continue gaining new dice every time a 3 is rolled.
+Spend any type of die (action die, asset, or resource die) and gain two dice of the same type. The two dice must sum to the spent die.
 
 ## Thea
+
+### Exploding Fives
+
+<img src="rules_images/capitol.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/exploding-five.png" width="75" height="75" />
+
+Spend a support asset or resource die to explode all value 5 dice in a chosen pool. The standard three dice pools may be selected: Thea's action dice, assets where Thea is located, or the location's resource dice pool where Thea is located. Gain an extra die of the appropriate type for each 5 in the selected pool and roll them. If any of those dice roll a 5, take additional dice and roll those. Continue gaining new dice every time a 5 is rolled.
 
 ### Rearrange Staged Achievements
 
@@ -920,7 +925,7 @@ One area to watch surrounds how new obstacles are unlocked and put into the game
 3. Character abilities burn obstacles
 4. Some number are burned at the end of every game
 
-Initially I thought the obstacle decks would cycle quite a bit, so there was almost a deck builder aspect to the game. That hasn't really happened for a variety of reasons (mainly because of how obstacles are tied to threats). But! It still seems fun, if, like locations, obstacle decks start one way, and slowly change over time. Either 3 or 4 seem good.
+Initially I thought the obstacle decks would cycle quite a bit, so there was almost a deck builder aspect to the game. That hasn't really happened for a variety of reasons (mainly because of how obstacles are tied to threats). I'm currently at 1 - although that does mean that obstacles added very late in the campaign may never be seen. I reconciled this with the fact that very important obstacles are typically attached to locations, so are guaranteed to start in play.
 
 ## Obstacle and Threat Pacing
 
@@ -930,7 +935,7 @@ Does the game lock up if threat levels aren't increasing? More difficult obstacl
 
 ## Character Abilities
 
-There's lots of room to tune character abilities, particularly around writing customizing characters over the campaign.
+There's lots of room to tune character abilities.
 
 Dice combos and chains are probably the funnest part of the game. Not surprising given it's a dice game. So character effects that are like "spend a pair" to get XYZ or "a straight of size X" gives you some powerful effect, etc, would be fun advanced abilities.
 
@@ -945,19 +950,19 @@ Action items from playtests and potential variants or ideas.
 * Does Hidden Outpost need a "stationary" tag?
    * Certain obstacles probably wouldn't move around, even for activation reasons
    * Could also change the theme to have it make sense for moving around
-* Add location, obstacle, or character effects for burning obstacles in discard piles
+* Add location, obstacle, or character effects for burning obstacles in discard piles?
    * Instead of auto-burning obstacle cards
+   * Seems fiddly though, for probably not much benefit
 * Possible combos on left side of character cards
    * 3 4 5 --> 5 dice
       * Or some sort of straight to big combo or some effect could be fun
    * 3 3 3 --> 1 2 3
       * Set to straight combos could be useful on +1/-1 sorts of progress cards
-* Customizable character abilities
-   * Write in resources you can create or trade into?
-   * Move to the location where XYZ is located
-   * Write in some sort of location type where character can benefit
 * Wondering if the complexity of skill types for locations (for create asset and trade) is worth it
    * Maybe more fiddly than it's worth for the tactical interest
+   * How different is the game if characters can just grab as many resources as they want (given action dice)?
 * Random threat increase amount, based on highest difficulty of obstacle in set?
 * Should players be able to choose which location to burn?
    * How many locations per region to draw?
+* Should Thea get "exploding 5s" and Menas get the flip a die?
+   * Exploding dice are subtly better for progress cards?

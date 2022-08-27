@@ -51,7 +51,11 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 "xxSETTLED","Beetle Burrough","Rural, xxSETTLED",xxTHIEVERY,"1","2 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\vladimir_manyukhin.tif","xxESPIONAGE"
 "xxSETTLED","Arankh","Rural, Eldritch, xxSETTLED",xxLORE,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\javier_charro_environment.tif","xxSHATTER","##NSBP##xxSTARTING Elisa"
 
-"xxSORCERY","Animaelic Forest","Wilderness, Eldritch, xxREDBANK, xxSORCERY",xxLORE,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\animaelic_forest.jpg","xxSHATTER","##NSBP##xxSTARTING The Severing"
-"xxMILITARY","Sundered Crag","Wilderness, Eldritch, xxREDBANK, xxMILITARY",xxTACTICS,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\polina-hristova-world.jpg","xxMILITARY","##NSBP##xxSTARTING Stone and Blood"
-"xxTECHNOLOGY","Aren's Forge","Wilderness, Eldritch, xxSETTLED, xxTECHNOLOGY",xxTHIEVERY,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\bradley-siegert-forge.jpg","xxTECHNOLOGY","##NSBP##xxSTARTING Stealer of Hope"
-"xxDISCORD","Desolation","Wilderness, Eldritch, xxDISCORD",xxLORE,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\shattered_docks.jpg",,"##NSBP##Take 1xxPSYCHE when moving to this location"
+"xxESPIONAGE","The Throne Room","Wilderness, Eldritch, xxEMPIRE, xxESPIONAGE",xxDISGUISE,"3","2 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\amin-moazzen-66.jpg","xxESPIONAGE","##NSBP##It costs xxPSYCHExxPSYCHExxPSYCHE to take the create asset action here","##NSBP##xxSTARTING Wrath of the Autarch"
+"xxSORCERY","Animaelic Forest","Wilderness, Eldritch, xxREDBANK, xxSORCERY",xxLORE,"3","3 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\animaelic_forest.jpg","xxSHATTER","##NSBP##It costs xxBODYxxBODY to take the create asset action here","##NSBP##xxSTARTING The Severing"
+"xxSTABILITY","Dusk's Ayrie","Wilderness, Eldritch, xxREDBANK, xxSTABILITY",xxSURVIVAL,"3","3 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\rick-hertel-buzazor.jpg","xxSORCERY","##NSBP##It costs xxBODY to take the create asset action here","##NSBP##xxSTARTING Drauga"
+"xxMILITARY","Sundered Crag","Wilderness, Eldritch, xxREDBANK, xxMILITARY",xxTACTICS,"3","3 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\polina-hristova-world.jpg","xxMILITARY","##NSBP##It costs xxBODYxxBODY to take the create asset action here","##NSBP##xxSTARTING Stone and Blood"
+"xxTECHNOLOGY","Aren's Forge","Wilderness, Eldritch, xxSETTLED, xxTECHNOLOGY",xxTHIEVERY,"3","3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\bradley-siegert-forge.jpg","xxTECHNOLOGY","##NSBP##xxSTARTING Stealer of Hope"
+"xxDIPLOMACY","Crow Manor","Wilderness, Eldritch, xxSETTLED, xxDIPLOMACY",xxRAPPORT,"3","2 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\pablo-palomeque-persian-temple.jpg","xxDIPLOMACY","##NSBP##xxSTARTING Sapphire Djinn"
+
+"xxDISCORD","Desolation","Wilderness, Eldritch, xxDISCORD",xxLORE,"3","3 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\shattered_docks.jpg",,"##NSBP##Take xxPSYCHE when moving to this location"

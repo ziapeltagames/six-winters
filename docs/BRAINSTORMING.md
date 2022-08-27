@@ -1,3 +1,48 @@
+# 08/26/22
+
+## Obstacle Pacing
+
+Also still not sure about obstacles coming and going. Without burning some off, it's pretty unlikely new ones will be drawn with any regularity. Burning one off each game gives you 18 burned. There are 64 general ones, and can probably figure on 10 or so coming from locations.
+
+How to avoid the decks somehow getting too low? Could look at threat levels. Still could be too many cards burned. Maybe should give every end of threat track a location with specific obstacles? That would make sure they come into play during the final game. Or maybe you unlock the obstacle cards immediately, putting them on top of decks? That would work, but it's pretty fiddly.
+
+Learning towards:
+
+* never burn obstacles, except a select few
+* add obs at end of turn, shuffling into deck
+* every track has a location at the end for the high threat condition
+* end of threat tracks are immediate - so they can happen during the last game
+
+## Achievements
+
+* Complete Progress Card
+   * Type
+   * Stage
+* Overcome Obstacle
+   * Type
+   * Difficulty
+   * With Other Character
+   * At Location
+   * In Region
+* Spend Assets
+* Take Condition
+
+Currently commitment is all based on conditions. This maybe creates mismatched incentives. Ideally, the way to unlock achievements shouldn't interefere much with strategy choices. There's always a fixed number per game, which isn't bad. But there's something fun about the in-game goals, where it's possible to potentially unlock quite a few in one game. It also gives an additional thing to watch for. Spending assets is too much like completing progress cards, though. It just burns resources for some other use. It's okay, but better to not feel like it's a sideshow. And stress/conditions is also a little tricky. Maybe focus on progress cards and obstacles?
+
+Working with other characters does force players to use certain combinations of characters. That's okay, but should probably mean you don't have to go in order for achievements. Going in order would make the game much harder. Maybe put a pin in the ordering of achievements. Should you be able to satisfy two achievmeents with one action? That doesn't seem ideal. But if you had "work with XYZ character" and "overcome XYZ type obstacle", those could be done at the same time. Maybe that's fine! You would still have to set that up.
+
+### Thea Abilities
+
+Is exploding fives restricted to the listed die type?
+
+# 08/23/22
+
+## Playtest Analysis
+
+Starting to get tuned again after the change to character sheets from character decks. Pacing feels a little better now.
+
+Not sure about stress for commitment, though. If it's going to be there, probably do need a "drop commitment for a reroll". Or it's a sign that there are maybe better uses for commitment. What were the old commitment cards about?
+
 # 08/22/22
 
 ## Two Player Playtest
