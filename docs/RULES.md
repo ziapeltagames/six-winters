@@ -674,17 +674,17 @@ Overcome allows players to discard obstacles from the location board where their
 2. Defend
 3. Overcome
 
-Before starting the overcome process, determine if any of the characters attempting to overcome the obstacle are **skilled**. A character is skilled against an obstacle if the character's skill is *greater than or equal to* the matching overcome skill for the obstacle. It's easier to overcome obstacles when skilled.
+Before starting the overcome process, determine if the obstacle is **easy** for any of the characters. An obstacle is easy if the character's skill is *greater than or equal to* the matching overcome skill for the obstacle. Otherwise the obstacle is **difficult**.
 
 ### Approach
 
-During this step, a skilled character may place any number of action dice on the obstacle.
+During this step, character's may place any number of action dice on the obstacle *if it is easy*.
 
 If, after this step, the obstacle has dice on it matching its obstacle dice pattern, it is immediately overcome! Skip the defend step and move on to overcome. If the pattern is incomplete, continue on to the defend step, leaving the dice on the obstacle.
 
-Assets at the skilled character's location may be used for approach as well. Assets are super handy!
+Assets at the character's location may be used for approach as well, as long as the obstacle is easy! Assets are super handy!
 
-`Being skilled has huge benefits in terms of planning out turns. To use game designer lingo: the fortune is at the front.`
+`Being highly skilled has huge benefits in terms of planning out turns. To use game designer lingo: the fortune is at the front.`
 
 ### Defend
 
@@ -702,7 +702,7 @@ Any action dice may be placed on the obstacle to overcome it, provided they matc
 
 Some obstacles have other effects when they are overcome, as indicated with an overcome icon in the effect text section.
 
-Finally, if the character is unskilled and the obstacle is overcome, **they increase their skill by one**. Characters improve their skills by overcoming difficult obstacles.
+Finally, if the obstacle is difficult for a character and it is overcome, **they increase their skill by one**. Characters improve their skills by overcoming difficult obstacles.
 
 If the obstacle doesn't have enough dice on it to complete the pattern, leave any dice on it. Further dice may be added with more overcome actions on the same or future turns.
 
@@ -710,11 +710,11 @@ Assets at the character's location may be placed on the obstacle during the over
 
 ### Teamwork
 
-Multiple characters may work together to overcome an obstacle, provided of course they are at the same location with the obstacle. In this case, all skilled characters may add dice and check for success during the approach. All characters successfully defend if *between all of them* they have the right set of dice values, and all players may check to overcome the obstacle.
+Multiple characters may work together to overcome an obstacle, provided of course they are at the same location with the obstacle. In this case, all characters for whom the obstacle is easy may add dice and check for success during the approach. All characters successfully defend if *between all of them* they have the right set of dice values, and all players may check to overcome the obstacle.
 
 If the team fails to defend, the stress may be split between all of the characters overcoming the obstacle.
 
-Any unskilled characters increase their skills.
+Any characters for whom the obstacle is difficult increase their skills.
 
 ### Assets and Obstacles
 
