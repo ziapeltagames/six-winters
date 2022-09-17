@@ -604,7 +604,7 @@ To place an obstacle:
 
 There will now be a number of open positions in the progress staging area equal to the current stage difficulty. After placing obstacles, slide down any remaining progress cards so they fill the lowest staging area positions, and refill any open progress staging card positions at the top by drawing from the progress deck.
 
-If a region's obstacle draw deck is ever emptied, shuffle the discard pile and create a new draw deck. It's okay if some cards in the discard pile did not start in the region, as some obstacle cards move between regions.
+If a region's obstacle draw deck is ever emptied, shuffle the discard pile and create a new draw deck. It's okay if some cards in the discard pile did not start in the region, as some obstacle cards move between regions. Additionally, if the progress deck is in Stage 5, and there aren't enough Stage 5 progress cards to refill the staging area, shuffle all of the discarded Stage 5 progress cards and form a new deck.
 
 ## Threat Tracks
 
@@ -656,8 +656,6 @@ This action moves resource pool dice matching the location's resource slot to th
 1. Place an action die on an open create asset slot for the pool matching the location's resource
     * The action die must be placed in an open slot less than or equal to the character's skill for creating assets at this location
 2. Move a resource die from pool that is **less than or equal to** the value of the placed action die
-
-Note that the stability progress bonus allows players to move **all** resource dice matching the value of the action die. This allows players to potentially create multiple assets with one action die.
 
 ## Trade
 
