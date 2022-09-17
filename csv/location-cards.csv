@@ -38,7 +38,7 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 "xxSETTLED","Boar's Peak","Rural, xxSETTLED, xxSTACK",xxTACTICS,"1","3 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\andrew-gubin-watch-at-the-pick.jpg",,
 "xxSETTLED","Gravewood","Wilderness, Eldritch, xxSETTLED, xxSTACK",xxSURVIVAL,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\rhonda-chan-haunted-forest.jpg",,
 
-"xxSETTLED","Pearlescent Marsh","Rural, Eldritch, xxSETTLED",xxSURVIVAL,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\mystic_valley_by_lepyoshka.tif","xxSHATTER","##NSBP##xxSTARTING Place 3 Forager cards at different locations"
+"xxSETTLED","Pearlescent Marsh","Rural, Eldritch, xxSETTLED",xxSURVIVAL,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\mystic_valley_by_lepyoshka.tif","xxSHATTER","##NSBP##xxSTARTING Forager's Tome"
 
 "xxSETTLED","Hogel Manor","Rural, xxSETTLED",xxRAPPORT,"1","2 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\grady_frederick_manor.tif",,"##NSBP##xxCUBE Move an issue to any location","##NSBP##xxSTARTING Hogel"
 "xxSETTLED","Wrenhouse","Wilderness, Hall, xxSETTLED",xxRAPPORT,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\houses_creek_eriktaberman.tif",,"##NSBP##xxCUBE Move xxRAPPORT obstacle to this location"

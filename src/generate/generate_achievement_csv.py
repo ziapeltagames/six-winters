@@ -272,7 +272,7 @@ card_dict = {
             'f34': '+1',
             'f43': '-1',
             'bonus': 'xxSTABILITYxxMILITARY',
-            'reward': 'xxINVEST'},
+            'reward': 'xxSTAR'},
         'Sorcerous Shortcuts': {
             'locregion': 'xxSETTLED',
             'locresource': 'xxTECHNOLOGY',
@@ -293,7 +293,7 @@ card_dict = {
             'f33': 'MMxxTWOMM',
             'f42': 'xxWSIX',
             'bonus': 'xxSORCERYxxDIPLOMACY',
-            'reward': 'xxINVEST'}
+            'reward': 'xxSTAR'}
         },
     '3': {
         'Right Tool for the Job': {
@@ -419,7 +419,7 @@ card_dict = {
             'g34': 'WWxxFSQUAREWW',
             'g42': 'WWxxFSQUAREWW',
             'g43': 'WExxFSQUAREWE',
-            'f11': 'xxTHREE',
+            'f11': 'xxWTHREE',
             'f12': 'xxSETTLED',
             'f13': 'xxREDBANK',
             'f21': 'GGxxTHREEGG',
@@ -518,7 +518,7 @@ card_dict = {
             'f43': 'xxWSIX',
             'f44': 'xxSETTLED',
             'bonus': 'xxDIPLOMACYxxSORCERY',
-            'reward': 'xxINVEST'}
+            'reward': 'xxSTAR'}
         },
     '4': {
         'Local Investments': {
@@ -810,12 +810,97 @@ card_dict = {
             'f44': 'xxWTWO',
             'bonus': 'xxESPIONAGE',
             'reward': 'MMxxESPIONAGEMM MMxxESPIONAGEMM'},
+        'The Spiritual Path': {
+            'locregion': 'xxREDBANK',
+            'locresource': 'xxSORCERY',
+            'g11': 'WSxxFSQUAREWS',
+            'g12': 'WWxxFSQUAREWW',
+            'g13': 'WWxxFSQUAREWW',
+            'g24': 'WWxxFSQUAREWW',
+            'g34': 'WWxxFSQUAREWW',
+            'g44': 'WExxFSQUAREWE',
+            'f12': '+1',
+            'f13': '+1',
+            'f24': '+1',
+            'f34': '+1',
+            'f44': '=',
+            'bonus': 'xxESPIONAGE',
+            'reward': 'xxSTAR'},
+        'The Material Path': {
+            'locregion': 'xxEMPIRE',
+            'locresource': 'xxESPIONAGE',
+            'g11': 'WSxxFSQUAREWS',
+            'g12': 'WWxxFSQUAREWW',
+            'g13': 'WWxxFSQUAREWW',
+            'g24': 'WWxxFSQUAREWW',
+            'g34': 'WWxxFSQUAREWW',
+            'g44': 'WExxFSQUAREWE',
+            'f12': '-1',
+            'f13': '-1',
+            'f24': '-1',
+            'f34': '-1',
+            'f44': '=',
+            'bonus': 'xxEMPIRE',
+            'reward': 'xxSTAR'},
+        'Settled Lands Tour': {
+            'locregion': 'xxEMPIRE',
+            'locresource': 'xxESPIONAGE',
+            'g11': 'LSxxFSQUARELS',
+            'g12': 'OOxxFSQUAREOO',
+            'g13': 'OOxxFSQUAREOO',
+            'g24': 'BBxxFSQUAREBB',
+            'g34': 'BBxxFSQUAREBB',
+            'g44': 'LExxFSQUARELE',
+            'bonus': 'xxSETTLED',
+            'reward': 'xxSTAR'},
+        'Red Bank Tour': {
+            'locregion': 'xxEMPIRE',
+            'locresource': 'xxESPIONAGE',
+            'g11': 'GSxxFSQUAREGS',
+            'g12': 'YYxxFSQUAREYY',
+            'g13': 'YYxxFSQUAREYY',
+            'g24': 'BBxxFSQUAREBB',
+            'g34': 'BBxxFSQUAREBB',
+            'g44': 'GExxFSQUAREGE',
+            'bonus': 'xxSORCERY',
+            'reward': 'xxSTAR'},
+        'Imperial Tour': {
+            'locregion': 'xxEMPIRE',
+            'locresource': 'xxESPIONAGE',
+            'g11': 'GSxxFSQUAREGS',
+            'g12': 'OOxxFSQUAREOO',
+            'g13': 'OOxxFSQUAREOO',
+            'g24': 'MMxxFSQUAREMM',
+            'g34': 'MMxxFSQUAREMM',
+            'g44': 'GExxFSQUAREGE',
+            'bonus': 'xxEMPIRE',
+            'reward': 'xxSTAR'},
+        'Potions or Promises': {
+            'locregion': 'xxEMPIRE',
+            'locresource': 'xxESPIONAGE',
+            'g11': 'WSxxFSQUAREWS',
+            'g12': 'LLxxFSQUARELL',
+            'g13': 'WWxxFSQUAREWW',
+            'g21': 'BBxxFSQUAREBB',
+            'g24': 'WWxxFSQUAREWW',
+            'g31': 'WWxxFSQUAREWW',
+            'g34': 'LLxxFSQUARELL',
+            'g42': 'WWxxFSQUAREWW',
+            'g43': 'BBxxFSQUAREBB',
+            'g44': 'WExxFSQUAREWE',
+            'f13': '-1',
+            'f31': '+1',
+            'f24': '-1',
+            'f42': '+1',
+            'f44': '=',
+            'bonus': 'xxREDBANK',
+            'reward': 'xxSTAR'},
         }
     }
 
 original_stdout = sys.stdout
 
-with open ("D:\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\six-winters\\csv\\achievement-cards.csv", "w") as csvfile:
+with open ("D:\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\six-winters\\csv\\progress-cards.csv", "w") as csvfile:
 
     sys.stdout = csvfile
 

@@ -1,3 +1,138 @@
+# 09/17/22
+
+Analysis of obstacle cards - starting
+
+## Easy
+
+### Difficulties
+
+Stability: 2
+Tech: 1
+Espionage: 1
+Military: 2
+Diplo: 2
+Sorcery: 1
+
+### Number of Obs by Threat
+
+Stability: 8
+Tech: 4
+Espionage: 4
+Military: 5
+Diplo: 6
+Sorcery: 3
+
+### Number of Obs by Season
+
+Spring: 8
+Summer: 8
+Fall: 6
+Winter: 3
+
+## Normal
+
+### Difficulties
+
+Stability: 3
+Tech: 2
+Esp: 2
+Mil: 2
+Diplo: 3
+Sorcery: 2
+
+### Number of Obs by Threat
+
+Stability: 1 (9)
+Tech: 2 (7)
+Esp: 3 (8)
+Mil: 2 (7)
+Diplo: 3 (8)
+Sorcery: 2 (5)
+
+### Number of Obs by Season
+
+Spring: 4 (12)
+Summer: 2 (10)
+Fall: 3 (9)
+Winter: 1 (4)
+
+## Difficult
+
+### Difficulties
+
+Stability: 3
+Tech: 2
+Esp: 3
+Mil: 3
+Diplo: 3
+Sorcery: 3
+
+### Number of Obs by Threat
+
+Stability: 0 (9)
+Tech: 2 (9)
+Esp: 3 (11)
+Mil: 5 (12)
+Diplo: 0 (8)
+Sorcery: 1 (6)
+
+### Number of Obs by Season
+
+Spring: 1 (13)
+Summer: 2 (12)
+Fall: 2 (11)
+Winter: 3 (7)
+
+## All Threat Obstacles
+
+### Number of Obs by Threat
+
+Stability: 5 (14)
+Tech: 8 (17)
+Esp: 4 (15)
+Mil: 6 (18)
+Diplo: 6 (14)
+Sorcery: 5 (11)
+
+### Number of Obs by Season
+
+Spring: 2 (15)
+Summer: 3 (15)
+Fall: 6 (17)
+Winter: 7 (14)
+
+## Location Obstacles
+
+### Number of Obs by Threat
+
+Stability: 4 (18)
+Tech: 2 (19)
+Esp: 2 (17)
+Mil: 4 (22)
+Diplo: 4 (18)
+Sorcery: 11 (22)
+
+### Number of Obs by Season
+
+Spring: 4 (19)
+Summer: 7 (22)
+Fall: 7 (24)
+Winter: 5 (19)
+
+# 09/07/22
+
+## Playtest Notes
+
+Most of the playtests are looking better overall. The biggest places to think about:
+
+* How many abilities per character?
+* Should abilities have an 'order' to unlocking them?
+* Is there a place for burning obstacles?
+
+## Burning Obstacles
+
+The big thing about only adding to the obstacle decks, is that they become diluted. However, it's possible for important cards to make their way out via the locations.
+
 # 08/26/22
 
 ## Obstacle Pacing

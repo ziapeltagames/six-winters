@@ -26,7 +26,7 @@ During a session of the game, players select from a rotating cast of characters 
 
 The conflict with the Empire is over six **resources**.
 
-| Support | Technology | Espionage | Military | Diplomacy | Sorcery |
+| Stability | Technology | Espionage | Military | Diplomacy | Sorcery |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | <img src="rules_images/capitol.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/cowled.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | <img src="rules_images/stone-throne.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> |
  
@@ -50,9 +50,9 @@ Each resource track has numbers on it from 1 to 5, or 6 in the case of the sorce
 
 If a Red Bank progress marker is _alone_ on the last space of the resource track (the 12th space), that resource track is **complete**. After the sixth game, check for victory as follows:
 
-* **Pyrrhic Victory**: Red Bank has completed one of Diplomacy, Support, or Espionage.
-* **Major Victory**: Red Bank has completed any two of Diplomacy, Support, or Espionage.
-* **Total Victory**: Red Bank has completed all of Diplomacy, Support, and Espionage.
+* **Pyrrhic Victory**: Red Bank has completed one of Diplomacy, Stability, or Espionage.
+* **Major Victory**: Red Bank has completed any two of Diplomacy, Stability, or Espionage.
+* **Total Victory**: Red Bank has completed all of Diplomacy, Stability, and Espionage.
 
 Any other state of the game after six sessions results in defeat for Red Bank.
 
@@ -68,7 +68,7 @@ Red Bank's raw capability in a resource is represented by a [**pool**](#resource
 
 Resource dice are colored as follows:
 
-* **Support**: Yellow
+* **Stability**: Yellow
 * **Technology**: Orange
 * **Espionage**: Red
 * **Military**: Gray
@@ -137,13 +137,13 @@ Along the bottom of each card are [**movement**](#move) costs for each region. A
 
 The upper left of each location card contain optional icons indicating various effects.
 
-| Port | Magic Gate | Support Source | Technology Source | Espionage Source | Military Source | Diplomacy Source | Sorcery Source |
+| Port | Magic Gate | Stability Source | Technology Source | Espionage Source | Military Source | Diplomacy Source | Sorcery Source |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | <img src="rules_images/caravel.png" width="100" height="100" /> | <img src="rules_images/shatter.png" width="100" height="100" /> | <img src="rules_images/capitol.png" width="100" height="100" /> | <img src="rules_images/spyglass.png" width="100" height="100" /> | <img src="rules_images/cowled.png" width="100" height="100" /> | <img src="rules_images/catapult.png" width="100" height="100" /> | <img src="rules_images/stone-throne.png" width="100" height="100" /> | <img src="rules_images/magic-swirl.png" width="100" height="100" /> |
 
 * **Port**: A character may spend one action die to move from this location to another port location
 * **Magic Gate**: A character may take on psyche stress (see below) to move from this location to another gate location
-* **Support Source**: Roll and place a support die at this location when location is activated
+* **Stability Source**: Roll and place a stability die at this location when location is activated
 * **Technology Source**: Roll and place a technology die at this location when location is activated
 * **Espionage Source**: Roll and place an espionage die at this location when location is activated
 * **Military Source**: Roll and place a military die at this location when location is activated
@@ -181,7 +181,7 @@ When a progress card is completed, the resource progress track listed on the bot
 
 | Progress Wildcard |
 | :---: |
-| <img src="rules_images/swap-bag.png" width="100" height="100" /> |
+| <img src="rules_images/staryu.png" width="100" height="100" /> |
 
 ### On Two Fronts Example
 
@@ -446,14 +446,14 @@ When starting a new campaign, undertake the following steps. The campaign may be
 
 ## Set Initial Progress
 
-The red cubes are used to track *Red Bank's* progress on each resource track. At the start of the campaign, the red cubes are placed on the first space of each track (the space in the upper left surrouding each resource pool). All resource pools start at size 1 except support, which is at size 2.
+The red cubes are used to track *Red Bank's* progress on each resource track. At the start of the campaign, the red cubes are placed on the first space of each track (the space in the upper left surrouding each resource pool). All resource pools start at size 1 except stability, which is at size 2.
 
 ## Set Initial Threat Levels
 
 The first step is to determine the difficulty of the campaign. Initial threat levels are based on difficulty. Place gray cubes at the appropriate position of each resource track:
 
-* **Cakewalk**: First space, on same space as red threat progress cubes
-* **Standard**: Third space
+* **Cakewalk**: Second space, just to the right of the red threat progress cubes
+* **Standard**: Fourth space
 * **Difficult**: Sixth space, the last space on the top row
 * **Tragedy Incarnate**: Ninth space, only three away from the last space of the track, when particularly bad effects kick in
 
@@ -483,7 +483,9 @@ Alternatively, shuffle the location cards by region. Then draw four cards from e
 
 ## Assemble Starting Obstacle Decks
 
-Unlock all of the obstacles with difficulties of **two** or less and divide them into decks by region icon in the upper left. Shuffle each of these decks to form one draw pile in each region. Set aside the remaining locked obstacles.
+For each threat track, unlock all obstacles with matching threat icons that have a difficulty less than or equal to the threat level. An obstacle matches if **any** of its threat icons match the threat track. For instance, if a difficulty 2 obstacle has threat icons for military and stability, it is unlocked if either the stability or the military threat track are at two or higher. In this case, it is will be unlocked regardless of the military threat level, because the stability threat level has a minimum of two.
+
+Sort these unlocked obstacles into decks for The Empire, Red Bank, and The Settled Lands, based on the icons under the difficuly value. Shuffle each of these decks to form one draw pile in each region. Set aside the remaining locked obstacles.
 
 ## Assemble New Character Sheets
 
@@ -602,11 +604,13 @@ To place an obstacle:
 
 There will now be a number of open positions in the progress staging area equal to the current stage difficulty. After placing obstacles, slide down any remaining progress cards so they fill the lowest staging area positions, and refill any open progress staging card positions at the top by drawing from the progress deck.
 
+If a region's obstacle draw deck is ever emptied, shuffle the discard pile and create a new draw deck. It's okay if some cards in the discard pile did not start in the region, as some obstacle cards move between regions.
+
 ## Threat Tracks
 
 Raise each threat track by one for every matching threat symbol on obstacle cards beyond two. For instance, if there are 4 military thret icons on the obstacle cards, the military threat track will increase by 2. If there are 3 diplomacy threat icons on obstacles, the diplomacy threat track will increase by 1, etc.
 
-If a threat track is already at the highest position (step 12 on the track), increase the next threat track in trade order. For instance, if the support track is maxed out, increase technology instead. If sorcery is maxed out, players may choose which track to increase.
+If a threat track is already at the highest position (step 12 on the track), increase the next threat track in trade order. For instance, if the stability track is maxed out, increase technology instead. If sorcery is maxed out, players may choose which track to increase.
 
 ### Unlocking Threat Locations
 
@@ -653,7 +657,7 @@ This action moves resource pool dice matching the location's resource slot to th
     * The action die must be placed in an open slot less than or equal to the character's skill for creating assets at this location
 2. Move a resource die from pool that is **less than or equal to** the value of the placed action die
 
-Note that the support progress bonus allows players to move **all** resource dice matching the value of the action die. This allows players to potentially create multiple assets with one action die.
+Note that the stability progress bonus allows players to move **all** resource dice matching the value of the action die. This allows players to potentially create multiple assets with one action die.
 
 ## Trade
 
@@ -662,7 +666,7 @@ Trade works similarly to creating assets, although it allows players to move res
 1. Place an action die on an open action slot for the pool matching the location's resource
     * The action die must be placed in an open slot less than or equal to the character's skill for resource actions at this location
 2. Move a resource die into or out of this pool that is **less than or equal to** the value of the placed die
-    * The dice are moved along the wheel of trade (support -> technology, technology -> espionage, etc.)
+    * The dice are moved along the wheel of trade (stability -> technology, technology -> espionage, etc.)
     * When a die is moved from one resource pool to another, it changes type
     * Dice from the sorcery pool may move into any other resource pool, but no resource may by converted to sorcery dice
 
@@ -759,7 +763,7 @@ Gather and shuffle all of the progress cards for the lowest stage, then randomly
 
 ## Unlock New Threat Obstacles
 
-For each threat track, unlock obstacle cards with at least one of the related threat icons that have a difficulty less than or equal to the threat level. Place the unlocked obstacled cards in the region discard pile matching the region symbol of each obstacle.
+For each threat track, unlock obstacle cards with **one or more** related threat icons that have a difficulty less than or equal to the threat level. As with [**creating the starting obstacle decks**](#assemble-starting-obstacle-decks), any matching threat icon counts! Place the unlocked obstacled cards in the region discard pile matching the region symbol of each obstacle.
 
 `As the threat levels increase, more difficult obstacles related to that resource are unlocked.`
 
@@ -803,9 +807,9 @@ For *Tabletop Simulator*, this is probably straightforward. In the real game, lo
 
 As described in [**victory**](#victory), check for victory as follows:
 
-* **Pyrrhic Victory**: Red Bank has completed one of Diplomacy, Support, or Espionage.
-* **Major Victory**: Red Bank has completed any two of Diplomacy, Support, or Espionage.
-* **Total Victory**: Red Bank has completed all of Diplomacy, Support, and Espionage.
+* **Pyrrhic Victory**: Red Bank has completed one of Diplomacy, Stability, or Espionage.
+* **Major Victory**: Red Bank has completed any two of Diplomacy, Stability, or Espionage.
+* **Total Victory**: Red Bank has completed all of Diplomacy, Stability, and Espionage.
 
 Players get 1 point for a pyrrhic victory, 3 points for a major victory, and 6 points for a total victory. Additionally, players get 1 points for every non-victory (Technology, Military, and Sorcery) resource track in which Red Bank's progress is higher than the threat marker.
 
@@ -826,15 +830,17 @@ Finally, multiply the total points by the difficulty to find your score:
 | 21-25 | Achievement: Master of Six Winters |
 | 26-30 | Achievement: Superior Master of Six Winters |
 | 30-35 | Achievement: Grand Master of Six Winters |
-| 36 | Achievement: Autarch of Six Winters |
+| 36 | Achievement: The New Autarch |
 
 `My plan is to eventually have some fiction and character epilogues around these different win conditions. That could be a fun thing to do per session as well, but there's already a lot going on.`
 
 # Resource Mastery Bonuses
 
-## Support
+## Stability
 
 May create assets from or trade using *all* the resource dice matching the value of the action die used. This makes sets of the same value in resource pools particularly easy to move around.
+
+For instance, if the stability pool has the following dice: 3 3 3 3 2, and a value 3 die is used to create assets, all four of the value three dice are placed at the location as assets! If a value 3 die is used to trade, all four of the value 3 dice may be traded into the technology resource pool.
 
 ## Technology
 
@@ -842,15 +848,19 @@ All players get one additional action die at the start of each turn.
 
 ## Espionage
 
-Whenever an espionage asset of value 2 is created, roll an additional espionage asset. Continue creating additional espionage assets until a number other than 2 is rolled.
+May create assets from or trade using a descending chain of resource dice from a selected die. This descending chain must decrease by one at each step. The action die used to trade or create assets must be greater than or equal than the first die in the chain.
+
+For instance, if the stability pool has the following dice: 5 4 3 1, and a value 5 or 6 die is used to create assets, the 5 4 3 dice may be placed at the location as assets! The 1 die is left behind because it is two lower than the 3 value die. In poker terms, the dice must form a straight. 
+
+Only one die at each step may be used. For instance, if the stability pool has the following dice: 5 4 4 3 2, and a value 5 or 6 die is used to create assets, the 5 4 3 2 dice may be taken as assets, but the additional 4 is left behind.
 
 ## Military
 
-May move any assets *from* a military location to any other location.
+May move any assets *from* a military location to any other location. This may be done by any player freely at any time during the actions phase.
 
 ## Diplomacy
 
-May trade 2 resource dice for any 1 resource die along the wheel of [**trade**](#trade). That is, 2 technology resource dice may be spent to roll a new espionage resource die, 2 espionage resource dice for a military resource die, 2 sorcery resource dice for any other resource die, etc. This may be done by any player freely at any time.
+May trade 2 resource dice for any 1 resource die along the wheel of [**trade**](#trade). That is, 2 technology resource dice may be spent to roll a new espionage resource die, 2 espionage resource dice for a military resource die, 2 sorcery resource dice for any other resource die, etc. This may be done by any player freely at any time during the actions phase.
 
 ## Sorcery
 
@@ -884,7 +894,7 @@ Spend any type of die (action die, asset, or resource die) and gain two dice of 
 
 <img src="rules_images/capitol.png" width="75" height="75" /> <img src="rules_images/arrow-right.png" width="75" height="75" /> <img src="rules_images/exploding-five.png" width="75" height="75" />
 
-Spend a support asset or resource die to explode all value 5 dice in a chosen pool. The standard three dice pools may be selected: Thea's action dice, assets where Thea is located, or the location's resource dice pool where Thea is located. Gain an extra die of the appropriate type for each 5 in the selected pool and roll them. If any of those dice roll a 5, take additional dice and roll those. Continue gaining new dice every time a 5 is rolled.
+Spend a stability asset or resource die to explode all value 5 dice in a chosen pool. The standard three dice pools may be selected: Thea's action dice, assets where Thea is located, or the location's resource dice pool where Thea is located. Gain an extra die of the appropriate type for each 5 in the selected pool and roll them. If any of those dice roll a 5, take additional dice and roll those. Continue gaining new dice every time a 5 is rolled.
 
 ### Rearrange Staged Achievements
 
@@ -964,5 +974,3 @@ Action items from playtests and potential variants or ideas.
 * Random threat increase amount, based on highest difficulty of obstacle in set?
 * Should players be able to choose which location to burn?
    * How many locations per region to draw?
-* Should Thea get "exploding 5s" and Menas get the flip a die?
-   * Exploding dice are subtly better for progress cards?
