@@ -1,21 +1,21 @@
 season,triggers,title,effect,@weather_image
 
 xxWINTER,0,"Mana Flows","Add xxSORCERY asset to each eldritch location.","..\images\events\darek_zabrocki_trek_to_festival.jpg"
-xxWINTER,1,"Snow Flurries","All characters in wilderness locations take 1xxBODY.","..\images\events\winter_pass_cosmin_genete.jpg"
-xxWINTER,2,"Brutal Cold","All characters in wilderness or rural locations take 2xxBODY.","..\images\events\winter_lakes.jpg"
-xxWINTER,3,"Blizzard","Discard all units in xxREDBANK. All characters in wilderness or rural locations take 3xxBODY.","..\images\events\winter_blizzard.jpg"
+xxWINTER,1,"Snow Flurries","All characters in rural or wilderness locations take 1xxBODY.","..\images\events\winter_pass_cosmin_genete.jpg"
+xxWINTER,2,"Brutal Cold","All characters in rural or wilderness locations take 2xxBODY.","..\images\events\winter_lakes.jpg"
+xxWINTER,3,"Blizzard","Discard all units. All characters in rural or wilderness locations take 3xxBODY.","..\images\events\winter_blizzard.jpg"
 
 xxSPRING,0,"Trade Fair","Add xxTECHNOLOGY asset to each urban location.","..\images\events\market_mood_painting_by_arcipello.jpg"
-xxSPRING,1,"Sunny and Mild","Add +2 dice to xxSTABILITY pool.","..\images\events\spring_flowing_stream.png"
+xxSPRING,1,"Tournament of the Autarch","Add xxESPIONAGE asset to each xxEMPIRE location.","..\images\events\armando-savoia-film-romeo-e-giulietta-1.jpg"
 xxSPRING,2,"Heavy Rains","Each player discards their lowest valued action die.","..\images\events\spring_mountains.jpg"
-xxSPRING,3,"Flooding","Do not refresh the xxDIPLOMACY pool this turn.","..\images\events\spring_lightning_storm.jpg"
+xxSPRING,3,"Flooding","Clear xxDIPLOMACY resource pool.","..\images\events\spring_lightning_storm.jpg"
 
-xxSUMMER,0,"Traveling Weather","Each player may immediately move any of their characters to different locations.","..\images\events\summer_landscape.jpg"
+xxSUMMER,0,"Traveling Weather","Movement costs 1 less this turn, to a minimum of 1.","..\images\events\summer_landscape.jpg"
 xxSUMMER,1,"Long Days","Each player gains +1 action die.","..\images\events\summer_field.jpg"
 xxSUMMER,2,"Heat Wave","All characters in urban locations take 2xxBODY.","..\images\events\summer_red_sun.jpg"
-xxSUMMER,3,"Drought","Do not refresh the xxSTABILITY pool this turn.","..\images\events\summer_drought_red.jpg"
+xxSUMMER,3,"Drought","Clear xxSTABILITY resource pool.","..\images\events\summer_drought_red.jpg"
 
-xxFALL,0,"Bountiful Harvest","Add xxSTABILITY asset to each xxREDBANK location.","..\images\events\fall_farm_harvest.jpg"
-xxFALL,1,"Harvest Festivals","Add xxDIPLOMACY asset to each rural location.","..\images\events\trade_fair_mideast.jpg"
+xxFALL,0,"Harvest Festivals","Add xxDIPLOMACY asset to each rural location.","..\images\events\trade_fair_mideast.jpg"
+xxFALL,1,"Bountiful Harvest","Add xxSTABILITY asset to each xxREDBANK location.","..\images\events\fall_farm_harvest.jpg"
 xxFALL,2,"Gathering Storm","Draw and place an obstacle using lowest progress card, discard progress card.","..\images\events\fall_wheat.jpg"
 xxFALL,3,"Mana Backlash","Discard all foes in xxREDBANK. All characters in eldritch locations take 3xxPSYCHE.","..\images\events\david_ceballos_lopez_forest_daughter_birth.jpg"

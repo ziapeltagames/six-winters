@@ -2,33 +2,6 @@
 
 Analysis of obstacle cards - starting
 
-## Easy
-
-### Difficulties
-
-Stability: 2
-Tech: 1
-Espionage: 1
-Military: 2
-Diplo: 2
-Sorcery: 1
-
-### Number of Obs by Threat
-
-Stability: 8
-Tech: 4
-Espionage: 4
-Military: 5
-Diplo: 6
-Sorcery: 3
-
-### Number of Obs by Season
-
-Spring: 8
-Summer: 8
-Fall: 6
-Winter: 3
-
 ## Normal
 
 ### Difficulties
@@ -42,12 +15,12 @@ Sorcery: 2
 
 ### Number of Obs by Threat
 
-Stability: 1 (9)
-Tech: 2 (7)
-Esp: 3 (8)
-Mil: 2 (7)
-Diplo: 3 (8)
-Sorcery: 2 (5)
+Stability: 7
+Tech: 7
+Esp: 8
+Mil: 7
+Diplo: 8
+Sorcery: 6
 
 ### Number of Obs by Season
 

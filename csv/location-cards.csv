@@ -2,16 +2,16 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 
 "xxEMPIRE","Eastkeep","Rural, xxEMPIRE, xxSTACK",xxTACTICS,"1","1 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\castle_wall_andrew_ryan.tif",,
 "xxEMPIRE","Guild of Strategy","Urban, Hall, xxEMPIRE, xxSTACK",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\andreas-rocha-scholarshall02.jpg",,
-"xxEMPIRE","Whitehold","Urban, Vault, xxEMPIRE, xxSTACK",xxTHIEVERY,"1","1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\keep_armando_savoia.tif",,
+"xxEMPIRE","Whitehold","Urban, xxEMPIRE, xxSTACK",xxTHIEVERY,"1","1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\keep_armando_savoia.tif",,
 
-"xxEMPIRE","Guild of Secrets","Urban, Vault, xxEMPIRE",xxTHIEVERY,"1","1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\underground_dungeon_byung_ju_bong.tif",,"##NSBP##Unlock Lucia if no obstacles present","##NSBP##xxSTARTING 2 X Master of Secrets"
+"xxEMPIRE","Guild of Secrets","Urban, xxEMPIRE",xxTHIEVERY,"1","1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\underground_dungeon_byung_ju_bong.tif",,"##NSBP##xxSTARTING 2 X Master of Secrets"
 
-"xxEMPIRE","The Rosy Freetrader","Urban, Tavern, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\sarah_kate_forstner_tavern.tif",,"##NSBP##xxCUBE Move a guard to this location"
+"xxEMPIRE","The Rosy Freetrader","Urban, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\sarah_kate_forstner_tavern.tif",,"##NSBP##xxCUBE Move a guard to this location"
 "xxEMPIRE","Prominence","Urban, Port, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\square_zzytudou.tif","xxBOAT","##NSBP##xxSTARTING Imperial Secrets",
-"xxEMPIRE","Ma Bonnie's Squidery","Urban, Tavern, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\fish_market_by_dustinpanzino.tif",,"##NSBP##xxSTARTING Egalitarian Society"
+"xxEMPIRE","Ma Bonnie's Squidery","Urban, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\fish_market_by_dustinpanzino.tif",,"##NSBP##xxSTARTING Egalitarian Society"
 "xxEMPIRE","Southkeep","Urban, Port, xxEMPIRE",xxTHIEVERY,"2","2 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\byzantine_town.tif","xxBOAT","##NSBP##xxSTARTING The Resistance"
 "xxEMPIRE","Yearly Field","Rural, xxEMPIRE",xxTACTICS,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\meadow_nimphradora.jpg",,"##NSBP##Take 2xxBODY to refill xxMILITARY pool"
-"xxEMPIRE","Dawncaves","Dungeon, xxEMPIRE",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\fungal_farm_ferdinandladera.tif","xxSORCERY"
+"xxEMPIRE","Dawncaves","Eldritch, xxEMPIRE",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\fungal_farm_ferdinandladera.tif","xxSORCERY"
 "xxEMPIRE","Firstborn Peak","Wilderness, xxEMPIRE",xxCOMBAT,"2","2 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\peak_jorge_jacinto.tif",,"##NSBP##xxSTARTING Hidden Outpost"
 "xxEMPIRE","Guilder Farms","Rural, xxEMPIRE",xxCOMMAND,"2","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\hillside_village_eriktaberman.tif","xxSTABILITY","##NSBP##xxSTARTING Military Sabotage"
 "xxEMPIRE","Guild of Scribes","Urban, Hall, xxEMPIRE",xxLORE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\andreas-rocha-occultknowledge01.jpg",,"##NSBP##xxCUBE Discard the top xxEMPIRE mission card"
@@ -21,9 +21,9 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 "xxREDBANK","Ferry's Glenn","Rural, xxREDBANK, xxSTACK",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\philipp-a-urlich-land.jpg",,
 "xxREDBANK","Gray Forest","Wilderness, xxREDBANK, xxSTACK",xxCOMBAT,"1","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\astridhwa-bosque.jpg",,
 
-"xxREDBANK","Undari's Tomb","Dungeon, Eldritch, xxREDBANK",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\andreas_roch_forgottencrypt.tif","xxSHATTER","##NSBP##xxSTARTING The Necromancer"
+"xxREDBANK","Undari's Tomb","Eldritch, xxREDBANK",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\andreas_roch_forgottencrypt.tif","xxSHATTER","##NSBP##xxSTARTING The Necromancer"
 
-"xxREDBANK","Amaranth Square","Urban, Port, xxREDBANK",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\corinth_seacoast.tif","xxBOAT",
+"xxREDBANK","Amaranth Square","Urban, Port, Hall, xxREDBANK",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\corinth_seacoast.tif","xxBOAT",
 "xxREDBANK","Amber Trade Fair","Rural, xxREDBANK",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","1 xxSETTLED","..\images\lands\deedema_bazar.tif","xxTECHNOLOGY",
 "xxREDBANK","Undari's Tower","Urban, Eldritch, xxREDBANK",xxLORE,"2","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\hao_ding_tower.tif","xxSHATTER","##NSBP##xxSTARTING Mana Forge"
 "xxREDBANK","Cyclabrary","Urban, xxREDBANK",xxLORE,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\library_suomar_ddfgeia.tif",,"##NSBP##xxSTARTING Tome of Forking Paths"
@@ -31,7 +31,7 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 "xxREDBANK","Amaranth Bourne","Wilderness, xxREDBANK",xxSURVIVAL,"1","2 xxEMPIRE","1 xxREDBANK","1 xxSETTLED","..\images\lands\shuang_hao_creekside_reflection.tif",,"##NSBP##xxCUBE Move a foe to this location"
 "xxREDBANK","The Weird Rock","Wilderness, xxREDBANK",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\johannes_roots_rock.tif",,"##NSBP##Take 2xxPSYCHE to refill xxSORCERY pool"
 "xxREDBANK","Sightrock Keep","Rural, xxREDBANK",xxTACTICS,"2","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\chris_karbach_mountain_farm.tif",,"##NSBP##xxCUBE Move a unit to this location","##NSBP##xxSTARTING Doom Under Sightrock"
-"xxREDBANK","The Obfuscated Bribe","Urban, Tavern, xxREDBANK",xxRAPPORT,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\fantasy_tavern_ayndre.tif",,"##NSBP##xxSTARTING Clove and Minx"
+"xxREDBANK","The Obfuscated Bribe","Urban, xxREDBANK",xxRAPPORT,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\fantasy_tavern_ayndre.tif",,"##NSBP##xxSTARTING Clove and Minx"
 "xxREDBANK","House Lavender","Rural, xxREDBANK",xxDISGUISE,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\ryan_groskamp_rotsan.tif","xxDIPLOMACY","##NSBP##xxSTARTING Following Ley Lines"
 
 "xxSETTLED","Lily Manor","Urban, Hall, xxSETTLED, xxSTACK",xxRAPPORT,"2","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\christian-reiske-ciudx.jpg",,
@@ -49,11 +49,11 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 "xxSETTLED","Hall of Brass","Urban, Hall, xxSETTLED",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","1 xxSETTLED","..\images\lands\borisut_chamnan_hall_brass.tif",,"##NSBP##xxCUBE Move a diplomat to this location"
 "xxSETTLED","The Long Wastes","Wilderness, xxSETTLED",xxSURVIVAL,"2","3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\river_ardoric.tif","xxMILITARY","##NSBP##xxSTARTING Inadequate Defenses"
 "xxSETTLED","Beetle Burrough","Rural, xxSETTLED",xxTHIEVERY,"1","2 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\vladimir_manyukhin.tif","xxESPIONAGE"
-"xxSETTLED","Arankh","Rural, Eldritch, xxSETTLED",xxLORE,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\javier_charro_environment.tif","xxSHATTER","##NSBP##xxSTARTING Elisa"
+"xxSETTLED","Arankh","Rural, Eldritch, Hall, xxSETTLED",xxLORE,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\javier_charro_environment.tif","xxSHATTER","##NSBP##xxSTARTING Elisa"
 
 "xxESPIONAGE","The Throne Room","Wilderness, Eldritch, xxEMPIRE, xxESPIONAGE",xxDISGUISE,"3","2 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\amin-moazzen-66.jpg","xxESPIONAGE","##NSBP##It costs xxPSYCHExxPSYCHExxPSYCHE to take the create asset action here","##NSBP##xxSTARTING Wrath of the Autarch"
 "xxSORCERY","Animaelic Forest","Wilderness, Eldritch, xxREDBANK, xxSORCERY",xxLORE,"3","3 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\animaelic_forest.jpg","xxSHATTER","##NSBP##It costs xxBODYxxBODY to take the create asset action here","##NSBP##xxSTARTING The Severing"
-"xxSTABILITY","Dusk's Ayrie","Wilderness, Eldritch, xxREDBANK, xxSTABILITY",xxSURVIVAL,"3","3 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\rick-hertel-buzazor.jpg","xxSORCERY","##NSBP##It costs xxBODY to take the create asset action here","##NSBP##xxSTARTING Drauga"
+"xxSTABILITY","Dusk's Ayrie","Wilderness, Eldritch, xxREDBANK, xxSTABILITY",xxSURVIVAL,"3","3 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\rick-hertel-buzazor.jpg","xxSORCERY","##NSBP##It costs xxBODY to take the create asset action here","##NSBP##xxSTARTING Tatiala's Gambit"
 "xxMILITARY","Sundered Crag","Wilderness, Eldritch, xxREDBANK, xxMILITARY",xxTACTICS,"3","3 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\polina-hristova-world.jpg","xxMILITARY","##NSBP##It costs xxBODYxxBODY to take the create asset action here","##NSBP##xxSTARTING Stone and Blood"
 "xxTECHNOLOGY","Aren's Forge","Wilderness, Eldritch, xxSETTLED, xxTECHNOLOGY",xxTHIEVERY,"3","3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\bradley-siegert-forge.jpg","xxTECHNOLOGY","##NSBP##xxSTARTING Stealer of Hope"
 "xxDIPLOMACY","Crow Manor","Wilderness, Eldritch, xxSETTLED, xxDIPLOMACY",xxRAPPORT,"3","2 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\pablo-palomeque-persian-temple.jpg","xxDIPLOMACY","##NSBP##xxSTARTING Sapphire Djinn"
