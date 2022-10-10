@@ -3,8 +3,8 @@ from shutil import move
 import glob
 import os
 
-ob_threats =  [1, 123]
-ob_locs =  [123, 181]
+ob_threats =  [1, 125]
+ob_locs =  [125, 183]
 
 obpath = 'D:\\\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\Cards\\tts\\obstacles\\'
 
@@ -59,3 +59,19 @@ for i in range(locs[0], locs[1], 2):
     obs = glob.glob(locpath+'*-1'+str(i+1)+'.png')
     if obs:
         move(obs[0], locpath+'back\\'+os.path.basename(obs[0]))
+
+events =  [1, 99]
+
+eventpath = 'D:\\\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\Cards\\tts\\events\\'
+
+for i in range(events[0], events[1], 2):
+    if i == 1:
+        obs = glob.glob(eventpath+'*-1.png')
+    else:
+        obs = glob.glob(eventpath+'*-1'+str(i)+'.png')
+    if obs:
+        move(obs[0], eventpath+'front\\'+os.path.basename(obs[0]))
+
+    obs = glob.glob(eventpath+'*-1'+str(i+1)+'.png')
+    if obs:
+        move(obs[0], eventpath+'back\\'+os.path.basename(obs[0]))

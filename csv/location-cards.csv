@@ -6,11 +6,11 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 
 "xxEMPIRE","Guild of Secrets","Urban, xxEMPIRE",xxTHIEVERY,"1","1 xxEMPIRE","xxNOMOVE xxREDBANK","xxNOMOVE xxSETTLED","..\images\lands\underground_dungeon_byung_ju_bong.tif",,"##NSBP##xxSTARTING 2 X Master of Secrets"
 
-"xxEMPIRE","The Rosy Freetrader","Urban, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\sarah_kate_forstner_tavern.tif",,"##NSBP##xxCUBE Move a guard to this location"
+"xxEMPIRE","The Rosy Freetrader","Urban, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\sarah_kate_forstner_tavern.tif",,"##NSBP##xxCUBE Move a guard to any xxEMPIRE location"
 "xxEMPIRE","Prominence","Urban, Port, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\square_zzytudou.tif","xxBOAT","##NSBP##xxSTARTING Imperial Secrets",
 "xxEMPIRE","Ma Bonnie's Squidery","Urban, xxEMPIRE",xxDISGUISE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\fish_market_by_dustinpanzino.tif",,"##NSBP##xxSTARTING Egalitarian Society"
 "xxEMPIRE","Southkeep","Urban, Port, xxEMPIRE",xxTHIEVERY,"2","2 xxEMPIRE","3 xxREDBANK","3 xxSETTLED","..\images\lands\byzantine_town.tif","xxBOAT","##NSBP##xxSTARTING The Resistance"
-"xxEMPIRE","Yearly Field","Rural, xxEMPIRE",xxTACTICS,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\meadow_nimphradora.jpg",,"##NSBP##Take 2xxBODY to refill xxMILITARY pool"
+"xxEMPIRE","Yearly Field","Rural, xxEMPIRE","xxBODY/xxTACTICS","1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\meadow_nimphradora.jpg",,
 "xxEMPIRE","Dawncaves","Eldritch, xxEMPIRE",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\fungal_farm_ferdinandladera.tif","xxSORCERY"
 "xxEMPIRE","Firstborn Peak","Wilderness, xxEMPIRE",xxCOMBAT,"2","2 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\peak_jorge_jacinto.tif",,"##NSBP##xxSTARTING Hidden Outpost"
 "xxEMPIRE","Guilder Farms","Rural, xxEMPIRE",xxCOMMAND,"2","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\hillside_village_eriktaberman.tif","xxSTABILITY","##NSBP##xxSTARTING Military Sabotage"
@@ -29,8 +29,8 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 "xxREDBANK","Cyclabrary","Urban, xxREDBANK",xxLORE,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\library_suomar_ddfgeia.tif",,"##NSBP##xxSTARTING Tome of Forking Paths"
 "xxREDBANK","Mirror Woods","Wilderness, xxREDBANK",xxSURVIVAL,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\mirror_saterina_minola.tif",,"##NSBP##xxSTARTING Restless Dead X 2"
 "xxREDBANK","Amaranth Bourne","Wilderness, xxREDBANK",xxSURVIVAL,"1","2 xxEMPIRE","1 xxREDBANK","1 xxSETTLED","..\images\lands\shuang_hao_creekside_reflection.tif",,"##NSBP##xxCUBE Move a foe to this location"
-"xxREDBANK","The Weird Rock","Wilderness, xxREDBANK",xxCOMBAT,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\johannes_roots_rock.tif",,"##NSBP##Take 2xxPSYCHE to refill xxSORCERY pool"
-"xxREDBANK","Sightrock Keep","Rural, xxREDBANK",xxTACTICS,"2","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\chris_karbach_mountain_farm.tif",,"##NSBP##xxCUBE Move a unit to this location","##NSBP##xxSTARTING Doom Under Sightrock"
+"xxREDBANK","The Weird Rock","Wilderness, xxREDBANK","xxPSYCHE/xxCOMBAT","2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\johannes_roots_rock.tif",,
+"xxREDBANK","Sightrock Keep","Rural, xxREDBANK",xxTACTICS,"2","1 xxEMPIRE","1 xxREDBANK","3 xxSETTLED","..\images\lands\chris_karbach_mountain_farm.tif",,"##NSBP##xxCUBE Move a unit to any location","##NSBP##xxSTARTING Doom Under Sightrock"
 "xxREDBANK","The Obfuscated Bribe","Urban, xxREDBANK",xxRAPPORT,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\fantasy_tavern_ayndre.tif",,"##NSBP##xxSTARTING Clove and Minx"
 "xxREDBANK","House Lavender","Rural, xxREDBANK",xxDISGUISE,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\ryan_groskamp_rotsan.tif","xxDIPLOMACY","##NSBP##xxSTARTING Following Ley Lines"
 
@@ -46,7 +46,7 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 "xxSETTLED","Shimmerhall","Urban, xxSETTLED",xxTACTICS,"1","3 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\eddie_mendoza_witch.tif",,"##NSBP##xxCUBE Move xxSORCERY obstacle to any location"
 "xxSETTLED","Brassport","Rural, Port, xxSETTLED",xxTACTICS,"2","2 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\port_of_brass.tif","xxBOAT",
 "xxSETTLED","Goldspike","Urban, Port, xxSETTLED",xxCOMMAND,"1","3 xxEMPIRE","1 xxREDBANK","1 xxSETTLED","..\images\lands\borisut_chamnan.tif","xxBOAT",
-"xxSETTLED","Hall of Brass","Urban, Hall, xxSETTLED",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","1 xxSETTLED","..\images\lands\borisut_chamnan_hall_brass.tif",,"##NSBP##xxCUBE Move a diplomat to this location"
+"xxSETTLED","Hall of Brass","Urban, Hall, xxSETTLED",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","1 xxSETTLED","..\images\lands\borisut_chamnan_hall_brass.tif",,"##NSBP##xxCUBE Move a diplomat to any location"
 "xxSETTLED","The Long Wastes","Wilderness, xxSETTLED",xxSURVIVAL,"2","3 xxEMPIRE","3 xxREDBANK","2 xxSETTLED","..\images\lands\river_ardoric.tif","xxMILITARY","##NSBP##xxSTARTING Inadequate Defenses"
 "xxSETTLED","Beetle Burrough","Rural, xxSETTLED",xxTHIEVERY,"1","2 xxEMPIRE","2 xxREDBANK","1 xxSETTLED","..\images\lands\vladimir_manyukhin.tif","xxESPIONAGE"
 "xxSETTLED","Arankh","Rural, Eldritch, Hall, xxSETTLED",xxLORE,"2","3 xxEMPIRE","2 xxREDBANK","2 xxSETTLED","..\images\lands\javier_charro_environment.tif","xxSHATTER","##NSBP##xxSTARTING Elisa"
