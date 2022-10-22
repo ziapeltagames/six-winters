@@ -17,7 +17,7 @@ region,name,tags,skill,lmove,emove,rbmove,slmove,@location_image,symbol,texta,te
 "xxEMPIRE","Guild of Scribes","Urban, Hall, xxEMPIRE",xxLORE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\andreas-rocha-occultknowledge01.jpg",,"##NSBP##xxCUBE Discard the top xxEMPIRE mission card"
 "xxEMPIRE","House of Copper","Urban, Eldritch, xxEMPIRE",xxLORE,"1","1 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\drug_den.tif","xxSHATTER","##NSBP##xxSTARTING Darkness Unmasked"
 
-"xxREDBANK","Dusk's Ayrie","Rural, Eldritch, xxREDBANK, xxSTACK",xxLORE,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\ballai-unseenfinalgasss.jpg",,
+"xxREDBANK","Boar's Hollow","Rural, Eldritch, xxREDBANK, xxSTACK",xxLORE,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\ballai-unseenfinalgasss.jpg",,
 "xxREDBANK","Ferry's Glenn","Rural, xxREDBANK, xxSTACK",xxCOMMAND,"1","2 xxEMPIRE","1 xxREDBANK","2 xxSETTLED","..\images\lands\philipp-a-urlich-land.jpg",,
 "xxREDBANK","Gray Forest","Wilderness, xxREDBANK, xxSTACK",xxCOMBAT,"1","2 xxEMPIRE","2 xxREDBANK","3 xxSETTLED","..\images\lands\astridhwa-bosque.jpg",,
 

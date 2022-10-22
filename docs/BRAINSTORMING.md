@@ -1,3 +1,16 @@
+# 10/22/22
+
+Thinking of switching over to a starting position of 2 (the last 2 space on every track) for all threats.
+
+### Number of Obs by Threat
+
+Stability: 6
+Tech: 8
+Esp: 7
+Mil: 6
+Diplo: 6
+Sorcery: 6
+
 # 09/17/22
 
 Analysis of obstacle cards - starting
