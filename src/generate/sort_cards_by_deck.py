@@ -3,8 +3,8 @@ from shutil import move
 import glob
 import os
 
-ob_threats =  [1, 125]
-ob_locs =  [125, 183]
+ob_threats =  [1, 127]
+ob_locs =  [127, 185]
 
 obpath = 'D:\\\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\Cards\\tts\\obstacles\\'
 
