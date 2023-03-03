@@ -22,7 +22,10 @@ def tally_tag(dict_ref, values):
 
     values = values.replace('##NBSP##', '')
     values = values.replace('xx', ' ')
-    values = values[1:]
+    values = values.replace('/KK', '')
+    values = values.replace('KK', '')
+    if values[0] == ' ':
+        values = values[1:]
     values = values.split(' ')
         
     for value in values:
@@ -58,6 +61,7 @@ def tally_dice(dict_ref, dice_text):
 def populate_dicts():
     
     total_threats = {}
+    total_threats_by_region = {}
     threats_by_region = {"EMPIRE": {}, "REDBANK": {}, "SETTLED": {}}
     
     total_skills = {}
@@ -68,7 +72,7 @@ def populate_dicts():
     total_defense = {}
     total_offense = {}
     
-    mission_file_name = os.path.join("..", "..", "csv", "mission-cards.csv")
+    mission_file_name = os.path.join("csv", "obstacle-cards.csv")
     mission_file = open(mission_file_name, newline='')
     mission_reader = csv.DictReader(mission_file, delimiter=',')
     
@@ -80,6 +84,7 @@ def populate_dicts():
         threats = mc['threats']
         tally_tag(threats_by_region[region], threats)
         tally_tag(total_threats, threats)
+        tally_tag(total_threats_by_region, region)
         
         skill = mc['skill']
         tally_tag(skills_by_region[region], skill)
@@ -102,6 +107,7 @@ def populate_dicts():
     
     print('THREATS BY REGION', '\n')
 
+    print(total_threats_by_region)
     for region in threats_by_region.keys():
         print(region, threats_by_region[region])
         
@@ -123,6 +129,14 @@ def populate_dicts():
     
     print('DIFFICULTY', '\n')
     print(diffs_by_region, '\n')
+
+    print('DIFFICULTY BY REGION', '\n')
+    for region in diffs_by_region.keys():
+        total_obs=0
+        print(region)
+        for next_diff in diffs_by_region[region].keys():
+            total_obs = total_obs + diffs_by_region[region][next_diff]
+            print(next_diff, total_obs)
     
     
 populate_dicts()

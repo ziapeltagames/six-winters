@@ -1,3 +1,13 @@
+# 01/27/23
+
+## Edits
+
+* Forager's Tome: misprint re: forager's toad
+
+## Rules
+
+* When a threat track goes up a level, shuffle unlocked cards with discard, place on top. At end of year, place all discards under draw pile.
+
 # 10/22/22
 
 Thinking of switching over to a starting position of 2 (the last 2 space on every track) for all threats.
