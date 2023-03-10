@@ -11,7 +11,11 @@ Influences: *Wrath of the Autarch*, *Dicey Dugneons*, *Noctiluca*, *Sagrada*, *O
 
 ## Where to Play
 
-A restricted beta is on *Tabletop Simulator*, and POD copies are available for blind playtesting.
+A beta is on *Tabletop Simulator*, and POD copies are available for blind playtesting.
+
+## Where to Give Feedback
+
+The best place to leave feedback, both positive and negative, is on boardgamegeek.
 
 # Directory Structure
 
