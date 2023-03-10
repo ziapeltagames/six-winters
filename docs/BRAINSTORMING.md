@@ -2,7 +2,7 @@
 
 ## Character Abilities
 
-Menas isn't quite as strong. What are some options?
+Menas isn't quite as interesting. What are some options?
 
 - Stashing military dice is an option, although that's already covered by the Military resource mastery bonus
 - Maybe stashing support dice?
@@ -11,7 +11,7 @@ Menas isn't quite as strong. What are some options?
 ## Resource Mastery
 
 - The most confusing resource mastery is probably espionage, and it's really going to overlap with Support and the new skill location abilities
-- The other weak-ish one is military, although it could be pretty good
+- The other weak-ish one might be military, although it's at least easy to understand
 - Support and Diplomacy are super fun, and Tech and Sorcery are fairly powerful and easily explainable
 - What about using Espionage to pick a location card from any region, maybe move it up as an earlier unlock?
 

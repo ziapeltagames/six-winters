@@ -1,3 +1,7 @@
+# WARNING
+
+This is pretty dated. Much of this has been streamlined away. Need to update this with current thoughts.
+
 _Six Winters_ design overview.
 
 * [Currencies](#currencies)

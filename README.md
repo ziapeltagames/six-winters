@@ -7,7 +7,7 @@ Influences: *Wrath of the Autarch*, *Dicey Dugneons*, *Noctiluca*, *Sagrada*, *O
 # How to Play
 
 * [Rules](docs/Six_Winters_Rules.pdf)
-* [Character Sheets](docs/Character_Sheets.pdf)
+* [Character and Campaign Sheets](docs/Character_and_Campaign_Tracker.pdf)
 
 ## Where to Play
 
