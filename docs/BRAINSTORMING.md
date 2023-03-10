@@ -1,3 +1,55 @@
+# 03/07/23
+
+## Character Abilities
+
+Menas isn't quite as strong. What are some options?
+
+- Stashing military dice is an option, although that's already covered by the Military resource mastery bonus
+- Maybe stashing support dice?
+- Creating a military asset?
+
+## Resource Mastery
+
+- The most confusing resource mastery is probably espionage, and it's really going to overlap with Support and the new skill location abilities
+- The other weak-ish one is military, although it could be pretty good
+- Support and Diplomacy are super fun, and Tech and Sorcery are fairly powerful and easily explainable
+- What about using Espionage to pick a location card from any region, maybe move it up as an earlier unlock?
+
+## Additional Constraints
+
+- Players can't grab an expansion location automatically (maybe make Espionage for that)
+- Is there are way to have more complex progress cards later?
+   - More complex puzzles on the cards, instead of paths maybe?
+
+# 03/03/23
+
+## Playtesting Issues
+
+The biggest issue revolves around cognitive load during the first game. There are also some stress points where the mechanics are counterintuitive, they are:
+
+* Create Assets
+
+This action uses a skill icon on location cards. But that restriction creates a lot of difficulty and fiddliness for not very interesting decisions. Might be better to have _no_ icons on the first location cards. Then, later, skill icons can have special ability: maybe grabbing multiple dice (up to skill value) with just one action die. This makes those skills really impactful if you have the right location and a high skill. But, importantly, that difficulty is offloaded to later games.
+
+Skill Locations
+
+* Disguise (EM): Guild of Secrets
+
+* Combat (RB): Mirror Woods
+* Tactics (RB): Sightrock
+* Rapport (RB): Obfuscated Bribe
+* Survival (RB): Amaranth Bourne
+
+* Thievery (SL): Friends in Low Places
+* Command (SL): Hall of Brass
+* Lore (SL): Arankh
+
+* Character Abilities
+
+Probably shouldn't be able to _directly_ use or manipulate resource dice. It's very confusing, because there's alreay a way to get resource dice. Also, kind of confusing how some character abilities essentially expend dice, and others manipulate the dice.
+
+How hard would it be to have all character abilities only use assets or action dice? That's way easier to explain in the rules and wrap your head around.
+
 # 01/27/23
 
 ## Edits
