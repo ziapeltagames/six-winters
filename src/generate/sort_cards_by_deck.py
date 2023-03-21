@@ -98,6 +98,25 @@ for i in range(chars[0], chars[1], 2):
     if obs:
         move(obs[0], charpath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
 
+charpath = 'D:\\\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\Characters\\sheets_tts\\'
+
+for i in range(chars[0], chars[1], 2):
+    if i == 1:
+        obs = glob.glob(charpath+'*-1.png')
+    else:
+        obs = glob.glob(charpath+'*-1'+str(i)+'.png')
+    if obs:
+        base, cardnum = os.path.basename(obs[0]).split('-')
+        if i == 1:
+            cardnum = '2'
+        else:
+            cardnum = str(int(cardnum[1:-4]) + 1)
+        move(obs[0], charpath+'front\\'+base+'-1'+cardnum+'[face].png')
+
+    obs = glob.glob(charpath+'*-1'+str(i+1)+'.png')
+    if obs:
+        move(obs[0], charpath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
+
 # events =  [1, 99]
 
 # eventpath = 'D:\\\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\Cards\\tts\\events\\'

@@ -27,7 +27,7 @@ card_dict = {
             'g13': 'WExxFSQUAREWE',
             'f12': 'xxEMPIRE',
             'f22': 'xxSETTLED',
-            'bonus': 'xxESPIONAGE',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'OOxxTECHNOLOGYOO'},
         'Flora, Fauna, and Fiends': {
             'locregion': 'xxSETTLED',
@@ -37,7 +37,7 @@ card_dict = {
             'g22': 'BBxxFSQUAREBB',
             'g23': 'WExxFSQUAREWE',
             'f12': 'xxWSIX',
-            'bonus': 'xxSORCERY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'OOxxTECHNOLOGYOO'},
         'Thieves Tools': {
             'locregion': 'xxEMPIRE',
@@ -50,7 +50,7 @@ card_dict = {
             'f12': 'xxEMPIRE',
             'f22': 'xxREDBANK',
             'f23': 'xxEMPIRE',
-            'bonus': 'xxESPIONAGE',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'MMxxESPIONAGEMM'},
         'Out in the Cold': {
             'locregion': 'xxEMPIRE',
@@ -62,7 +62,7 @@ card_dict = {
             'f11': 'xxEMPIRE',
             'f21': 'xxWONE',
             'f22': 'xxWTWO',
-            'bonus': 'xxDIPLOMACY',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'MMxxESPIONAGEMM'},
         'Cantrips': {
             'locregion': 'xxSETTLED',
@@ -75,7 +75,7 @@ card_dict = {
             'f11': 'xxREDBANK',
             'f22': 'xxSETTLED',
             'f33': 'xxREDBANK',
-            'bonus': 'xxSTABILITY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'BLxxSORCERYBL'},
         'Thedda\'s Palimpsest': {
             'locregion': 'xxREDBANK',
@@ -88,7 +88,7 @@ card_dict = {
             'f12': 'xxSETTLED',
             'f22': 'xxWSIX',
             'f23': 'xxSETTLED',
-            'bonus': 'xxSORCERY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': ' BLxxSORCERYBL'},
         'Grand Tour': {
             'locregion': 'xxSETTLED',
@@ -98,7 +98,7 @@ card_dict = {
             'g22': 'BBxxFSQUAREBB',
             'g23': 'WWxxFSQUAREWW',
             'g33': 'WExxFSQUAREWE',
-            'bonus': 'xxSTABILITY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'LLxxDIPLOMACYLL'},
         'Small Steps': {
             'locregion': 'xxSETTLED',
@@ -110,7 +110,7 @@ card_dict = {
             'f21': '+1',
             'f23': '-1',
             'f32': '=',
-            'bonus': 'xxTECHNOLOGY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'LLxxDIPLOMACYLL'},
         'Warmachine': {
             'locregion': 'xxEMPIRE',
@@ -121,7 +121,7 @@ card_dict = {
             'g31': 'WExxFSQUAREWE',
             'f21': 'xxEMPIRE',
             'f22': 'xxREDBANK',
-            'bonus': 'xxMILITARY',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'GGxxMILITARYGG'},
         'Tactical Plans': {
             'locregion': 'xxEMPIRE',
@@ -134,7 +134,7 @@ card_dict = {
             'f12': 'xxEMPIRE',
             'f22': 'xxWFIVE',
             'f23': 'xxREDBANK',
-            'bonus': 'xxDIPLOMACY',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'GGxxMILITARYGG'},
         'Friends at Home and Abroad': {
             'locregion': 'xxSETTLED',
@@ -146,7 +146,7 @@ card_dict = {
             'g33': 'WExxFSQUAREWE',
             'f12': 'xxREDBANK',
             'f23': 'xxREDBANK',
-            'bonus': 'xxSTABILITYxxDIPLOMACY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'YYxxSTABILITYYY'},
         'Uplifting Words': {
             'locregion': 'xxREDBANK',
@@ -156,7 +156,7 @@ card_dict = {
             'g22': 'LLxxFSQUARELL',
             'g31': 'WExxFSQUAREWE',
             'f31': 'xxREDBANK',
-            'bonus': 'xxSTABILITY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'YYxxSTABILITYYY'}
         },
     '2': {
@@ -175,7 +175,7 @@ card_dict = {
             'g44': 'WExxFSQUAREWE',
             'f22': 'YTxxONEYT',
             'f33': 'YTxxONEYT',
-            'bonus': 'xxMILITARYxxDIPLOMACY',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'OOxxTECHNOLOGYOO'},
         'Games Without Frontiers': {
             'locregion': 'xxREDBANK',
@@ -189,7 +189,7 @@ card_dict = {
             'g43': 'WWxxFSQUAREWW',
             'f22': 'YYxxTWOYY',
             'f34': 'xxWTWO',
-            'bonus': 'xxESPIONAGE',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'MMxxESPIONAGEMM'},
         'Priming the Mana Forge': {
             'locregion': 'xxSETTLED',
@@ -205,7 +205,7 @@ card_dict = {
             'f21': 'xxWSIX',
             'f31': 'OOxxSIXOO',
             'f33': 'BTxxSETTLEDBT',
-            'bonus': 'xxSORCERY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'BLxxSORCERYBL'},
         'Talk of War': {
             'locregion': 'xxEMPIRE',
@@ -221,7 +221,7 @@ card_dict = {
             'f21': 'xxWTHREE',
             'f23': 'xxWFOUR',
             'f32': 'GGxxTHREEGG',
-            'bonus': 'xxMILITARY',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'LLxxDIPLOMACYLL'},
         'On Two Fronts': {
             'locregion': 'xxREDBANK',
@@ -237,7 +237,7 @@ card_dict = {
             'f11': 'xxREDBANK',
             'f22': 'xxWFIVE',
             'f44': 'xxEMPIRE',
-            'bonus': 'xxDIPLOMACY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'GGxxMILITARYGG'},
         'Bread and Circuses': {
             'locregion': 'xxSETTLED',
@@ -251,7 +251,7 @@ card_dict = {
             'f12': '+1',
             'f13': '+1',
             'f24': '+1',
-            'bonus': 'xxTECHNOLOGY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'YYxxSTABILITYYY'},
         'Hard Choices': {
             'locregion': 'xxEMPIRE',
@@ -271,7 +271,7 @@ card_dict = {
             'f22': 'BTxxREDBANKBT',
             'f34': '+1',
             'f43': '-1',
-            'bonus': 'xxSTABILITYxxMILITARY',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'xxSTAR'},
         'Sorcerous Shortcuts': {
             'locregion': 'xxSETTLED',
@@ -292,7 +292,7 @@ card_dict = {
             'f32': 'xxWSIX',
             'f33': 'MMxxTWOMM',
             'f42': 'xxWSIX',
-            'bonus': 'xxSORCERYxxDIPLOMACY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'xxSTAR'}
         },
     '3': {
@@ -319,7 +319,7 @@ card_dict = {
             'f34': 'xxWFIVE',
             'f43': 'BBxxONEBB',
             'f44': 'xxWSIX',
-            'bonus': 'xxESPIONAGE',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'OOxxTECHNOLOGYOO'},
         'Empire Waning': {
             'locregion': 'xxREDBANK',
@@ -342,7 +342,7 @@ card_dict = {
             'f32': '-1',
             'f34': '+1',
             'f43': '-1',
-            'bonus': 'xxMILITARY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'MMxxESPIONAGEMM'},
         'At What Price?': {
             'locregion': 'xxREDBANK',
@@ -364,7 +364,7 @@ card_dict = {
             'f41': 'xxREDBANK',
             'f42': '+1',
             'f43': 'xxREDBANK',
-            'bonus': 'xxESPIONAGE',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'BLxxSORCERYBL'},
         'Power Behind the Throne': {
             'locregion': 'xxSETTLED',
@@ -393,7 +393,7 @@ card_dict = {
             'f42': 'BBxxSIXBB',
             'f43': 'MMxxTWOMM',
             'f44': 'xxWFOUR',
-            'bonus': 'xxESPIONAGE',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'LLxxDIPLOMACYLL'},
         'Hopeless Odds': {
             'locregion': 'xxREDBANK',
@@ -410,7 +410,7 @@ card_dict = {
             'f32': 'BBxxSIXBB',
             'f43': 'xxREDBANK',
             'f44': 'xxEMPIRE',
-            'bonus': 'xxTECHNOLOGY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'GGxxMILITARYGG'},
         'No Margin for Error': {
             'locregion': 'xxREDBANK',
@@ -435,7 +435,7 @@ card_dict = {
             'f31': 'LLxxFOURLL',
             'f42': 'GGxxFIVEGG',
             'f43': 'xxWFIVE',
-            'bonus': 'xxTECHNOLOGY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'YYxxSTABILITYYY'},
         'Safehouses': {
             'locregion': 'xxEMPIRE',
@@ -460,7 +460,7 @@ card_dict = {
             'f34': 'OOxxTWOOO',
             'f43': 'OOxxTHREEOO',
             'f44': '=',
-            'bonus': 'xxESPIONAGE',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'xxSTAR'},
         'The Resistance': {
             'locregion': 'xxSETTLED',
@@ -487,7 +487,7 @@ card_dict = {
             'f34': '+1',
             'f42': '-1',
             'f43': 'LLxxTHREELL',
-            'bonus': 'xxMILITARY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'xxSTAR'},
         'Mustering Aid': {
             'locregion': 'xxEMPIRE',
@@ -512,7 +512,7 @@ card_dict = {
             'f42': '+1',
             'f43': 'YYxxFIVEYY',
             'f44': 'xxWFIVE',
-            'bonus': 'xxSTABILITY',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'xxSTAR'},
         'Wisdom on the Road': {
             'locregion': 'xxEMPIRE',
@@ -537,7 +537,7 @@ card_dict = {
             'f42': 'OOxxTWOOO',
             'f43': 'xxWSIX',
             'f44': 'xxSETTLED',
-            'bonus': 'xxDIPLOMACYxxSORCERY',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'xxSTAR'}
         },
     '4': {
@@ -554,7 +554,7 @@ card_dict = {
             'f11': 'xxREDBANK',
             'f23': 'xxEMPIRE', 
             'f32': 'xxSETTLED', 
-            'bonus': 'xxESPIONAGE',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'YYxxSTABILITYYY OOxxTECHNOLOGYOO'
             }, 
         'Forging Bonds': {
@@ -568,7 +568,7 @@ card_dict = {
             'f11': 'xxWFOUR',
             'f12': 'xxREDBANK',
             'f33': 'xxSETTLED',
-            'bonus': 'xxTECHNOLOGY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'YYxxSTABILITYYY LLxxDIPLOMACYLL'},
         'Rites of Winter': {
             'locregion': 'xxREDBANK',
@@ -583,7 +583,7 @@ card_dict = {
             'f22': 'BBxxFIVEBB',
             'f23': 'BTxxSETTLEDBT',
             'f33': 'xxWSIX',
-            'bonus': 'xxSORCERY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'YYxxSTABILITYYY BLxxSORCERYBL'},
         'Boars and Bandits': {
             'locregion': 'xxREDBANK',
@@ -597,7 +597,7 @@ card_dict = {
             'f21': 'xxWFIVE',
             'f22': 'GTxxREDBANKGT',
             'f23': 'BTxxREDBANKBT',
-            'bonus': 'xxDIPLOMACY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'YYxxSTABILITYYY GGxxMILITARYGG'},
         'Traveling Minstrels': {
             'locregion': 'xxREDBANK',
@@ -612,7 +612,7 @@ card_dict = {
             'f23': 'xxSETTLED',
             'f32': 'xxEMPIRE',
             'f33': '=',
-            'bonus': 'xxDIPLOMACY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'YYxxSTABILITYYY MMxxESPIONAGEMM'},
         'Milk and Honey': {
             'locregion': 'xxREDBANK',
@@ -623,7 +623,7 @@ card_dict = {
             'f11': 'xxREDBANK',
             'f12': 'xxWFOUR',
             'f13': 'xxSETTLED',
-            'bonus': 'xxSTABILITYxxSORCERY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'LLxxDIPLOMACYLL OOxxTECHNOLOGYOO'},
         'Guidance from Afar': {
             'locregion': 'xxEMPIRE',
@@ -639,7 +639,7 @@ card_dict = {
             'f21': 'OOxxONEOO',
             'f22': 'OOxxTWOOO',
             'f31': 'xxSETTLED',
-            'bonus': 'xxDIPLOMACY',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'LLxxDIPLOMACYLL MMxxESPIONAGEMM'},
         'Cautious Progress': {
             'locregion': 'xxREDBANK',
@@ -649,7 +649,7 @@ card_dict = {
             'g33': 'OExxFSQUAREOE',
             'f22': '-1',
             'f33': '-1',
-            'bonus': 'xxSTABILITY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'LLxxDIPLOMACYLL GGxxMILITARYGG'},
         'Wards Against the Deathless': {
             'locregion': 'xxEMPIRE',
@@ -660,7 +660,7 @@ card_dict = {
             'f11': 'xxREDBANK',
             'f22': 'BBxxSIXBB',
             'f33': 'xxSETTLED',
-            'bonus': 'xxSORCERY',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'LLxxDIPLOMACYLL BLxxSORCERYBL'},
         'Military Secrets': {
             'locregion': 'xxEMPIRE', 
@@ -672,7 +672,7 @@ card_dict = {
             'g33': 'WExxFSQUAREWE',
             'f22': 'BBxxSIXBB',
             'f33': 'xxEMPIRE',
-            'bonus': 'xxMILITARY',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'MMxxESPIONAGEMM GGxxMILITARYGG'},
         'Cover Story': {
             'locregion': 'xxEMPIRE',
@@ -685,7 +685,7 @@ card_dict = {
             'f21': 'xxWTWO',
             'f22': 'xxWFOUR',
             'f31': 'YYxxFOURYY',
-            'bonus': 'xxESPIONAGE',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'MMxxESPIONAGEMM OOxxTECHNOLOGYOO'},
         'Ranging the Frontier': {
             'locregion': 'xxSETTLED',
@@ -694,7 +694,7 @@ card_dict = {
             'g21': 'WWxxFSQUAREWW',
             'g31': 'BExxFSQUAREBE',
             'f11': 'xxSETTLED',
-            'bonus': 'xxDIPLOMACY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'MMxxESPIONAGEMM BLxxSORCERYBL'},
         'Marching Orders': {
             'locregion': 'xxSETTLED',
@@ -704,7 +704,7 @@ card_dict = {
             'g13': 'WExxFSQUAREWE',
             'f11': 'xxWFIVE',
             'f13': '=',
-            'bonus': 'xxMILITARY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'GGxxMILITARYGG BLxxSORCERYBL'},
         'Research and Development': {
             'locregion': 'xxSETTLED',
@@ -714,7 +714,7 @@ card_dict = {
             'g13': 'WExxFSQUAREWE',
             'f11': 'xxWFOUR',
             'f13': 'xxSETTLED',
-            'bonus': 'xxESPIONAGE',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'GGxxMILITARYGG OOxxTECHNOLOGYOO'},
         'Experience Abroad': {
             'locregion': 'xxSETTLED',
@@ -724,7 +724,7 @@ card_dict = {
             'g31': 'WExxFSQUAREWE',
             'f21': 'xxEMPIRE',
             'f31': 'xxSETTLED',
-            'bonus': 'xxSORCERY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'OOxxTECHNOLOGYOO BLxxSORCERYBL'},
         },
     '5': {
@@ -743,9 +743,9 @@ card_dict = {
             'f24': 'xxWSIX',
             'f34': 'xxWSIX',
             'f44': 'xxWSIX',
-            'bonus': 'xxSORCERY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'BLxxSORCERYBL BLxxSORCERYBL'},
-        'Speaker for Red Bank': {
+        'Speaker for Sunbridle': {
             'locregion': 'xxREDBANK',
             'locresource': 'xxSTABILITY',
             'g11': 'WSxxFSQUAREWS',
@@ -760,7 +760,7 @@ card_dict = {
             'f24': 'xxWFIVE',
             'f34': 'xxWFIVE',
             'f44': 'xxWFIVE',
-            'bonus': 'xxSTABILITY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'YYxxSTABILITYYY YYxxSTABILITYYY'},
         'Archer of the Amber Hand': {
             'locregion': 'xxEMPIRE',
@@ -777,7 +777,7 @@ card_dict = {
             'f24': 'xxWONE',
             'f34': 'xxWONE',
             'f44': 'xxWONE',
-            'bonus': 'xxTECHNOLOGY',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'OOxxTECHNOLOGYOO OOxxTECHNOLOGYOO'},
         'Hawkleader of the Ghost Legion': {
             'locregion': 'xxREDBANK',
@@ -794,7 +794,7 @@ card_dict = {
             'f24': 'xxWTHREE',
             'f34': 'xxWTHREE',
             'f44': 'xxWTHREE',
-            'bonus': 'xxMILITARY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'GGxxMILITARYGG GGxxMILITARYGG'},
         'Master of Coin': {
             'locregion': 'xxSETTLED',
@@ -811,7 +811,7 @@ card_dict = {
             'f24': 'xxWFOUR',
             'f34': 'xxWFOUR',
             'f44': 'xxWFOUR',
-            'bonus': 'xxDIPLOMACY',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'LLxxDIPLOMACYLL LLxxDIPLOMACYLL'},
         'Traitor of Southkeep': {
             'locregion': 'xxEMPIRE',
@@ -828,7 +828,7 @@ card_dict = {
             'f24': 'xxWTWO',
             'f34': 'xxWTWO',
             'f44': 'xxWTWO',
-            'bonus': 'xxESPIONAGE',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'MMxxESPIONAGEMM MMxxESPIONAGEMM'},
         'The Path of Magic': {
             'locregion': 'xxREDBANK',
@@ -845,7 +845,7 @@ card_dict = {
             'f24': '+1',
             'f34': '+1',
             'f44': '=',
-            'bonus': 'xxESPIONAGE',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'xxSTAR'},
         'The Path of Technology': {
             'locregion': 'xxEMPIRE',
@@ -862,7 +862,7 @@ card_dict = {
             'f24': '-1',
             'f34': '-1',
             'f44': '=',
-            'bonus': 'xxEMPIRE',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'xxSTAR'},
         'Settled Lands Tour': {
             'locregion': 'xxSETTLED',
@@ -879,9 +879,9 @@ card_dict = {
             'f24': '-1',
             'f34': '-1',
             'f44': '-1',
-            'bonus': 'xxSETTLED',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'xxSTAR'},
-        'Red Bank Tour': {
+        'Sunbridle Tour': {
             'locregion': 'xxREDBANK',
             'locresource': 'xxSTABILITY',
             'g11': 'GSxxFSQUAREGS',
@@ -896,7 +896,7 @@ card_dict = {
             'f24': '+1',
             'f34': '+1',
             'f44': '+1',
-            'bonus': 'xxSORCERY',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'xxSTAR'},
         'Imperial Tour': {
             'locregion': 'xxEMPIRE',
@@ -913,7 +913,7 @@ card_dict = {
             'f24': '=',
             'f34': '=',
             'f44': '=',
-            'bonus': 'xxEMPIRE',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'xxSTAR'},
         'Potions or Promises': {
             'locregion': 'xxSETTLED',
@@ -935,7 +935,7 @@ card_dict = {
             'f24': '-1',
             'f42': '+1',
             'f44': '=',
-            'bonus': 'xxREDBANK',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'xxSTAR'},
         'Swords or Sorcery': {
             'locregion': 'xxREDBANK',
@@ -957,7 +957,7 @@ card_dict = {
             'f24': '-1',
             'f42': '+1',
             'f44': '=',
-            'bonus': 'xxREDBANK',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'xxSTAR'},
         'Secrets or Stability': {
             'locregion': 'xxEMPIRE',
@@ -979,7 +979,7 @@ card_dict = {
             'f24': '-1',
             'f42': '+1',
             'f44': '=',
-            'bonus': 'xxREDBANK',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'xxSTAR'},
         'Catapults or Conversations': {
             'locregion': 'xxEMPIRE',
@@ -1001,7 +1001,7 @@ card_dict = {
             'f24': '-1',
             'f42': '+1',
             'f44': '=',
-            'bonus': 'xxREDBANK',
+            'bonus': 'EMxxFSQUAREEM',
             'reward': 'xxSTAR'},
         'Traps or Tech': {
             'locregion': 'xxSETTLED',
@@ -1023,7 +1023,7 @@ card_dict = {
             'f24': '-1',
             'f42': '=',
             'f44': '=',
-            'bonus': 'xxREDBANK',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'xxSTAR'},
         'Halberds or Happiness': {
             'locregion': 'xxREDBANK',
@@ -1045,7 +1045,7 @@ card_dict = {
             'f24': '-1',
             'f42': '+1',
             'f44': '=',
-            'bonus': 'xxREDBANK',
+            'bonus': 'RBxxFSQUARERB',
             'reward': 'xxSTAR'},
         'Home or Abroad': {
             'locregion': 'xxSETTLED',
@@ -1067,7 +1067,7 @@ card_dict = {
             'f24': '-1',
             'f42': '+1',
             'f44': '=',
-            'bonus': 'xxSETTLED',
+            'bonus': 'SLxxFSQUARESL',
             'reward': 'xxSTAR'},
         }
     }
