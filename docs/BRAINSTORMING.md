@@ -1,3 +1,72 @@
+# Mechanics Ideas and Clarifications To-Do
+
+## Obstacles
+
+* Darkness Unmasked - confusingly worded
+* Imperial Guard Captain - may need two numbers for harder defend
+   * For some obstacles, look at hard defend but lower stress cost
+* Reference character conditions
+* Reference threat tracks
+* Have "stretch goal" overcomes, using resource dice to get something extra?
+
+## Locations
+
+* Trade location - a location with the "trade any to any other" ability
+* Skill locations - probably shouldn't apply to trade, only to create asset
+
+## Season Effects
+
+* Can they be tied into progress or threat tracks somehow?
+   * Or can they be tied into character conditions?
+* Really need to punch up the "0" season effects, they might not be impactful enough
+
+## Rules
+
+* Another pass of playtest feedback edits
+* Nerf the skill locations a little
+
+## Mission Cards
+
+* Come up with a starting set of mission cards for the mission card variant
+
+# 04/07/23
+
+## Failing in Campaign Games
+
+When you fail, you can:
+
+* Play the year again - Lose 2 points, clear all character conditions, and give each character +1 skill
+* Take the victory steps, but also take the complication
+
+When you succeed, you can:
+
+* Take the complication for +2 more points
+
+# 04/05/23
+
+## Playtesting Notes
+
+Feedback is starting to coalesce around a few ideas:
+
+* Progress cards are very fun, and are the core of the game
+* Obstacles are okay, if maybe kind of boring in many cases, and don't always reinforce the narrative
+* Obstacles don't always give you a reward
+* The end-game is sudden
+
+## Reward Cycles in Campaign Games
+
+The last issue, that the endgame in _Six Winters_ is sudden, is perhaps the biggest issue right now, above maybe how obstacles work. One of the playtesters mentioned goal cards, which were in the game many iterations ago.
+
+The big question with goal cards is less what happens when you succeed, and more what happens if you fail? It's natural to get punished when failure occurs - but this is immediately a death spiral of sorts. In many Legacy games, failure conversely _gives_ you benefits, while success gets you closer to an end goal, but tends to make things harder.
+
+# 03/24/23
+
+## Playtesting Notes
+
+* Reroll doesn't get used very often. Might be fine - just something to watch.
+* Trading is way more useful without the skill limitations by location!
+* The no rest, but keep die option is pretty good - going to take more stress that way
+
 # 03/07/23
 
 ## Character Abilities

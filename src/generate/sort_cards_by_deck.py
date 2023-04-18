@@ -6,7 +6,7 @@ import os
 ob_threats =  [1, 127]
 ob_locs =  [127, 185]
 
-obpath = 'D:\\\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\Cards\\tts\\obstacles\\'
+obpath = '..\\Cards\\tts\\obstacles\\'
 
 for i in range(ob_threats[0], ob_threats[1], 2):
     if i == 1:
@@ -37,7 +37,7 @@ for i in range(ob_locs[0], ob_locs[1], 2):
 
 progs =  [1, 150]
 
-progpath = 'D:\\\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\Cards\\tts\\progress\\'
+progpath = '..\\Cards\\tts\\progress\\'
 
 for i in range(progs[0], progs[1], 2):
     if i == 1:
@@ -58,7 +58,7 @@ for i in range(progs[0], progs[1], 2):
 
 locs =  [1, 99]
 
-locpath = 'D:\\\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\Cards\\tts\\locations\\'
+locpath = '..\\Cards\\tts\\locations\\'
 
 for i in range(locs[0], locs[1], 2):
     if i == 1:
@@ -79,7 +79,7 @@ for i in range(locs[0], locs[1], 2):
 
 chars =  [1, 99]
 
-charpath = 'D:\\\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\Characters\\tts\\'
+charpath = '..\\Characters\\tts\\'
 
 for i in range(chars[0], chars[1], 2):
     if i == 1:
@@ -98,7 +98,7 @@ for i in range(chars[0], chars[1], 2):
     if obs:
         move(obs[0], charpath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
 
-charpath = 'D:\\\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\Characters\\sheets_tts\\'
+charpath = '..\\Characters\\sheets_tts\\'
 
 for i in range(chars[0], chars[1], 2):
     if i == 1:
@@ -116,10 +116,20 @@ for i in range(chars[0], chars[1], 2):
     obs = glob.glob(charpath+'*-1'+str(i+1)+'.png')
     if obs:
         move(obs[0], charpath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
+
+rulepath = '..\\Rules\\game_crafter\\'
+
+pages = glob.glob(rulepath + '*.png')
+for page in pages:
+    base, pagenum = os.path.basename(page).split('05')
+    if pagenum == '.png':
+        pagenum = '1.png'
+
+    move(page, rulepath+'front\\'+base + '[' + pagenum[:-4] + '].png')
 
 # events =  [1, 99]
 
-# eventpath = 'D:\\\\Dropbox\\Ziapelta Games\\Games\\Six Winters\\Cards\\tts\\events\\'
+# eventpath = '..\\Cards\\tts\\events\\'
 
 # for i in range(events[0], events[1], 2):
 #     if i == 1:
