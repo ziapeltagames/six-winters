@@ -29,6 +29,38 @@
 
 * Come up with a starting set of mission cards for the mission card variant
 
+# 04/19/23
+
+## Mission Card Endgames
+
+Continuing to playtest the use of mission cards - overall, they seem to be a positive addition. They help ground changes in the world in the fiction. One tricky part is how they'll work as substitutes for victory conditions. There are some requirements for the endgame:
+
+* Should showcase multiple paths to victory
+* Both progress and threat levels should come into play at the end
+* Ideally, different strategies should feel a little different mechanically as well
+
+Currently settling on the idea of letting players choose one of three "victory" mission cards, and one military card. One option is to choose the approach with the highest threat, and put it into play? That doesn't make sense thematically. If anything, the highest progress approach should be put into play.
+
+* Sorcery - Should perhaps be more chaotic
+* Espionage - Mostly focused on a difficult obstacle
+* Support / Diplomacy - Mostly focused on making progress
+* Military / Technology - Mostly focused on stopping units from attacking
+
+How can threat levels and progress levels influence the final missions?
+
+* Progress
+   * Higher dice pools make the game easier
+   * Potentially there can be interacting effects between campaign effects and progress levels
+* Threats
+   * Can make individual obstacle cards more difficult
+   * Can impact amount of progress needed
+      * This option feels pretty swingy, it could make things very hard indeed (5)
+      * That's not impossible, though, particularly if late stage progress cards have multiple symbols of one type
+   * Can impact number of starting obstacles, or type of starting obstacles
+      * Probably less swingy
+      * One unit per threat
+      * One issue per threat
+
 # 04/07/23
 
 ## Failing in Campaign Games

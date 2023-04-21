@@ -1,8 +1,12 @@
 # six-winters
 
-*Six Winters* is the *Wrath of the Autarch* boardgame. It combines the kingdom building elements of the role-playing game with a sandbox dice game.
+*Six Winters* is a cooperative fantasy campaign game featuring dice-based puzzles for one to three players inspired by the *Wrath of the Autarch* tabletop role-playing game.
 
-Influences: *Wrath of the Autarch*, *Dicey Dugneons*, *Noctiluca*, *Sagrada*, *Oath*, *Arkham Horror Cardgame*, *That's Pretty Clever*, *Pandemic: Legacy*, and *Kingsburg*.
+Players control Brightdune, a region under threat from the Empire of the Autarch. The Autarch works to achieve a sorcerous apotheosis, which would spell certain doom for Brightdune. The players have six winters to stop this from happening. Each game of *Six Winters* is 90-120 minutes long and plays out one year in the chronicle of Brightdune.
+
+Each session players select from a rotating cast of unique characters to make progress against the Empire. The same number of players do not have to play each game in the campaign.
+
+During the campaign, new characters and locations may be unlocked, transforming the world and opening up new strategic possibilities.
 
 # How to Play
 
@@ -11,11 +15,19 @@ Influences: *Wrath of the Autarch*, *Dicey Dugneons*, *Noctiluca*, *Sagrada*, *O
 
 ## Where to Play
 
-A beta is on *Tabletop Simulator*, and POD copies are available for blind playtesting.
+A beta is on *Tabletop Simulator* [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2850538933), and POD copies are available for blind playtesting.
 
 ## Where to Give Feedback
 
-The best place to leave feedback, both positive and negative, is on boardgamegeek.
+The best place to leave feedback, is on the [Six Winters](https://boardgamegeek.com/boardgame/382841/six-winters) boardgamegeek page. It's also the best place to keep up with development.
+
+## Missions Variant
+
+Currently, the campaign is extremely open-ended. You really only win or lose at the end of six games, but that can make each session feel a little anticlimactic. After some playtesting feedback, I'm working on adding in per-session goals that will help tie the game together narratively while providing win/lose conditions each game. This variant will mostly likely be the standard way to play soon.
+
+See the [missions](docs/MISSIONS.md) page for more info.
+
+* [Mission Cards](docs/Mission_Cards.pdf)
 
 # Directory Structure
 
