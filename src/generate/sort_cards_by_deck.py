@@ -3,12 +3,12 @@ from shutil import move
 import glob
 import os
 
-ob_threats =  [1, 127]
-ob_locs =  [127, 185]
+ob_starting =  [1, 73]
+ob_mission =  [73, 204]
 
 obpath = '..\\Cards\\tts\\obstacles\\'
 
-for i in range(ob_threats[0], ob_threats[1], 2):
+for i in range(ob_starting[0], ob_starting[1], 2):
     if i == 1:
         obs = glob.glob(obpath+'*-1.png')
     else:
@@ -19,21 +19,21 @@ for i in range(ob_threats[0], ob_threats[1], 2):
             cardnum = '2'
         else:
             cardnum = str(int(cardnum[1:-4]) + 1)
-        move(obs[0], obpath+'threat_fronts\\'+base+'-1'+cardnum+'[face].png')
+        move(obs[0], obpath+'starting_fronts\\'+base+'-1'+cardnum+'[face].png')
 
     obs = glob.glob(obpath+'*-1'+str(i+1)+'.png')
     if obs:
-        move(obs[0], obpath+'threat_backs\\'+os.path.basename(obs[0])[:-4]+'[back].png')
+        move(obs[0], obpath+'starting_backs\\'+os.path.basename(obs[0])[:-4]+'[back].png')
 
-for i in range(ob_locs[0], ob_locs[1], 2):
+for i in range(ob_mission[0], ob_mission[1], 2):
     obs = glob.glob(obpath+'*-1'+str(i)+'.png')
     if obs:
         base, cardnum = os.path.basename(obs[0]).split('-')
         cardnum = str(int(cardnum[1:-4]) + 1)
-        move(obs[0], obpath+'loc_fronts\\'+base+'-1'+cardnum+'[face].png')
+        move(obs[0], obpath+'mission_fronts\\'+base+'-1'+cardnum+'[face].png')
     obs = glob.glob(obpath+'*-1'+str(i+1)+'.png')
     if obs:
-        move(obs[0], obpath+'loc_backs\\'+os.path.basename(obs[0][:-4]+'[back].png'))
+        move(obs[0], obpath+'mission_backs\\'+os.path.basename(obs[0][:-4]+'[back].png'))
 
 progs =  [1, 150]
 
@@ -56,7 +56,7 @@ for i in range(progs[0], progs[1], 2):
     if obs:
         move(obs[0], progpath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
 
-locs =  [1, 99]
+locs =  [1, 120]
 
 locpath = '..\\Cards\\tts\\locations\\'
 
@@ -97,6 +97,27 @@ for i in range(miss[0], miss[1], 2):
     obs = glob.glob(misspath+'*-1'+str(i+1)+'.png')
     if obs:
         move(obs[0], misspath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
+
+threat =  [1, 99]
+
+threatpath = '..\\Cards\\tts\\schemes\\'
+
+for i in range(threat[0], threat[1], 2):
+    if i == 1:
+        obs = glob.glob(threatpath+'*-1.png')
+    else:
+        obs = glob.glob(threatpath+'*-1'+str(i)+'.png')
+    if obs:
+        base, cardnum = os.path.basename(obs[0]).split('-')
+        if i == 1:
+            cardnum = '2'
+        else:
+            cardnum = str(int(cardnum[1:-4]) + 1)
+        move(obs[0], threatpath+'front\\'+base+'-1'+cardnum+'[face].png')
+
+    obs = glob.glob(threatpath+'*-1'+str(i+1)+'.png')
+    if obs:
+        move(obs[0], threatpath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
 
 chars =  [1, 99]
 

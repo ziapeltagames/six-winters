@@ -1,5 +1,22 @@
 # Mechanics Ideas and Clarifications To-Do
 
+## Massive Version Overhaul
+
+* Mission Cards
+* Threat Cards
+* Obstacles
+* Resource Board
+* Locations
+* Character Cards
+   * Remove achievement references
+   * Simplify starting effects
+* Character Sheets
+   * Add in XP section
+* Progress Card Tuckbox
+* Rulebook
+   * Tons of stuff
+   * XP costs
+
 ## Obstacles
 
 * Darkness Unmasked - confusingly worded
@@ -8,11 +25,13 @@
 * Reference character conditions
 * Reference threat tracks
 * Have "stretch goal" overcomes, using resource dice to get something extra?
+* Sapphire Djinn edits
 
 ## Locations
 
 * Trade location - a location with the "trade any to any other" ability
 * Skill locations - probably shouldn't apply to trade, only to create asset
+* Difficulty locations - can make obs of a certain type easier/harder in terms of difficulty
 
 ## Season Effects
 
@@ -20,14 +39,350 @@
    * Or can they be tied into character conditions?
 * Really need to punch up the "0" season effects, they might not be impactful enough
 
+## Threats
+
+* Can they refer to condition types?
+* Can they refer to seasons?
+* Can they make certain types of obstacles easier/more difficult?
+
 ## Rules
 
 * Another pass of playtest feedback edits
-* Nerf the skill locations a little
+* Nerf the skill locations a little (no trade)
 
-## Mission Cards
+# 06/23/23
 
-* Come up with a starting set of mission cards for the mission card variant
+## Threats Option Defending With Assets
+
+Another option for threats:
+
+* Add dice at beginning of threats phase for each matching threat type
+* Roll dice during bonus turns
+* All matching numbers <= threat level take effect (ignore multiples)
+* May discard dice after roll by spending an asset >= die roll number
+
+The last step will encourage players to build up assets, which is an interesting way to defend against threats, but it's also something that has other uses. It also feels more like "defending" against threats.
+
+# 06/16/23
+
+Continuing to create mission cards. One subtle issue: some of the mission cards are more about avoiding something bad, rather than striving for something good. This isn't as interesting as a dynamic, and can also make the success side of the card more difficult to create.
+
+Another open question is how much tuning players can do on the obstacle decks. Burning certain cards should be part of the game. Maybe burning a foe card?
+
+# 06/07/23
+
+## Obstacles
+
+Thought of an option for obstacles that will differentiate them from progress cards more, as well as make the value of dice more consistent narratively (lower values are quicker and easier / higher values are slower and more powerful).
+
+* For each round:
+   * May use character abilties on dice
+   * Split dice into reaction / overcome pools
+   * Resolution (no character abilities):
+      * Roll a number of dice equal to highest threat value of obstacle
+      * Cancel an obstacle die higher than or equal to each reaction die
+      * In order of die values:
+         * Take stress
+         * Add die value + skill to overcome total
+         * If overcome total greater than difficulty, immediately discard card
+* If didn't overcome, may start another round
+
+One limitation of this approach: it doesn't really force the players to spend lots of action dice. Spending all the action dice to overcome can create a really large number - 17.5 + 5xskill. Even a skill of 3 gets up into 30+ range. Would need a really bonkers difficulty, such as 40+ for a showdown sort of situation.
+
+Also, not sure about leaving progress on obstacles / incremental progres. With this format, leaning towards that not being an option: either you overcome it or you don't. That said, could have multiple "rounds" of overcome as part of the same action.
+
+## Endgame Obstacles
+
+With this new obstacle overcome procedure, the threat levels are baked into the obstacles. In this case, the main ways to distinguish them involve:
+
+* Types of stress
+* Level of difficulty
+* Number of obstacles
+* Type of obstacles
+* Obstacle effect text
+
+Like the idea of Espionage being a series of different tasks, and Severing being a series of random overcomes. Would be cool to lean into the random nature of sorcery. Is there a way to have a more random endgame?
+
+## Endgame Immediate End
+
+Should the endgame have an immediate end if you overcome the final obstacle? Or do you keep plaing the whole year? Immediate end does kind of feel more appropriate.
+
+For now, try an immediate end.
+
+## Endgame Ideas
+
+* The game ends immediately when either sorcery of espionage missions are completed
+* Diplomacy makes other missions either
+   * A complete diplomacy track lets you:
+* Sorcery
+   * Sorcery involves confronting the severing for each character in the game
+   * Moving along the sorcery victory creates chaotic changes in the landscape
+* Espionage
+   * Espionage involves a series of thematically linked escalating obstacles
+   * The Autarch maybe adds threat tracks together?
+
+## Completed Progress/Threat Tracks
+
+* For threat tracks, add a die to current threat card
+* For progress tracks, increase the next progress track in trade order
+   * For sorcery, players may choose
+
+# 06/02/23
+
+## Threats
+
+Thought of an option for threats that can trigger during the session, which might make them more integrated for the final season.
+
+Basic outline:
+
+* Each session, players put the highest level threat card into play (shuffle and draw if equal)
+* It starts with a number of dice on it equal to the obstacle cards in play of that type
+* During play, when a matching threat obstacle is drawn, add a die to the card
+   * May also need to add a dice at a certain point in the turn step - easy to forget when drawing obstacles
+   * Although adding a die at a certain point makes it critical to remove obstacles with that symbol
+   * Also during play, players may remove dice similar to creating an asset
+* After the action phase of each bonus season (not turn), roll the dice
+   * Players may discard one die <= current progress for that threat
+   * All other dice matching numbers <= current threat level take effect immediately
+
+## Season Six Sorcery
+
+Another thought: should really have progress cards do something in the final season. Otherwise a core part of the game is missing if everything is obstacle driven. For the sorcery mission, thinking of having a counter, and completing a sorcery progress or overcoming the severing obstacle increases it by one. Although, doing the same obstacle over and over sounds kind of boring. Is there a way to increase the difficulty of the obstacle?
+
+Could have the stress caused be equal to the SEVERING die. So, it increases over time.
+
+# 05/26/23
+
+Driving towards an endgame playtest. How will threats work? Options:
+
+* They are shared progress cards
+* They can steal a type of resource die, related to the resource in question
+   * Maybe it costs multiple action dice to take them off of the threat card
+* They add more obstacles into play
+* They make obstacles of the listed type more difficult somehow
+   * No approach
+
+Thematically, threats represent some focused area of interest by the Empire. It would require resources from Brightdune to deal with.
+
+## Overcoming Threats
+
+* Shared progress card (this distinguishes it a bit)
+   * One variant is just ABC amount of dice of a given type/value
+      * For instance, XYZ military dice of value 3
+   * The option is a total number of any military dice
+   * Or a total value of military dice
+      * Can this be probabilistic somehow?
+   * Test at the end of the game?
+      * Invest resources on the card, and roll them?
+      * Get one success for each die over the threat level at the end of the game?
+      * This approach could use a "pick list" maybe, where you pick different results
+      * That would reflect the "difficult" choices, and maybe 3 successes means you don't pick at all
+* Progress card of given type
+
+The shared progress card idea might be the most interesting
+
+## Military Threat Pick-List
+
+All of consequences matching threat level happen, unless you spend successes to stop them:
+
+* Any: Diplomacy threat +1
+* Any: A character is wounded in the war
+* Threat 1-4: Put catapult into play at XYZ
+* Threat 5: Location falls
+* Threat 6: Brightdune falls
+
+This is a very different style of mechanic, and can emphasize the arbitrary nature of threats. Players can also choose not to take them very seriously early, not devote resources to them, but they grow in danger over the course of the campaign.
+
+Could encode quite a few options into these sorts of endgame lists. Character trauma, effects that last for next game, etc. Could have certain obstacles come out as well. Not sure how to track something like that, though. It'd be nice if these effects were on the threat card - but how would you remember a particular effect is in play? Would you notate it somehow?
+
+EFFECT ONE
+EFFECT TWO
+EFFECT THREE
+
+And so on - showing which ones are there.
+
+Instant effects:
+
+* Obstacles (even special ones)
+* Raising/lowering tracks
+* Locations
+* Character damage
+
+If possible, instant effects are probably better. And locations/obstacles can introduce more permanent negative effects for sure.
+
+## Endgame Playtest Abilities
+
+* Need to come up with a basic list of abilities for the endgame playtest that could be in play
+
+## Obstacles
+
+Potential issues with obstacles:
+
+* The ability to overcome them has more to do with when on your turn you'd like to deal with them. The more action dice you have, the easier they are. This is kind of weird.
+* They don't have a high amount of variability, in terms of a hail mary kind of luck roll. It's there in small doses, though.
+* They are necessarily all that much easier with a high skill. Although you do gain more insight.
+
+# 05/25/23
+
+Focusing on the Year Six missions. Those are endpoints the rest of the missions will need to point towards. Want each type of year end mission to feel distinct.
+
+## Diplomacy Endgame
+
+A shared progress card might invoke the right feel for this endgame approach. Maybe spending different combinations of dice give benefits based on Diplomacy progress?
+
+* Spend XYZ --> overcome military/sorcery/espionage obstacles less than or equal to diplomacy progress
+
+That doesn't really capture the benefit of spending a long-term amount of time building up the track.
+
+* When progress track is completed, but special shared progress card into play
+* When completed, immediately flip card
+* Opens up tons of spends that have lots of secondary effects (raising/lowering tracks and discards)
+
+TO-DO:
+
+* DONE Create no-narrative mission card
+* DONE Create shared progress card
+* DONE Update location/obstacle as needed
+
+## Sorcery Endgame
+
+The players battle The Severing, which involves lowering the Sorcery threat track before time runs out. Assets may be used on The Severing.
+
+## Espionage Endgame
+
+In this case, there are three obstacles: a trap, a guard, and the Autarch. They must be done in order. They do more damange based on Espionage threat levels, but do not take more time. No Assets may be used on the Autarch.
+
+## Endgame Questions
+
+* Should all three mission cards be in play?
+   * For consistency, probably not, there isn't an obvious reason to have them all which couldn't be addressed in other ways
+* Should there be a special "year 6" threat
+   * This could frame things as more of a "climax", but having it be emergent is also fine
+   * If players are able to keep threats reasonable, it seems like there shouldn't be a sudden jump up in difficulty for year six?
+   * Could also have other difficulty knobs to tune how hard players want the experience
+
+## Threats
+
+Should have a sample threat (not Tech) in order to get to a Year Six playtest quicker, something simple as a sanity check. Maybe Military got away from the players, and it's all the way up to a threat level of 5? That's not that crazy - already happened in one playtest.
+
+# 05/18/23
+
+Struggling with how to proceed on mission card variant. Is it worth creating one "path" of mission cards, from beginning to end? Then see how that would work from a structural level?
+
+The idea as it stands now: players choose two missions, along with a threat (not chosen). In the final session, all three missions are in play, along with a threat (not chosen).
+
+Threats have increasing penalties, based on the threat track *at the time the threat is failed*.
+
+With creating a path, should start at year 6, and then do year 1, working towards the middle.
+
+* Year 1: 3
+* Year 2: 2
+* Year 3: 2
+* Year 4: 2
+* Year 5: 2
+* Year 6: 3 (Mandatory)
+
+When choosing a mission, must be equal to or later than current year on mission card, *or* progress is equal to or higher than listed progress track on mission card. This would mean at least three choices each year, slowly going up as tracks are unlocked.
+
+## Year Six Obstacles
+
+* Sorcery: Complete Severing
+* Diplomacy: Complete Grand Alliance
+* Espionage: Complete WotA
+
+It would be nice if these were different-ish. Although, the language in overcoming obstacles is pretty similar: you match patterns of dice to the cards.
+
+Adding complexity here is probably ill-advised, given how much other stuff is going on.
+
+Not sure if there's a way to make obstacle cards more thematic, beyond the fact that they have different patterns of dice on them. It's maybe a question of how different dice mini-games could fit into themes for cards?
+
+There are also questions of how to incorporate threat levels into cards:
+
+* Must overcome N times (where N is threat level)
+   * Thinking about doing this with sorcery threat
+* Only dice equal to or higher than N apply (where N is threat level)
+* Does N damage, where N is the threat level
+
+Could have a fixed set of dice for obstacles - you roll six dice or something like that, and construct patterns with those dice. Take stress to re-roll dice.
+
+Would "roll a straight" vs. "roll matching" give it all that different of a feel, though? Maybe not. And it would take quite a bit longer as well?
+
+Or maybe, you don't have to spend at all, but rather you make patterns with the given resource pools?
+
+* Total
+* Matching
+* Sequence
+* Evens
+* Odds
+
+# 05/13/23
+
+## Playtest Feedback for Mission Cards
+
+Still working through the implications of mission cards. Since mission cards primarily involve finishing progress cards (and overcoming some obstacles), there is a relationship between wanting a particular track to advance and having an available mission. This is an issue if the place on the progress tracks matters for the final mission, and it's kind of nice if it does.
+
+* Question: Should players choose type of progress cards they wish to complete for missions?
+
+Probably not. That will wreck any fiction on the card, and undermine the whole reason to use mission cards.
+
+* Question: Should there be a few "base" mission cards, for diplomacy, espionage, and sorcery?
+
+On the one hand, that also sounds kind of boring. The rewards would have to be generic if they're missions characters go on multiple times.
+
+* Question: How many mission cards are needed to allow players to have 9 or so advances in the game?
+
+In theory, only three. After all, could have 3 mission cards with 3 advances. That's pretty brutal, though, and should probably have some mix-and-match. The key thing is that players will need flexibility in choosing mission cards. Could have 2 per year, but players would need to be able to choose any of the previously unlocked mission cards.
+
+Is there a path to give players about 9 advances in each of the victory tracks? Leaving 2 to make up on their own, or during year 6? That feels about right.
+
+## Potential Mission Card Structure
+
+Year one should maybe have three options? One for each main track? That would immediately open up a level 2 option for diplo, esp, and sorcery.
+
+## Possible Sorcery Path
+
+Year 1: Sorcery Starter Mission, 1 Sor, 1 Mil
+Year 1: Friends in High Places, 1 Dip, 1 Sup
+
+Year 2: Sorcerous Espionage, 2 Sor, 1 Esp
+Year 2: Difference of Opinion, 2 Dip, 2 Mil
+
+Year 3: Yasmina, 3 Sor
+Year 3: Sorcery and Technology, 4 Sor, 1 Tec
+
+Year 4: Oniri, 5 Sor
+Year 4: Chosen of Brightdune, 2 Sup, 3 Mil
+
+Year 5: Opening the Veil 7 Sor
+Year 5: For the Greater Good, 4 Dip 
+
+Year 6: The Severing, Sorcery
+
+That's about 4 away. Still - it's very possible to make-up quite a bit at the end. Opening the Veil could result in multiple cards. This is also playing on easy mode, which should give players a little more leeway. It'd be even closer on difficult. A sorcerous espionage mission is an obvious "make-up" target. Helping to fill gaps in either mission path.
+
+## Threats
+
+Not sure if year 6 really needs the "Veteran Alone" mission or not. That sort of prioritizes military advancement by the Empire of anything else. Although it does also make some sense. But it does prioritize one threat track over the others, so should telegraph that.
+
+What if threat cards are a group activity, like a group progress card? The sucky thing there is that you don't get progress. Which does kind of make thematic sense - but it's pretty brutal. It does distinguish threats from missions as well.
+
+Maybe the result of the threat is equal to the current threat level? That would make threat levels matter even in year 6, as they could reach the last step.
+
+# 04/30/23
+
+## Session Six Brainstorming
+
+Having mission cards with a little more narrative background is more interesting than just getting a track to the end. However, getting tracks to the end has the advantage that its very easy to tell how well you're doing right from game one.
+
+# 04/28/23
+
+## Playtest Feedback for Mission Cards
+
+Had a more lackluster playtest using mission cards: the comment was that they weren't bad, but didn't necessarily change the feel of the game all that much. There was also a negative reaction to getting rid of the resource mastery bonuses on the tracks.
+
+Seems like there are two pieces that need to be in place: direction and rewards for each game (at the episodic level) while having direction and rewards for the campaign (at the campaign level). If the game mainly operates at the episodic level, it's more challenging to understand what you need to do to win at the campaign level. Having clear guidelines early helps gives players something to strive for.
+
+Games like Pandemic: Legacy make the choice to only function at the episodic level. Essentially, your goal is to win as many games in a row as possible. There isn't really a "you won the campaign goal". It's just: win as many sessions as possible, which translates into a final score at the end.
 
 # 04/19/23
 

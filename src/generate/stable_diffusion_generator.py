@@ -87,10 +87,11 @@ old_loc_prompts = ["painting of fantasy persian city on the sea, with many house
 "painting of tall forbidding mountains, for dungeons and dragons, in the style of "
 ]
 
-obs_prompts = ["painting of a fantasy guard wearing a red cloak, standing in an alley, for dungeons and dragons, in the style of ",
-"painting of roman legionary, standing in a field, in the style of "]
+obs_prompts = ["painting of a fantasy ranger in a cloak sitting on a rock smoking a pipe with gray smoke rings coming out of it, in the style of "]
 
 old_obs_prompts = [
+"drawing of a pipe on a table, sitting next to a blue and white poweder, in the style of ",
+"drawing of a fantasy traveler, sitting in a dimly lit tavern, smoking a pipe with stars and moons flying out of it, in the style of ",
 "painting of dimly lit, crowded fantasy tavern, for dungeons and dragons, in the style of ",
 "painting of a fat mongolian merchant in fine clothes standing next to a tavern, for dungeons and dragons, in the style of ",
 "painting of a colorful magical tome, glowing with magical energy, for dungeons and dragons, in the style of ",

@@ -21,14 +21,6 @@ A beta is on *Tabletop Simulator* [here](https://steamcommunity.com/sharedfiles/
 
 The best place to leave feedback, is on the [Six Winters](https://boardgamegeek.com/boardgame/382841/six-winters) boardgamegeek page. It's also the best place to keep up with development.
 
-## Missions Variant
-
-Currently, the campaign is extremely open-ended. You really only win or lose at the end of six games, but that can make each session feel a little anticlimactic. After some playtesting feedback, I'm working on adding in per-session goals that will help tie the game together narratively while providing win/lose conditions each game. This variant will mostly likely be the standard way to play soon.
-
-See the [missions](docs/MISSIONS.md) page for more info.
-
-* [Mission Cards](docs/Mission_Cards.pdf)
-
 # Directory Structure
 
 There are three subdirectories for organizing content.
