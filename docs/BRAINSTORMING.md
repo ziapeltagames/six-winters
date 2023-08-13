@@ -1,21 +1,4 @@
-# Mechanics Ideas and Clarifications To-Do
-
-## Massive Version Overhaul
-
-* Mission Cards
-* Threat Cards
-* Obstacles
-* Resource Board
-* Locations
-* Character Cards
-   * Remove achievement references
-   * Simplify starting effects
-* Character Sheets
-   * Add in XP section
-* Progress Card Tuckbox
-* Rulebook
-   * Tons of stuff
-   * XP costs
+# TODO
 
 ## Obstacles
 
@@ -45,10 +28,55 @@
 * Can they refer to seasons?
 * Can they make certain types of obstacles easier/more difficult?
 
-## Rules
+# 08/04/23
 
-* Another pass of playtest feedback edits
-* Nerf the skill locations a little (no trade)
+One of the key difficulties is a tension between thematic depth and mechanical abstraction. If there isn't a certain amount of richness in how systmes interact, the game will feel fairly cold. But if the thematic depth isn't handles carefully, the game can become overwhelming and fiddly.
+
+Currently, the game is interesting, but the progress cards are very abstract. They don't really feel like you're actually making progress on a mission. Rather, they feel like a dice collecting exercise. Is there a way to give that more thematic depth. One idea is to separate out the different progress cards into assets with thematic names and content. Such as "Book of Transmutation" instead of a blue die. Furthermore, if characters had to play these items at specific places, that also feels much more thematic. These could be asset cards, rather than progress cards.
+
+Missions, at that point, could be specific ways to use these asset cards. Having dice combos is really fun, though, so that kind of potential should still be there.
+
+This may also be the time to introduce a spatial map to the game. While the open-world concept isn't bad, it's definitely not as thematically rich as a spatial map.
+
+## Initial Experimentation
+
+- Movement: one die per location is really slow, should probably be a number of contiguous locs equal to value of die. Could have some locations cost extra to move into.
+- Asset: not sure if location tags should be on the asset. If they are, is that instead of a skill or resource? Having both is kind of overwhelming. But, if you don't have both, then you _must_ have a location with that tag in play, which also seems limiting. Maybe that's a price to pay? For now, going to keep them on, but use them sparingly.
+- Resource Dice: having only one die in each location isn't great - maybe you put one die on each location, up to the refresh level? so they'll at least grow over time, up to a certain amount
+
+## Asset Ideas
+
+The assets are another opportunity to tie in themes from the game. These can be fairly abstract, and that's okay. Can also tie in artifacts from WotA, which is a cool twist.
+
+* Undari's Map
+* Undari's Balm
+* Undari's Palimpsest
+* Starsalt
+* Hogel's Favor
+* Lame Horse
+* Pony
+* Love Letter
+* Encoded Message
+* Eliza's Cypher
+* Blue Robe
+* Song
+* Lute
+* Forager's Map
+* Forager's Toad
+* Forager's Cloak
+* Nude Drawing
+* Speak with Dead
+* Shadow Walker
+* Army of the Dead
+* Wind Rider
+* Fangs of the Wolf
+* Primal Quickness
+* Aren's Sword
+* Aren's Shield
+* Aren's Smithy
+* Thedda's Palimpsest
+* Gossamer Spirit
+* Gossamer Thread
 
 # 06/23/23
 
