@@ -3,58 +3,30 @@ from shutil import move
 import glob
 import os
 
-ob_starting =  [1, 73]
-ob_mission =  [73, 204]
 
-obpath = '..\\Cards\\tts\\obstacles\\'
+for subloc in ["tts", "game_crafter"]:
 
-for i in range(ob_starting[0], ob_starting[1], 2):
-    if i == 1:
-        obs = glob.glob(obpath+'*-1.png')
-    else:
-        obs = glob.glob(obpath+'*-1'+str(i)+'.png')
-    if obs:
-        base, cardnum = os.path.basename(obs[0]).split('-')
+    ob_mission =  [1, 200]
+
+    obpath = '..\\Cards\\'+subloc+'\\obstacles\\'
+
+    for i in range(ob_mission[0], ob_mission[1], 2):
         if i == 1:
-            cardnum = '2'
+            obs = glob.glob(obpath+'*-1.png')
         else:
-            cardnum = str(int(cardnum[1:-4]) + 1)
-        move(obs[0], obpath+'starting_fronts\\'+base+'-1'+cardnum+'[face].png')
+            obs = glob.glob(obpath+'*-1'+str(i)+'.png')
+        if obs:
+            base, cardnum = os.path.basename(obs[0]).split('-')
+            if i == 1:
+                cardnum = '2'
+            else:
+                cardnum = str(int(cardnum[1:-4]) + 1)
+            move(obs[0], obpath+'front\\'+base+'-1'+cardnum+'[face].png')
 
-    obs = glob.glob(obpath+'*-1'+str(i+1)+'.png')
-    if obs:
-        move(obs[0], obpath+'starting_backs\\'+os.path.basename(obs[0])[:-4]+'[back].png')
+        obs = glob.glob(obpath+'*-1'+str(i+1)+'.png')
+        if obs:
+            move(obs[0], obpath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
 
-for i in range(ob_mission[0], ob_mission[1], 2):
-    obs = glob.glob(obpath+'*-1'+str(i)+'.png')
-    if obs:
-        base, cardnum = os.path.basename(obs[0]).split('-')
-        cardnum = str(int(cardnum[1:-4]) + 1)
-        move(obs[0], obpath+'mission_fronts\\'+base+'-1'+cardnum+'[face].png')
-    obs = glob.glob(obpath+'*-1'+str(i+1)+'.png')
-    if obs:
-        move(obs[0], obpath+'mission_backs\\'+os.path.basename(obs[0][:-4]+'[back].png'))
-
-progs =  [1, 150]
-
-progpath = '..\\Cards\\tts\\progress\\'
-
-for i in range(progs[0], progs[1], 2):
-    if i == 1:
-        obs = glob.glob(progpath+'*-1.png')
-    else:
-        obs = glob.glob(progpath+'*-1'+str(i)+'.png')
-    if obs:
-        base, cardnum = os.path.basename(obs[0]).split('-')
-        if i == 1:
-            cardnum = '2'
-        else:
-            cardnum = str(int(cardnum[1:-4]) + 1)
-        move(obs[0], progpath+'front\\'+base+'-1'+cardnum+'[face].png')
-
-    obs = glob.glob(progpath+'*-1'+str(i+1)+'.png')
-    if obs:
-        move(obs[0], progpath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
 
 for subloc in ["tts", "game_crafter"]:
 
@@ -78,32 +50,11 @@ for subloc in ["tts", "game_crafter"]:
         if obs:
             move(obs[0], square_progpath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
 
-locs =  [1, 120]
-
-locpath = '..\\Cards\\tts\\locations\\'
-
-for i in range(locs[0], locs[1], 2):
-    if i == 1:
-        obs = glob.glob(locpath+'*-1.png')
-    else:
-        obs = glob.glob(locpath+'*-1'+str(i)+'.png')
-    if obs:
-        base, cardnum = os.path.basename(obs[0]).split('-')
-        if i == 1:
-            cardnum = '2'
-        else:
-            cardnum = str(int(cardnum[1:-4]) + 1)
-        move(obs[0], locpath+'front\\'+base+'-1'+cardnum+'[face].png')
-
-    obs = glob.glob(locpath+'*-1'+str(i+1)+'.png')
-    if obs:
-        move(obs[0], locpath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
-
 for subloc in ["tts", "game_crafter"]:
 
     locs =  [1, 120]
 
-    locpath = '..\\Cards\\'+subloc+'\\square_locations\\'
+    locpath = '..\\Cards\\'+subloc+'\\locations\\'
 
     for i in range(locs[0], locs[1], 2):
         if i == 1:
@@ -123,47 +74,51 @@ for subloc in ["tts", "game_crafter"]:
             move(obs[0], locpath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
 
 
-miss =  [1, 99]
+for subloc in ["tts", "game_crafter"]:
 
-misspath = '..\\Cards\\tts\\missions\\'
+    miss =  [1, 99]
 
-for i in range(miss[0], miss[1], 2):
-    if i == 1:
-        obs = glob.glob(misspath+'*-1.png')
-    else:
-        obs = glob.glob(misspath+'*-1'+str(i)+'.png')
-    if obs:
-        base, cardnum = os.path.basename(obs[0]).split('-')
+    misspath = '..\\Cards\\'+subloc+'\\missions\\'
+
+    for i in range(miss[0], miss[1], 2):
         if i == 1:
-            cardnum = '2'
+            obs = glob.glob(misspath+'*-1.png')
         else:
-            cardnum = str(int(cardnum[1:-4]) + 1)
-        move(obs[0], misspath+'front\\'+base+'-1'+cardnum+'[face].png')
+            obs = glob.glob(misspath+'*-1'+str(i)+'.png')
+        if obs:
+            base, cardnum = os.path.basename(obs[0]).split('-')
+            if i == 1:
+                cardnum = '2'
+            else:
+                cardnum = str(int(cardnum[1:-4]) + 1)
+            move(obs[0], misspath+'front\\'+base+'-1'+cardnum+'[face].png')
 
-    obs = glob.glob(misspath+'*-1'+str(i+1)+'.png')
-    if obs:
-        move(obs[0], misspath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
+        obs = glob.glob(misspath+'*-1'+str(i+1)+'.png')
+        if obs:
+            move(obs[0], misspath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
 
-threat =  [1, 99]
+for subloc in ["tts", "game_crafter"]:
 
-threatpath = '..\\Cards\\tts\\schemes\\'
+    scene =  [1, 99]
 
-for i in range(threat[0], threat[1], 2):
-    if i == 1:
-        obs = glob.glob(threatpath+'*-1.png')
-    else:
-        obs = glob.glob(threatpath+'*-1'+str(i)+'.png')
-    if obs:
-        base, cardnum = os.path.basename(obs[0]).split('-')
+    scenepath = '..\\Cards\\'+subloc+'\\scenes\\'
+
+    for i in range(scene[0], scene[1], 2):
         if i == 1:
-            cardnum = '2'
+            obs = glob.glob(scenepath+'*-1.png')
         else:
-            cardnum = str(int(cardnum[1:-4]) + 1)
-        move(obs[0], threatpath+'front\\'+base+'-1'+cardnum+'[face].png')
+            obs = glob.glob(scenepath+'*-1'+str(i)+'.png')
+        if obs:
+            base, cardnum = os.path.basename(obs[0]).split('-')
+            if i == 1:
+                cardnum = '2'
+            else:
+                cardnum = str(int(cardnum[1:-4]) + 1)
+            move(obs[0], scenepath+'front\\'+base+'-1'+cardnum+'[face].png')
 
-    obs = glob.glob(threatpath+'*-1'+str(i+1)+'.png')
-    if obs:
-        move(obs[0], threatpath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
+        obs = glob.glob(scenepath+'*-1'+str(i+1)+'.png')
+        if obs:
+            move(obs[0], scenepath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
 
 chars =  [1, 99]
 
@@ -214,19 +169,3 @@ for page in pages:
         pagenum = '1.png'
 
     move(page, rulepath+'front\\'+base + '[' + pagenum[:-4] + '].png')
-
-# events =  [1, 99]
-
-# eventpath = '..\\Cards\\tts\\events\\'
-
-# for i in range(events[0], events[1], 2):
-#     if i == 1:
-#         obs = glob.glob(eventpath+'*-1.png')
-#     else:
-#         obs = glob.glob(eventpath+'*-1'+str(i)+'.png')
-#     if obs:
-#         move(obs[0], eventpath+'front\\'+os.path.basename(obs[0]))
-
-#     obs = glob.glob(eventpath+'*-1'+str(i+1)+'.png')
-#     if obs:
-#         move(obs[0], eventpath+'back\\'+os.path.basename(obs[0]))

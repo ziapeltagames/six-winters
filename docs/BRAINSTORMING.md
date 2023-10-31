@@ -10,23 +10,110 @@
 * Have "stretch goal" overcomes, using resource dice to get something extra?
 * Sapphire Djinn edits
 
-## Locations
-
-* Trade location - a location with the "trade any to any other" ability
-* Skill locations - probably shouldn't apply to trade, only to create asset
-* Difficulty locations - can make obs of a certain type easier/harder in terms of difficulty
-
 ## Season Effects
 
-* Can they be tied into progress or threat tracks somehow?
-   * Or can they be tied into character conditions?
+* Can they be tied into progress, threat tracks, character abilities, or locations
 * Really need to punch up the "0" season effects, they might not be impactful enough
 
-## Threats
+## Schemes
 
-* Can they refer to condition types?
-* Can they refer to seasons?
-* Can they make certain types of obstacles easier/more difficult?
+* Should these still be used, and how
+* They may be overtaken by Empire location abilities
+
+## Pitch
+
+"Cooperatively gather allies, resources, and assets in a mythic Persian setting to defeat a sorcerous Autarch intent on your society's destruction."
+
+# 10/09/23
+
+# 08/18/23
+
+## Campaign Victory Conditions
+
+Landing on the following for now:
+
+* Complete The Severing Mission
+   * Requires a total of 10 resource levels and Anim Forest
+* Complete Dish Best Served Cold Mission
+   * Requires a total of 8 resource levels and Throne Room
+
+## Campaign Loss Conditions
+
+* Apotheosis Track Reaches the End (Which is Guaranteed at Year 6)
+* Brightdune Falls from Military Attack
+
+# 08/16/23
+
+## Campaign Victory Conditions
+
+It's tricky in a more sandbox game to set up when and how the victory conditions are met. Victory should involve a mission somehow, since the track approach used previously lacked as much thematic depth and interest. But when and how can you undertake the mission?
+
+Options:
+
+1. Always available
+2. When a resource level is at a certain point
+3. When a number of locations are in play
+4. By doing previous missions
+
+The first option feels overwhelming. It'd be quite a bit to navigate if all the missions are just in play at the beginning of the campaign. That's probably out. The second option isn't too bad, although might be less interesting than a more narrative path. The third doesn't seem all that practical to enforce or count.
+
+Might be a way to combine 2 and 4 a bit. The idea of total resource levels as a proxy for level might be good.
+
+### The Severing
+
+* Requirements: Animaelic Forest (an Eldritch Settled Lands location), Resource Level: 10
+
+How do you increase resources?
+
+* Mainly through missions, but some locations may increase them as well.
+
+How do you get the Animaelic Forest?
+
+* The Sundering mission (maybe need different title) places it on the table
+* There's also a way using specific SL locations (like Arankh)
+
+### Dish Best Served Cold
+
+* Requirements: Throne Room, Resource Level: 10
+
+How do you get the Throne Room?
+
+* Some of the Imperial missions let you place any Imperial location.
+* Additionally, it could come out on its own via Imperial growth.
+
+## Ways to Lose
+
+* Apotheosis Track reaches the end
+
+Grows every year, by an amount equal to year
+Other things make it grow as well
+It represents the Autarch's power
+If it gets too high, will need to do Severing - espionage won't work any more
+
+* Military Collapse
+
+In this case, the military overruns Brightdune
+
+## Overcome Options
+
+Still brainstorming options for overcoming dice
+
+## Upgrade/Expand
+
+Like the idea of being able to get a resource engine going by upgrading locations (maybe making them more urban, but with the caveat that too urban is bad)
+
+## Difficulty
+
+Not sure about how to scale difficulty.
+
+1. Increase threat tracks
+2. More obstacles on mission cards
+3. Increased number of mission progress needed
+4. More obstacles during setup
+
+The first option is the easiest to implement, although it's difficult in a purely stress way. Characters are going to take considerably more stress. The second option is okay, but that feels like maybe it should be fixed as well?
+
+The third and fourth options are in some ways the most appealing. Progress is a little more of a timer, it'll make eash scene take longer and involve more assets. Or more valuable assets.
 
 # 08/04/23
 

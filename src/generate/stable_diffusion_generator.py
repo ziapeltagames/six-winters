@@ -103,15 +103,50 @@ old_obs_prompts = [
 
 negative_prompt = "poorly drawn, ugly, tiling, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, blurred, text, watermark, grainy, writing, calligraphy, sign, cut off, cartoon, vector art, clipart, distorted, amateur, split"
 
-ast_prompts = ["painting of bread in medieval tavern",
-               "painting of grapes in medieval tavern",
-               "painting of mug of ale in medieval tavern",
-               "painting of fantasy scarf with persian design",
-               "painting of fantasy spell turning lead into gold",
-               "painting of fantasy spell polymorph other for dungeons and dragons",
-               "painting of medieval cannons for dungeons and dragons",
-               "painting of fantasy war machine for dungeons and dragons",
-               "painting of fantasy medieval love letter"]
+odl_ast_prompts = ["painting of bread in medieval tavern",
+                    "painting of grapes in medieval tavern",
+                    "painting of mug of ale in medieval tavern",
+                    "painting of fantasy scarf with persian design",
+                    "painting of fantasy spell turning lead into gold",
+                    "painting of fantasy spell polymorph other for dungeons and dragons",
+                    "painting of medieval cannons for dungeons and dragons",
+                    "painting of fantasy war machine for dungeons and dragons",
+                    "painting of fantasy medieval love letter",
+                    "painting of mysterious message using magical ink",
+                    "painting of scribe hireling for dugeons and dragons",
+                    "painting of torchbearer hireling for dungeons and dragons",
+                    "painting of sharp fantasy sword",
+                    "painting of large fantasy crowssbow for dungeons and dragons",
+                    "painting of massive fantasy crossbow firing magical bolt",
+                    "painting of magical potion for dungeons and dragons",
+                    "painting of fantasy costume ball mask for dungeons and dragons",
+                    "painting of fantasy costume ball dress for dungeons and dragons",
+                    "painting of fantasy armor for dungeons and dragons",
+                    "painting of fantasy mongolian armor",
+                    "painting of fantasy roman armor",
+                    "painting of bubbling cauldron for dungeons and dragons",
+                    "painting of wineskin for dungeons and dragons",
+                    "painting of flint and steel for dungeons and dragons",
+                    "painting of lyre sitting on table for dungeons and dragons",
+                    "painting of fantasy drums",
+                    "painting of rope for dungeons and dragons",
+                    "painting of burlap sack for dungeons and dragons",
+                    "painting of fantasy tent for dungeons and dragons",
+                    "painting of crossbow sitting on table for dungeons and dragons",
+                    "painting of scarf for dungeons and dragons",
+                    "painting of cat familiar for dungeons and dragons",
+                    "painting of turtle familiar for dungeons and dragons",
+                    "painting of dog companion for dungeons and dragons",
+                    "painting of fantasy dog"]
+
+ast_prompts = ["painting of fantasy dragonfly for dungeons and dragons",
+               "painting of arrows sitting on a medieval table",
+               "painting of a fantasy longbow sitting against a forest tree",
+               "painting of a fantasy grappling hook for dungeons and dragons",
+               "painting of fantasy climbing spikes for dungeons and dragons",
+               "painting of an apple on a medieval table",
+               "painting of a wizard walking into a portal for dungeons and dragons",
+               "painting of an arcane trickster walking to a magical portal for dungeons and dragons"]
 
 prompts = ast_prompts
 
@@ -120,21 +155,23 @@ prompts = ast_prompts
 # Generating imagery for 240dpi, a little lower than the normal 300dpi, but still looks okay
 
 # Trade board at 240dpi: 18.25in x 18.25in (4380px x 4380px)
-#height = 768
-#width = 768
+# height = 768
+# width = 768
 
 # Obstacle imagery at 300dpi: 2.25in x 2.093in (675px x 628px)
 # height = 624
 # width = 672
 
 # Location imagery at 240dpi: 3.83in x 2.154in (920px x 520px)
-#height = 520
-#width = 920
+# height = 520
+# width = 920
 
 # Asset imagery at 300dpi: 2.75 in x 1.4 in (825px x 420px)
+# width = 832
 # height = 424
 
-height = 832
+# Square asset, must be cropped
+height = 592
 width = 832
 
 for i in range(500):
