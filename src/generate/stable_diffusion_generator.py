@@ -3,7 +3,7 @@
 import random
 import torch
 
-from diffusers import StableDiffusionXLPipeline, StableDiffusionPipeline, DPMSolverMultistepScheduler
+from diffusers import DiffusionPipeline, StableDiffusionXLImg2ImgPipeline, StableDiffusionXLPipeline
 
 artists = ["wayne reynolds", "john stanko", "kieran yanner", "artgerm", "greg rukowski", "alphonse mucha",
 "clyde caldwell", "john blanche", "russ nicholson", "larry elmore", "jeff easley", "erol otus", 
@@ -89,9 +89,17 @@ old_loc_prompts = ["painting of fantasy persian city on the sea, with many house
 "painting of tall forbidding mountains, for dungeons and dragons "
 ]
 
-obs_prompts = ["painting of a fantasy ranger in a cloak sitting on a rock smoking a pipe with gray smoke rings coming out of it "]
+obs_prompts = ["painting of magical mist draining the life force from fantasy villagers",
+               "painting of a magical grey glowing cloud in a fantasy persian village",
+               "painting of a fantasy spell from dungeons and dragons",
+               "magical spell dungeons and dragons blasting death magic",
+               "eldritch spell energy dark red clouds swirling magic",
+               "assassin wearing a blue cloak with a scar for dungeons and dragons",
+               "a charming bard with an evil grin and a lute for dungeons and dragons",
+               "fantasy assassin in a city for conan"]
 
 old_obs_prompts = [
+"painting of a fantasy ranger in a cloak sitting on a rock smoking a pipe with gray smoke rings coming out of it ",
 "drawing of a pipe on a table, sitting next to a blue and white poweder ",
 "drawing of a fantasy traveler, sitting in a dimly lit tavern, smoking a pipe with stars and moons flying out of it ",
 "painting of dimly lit, crowded fantasy tavern, for dungeons and dragons ",
@@ -101,7 +109,7 @@ old_obs_prompts = [
 "painting of glowing blue magical energy swirling above a persian village, for dungeons and dragons "
 ]
 
-negative_prompt = "poorly drawn, ugly, tiling, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, blurred, text, watermark, grainy, writing, calligraphy, sign, cut off, cartoon, vector art, clipart, distorted, amateur, split"
+negative_prompt = "picture frame, poorly drawn, ugly, tiling, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, blurred, text, watermark, grainy, writing, calligraphy, sign, cut off, cartoon, vector art, clipart, distorted, amateur, split"
 
 odl_ast_prompts = ["painting of bread in medieval tavern",
                     "painting of grapes in medieval tavern",
@@ -148,7 +156,7 @@ ast_prompts = ["painting of fantasy dragonfly for dungeons and dragons",
                "painting of a wizard walking into a portal for dungeons and dragons",
                "painting of an arcane trickster walking to a magical portal for dungeons and dragons"]
 
-prompts = ast_prompts
+prompts = obs_prompts
 
 # Standard: 768px x 768px
 
@@ -159,22 +167,28 @@ prompts = ast_prompts
 # width = 768
 
 # Obstacle imagery at 300dpi: 2.25in x 2.093in (675px x 628px)
-# height = 624
-# width = 672
+height = 624
+width = 672
 
 # Location imagery at 240dpi: 3.83in x 2.154in (920px x 520px)
 # height = 520
 # width = 920
 
+# Large location imagery at 300dpi: 5.75 x 3.06 (1725px x 920px)
+# Large location imagery at 240dpi: 1380px x 734px
 # Asset imagery at 300dpi: 2.75 in x 1.4 in (825px x 420px)
 # width = 832
 # height = 424
 
-# Square asset, must be cropped
-height = 592
-width = 832
+# Changed asset to 2.75 in x 1.76 in (825px x 528px)
+# width = 832
+# height = 528
 
-for i in range(500):
+# Square asset, must be cropped
+# height = 592
+# width = 832
+
+for i in range(200):
 
     prompt = random.choice(prompts)
 
@@ -191,29 +205,49 @@ for i in range(500):
     artist_prompt = prompt + ", in the style of " + artist_string
 
     seed = random.randint(1, 200000)
-    steps = random.randint(50, 100)
+    steps = random.randint(40, 90)
+    high_noise_frac = 0.8
 
     guidance_scale = round(random.uniform(5.0, 10.0), 2)
 
-    model_id="stabilityai/stable-diffusion-xl-base-1.0" #"stable-diffusion-2-1"
+    # load both base & refiner
+    base = StableDiffusionXLPipeline.from_pretrained(
+        "stabilityai/stable-diffusion-xl-base-1.0", torch_dtype=torch.float16, variant="fp16", use_safetensors=True
+    )
+    base.to("cuda")
+    # base is StableDiffusionXLPipeline
 
-    pipe = StableDiffusionXLPipeline.from_pretrained(model_id, torch_dtype=torch.float16, variant="fp16", use_safetensors=True)
+    refiner = StableDiffusionXLImg2ImgPipeline.from_pretrained(
+        "stabilityai/stable-diffusion-xl-refiner-1.0",
+        text_encoder_2=base.text_encoder_2,
+        vae=base.vae,
+        torch_dtype=torch.float16,
+        use_safetensors=True,
+        variant="fp16",
+    )
+    refiner.to("cuda")
+    # refiner is StableDiffusionXLImg2ImgPipeline
 
-    # pipe.scheduler = EulerDiscreteScheduler.from_config(pipe.scheduler.config)
-    pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
-
-    pipe = pipe.to("cuda")
-    pipe.enable_attention_slicing()
-
-    generator = torch.Generator("cuda").manual_seed(seed)
-
-    print('Generating ', artist_prompt, i)
-
-    image = pipe(artist_prompt, negative_prompt=negative_prompt, height=height, width=width, num_inference_steps=steps, generator=generator).images[0]
+    image = base(prompt = artist_prompt,
+                 negative_prompt = negative_prompt,
+                 num_inference_steps = steps,
+                 #denoising_end = high_noise_frac,
+                 output_type = "latent",
+                 height = height,
+                 width = width
+                 ).images
+    
+                #  output_type = "latent").images[0]
+    
+    refined_image = refiner(prompt = artist_prompt,
+                            negative_prompt = negative_prompt,
+                            # num_inference_steps = steps,
+                            #denoising_end = high_noise_frac,
+                            image=image).images[0]
 
     # guidance_str = str(guidance_scale).replace('.', '_')
 
     try:
-        image.save("images\\ai_in_progress\\" + artist_prompt[-150:] + " " + str(steps) + " " + str(seed) + ".png")
+        refined_image.save("images\\ai_in_progress\\" + artist_prompt[-150:] + " " + str(steps) + " " + str(seed) + ".png")
     except Exception as e:
         print(e)
