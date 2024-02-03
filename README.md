@@ -11,11 +11,13 @@ During the campaign, new characters and locations may be unlocked, transforming 
 # How to Play
 
 * [Rules](docs/Six_Winters_Rules.pdf)
-* [Character and Campaign Sheets](docs/Character_and_Campaign_Tracker.pdf)
+* [Character Sheets](docs/Character_Sheet.pdf)
+* [Character Mats](docs/Character_Mats.pdf)
+* [Scenarios](docs/Scenarios.pdf)
 
 ## Where to Play
 
-A beta is on *Tabletop Simulator* [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2850538933), and POD copies are available for blind playtesting.
+A beta is on *Tabletop Simulator* [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2850538933), and POD copies are available for blind playtesting. They will soon be available on Game Crafter.
 
 ## Where to Give Feedback
 

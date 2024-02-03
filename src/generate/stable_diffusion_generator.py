@@ -145,18 +145,22 @@ odl_ast_prompts = ["painting of bread in medieval tavern",
                     "painting of cat familiar for dungeons and dragons",
                     "painting of turtle familiar for dungeons and dragons",
                     "painting of dog companion for dungeons and dragons",
-                    "painting of fantasy dog"]
+                    "painting of fantasy dog",
+                    "painting of fantasy dragonfly for dungeons and dragons",
+                    "painting of arrows sitting on a medieval table",
+                    "painting of a fantasy longbow sitting against a forest tree",
+                    "painting of a fantasy grappling hook for dungeons and dragons",
+                    "painting of fantasy climbing spikes for dungeons and dragons",
+                    "painting of an apple on a medieval table",
+                    "painting of a wizard walking into a portal for dungeons and dragons",
+                    "painting of an arcane trickster walking to a magical portal for dungeons and dragons"]
 
-ast_prompts = ["painting of fantasy dragonfly for dungeons and dragons",
-               "painting of arrows sitting on a medieval table",
-               "painting of a fantasy longbow sitting against a forest tree",
-               "painting of a fantasy grappling hook for dungeons and dragons",
-               "painting of fantasy climbing spikes for dungeons and dragons",
-               "painting of an apple on a medieval table",
-               "painting of a wizard walking into a portal for dungeons and dragons",
-               "painting of an arcane trickster walking to a magical portal for dungeons and dragons"]
+ast_prompts = ["fantasy dungeons and dragons magical wand of mirrors",
+               "fantasy dungeons and dragons magic item mirrors of heat",
+               "painting of fantasy mirror weapon",
+               "fantasy painting dungeons and dragons mirror artifact"]
 
-prompts = obs_prompts
+prompts = ast_prompts
 
 # Standard: 768px x 768px
 
@@ -167,8 +171,8 @@ prompts = obs_prompts
 # width = 768
 
 # Obstacle imagery at 300dpi: 2.25in x 2.093in (675px x 628px)
-height = 624
-width = 672
+# height = 624
+# width = 672
 
 # Location imagery at 240dpi: 3.83in x 2.154in (920px x 520px)
 # height = 520
@@ -181,8 +185,8 @@ width = 672
 # height = 424
 
 # Changed asset to 2.75 in x 1.76 in (825px x 528px)
-# width = 832
-# height = 528
+width = 832
+height = 528
 
 # Square asset, must be cropped
 # height = 592
