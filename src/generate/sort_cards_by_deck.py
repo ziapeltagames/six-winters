@@ -120,6 +120,30 @@ for subloc in ["tts", "game_crafter"]:
         if obs:
             move(obs[0], scenepath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
 
+for subloc in ["tts", "game_crafter"]:
+
+    achieve =  [1, 99]
+
+    achievepath = '..\\Cards\\'+subloc+'\\achievements\\'
+
+    for i in range(achieve[0], achieve[1], 2):
+        if i == 1:
+            obs = glob.glob(achievepath+'*-1.png')
+        else:
+            obs = glob.glob(achievepath+'*-1'+str(i)+'.png')
+        if obs:
+            base, cardnum = os.path.basename(obs[0]).split('-')
+            if i == 1:
+                cardnum = '2'
+            else:
+                cardnum = str(int(cardnum[1:-4]) + 1)
+            move(obs[0], achievepath+'front\\'+base+'-1'+cardnum+'[face].png')
+
+        obs = glob.glob(achievepath+'*-1'+str(i+1)+'.png')
+        if obs:
+            move(obs[0], achievepath+'back\\'+os.path.basename(obs[0])[:-4]+'[back].png')
+
+
 chars =  [1, 99]
 
 charpath = '..\\Characters\\tts\\sheets\\'

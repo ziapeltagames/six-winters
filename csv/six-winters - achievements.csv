@@ -1,0 +1,13 @@
+name,title,level,base_ability,overlay_ability,text_ability,quote,@char_image,@border
+Thea,Change Course,xxCOMMITMENT 1,,,Flip a die,,..\images\characters\Thea-portrait.png,..\images\borders\thea_border.png
+Thea,Careful Planning,xxCOMMITMENT 2,xxFSQUARE xxRIGHT xxASSET,xxSTABILITY xxRIGHT xxASSET,,,..\images\characters\Thea-portrait.png,..\images\borders\thea_border.png
+Thea,The Conciliator,xxCOMMITMENT 3,,xxSTABILITY xxRIGHT xxDIPLOMACY,,,..\images\characters\Thea-portrait.png,..\images\borders\thea_border.png
+Fuscus,Silver-Tongued Ruffian,xxCOMMITMENT 1,xxCUBE - 1,,,,..\images\characters\Fuscus-portrait.png,..\images\borders\fuscus_border.png
+Fuscus,Lift Your Cups!,xxCOMMITMENT 2,xxFSQUARE xxFSQUARE xxFSQUARE xxRIGHT xxFLAKE,xxDIPLOMACY xxSTABILITY xxRESOURCE xxRIGHT xxFLAKE,,,..\images\characters\Fuscus-portrait.png,..\images\borders\fuscus_border.png
+Fuscus,Friendly Favors,xxCOMMITMENT 3,xxFSQUARE xxRIGHT xxASSET,xxDIPLOMACY xxRIGHT xxASSET,,,..\images\characters\Fuscus-portrait.png,..\images\borders\fuscus_border.png
+Menas,Grand Tactician,xxCOMMITMENT 1,,,Set xxMILITARY resource to any value,,..\images\characters\Menas-portrait.png,..\images\borders\menas_border.png
+Menas,Fury of the Horselord,xxCOMMITMENT 2,xxFSQUARE xxRIGHT xxDEFENSE,xxMILITARY xxRIGHT xxDEFENSE,,,..\images\characters\Menas-portrait.png,..\images\borders\menas_border.png
+Menas,Ride Swiftly,xxCOMMITMENT 3,,,Move to an adjacent location,,..\images\characters\Menas-portrait.png,..\images\borders\menas_border.png
+Keel,Youthful Artificer,xxCOMMITMENT 1,xxTECHNOLOGY xxRIGHT xxTECHNOLOGY + xxTECHNOLOGY,,,,..\images\characters\Keel-portrait.png,..\images\borders\keel_border.png
+Keel,Workshop,xxCOMMITMENT 2,xxFSQUARE xxRIGHT xxOVERCOME,xxTECHNOLOGY xxRIGHT xxOVERCOME,,,..\images\characters\Keel-portrait.png,..\images\borders\keel_border.png
+Keel,Move in Shadows,xxCOMMITMENT 3,xxFSQUARE xxRIGHT xxOVERCOME,xxESPIONAGE xxRIGHT xxOVERCOME,,,..\images\characters\Keel-portrait.png,..\images\borders\keel_border.png
