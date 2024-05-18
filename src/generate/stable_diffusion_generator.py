@@ -160,7 +160,12 @@ ast_prompts = ["fantasy dungeons and dragons magical wand of mirrors",
                "painting of fantasy mirror weapon",
                "fantasy painting dungeons and dragons mirror artifact"]
 
-prompts = ast_prompts
+back_prompts = ["byzantine mosaic of lavender and crimson",
+                "byzantine mosaic",
+                "persian pattern from sasanian empire",
+                "persian pattern"]
+
+prompts = back_prompts
 
 # Standard: 768px x 768px
 
@@ -185,8 +190,12 @@ prompts = ast_prompts
 # height = 424
 
 # Changed asset to 2.75 in x 1.76 in (825px x 528px)
+# width = 832
+# height = 528
+
+# Card backgrounds 2.75 in x 3.75 in
 width = 832
-height = 528
+height = 1128
 
 # Square asset, must be cropped
 # height = 592
