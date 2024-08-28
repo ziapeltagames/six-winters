@@ -1,14 +1,54 @@
-region,shading,name,skill,tags,resources,symbol,texta,textb,@location_image,developed_tags,developed_resources,developed_symbol,textc,textd,@developed_location_image
-xxEMPIRE,EMxxFSQUAREEM,Eastkeep,xxTACTICS,Keep,xxMILITARY,,,,"..\images\ai_lands\ain valley, for dungeons and dragons, in the style of mahmud asrar and john blanche and daniel horne 5_23 105 102090.tif",Keep,xxMILITARY,,,,"..\images\ai_lands\ain valley, for dungeons and dragons, in the style of mahmud asrar and john blanche and daniel horne 5_23 105 102090.tif"
-xxEMPIRE,EMxxFSQUAREEM,Yearly Field,xxCOMBAT,Ruins,,,,,"..\images\ai_lands\ing of a green field with rocky monuments for dungeons and dragons, in the style of william-adolphe bouguereau 5_2 59 88765.tif",Ruins,,,,,"..\images\ai_lands\ing of a green field with rocky monuments for dungeons and dragons, in the style of william-adolphe bouguereau 5_2 59 88765.tif"
-xxBRIGHTDUNE,RBxxFSQUARERB,Boar's Rift,xxTACTICS,"Fort, Ruins",xxMILITARY,,,,..\images\ai_lands\boars_rift_ruins.tif,Fort,xxMILITARY,,YYY Unit: Take xxSTARxxSTAR.,,"..\images\ai_lands\tall mountain in the background, in the style of william-adolphe bouguereau and russ nicholson and ian miller 5_53 72 65948.tif"
-xxBRIGHTDUNE,RBxxFSQUARERB,Parisa's Glen,xxCOMMAND,Urban,xxSTABILITY,,,,"..\images\ai_lands\tasy persian village with trading carts and amaranth, for dungeons and dragons, in the style of alphonse mucha 5_92 124 35620.tif","Urban,Port",xxSTABILITYxxSTABILITY,xxBOAT,YYY xxCUBExxCUBE xxRIGHT Recover one xxBODY.,,"..\images\ai_lands\tasy persian village with trading carts and amaranth, for dungeons and dragons, in the style of alphonse mucha 5_92 124 35620.tif"
-xxSETTLED,SLxxFSQUARESL,Boar's Peak,xxSURVIVAL,"Fort, Ruins",xxMILITARY,,"YYY During xxWINTER, costs +2 xxMOVE to enter.",,..\images\ai_lands\boars_peak_ruins.tif,Fort,xxMILITARY,,YYY Unit: Take xxSTARxxSTAR.,,"..\images\ai_lands\tapults in front of it, for dungeons and dragons, in the style of charlie bowater and arthur rackham 6_46 74 134040.tif"
-xxEMPIRE,EMxxFSQUAREEM,Whitehold,xxDISGUISE,Vault,xxESPIONAGE,,"YYY If xxTHIEVERY < 3, costs +1 xxMOVE to enter.",,"..\images\ai_lands\of fantasy military fort with white walls in the hills for dungeons and dragons, in the style of tuomas korpi 6_74 107 128924.tif",Vault,xxESPIONAGE,,,,"..\images\ai_lands\of fantasy military fort with white walls in the hills for dungeons and dragons, in the style of tuomas korpi 6_74 107 128924.tif"
-xxEMPIRE,EMxxFSQUAREEM,Guild of Secrets,xxTHIEVERY,Vault,xxTECHNOLOGY,,,,"..\images\ai_lands\many jail cells, dim lighting from torches, for dungeons and dragons, in the style of greg rukowski 5_43 116 44729.tif",Vault,xxTECHNOLOGYxxTECHNOLOGY,,YYY May trade xxTECHNOLOGYxxTECHNOLOGY for xxMILITARY.,,"..\images\ai_lands\many jail cells, dim lighting from torches, for dungeons and dragons, in the style of greg rukowski 5_43 116 44729.tif"
-xxBRIGHTDUNE,RBxxFSQUARERB,Loomwood,xxCOMBAT,Rural,,,,,"..\images\ai_lands\ite and gray trees, colorful mushrooms grow on the ground, in the style of arthur rackham and greg hildebrandt 9_04 101 37336.tif",Rural,xxSTABILITY,,YYY Foe: Take xxSTARxxSTAR.,,"..\images\ai_lands\ite and gray trees, colorful mushrooms grow on the ground, in the style of arthur rackham and greg hildebrandt 9_04 101 37336.tif"
-xxBRIGHTDUNE,RBxxFSQUARERB,Undari's Tower,xxLORE,Eldritch,xxSORCERY,xxSHATTER,YYY Spend xxBODY or xxPSYCHE to move to xxSHATTER location. ,,"..\images\ai_lands\castle in the mountains, for dungeons and dragons, in the style of greg rukowski and arthur rackham 9_18 88 145991.tif",Eldritch,xxSORCERY,xxSHATTER,YYY Spend xxMOVE to move to xxSHATTER location.,,"..\images\ai_lands\castle in the mountains, for dungeons and dragons, in the style of greg rukowski and arthur rackham 9_18 88 145991.tif"
-xxBRIGHTDUNE,RBxxFSQUARERB,The Obfuscated Bribe,xxRAPPORT,Hall,,,YYY May exchange xxPSYCHE for xxBODY.,,"..\images\ai_lands\nting of dimly lit, crowded fantasy tavern, for dungeons and dragons, in the style of alphonse mucha 9_54 136 102007.tif",Hall,xxSTABILITY,,YYY May exchange xxPSYCHE for xxBODY.,,"..\images\ai_lands\nting of dimly lit, crowded fantasy tavern, for dungeons and dragons, in the style of alphonse mucha 9_54 136 102007.tif"
-xxBRIGHTDUNE,SLxxFSQUARESL,Pearlescent Marsh,xxSURVIVAL,"Wilderness, Eldritch",,xxSHATTER,YYY Spend xxBODY or xxPSYCHE to move to xxSHATTER location.,,"..\images\ai_lands\range and blue, vines hang above the water, for dungeons and dragons, in the style of russ nicholson and nixeu 6_08 116 55651.tif","Wilderness, Eldritch",xxSORCERY,xxSHATTER,,,"..\images\ai_lands\range and blue, vines hang above the water, for dungeons and dragons, in the style of russ nicholson and nixeu 6_08 116 55651.tif"
-xxSETTLED,SLxxFSQUARESL,Gravewood,xxSURVIVAL,Wilderness,,,,,"..\images\ai_lands\of glowing blue forest, dense trees, ghosts, for dungeons and dragons, in the style of tuomas korpi 6_61 69 156425.tif","Wilderness, Eldritch",,xxSHATTER,YYY May muster xxSORCERY at this location.,,"..\images\ai_lands\of glowing blue forest, dense trees, ghosts, for dungeons and dragons, in the style of tuomas korpi 6_61 69 156425.tif"
-xxSETTLED,SLxxFSQUARESL,Hogel Manor,xxRAPPORT,Hall,xxDIPLOMACY,,YYY xxCUBExxCUBE xxRIGHT Recover one xxPSYCHE.,,"..\images\ai_lands\golian trading house, in wide open field, for dungeons and dragons, in the style of greg hildebrandt 9_0 64 14324.tif",Hall,xxDIPLOMACYxxDIPLOMACY,,YYY xxCUBE xxRIGHT Recover one xxPSYCHE.,,"..\images\ai_lands\golian trading house, in wide open field, for dungeons and dragons, in the style of greg hildebrandt 9_0 64 14324.tif"
+name,region,tags,effect1,effect2,resources1,resources2,texta,textb,@location_image,developed_tags,developed_effect1,developed_effect2,developed_resources1,developed_resources2,textc,textd,@developed_location_image
+Yearly Field,,Blighted. xxSTARTING,,,,,,,"..\images\ai_lands\ing of a green field with rocky monuments for dungeons and dragons, in the style of william-adolphe bouguereau 5_2 59 88765.tif",Wilderness.,,,,,YYY Characters at this location during refresh take an extra xxINSIGHT.,,"..\images\ai_lands\ing of a green field with rocky monuments for dungeons and dragons, in the style of william-adolphe bouguereau 5_2 59 88765.tif"
+Eastkeep,xxEMPIRE,Keep. xxSTARTING,,,,,,,"..\images\ai_lands\ain valley, for dungeons and dragons, in the style of mahmud asrar and john blanche and daniel horne 5_23 105 102090.tif",Keep.,,,xxTECHNOLOGYsss,,,,"..\images\ai_lands\ain valley, for dungeons and dragons, in the style of mahmud asrar and john blanche and daniel horne 5_23 105 102090.tif"
+Whitehold,xxEMPIRE,Vault.,sss+1xxMOVE,,xxESPIONAGEsss,,,,"..\images\ai_lands\of fantasy military fort with white walls in the hills for dungeons and dragons, in the style of tuomas korpi 6_74 107 128924.tif",Vault.,,,xxESPIONAGEsss,xxESPIONAGEsss,YYY Spend 1 xxINSIGHT to move a Treasure or Secrets xxASSET from staging area to in-progress area.,,"..\images\ai_lands\of fantasy military fort with white walls in the hills for dungeons and dragons, in the style of tuomas korpi 6_74 107 128924.tif"
+Rosy Freetrader,xxEMPIRE,Tavern.,,,xxTECHNOLOGYsss,,,,..\images\ai_lands\rosy_freetrader.tif,Tavern.,sssxxBOAT,,xxTECHNOLOGYsss,,YYY Spend 2 xxMOVE to move to xxBOAT location.,,..\images\ai_lands\rosy_freetrader.tif
+Boar's Rift,xxBRIGHTDUNE,Defensible. xxSTARTING,,,xxMILITARYsss,,,,..\images\ai_lands\boars_rift_ruins.tif,Fort.,,,xxMILITARYsss,,YYY Unit: Add xxHINDRANCExxHINDRANCE when unit moves into this location.,,"..\images\ai_lands\tall mountain in the background, in the style of william-adolphe bouguereau and russ nicholson and ian miller 5_53 72 65948.tif"
+Giant's Gate,xxBRIGHTDUNE,Urban. xxSTARTING,,,xxSTABILITYsss,,,,"..\images\ai_lands\tasy persian village with trading carts and amaranth, for dungeons and dragons, in the style of alphonse mucha 5_92 124 35620.tif",Urban.,sssxxBOAT,,xxSTABILITYsss,,YYY Spend 2 xxMOVE to move to xxBOAT location.,,"..\images\ai_lands\tasy persian village with trading carts and amaranth, for dungeons and dragons, in the style of alphonse mucha 5_92 124 35620.tif"
+Boar's Peak,xxSETTLED,Wilderness. Defensible. xxSTARTING,sss+1xxMOVE,,xxMILITARYsss,,,,..\images\ai_lands\boars_peak_ruins.tif,Wilderness. Fort.,,,xxMILITARYsss,,YYY Unit: Add xxHINDRANCExxHINDRANCE when unit moves into this location.,,"..\images\ai_lands\tapults in front of it, for dungeons and dragons, in the style of charlie bowater and arthur rackham 6_46 74 134040.tif"
+Loomwood,xxBRIGHTDUNE,Rural. Farms.,,,,,YYY May muster xxTECHNOLOGY at this location.,,"..\images\ai_lands\ite and gray trees, colorful mushrooms grow on the ground, in the style of arthur rackham and greg hildebrandt 9_04 101 37336.tif",Rural. Farms.,,,xxSTABILITYsss,,YYY May muster xxTECHNOLOGY at this location.,,"..\images\ai_lands\ite and gray trees, colorful mushrooms grow on the ground, in the style of arthur rackham and greg hildebrandt 9_04 101 37336.tif"
+Undari's Tower,xxBRIGHTDUNE,Blighted.,sssxxPORTAL,,,,YYY May muster xxSORCERY at this location. Spend 1 xxBODY or 1 xxPSYCHE to move to xxPORTAL location.,,"..\images\ai_lands\castle in the mountains, for dungeons and dragons, in the style of greg rukowski and arthur rackham 9_18 88 145991.tif",Blighted.,sssxxPORTAL,,xxSORCERYsss,,YYY Spend 1 xxMOVE to move to xxPORTAL location.,,"..\images\ai_lands\castle in the mountains, for dungeons and dragons, in the style of greg rukowski and arthur rackham 9_18 88 145991.tif"
+The Obfuscated Bribe,xxBRIGHTDUNE,Urban. Tavern.,,,,,YYY May exchange xxBODY for xxPSYCHE.,,"..\images\ai_lands\nting of dimly lit, crowded fantasy tavern, for dungeons and dragons, in the style of alphonse mucha 9_54 136 102007.tif",Urban. Tavern.,,,xxESPIONAGEsss,,YYY xxCUBExxCUBE xxRIGHT Recover 1 xxPSYCHE.,,"..\images\ai_lands\nting of dimly lit, crowded fantasy tavern, for dungeons and dragons, in the style of alphonse mucha 9_54 136 102007.tif"
+Pearlescent Marsh,xxBRIGHTDUNE,Wilderness. Enchanted.,sssxxPORTAL,,,,YYY May muster xxSORCERY at this location. Spend 1 xxBODY or 1 xxPSYCHE to move to xxPORTAL location.,,"..\images\ai_lands\range and blue, vines hang above the water, for dungeons and dragons, in the style of russ nicholson and nixeu 6_08 116 55651.tif",Wilderness. Enchanted.,sssxxPORTAL,,xxSORCERYsss,,YYY Spend 1 xxBODY or 1 xxPSYCHE to move to xxPORTAL location.,,"..\images\ai_lands\range and blue, vines hang above the water, for dungeons and dragons, in the style of russ nicholson and nixeu 6_08 116 55651.tif"
+Golden Hills,xxSETTLED,Rural. Enchanted.,,,,,YYY May muster xxSORCERY at this location.,,..\images\ai_lands\golden_hills.png,Rural. Enchanted.,sssxxPORTAL,,xxMILITARYsss,,YYY May muster xxSORCERY at this location.,,..\images\ai_lands\golden_hills.png
+Hogel Manor,xxSETTLED,Rural. Hall.,,,xxDIPLOMACYsss,,,,"..\images\ai_lands\golian trading house, in wide open field, for dungeons and dragons, in the style of greg hildebrandt 9_0 64 14324.tif",Rural. Hall.,,,xxDIPLOMACYsss,xxDIPLOMACYsss,YYY xxCUBExxCUBE xxRIGHT Recover 1 xxBODY.,,"..\images\ai_lands\golian trading house, in wide open field, for dungeons and dragons, in the style of greg hildebrandt 9_0 64 14324.tif"
+Lily Manor,xxSETTLED,Urban. Hall.,,,xxDIPLOMACYsss,,,,..\images\ai_lands\lily_manor.tif,Urban. Hall.,sssxxBOAT,,xxDIPLOMACYsss,,YYY Spend 2 xxMOVE to move to xxBOAT location.,,..\images\ai_lands\lily_manor.tif
+Arankh,xxSETTLED,,,,,,,,,,,,,,,,
+Guild of Secrets,xxEMPIRE,,,,,,,,,,,,,,,,
+Desolation,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+Desolation,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+Brightdune Bay,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+The Long Wastes,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+Sundered Crag,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+House Lavender,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+The Obfuscated Bribe,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+Sightrock Keep,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+The Weird Rock,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+Amaranth Bourne,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+Mirror Woods,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+Cyclabrary,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+Amber Trade Fair,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+Undari's Tomb,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+Sunbridle Bay,xxBRIGHTDUNE,,,,,,,,,,,,,,,,
+The Throne Room,xxEMPIRE,,,,,,,,,,,,,,,,
+House of Copper,xxEMPIRE,,,,,,,,,,,,,,,,
+Guild of Scribes,xxEMPIRE,,,,,,,,,,,,,,,,
+Guilder Farms,xxEMPIRE,,,,,,,,,,,,,,,,
+Firstborn Peak,xxEMPIRE,,,,,,,,,,,,,,,,
+Dawncaves,xxEMPIRE,,,,,,,,,,,,,,,,
+Southkeep,xxEMPIRE,,,,,,,,,,,,,,,,
+Ma Bonnie's Squidery,xxEMPIRE,,,,,,,,,,,,,,,,
+Prominence,xxEMPIRE,,,,,,,,,,,,,,,,
+Guild of Strategy,xxEMPIRE,,,,,,,,,,,,,,,,
+Desolation,xxSETTLED,,,,,,,,,,,,,,,,
+Crow Manor,xxSETTLED,,,,,,,,,,,,,,,,
+Aren's Forge,xxSETTLED,,,,,,,,,,,,,,,,
+Dusk's Ayrie,xxSETTLED,,,,,,,,,,,,,,,,
+Animaelic Forest,xxSETTLED,,,,,,,,,,,,,,,,
+Beetle Burrough,xxSETTLED,,,,,,,,,,,,,,,,
+Hall of Brass,xxSETTLED,,,,,,,,,,,,,,,,
+Goldspike,xxSETTLED,,,,,,,,,,,,,,,,
+Brassport,xxSETTLED,,,,,,,,,,,,,,,,
+Shimmerhall,xxSETTLED,,,,,,,,,,,,,,,,
+Lower Wash,xxSETTLED,,,,,,,,,,,,,,,,
+Wrenhouse,xxSETTLED,,,,,,,,,,,,,,,,

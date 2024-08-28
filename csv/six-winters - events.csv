@@ -1,17 +1,3 @@
-season,triggers,title,effect,@weather_image
-xxWINTER,0,Mana Flows,Add xxSORCERY asset to each eldritch location.,..\images\events\darek_zabrocki_trek_to_festival.jpg
-xxWINTER,1,Snow Flurries,All characters in rural or wilderness locations take 1xxBODY.,..\images\events\winter_pass_cosmin_genete.jpg
-xxWINTER,2,Brutal Cold,All characters in rural or wilderness locations take 2xxBODY.,..\images\events\winter_lakes.jpg
-xxWINTER,3,Blizzard,Discard all units. All characters in rural or wilderness locations take 3xxBODY.,..\images\events\winter_blizzard.jpg
-xxSPRING,0,Trade Fair,Add xxTECHNOLOGY asset to each urban location.,..\images\events\market_mood_painting_by_arcipello.jpg
-xxSPRING,1,Tournament of the Autarch,Add xxESPIONAGE asset to each xxEMPIRE location.,..\images\events\armando-savoia-film-romeo-e-giulietta-1.jpg
-xxSPRING,2,Heavy Rains,Each player discards their lowest valued action die.,..\images\events\spring_mountains.jpg
-xxSPRING,3,Flooding,Clear xxDIPLOMACY resource pool.,..\images\events\spring_lightning_storm.jpg
-xxSUMMER,0,Traveling Weather,"Movement costs 1 less this turn, to a minimum of 1.",..\images\events\summer_landscape.jpg
-xxSUMMER,1,Long Days,Each player gains +1 action die.,..\images\events\summer_field.jpg
-xxSUMMER,2,Heat Wave,All characters in urban locations take 2xxBODY.,..\images\events\summer_red_sun.jpg
-xxSUMMER,3,Drought,Clear xxSTABILITY resource pool.,..\images\events\summer_drought_red.jpg
-xxFALL,0,Harvest Festivals,Add xxDIPLOMACY asset to each rural location.,..\images\events\trade_fair_mideast.jpg
-xxFALL,1,Bountiful Harvest,Add xxSTABILITY asset to each xxREDBANK location.,..\images\events\fall_farm_harvest.jpg
-xxFALL,2,Gathering Storm,"Draw and place an obstacle using lowest progress card, discard progress card.",..\images\events\fall_wheat.jpg
-xxFALL,3,Mana Backlash,Discard all foes in xxREDBANK. All characters in eldritch locations take 3xxPSYCHE.,..\images\events\david_ceballos_lopez_forest_daughter_birth.jpg
+name,tags,actiontext1,actiontext2,actiontext3,actiontext4,flavortext1,flavortext2,flavortext3,flavortext4
+Discord in Brightdune,Event,"If any Issues or Amber Hand obstacles are in play, place a xxTHREAT on a Brightdune urban location.",May burn (do not apply xxTHREAT effect) this card by immediately spending a total value of 9 xxSTABILITY from any locations.,"After resolving, draw another obstacle.",,The Autarch seeks to exploit the old hatreds. Those who feel the Amber Hand has no place in this society. Those who would not make everyone in Brightdune feel welcome.,"When we came here over the mountains, when we left the city, who saved us from the demons of smoke who became our tormentors?",It is easy to say that we are stronger when we work as one people. But the differences are real.,
+Alone Against the Empire,Event,Trade costs 2 xxMOVE.,"Place this card on the trade wheel as a reminder. At the end of the year, place event in obstacle discard.",May burn this card by spending a total value of 9 xxDIPLOMACY from any locations.,"After resolving, draw another obstacle.",The Subtect's lies reached the ears of Brightdune's allies.,"Zarrah received plans that Brightdune would move against Lily Manor, seizing their valuables.","Eliza heard persistent rumors that Brightdune was using ancient sorceries for diabolical ends, seeking an apotheosis of power.","And an agent whispered a dark secret into Pox Face's ear, that she would be taken hostage in the night."
