@@ -13,7 +13,6 @@ During the campaign, new characters and locations may be unlocked, transforming 
 * [Rules](docs/Six_Winters_Rules.pdf)
 * [Character Sheets](docs/Character_Sheet.pdf)
 * [Character Mats](docs/Character_Mats.pdf)
-* [Scenarios](docs/Scenarios.pdf)
 
 ## Where to Play
 

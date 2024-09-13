@@ -23,11 +23,15 @@ for subloc in ["tts", "game_crafter"]:
                     cardnum = '2'
                 else:
                     cardnum = str(int(cardnum[1:-4]) + 1)
-                move(files[0], full_path+'front\\'+base+'-1'+cardnum+'[face].png')
+                print(full_path+'front\\'+base[:-3]+'-1'+cardnum+'[face].png')
+                move(files[0], full_path+'front\\'+base[:-3]+'-1'+cardnum+'[face].png')
 
             files = glob.glob(full_path+'*-1'+str(i+1)+'.png')
             if files:
-                move(files[0], full_path+'back\\'+os.path.basename(files[0])[:-4]+'[back].png')
+                base, cardnum = os.path.basename(files[0]).split('-')
+                print(full_path+'back\\'+base[:-3]+'-'+cardnum[:-4]+'[back].png')
+                move(files[0], full_path+'back\\'+base[:-3]+'-'+cardnum[:-4]+'[back].png')
+                # move(files[0], full_path+'back\\'+os.path.basename(files[0])[:-4]+'[back].png')
 
 
 chars =  [1, 99]
