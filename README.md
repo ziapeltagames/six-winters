@@ -10,9 +10,7 @@ During the campaign, new characters and locations may be unlocked, transforming 
 
 # How to Play
 
-* [Rules](docs/Six_Winters_Rules.pdf)
-* [Character Sheets](docs/Character_Sheet.pdf)
-* [Character Mats](docs/Character_Mats.pdf)
+You can find the rules and character sheet on the [Six Winters](https://boardgamegeek.com/boardgame/382841/six-winters) boardgamegeek page.
 
 ## Where to Play
 
