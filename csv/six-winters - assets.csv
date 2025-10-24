@@ -1,97 +1,102 @@
-index,name,tags,points,indent_skill,skill,x1,y1,x2,y2,x3,y3,x4,y4,texteffect,@asset_image,artist,@skill_circle
-1,Whisper Drip,Potion. xxSTARTING,3,s,xxSHADOW,MMxxTHREEMM,xxESPIONAGE,OOxxTHREEOO,xxTECHNOLOGY,YYxxTHREEYY,xxSTABILITY,,,Exhaust: Roll and place a xxSORCERY at this location.,..\images\assets\whisper_drip_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
-2,Wound Paste,Gear. First Aid. xxSTARTING,1,s,xxSTEEL,OOxxTWOOO,xxTECHNOLOGY,GGxxBLANKGG,xxMILITARY,GGxxBLANKGG,xxMILITARY,,,Exhaust: All characters at location recover 1 xxBODY.,..\images\assets\wound_paste_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
-3,Yasmina,Companion. Keeper of Natural Lore.,3,s,xxLORE,BBxxSIXBB,xxSORCERY,BBxxTWOBB,xxSORCERY,,,,,Exhaust: Cancel one stress from xxSORCERY backlash at this location.,..\images\assets\yasmina_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
-4,Amber Wine,Food. Drug.,3,s,xxCHARM,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,,,,..\images\assets\amber_wine_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
-5,49 Feet of Greenleaf Rope,Gear. Plant. xxSTARTING,1,s,xxEDGE,OOxxBLANKOO,xxTECHNOLOGY,WWxxONEWW,xxRESOURCE,WWxxONEWW,xxRESOURCE,,,,..\images\assets\greenleaf_rope_extended.png,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
-6,Loomwood Apples,Food. Brightdune. xxSTARTING,1,s,xxCHARM,YYxxBLANKYY,xxRESOURCE,WWxxFOURWW,xxRESOURCE,,,,,Exhaust: All characters at location gain 1 xxAP.,..\images\assets\loomwood_apples_extended.png,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
-7,Imperial Lyra,Treasure. Instrument. xxSTARTING,2,s,xxCHARM,LLxxBLANKLL,xxDIPLOMACY,LLxxBLANKLL,xxDIPLOMACY,WWxxFOURWW,xxRESOURCE,,,,..\images\assets\imperial_lyra_extended.png,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
-8,Karani's Cart,Gear. Horse. xxSTARTING,1,,,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,Cart holds xxRESOURCExxRESOURCE. Spend 1xxAP to place xxRESOURCE onto cart. May freely move xxRESOURCE from cart to character's location.,..\images\ai_assets\karani_cart.tif,,
-9,Traveling Tent,Gear. Traveling. xxSTARTING,1,,,OOxxBLANKOO,xxTECHNOLOGY,YYxxBLANKYY,xxSTABILITY,WWxxTWOWW,xxRESOURCE,,,Exhaust: Spend 1xxTECHNOLOGY to give all characters at location 1xxINSIGHT.,..\images\ai_assets\traveling_tent.png,,
-10,Book of Pressed Leaves,Tome. Plant. xxSTARTING,2,,,YYxxBLANKYY,xxSTABILITY,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,,,Exhaust: Place a xxPROGRESS on a xxLORE obstacle at this location.,..\images\ai_assets\book_of_pressed_leaves.png,,
-11,Tarnished Silver Fork,Gear. Poor Quality. xxSTARTING,1,,,LLxxBLANKLL,xxDIPLOMACY,,,,,,,,..\images\ai_assets\tarnished_fork.png,,
-12,Thieves' Tools,Gear. Thief. xxSTARTING,2,s,xxEDGE,OOxxBLANKOO,xxTECHNOLOGY,OOxxBLANKOO,xxTECHNOLOGY,MMxxBLANKMM,xxESPIONAGE,,,Exhaust: Place a xxPROGRESS on an xxEDGE obstacle at this location.,..\images\ai_assets\thieves_tools.tif,,..\images\assets\skill_circle.tif
-13,Stoutleaf Blade Polish,Potion. xxSTARTING,2,s,xxSTEEL,GGxxBLANKGG,xxMILITARY,WWxxTWOWW,xxRESOURCE,WWxxTWOWW,xxRESOURCE,,,,..\images\ai_assets\stoutleaf_polish.tif,,..\images\assets\skill_circle.tif
-14,Zarrah's Charm,Treasure. Jewelry. xxSTARTING,2,s,xxSHADOW,LLxxBLANKLL,xxDIPLOMACY,WWxxTHREEWW,xxRESOURCE,,,,,Exhaust: Spend 2 xxAP to draw an xxABILITY card.,..\images\ai_assets\zarrahs_charm.tif,,..\images\assets\skill_circle.tif
-15,Pasha Touran the Scribe,Companion. Translator. xxSTARTING,1,s,xxCOMMAND,LLxxBLANKLL,xxDIPLOMACY,LLxxBLANKLL,xxDIPLOMACY,YYxxFIVEYY,xxSTABILITY,,,Exhaust: Trade a xxDIPLOMACY for a xxSTABILITY of the same value.,..\images\ai_assets\pasha.tif,,..\images\assets\skill_circle.tif
-16,Bracers of the Amber Hand,Treasure. Amber Hand. xxSTARTING,3,s,xxCOMMAND,GGxxFIVEGG,xxMILITARY,GGxxFIVEGG,xxMILITARY,LLxxBLANKLL,xxDIPLOMACY,YYxxBLANKYY,xxSTABILITY,,..\images\ai_assets\bracers_amber_hand.tif,,..\images\assets\skill_circle.tif
-17,Radiant Fernbrake,Plant. Psychedelic. xxSTARTING,1,s,xxLORE,WWxxBLANKWW,xxRESOURCE,WWxxSIXWW,xxRESOURCE,,,,,,..\images\ai_assets\radiant_fernbrake.png,,..\images\assets\skill_circle.tif
-18,Windillipus Featherton,Animal Companion. xxSTARTING,1,s,xxLORE,YYxxBLANKYY,xxSTABILITY,LLxxSIXLL,xxDIPLOMACY,WWxxSIXWW,xxRESOURCE,,,Exhaust: Gain 1 xxMOVE.,..\images\ai_assets\windillipus.tif,,..\images\assets\skill_circle.tif
-19,Imperial Codebook,Secrets. Empire.,2,s,xxEDGE,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,MMxxBLANKMM,xxESPIONAGE,,,,..\images\ai_assets\imperial_codebook.tif,,..\images\assets\skill_circle.tif
-20,Pox Face,Diplomat. Amber Hand.,3,s,xxEDGE,LLxxSIXLL,xxDIPLOMACY,WWxxFOURWW,xxRESOURCE,WWxxONEWW,xxRESOURCE,WWxxONEWW,xxRESOURCE,Exhaust: Move a Companion or Diplomat from xxASSET staging area to in-progress area.,..\images\ai_assets\pox_face2.png,,..\images\assets\skill_circle.tif
-21,Starsalt,Drug. Psychedelic,2,s,xxEDGE,LLxxBLANKLL,xxDIPLOMACY,MMxxBLANKMM,xxESPIONAGE,BBxxBLANKBB,xxSORCERY,,,Exhaust: Lose 1 xxPSYCHE to gain 1 xxINSIGHT.,..\images\ai_assets\starsalt.png,,..\images\assets\skill_circle.tif
-22,Mask of the Frenzied Beast,Armor. Draconic.,2,s,xxSTEEL,BBxxTWOBB,xxSORCERY,BBxxTWOBB,xxSORCERY,BBxxTHREEBB,xxSORCERY,,,Exhaust: Lose 1 xxPSYCHE to ignore all xxBODY dice during an overcome action.,..\images\ai_assets\frenzied_beast.tif,,..\images\assets\skill_circle.tif
-23,Garraveen,Animal Companion. Horse.,1,s,xxSTEEL,LLxxBLANKLL,xxDIPLOMACY,OOxxBLANKOO,xxTECHNOLOGY,GGxxTWOGG,xxMILITARY,GGxxTWOGG,xxMILITARY,Exhaust: Place a xxPROGRESS on a xxSTEEL obstacle at this location.,..\images\ai_assets\garraveen.tif,,..\images\assets\skill_circle.tif
-24,Dragon of the Critical Word,Companion. Draconic.,3,s,xxSTEEL,MMxxTHREEMM,xxESPIONAGE,MMxxTHREEMM,xxESPIONAGE,YYxxFIVEYY,xxSTABILITY,LLxxBLANKLL,xxDIPLOMACY,Exhaust: Lose 2 xxPSYCHE to discard any Foe.,..\images\ai_assets\critical_word.png,,..\images\assets\skill_circle.tif
-25,The Icon of Channeling,Weapon. The Weave.,4,s,xxSTEEL,MMxxTWOMM,xxESPIONAGE,MMxxTWOMM,xxESPIONAGE,BBxxTWOBB,xxSORCERY,BBxxSIXBB,xxSORCERY,Exhaust: Convert all xxHINDRANCE to xxPROGRESS on a xxLORE obstacle at this location.,"..\images\ai_assets\painting of large fantasy crowssbow for dungeons and dragons, in the style of hannes bok and kieran yanner 56 51260.tif",,..\images\assets\skill_circle.tif
-26,Zeno the Squidmonger,Companion. Empire. Spy.,2,s,xxSHADOW,MMxxONEMM,xxESPIONAGE,MMxxTWOMM,xxESPIONAGE,MMxxTHREEMM,xxESPIONAGE,,,Exhaust: Place a xxPROGRESS on a spy or guard at this location.,..\images\ai_assets\zeno_squidmonger.png,,..\images\assets\skill_circle.tif
-27,Master of Coin,Diplomat. Empire. Spy.,3,s,xxSHADOW,MMxxFOURMM,xxESPIONAGE,MMxxFOURMM,xxESPIONAGE,OOxxFIVEOO,xxTECHNOLOGY,OOxxFIVEOO,xxTECHNOLOGY,"Exhaust: If at an xxEMPIRE location, draw an xxABILITY card.","..\images\ai_assets\painting of wizard familiar for dungeons and dragons, in the style of artgerm and danny flynn 80 175562.png",,..\images\assets\skill_circle.tif
-28,Zarrah's Connections,Diplomat. Lily Manor.,4,s,xxSHADOW,LLxxFOURLL,xxDIPLOMACY,MMxxFOURMM,xxESPIONAGE,BBxxFOURBB,xxSORCERY,BBxxFIVEBB,xxSORCERY,Exhaust: Spend 2 xxDIPLOMACY to discard any Diplomat obstacle.,..\images\ai_assets\zarrah.png,,..\images\assets\skill_circle.tif
-29,Ilko the General,Companion. General.,3,s,xxCOMMAND,GGxxBLANKGG,xxMILITARY,GGxxBLANKGG,xxMILITARY,OOxxTWOOO,xxTECHNOLOGY,WWxxTHREEWW,xxRESOURCE,Exhaust: Trade a xxMILITARY of value xxFIVE for 2 xxMILITARY of value xxTHREE.,..\images\ai_assets\ilko.tif,,..\images\assets\skill_circle.tif
-30,Mirror of Melting,Gear. Weapon.,3,s,xxCOMMAND,OOxxONEOO,xxTECHNOLOGY,OOxxONEOO,xxTECHNOLOGY,GGxxTHREEGG,xxMILITARY,MMxxTHREEMM,xxESPIONAGE,Exhaust: Roll stress dice before allocating xxDEFENSE when overcoming a Unit.,..\images\ai_assets\mirror_melting.png,,..\images\assets\skill_circle.tif
-31,Brightdune Carpet,Rug. Brightdune. Legacy.,3,s,xxCOMMAND,YYxxFIVEYY,xxSTABILITY,YYxxFIVEYY,xxSTABILITY,YYxxFIVEYY,xxSTABILITY,YYxxFIVEYY,xxSTABILITY,,..\images\ai_assets\brightdune_carpet.png,,..\images\assets\skill_circle.tif
-32,Songs of Loomwood,Poetry. History. Music.,3,s,xxCHARM,YYxxFOURYY,xxSTABILITY,YYxxFIVEYY,xxSTABILITY,YYxxSIXYY,xxSTABILITY,LLxxBLANKLL,xxDIPLOMACY,,..\images\ai_assets\songs_loomwood.png,,..\images\assets\skill_circle.tif
-33,Hogel's Favor,Diplomat. Sunriders.,3,s,xxCHARM,LLxxFOURLL,xxDIPLOMACY,LLxxFOURLL,xxDIPLOMACY,LLxxFOURLL,xxDIPLOMACY,,,Exhaust: Convert all xxHINDRANCE to xxPROGRESS on a xxCHARM obstacle at this location.,..\images\ai_assets\hogel.png,,..\images\assets\skill_circle.tif
-34,Pin of the Plum,Treasure. Crime Network.,2,s,xxCHARM,YYxxONEYY,xxSTABILITY,BBxxTWOBB,xxSORCERY,LLxxFOURLL,xxDIPLOMACY,LLxxFOURLL,xxDIPLOMACY,Exhaust: Move to any Tavern.,..\images\ai_assets\plum_pin2.png,,..\images\assets\skill_circle.tif
-35,Pearlescent Lotus,Drug. Psychedelic. Plant.,3,s,xxLORE,BBxxSIXBB,xxSORCERY,BBxxTWOBB,xxSORCERY,LLxxSIXLL,xxDIPLOMACY,YYxxFIVEYY,xxSTABILITY,Exhaust: Lose 1 xxBODY to place xxPROGRESSxxPROGRESS on a xxLORE obstacle at this location.,..\images\ai_assets\pearlescent_lotus.tif,,..\images\assets\skill_circle.tif
-36,Thedda's Palimpsest,Tome. Ancient. The Weave.,3,s,xxLORE,BBxxSIXBB,xxSORCERY,BBxxFIVEBB,xxSORCERY,BBxxFOURBB,xxSORCERY,,,"Gain an extra xxINSIGHT during refresh phase. If any xxINSIGHT roll a xxSIX, lose 1 xxPSYCHE.",..\images\ai_assets\theddas_palimpsest.tif,,..\images\assets\skill_circle.tif
-37,Dragon of the Frozen Voice,Companion. Draconic.,3,s,xxLORE,BBxxTWOBB,xxSORCERY,MMxxTWOMM,xxESPIONAGE,YYxxONEYY,xxSTABILITY,BBxxBLANKBB,xxSORCERY,Exhaust: Place a xxPROGRESS on an Issue at this location.,..\images\ai_assets\frozen_voice.png,,..\images\assets\skill_circle.tif
-38,The Uncut String,Fates. The Weave.,2,s,xxLORE,BBxxSIXBB,xxSORCERY,BBxxSIXBB,xxSORCERY,YYxxFOURYY,xxSTABILITY,WWxxSIXWW,xxRESOURCE,"Exhaust: After rolling for a condition, may set one die to any value.",..\images\ai_assets\uncut_string.png,,..\images\assets\skill_circle.tif
-39,Griddle Bok the Transmuter,Sorcerer,6,s,xxLORE,WWxxBLANKWW,,,,BBxxBLANKBB,,,,,"..\images\ai_assets\painting of wizard familiar for dungeons and dragons, in the style of artgerm and danny flynn 80 175562.png",,..\images\assets\skill_circle.tif
-40,Jugglepuff,Sorcery. Animal Companion,8,s,xxLORE,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of cat familiar for dungeons and dragons, in the style of tony diterlizzi and charlie bowater 92 198731.tif",,..\images\assets\skill_circle.tif
-41,Baron Barksalot,Animal Companion,5,s,xxSTEEL,WWxxBLANKWW,,,,GGxxBLANKGG,,,,,"..\images\ai_assets\painting of dog companion for dungeons and dragons, in the style of ciruelo cabral and daniel horne 77 33794.png",,..\images\assets\skill_circle.tif
-42,Aren's Platemail,Armor,6,s,xxSTEEL,GGxxBLANKGG,,,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of fantasy armor for dungeons and dragons, in the style of kieran yanner and john jude palencar 67 118548.png",,..\images\assets\skill_circle.tif
-43,Aren's Shield,Armor,4,s,xxSTEEL,GGxxBLANKGG,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of shield for dungeons and dragons, in the style of stephanie pui-mun law and alan lee 94 44345.tif",,..\images\assets\skill_circle.tif
-44,Imperial Sword,Weapon,13,s,xxSTEEL,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of sharp fantasy sword, in the style of ciruelo cabral and jeff easley 73 146988.tif",,..\images\assets\skill_circle.tif
-45,Dragonfly Sticks,"Magical Gear, xxWINTER",15,s,xxSURVIVAL,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of large fantasy crowssbow for dungeons and dragons, in the style of charlie bowater and jim warren 50 178306.tif",,..\images\assets\skill_circle.tif
-46,Xeph Stronghand the Porter,"Hireling, xxWINTERxxWINTER",4,s,xxSURVIVAL,LLxxBLANKLL,,LLxxBLANKLL,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of scribe hireling for dugeons and dragons, in the style of william-adolphe bouguereau and brom and charlie bowater 59 27534.tif",,..\images\assets\skill_circle.tif
-47,Artificer's Gear,"Gear, xxWINTER",5,s,xxEDGE,OOxxBLANKOO,,OOxxBLANKOO,,,,,,,"..\images\ai_assets\drawing of thieves tools for dungeons and dragons, in the style of charlie bowater and john blanche and nixeu 150 16904.png",,..\images\assets\skill_circle.tif
-48,Universal Key,"Gear, xxWINTERxxWINTER",17,s,xxEDGE,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of a fantasy grappling hook for dungeons and dragons, in the style of nixeu and kieran yanner and tony diterlizzi 71 156613.tif",,..\images\assets\skill_circle.tif
-49,Gravewood Ale,"Food, xxWINTER",10,s,xxCHARM,LLxxBLANKLL,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of mug of ale in medieval tavern, in the style of alan lee and tuomas korpi and charlie bowater 53 170999.tif",,..\images\assets\skill_circle.tif
-50,Shadow Walk,"Spell, xxWINTER",18,s,xxSHADOW,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,"..\images\ai_assets\painting of an arcane trickster walking to a magical portal for dungeons and dragons, in the style of mahmud asrar 86 9585.png",,..\images\assets\skill_circle.tif
-51,Birdshape,"Shapechange Spell, xxWINTER",13,s,xxSHADOW,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of baklava dessert, in the style of  and n. c. wyeth and brom and wayne reynolds 7_17 65 2431.tif",,..\images\assets\skill_circle.tif
-52,Zarah's Mask,"Treasure, xxWINTERxxWINTER",6,s,xxSHADOW,WWxxBLANKWW,,WWxxBLANKWW,,YYxxBLANKYY,,,,,"..\images\ai_assets\painting of fantasy costume ball mask for dungeons and dragons, in the style of alphonse mucha and danny flynn and wayne barlow 64 56006.tif",,..\images\assets\skill_circle.tif
-53,Dream Moth,"Eldritch, xxWINTERxxWINTER",4,s,xxCOMMAND,LLxxBLANKLL,,,,BBxxBLANKBB,,,,,"..\images\ai_assets\painting of mysterious message using magical ink, in the style of stephanie pui-mun law 69 159248.tif",,..\images\assets\skill_circle.tif
-54,Aura of Glimmering Respect,"Spell, xxWINTERxxWINTER",6,s,xxCOMMAND,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,"..\images\ai_assets\painting of fantasy spell turning lead into gold, in the style of charlie bowater 72 23112.tif",,..\images\assets\skill_circle.tif
-55,Sunriders,"Unit, xxWINTER",5,s,xxTACTICS,GGxxBLANKGG,,LLxxBLANKLL,,YYxxBLANKYY,,,,,"..\images\ai_assets\painting of fantasy mongolian armor, in the style of wayne reynolds and alan lee 60 98140.tif",,..\images\assets\skill_circle.tif
-56,Cannon,Unit,13,s,xxTACTICS,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of medieval cannons for dungeons and dragons, in the style of stephanie pui-mun law and todd lockwood 99 125645.tif",,..\images\assets\skill_circle.tif
-57,Imperial Captain's Regalia,Armor,9,s,xxSHADOW,WWxxBLANKWW,,,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of fantasy roman armor, in the style of tuomas korpi and wayne reynolds and frank frazetta 62 171040.tif",,..\images\assets\skill_circle.tif
-58,Spice of Thirst,Drug,4,s,xxSURVIVAL,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of a fantasy ranger in a cloak sitting on a rock smoking a pipe with gray smoke rings coming out of it, in the style of artgerm 9_69 114 145699.png",,..\images\assets\skill_circle.tif
-59,Forest Folio,Eldritch,3,s,xxLORE,BBxxBLANKBB,,,,BBxxBLANKBB,,,,,,,..\images\assets\skill_circle.tif
-60,Shelly the Flying Turtle,Familiar,8,s,xxSURVIVAL,WWxxBLANKWW,,WWxxBLANKWW,,LLxxBLANKLL,,,,"Shelley has an independent xxMOVEMENT of 2. During refresh, may swap places with Shelley.","..\images\ai_assets\painting of turtle familiar for dungeons and dragons, in the style of tuomas korpi and ned rogers and charlie bowater 97 121747.tif",,..\images\assets\skill_circle.tif
-61,Love Letter,Favor,5,s,xxCHARM,WWxxBLANKWW,,WWxxBLANKWW,,,,,,xxPLAY on another character or diplomat to gain the IN LOVE WITH reserve action.,"..\images\ai_assets\painting of fantasy medieval love letter, in the style of frank frazetta and clyde caldwell and brom 68 119535.tif",,..\images\assets\skill_circle.tif
-62,Baklava,Food,3,s,xxCHARM,YYxxBLANKYY,,,,WWxxBLANKWW,,,,xxPLAY: recover one xxBODY. May not increase die past xxSIX.,..\images\ai_assets\painting of baklava desserterol otus and arthur rackham and artgerm 9_42 110 186626.tif,,..\images\assets\skill_circle.tif
-63,Frostcloak,Gear,3,s,xxSURVIVAL,OOxxBLANKOO,,,,MMxxBLANKMM,,,,,"..\images\ai_assets\painting of dark cloak, in the style of charlie bowater and doug kovacs and john blanche 53 97096.tif",,..\images\assets\skill_circle.tif
-64,Traveling Gear,Gear,3,s,xxSURVIVAL,WWxxBLANKWW,,OOxxBLANKOO,,,,,,,"..\images\ai_assets\painting of wineskin for dungeons and dragons, in the style of erol otus 92 77263.tif",,..\images\assets\skill_circle.tif
-65,Iron Spikes,Gear,3,s,xxEDGE,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of arrows sitting on a medieval table, in the style of todd lockwood and keith parkinson and larry elmore 71 60061.tif",,..\images\assets\skill_circle.tif
-,Travel Pack,Gear,3,s,xxSURVIVAL,WWxxBLANKWW,,,,OOxxBLANKOO,,,,May transport xxRESOURCE die.,"..\images\ai_assets\painting of burlap sack for dungeons and dragons, in the style of ian miller 95 33922.tif",,..\images\assets\skill_circle.tif
-,Ilya the Captain,Hireling,7,s,xxSHADOW,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,Costs 1 xxMOVE to move between xxPORT locations.,"..\images\ai_assets\painting of mysterious message using magical ink, in the style of clyde caldwell and artgerm 74 103530.tif",,..\images\assets\skill_circle.tif
-,Viator the Courtier,Hireling,9,s,xxCHARM,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of fantasy costume ball mask for dungeons and dragons, in the style of arthur rackham and daniel horne 74 140619.tif",,..\images\assets\skill_circle.tif
-,Tanwa the Geometer,Hireling,5,s,xxLORE,WWxxBLANKWW,,,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
-,Forest Yoga,Hireling,4,s,xxSURVIVAL,WWxxBLANKWW,,,,WWxxBLANKWW,,,,xxPLAY: recover 2 xxPSYCHE. May not increase die past xxSIX.,"..\images\ai_assets\painting of scribe hireling for dugeons and dragons, in the style of clyde caldwell 56 96586.tif",,..\images\assets\skill_circle.tif
-,Riding Horse,Horse,3,s,xxSURVIVAL,WWxxBLANKWW,,,,WWxxBLANKWW,,,,,"..\images\ai_assets\fantasy painting of warhorse standing in field, in the style of larry elmore and mahmud asrar and brom 54 48015.tif",,..\images\assets\skill_circle.tif
-,Undari's Map,Map,8,s,xxLORE,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,xxPLAY at any Eldritch location to add Eldritch location to xxBRIGHTDUNE or xxSETTLED.,,,..\images\assets\skill_circle.tif
-,Ley Line Map,Map,9,s,xxEDGE,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,xxPLAY at any xxSETTLED Wilderness location to add Wilderness location to xxSETTLED.,"..\images\ai_assets\painting of fantasy map, in the style of erol otus and arthur rackham and tony diterlizzi 72 195332.tif",,..\images\assets\skill_circle.tif
-,Gurgle Gut,Potion,4,s,xxCOMMAND,WWxxBLANKWW,,,,WWxxBLANKWW,,,,xxPLAY: discard one diplomat at this location.,,,..\images\assets\skill_circle.tif
-,Eliza's Mirror,Spell,5,s,xxLORE,WWxxBLANKWW,,,,WWxxBLANKWW,,,,"During Refresh, take 2 xxBODY. xxUPGRADE costs one less die.",..\images\ai_assets\painting of a magical tome with a skull on it in the style of alphonse mucha and wayne reynolds and charlie bowater 9_34 12903.png,,..\images\assets\skill_circle.tif
-,Sparrow Talk,Spell,5,s,xxLORE,,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of large fantasy crowssbow for dungeons and dragons, in the style of erol otus and jim warren and tony diterlizzi 69 168199.tif",,..\images\assets\skill_circle.tif
-,Portrait of the First Queen,Treasure,3,s,xxSHADOW,LLxxBLANKLL,,,,LLxxBLANKLL,,,,,"..\images\ai_assets\painting of fantasy silver necklace with persian design, in the style of john jude palencar and william-adolphe bouguereau and greg hildebrandt 57 55587.tif",,..\images\assets\skill_circle.tif
-,Clockwork Dragonfly,Treasure,7,s,xxLORE,WWxxBLANKWW,,,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of fantasy dragonfly for dungeons and dragons, in the style of john jude palencar 72 21036.tif",,..\images\assets\skill_circle.tif
-,Noble Dress,Treasure,6,s,xxCHARM,WWxxBLANKWW,,,,MMxxBLANKMM,,,,,"..\images\ai_assets\painting of fantasy costume ball dress for dungeons and dragons, in the style of greg rukowski and artgerm and john jude palencar 86 151771.tif",,..\images\assets\skill_circle.tif
-,Stones of the North River,Treasure,3,s,xxCOMMAND,,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of burlap sack for dungeons and dragons, in the style of john jude palencar and kinuko y. craft and mahmud asrar 98 199304.tif",,..\images\assets\skill_circle.tif
-,Battle Cat,Unit,9,s,xxTACTICS,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,"..\images\ai_assets\painting of flint and steel for dungeons and dragons, in the style of wayne reynolds and erol otus and clyde caldwell 90 161908.tif",,..\images\assets\skill_circle.tif
-,Henna,,,,,,,,,,,,,,,,
-,Daf,,,,,,,,,,,,,,,,
-,Bread Bowl,,,,,,,,,,,,,,,,
-,One and a Half Bricks,,,,,,,,,,,,,,,,
-,Pickle Barrel,,,,,,,,,,,,,,,,
-,Canoe,,,,,,,,,,,,,,,,
-,Book-Pressed Leaves,,,,,,,,,,,,,,,,
-,Canvas Sheet,,,,,,,,,,,,,,,,
-,Flower Pot,,,,,,,,,,,,,,,,
-,Insect Collection,,,,,,,,,,,,,,,,
-,Scorpion-Tail's Venom,,,,,,,,,,,,,,,,
-,Bent Fork,,,,,,,,,,,,,,,,
-,Wig,,,,,,,,,,,,,,,,
-,Sleeping Powder,,,,,,,,,,,,,,,,
-,Basket of Arrows,Counting the War Dead,,,,,,,,,,,,,,,
+index,name,tags,points,skill,x1,y1,x2,y2,x3,y3,x4,y4,texteffect,@asset_image,artist,@skill_circle
+1,Whisper Drip,Potion. xxSTARTING,3,xxSHADOW,MMxxTHREEMM,xxESPIONAGE,OOxxTHREEOO,xxTECHNOLOGY,YYxxTHREEYY,xxSTABILITY,,,Exhaust: Roll and place a xxMAGIC at this location.,..\images\assets\whisper_drip_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+2,Wound Paste,Gear. First Aid. xxSTARTING,1,xxSTEEL,OOxxTWOOO,xxTECHNOLOGY,GGxxBLANKGG,xxMILITARY,GGxxBLANKGG,xxMILITARY,,,Exhaust: All characters at location recover 1 xxBODY.,..\images\assets\wound_paste_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+3,49 Feet of Greenleaf Rope,Gear. Plant. xxSTARTING,1,xxEDGE,OOxxBLANKOO,xxTECHNOLOGY,WWxxONEWW,xxRESOURCE,WWxxONEWW,xxRESOURCE,,,,..\images\assets\greenleaf_rope_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+4,Loomwood Apples,Food. Brightdune. xxSTARTING,1,xxCHARM,YYxxBLANKYY,xxRESOURCE,WWxxFOURWW,xxRESOURCE,,,,,Exhaust: All characters at location gain 1 xxAP.,..\images\assets\loomwood_apples_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+5,Imperial Lyra,Treasure. Instrument. xxSTARTING,2,xxCHARM,LLxxBLANKLL,xxDIPLOMACY,,,LLxxBLANKLL,xxDIPLOMACY,WWxxFOURWW,xxRESOURCE,,..\images\assets\imperial_lyra_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+6,Wobbly Naz,Creature. Camel. xxSTARTING,1,,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,Holds xxRESOURCExxRESOURCE. Spend 1xxAP to place xxRESOURCE onto camel. May freely move xxRESOURCE from camel to character's location.,..\images\ai_assets\wobbly_naz.tif,,
+7,Traveling Tent,Gear. Traveling. xxSTARTING,1,,OOxxBLANKOO,xxTECHNOLOGY,YYxxBLANKYY,xxSTABILITY,WWxxTWOWW,xxRESOURCE,,,Exhaust: Spend a xxTECHNOLOGY at this location to give all characters at location 1xxINITIATIVE.,..\images\ai_assets\traveling_tent.tif,,
+8,Book of Pressed Leaves,Tome. Plant. xxSTARTING,2,,YYxxBLANKYY,xxSTABILITY,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,,,Exhaust: Place a xxPROGRESS on a xxLORE obstacle at this location.,..\images\assets\pressed_leaves_extended.tif,xxBRUSH Emma Chudoba,
+9,Tarnished Silver Fork,Gear. Poor Quality. xxSTARTING,1,,LLxxBLANKLL,xxDIPLOMACY,,,,,,,,..\images\assets\fork_extended.tif,xxBRUSH Emma Chudoba,
+10,Thieves' Tools,Gear. Thief. xxSTARTING,2,xxEDGE,OOxxBLANKOO,xxTECHNOLOGY,OOxxBLANKOO,xxTECHNOLOGY,MMxxBLANKMM,xxESPIONAGE,,,Exhaust: Place a xxPROGRESS on an xxEDGE obstacle at this location.,..\images\ai_assets\thieves_tools.tif,,..\images\assets\skill_circle.tif
+11,Stoutleaf Blade Polish,Potion. xxSTARTING,2,xxSTEEL,GGxxBLANKGG,xxMILITARY,WWxxTWOWW,xxRESOURCE,WWxxTWOWW,xxRESOURCE,,,Exhaust: Place a xxPROGRESS on any Foe obstacle at this location.,..\images\ai_assets\stoutleaf_polish.tif,,..\images\assets\skill_circle.tif
+12,Zarrah's Charm,Treasure. Jewelry. xxSTARTING,2,xxSHADOW,LLxxBLANKLL,xxDIPLOMACY,WWxxTHREEWW,xxRESOURCE,,,,,Exhaust: Spend 2 xxAP to refresh an xxABILITY card.,..\images\assets\zarrahs_charm_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+13,Azadeh,Companion. Translator. xxSTARTING,1,xxCOMMAND,LLxxBLANKLL,xxDIPLOMACY,LLxxBLANKLL,xxDIPLOMACY,YYxxFIVEYY,xxSTABILITY,,,Exhaust: Trade a xxDIPLOMACY at this location for xxSTABILITY of same value.,..\images\ai_assets\pasha.tif,,..\images\assets\skill_circle.tif
+14,Bracers of the Amber Hand,Treasure. Amber Hand. xxSTARTING,3,xxCOMMAND,GGxxFIVEGG,xxMILITARY,GGxxFIVEGG,xxMILITARY,LLxxBLANKLL,xxDIPLOMACY,YYxxBLANKYY,xxSTABILITY,,..\images\ai_assets\bracers_amber_hand.tif,,..\images\assets\skill_circle.tif
+15,Radiant Fernbrake,Plant. Psychedelic. xxSTARTING,1,xxLORE,WWxxBLANKWW,xxRESOURCE,WWxxSIXWW,xxRESOURCE,,,,,,..\images\assets\fernbrake_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+16,Windillipus Featherton,Creature. Bird. xxSTARTING,1,xxLORE,YYxxBLANKYY,xxSTABILITY,LLxxSIXLL,xxDIPLOMACY,WWxxSIXWW,xxRESOURCE,,,Exhaust: Gain 1 xxMOVE.,..\images\ai_assets\windillipus.tif,,..\images\assets\skill_circle.tif
+17,Yasmina,Companion. Keeper of Natural Lore.,3,xxLORE,BBxxSIXBB,xxMAGIC,BBxxTWOBB,xxMAGIC,,,,,Exhaust: Cancel one stress from xxMAGIC backlash at this location.,..\images\assets\yasmina_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+18,Amber Wine,Food. Drug.,3,xxCHARM,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,,,,..\images\assets\amber_wine_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+19,Imperial Codebook,Secrets. Empire.,2,xxEDGE,WWxxBLANKWW,xxRESOURCE,WWxxBLANKWW,xxRESOURCE,MMxxBLANKMM,xxESPIONAGE,,,,..\images\ai_assets\imperial_codebook.tif,,..\images\assets\skill_circle.tif
+20,Pox Face,Diplomat. Sunriders.,3,xxEDGE,LLxxSIXLL,xxDIPLOMACY,WWxxFOURWW,xxRESOURCE,WWxxONEWW,xxRESOURCE,WWxxONEWW,xxRESOURCE,Exhaust: Move a Companion or Diplomat from xxASSET staging area to crafting area.,..\images\assets\pox_face_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+21,Mad Honey,Drug. Psychedelic,2,xxEDGE,LLxxBLANKLL,xxDIPLOMACY,MMxxBLANKMM,xxESPIONAGE,BBxxBLANKBB,xxMAGIC,,,Exhaust: Lose 1 xxPSYCHE to gain 1 xxINITIATIVE.,..\images\assets\mad_honey_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+22,Mask of the Frenzied Beast,Armor. Draconic.,2,xxSTEEL,BBxxTWOBB,xxMAGIC,BBxxTWOBB,xxMAGIC,BBxxTHREEBB,xxMAGIC,,,Exhaust: Lose 1 xxPSYCHE to ignore all xxBODY dice during an overcome action.,..\images\ai_assets\frenzied_beast.tif,,..\images\assets\skill_circle.tif
+23,Murjan,Creature. Horse.,1,xxSTEEL,LLxxBLANKLL,xxDIPLOMACY,OOxxBLANKOO,xxTECHNOLOGY,GGxxTWOGG,xxMILITARY,GGxxTWOGG,xxMILITARY,Exhaust: Place a xxPROGRESS on a xxSTEEL obstacle at this location.,..\images\ai_assets\murjan.tif,,..\images\assets\skill_circle.tif
+24,Dragon of the Critical Word,Creature. Draconic.,3,xxSTEEL,MMxxTHREEMM,xxESPIONAGE,MMxxTHREEMM,xxESPIONAGE,YYxxFIVEYY,xxSTABILITY,LLxxBLANKLL,xxDIPLOMACY,Exhaust: Lose 2 xxPSYCHE to discard any Foe in play (from any location).,..\images\ai_assets\critical_word.tif,,..\images\assets\skill_circle.tif
+25,The Icon of Channeling,Weapon. The Weave.,4,xxSTEEL,MMxxTWOMM,xxESPIONAGE,MMxxTWOMM,xxESPIONAGE,BBxxTWOBB,xxMAGIC,BBxxSIXBB,xxMAGIC,Exhaust: Convert all xxHINDRANCE to xxPROGRESS on a xxLORE obstacle at this location.,..\images\ai_assets\icon_channeling.tif,,..\images\assets\skill_circle.tif
+26,Zeno the Squidmonger,Companion. Empire. Spy.,2,xxSHADOW,MMxxONEMM,xxESPIONAGE,MMxxTWOMM,xxESPIONAGE,MMxxTHREEMM,xxESPIONAGE,,,Exhaust: Place a xxPROGRESS on a Spy or Guard at this location.,..\images\assets\zeno_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+27,Master of Coin,Diplomat. Empire. Spy.,3,xxSHADOW,MMxxFOURMM,xxESPIONAGE,MMxxFOURMM,xxESPIONAGE,OOxxFIVEOO,xxTECHNOLOGY,OOxxFIVEOO,xxTECHNOLOGY,"Exhaust: If at an xxEMPIRE location, draw an xxABILITY card.",..\images\ai_assets\master_of_coin.tif,,..\images\assets\skill_circle.tif
+28,Zarrah,Diplomat. Lily Manor.,4,xxSHADOW,LLxxFOURLL,xxDIPLOMACY,MMxxFOURMM,xxESPIONAGE,BBxxFOURBB,xxMAGIC,BBxxFIVEBB,xxMAGIC,Exhaust: Spend 2 xxDIPLOMACY at this location to discard any Diplomat in play (from any location).,..\images\assets\zarrah_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+29,Delir,Companion. General.,3,xxCOMMAND,GGxxBLANKGG,xxMILITARY,GGxxBLANKGG,xxMILITARY,OOxxTWOOO,xxTECHNOLOGY,WWxxTHREEWW,xxRESOURCE,Exhaust: Trade a xxMILITARY at this location of value xxFIVE for 2 xxMILITARY each with value xxTHREE.,..\images\ai_assets\ilko.tif,,..\images\assets\skill_circle.tif
+30,Mirror of Melting,Gear. Weapon.,3,xxCOMMAND,OOxxONEOO,xxTECHNOLOGY,OOxxONEOO,xxTECHNOLOGY,GGxxTHREEGG,xxMILITARY,MMxxTHREEMM,xxESPIONAGE,Exhaust: Roll stress dice before allocating xxDEFENSE when overcoming a Unit.,..\images\ai_assets\mirror_melting.tif,,..\images\assets\skill_circle.tif
+31,Brightdune Carpet,Rug. Brightdune. Legacy.,3,xxCOMMAND,YYxxFIVEYY,xxSTABILITY,YYxxFIVEYY,xxSTABILITY,YYxxFIVEYY,xxSTABILITY,YYxxFIVEYY,xxSTABILITY,,..\images\ai_assets\brightdune_carpet.tif,,..\images\assets\skill_circle.tif
+32,Songs of Loomwood,Poetry. History. Music.,3,xxCHARM,YYxxFOURYY,xxSTABILITY,YYxxFIVEYY,xxSTABILITY,YYxxSIXYY,xxSTABILITY,LLxxBLANKLL,xxDIPLOMACY,,..\images\ai_assets\songs_loomwood.tif,,..\images\assets\skill_circle.tif
+33,Hogel,Diplomat. Sunriders.,3,xxCHARM,LLxxFOURLL,xxDIPLOMACY,LLxxFOURLL,xxDIPLOMACY,LLxxFOURLL,xxDIPLOMACY,,,Exhaust: Convert all xxHINDRANCE to xxPROGRESS on a xxCHARM obstacle at this location.,..\images\ai_assets\hogel.tif,,..\images\assets\skill_circle.tif
+34,Pin of the Plum,Treasure. Crime Network.,2,xxCHARM,YYxxONEYY,xxSTABILITY,BBxxTWOBB,xxMAGIC,LLxxFOURLL,xxDIPLOMACY,LLxxFOURLL,xxDIPLOMACY,Exhaust: Move to any Tavern.,..\images\assets\pin_plum_extended.tif,xxBRUSH Emma Chudoba,..\images\assets\skill_circle.tif
+35,Pearlescent Lotus,Drug. Psychedelic. Plant.,3,xxLORE,BBxxSIXBB,xxMAGIC,BBxxTWOBB,xxMAGIC,LLxxSIXLL,xxDIPLOMACY,YYxxFIVEYY,xxSTABILITY,Exhaust: Lose 1 xxBODY to place xxPROGRESSxxPROGRESS on a xxLORE obstacle at this location.,..\images\ai_assets\pearlescent_lotus.tif,,..\images\assets\skill_circle.tif
+36,Gelshah's Heart,Gem. Ancient. The Weave.,3,xxLORE,BBxxSIXBB,xxMAGIC,BBxxFIVEBB,xxMAGIC,BBxxFOURBB,xxMAGIC,,,"Gain an extra xxINITIATIVE during refresh phase. If any xxINITIATIVE roll a xxSIX during refresh, lose 1 xxPSYCHE.",..\images\ai_assets\gelshah_heart.tif,,..\images\assets\skill_circle.tif
+37,Dragon of the Frozen Voice,Creature. Draconic.,3,xxLORE,BBxxTWOBB,xxMAGIC,MMxxTWOMM,xxESPIONAGE,YYxxONEYY,xxSTABILITY,BBxxBLANKBB,xxMAGIC,Exhaust: Place a xxPROGRESS on an Issue at this location.,..\images\ai_assets\frozen_voice.tif,,..\images\assets\skill_circle.tif
+38,The Uncut String,Fates. The Weave.,2,xxLORE,BBxxSIXBB,xxMAGIC,BBxxSIXBB,xxMAGIC,YYxxFOURYY,xxSTABILITY,WWxxSIXWW,xxRESOURCE,"Exhaust: After rolling for a condition, may set one die to any value.",..\images\ai_assets\uncut_string.tif,,..\images\assets\skill_circle.tif
+39,Griddle Bok the Transmuter,Sorcerer,6,xxLORE,WWxxBLANKWW,,,,BBxxBLANKBB,,,,,,,..\images\assets\skill_circle.tif
+40,Jugglepuff,Sorcery. Animal Companion,8,xxLORE,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+41,Baron Barksalot,Animal Companion,5,xxSTEEL,WWxxBLANKWW,,,,GGxxBLANKGG,,,,,,,..\images\assets\skill_circle.tif
+42,Aren's Platemail,Armor,6,xxSTEEL,GGxxBLANKGG,,,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+43,Aren's Shield,Armor,4,xxSTEEL,GGxxBLANKGG,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+44,Imperial Sword,Weapon,13,xxSTEEL,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+45,Dragonfly Sticks,"Magical Gear, xxWINTER",15,xxSURVIVAL,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+46,Xeph Stronghand the Porter,"Hireling, xxWINTERxxWINTER",4,xxSURVIVAL,LLxxBLANKLL,,LLxxBLANKLL,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+47,Artificer's Gear,"Gear, xxWINTER",5,xxEDGE,OOxxBLANKOO,,OOxxBLANKOO,,,,,,,,,..\images\assets\skill_circle.tif
+48,Universal Key,"Gear, xxWINTERxxWINTER",17,xxEDGE,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+49,Gravewood Ale,"Food, xxWINTER",10,xxCHARM,LLxxBLANKLL,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+50,Shadow Walk,"Spell, xxWINTER",18,xxSHADOW,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,..\images\assets\skill_circle.tif
+51,Birdshape,"Shapechange Spell, xxWINTER",13,xxSHADOW,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+52,Zarah's Mask,"Treasure, xxWINTERxxWINTER",6,xxSHADOW,WWxxBLANKWW,,WWxxBLANKWW,,YYxxBLANKYY,,,,,,,..\images\assets\skill_circle.tif
+53,Dream Moth,"Eldritch, xxWINTERxxWINTER",4,xxCOMMAND,LLxxBLANKLL,,,,BBxxBLANKBB,,,,,,,..\images\assets\skill_circle.tif
+54,Aura of Glimmering Respect,"Spell, xxWINTERxxWINTER",6,xxCOMMAND,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,..\images\assets\skill_circle.tif
+55,Sunriders,"Unit, xxWINTER",5,xxTACTICS,GGxxBLANKGG,,LLxxBLANKLL,,YYxxBLANKYY,,,,,,,..\images\assets\skill_circle.tif
+56,Cannon,Unit,13,xxTACTICS,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+57,Imperial Captain's Regalia,Armor,9,xxSHADOW,WWxxBLANKWW,,,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+58,Spice of Thirst,Drug,4,xxSURVIVAL,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+59,Forest Folio,Eldritch,3,xxLORE,BBxxBLANKBB,,,,BBxxBLANKBB,,,,,,,..\images\assets\skill_circle.tif
+60,Shelly the Flying Turtle,Familiar,8,xxSURVIVAL,WWxxBLANKWW,,WWxxBLANKWW,,LLxxBLANKLL,,,,"Shelley has an independent xxMOVEMENT of 2. During refresh, may swap places with Shelley.",,,..\images\assets\skill_circle.tif
+61,Love Letter,Favor,5,xxCHARM,WWxxBLANKWW,,WWxxBLANKWW,,,,,,xxPLAY on another character or diplomat to gain the IN LOVE WITH reserve action.,,,..\images\assets\skill_circle.tif
+62,Baklava,Food,3,xxCHARM,YYxxBLANKYY,,,,WWxxBLANKWW,,,,xxPLAY: recover one xxBODY. May not increase die past xxSIX.,,,..\images\assets\skill_circle.tif
+63,Frostcloak,Gear,3,xxSURVIVAL,OOxxBLANKOO,,,,MMxxBLANKMM,,,,,,,..\images\assets\skill_circle.tif
+64,Traveling Gear,Gear,3,xxSURVIVAL,WWxxBLANKWW,,OOxxBLANKOO,,,,,,,,,..\images\assets\skill_circle.tif
+65,Iron Spikes,Gear,3,xxEDGE,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+,Travel Pack,Gear,3,xxSURVIVAL,WWxxBLANKWW,,,,OOxxBLANKOO,,,,May transport xxRESOURCE die.,,,..\images\assets\skill_circle.tif
+,Ilya the Captain,Hireling,7,xxSHADOW,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,Costs 1 xxMOVE to move between xxPORT locations.,,,..\images\assets\skill_circle.tif
+,Viator the Courtier,Hireling,9,xxCHARM,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+,Tanwa the Geometer,Hireling,5,xxLORE,WWxxBLANKWW,,,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+,Forest Yoga,Hireling,4,xxSURVIVAL,WWxxBLANKWW,,,,WWxxBLANKWW,,,,xxPLAY: recover 2 xxPSYCHE. May not increase die past xxSIX.,,,..\images\assets\skill_circle.tif
+,Riding Horse,Horse,3,xxSURVIVAL,WWxxBLANKWW,,,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+,Gelshah's Map,Map,8,xxLORE,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,xxPLAY at any Eldritch location to add Eldritch location to xxBRIGHTDUNE or xxSETTLED.,,,..\images\assets\skill_circle.tif
+,Ley Line Map,Map,9,xxEDGE,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,xxPLAY at any xxSETTLED Wilderness location to add Wilderness location to xxSETTLED.,,,..\images\assets\skill_circle.tif
+,Gurgle Gut,Potion,4,xxCOMMAND,WWxxBLANKWW,,,,WWxxBLANKWW,,,,xxPLAY: discard one diplomat at this location.,,,..\images\assets\skill_circle.tif
+,Eliza's Mirror,Spell,5,xxLORE,WWxxBLANKWW,,,,WWxxBLANKWW,,,,"During Refresh, take 2 xxBODY. xxUPGRADE costs one less die.",,,..\images\assets\skill_circle.tif
+,Sparrow Talk,Spell,5,xxLORE,,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+,Portrait of the First Queen,Treasure,3,xxSHADOW,LLxxBLANKLL,,,,LLxxBLANKLL,,,,,,,..\images\assets\skill_circle.tif
+,Clockwork Dragonfly,Treasure,7,xxLORE,WWxxBLANKWW,,,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+,Noble Dress,Treasure,6,xxCHARM,WWxxBLANKWW,,,,MMxxBLANKMM,,,,,,,..\images\assets\skill_circle.tif
+,Stones of the North River,Treasure,3,xxCOMMAND,,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+,Battle Cat,Unit,9,xxTACTICS,WWxxBLANKWW,,WWxxBLANKWW,,WWxxBLANKWW,,,,,,,..\images\assets\skill_circle.tif
+,Henna,,,,,,,,,,,,,,,
+,Daf,,,,,,,,,,,,,,,
+,Bread Bowl,,,,,,,,,,,,,,,
+,One and a Half Bricks,,,,,,,,,,,,,,,
+,Pickle Barrel,,,,,,,,,,,,,,,
+,Canoe,,,,,,,,,,,,,,,
+,Book-Pressed Leaves,,,,,,,,,,,,,,,
+,Canvas Sheet,,,,,,,,,,,,,,,
+,Flower Pot,,,,,,,,,,,,,,,
+,Insect Collection,,,,,,,,,,,,,,,
+,Scorpion-Tail's Venom,,,,,,,,,,,,,,,
+,Bent Fork,,,,,,,,,,,,,,,
+,Wig,,,,,,,,,,,,,,,
+,Sleeping Powder,,,,,,,,,,,,,,,
+,Basket of Arrows,,,,,,,,,,,,Ancient method for counting the war dead. Could also be an obstacle or scene title.,,,
+,Lyric Stone,,,,,,,,,,,,,,,
+,Psalter,,,,,,,,,,,,,,,
+,Eusebios,,,,,,,,,,,,,,,
+,Lariat,,,,,,,,,,,,,,,
+,Torc,,,,,,,,,,,,,,,

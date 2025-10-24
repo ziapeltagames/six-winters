@@ -1,29 +1,36 @@
 name,title,level,ability,text_ability,base_ability,overlay_ability,quote,@char_image,@background_image,@border
-Parin,Respected Voice,1,xxABILITY,Exhaust: Turn a xxFOUR to xxFIVE.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
-Parin,Diplomatic Relations,2,xxABILITY,Play: Trade xxSTABILITY for xxDIPLOMACYxxDIPLOMACY. Roll new xxDIPLOMACY dice.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
-Parin,Speaker for the East,3,xxABILITY,Exhaust: Flip xxCUBE to the opposite face.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
+Parin,Speaker for the East,3,xxABILITY,Exhaust: Flip an xxINITIATIVE or xxRESOURCE at this location to the opposite face.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
+Parin,Conscripts,5,xxABILITY,Exhaust: Trade a xxSTABILITY at this location for xxMILITARY of same value.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
+Parin,Imperial Contacts,7,xxABILITY,Exhaust: Trade a xxSTABILITY at this location for xxESPIONAGE of same value.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
+Parin,Respected Voice,1,xxABILITY,Play: Set any xxRESOURCE dice at this location to xxFIVE.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
+Parin,Diplomatic Relations,2,xxABILITY,Play: Trade a xxSTABILITY at this location for 2 xxDIPLOMACY dice. Roll new xxDIPLOMACY dice.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
 Parin,Inspiring Words,4,xxABILITY,Play: Place a xxSTABILITY of any value at this location.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
-Parin,Conscripts,5,xxABILITY,Exhaust: Trade xxSTABILITY for xxMILITARY of same value.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
-Parin,Careful Planning,6,xxABILITY,Play: Roll xxSTABILITYxxSTABILITY and place at this location.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
-Parin,Imperial Contacts,7,xxABILITY,Exhaust: Trade xxSTABILITY for xxESPIONAGE of same value.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
+Parin,Careful Planning,6,xxABILITY,Play: Roll 2 xxSTABILITY dice and place at this location.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
 Parin,The Conciliator,8,xxABILITY,Play: Place xxPROGRESS xxPROGRESS xxPROGRESS on an Issue at this location.,,,,..\images\characters\parin_final.tif,..\images\characters\parin_background.tif,..\images\borders\parin_border.tif
-Fuscus,Mostly Honest Fence,1,xxABILITY,Exhaust: Turn a xxTHREE to xxFOUR.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
-Fuscus,Lift Your Cups!,2,xxABILITY,Play: Trade xxDIPLOMACY for xxINSIGHTxxINSIGHT. Roll new xxINSIGHT dice.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
-Fuscus,Silver-Tongued Ruffian,3,xxABILITY,Exhaust: Subtract one from xxCUBE.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
-Fuscus,Silence Fours!,4,xxABILITY,Play: Place xxDIPLOMACYxxDIPLOMACY of value xxFOUR at this location.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
-Fuscus,Eyes off the Prize,5,xxABILITY,Exhaust: Spend a xxDIPLOMACY to move an xxASSET from staging area to in-progress area.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
-Fuscus,The Sparkling Plum,6,xxABILITY,Play: Trade xxDIPLOMACY for xxESPIONAGExxESPIONAGE. Roll new xxESPIONAGE dice.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
+Fuscus,Silver-Tongued Ruffian,3,xxABILITY,Exhaust: Subtract one from an xxINITIATIVE or xxRESOURCE at this location.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
+Fuscus,Eyes off the Prize,5,xxABILITY,Exhaust: Spend a xxDIPLOMACY at this location to move an xxASSET from staging area to crafting area.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
 Fuscus,Friendly Favors,7,xxABILITY,Exhaust: Roll a xxDIPLOMACY and place at this location.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
-Fuscus,Life of the Party,8,xxABILITY,Play: Search xxASSET deck for Companion or Drug and place in in-progress area. Shuffle xxASSET deck.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
-Kanun,Edge to Stee,1,xxABILITY,Exhaust: Turn a xxONE to xxTWO.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
-Kanun,Ride Swiftly,2,xxABILITY,Play: Move to any location.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
-Kanun,Hawkleader of the Ghost Legion,3,xxABILITY,Exhaust: Set a xxMILITARY to any value.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
-Kanun,Battle Hardened,4,xxABILITY,Play: Place xxPROGRESS xxPROGRESS xxPROGRESS on a Unit or Foe at this location.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
-Kanun,Military Technology,5,xxABILITY,Exhaust: Trade xxMILITARY for xxTECHNOLOGY. Die value stays the same.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
-Kanun,I've Seen Worse,6,xxABILITY,Play: Remove one xxTHREAT at this location.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
+Fuscus,Mostly Honest Fence,1,xxABILITY,Play: Set any xxRESOURCE dice at this location to xxFOUR.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
+Fuscus,Lift Your Cups!,2,xxABILITY,Play: Trade a xxDIPLOMACY at this location for xxINITIATIVExxINITIATIVE. Roll new xxINITIATIVE dice.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
+Fuscus,Silence Fours!,4,xxABILITY,Play: Place 2 xxDIPLOMACY dice each with value xxFOUR at this location.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
+Fuscus,The Sparkling Plum,6,xxABILITY,Play: Trade a xxDIPLOMACY at this location for 2 xxESPIONAGE dice. Roll new xxESPIONAGE dice.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
+Fuscus,Life of the Party,8,xxABILITY,Play: Search unlocked assets for a xxCHARM asset and place in crafting area.,,,,..\images\characters\fuscus_final.tif,..\images\characters\fuscus_background.tif,..\images\borders\fuscus_border.png
+Kanun,Military Technology,5,xxABILITY,Exhaust: Trade a xxMILITARY at this location for xxTECHNOLOGY of same value.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
 Kanun,Grand Tactician,7,xxABILITY,Exhaust: Roll a xxMILITARY and place at this location.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
+Kanun,The Hawkleader,3,xxABILITY,Exhaust: Set a xxMILITARY at this location to any value.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
+Kanun,Ride Swiftly,2,xxABILITY,Play: Move to any location.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
+Kanun,Battle Hardened,4,xxABILITY,Play: Place xxPROGRESS xxPROGRESS xxPROGRESS on a Unit or Foe at this location.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
+Kanun,Friend of the Forge,1,xxABILITY,Play: Set any xxRESOURCE dice at this location to xxTWO.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
+Kanun,I've Seen Worse,6,xxABILITY,Play: Remove one xxTHREAT at this location.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
 Kanun,Ride Swiftly,8,xxABILITY,Play: Move to any location.,,,,..\images\characters\kanun_final.tif,..\images\characters\kanun_background.tif,..\images\borders\menas_border.png
 Yasmina,Keeper of Natural Lore,1,xxABILITY,,,,,,,
+Yasmina,TBD,1,xxABILITY,,,,,,,
+Yasmina,TBD,1,xxABILITY,,,,,,,
+Yasmina,TBD,1,xxABILITY,,,,,,,
+Yasmina,TBD,1,xxABILITY,,,,,,,
+Yasmina,TBD,1,xxABILITY,,,,,,,
+Yasmina,TBD,1,xxABILITY,,,,,,,
+Yasmina,TBD,1,xxABILITY,,,,,,,
 Oniri,The Last Weaver,1,xxABILITY,,,,,,,
 Keel,Youthful Artificer,1,xxABILITY,,,,,..\images\characters\Keel-portrait.png,..\images\characters\parin_background.tif,..\images\borders\keel_border.png
 Keel,Trick Shot,2,xxABILITY,,,,,..\images\characters\Keel-portrait.png,..\images\characters\parin_background.tif,..\images\borders\keel_border.png

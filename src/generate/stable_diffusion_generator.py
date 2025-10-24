@@ -29,11 +29,7 @@ obs_prompts = ["fantasy painting of twisted tree roots oozing a black deathly su
                "fantasy painting of a tawny dragon with a laughing expression",
                "fantasy painting for dungeons and dragons of fantasy merchants yelling at each other"]
 
-ast_prompts = ["a corporate icon of an ankylosaurus with a 20 sided die for a tail",
-               "a graphic design of an ankylosaurus with a d20 on its tail",
-               "a corporate logo featuring a brown ankylosaurus dinosaur",
-               "a dinosaur logo with a d20 for a body",
-               "a fantasy dinosaur logo with a 20 sided die for a body"]
+ast_prompts = ["painting of a piece of coal floating and covered in blue energy for dungeons and dragons"]
 
 back_prompts = ["byzantine mosaic of lavender and crimson",
                 "byzantine mosaic",

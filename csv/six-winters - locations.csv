@@ -1,54 +1,54 @@
-index,name,region,tags,effect1,effect2,resources1,resources2,texta,textb,@location_image,developed_tags,developed_effect1,developed_effect2,developed_resources1,developed_resources2,textc,textd,@developed_location_image,artist
-1,Yearly Field,,Blighted. xxSTARTING,,,,,,,..\images\lands\yearly_field.jpg,Wilderness.,,,,,YYY Characters at this location during refresh take an extra xxINSIGHT.,,..\images\lands\yearly_field.jpg,Hassan Nozadian
-2,Eastkeep,xxEMPIRE,Keep. xxSTARTING,,,,,,,..\images\lands\eastkeep.jpg,Keep.,,,xxTECHNOLOGYsss,,,,..\images\lands\eastkeep.jpg,Hassan Nozadian
-3,Whitehold,xxEMPIRE,Vault.,+1xxMOVEsss,,xxESPIONAGEsss,,,,..\images\lands\whitehold.jpg,Vault.,,,xxESPIONAGEsss,xxESPIONAGEsss,YYY Spend 1 xxINSIGHT to move a Treasure or Secrets xxASSET from staging area to in-progress area.,,..\images\lands\whitehold.jpg,Hassan Nozadian
-4,Rosy Freetrader,xxEMPIRE,Tavern.,,,xxTECHNOLOGYsss,,,,..\images\lands\rosy_freetrader.jpg,Tavern.,xxBOATsss,,xxTECHNOLOGYsss,,YYY Spend 2 xxMOVE to move to xxBOAT location.,,..\images\lands\rosy_freetrader.jpg,Hassan Nozadian
-5,Boar's Rift,xxBRIGHTDUNE,Defensible. xxSTARTING,,,xxMILITARYsss,,,,..\images\lands\boars_rift.jpg,Fort.,,,xxMILITARYsss,,YYY Unit: Add xxHINDRANCExxHINDRANCE when unit moves into this location.,,..\images\lands\boars_rift.jpg,Hassan Nozadian
-6,Giant's Gate,xxBRIGHTDUNE,Urban. xxSTARTING,,,xxSTABILITYsss,,,,..\images\lands\giants_gate.jpg,Urban.,xxBOATsss,,xxSTABILITYsss,,YYY Spend 2 xxMOVE to move to xxBOAT location.,,..\images\lands\giants_gate.jpg,Hassan Nozadian
-7,Boar's Peak,xxSETTLED,Wilderness. Defensible. xxSTARTING,+1xxMOVEsss,,xxMILITARYsss,,,,..\images\lands\boars_peak.jpg,Wilderness. Fort.,,,xxMILITARYsss,,YYY Unit: Add xxHINDRANCExxHINDRANCE when unit moves into this location.,,..\images\lands\boars_peak.jpg,Hassan Nozadian
-8,Loomwood,xxBRIGHTDUNE,Rural. Farms.,,,,,YYY May muster xxTECHNOLOGY at this location.,,..\images\lands\loomwood.jpg,Rural. Farms.,,,xxSTABILITYsss,,YYY May muster xxTECHNOLOGY at this location.,,..\images\lands\loomwood.jpg,Hassan Nozadian
-9,Undari's Tower,xxBRIGHTDUNE,Blighted.,xxPORTALsss,,,,YYY May muster xxSORCERY at this location. Spend 1 xxBODY or 1 xxPSYCHE to move to xxPORTAL location.,,..\images\lands\undaris_tower.jpg,Blighted.,xxPORTALsss,,xxSORCERYsss,,YYY Spend 1 xxMOVE to move to xxPORTAL location.,,..\images\lands\undaris_tower.jpg,Hassan Nozadian
-10,The Obfuscated Bribe,xxBRIGHTDUNE,Urban. Tavern.,,,,,YYY May exchange xxBODY for xxPSYCHE.,,..\images\lands\obfuscated_bribe.jpg,Urban. Tavern.,,,xxESPIONAGEsss,,YYY xxCUBExxCUBE xxRIGHT Recover 1 xxPSYCHE.,,..\images\lands\obfuscated_bribe.jpg,Hassan Nozadian
-11,Pearlescent Marsh,xxBRIGHTDUNE,Wilderness. Enchanted.,xxPORTALsss,,,,YYY May muster xxSORCERY at this location. Spend 1 xxBODY or 1 xxPSYCHE to move to xxPORTAL location.,,..\images\lands\pearlescent_marsh.jpg,Wilderness. Enchanted.,xxPORTALsss,,xxSORCERYsss,,YYY Spend 1 xxBODY or 1 xxPSYCHE to move to xxPORTAL location.,,..\images\lands\pearlescent_marsh.jpg,Hassan Nozadian
-12,Golden Hills,xxSETTLED,Rural. Enchanted.,,,,,YYY May muster xxSORCERY at this location.,,..\images\lands\golden_hills.jpg,Rural. Enchanted.,xxPORTALsss,,xxMILITARYsss,,YYY May muster xxSORCERY at this location.,,..\images\lands\golden_hills.jpg,Hassan Nozadian
-13,Hogeltown,xxSETTLED,Rural. Hall.,,,xxDIPLOMACYsss,,,,..\images\lands\hogeltown.jpg,Rural. Hall.,,,xxDIPLOMACYsss,xxDIPLOMACYsss,YYY xxCUBExxCUBE xxRIGHT Recover 1 xxBODY.,,..\images\lands\hogeltown.jpg,Hassan Nozadian
-14,Lily Manor,xxSETTLED,Urban. Hall.,,,xxDIPLOMACYsss,,,,..\images\lands\lily_manor.jpg,Urban. Hall.,xxBOATsss,,xxDIPLOMACYsss,,YYY Spend 2 xxMOVE to move to xxBOAT location.,,..\images\lands\lily_manor.jpg,Hassan Nozadian
-,Arankh,xxSETTLED,,,,,,,,,,,,,,,,,
-,Guild of Secrets,xxEMPIRE,,,,,,,,,,,,,,,,,
-,Desolation,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,Desolation,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,Brightdune Bay,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,The Long Wastes,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,Sundered Crag,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,House Lavender,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,The Obfuscated Bribe,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,Sightrock Keep,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,The Weird Rock,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,Amaranth Bourne,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,Mirror Woods,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,Cyclabrary,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,Amber Trade Fair,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,Undari's Tomb,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,Sunbridle Bay,xxBRIGHTDUNE,,,,,,,,,,,,,,,,,
-,The Throne Room,xxEMPIRE,,,,,,,,,,,,,,,,,
-,House of Copper,xxEMPIRE,,,,,,,,,,,,,,,,,
-,Guild of Scribes,xxEMPIRE,,,,,,,,,,,,,,,,,
-,Guilder Farms,xxEMPIRE,,,,,,,,,,,,,,,,,
-,Firstborn Peak,xxEMPIRE,,,,,,,,,,,,,,,,,
-,Dawncaves,xxEMPIRE,,,,,,,,,,,,,,,,,
-,Southkeep,xxEMPIRE,,,,,,,,,,,,,,,,,
-,Ma Bonnie's Squidery,xxEMPIRE,,,,,,,,,,,,,,,,,
-,Prominence,xxEMPIRE,,,,,,,,,,,,,,,,,
-,Guild of Strategy,xxEMPIRE,,,,,,,,,,,,,,,,,
-,Desolation,xxSETTLED,,,,,,,,,,,,,,,,,
-,Crow Manor,xxSETTLED,,,,,,,,,,,,,,,,,
-,Aren's Forge,xxSETTLED,,,,,,,,,,,,,,,,,
-,Dusk's Ayrie,xxSETTLED,,,,,,,,,,,,,,,,,
-,Animaelic Forest,xxSETTLED,,,,,,,,,,,,,,,,,
-,Beetle Burrough,xxSETTLED,,,,,,,,,,,,,,,,,
-,Hall of Brass,xxSETTLED,,,,,,,,,,,,,,,,,
-,Goldspike,xxSETTLED,,,,,,,,,,,,,,,,,
-,Brassport,xxSETTLED,,,,,,,,,,,,,,,,,
-,Shimmerhall,xxSETTLED,,,,,,,,,,,,,,,,,
-,Lower Wash,xxSETTLED,,,,,,,,,,,,,,,,,
-,Wrenhouse,xxSETTLED,,,,,,,,,,,,,,,,,
+index,name,region,tags,@effect1,@effect2,@effect3,texta,@location_image,developed_tags,@developed_effect1,@developed_effect2,@developed_effect3,textc,@developed_location_image,artist
+1,Yearly Field,,xxSTARTING Blighted.,,,,,..\images\lands\yearly_field.jpg,Wilderness.,,,,YYY Characters at this location during refresh gain an extra xxINITIATIVE.,..\images\lands\yearly_field.jpg,Hassan Nozadian
+2,Eastkeep,xxEMPIRE,xxSTARTING Keep.,,,,,..\images\lands\eastkeep.jpg,Keep.,..\images\svgs\resource_technology.svg,,,,..\images\lands\eastkeep.jpg,Hassan Nozadian
+3,Whitehold,xxEMPIRE,Vault.,..\images\svgs\resource_espionage.svg,..\images\svgs\movement_hinder.svg,,,..\images\lands\whitehold.jpg,Vault.,..\images\svgs\resource_espionage.svg,..\images\svgs\resource_espionage.svg,,YYY xxCUBExxCUBE xxRIGHT Move an xxSHADOW asset from staging area to crafting area.,..\images\lands\whitehold.jpg,Hassan Nozadian
+4,Rosy Freetrader,xxEMPIRE,Tavern.,..\images\svgs\resource_technology.svg,,,,..\images\lands\rosy_freetrader.jpg,Tavern.,..\images\svgs\resource_technology.svg,..\images\svgs\movement_port.svg,,YYY Spend 2 xxMOVE to move to xxBOAT location.,..\images\lands\rosy_freetrader.jpg,Hassan Nozadian
+5,Boar's Rift,xxBRIGHTDUNE,xxSTARTING Wilderness.,..\images\svgs\resource_military.svg,,,,..\images\lands\boars_rift.jpg,Fort.,..\images\svgs\resource_military.svg,,,YYY Add xxHINDRANCExxHINDRANCE when Unit moves into this location.,..\images\lands\boars_rift.jpg,Hassan Nozadian
+6,Giant's Gate,xxBRIGHTDUNE,xxSTARTING Urban.,..\images\svgs\resource_stability.svg,,,,..\images\lands\giants_gate.jpg,Urban.,..\images\svgs\resource_stability.svg,..\images\svgs\movement_port.svg,,YYY Spend 2 xxMOVE to move to xxBOAT location.,..\images\lands\giants_gate.jpg,Hassan Nozadian
+7,Boar's Peak,xxSETTLED,xxSTARTING Wilderness.,..\images\svgs\resource_military.svg,..\images\svgs\movement_hinder.svg,,,..\images\lands\boars_peak.jpg,Wilderness. Fort.,..\images\svgs\resource_military.svg,,,YYY Add xxHINDRANCExxHINDRANCE when Unit moves into this location.,..\images\lands\boars_peak.jpg,Hassan Nozadian
+8,Loomwood,xxBRIGHTDUNE,Rural. Farms.,,,,YYY May muster xxTECHNOLOGY at this location.,..\images\lands\loomwood.jpg,Rural. Farms.,..\images\svgs\resource_stability.svg,,,YYY May muster xxTECHNOLOGY at this location.,..\images\lands\loomwood.jpg,Hassan Nozadian
+9,Gelshah's Tower,xxBRIGHTDUNE,Blighted.,..\images\svgs\movement_portal.svg,,,YYY May muster xxMAGIC at this location. Spend 1 xxBODY or 1 xxPSYCHE to move to xxPORTAL location.,..\images\lands\gelshahs_tower.jpg,Wilderness. Enchanted.,..\images\svgs\resource_magic.svg,..\images\svgs\movement_portal.svg,,YYY Spend 1 xxMOVE to move to xxPORTAL location.,..\images\lands\Gelshahs_tower.jpg,Hassan Nozadian
+10,The Obfuscated Bribe,xxBRIGHTDUNE,Urban. Winehouse,,,,YYY May exchange xxBODY for xxPSYCHE.,..\images\lands\obfuscated_bribe.jpg,Urban. Winehouse.,..\images\svgs\resource_espionage.svg,,,YYY xxCUBExxCUBE xxRIGHT Recover 1 xxPSYCHE.,..\images\lands\obfuscated_bribe.jpg,Hassan Nozadian
+11,Pearlescent Marsh,xxBRIGHTDUNE,Wilderness. Enchanted.,..\images\svgs\movement_portal.svg,,,YYY May muster xxMAGIC at this location. Spend 1 xxBODY or 1 xxPSYCHE to move to xxPORTAL location.,..\images\lands\pearlescent_marsh.jpg,Wilderness. Enchanted.,..\images\svgs\resource_magic.svg,..\images\svgs\movement_portal.svg,,YYY Spend 1 xxBODY or 1 xxPSYCHE to move to xxPORTAL location.,..\images\lands\pearlescent_marsh.jpg,Hassan Nozadian
+12,Golden Hills,xxSETTLED,Rural. Enchanted.,,,,YYY May muster xxMAGIC at this location.,..\images\lands\golden_hills.jpg,Rural. Enchanted.,..\images\svgs\resource_military.svg,..\images\svgs\movement_portal.svg,,YYY May muster xxMAGIC at this location. Spend 1 xxBODY or 1 xxPSYCHE to move to xxPORTAL location.,..\images\lands\golden_hills.jpg,Hassan Nozadian
+13,Hogeltown,xxSETTLED,Rural. Hall.,..\images\svgs\resource_diplomacy.svg,,,,..\images\lands\hogeltown.jpg,Rural. Hall.,..\images\svgs\resource_diplomacy.svg,..\images\svgs\resource_diplomacy.svg,,YYY xxCUBExxCUBE xxRIGHT Recover 1 xxBODY.,..\images\lands\hogeltown.jpg,Hassan Nozadian
+14,Lily Manor,xxSETTLED,Hall.,..\images\svgs\resource_diplomacy.svg,,,,..\images\lands\lily_manor.jpg,Urban. Hall.,..\images\svgs\resource_diplomacy.svg,..\images\svgs\resource_espionage.svg,..\images\svgs\movement_port.svg,YYY Spend 2 xxMOVE to move to xxBOAT location.,..\images\lands\lily_manor.jpg,Hassan Nozadian
+,Arankh,xxSETTLED,,,,,,,,,,,,,
+,Guild of Secrets,xxEMPIRE,,,,,,,,,,,,,
+,Desolation,xxBRIGHTDUNE,,,,,,,,,,,,,
+,Desolation,xxBRIGHTDUNE,,,,,,,,,,,,,
+,Brightdune Bay,xxBRIGHTDUNE,,,,,,,,,,,,,
+,The Long Wastes,xxBRIGHTDUNE,,,,,,,,,,,,,
+,Sundered Crag,xxBRIGHTDUNE,,,,,,,,,,,,,
+,House Lavender,xxBRIGHTDUNE,,,,,,,,,,,,,
+,The Obfuscated Bribe,xxBRIGHTDUNE,,,,,,,,,,,,,
+,Sightrock Keep,xxBRIGHTDUNE,,,,,,,,,,,,,
+,The Weird Rock,xxBRIGHTDUNE,,,,,,,,,,,,,
+,Amaranth Bourne,xxBRIGHTDUNE,,,,,,,,,,,,,
+,Mirror Woods,xxBRIGHTDUNE,,,,,,,,,,,,,
+,Cyclabrary,xxBRIGHTDUNE,,,,,,,,,,,,,
+,Amber Trade Fair,xxBRIGHTDUNE,,,,,,,,,,,,,
+,Gelshah's Tomb,xxBRIGHTDUNE,,,,,,,,,,,,,
+,Sunbridle Bay,xxBRIGHTDUNE,,,,,,,,,,,,,
+,The Throne Room,xxEMPIRE,,,,,,,,,,,,,
+,House of Copper,xxEMPIRE,,,,,,,,,,,,,
+,Guild of Scribes,xxEMPIRE,,,,,,,,,,,,,
+,Guilder Farms,xxEMPIRE,,,,,,,,,,,,,
+,Firstborn Peak,xxEMPIRE,,,,,,,,,,,,,
+,Dawncaves,xxEMPIRE,,,,,,,,,,,,,
+,Southkeep,xxEMPIRE,,,,,,,,,,,,,
+,Ma Bonnie's Squidery,xxEMPIRE,,,,,,,,,,,,,
+,Prominence,xxEMPIRE,,,,,,,,,,,,,
+,Guild of Strategy,xxEMPIRE,,,,,,,,,,,,,
+,Desolation,xxSETTLED,,,,,,,,,,,,,
+,Crow Manor,xxSETTLED,,,,,,,,,,,,,
+,Aren's Forge,xxSETTLED,,,,,,,,,,,,,
+,Dusk's Ayrie,xxSETTLED,,,,,,,,,,,,,
+,Animaelic Forest,xxSETTLED,,,,,,,,,,,,,
+,Beetle Burrough,xxSETTLED,,,,,,,,,,,,,
+,Hall of Brass,xxSETTLED,,,,,,,,,,,,,
+,Goldspike,xxSETTLED,,,,,,,,,,,,,
+,Brassport,xxSETTLED,,,,,,,,,,,,,
+,Shimmerhall,xxSETTLED,,,,,,,,,,,,,
+,Lower Wash,xxSETTLED,,,,,,,,,,,,,
+,Wrenhouse,xxSETTLED,,,,,,,,,,,,,
