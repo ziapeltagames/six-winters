@@ -8,7 +8,7 @@ for subloc in ["tts", "game_crafter"]:
 
     indices =  [1, 200]
 
-    for subpath in ["obstacles", "events", "text_obstacles", "assets", "abilities", "locations", "scenes", "schemes", "stats", "agents", "scenes", "suits"]:
+    for subpath in ["obstacles", "events", "text_obstacles", "assets", "abilities", "locations", "scenes", "conflicts", "stats", "agents", "scenes", "suits"]:
 
         # full_path = '..\\Cards\\'+subloc+'\\'+subpath+'\\'
 
